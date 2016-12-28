@@ -1,3 +1,10 @@
+# Licence
+
+The licence below does not apply to the media files. Most of them are from Wikipedia and many (especially the flags)
+are in the public domain... but not all. I will endeavour to review all of them in the near future to make sure 
+that they are properly licenced.
+
+---
 
 This is free and unencumbered software released into the public domain.
 
