@@ -4,7 +4,7 @@ Geography flashcard deck for [Anki](http://ankisrs.net/).
 
 ## Install
 
-Download the latest package from the [Releases] page and open it with Anki.
+Download the latest package from the [Releases](https://github.com/axelboc/anki-ultimate-geography/releases) page and open it with Anki.
 
 ## Contribute
 
