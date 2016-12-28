@@ -2,9 +2,29 @@
 
 Geography flashcard deck for [Anki](http://ankisrs.net/).
 
-## Install
+## Getting started
 
-Download the latest package from the [Releases](https://github.com/axelboc/anki-ultimate-geography/releases) page and open it with Anki.
+Download the `Ultimate Geography.apkg` package provided with the [latest release](https://github.com/axelboc/anki-ultimate-geography/releases)
+and open it with Anki. That's it!
+
+If you spot a mistake or have a suggestion, please don't hesitate to [raise an issue](https://github.com/axelboc/anki-ultimate-geography/issues).
+
+## Motivation
+
+This deck is built on top of an existing [shared deck](https://ankiweb.net/shared/info/261823898).
+My initial goal was to resolve some of the issues mentioned in the comments such as the poor quality of the flags,
+but I ended up doing _a lot_ more, including putting the deck on GitHub, rethinking the tags, and reviewing
+all the content. For a full list of changes, check out the [initial release notes](https://github.com/axelboc/anki-ultimate-geography/releases/tag/v2).
+
+## Versioning
+
+The releases follow a versioning scheme of the form `x.y`, where:
+
+- `x` indicates a breaking release - i.e. a release that contains structural changes that would break the import of the deck for existing users or reset their progress
+- `y` indicates a non-breaking release - e.g. when a card is added or removed, when a new tag is created, when an image is changed, etc.
+
+> Note that the initial release starts at `v2.0` as a way to distinguish this deck from its predecessors, 
+which were both labeled `v1.0`.
 
 ## Contribute
 
