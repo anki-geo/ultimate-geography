@@ -4,16 +4,18 @@
 
 The deck features:
 
-- the world's **[206 sovereign states](https://en.wikipedia.org/wiki/List_of_sovereign_states)**
-- with **four questions** each (824 cards):
-  - Country > Capital
-  - Capital > Country
-  - Flag > Country
-  - Map > Country
-- as well as:
-  - **67 overseas territories**, dependent areas, and more (227 cards)
-  - **39 oceans and seas** (39 cards; maps only)
-- for a total of **1090 cards**.
+- The world's **[206 sovereign states](https://en.wikipedia.org/wiki/List_of_sovereign_states)** (824 cards).
+- **67 overseas territories**, dependent areas, and more (227 cards).
+- **39 oceans and seas** (39 cards, maps only).
+- For a total of **1090 cards**.
+
+| Flag > Country | Map > Country |
+| --- | --- |
+| ![sample-3](https://cloud.githubusercontent.com/assets/2936402/21537331/50f99206-cde4-11e6-84a3-595277de875a.png) | ![sample-4](https://cloud.githubusercontent.com/assets/2936402/21537332/50fa4944-cde4-11e6-9b36-45e699851f51.png) |
+
+| Country > Capital | Capital > Country |
+| --- | --- |
+| ![sample-1](https://cloud.githubusercontent.com/assets/2936402/21537340/70d9609c-cde4-11e6-81fb-a37f1db50d4f.png) | ![sample-2](https://cloud.githubusercontent.com/assets/2936402/21537333/50fa8f26-cde4-11e6-81ce-a1149e1e7d71.PNG) |
 
 **All flags are in SVG format**, sourced from [Wikipedia](https://en.wikipedia.org/wiki/Gallery_of_sovereign_state_flags),
 and optimised for smaller file size. The maps are from the original deck (cf. [Background](#background) section below); although most
