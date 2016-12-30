@@ -1910,7 +1910,7 @@
             "fields": [
                 "Vatican City", 
                 "", 
-                "", 
+                "Vatican City", 
                 "", 
                 "", 
                 "<img src=\"Flag_of_Vatican_City.svg\" />", 
@@ -6005,7 +6005,7 @@
             "data": "", 
             "fields": [
                 "South Ossetia", 
-                "Independent state claimed by Georgia.", 
+                "Independent state claimed by Georgia", 
                 "Tskhinvali", 
                 "", 
                 "", 
@@ -6107,7 +6107,7 @@
             "data": "", 
             "fields": [
                 "Abkhazia", 
-                "Independent state claimed by Georgia.", 
+                "Independent state claimed by Georgia", 
                 "Sukhumi", 
                 "", 
                 "", 
@@ -6191,7 +6191,7 @@
             "data": "", 
             "fields": [
                 "Transnistria", 
-                "Independent state claimed by Moldova.", 
+                "Independent state claimed by Moldova", 
                 "Tiraspol", 
                 "", 
                 "", 
