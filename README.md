@@ -7,7 +7,7 @@ The deck features:
 - The world's **[206 sovereign states](https://en.wikipedia.org/wiki/List_of_sovereign_states)** (824 cards).
 - **67 overseas territories**, dependent areas, and more (227 cards).
 - **39 oceans and seas** (39 cards, maps only).
-- For a total of **1090 cards**.
+- For a total of **312 unique notes**, **1090 cards**, **260 SVG flags**, and **310 maps**.
 
 | Flag > Country | Map > Country |
 | --- | --- |
