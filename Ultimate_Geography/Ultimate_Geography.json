@@ -63,7 +63,7 @@
         "ug-flag-montenegro.svg", 
         "ug-map-jamaica.jpg", 
         "ug-flag-panama.svg", 
-        "Sea of ug-map-japan.jpg", 
+        "ug-map-sea_of_japan.jpg", 
         "ug-flag-monaco.svg", 
         "ug-flag-somaliland.svg", 
         "ug-map-french_polynesia.jpg", 
@@ -97,7 +97,7 @@
         "ug-map-tasman_sea.jpg", 
         "ug-flag-mauritius.svg", 
         "ug-map-guadeloupe.jpg", 
-        "Gulf of ug-map-thailand.jpg", 
+        "ug-map-gulf_of_thailand.jpg", 
         "ug-map-atlantic_ocean.jpg", 
         "ug-map-galapagos_islands.jpg", 
         "ug-map-pakistan.jpg", 
@@ -300,7 +300,7 @@
         "ug-flag-scotland.svg", 
         "ug-map-south_china_sea.jpg", 
         "ug-map-arctic_ocean.jpg", 
-        "South ug-map-sudan.jpg", 
+        "ug-map-south_sudan.jpg", 
         "ug-flag-aland_islands.svg", 
         "ug-flag-kosovo.svg", 
         "ug-map-kyrgyzstan.jpg", 
@@ -340,7 +340,7 @@
         "ug-flag-bangladesh.svg", 
         "ug-flag-brazil.svg", 
         "ug-flag-kyrgyzstan.svg", 
-        "Northern ug-map-cyprus.jpg", 
+        "ug-map-northern_cyprus.jpg", 
         "ug-map-latvia.jpg", 
         "ug-map-swaziland.jpg", 
         "ug-flag-anguilla.svg", 
@@ -383,7 +383,7 @@
         "ug-map-somalia.jpg", 
         "ug-flag-china.svg", 
         "ug-flag-samoa.svg", 
-        "American ug-map-samoa.jpg", 
+        "ug-map-american_samoa.jpg", 
         "ug-flag-uganda.svg", 
         "ug-flag-uruguay.svg", 
         "ug-map-iran.jpg", 
@@ -562,7 +562,7 @@
         "ug-map-aegean_sea.jpg", 
         "ug-flag-kenya.svg", 
         "ug-flag-norfolk_island.svg", 
-        "Gulf of ug-map-mexico.jpg", 
+        "ug-map-gulf_of_mexico.jpg", 
         "ug-map-yellow_sea.jpg", 
         "ug-map-pitcairn_islands.jpg", 
         "ug-map-suriname.jpg", 
@@ -5739,7 +5739,7 @@
                 "", 
                 "<img src=\"ug-flag-northern_cyprus.svg\" />", 
                 "", 
-                "<img src=\"Northern ug-map-cyprus.jpg\" />"
+                "<img src=\"ug-map-northern_cyprus.jpg\" />"
             ], 
             "flags": 0, 
             "guid": "r/B|ra%L,.", 
@@ -5846,7 +5846,7 @@
                 "", 
                 "<img src=\"ug-flag-south_sudan.svg\" />", 
                 "", 
-                "<img src=\"South ug-map-sudan.jpg\" />"
+                "<img src=\"ug-map-south_sudan.jpg\" />"
             ], 
             "flags": 0, 
             "guid": "l&#7I)Ah/E", 
@@ -6052,7 +6052,7 @@
                 "", 
                 "<img src=\"ug-flag-american_samoa.svg\" />", 
                 "", 
-                "<img src=\"American ug-map-samoa.jpg\" />"
+                "<img src=\"ug-map-american_samoa.jpg\" />"
             ], 
             "flags": 0, 
             "guid": "niJUFZF$Y:", 
@@ -6339,7 +6339,7 @@
                 "", 
                 "", 
                 "", 
-                "<img src=\"Gulf of ug-map-mexico.jpg\" />"
+                "<img src=\"ug-map-gulf_of_mexico.jpg\" />"
             ], 
             "flags": 0, 
             "guid": "JOT:U4ayh@", 
@@ -6399,7 +6399,7 @@
                 "", 
                 "", 
                 "", 
-                "<img src=\"Gulf of ug-map-thailand.jpg\" />"
+                "<img src=\"ug-map-gulf_of_thailand.jpg\" />"
             ], 
             "flags": 0, 
             "guid": "rSneU!3}bn", 
@@ -6939,7 +6939,7 @@
                 "", 
                 "", 
                 "", 
-                "<img src=\"Sea of ug-map-japan.jpg\" />"
+                "<img src=\"ug-map-sea_of_japan.jpg\" />"
             ], 
             "flags": 0, 
             "guid": "d}R:qHj1,7", 
