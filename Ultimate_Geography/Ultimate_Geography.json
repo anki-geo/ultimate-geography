@@ -763,7 +763,7 @@
                     "qfmt": "{{#Capital}}\n  <div class=\"type\">Capital</div>\n  <div class=\"value\">{{Capital}}</div>\n  {{#Capital hint}}<div class=\"info\">Hint: {{Capital hint}}</div>{{/Capital hint}}\n{{/Capital}}\n"
                 }, 
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div class=\"value\">{{Country}}</div>\n{{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n{{#Flag similarity}}<div class=\"info\">Flag similar to {{Flag similarity}}</div>{{/Flag similarity}}", 
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div class=\"value\">{{Country}}</div>\n{{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n{{#Flag similarity}}<div class=\"info\">Flag similar to {{Flag similarity}}.</div>{{/Flag similarity}}", 
                     "bafmt": "", 
                     "bfont": "Arial", 
                     "bqfmt": "", 
@@ -795,7 +795,7 @@
             "data": "", 
             "fields": [
                 "England", 
-                "Constituent country of the United Kingdom", 
+                "Constituent country of the United Kingdom.", 
                 "London", 
                 "", 
                 "", 
@@ -815,7 +815,7 @@
             "data": "", 
             "fields": [
                 "Scotland", 
-                "Constituent country of the United Kingdom", 
+                "Constituent country of the United Kingdom.", 
                 "Edinburgh", 
                 "", 
                 "", 
@@ -857,7 +857,7 @@
             "data": "", 
             "fields": [
                 "Northern Ireland", 
-                "Constituent country of the United Kingdom", 
+                "Constituent country of the United Kingdom.", 
                 "Belfast", 
                 "", 
                 "", 
@@ -899,7 +899,7 @@
             "data": "", 
             "fields": [
                 "Wales", 
-                "Constituent country of the United Kingdom", 
+                "Constituent country of the United Kingdom.", 
                 "Cardiff", 
                 "", 
                 "", 
@@ -984,7 +984,7 @@
             "data": "", 
             "fields": [
                 "Greenland", 
-                "Self-governing territory of Denmark", 
+                "Self-governing territory of Denmark.", 
                 "Nuuk", 
                 "", 
                 "", 
@@ -1285,7 +1285,7 @@
             "data": "", 
             "fields": [
                 "Faroe Islands", 
-                "Self-governing territory of Denmark", 
+                "Self-governing territory of Denmark.", 
                 "Tórshavn", 
                 "", 
                 "", 
@@ -2332,7 +2332,7 @@
             "data": "", 
             "fields": [
                 "Democratic Republic of the Congo", 
-                "Formerly Zaire", 
+                "Formerly Zaire.", 
                 "Kinshasa", 
                 "", 
                 "", 
@@ -2983,7 +2983,7 @@
             "data": "", 
             "fields": [
                 "Sahrawi Republic", 
-                "Partially recognised state claimed by Morocco", 
+                "Partially recognised state claimed by Morocco.", 
                 "El Aaiún", 
                 "", 
                 "", 
@@ -3046,7 +3046,7 @@
             "data": "", 
             "fields": [
                 "Canary Islands", 
-                "Autonomous community of Spain", 
+                "Autonomous community of Spain.", 
                 "Santa Cruz and Las Palmas", 
                 "", 
                 "", 
@@ -3259,7 +3259,7 @@
             "data": "", 
             "fields": [
                 "Hong Kong", 
-                "Special Administrative Region of China", 
+                "Special Administrative Region of China.", 
                 "", 
                 "", 
                 "", 
@@ -3517,7 +3517,7 @@
             "data": "", 
             "fields": [
                 "Myanmar", 
-                "Also known as Burma", 
+                "Also known as Burma.", 
                 "Naypyidaw", 
                 "", 
                 "", 
@@ -3777,7 +3777,7 @@
             "data": "", 
             "fields": [
                 "Taiwan", 
-                "Partially recognised state claimed by China", 
+                "Partially recognised state claimed by China.", 
                 "Taipei", 
                 "", 
                 "", 
@@ -3862,7 +3862,7 @@
             "data": "", 
             "fields": [
                 "East Timor", 
-                "Also known as&nbsp;Timor-Leste", 
+                "Also known as&nbsp;Timor-Leste.", 
                 "Dili", 
                 "", 
                 "", 
@@ -4382,7 +4382,7 @@
             "data": "", 
             "fields": [
                 "Guam", 
-                "Unincorporated territory of the United States", 
+                "Unincorporated territory of the United States.", 
                 "Hagåtña", 
                 "", 
                 "", 
@@ -4489,7 +4489,7 @@
             "data": "", 
             "fields": [
                 "Puerto Rico", 
-                "Unincorporated territory of the United States", 
+                "Unincorporated territory of the United States.", 
                 "San Juan", 
                 "", 
                 "", 
@@ -4620,7 +4620,7 @@
             "data": "", 
             "fields": [
                 "Bermuda", 
-                "Overseas territory of the United Kingdom", 
+                "Overseas territory of the United Kingdom.", 
                 "Hamilton", 
                 "", 
                 "", 
@@ -4641,7 +4641,7 @@
             "data": "", 
             "fields": [
                 "Guadeloupe", 
-                "Overseas department of France", 
+                "Overseas department of France.", 
                 "Basse-Terre", 
                 "", 
                 "", 
@@ -4947,7 +4947,7 @@
             "data": "", 
             "fields": [
                 "Zanzibar", 
-                "Semi-autonomous region of Tanzania&nbsp;", 
+                "Semi-autonomous region of Tanzania.", 
                 "Zanzibar City", 
                 "", 
                 "", 
@@ -5030,7 +5030,7 @@
             "data": "", 
             "fields": [
                 "French Polynesia", 
-                "Overseas territory of France", 
+                "Overseas territory of France.", 
                 "Papeete", 
                 "", 
                 "", 
@@ -5072,7 +5072,7 @@
             "data": "", 
             "fields": [
                 "Galápagos Islands", 
-                "Province of Ecuador", 
+                "Province of Ecuador.", 
                 "Puerto Baquerizo Moreno", 
                 "", 
                 "", 
@@ -5093,7 +5093,7 @@
             "data": "", 
             "fields": [
                 "Kosovo", 
-                "Partially recognised state claimed by Serbia", 
+                "Partially recognised state claimed by Serbia.", 
                 "Pristina", 
                 "", 
                 "", 
@@ -5178,7 +5178,7 @@
             "data": "", 
             "fields": [
                 "Bali", 
-                "Province of Indonesia", 
+                "Province of Indonesia.", 
                 "Denpasar", 
                 "", 
                 "", 
@@ -5220,7 +5220,7 @@
             "data": "", 
             "fields": [
                 "Bonaire", 
-                "Special municipality of the Netherlands", 
+                "Special municipality of the Netherlands.", 
                 "Kralendijk", 
                 "", 
                 "", 
@@ -5241,7 +5241,7 @@
             "data": "", 
             "fields": [
                 "British Virgin Islands", 
-                "Overseas territory of the United Kingdom", 
+                "Overseas territory of the United Kingdom.", 
                 "Road Town", 
                 "", 
                 "", 
@@ -5262,7 +5262,7 @@
             "data": "", 
             "fields": [
                 "Turks and Caicos Islands", 
-                "Overseas territory of the United Kingdom", 
+                "Overseas territory of the United Kingdom.", 
                 "Cockburn Town", 
                 "", 
                 "", 
@@ -5283,7 +5283,7 @@
             "data": "", 
             "fields": [
                 "Cayman Islands", 
-                "Overseas territory of the United Kingdom", 
+                "Overseas territory of the United Kingdom.", 
                 "George Town", 
                 "", 
                 "", 
@@ -5304,7 +5304,7 @@
             "data": "", 
             "fields": [
                 "Anguilla", 
-                "Overseas territory of the United Kingdom", 
+                "Overseas territory of the United Kingdom.", 
                 "The Valley", 
                 "", 
                 "", 
@@ -5325,7 +5325,7 @@
             "data": "", 
             "fields": [
                 "Azores", 
-                "Autonomous region of Portugal", 
+                "Autonomous region of Portugal.", 
                 "Ponta Delgada", 
                 "", 
                 "", 
@@ -5345,7 +5345,7 @@
             "data": "", 
             "fields": [
                 "Ceuta", 
-                "Autonomous city of Spain", 
+                "Autonomous city of Spain.", 
                 "", 
                 "", 
                 "", 
@@ -5365,7 +5365,7 @@
             "data": "", 
             "fields": [
                 "Christmas Island", 
-                "External territory of Australia", 
+                "External territory of Australia.", 
                 "Flying Fish Cove", 
                 "", 
                 "", 
@@ -5386,7 +5386,7 @@
             "data": "", 
             "fields": [
                 "Curaçao", 
-                "Constituent country of the Kingdom of the Netherlands", 
+                "Constituent country of the Kingdom of the Netherlands.", 
                 "Willemstad", 
                 "", 
                 "", 
@@ -5407,7 +5407,7 @@
             "data": "", 
             "fields": [
                 "Easter Island", 
-                "Polynesian island and special territory of Chile", 
+                "Polynesian island and special territory of Chile.", 
                 "", 
                 "", 
                 "", 
@@ -5427,7 +5427,7 @@
             "data": "", 
             "fields": [
                 "French Guiana", 
-                "Overseas department of France", 
+                "Overseas department of France.", 
                 "Cayenne", 
                 "", 
                 "", 
@@ -5448,7 +5448,7 @@
             "data": "", 
             "fields": [
                 "Gibraltar", 
-                "Overseas territory of the United Kingdom", 
+                "Overseas territory of the United Kingdom.", 
                 "Gibraltar", 
                 "", 
                 "", 
@@ -5468,7 +5468,7 @@
             "data": "", 
             "fields": [
                 "Guernsey", 
-                "Crown dependency of the United Kingdom", 
+                "Crown dependency of the United Kingdom.", 
                 "St. Peter Port", 
                 "", 
                 "", 
@@ -5488,7 +5488,7 @@
             "data": "", 
             "fields": [
                 "Isle of Man", 
-                "Crown dependency of the United Kingdom", 
+                "Crown dependency of the United Kingdom.", 
                 "Douglas", 
                 "", 
                 "", 
@@ -5508,7 +5508,7 @@
             "data": "", 
             "fields": [
                 "Jersey", 
-                "Crown dependency of the United Kingdom", 
+                "Crown dependency of the United Kingdom.", 
                 "Saint Helier", 
                 "", 
                 "", 
@@ -5549,7 +5549,7 @@
             "data": "", 
             "fields": [
                 "Macau", 
-                "Special Administrative Region of China", 
+                "Special Administrative Region of China.", 
                 "", 
                 "", 
                 "", 
@@ -5569,7 +5569,7 @@
             "data": "", 
             "fields": [
                 "Madeira", 
-                "Autonomous region of Portugal", 
+                "Autonomous region of Portugal.", 
                 "Funchal", 
                 "", 
                 "", 
@@ -5630,7 +5630,7 @@
             "data": "", 
             "fields": [
                 "Montserrat", 
-                "Overseas territory of the United Kingdom", 
+                "Overseas territory of the United Kingdom.", 
                 "Brades", 
                 "Eruptions in 1997 destroyed the capital city of Plymouth, making Brades the de facto capital.", 
                 "", 
@@ -5672,7 +5672,7 @@
             "data": "", 
             "fields": [
                 "New Caledonia", 
-                "Overseas territory of France", 
+                "Overseas territory of France.", 
                 "Nouméa", 
                 "", 
                 "", 
@@ -5713,7 +5713,7 @@
             "data": "", 
             "fields": [
                 "Norfolk Island", 
-                "External territory of Australia", 
+                "External territory of Australia.", 
                 "Kingston", 
                 "", 
                 "Oceania", 
@@ -5733,7 +5733,7 @@
             "data": "", 
             "fields": [
                 "Northern Cyprus", 
-                "State recognised only by Turkey and claimed by Cyprus", 
+                "State recognised only by Turkey and claimed by Cyprus.", 
                 "Nicosia", 
                 "", 
                 "", 
@@ -5755,7 +5755,7 @@
             "data": "", 
             "fields": [
                 "Saba", 
-                "Special municipality of the Netherlands", 
+                "Special municipality of the Netherlands.", 
                 "The Bottom", 
                 "", 
                 "", 
@@ -5819,7 +5819,7 @@
             "data": "", 
             "fields": [
                 "Somaliland", 
-                "Independent state claimed by Somalia", 
+                "Independent state claimed by Somalia.", 
                 "Hargeisa", 
                 "", 
                 "", 
@@ -5882,7 +5882,7 @@
             "data": "", 
             "fields": [
                 "United States Virgin Islands", 
-                "Unincorporated territory of the United States", 
+                "Unincorporated territory of the United States.", 
                 "Charlotte Amalie", 
                 "", 
                 "", 
@@ -5903,7 +5903,7 @@
             "data": "", 
             "fields": [
                 "Pitcairn Islands", 
-                "Overseas territory of the United Kingdom", 
+                "Overseas territory of the United Kingdom.", 
                 "Adamstown", 
                 "", 
                 "", 
@@ -5923,7 +5923,7 @@
             "data": "", 
             "fields": [
                 "Åland Islands", 
-                "Autonomous region of Finland", 
+                "Autonomous region of Finland.", 
                 "Mariehamn", 
                 "", 
                 "", 
@@ -5943,7 +5943,7 @@
             "data": "", 
             "fields": [
                 "Cocos (Keeling) Islands", 
-                "External territory of Australia", 
+                "External territory of Australia.", 
                 "West Island", 
                 "", 
                 "", 
@@ -5964,7 +5964,7 @@
             "data": "", 
             "fields": [
                 "Saint Helena", 
-                "Part of Saint Helena, Ascension and Tristan da Cunha, an overseas territory of the United Kingdom", 
+                "Part of Saint Helena, Ascension and Tristan da Cunha, an overseas territory of the United Kingdom.", 
                 "Jamestown", 
                 "", 
                 "", 
@@ -5984,7 +5984,7 @@
             "data": "", 
             "fields": [
                 "Sint Eustatius", 
-                "Special municipality of the Netherlands", 
+                "Special municipality of the Netherlands.", 
                 "Oranjestad", 
                 "", 
                 "", 
@@ -6005,7 +6005,7 @@
             "data": "", 
             "fields": [
                 "South Ossetia", 
-                "Independent state claimed by Georgia", 
+                "Independent state claimed by Georgia.", 
                 "Tskhinvali", 
                 "", 
                 "", 
@@ -6026,7 +6026,7 @@
             "data": "", 
             "fields": [
                 "Tokelau", 
-                "Dependent territory of New Zealand", 
+                "Dependent territory of New Zealand.", 
                 "Atafu", 
                 "", 
                 "", 
@@ -6046,7 +6046,7 @@
             "data": "", 
             "fields": [
                 "American Samoa", 
-                "Unincorporated territory of the United States", 
+                "Unincorporated territory of the United States.", 
                 "Pago Pago", 
                 "", 
                 "", 
@@ -6066,7 +6066,7 @@
             "data": "", 
             "fields": [
                 "Northern Mariana Islands", 
-                "Unincorporated territory of the United States", 
+                "Unincorporated territory of the United States.", 
                 "Saipan", 
                 "", 
                 "", 
@@ -6086,7 +6086,7 @@
             "data": "", 
             "fields": [
                 "Aruba", 
-                "Constituent country of the Kingdom of the Netherlands", 
+                "Constituent country of the Kingdom of the Netherlands.", 
                 "Oranjestad", 
                 "", 
                 "", 
@@ -6107,7 +6107,7 @@
             "data": "", 
             "fields": [
                 "Abkhazia", 
-                "Independent state claimed by Georgia", 
+                "Independent state claimed by Georgia.", 
                 "Sukhumi", 
                 "", 
                 "", 
@@ -6128,7 +6128,7 @@
             "data": "", 
             "fields": [
                 "Sint Maarten", 
-                "Constituent country of the Kingdom of the Netherlands", 
+                "Constituent country of the Kingdom of the Netherlands.", 
                 "Philipsburg", 
                 "", 
                 "", 
@@ -6149,7 +6149,7 @@
             "data": "", 
             "fields": [
                 "Nagorno-Karabakh", 
-                "Independent state claimed by Azerbaijan", 
+                "Independent state claimed by Azerbaijan.", 
                 "Stepanakert", 
                 "", 
                 "", 
@@ -6191,7 +6191,7 @@
             "data": "", 
             "fields": [
                 "Transnistria", 
-                "Independent state claimed by Moldova", 
+                "Independent state claimed by Moldova.", 
                 "Tiraspol", 
                 "", 
                 "", 
@@ -6212,7 +6212,7 @@
             "data": "", 
             "fields": [
                 "Sardinia", 
-                "Autonomous region of Italy", 
+                "Autonomous region of Italy.", 
                 "Cagliari", 
                 "", 
                 "", 
@@ -6232,7 +6232,7 @@
             "data": "", 
             "fields": [
                 "Kaliningrad Oblast", 
-                "State (oblast) of the Russian Federation", 
+                "State (oblast) of the Russian Federation.", 
                 "Kaliningrad", 
                 "", 
                 "", 
@@ -6252,7 +6252,7 @@
             "data": "", 
             "fields": [
                 "Martinique", 
-                "Overseas department of France", 
+                "Overseas department of France.", 
                 "Fort-de-France", 
                 "", 
                 "", 
@@ -6273,7 +6273,7 @@
             "data": "", 
             "fields": [
                 "Java", 
-                "Island of Indonesia", 
+                "Island of Indonesia.", 
                 "", 
                 "", 
                 "", 
@@ -6293,7 +6293,7 @@
             "data": "", 
             "fields": [
                 "Corsica", 
-                "Region of France", 
+                "Region of France.", 
                 "", 
                 "", 
                 "", 
@@ -7213,7 +7213,7 @@
             "data": "", 
             "fields": [
                 "Sumatra", 
-                "Island of&nbsp;Indonesia", 
+                "Island of&nbsp;Indonesia.", 
                 "", 
                 "", 
                 "", 
@@ -7253,7 +7253,7 @@
             "data": "", 
             "fields": [
                 "Sicily", 
-                "Autonomous region of Italy", 
+                "Autonomous region of Italy.", 
                 "Palermo", 
                 "", 
                 "", 
@@ -7273,7 +7273,7 @@
             "data": "", 
             "fields": [
                 "Mayotte", 
-                "Overseas department of France", 
+                "Overseas department of France.", 
                 "Mamoudzou", 
                 "", 
                 "", 
@@ -7293,7 +7293,7 @@
             "data": "", 
             "fields": [
                 "Réunion", 
-                "Overseas department of France", 
+                "Overseas department of France.", 
                 "Saint-Denis", 
                 "", 
                 "", 
@@ -7313,7 +7313,7 @@
             "data": "", 
             "fields": [
                 "British Indian Ocean Territory", 
-                "Overseas territory of the United Kingdom", 
+                "Overseas territory of the United Kingdom.", 
                 "Camp Justice", 
                 "", 
                 "", 
@@ -7333,7 +7333,7 @@
             "data": "", 
             "fields": [
                 "Falkland Islands", 
-                "Overseas territory of the United Kingdom", 
+                "Overseas territory of the United Kingdom.", 
                 "Stanley", 
                 "", 
                 "", 
