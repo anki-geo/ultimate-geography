@@ -25,7 +25,7 @@ Additional information is provided on some cards such as:
 - similar flags (e.g. Iceland: _Norway (red background, blue cross)_)
 - governance information (e.g. Cayman Islands: _Overseas territory of the United Kingdom_)
 - alternative or former country names (e.g. East Timor: _Also known as Timer-Leste_)
-- additional capitals (e.g. Sucre, Bolivia: _While Sucre is the constitutional capital, La Paz is the seat of the government._)
+- additional capitals (executive or de facto only - e.g. Sucre, Bolivia: _While Sucre is the constitutional capital, La Paz is the seat of government._)
 - statehood information (e.g. Transnistria: _Independent state claimed by Moldova_).
 
 The following **tags** are available to create filtered decks (cd. [Advanced use](#advanced-use) section below):
@@ -55,7 +55,7 @@ That's all there is to it!
 This deck is built on top of an existing [shared deck](https://ankiweb.net/shared/info/261823898).
 My initial goal was to resolve some of the issues mentioned in the comments such as the poor quality of the flags,
 but I ended up doing _a lot_ more, including putting the deck up on GitHub, rethinking the tags, and reviewing
-all the content. For a full list of changes, check out the [initial release notes](https://github.com/axelboc/anki-ultimate-geography/releases/tag/v2).
+all the content. For a full list of changes, check out the [initial release notes](https://github.com/axelboc/anki-ultimate-geography/releases/tag/v2.0).
 
 
 ## Advanced use
