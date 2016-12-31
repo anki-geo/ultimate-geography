@@ -1,6 +1,6 @@
 # Ultimate Geography
 
-**Geography flashcard deck for [Anki](http://ankisrs.net/)**: https://ankiweb.net/shared/info/2109889812
+**Geography flashcard deck for [Anki](http://ankisrs.net/)** — https://ankiweb.net/shared/info/2109889812
 
 The deck features:
 
@@ -45,8 +45,7 @@ The following **tags** are available to create filtered decks (cd. [Advanced use
 That's all there is to it!
 
 - If you spot a mistake or have a suggestion, please don't hesitate to **[raise an issue](https://github.com/axelboc/anki-ultimate-geography/issues)**.
-- If you wish to stay informed of new releases, watch this repository or subscribe to the [releases feed]:
-(https://github.com/axelboc/anki-ultimate-geography/releases.atom).
+- If you wish to stay informed of new releases, watch this repository or subscribe to the [releases feed](https://github.com/axelboc/anki-ultimate-geography/releases.atom).
 - Before updating the deck to a new version, check out the release notes for special instructions.
 
 
