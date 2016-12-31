@@ -1,6 +1,6 @@
 # Ultimate Geography
 
-**Geography flashcard deck for [Anki](http://ankisrs.net/)**.
+**Geography flashcard deck for [Anki](http://ankisrs.net/)**: https://ankiweb.net/shared/info/2109889812
 
 The deck features:
 
