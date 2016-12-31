@@ -39,7 +39,7 @@ The following **tags** are available to create filtered decks (cd. [Advanced use
 ## Getting started
 
 1. Go to the **[Releases](https://github.com/axelboc/anki-ultimate-geography/releases) page** and find the latest release.
-2. Download the `Ultimate Geography.apkg` package provided.
+2. Download the `Ultimate_Geography.apkg` package provided.
 3. Open it with Anki.
 
 That's all there is to it!
