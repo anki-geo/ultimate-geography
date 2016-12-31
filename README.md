@@ -11,11 +11,11 @@ The deck features:
 
 | Flag > Country | Map > Country |
 | --- | --- |
-| ![sample-3](https://cloud.githubusercontent.com/assets/2936402/21537331/50f99206-cde4-11e6-84a3-595277de875a.png) | ![sample-4](https://cloud.githubusercontent.com/assets/2936402/21537332/50fa4944-cde4-11e6-9b36-45e699851f51.png) |
+| ![sample-3](https://cloud.githubusercontent.com/assets/2936402/21575783/2b3431ea-cf6d-11e6-92c7-48b1f6e0d92e.png) | ![sample-4](https://cloud.githubusercontent.com/assets/2936402/21575785/2b807528-cf6d-11e6-97e7-9515efb7fe9a.png) |
 
 | Country > Capital | Capital > Country |
 | --- | --- |
-| ![sample-1](https://cloud.githubusercontent.com/assets/2936402/21537340/70d9609c-cde4-11e6-81fb-a37f1db50d4f.png) | ![sample-2](https://cloud.githubusercontent.com/assets/2936402/21537333/50fa8f26-cde4-11e6-81ce-a1149e1e7d71.PNG) |
+| ![sample-1](https://cloud.githubusercontent.com/assets/2936402/21575782/2b336954-cf6d-11e6-95e0-4c1023246958.png) | ![sample-2](https://cloud.githubusercontent.com/assets/2936402/21575784/2b38177e-cf6d-11e6-82f0-2dbb1e0ad48e.png) |
 
 **All flags are in SVG format**, sourced from [Wikipedia](https://en.wikipedia.org/wiki/Gallery_of_sovereign_state_flags),
 and optimised for smaller file size. The maps are from the original deck (cf. [Background](#background) section below); although most
