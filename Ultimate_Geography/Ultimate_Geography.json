@@ -631,7 +631,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "9245964f-cc9b-11e6-9699-a0481cc15658", 
-            "css": ".card {\n  background-color: white;\n  color: black;\n  font-family: Verdana;\n  font-size: 16px;\n  text-align: center;\n}\n\n.type {\n  color: #333;\n  font-size: 70%;\n  font-weight: bold;\n  margin-bottom: .25em;\n  text-transform: uppercase;\n}\n\n.value {\n  font-size: 150%;\n}\n\n.flag img {\n  height: 250px;\n  box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);\n}\n\n.info {\n  color: #333;\n  font-size: 90%;\n  font-style: italic;\n  margin: .75em auto;\n  max-width: 30em\n}\n\n#answer {\n  margin: 1.5em 0;\n}", 
+            "css": ".card {\n  background-color: white;\n  color: black;\n  font-family: Verdana;\n  font-size: 16px;\n  padding: 1em 0;\n  text-align: center;\n}\n\n.type {\n  color: #333;\n  font-size: 70%;\n  font-weight: bold;\n  margin-bottom: .25em;\n  text-transform: uppercase;\n}\n\n.type--top {\n  margin-top: 1em;\n}\n\n.value {\n  font-size: 150%;\n}\n\n.flag img {\n  height: 250px;\n  box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);\n}\n\n.info {\n  color: #333;\n  font-size: 90%;\n  font-style: italic;\n  margin: .75em auto;\n  max-width: 30em\n}\n\n#answer {\n  margin: 1.5em 0;\n}", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -751,7 +751,7 @@
                     "did": null, 
                     "name": "Country > Capital", 
                     "ord": 0, 
-                    "qfmt": "{{#Capital}}\n  <div class=\"type\">Country</div>\n  <div class=\"value\">{{Country}}</div>\n  {{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n{{/Capital}}"
+                    "qfmt": "{{#Capital}}\n  <div class=\"type type--top\">Country</div>\n  <div class=\"value\">{{Country}}</div>\n  {{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n{{/Capital}}"
                 }, 
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div class=\"type\">Country</div>\n<div class=\"value\">{{Country}}</div>\n{{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}", 
@@ -760,7 +760,7 @@
                     "did": null, 
                     "name": "Capital > Country", 
                     "ord": 1, 
-                    "qfmt": "{{#Capital}}\n  <div class=\"type\">Capital</div>\n  <div class=\"value\">{{Capital}}</div>\n  {{#Capital hint}}<div class=\"info\">Hint: {{Capital hint}}</div>{{/Capital hint}}\n{{/Capital}}\n"
+                    "qfmt": "{{#Capital}}\n  <div class=\"type type--top\">Capital</div>\n  <div class=\"value\">{{Capital}}</div>\n  {{#Capital hint}}<div class=\"info\">Hint: {{Capital hint}}</div>{{/Capital hint}}\n{{/Capital}}\n"
                 }, 
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div class=\"value\">{{Country}}</div>\n{{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n{{#Flag similarity}}<div class=\"info\">Flag similar to {{Flag similarity}}.</div>{{/Flag similarity}}", 
