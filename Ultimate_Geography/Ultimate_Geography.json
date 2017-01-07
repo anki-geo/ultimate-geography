@@ -631,7 +631,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "9245964f-cc9b-11e6-9699-a0481cc15658", 
-            "css": ".card {\n  background-color: white;\n  color: black;\n  font-family: Verdana;\n  font-size: 16px;\n  text-align: center;\n}\n\n.type {\n  color: #333;\n  font-size: 60%;\n  font-weight: bold;\n  margin-bottom: .25em;\n  text-transform: uppercase;\n}\n\n.value {\n  font-size: 150%;\n}\n\n.flag img {\n  height: 250px;\n  box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);\n}\n\n.info {\n  color: #333;\n  font-size: 90%;\n  font-style: italic;\n  margin: .75em auto;\n  max-width: 30em\n}\n\n#answer {\n  margin: 1.5em 0;\n}", 
+            "css": ".card {\n  background-color: white;\n  color: black;\n  font-family: Verdana;\n  font-size: 16px;\n  text-align: center;\n}\n\n.type {\n  color: #333;\n  font-size: 70%;\n  font-weight: bold;\n  margin-bottom: .25em;\n  text-transform: uppercase;\n}\n\n.value {\n  font-size: 150%;\n}\n\n.flag img {\n  height: 250px;\n  box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);\n}\n\n.info {\n  color: #333;\n  font-size: 90%;\n  font-style: italic;\n  margin: .75em auto;\n  max-width: 30em\n}\n\n#answer {\n  margin: 1.5em 0;\n}", 
             "flds": [
                 {
                     "font": "Arial", 
