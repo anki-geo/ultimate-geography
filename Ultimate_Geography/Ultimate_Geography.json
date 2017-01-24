@@ -7,19 +7,19 @@
         {
             "__type__": "DeckConfig", 
             "autoplay": false, 
-            "crowdanki_uuid": "46561fa2-dfdb-11e6-aa06-a0481cc15658", 
+            "crowdanki_uuid": "924484df-cc9b-11e6-ab16-a0481cc15658", 
             "dyn": false, 
             "lapse": {
                 "delays": [
                     10
                 ], 
                 "leechAction": 0, 
-                "leechFails": 16, 
+                "leechFails": 8, 
                 "minInt": 1, 
                 "mult": 0.0
             }, 
-            "maxTaken": 40, 
-            "name": "15 new / 60 review", 
+            "maxTaken": 60, 
+            "name": "Default", 
             "new": {
                 "bury": true, 
                 "delays": [
@@ -36,7 +36,7 @@
                 "perDay": 15, 
                 "separate": true
             }, 
-            "replayq": false, 
+            "replayq": true, 
             "rev": {
                 "bury": true, 
                 "ease4": 1.3, 
@@ -44,7 +44,7 @@
                 "ivlFct": 1.0, 
                 "maxIvl": 36500, 
                 "minSpace": 1, 
-                "perDay": 60
+                "perDay": 100
             }, 
             "timer": 0
         }
