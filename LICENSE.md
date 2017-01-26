@@ -1,8 +1,6 @@
 # Licence
 
-The licence below does not apply to the media files. Most of them are from Wikipedia and many (especially the flags)
-are in the public domain... but not all. I will endeavour to review all of them in the near future to make sure 
-that they are properly licenced.
+This deck, __excluding all images in the `media` folder__, is released into the public domain as explained below:
 
 ---
 
@@ -30,3 +28,30 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org>
+
+---
+
+## Images
+
+The flags (`ug-flag-...`) are sourced from [Wikimedia Commons](https://commons.wikimedia.org/), where they are released into the **public domain** (with the exception of the flag of Northern Cyprus). Most of them are listed on Wikipedia's [Gallery of sovereign state flags](https://en.wikipedia.org/wiki/Gallery_of_sovereign_state_flags). I did not make any visual modification, but did optimise them with [svgo](https://github.com/svg/svgo) and [PNGGauntlet](https://pnggauntlet.com/) to reduce file size.
+
+Most of the maps are also sourced from [Wikimedia Commons](https://commons.wikimedia.org/). They are part of the German [Locator map](https://de.wikipedia.org/wiki/Wikipedia:Kartenwerkstatt/Positionskarten) project of Wikipedia's [Map workshop](https://en.wikipedia.org/wiki/Wikipedia:Graphics_Lab/Map_workshop). More specifically, they are 500px-wide PNG versions of SVG locator maps from the project's [16:9 regional location map scheme](https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_(16:9_regional_location_map_scheme)), and are released under the **[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)** licence.
+
+### Exceptions
+
+The [flag of Northern Cyprus](https://commons.wikimedia.org/wiki/File:Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg) (`ug-flag-northern_cyprus.svg`) is released under [CC-BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/deed.en).
+
+The maps of [Saint Helena](https://commons.wikimedia.org/wiki/File:St_Helena-Pos.png) (`ug-map-saint_helena.png`) and [Java](https://commons.wikimedia.org/wiki/File:Java_Locator.svg) (`ug-map-java.png`) are released under **[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)**.
+
+The [map of the Balkan Peninsula](https://commons.wikimedia.org/wiki/File:Balkan_Peninsula.svg) (`ug-map-balkan_peninsula.png`) had to be cropped to remove its legend. The original version is released under **[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)**; therefore, the cropped (and optimised) version is as well.
+
+The [maps of England, Scotland, Wales and Northern Island](https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_countries_in_the_United_Kingdom_(location_map_scheme)) are released under **[CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)**
+
+### Licence unknown
+
+The licence of the following maps is unknown at this times:
+
+- Maps of water bodies (oceans, seas, gulfs, etc.)
+- Maps of Azores, Ceuta, Corsica, Galapagos Islands, Kaliningrad Oblast, Melanesia, Melilla, Micronesia, Polynesia, Sardinia, Sumatra and Zanzibar.
+
+I will endeavour to [replace these maps](https://github.com/axelboc/anki-ultimate-geography/issues/1) with ones I know are open source, but in the meantime, if you absolutely want to know where they come from, I invite you to use Google's [reverse image search](https://support.google.com/websearch/answer/1325808?hl=en) or to search through [Wikimedia Commons](https://commons.wikimedia.org/).
