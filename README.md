@@ -5,26 +5,26 @@
 - the world's **[206 sovereign states](https://en.wikipedia.org/wiki/List_of_sovereign_states)** (824 cards)
 - **67 overseas territories**, dependent areas, and more (227 cards)
 - **39 oceans and seas** (39 cards, maps only)
-- for a total of **312 unique notes**, **1090 cards**, **260 SVG flags**, and **310 maps**.
+- for a total of **312 unique notes**, **1090 cards**, **260 flags**, and **310 maps**.
 
 | Flag > Country | Map > Country |
 | --- | --- |
-| ![sample-3](https://cloud.githubusercontent.com/assets/2936402/21575808/3ac74916-cf6e-11e6-8857-1cd7aaa02b23.png) | ![sample-4](https://cloud.githubusercontent.com/assets/2936402/21575810/3b119d40-cf6e-11e6-9fc9-c38449069ad7.png) |
+| ![sample-3](https://cloud.githubusercontent.com/assets/2936402/21575808/3ac74916-cf6e-11e6-8857-1cd7aaa02b23.png) | ![sample-4](https://cloud.githubusercontent.com/assets/2936402/22322663/bd0552aa-e3f1-11e6-89d9-38b5a1048eff.png) |
 
 | Country > Capital | Capital > Country |
 | --- | --- |
 | ![sample-1](https://cloud.githubusercontent.com/assets/2936402/21575807/3ac6ebec-cf6e-11e6-849a-19544d5dccf5.png) | ![sample-2](https://cloud.githubusercontent.com/assets/2936402/21575809/3ac77b7a-cf6e-11e6-8d72-76f4d3e21de8.png) |
 
-The flags are sourced from [Wikipedia](https://en.wikipedia.org/wiki/Gallery_of_sovereign_state_flags) and provided as vector graphics (**SVG**). They are also optimised for smaller file size. The maps are from the original deck (cf. [Background](#background) section below); although most of them are great, some lack consistency and clarity... but [I'm working on it](https://github.com/axelboc/anki-ultimate-geography/issues/1).
+The flags and most of the maps are sourced from [Wikimedia Commons](https://commons.wikimedia.org/). They are provided as SVG or PNG and optimised for smaller file size. Some legacy JPEG maps from the original deck (cf. [Background](#background) section below) are still present, but are [marked for replacement](https://github.com/axelboc/anki-ultimate-geography/issues/1#issuecomment-275280721).
 
-Additional information is provided on some cards such as:
+Some cards include additional information to provide a bit of help or context:
 - similar flags (e.g. Iceland: _Norway (red background, blue cross)_)
 - governance information (e.g. Cayman Islands: _Overseas territory of the United Kingdom_)
 - alternative or former country names (e.g. East Timor: _Also known as Timer-Leste_)
 - additional capitals (executive or de facto only - e.g. Sucre, Bolivia: _While Sucre is the constitutional capital, La Paz is the seat of government._)
 - statehood information (e.g. Transnistria: _Independent state claimed by Moldova_).
 
-The following **tags** are available to create filtered decks (cd. [Advanced use](#advanced-use) section below):
+The following **tags** are available to create filtered decks (cf. [Advanced use](#advanced-use) section below):
 
 - `UG::Sovereign_State`
 - `UG::Oceans+Seas`
