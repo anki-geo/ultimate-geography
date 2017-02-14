@@ -89,7 +89,7 @@ What this means concretely:
 - The previous point doesn't mean, however, that the notes can't contain more fields. This would give advanced users the freedom to create their own note templates. Contributions welcome! :blush:
 - All notes must be tagged appropriately so users can create filtered decks to suit their learning process.
 - The tags should remain in limited number for clarity. A tag may be added if it:
-  - applies to a reasonable number of notes (not to low, not to high)
+  - applies to a reasonable number of notes (not too low, not too high)
   - contains a significantly different set of notes from every other tag, and
   - solves a relatively common learning use case.
 
