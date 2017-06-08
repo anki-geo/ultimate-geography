@@ -84,7 +84,7 @@ familiar with Anki's advanced features (filtered decks, note templates, tags, et
 
 What this means concretely:
 
-- The deck is exhaustive in some aspects but not all: it covers all of the world's 206 sovereign states but will never include every overseas territory, dependent region and other geographical or political area on the planet. For a card to be included, it must be reasonably easy to memorise. This excludes places with very long or unpronouncable names, or with little geographical and historical significance.
+- The deck is exhaustive in some aspects but not all: it covers all of the world's 206 sovereign states but will never include every overseas territory, dependent region and other geographical or political area on the planet. For a card to be included, it must be reasonably easy to memorise. This excludes places with very long or unpronounceable names, or with little geographical and historical significance. The _Country info_ field may be used to provide interesting facts to help with memorisation.
 - The deck will most likely never have more note templates than it currently has out of the box, so that beginners aren't overwhelemed with cards they're not interested in learning.
 - The previous point doesn't mean, however, that the notes can't contain more fields. This would give advanced users the freedom to create their own note templates. Contributions welcome! :blush:
 - All notes must be tagged appropriately so users can create filtered decks to suit their learning process.
