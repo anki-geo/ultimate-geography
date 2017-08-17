@@ -1052,7 +1052,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-andorra.png\" />", 
-                "", 
+                "Moldova (different emblem)", 
                 "<img src=\"ug-map-andorra.png\" />"
             ], 
             "flags": 0, 
@@ -1419,7 +1419,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-liechtenstein.svg\" />", 
-                "", 
+                "Haiti (emblem in the center)", 
                 "<img src=\"ug-map-liechtenstein.png\" />"
             ], 
             "flags": 0, 
@@ -1527,7 +1527,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-moldova.svg\" />", 
-                "", 
+                "Andorra (different emblem)", 
                 "<img src=\"ug-map-moldova.png\" />"
             ], 
             "flags": 0, 
@@ -2164,7 +2164,7 @@
             "data": "", 
             "fields": [
                 "Cape Verde", 
-                "", 
+                "Uninhabitated island untill discovered and colonized by Portuguese explorers&nbsp;in the 15th century, prospering from the Atlantic slave trade in the 16th and gaining independence in 1975.", 
                 "Praia", 
                 "", 
                 "", 
@@ -2988,7 +2988,7 @@
                 "While El Aaiún is the declared capital,&nbsp;Tifariti is the de facto seat of government.", 
                 "", 
                 "<img src=\"ug-flag-sahrawi_republic.svg\" />", 
-                "", 
+                "Palestine (no star and crescent); Jordan (no crescent, white star in the triangle)", 
                 "<img src=\"ug-map-sahrawi_republic.png\" />"
             ], 
             "flags": 0, 
@@ -3392,7 +3392,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-jordan.svg\" />", 
-                "", 
+                "Palestine (no star); Sahrawi Republic (red crescent and red star on the white strip)", 
                 "<img src=\"ug-map-jordan.png\" />"
             ], 
             "flags": 0, 
@@ -3651,7 +3651,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-palestine.svg\" />", 
-                "", 
+                "Jordan (white star in the triangle); Sahrawi Republic (red crescent and red star on the white strip)", 
                 "<img src=\"ug-map-palestine.png\" />"
             ], 
             "flags": 0, 
@@ -4559,7 +4559,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-haiti.svg\" />", 
-                "", 
+                "Liechtenstein (emblem on the top left)", 
                 "<img src=\"ug-map-haiti.png\" />"
             ], 
             "flags": 0, 
@@ -5076,7 +5076,7 @@
                 "Puerto Baquerizo Moreno", 
                 "", 
                 "", 
-                "<img src=\"ug-flag-galapagos_islands.svg\" />", 
+                "<img src=\"ug-flag-galapagos_islands.svg\" /><div>(Equador province)</div>", 
                 "Sierra Leone (slightly lighter blue)",
                 "<img src=\"ug-map-galapagos_islands.jpg\" />"
             ], 
@@ -5407,7 +5407,7 @@
             "data": "", 
             "fields": [
                 "Easter Island", 
-                "Polynesian island and special territory of Chile.", 
+                "Polynesian island and special territory of Chile, one of the most remote inhabited islands in the world.<div style=\"font-size: 13px\">(2,075 km to Pitcairn islands and 3,512 km to Chile)</div><div>Famous for its 887 extant monumental human statues&nbsp;called&nbsp;<span style=\"font-style:normal\">moai</span>.</div>", 
                 "", 
                 "", 
                 "", 
@@ -5569,7 +5569,7 @@
             "data": "", 
             "fields": [
                 "Madeira", 
-                "Autonomous region of Portugal.", 
+                "Autonomous region of Portugal, claimed by portugese sailors in 1419 but known about even earlier.", 
                 "Funchal", 
                 "", 
                 "", 
