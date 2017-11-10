@@ -33,19 +33,17 @@ For more information, please refer to <http://unlicense.org>
 
 ## Images
 
-The flags (`ug-flag-...`) are sourced from [Wikimedia Commons](https://commons.wikimedia.org/), where they are released into the **public domain** (with the exception of the flag of Northern Cyprus). Most of them are listed on Wikipedia's [Gallery of sovereign state flags](https://en.wikipedia.org/wiki/Gallery_of_sovereign_state_flags). I did not make any visual modification, but did optimise them with [svgo](https://github.com/svg/svgo) and [PNGGauntlet](https://pnggauntlet.com/) to reduce file size.
+The flags (`ug-flag-...`), with the exception of the ones listed below, are sourced from [Wikimedia Commons](https://commons.wikimedia.org/), where they are released into the **public domain**. Most are listed on Wikipedia's [Gallery of sovereign state flags](https://en.wikipedia.org/wiki/Gallery_of_sovereign_state_flags). I did not make any visual modification, but did optimise them with [svgo](https://github.com/svg/svgo) and [PNGGauntlet](https://pnggauntlet.com/) to reduce file size.
 
 Most of the maps are also sourced from [Wikimedia Commons](https://commons.wikimedia.org/). They are part of the German [Locator map](https://de.wikipedia.org/wiki/Wikipedia:Kartenwerkstatt/Positionskarten) project of Wikipedia's [Map workshop](https://en.wikipedia.org/wiki/Wikipedia:Graphics_Lab/Map_workshop). More specifically, they are 500px-wide PNG versions of SVG locator maps from the project's [16:9 regional location map scheme](https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_(16:9_regional_location_map_scheme)), and are released under the **[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)** licence.
 
 ### Exceptions
 
-The [flag of Northern Cyprus](https://commons.wikimedia.org/wiki/File:Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg) (`ug-flag-northern_cyprus.svg`) is released under [CC-BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/deed.en).
-
-The maps of [Saint Helena](https://commons.wikimedia.org/wiki/File:St_Helena-Pos.png) (`ug-map-saint_helena.png`) and [Java](https://commons.wikimedia.org/wiki/File:Java_Locator.svg) (`ug-map-java.png`) are released under **[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)**.
-
-The [map of the Balkan Peninsula](https://commons.wikimedia.org/wiki/File:Balkan_Peninsula.svg) (`ug-map-balkan_peninsula.png`) had to be cropped to remove its legend. The original version is released under **[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)**; therefore, the cropped (and optimised) version is as well.
-
-The [maps of England, Scotland, Wales and Northern Island](https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_countries_in_the_United_Kingdom_(location_map_scheme)) are released under **[CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)**
+- The [flag of Northern Cyprus](https://commons.wikimedia.org/wiki/File:Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg) (`ug-flag-northern_cyprus.svg`) is released under [CC-BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/deed.en).
+- The [flag of Mauritania](https://commons.wikimedia.org/wiki/File:Flag_of_Mauritania.svg) (`ug-flag-mauritania.svg`) is released under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/2.5/deed.en).
+- The maps of [Saint Helena](https://commons.wikimedia.org/wiki/File:St_Helena-Pos.png) (`ug-map-saint_helena.png`) and [Java](https://commons.wikimedia.org/wiki/File:Java_Locator.svg) (`ug-map-java.png`) are released under **[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)**.
+- The [map of the Balkan Peninsula](https://commons.wikimedia.org/wiki/File:Balkan_Peninsula.svg) (`ug-map-balkan_peninsula.png`) had to be cropped to remove its legend. The original version is released under **[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)**; therefore, the cropped (and optimised) version is as well.
+- The [maps of England, Scotland, Wales and Northern Island](https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_countries_in_the_United_Kingdom_(location_map_scheme)) are released under **[CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)**
 
 ### Licence unknown
 
