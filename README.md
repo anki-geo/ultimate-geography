@@ -103,7 +103,6 @@ What this means concretely:
   - contains a significantly different set of notes from every other tag, and
   - solves a relatively common learning use case.
 
-
 ### Workflow
 
 > If you're new to GitHub and contributing, [read this guide](https://guides.github.com/activities/contributing-to-open-source/) first.
@@ -115,13 +114,25 @@ This deck is maintained with [CrowdAnki](https://ankiweb.net/shared/info/1788670
 1. In the _File_ menu, select _CrowdAnki: Import from disk_.
 1. Browse for and select the _Ultimate\_Geography_ folder.
 1. Make your changes to the deck.
-1. From the _Decks_ screen, select the deck's _Export_ option
+1. From the _Decks_ screen, select the deck's _Export_ option.
 1. Choose _CrowdAnki Json representation_ as the export format, make sure the _Include media_ checkbox is ticked and click _Export..._
 1. Browse for and select the folder in which you cloned this repository.
 1. Commit your changes and open a Pull Request with a meaningful description.
 
 > Alternatively, for _very_ small changes, you can edit the JSON file straight from GitHub.
 
+
+## Release process
+
+1. In Anki, synchronise all changes then select _File_ > _Export_.
+1. Choose _Anki Deck Package (*.apkg)_ as the export format, untick _Include scheduling information_, tick _Include media_ and click _Export..._
+1. Save the deck as `Ultimate_Geography_v<x.y>.apkg`, with the appropriate version number (cf. next section).
+1. Write the release notes in GitHub.
+1. Attach the APKG file to the release and publish it.
+1. Go to [AnkiWeb](https://ankiweb.net/decks/).
+1. Find the _Ultimate Geography_ deck and select _Actions_ > _Share_
+1. Update version number in title and description if needed.
+1. Enter full legal name and click _Share_.
 
 ### Versioning
 
@@ -130,4 +141,4 @@ The releases follow a versioning scheme of the form `x.y`, where:
 - `x` indicates a breaking release - i.e. a release that contains structural changes that would break the import of the deck for existing users or reset their progress
 - `y` indicates a non-breaking release - e.g. when a card is added or removed, when a new tag is created, when an image is changed, etc.
 
-> Note that the initial release is `v2.0`, as a way to distinguish this deck from its predecessor, which was labeled `v1.0`.
+> Note that this deck was initially released as `v2.0` to distinguish it from its predecessor, which was commonly referred to as `v1.0`.
