@@ -274,7 +274,7 @@
         "ug-flag-bosnia_and_herzegovina.svg",
         "ug-map-dominica.png",
         "ug-flag-haiti.svg",
-        "ug-flag-afghanistan.svg",
+        "ug-flag-afghanistan.png",
         "ug-map-france.png",
         "ug-map-nauru.png",
         "ug-flag-sint_eustatius.svg",
@@ -3070,7 +3070,7 @@
                 "Kabul",
                 "",
                 "",
-                "<img src=\"ug-flag-afghanistan.svg\" />",
+                "<img src=\"ug-flag-afghanistan.png\" />",
                 "",
                 "<img src=\"ug-map-afghanistan.png\" />"
             ],
