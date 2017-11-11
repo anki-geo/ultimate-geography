@@ -34,15 +34,25 @@ The following **tags** are available to create filtered decks (cf. [Advanced use
 
 ## Getting started
 
-1. Go to the **[Releases](https://github.com/axelboc/anki-ultimate-geography/releases) page** and find the latest release.
-2. Download the `Ultimate_Geography.apkg` package provided.
-3. Open it with Anki.
+1. Go to the **[_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases)** and find the latest release.
+1. Download the `Ultimate_Geography.apkg` package provided.
+1. Open it with Anki.
 
 That's all there is to it! Alternatively, download the deck from the shared deck page: https://ankiweb.net/shared/info/2109889812.
 
 - If you spot a mistake or have a suggestion, please don't hesitate to **[raise an issue](https://github.com/axelboc/anki-ultimate-geography/issues)**.
 - If you wish to stay informed of new releases, watch this repository or subscribe to the [releases feed](https://github.com/axelboc/anki-ultimate-geography/releases.atom).
-- Before updating the deck to a new version, check out the release notes for special instructions.
+
+### Upgrading
+
+To upgrade the deck to the latest version, first install the [CrowdAnki add-on](https://github.com/Stvad/CrowdAnki). Then, follow these steps:
+
+1. Go to the [_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases) and find the latest release.
+1. From the release's _Downloads_ section, download the ZIP file of the source code.
+1. Extract the ZIP file on your machine.
+1. Open Anki and synchronise any changes with AnkiWeb (make sure to synchronise your devices first).
+1. In the _File_ menu, select _CrowdAnki: Import from disk_.
+1. Browse for and select the _Ultimate\_Geography_ folder.
 
 
 ## Background
@@ -73,7 +83,7 @@ Anki's powerful [filtering feature](http://ankisrs.net/docs/manual.html#searchin
 Contributions are more than welcome, especially when it comes to fixing mistakes and adding missing information.
 The easiest way to help is to [raise an issue](https://github.com/axelboc/anki-ultimate-geography/issues).
 If it's small enough, I'll get onto it asap and you won't have to do anything (except download the updated package).
-If you really feel like doing it yourself, keep reading this section. Even then, I strongly recommend that you 
+If you really feel like doing it yourself, keep reading this section. Even then, I strongly recommend that you
 raise an issue _before_ you start doing any work, as not all contributions are welcome (read the guidelines below).
 
 ### Guidelines
@@ -101,14 +111,14 @@ What this means concretely:
 This deck is maintained with [CrowdAnki](https://ankiweb.net/shared/info/1788670778), an add-on for Anki that lets you import and export decks in a JSON format to facilitate maintenance and community contribution. Here is what the typical contribution process looks like:
 
 1. Fork and clone this repository on your machine and create a new branch.
-2. Install the CrowdAnki add-on and restart Anki.
-3. In the _File_ menu, select _CrowdAnki: Import from disk_.
-4. Browse for and select the _Ultimate\_Geography_ folder.
-5. Make your changes to the deck.
-6. From the _Decks_ screen, select the deck's _Export_ option
-7. Choose _CrowdAnki Json representation_ as the export format, make sure the _Include media_ checkbox is ticked and click _Export..._
-8. Browse for and select the folder in which you cloned this repository.
-9. Commit your changes and open a Pull Request with a meaningful description.
+1. Install the CrowdAnki add-on and restart Anki.
+1. In the _File_ menu, select _CrowdAnki: Import from disk_.
+1. Browse for and select the _Ultimate\_Geography_ folder.
+1. Make your changes to the deck.
+1. From the _Decks_ screen, select the deck's _Export_ option
+1. Choose _CrowdAnki Json representation_ as the export format, make sure the _Include media_ checkbox is ticked and click _Export..._
+1. Browse for and select the folder in which you cloned this repository.
+1. Commit your changes and open a Pull Request with a meaningful description.
 
 > Alternatively, for _very_ small changes, you can edit the JSON file straight from GitHub.
 
