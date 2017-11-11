@@ -1073,7 +1073,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-austria.svg\" />", 
-                "", 
+                "Latvia (darker red, narrower white band)",
                 "<img src=\"ug-map-austria.png\" />"
             ], 
             "flags": 0, 
@@ -1397,7 +1397,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-latvia.svg\" />", 
-                "", 
+                "Austria (brighter red, wider white band)",
                 "<img src=\"ug-map-latvia.png\" />"
             ], 
             "flags": 0, 
