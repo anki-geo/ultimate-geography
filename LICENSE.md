@@ -39,8 +39,8 @@ Most of the maps are also sourced from [Wikimedia Commons](https://commons.wikim
 
 ### Exceptions
 
+- The flags of [Afghanistan](https://commons.wikimedia.org/wiki/File:Flag_of_Afghanistan.svg) (`ug-flag-mauritania.svg`) and [Mauritania](https://commons.wikimedia.org/wiki/File:Flag_of_Mauritania.svg) (`ug-flag-mauritania.svg`) are released under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
 - The [flag of Northern Cyprus](https://commons.wikimedia.org/wiki/File:Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg) (`ug-flag-northern_cyprus.svg`) is released under [CC-BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/deed.en).
-- The [flag of Mauritania](https://commons.wikimedia.org/wiki/File:Flag_of_Mauritania.svg) (`ug-flag-mauritania.svg`) is released under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/2.5/deed.en).
 - The maps of [Saint Helena](https://commons.wikimedia.org/wiki/File:St_Helena-Pos.png) (`ug-map-saint_helena.png`) and [Java](https://commons.wikimedia.org/wiki/File:Java_Locator.svg) (`ug-map-java.png`) are released under **[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)**.
 - The [map of the Balkan Peninsula](https://commons.wikimedia.org/wiki/File:Balkan_Peninsula.svg) (`ug-map-balkan_peninsula.png`) had to be cropped to remove its legend. The original version is released under **[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)**; therefore, the cropped (and optimised) version is as well.
 - The [maps of England, Scotland, Wales and Northern Island](https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_countries_in_the_United_Kingdom_(location_map_scheme)) are released under **[CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)**
