@@ -72,6 +72,7 @@
         "ug-map-niger.png", 
         "ug-map-cape_verde.png", 
         "ug-flag-dominica.svg", 
+        "ug-map-asia.png", 
         "ug-flag-nigeria.svg", 
         "ug-map-uruguay.png", 
         "ug-flag-gibraltar.svg", 
@@ -142,6 +143,7 @@
         "ug-map-new_zealand.png", 
         "ug-map-vatican_city.png", 
         "ug-flag-european_union.svg", 
+        "ug-map-oceania.png", 
         "ug-map-swaziland.png", 
         "ug-flag-singapore.svg", 
         "ug-map-madagascar.png", 
@@ -167,6 +169,7 @@
         "ug-flag-bolivia.png", 
         "ug-flag-isle_of_man.svg", 
         "ug-flag-senegal.svg", 
+        "ug-map-africa.png", 
         "ug-flag-brazil.svg", 
         "ug-flag-tanzania.svg", 
         "ug-map-the_bahamas.png", 
@@ -214,6 +217,7 @@
         "ug-map-marshall_islands.png", 
         "ug-flag-sardinia.svg", 
         "ug-map-namibia.png", 
+        "ug-map-europe.png", 
         "ug-map-portugal.png", 
         "ug-flag-ethiopia.svg", 
         "ug-map-singapore.png", 
@@ -357,6 +361,7 @@
         "ug-map-bahrain.png", 
         "ug-flag-nicaragua.svg", 
         "ug-flag-guyana.svg", 
+        "ug-map-north_america.png", 
         "ug-map-northern_mariana_islands.png", 
         "ug-map-venezuela.png", 
         "ug-flag-armenia.svg", 
@@ -479,6 +484,7 @@
         "ug-map-dominican_republic.png", 
         "ug-map-bay_of_biscay.jpg", 
         "ug-flag-austria.svg", 
+        "ug-map-south_america.png", 
         "ug-flag-palestine.svg", 
         "ug-map-lebanon.png", 
         "ug-map-oman.png", 
@@ -741,7 +747,7 @@
             ], 
             "sortf": 0, 
             "tags": [
-                "America"
+                "UG::Continents"
             ], 
             "tmpls": [
                 {
@@ -7347,6 +7353,126 @@
             "tags": [
                 "UG::America", 
                 "UG::South_America"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Europe", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "<img src=\"ug-map-europe.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "oV/JG7fwZq", 
+            "note_model_uuid": "9245964f-cc9b-11e6-9699-a0481cc15658", 
+            "tags": [
+                "UG::Continents"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "North America", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "<img src=\"ug-map-north_america.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "bD?R}i8_[c", 
+            "note_model_uuid": "9245964f-cc9b-11e6-9699-a0481cc15658", 
+            "tags": [
+                "UG::Continents"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "South America", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "<img src=\"ug-map-south_america.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "Lol+XIvY21", 
+            "note_model_uuid": "9245964f-cc9b-11e6-9699-a0481cc15658", 
+            "tags": [
+                "UG::Continents"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Asia", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "<img src=\"ug-map-asia.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "Qlib4)q2Hk", 
+            "note_model_uuid": "9245964f-cc9b-11e6-9699-a0481cc15658", 
+            "tags": [
+                "UG::Continents"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Africa", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "<img src=\"ug-map-africa.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "pwwZu{7f~(", 
+            "note_model_uuid": "9245964f-cc9b-11e6-9699-a0481cc15658", 
+            "tags": [
+                "UG::Continents"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Australia (Oceania)", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "<img src=\"ug-map-oceania.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "qFuGdDx^Yv", 
+            "note_model_uuid": "9245964f-cc9b-11e6-9699-a0481cc15658", 
+            "tags": [
+                "UG::Continents"
             ]
         }
     ]
