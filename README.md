@@ -4,8 +4,8 @@
 
 - the world's **[206 sovereign states](https://en.wikipedia.org/wiki/List_of_sovereign_states)** (824 cards)
 - **67 overseas territories**, dependent areas, and more (227 cards)
-- **39 oceans and seas** (39 cards, maps only)
-- for a total of **312 unique notes**, **1090 cards**, **260 flags**, and **310 maps**.
+- **39 oceans and seas**, and **7 continents** (46 cards, maps only)
+- for a total of **319 unique notes**, **1097 cards**, **260 flags**, and **317 maps**.
 
 | Flag > Country | Map > Country |
 | --- | --- |
@@ -26,8 +26,7 @@ Some cards include additional information to provide a bit of help or context:
 
 The following **tags** are available to create filtered decks (cf. [Advanced use](#advanced-use) section below):
 
-- `UG::Sovereign_State`
-- `UG::Oceans+Seas`
+- `UG::Sovereign_State`, `UG::Oceans+Seas`, `UG::Continents`
 - `UG::Africa`, `UG::America`, `UG::Asia`, `UG::Europe`, `UG::Oceania`
 - `UG::North+Central_America`, `UG::South_America`, `UG::Caribbean`, `UG::Middle_East`, `UG::Southeast_Asia`, `UG::European_Union`
 
