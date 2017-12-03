@@ -613,6 +613,7 @@
         "ug-map-antigua_and_barbuda.png", 
         "ug-map-melanesia.jpg", 
         "ug-flag-netherlands.svg", 
+        "ug-map-antartica.png", 
         "ug-map-bulgaria.png", 
         "ug-map-grenada.png", 
         "ug-flag-zanzibar.svg", 
@@ -7470,6 +7471,26 @@
             ], 
             "flags": 0, 
             "guid": "qFuGdDx^Yv", 
+            "note_model_uuid": "9245964f-cc9b-11e6-9699-a0481cc15658", 
+            "tags": [
+                "UG::Continents"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Antartica", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "<img src=\"ug-map-antartica.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "Cf2@;p<aL", 
             "note_model_uuid": "9245964f-cc9b-11e6-9699-a0481cc15658", 
             "tags": [
                 "UG::Continents"
