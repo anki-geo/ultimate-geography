@@ -805,7 +805,7 @@
                 "Constituent country of the United Kingdom.", 
                 "London", 
                 "", 
-                "", 
+                "Constituent country", 
                 "<img src=\"ug-flag-england.svg\" />", 
                 "", 
                 "<img src=\"ug-map-england.png\" />"
@@ -845,7 +845,7 @@
                 "", 
                 "London", 
                 "", 
-                "", 
+                "Sovereign country", 
                 "<img src=\"ug-flag-united_kingdom.svg\" />", 
                 "", 
                 "<img src=\"ug-map-united_kingdom.png\" />"
@@ -5994,7 +5994,7 @@
                 "Special municipality of the Netherlands.", 
                 "Oranjestad", 
                 "", 
-                "", 
+                "Special municipality", 
                 "<img src=\"ug-flag-sint_eustatius.svg\" />", 
                 "", 
                 "<img src=\"ug-map-sint_eustatius.png\" />"
@@ -6096,7 +6096,7 @@
                 "Constituent country of the Kingdom of the Netherlands.", 
                 "Oranjestad", 
                 "", 
-                "", 
+                "Constituent country", 
                 "<img src=\"ug-flag-aruba.svg\" />", 
                 "", 
                 "<img src=\"ug-map-aruba.png\" />"
