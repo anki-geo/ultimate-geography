@@ -182,6 +182,7 @@
         "ug-flag-bulgaria.svg", 
         "ug-flag-sweden.svg", 
         "ug-map-bhutan.png", 
+        "ug-map-antarctica.png", 
         "ug-map-liechtenstein.png", 
         "ug-map-ghana.png", 
         "ug-flag-slovakia.svg", 
@@ -613,7 +614,6 @@
         "ug-map-antigua_and_barbuda.png", 
         "ug-map-melanesia.jpg", 
         "ug-flag-netherlands.svg", 
-        "ug-map-antartica.png", 
         "ug-map-bulgaria.png", 
         "ug-map-grenada.png", 
         "ug-flag-zanzibar.svg", 
@@ -7480,14 +7480,14 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Antartica", 
+                "Antarctica", 
                 "", 
                 "", 
                 "", 
                 "", 
                 "", 
                 "", 
-                "<img src=\"ug-map-antartica.png\" />"
+                "<img src=\"ug-map-antarctica.png\" />"
             ], 
             "flags": 0, 
             "guid": "Cf2@;p<aL", 
