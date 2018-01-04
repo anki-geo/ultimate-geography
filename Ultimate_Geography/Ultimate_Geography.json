@@ -2869,7 +2869,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-sudan.svg\" />", 
-                "", 
+                "Palestine (red arrow, green stripe)",
                 "<img src=\"ug-map-sudan.png\" />"
             ], 
             "flags": 0, 
@@ -3658,7 +3658,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-palestine.svg\" />", 
-                "Jordan (white star in arrow, longer arrow)", 
+                "Jordan (white star in arrow, longer arrow) and Sudan (green arrow, red stripe)",
                 "<img src=\"ug-map-palestine.png\" />"
             ], 
             "flags": 0, 
