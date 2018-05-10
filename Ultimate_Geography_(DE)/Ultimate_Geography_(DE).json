@@ -1058,7 +1058,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-andorra.png\" />", 
-                "", 
+                "Moldova (wider, emblem with eagle)", 
                 "<img src=\"ug-map-andorra.png\" />"
             ], 
             "flags": 0, 
@@ -1533,7 +1533,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-moldova.svg\" />", 
-                "", 
+                "Andorra (narrower, different emblem)", 
                 "<img src=\"ug-map-moldova.png\" />"
             ], 
             "flags": 0, 
@@ -4045,7 +4045,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-australia.svg\" />", 
-                "", 
+                "New Zealand (red stars, two fewer stars)", 
                 "<img src=\"ug-map-australia.png\" />"
             ], 
             "flags": 0, 
@@ -5020,7 +5020,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-new_zealand.svg\" />", 
-                "", 
+                "Australia (white stars, two more stars)", 
                 "<img src=\"ug-map-new_zealand.png\" />"
             ], 
             "flags": 0, 
@@ -5397,7 +5397,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-curacao.svg\" />", 
-                "", 
+                "Nauru (single star below yellow band)", 
                 "<img src=\"ug-map-curacao.png\" />"
             ], 
             "flags": 0, 
@@ -5662,7 +5662,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-nauru.svg\" />", 
-                "", 
+                "Curaçao (two stars in top-left corner)", 
                 "<img src=\"ug-map-nauru.png\" />"
             ], 
             "flags": 0, 
