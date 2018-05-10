@@ -261,6 +261,7 @@
         "ug-map-montserrat.png", 
         "ug-map-artsakh.png", 
         "ug-map-slovakia.png", 
+        "ug-map-baltic_sea.png", 
         "ug-map-zambia.png", 
         "ug-flag-south_korea.svg", 
         "ug-flag-transnistria.svg", 
@@ -382,7 +383,6 @@
         "ug-flag-malaysia.svg", 
         "ug-map-lithuania.png", 
         "ug-map-cocos_islands.png", 
-        "ug-map-baltic_sea.jpg", 
         "ug-map-saudi_arabia.png", 
         "ug-flag-mount_athos.png", 
         "ug-map-hudson_bay.jpg", 
@@ -6625,7 +6625,7 @@
                 "", 
                 "", 
                 "", 
-                "<img src=\"ug-map-baltic_sea.jpg\" />"
+                "<img src=\"ug-map-baltic_sea.png\" />"
             ], 
             "flags": 0, 
             "guid": "v+QJJz`:fG", 
