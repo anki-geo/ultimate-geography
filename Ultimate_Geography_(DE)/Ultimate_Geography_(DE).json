@@ -4217,7 +4217,7 @@
                 "", 
                 "Georgetown", 
                 "", 
-                "", 
+                "One-word country name", 
                 "<img src=\"ug-flag-guyana.svg\" />", 
                 "", 
                 "<img src=\"ug-map-guyana.png\" />"
@@ -4650,7 +4650,7 @@
                 "Overseas department of France.", 
                 "Basse-Terre", 
                 "", 
-                "", 
+                "Not a sovereign country", 
                 "", 
                 "", 
                 "<img src=\"ug-map-guadeloupe.png\" />"
@@ -5292,7 +5292,7 @@
                 "Overseas territory of the United Kingdom.", 
                 "George Town", 
                 "", 
-                "", 
+                "Two-word country name", 
                 "<img src=\"ug-flag-cayman_islands.svg\" />", 
                 "", 
                 "<img src=\"ug-map-cayman_islands.png\" />"
@@ -5785,7 +5785,7 @@
                 "", 
                 "Basseterre", 
                 "", 
-                "", 
+                "Sovereign country", 
                 "<img src=\"ug-flag-saint_kitts_and_nevis.svg\" />", 
                 "", 
                 "<img src=\"ug-map-saint_kitts_and_nevis.png\" />"
