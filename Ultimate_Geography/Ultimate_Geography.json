@@ -261,6 +261,7 @@
         "ug-map-montserrat.png", 
         "ug-map-artsakh.png", 
         "ug-map-slovakia.png", 
+        "ug-map-baltic_sea.png", 
         "ug-map-zambia.png", 
         "ug-flag-south_korea.svg", 
         "ug-flag-transnistria.svg", 
@@ -382,7 +383,6 @@
         "ug-flag-malaysia.svg", 
         "ug-map-lithuania.png", 
         "ug-map-cocos_islands.png", 
-        "ug-map-baltic_sea.jpg", 
         "ug-map-saudi_arabia.png", 
         "ug-flag-mount_athos.png", 
         "ug-map-hudson_bay.jpg", 
@@ -1059,7 +1059,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-andorra.png\" />", 
-                "", 
+                "Moldova (wider, emblem with eagle)", 
                 "<img src=\"ug-map-andorra.png\" />"
             ], 
             "flags": 0, 
@@ -1534,7 +1534,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-moldova.svg\" />", 
-                "", 
+                "Andorra (narrower, different emblem)", 
                 "<img src=\"ug-map-moldova.png\" />"
             ], 
             "flags": 0, 
@@ -2869,7 +2869,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-sudan.svg\" />", 
-                "Palestine (red arrow, green stripe)",
+                "Palestine (red arrow, green stripe)", 
                 "<img src=\"ug-map-sudan.png\" />"
             ], 
             "flags": 0, 
@@ -2886,8 +2886,8 @@
             "fields": [
                 "Swaziland", 
                 "", 
-                "Lobamba", 
-                "", 
+                "Mbabane", 
+                "While Mbabane is the official, executive capital, Lobamba is the traditional, spiritual and legislative capital.", 
                 "", 
                 "<img src=\"ug-flag-swaziland.svg\" />", 
                 "", 
@@ -3658,7 +3658,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-palestine.svg\" />", 
-                "Jordan (white star in arrow, longer arrow) and Sudan (green arrow, red stripe)",
+                "Jordan (white star in arrow, longer arrow) and Sudan (green arrow, red stripe)", 
                 "<img src=\"ug-map-palestine.png\" />"
             ], 
             "flags": 0, 
@@ -3806,8 +3806,8 @@
             "fields": [
                 "Sri Lanka", 
                 "", 
-                "Colombo", 
-                "", 
+                "Sri Jayawardenepura Kotte", 
+                "Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.", 
                 "", 
                 "<img src=\"ug-flag-sri_lanka.svg\" />", 
                 "", 
@@ -4046,7 +4046,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-australia.svg\" />", 
-                "", 
+                "New Zealand (red stars, two fewer stars)", 
                 "<img src=\"ug-map-australia.png\" />"
             ], 
             "flags": 0, 
@@ -4217,8 +4217,8 @@
                 "Guyana", 
                 "", 
                 "Georgetown", 
-                "One-word country name",
                 "", 
+                "One-word country name", 
                 "<img src=\"ug-flag-guyana.svg\" />", 
                 "", 
                 "<img src=\"ug-map-guyana.png\" />"
@@ -4650,8 +4650,8 @@
                 "Guadeloupe", 
                 "Overseas department of France.", 
                 "Basse-Terre", 
-                "Not a sovereign country",
                 "", 
+                "Not a sovereign country", 
                 "", 
                 "", 
                 "<img src=\"ug-map-guadeloupe.png\" />"
@@ -5021,7 +5021,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-new_zealand.svg\" />", 
-                "", 
+                "Australia (white stars, two more stars)", 
                 "<img src=\"ug-map-new_zealand.png\" />"
             ], 
             "flags": 0, 
@@ -5292,8 +5292,8 @@
                 "Cayman Islands", 
                 "Overseas territory of the United Kingdom.", 
                 "George Town", 
-                "Two-word country name",
                 "", 
+                "Two-word country name", 
                 "<img src=\"ug-flag-cayman_islands.svg\" />", 
                 "", 
                 "<img src=\"ug-map-cayman_islands.png\" />"
@@ -5398,7 +5398,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-curacao.svg\" />", 
-                "", 
+                "Nauru (single star below yellow band)", 
                 "<img src=\"ug-map-curacao.png\" />"
             ], 
             "flags": 0, 
@@ -5663,7 +5663,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-nauru.svg\" />", 
-                "", 
+                "Curaçao (two stars in top-left corner)", 
                 "<img src=\"ug-map-nauru.png\" />"
             ], 
             "flags": 0, 
@@ -5785,8 +5785,8 @@
                 "Saint Kitts and Nevis", 
                 "", 
                 "Basseterre", 
-                "Sovereign country",
                 "", 
+                "Sovereign country", 
                 "<img src=\"ug-flag-saint_kitts_and_nevis.svg\" />", 
                 "", 
                 "<img src=\"ug-map-saint_kitts_and_nevis.png\" />"
@@ -6626,7 +6626,7 @@
                 "", 
                 "", 
                 "", 
-                "<img src=\"ug-map-baltic_sea.jpg\" />"
+                "<img src=\"ug-map-baltic_sea.png\" />"
             ], 
             "flags": 0, 
             "guid": "epvt3>HH?U", 

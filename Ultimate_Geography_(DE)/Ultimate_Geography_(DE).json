@@ -261,6 +261,7 @@
         "ug-map-montserrat.png", 
         "ug-map-artsakh.png", 
         "ug-map-slovakia.png", 
+        "ug-map-baltic_sea.png", 
         "ug-map-zambia.png", 
         "ug-flag-south_korea.svg", 
         "ug-flag-transnistria.svg", 
@@ -382,7 +383,6 @@
         "ug-flag-malaysia.svg", 
         "ug-map-lithuania.png", 
         "ug-map-cocos_islands.png", 
-        "ug-map-baltic_sea.jpg", 
         "ug-map-saudi_arabia.png", 
         "ug-flag-mount_athos.png", 
         "ug-map-hudson_bay.jpg", 
@@ -714,7 +714,7 @@
             ], 
             "latexPost": "\\end{document}", 
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
-            "name": "Ultimate Geography (DE)-9dc01", 
+            "name": "Ultimate Geography (DE)", 
             "req": [
                 [
                     0, 
@@ -1058,7 +1058,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-andorra.png\" />", 
-                "", 
+                "Moldova (wider, emblem with eagle)", 
                 "<img src=\"ug-map-andorra.png\" />"
             ], 
             "flags": 0, 
@@ -1533,7 +1533,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-moldova.svg\" />", 
-                "", 
+                "Andorra (narrower, different emblem)", 
                 "<img src=\"ug-map-moldova.png\" />"
             ], 
             "flags": 0, 
@@ -2885,8 +2885,8 @@
             "fields": [
                 "Swaziland", 
                 "", 
-                "Lobamba", 
-                "", 
+                "Mbabane", 
+                "While Mbabane is the official, executive capital, Lobamba is the traditional, spiritual and legislative capital.", 
                 "", 
                 "<img src=\"ug-flag-swaziland.svg\" />", 
                 "", 
@@ -3805,8 +3805,8 @@
             "fields": [
                 "Sri Lanka", 
                 "", 
-                "Colombo", 
-                "", 
+                "Sri Jayawardenepura Kotte", 
+                "Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.", 
                 "", 
                 "<img src=\"ug-flag-sri_lanka.svg\" />", 
                 "", 
@@ -4045,7 +4045,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-australia.svg\" />", 
-                "", 
+                "New Zealand (red stars, two fewer stars)", 
                 "<img src=\"ug-map-australia.png\" />"
             ], 
             "flags": 0, 
@@ -4217,7 +4217,7 @@
                 "", 
                 "Georgetown", 
                 "", 
-                "", 
+                "One-word country name", 
                 "<img src=\"ug-flag-guyana.svg\" />", 
                 "", 
                 "<img src=\"ug-map-guyana.png\" />"
@@ -4650,7 +4650,7 @@
                 "Overseas department of France.", 
                 "Basse-Terre", 
                 "", 
-                "", 
+                "Not a sovereign country", 
                 "", 
                 "", 
                 "<img src=\"ug-map-guadeloupe.png\" />"
@@ -5020,7 +5020,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-new_zealand.svg\" />", 
-                "", 
+                "Australia (white stars, two more stars)", 
                 "<img src=\"ug-map-new_zealand.png\" />"
             ], 
             "flags": 0, 
@@ -5292,7 +5292,7 @@
                 "Overseas territory of the United Kingdom.", 
                 "George Town", 
                 "", 
-                "", 
+                "Two-word country name", 
                 "<img src=\"ug-flag-cayman_islands.svg\" />", 
                 "", 
                 "<img src=\"ug-map-cayman_islands.png\" />"
@@ -5397,7 +5397,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-curacao.svg\" />", 
-                "", 
+                "Nauru (single star below yellow band)", 
                 "<img src=\"ug-map-curacao.png\" />"
             ], 
             "flags": 0, 
@@ -5662,7 +5662,7 @@
                 "", 
                 "", 
                 "<img src=\"ug-flag-nauru.svg\" />", 
-                "", 
+                "Curaçao (two stars in top-left corner)", 
                 "<img src=\"ug-map-nauru.png\" />"
             ], 
             "flags": 0, 
@@ -5785,7 +5785,7 @@
                 "", 
                 "Basseterre", 
                 "", 
-                "", 
+                "Sovereign country", 
                 "<img src=\"ug-flag-saint_kitts_and_nevis.svg\" />", 
                 "", 
                 "<img src=\"ug-map-saint_kitts_and_nevis.png\" />"
@@ -6625,7 +6625,7 @@
                 "", 
                 "", 
                 "", 
-                "<img src=\"ug-map-baltic_sea.jpg\" />"
+                "<img src=\"ug-map-baltic_sea.png\" />"
             ], 
             "flags": 0, 
             "guid": "v+QJJz`:fG", 
