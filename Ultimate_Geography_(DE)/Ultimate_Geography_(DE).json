@@ -925,8 +925,8 @@
             "data": "", 
             "fields": [
                 "Georgien", 
-                "Die Landesteile <b>Abchasien</b> und <b>Südossetien</b> sind abtrünnig und werden nur von Russland und einigen weiteren Staaten als souverän anerkannt.", 
-                "<div>Tiflis (offiziell),&nbsp;Kutaissi (Legislative)</div>", 
+                "Die Landesteile Abchasien und Südossetien sind abtrünnig und werden nur von Russland und einigen weiteren Staaten als souverän anerkannt.", 
+                "Tiflis (offiziell), Kutaissi (Legislative)", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-georgia.svg\" />", 
@@ -990,7 +990,7 @@
             "data": "", 
             "fields": [
                 "Grönland", 
-                "<div>Parlamentarische Monarchie mit Selbstverwaltung</div><div>Politisch gesehen ein autonomer Bestandteil des Königreichs Dänemark. Gehört geologisch zum arktischen Nordamerika.</div>", 
+                "Parlamentarische Monarchie mit Selbstverwaltung. Politisch gesehen ein autonomer Bestandteil des Königreichs Dänemark. Gehört geologisch zum arktischen Nordamerika.", 
                 "Nuuk", 
                 "", 
                 "", 
@@ -1159,7 +1159,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Bosnien und Herzegowina</div>", 
+                "Bosnien und Herzegowina", 
                 "", 
                 "Sarajevo", 
                 "", 
@@ -1291,7 +1291,7 @@
             "data": "", 
             "fields": [
                 "Färöer", 
-                "Parlamentarische Monarchie mit Selbstverwaltung (Dänische Krone).<div>Die Inselbewohner (18 Inseln) werden Färinger, oder auch Färöer genannt.</div>", 
+                "Parlamentarische Monarchie mit Selbstverwaltung (Dänische Krone). Die Inselbewohner (18 Inseln) werden Färinger, oder auch Färöer genannt.", 
                 "Tórshavn", 
                 "", 
                 "", 
@@ -1956,9 +1956,9 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Republik Zypern</div>", 
-                "<div>Rechtshoheit kann nur im Südteil ihres anerkannten Staatsgebiets ausgeübt werden.</div>Seit&nbsp;1. Mai 2004 EU-Mitglied,1. Januar 2008 Euro-Einführung.", 
-                "<div>Nikosia</div>", 
+                "Republik Zypern", 
+                "Rechtshoheit kann nur im Südteil ihres anerkannten Staatsgebiets ausgeübt werden. Seit 1. Mai 2004 EU-Mitglied, 1. Januar 2008 Euro-Einführung.", 
+                "Nikosia", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-cyprus.svg\" />", 
@@ -2024,7 +2024,7 @@
             "fields": [
                 "Algerien", 
                 "", 
-                "<div>Algier</div>", 
+                "Algier", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-algeria.svg\" />", 
@@ -2067,7 +2067,7 @@
                 "Benin", 
                 "", 
                 "Porto-Novo", 
-                "<div><b>Porto-Nobo</b> ist die offizielle Hauptstadt, aber <b>Cotonou</b> ist der Regierungssitz.</div>", 
+                "Porto-Nobo ist die offizielle Hauptstadt, aber Cotonou ist der Regierungssitz.", 
                 "", 
                 "<img src=\"ug-flag-benin.svg\" />", 
                 "", 
@@ -2108,7 +2108,7 @@
             "fields": [
                 "Burkina Faso", 
                 "", 
-                "<div>Ouagadougou (Wagadugu)</div>", 
+                "Ouagadougou (Wagadugu)", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-burkina_faso.svg\" />", 
@@ -2211,7 +2211,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Zentralafrikanische Republik</div>", 
+                "Zentralafrikanische Republik", 
                 "", 
                 "Bangui", 
                 "", 
@@ -2296,7 +2296,7 @@
             "data": "", 
             "fields": [
                 "(Union der) Komoren", 
-                "umfassen drei der vier Hauptinseln des Komorenarchipels,&nbsp;die vierte Hauptinsel Mayotte (Mahoré) ist Übersee-Département Frankreichs und wird ebenfalls von der Union der Komoren beansprucht", 
+                "umfassen drei der vier Hauptinseln des Komorenarchipels, die vierte Hauptinsel Mayotte (Mahoré) ist Übersee-Département Frankreichs und wird ebenfalls von der Union der Komoren beansprucht", 
                 "Moroni", 
                 "", 
                 "", 
@@ -2319,7 +2319,7 @@
                 "Elfenbeinküste (Côte d’Ivoire)", 
                 "", 
                 "Yamoussoukro", 
-                "<div>Hauptstadt<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Yamoussoukro,&nbsp;Regierungssitz<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Abidjan</div>", 
+                "Hauptstadt: Yamoussoukro. Regierungssitz: Abidjan", 
                 "", 
                 "<img src=\"ug-flag-ivory_coast.svg\" />", 
                 "Irland (Orange und Grün vertauscht)", 
@@ -2337,7 +2337,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Demokratische Republik Kongo</div>", 
+                "Demokratische Republik Kongo", 
                 "von 1971 bis 1997 Zaire", 
                 "Kinshasa", 
                 "", 
@@ -2379,7 +2379,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Guinea-Bissau</div>", 
+                "Guinea-Bissau", 
                 "", 
                 "Bissau", 
                 "", 
@@ -2402,7 +2402,7 @@
             "fields": [
                 "Eritrea", 
                 "", 
-                "<div>Asmara (Asmära)</div>", 
+                "Asmara (Asmära)", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-eritrea.svg\" />", 
@@ -2485,7 +2485,7 @@
             "data": "", 
             "fields": [
                 "Lesotho", 
-                "1868 bis 1966: Basutoland<div>Aufgrund seiner besonderen Höhenlage wird das Land auch The Kingdom in the Sky („Das Königreich im Himmel“) genannt.</div>", 
+                "1868 bis 1966: Basutoland. Aufgrund seiner besonderen Höhenlage wird das Land auch The Kingdom in the Sky („Das Königreich im Himmel“) genannt.", 
                 "Maseru", 
                 "", 
                 "", 
@@ -2886,7 +2886,7 @@
                 "Swasiland", 
                 "", 
                 "Mbabane", 
-                "Hauptstadt:&nbsp;Mbabane (Exekutive)<div>Regierungssitz: Lobamba (Legislative)</div>", 
+                "Hauptstadt: Mbabane (Exekutive). Regierungssitz: Lobamba (Legislative)", 
                 "", 
                 "<img src=\"ug-flag-swaziland.svg\" />", 
                 "", 
@@ -2906,7 +2906,7 @@
             "fields": [
                 "Tansania", 
                 "", 
-                "offizielle Hauptstadt: Dodoma<div>Regierungssitz:&nbsp;Daressalam</div>", 
+                "Offizielle Hauptstadt: Dodoma. Regierungssitz: Daressalam.", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-tanzania.svg\" />", 
@@ -2990,7 +2990,7 @@
             "fields": [
                 "Demokratische Arabische Republik Sahara (DARS)", 
                 "Teilweise anerkannter Staat, beansprucht von Marokko.", 
-                "verfassungsgemäß: El Aaiún<div>de facto: Tifariti</div>", 
+                "Verfassungsgemäß: El Aaiún. De facto: Tifariti", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-sahrawi_republic.svg\" />", 
@@ -3052,8 +3052,8 @@
             "data": "", 
             "fields": [
                 "Kanarischen Inseln", 
-                "<div>Eine der 17 Autonomen Gemeinschaften Spaniens (repräsentieren die Regionen Spaniens).</div><div>Hauptinseln:&nbsp;Teneriffa,<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Fuerteventura,&nbsp;Gran Canaria,&nbsp;Lanzarote,&nbsp;La Palma,&nbsp;La Gomera,&nbsp;El Hierro</div>", 
-                "<div>Santa Cruz de Tenerife&nbsp;und Las Palmas de Gran Canaria</div>", 
+                "Eine der 17 Autonomen Gemeinschaften Spaniens (repräsentieren die Regionen Spaniens). Hauptinseln: Teneriffa, Fuerteventura, Gran Canaria, Lanzarote, La Palma, La Gomera, El Hierro.", 
+                "Santa Cruz de Tenerife und Las Palmas de Gran Canaria", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-canary_islands.svg\" />", 
@@ -3094,7 +3094,7 @@
             "fields": [
                 "Bahrain", 
                 "", 
-                "<div>Manama (al-Manāma)</div>", 
+                "Manama (al-Manāma)", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-bahrain.svg\" />", 
@@ -3222,7 +3222,7 @@
             "data": "", 
             "fields": [
                 "Indonesien", 
-                "Das Land verteilt sich auf 17.508 Inseln.<div>Hauptinseln: Sumatra, Java, Borneo, Sulawesi und Neuguinea<br /><div>Indonesien grenzt <b>auf Borneo an Malaysia</b>, <b>auf Neuguinea an Papua-Neuguinea</b> und <b>auf Timor an Osttimor</b>.</div></div>", 
+                "Das Land verteilt sich auf 17.508 Inseln. Hauptinseln: Sumatra, Java, Borneo, Sulawesi und Neuguinea. Indonesien grenzt auf Borneo an Malaysia, auf Neuguinea an Papua-Neuguinea und auf Timor an Osttimor.", 
                 "Jakarta", 
                 "", 
                 "", 
@@ -3244,7 +3244,7 @@
             "data": "", 
             "fields": [
                 "Indien", 
-                "Der Eigenname der Republik lautet in den beiden landesweit gültigen Amtssprachen <b>Bharat Ganarajya (Hindi)</b>&nbsp;und <b>Republic of India (Englisch)</b>.", 
+                "Der Eigenname der Republik lautet in den beiden landesweit gültigen Amtssprachen Bharat Ganarajya (Hindi) und Republic of India (Englisch).", 
                 "Neu-Delhi", 
                 "", 
                 "", 
@@ -3265,7 +3265,7 @@
             "data": "", 
             "fields": [
                 "Hongkong", 
-                "<div>Sonderverwaltungszone Hongkong der&nbsp;Volksrepublik China.</div><div>Hongkong wurde während des Ersten Opiumkriegs <b>1841 vom Vereinigten Königreich besetzt</b> und durch den Vertrag von Nanking <b>1843 zur britischen Kronkolonie</b> erklärt.</div><div><b>1997</b> erfolgte die <b>Übergabe</b> der Staatshoheit <b>an die Volksrepublik China</b>.</div>", 
+                "Sonderverwaltungszone Hongkong der Volksrepublik China. Hongkong wurde während des Ersten Opiumkriegs 1841 vom Vereinigten Königreich besetzt und durch den Vertrag von Nanking 1843 zur britischen Kronkolonie erklärt. 1997 erfolgte die Übergabe der Staatshoheit an die Volksrepublik China.", 
                 "", 
                 "", 
                 "", 
@@ -3351,7 +3351,7 @@
             "data": "", 
             "fields": [
                 "Südkorea", 
-                "offiziell:&nbsp;Republik Korea", 
+                "offiziell: Republik Korea", 
                 "Seoul", 
                 "", 
                 "", 
@@ -3545,7 +3545,7 @@
             "data": "", 
             "fields": [
                 "Mongolei", 
-                "Mit rund 3 Millionen Einwohnern und einer Fläche etwa viereinhalbmal so groß wie Deutschland&nbsp;der <b>am dünnsten besiedelte Staat der Welt</b>.", 
+                "Mit rund 3 Millionen Einwohnern und einer Fläche etwa viereinhalbmal so groß wie Deutschland der am dünnsten besiedelte Staat der Welt.", 
                 "Ulaanbaatar", 
                 "", 
                 "", 
@@ -3587,7 +3587,7 @@
             "data": "", 
             "fields": [
                 "Malaysia", 
-                "Mit den Teilen Westmalaysia auf der&nbsp;Malaiischen Halbinsel und Ostmalaysia auf Borneo.", 
+                "Mit den Teilen Westmalaysia auf der Malaiischen Halbinsel und Ostmalaysia auf Borneo.", 
                 "Kuala Lumpur", 
                 "", 
                 "", 
@@ -3653,7 +3653,7 @@
             "fields": [
                 "Palästina", 
                 "Staatlichkeit völkerrechtlich umstritten.", 
-                "<div>de facto: Ramallah</div><div>beansprucht:&nbsp;Ostjerusalem</div>", 
+                "De facto: Ramallah. Beansprucht: Ostjerusalem.", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-palestine.svg\" />", 
@@ -3739,7 +3739,7 @@
             "data": "", 
             "fields": [
                 "Singapur", 
-                "Insel- und Stadtstaat.<div>Mitglied im Commonwealth of Nations.</div>", 
+                "Insel- und Stadtstaat. Mitglied im Commonwealth of Nations.", 
                 "Singapur", 
                 "", 
                 "", 
@@ -3868,7 +3868,7 @@
             "data": "", 
             "fields": [
                 "Timor-Leste", 
-                "dt. auch Osttimor<div>grenz auf der Insel Timor an Indonesien</div>", 
+                "dt. auch Osttimor. Grenz auf der Insel Timor an Indonesien.", 
                 "Dili", 
                 "", 
                 "", 
@@ -3934,7 +3934,7 @@
             "fields": [
                 "Jemen", 
                 "", 
-                "de jure: Sanaa<div>de facto: Aden</div>", 
+                "De jure: Sanaa. De facto: Aden.", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-yemen.svg\" />", 
@@ -4041,7 +4041,7 @@
             "fields": [
                 "Australien", 
                 "", 
-                "<div>Canberra</div>", 
+                "Canberra", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-australia.svg\" />", 
@@ -4061,7 +4061,7 @@
             "data": "", 
             "fields": [
                 "Salomonen", 
-                "Auch Salomoninseln.<div>Mitglied des Commonwealth of Nations.</div>", 
+                "Auch Salomoninseln. Mitglied des Commonwealth of Nations.", 
                 "Honiara", 
                 "", 
                 "", 
@@ -4279,7 +4279,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Suriname (dt. auch Surinam)&nbsp;", 
+                "Suriname (dt. auch Surinam) ", 
                 "25. November 1975: Unabhängigkeit von den Niederlanden", 
                 "Paramaribo", 
                 "", 
@@ -4366,7 +4366,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Föderierte Staaten von Mikronesien</div>", 
+                "Föderierte Staaten von Mikronesien", 
                 "Inselstaat im westlichen Pazifik.", 
                 "Palikir", 
                 "", 
@@ -4388,7 +4388,7 @@
             "data": "", 
             "fields": [
                 "Guam", 
-                "Nichtinkorporiertes US-amerikanisches Außengebiet<div>Größte und südlichste Insel des <b>Marianen-Archipels</b> im westpazifischen Ozean</div>", 
+                "Nichtinkorporiertes US-amerikanisches Außengebiet. Größte und südlichste Insel des Marianen-Archipels im westpazifischen Ozean", 
                 "Hagåtña", 
                 "", 
                 "", 
@@ -4517,7 +4517,7 @@
             "fields": [
                 "Kuba", 
                 "", 
-                "<div>Havanna (La Habana)</div>", 
+                "Havanna (La Habana)", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-cuba.svg\" />", 
@@ -4537,8 +4537,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Dominikanische Republik</div>", 
-                "Auf der Insel Hispaniola der Großen Antillen (zwischen dem Atlantik und der Karibik) gelegen.<div>Auf Hispaniola liegen Haiti und Dominikanische Republik.</div>", 
+                "Dominikanische Republik", 
+                "Auf der Insel Hispaniola der Großen Antillen (zwischen dem Atlantik und der Karibik) gelegen. Auf Hispaniola liegen Haiti und Dominikanische Republik.", 
                 "Santo Domingo", 
                 "", 
                 "", 
@@ -4560,7 +4560,7 @@
             "data": "", 
             "fields": [
                 "Haiti", 
-                "Inselstaat auf der Insel Hispaniola (in den Großen Antillen).<div>Auf der Insel Hispaniola liegen Haiti und Dominikanische Republik.</div>", 
+                "Inselstaat auf der Insel Hispaniola (in den Großen Antillen). Auf der Insel Hispaniola liegen Haiti und Dominikanische Republik.", 
                 "Port-au-Prince", 
                 "", 
                 "", 
@@ -4647,7 +4647,7 @@
             "data": "", 
             "fields": [
                 "Guadeloupe", 
-                "Überseedépartement von <b>Frankreich</b>, bestehend aus einer Gruppe von Inseln der <b>Kleinen Antillen</b>", 
+                "Überseedépartement von Frankreich, bestehend aus einer Gruppe von Inseln der Kleinen Antillen", 
                 "Basse-Terre", 
                 "", 
                 "Not a sovereign country", 
@@ -4733,7 +4733,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Costa Rica</div>", 
+                "Costa Rica", 
                 "", 
                 "San José", 
                 "", 
@@ -5035,8 +5035,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div><div>Französisch-Polynesien</div></div>", 
-                "Französisches Überseegebiet im südlichen Pazifik.<div>Dazu gehören u.a. die Insel Tahiti und das Atoll Mururoa (auf dem franz. Atomtests stattfanden).</div>", 
+                "Französisch-Polynesien", 
+                "Französisches Überseegebiet im südlichen Pazifik. Dazu gehören u.a. die Insel Tahiti und das Atoll Mururoa (auf dem franz. Atomtests stattfanden).", 
                 "Papeete", 
                 "", 
                 "", 
@@ -5056,7 +5056,7 @@
             "data": "", 
             "fields": [
                 "Philippinen", 
-                "Staat und Archipel mit 7.641 Inseln.<div>Neben Osttimor (Timor-Leste) der einzige asiatische Staat mit katholischer Bevölkerungsmehrheit.</div>", 
+                "Staat und Archipel mit 7.641 Inseln. Neben Osttimor (Timor-Leste) der einzige asiatische Staat mit katholischer Bevölkerungsmehrheit.", 
                 "Manila", 
                 "", 
                 "", 
@@ -5078,12 +5078,12 @@
             "data": "", 
             "fields": [
                 "Galapagosinseln", 
-                "Ecuadorianische Provinz<div>Archipel im östlichen Pazifik 1000km westlich der ecuadorianischen Küste</div>", 
+                "Ecuadorianische Provinz. Archipel im östlichen Pazifik 1000km westlich der ecuadorianischen Küste.", 
                 "Puerto Baquerizo Moreno", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-galapagos_islands.svg\" />", 
-                "<div>Sierra Leone&nbsp;(etwas helleres Blau)</div>", 
+                "Sierra Leone (etwas helleres Blau)", 
                 "<img src=\"ug-map-galapagos_islands.jpg\" />"
             ], 
             "flags": 0, 
@@ -5099,7 +5099,7 @@
             "data": "", 
             "fields": [
                 "Kosovo", 
-                "112 der 193 Mitgliedstaaten der Vereinten Nationen erkennen die Republik Kosovo als unabhängig an.<div>Von Serbien beansprucht.</div>", 
+                "112 der 193 Mitgliedstaaten der Vereinten Nationen erkennen die Republik Kosovo als unabhängig an. Von Serbien beansprucht.", 
                 "Pristina", 
                 "", 
                 "", 
@@ -5204,7 +5204,7 @@
             "data": "", 
             "fields": [
                 "Grenada", 
-                "<div>Der Staat besteht aus mehreren Inseln der Inselgruppe der <b>Grenadinen</b> (Grenada selbst ist die größte), einem Teilarchipel der <b>kleinen Antillen</b></div>", 
+                "Der Staat besteht aus mehreren Inseln der Inselgruppe der Grenadinen (Grenada selbst ist die größte), einem Teilarchipel der kleinen Antillen", 
                 "St. George's", 
                 "", 
                 "", 
@@ -5227,7 +5227,7 @@
             "fields": [
                 "Bonaire", 
                 "Besondere Gemeinde der Niederlande", 
-                "<div>Kralendijk</div>", 
+                "Kralendijk", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-bonaire.svg\" />", 
@@ -5246,8 +5246,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Britische Jungferninseln</div>", 
-                "<div>Britisches Überseegebiet</div>", 
+                "Britische Jungferninseln", 
+                "Britisches Überseegebiet", 
                 "Road Town", 
                 "", 
                 "", 
@@ -5267,7 +5267,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Turks- und Caicosinseln (auch&nbsp;Turks &amp; Caicos)", 
+                "Turks- und Caicosinseln (auch Turks &amp; Caicos)", 
                 "Britisches Überseegebiet", 
                 "Cockburn Town", 
                 "", 
@@ -5288,7 +5288,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Cayman Islands (Kaimaninseln)</div>", 
+                "Cayman Islands (Kaimaninseln)", 
                 "Überseegebiet des Vereinigten Königreichs.", 
                 "George Town", 
                 "", 
@@ -5370,7 +5370,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Weihnachtsinsel</div>", 
+                "Weihnachtsinsel", 
                 "Australisches Außengebiet", 
                 "Flying Fish Cove", 
                 "", 
@@ -5392,7 +5392,7 @@
             "data": "", 
             "fields": [
                 "Curaçao", 
-                "<div>Eines der vier gleichberechtigten Länder des Königreichs der Niederlande (Niederlande,&nbsp;Aruba,&nbsp;Curaçao,&nbsp;Sint Maarten).</div><div>Eine der drei ABC-Inseln (Aruba, Bonaire, Curaçao).</div>", 
+                "Eines der vier gleichberechtigten Länder des Königreichs der Niederlande (Niederlande, Aruba, Curaçao, Sint Maarten). Eine der drei ABC-Inseln (Aruba, Bonaire, Curaçao).", 
                 "Willemstad", 
                 "", 
                 "", 
@@ -5432,8 +5432,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Französisch-Guayana</div>", 
-                "<div>Französische Überseegebiet und damit Teil der Europäischen Union. Der Euro ist gesetzliches Zahlungsmittel.</div>", 
+                "Französisch-Guayana", 
+                "Französische Überseegebiet und damit Teil der Europäischen Union. Der Euro ist gesetzliches Zahlungsmittel.", 
                 "Cayenne", 
                 "", 
                 "", 
@@ -5454,7 +5454,7 @@
             "data": "", 
             "fields": [
                 "Gibraltar", 
-                "<div>Britisches Überseegebiet</div><div>Es steht seit 1704 unter der Souveränität des Vereinigten Königreichs und wurde 1713 von Spanien offiziell im Frieden von Utrecht abgetreten, jedoch seitdem von Spanien beansprucht.</div>", 
+                "Britisches Überseegebiet. Es steht seit 1704 unter der Souveränität des Vereinigten Königreichs und wurde 1713 von Spanien offiziell im Frieden von Utrecht abgetreten, jedoch seitdem von Spanien beansprucht.", 
                 "Gibraltar", 
                 "", 
                 "", 
@@ -5474,7 +5474,7 @@
             "data": "", 
             "fields": [
                 "Guernsey", 
-                "<div>Zweitgrößte der britischen Kanalinseln.</div><div>Die Kanalinseln sind<b> nicht Teil des Vereinigten Königreichs</b>, sondern <b>Kronbesitz</b> (crown dependency) der britischen Krone (und somit nicht Teil der EU).</div>", 
+                "Zweitgrößte der britischen Kanalinseln. Die Kanalinseln sind nicht Teil des Vereinigten Königreichs, sondern Kronbesitz (crown dependency) der britischen Krone (und somit nicht Teil der EU).", 
                 "St. Peter Port", 
                 "", 
                 "", 
@@ -5493,8 +5493,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Isle of Man</div>", 
-                "<div>Insel in der Irischen See</div><div>Autonomer Kronbesitz (rown dependency) direkt der britischen Krone unterstellt, jedoch weder Teil des Vereinigten Königreichs noch Britisches Überseegebiet (auch kein Mitglied der EU).</div>", 
+                "Isle of Man", 
+                "Insel in der Irischen See. Autonomer Kronbesitz (rown dependency) direkt der britischen Krone unterstellt, jedoch weder Teil des Vereinigten Königreichs noch Britisches Überseegebiet (auch kein Mitglied der EU).", 
                 "Douglas", 
                 "", 
                 "", 
@@ -5514,7 +5514,7 @@
             "data": "", 
             "fields": [
                 "Jersey", 
-                "<div>Kronbesitz der britischen Krone</div><div>Bevölkerungsreichste Kanalinsel</div>", 
+                "Kronbesitz der britischen Krone. Bevölkerungsreichste Kanalinsel", 
                 "Saint Helier", 
                 "", 
                 "", 
@@ -5555,7 +5555,7 @@
             "data": "", 
             "fields": [
                 "Macau", 
-                "Sonderverwaltungszone der Volksrepublik China.<div>Bis 1999 war es eine portugiesische Kolonie.</div>", 
+                "Sonderverwaltungszone der Volksrepublik China. Bis 1999 war es eine portugiesische Kolonie.", 
                 "", 
                 "", 
                 "", 
@@ -5595,7 +5595,7 @@
             "data": "", 
             "fields": [
                 "Marshallinseln", 
-                "Der Inselstaat&nbsp;umfasst die gleichnamige Inselgruppe, die zu Mikronesien gehört.", 
+                "Der Inselstaat umfasst die gleichnamige Inselgruppe, die zu Mikronesien gehört.", 
                 "Majuro", 
                 "", 
                 "", 
@@ -5616,7 +5616,7 @@
             "data": "", 
             "fields": [
                 "Melilla", 
-                "Spanische Stadt (Exklave) an der nordafrikanischen Mittelmeerküste, grenzend an Marokko.<div>Gehört zur EU, ist aber vom Zollgebiet der EU ausgenommen.</div>", 
+                "Spanische Stadt (Exklave) an der nordafrikanischen Mittelmeerküste, grenzend an Marokko. Gehört zur EU, ist aber vom Zollgebiet der EU ausgenommen.", 
                 "", 
                 "", 
                 "", 
@@ -5636,7 +5636,7 @@
             "data": "", 
             "fields": [
                 "Montserrat", 
-                "Gehört zu den Kleinen Antillen.<div>Sie ist Teil der West Indies und ein <b>Überseegebiet des Vereinigten Königreichs</b>.</div>", 
+                "Gehört zu den Kleinen Antillen. Sie ist Teil der West Indies und ein Überseegebiet des Vereinigten Königreichs.", 
                 "Brades", 
                 "Nach einer Reihe von Vulkanausbrüchen wurde die eigentliche Hauptstadt Plymouth 1997 aufgegeben und Brades zur de-facto-Hauptstadt.", 
                 "", 
@@ -5659,7 +5659,7 @@
                 "Nauru", 
                 "", 
                 "Yaren", 
-                "<div>de jure: keine</div>de facto: Yaren", 
+                "De jure: keine. De facto: Yaren.", 
                 "", 
                 "<img src=\"ug-flag-nauru.svg\" />", 
                 "Curaçao (two stars in top-left corner)", 
@@ -5678,7 +5678,7 @@
             "data": "", 
             "fields": [
                 "Neukaledonien", 
-                "Bis 2003 französisches Übersee-Territorium.<div>Seitdem&nbsp;<b>zu Frankreich gehörige Überseegemeinschaft mit besonderem Status</b>&nbsp;(<i>collectivité sui generis</i>).</div>", 
+                "Bis 2003 französisches Übersee-Territorium. Seitdem zu Frankreich gehörige Überseegemeinschaft mit besonderem Status (collectivité sui generis).", 
                 "Nouméa", 
                 "", 
                 "", 
@@ -5698,7 +5698,7 @@
             "data": "", 
             "fields": [
                 "Niue", 
-                "Koralleninsel im Südpazifik.<div>Seit 1974 durch einen Assoziierungsvertrag mit Neuseeland verbunden.</div>", 
+                "Koralleninsel im Südpazifik. Seit 1974 durch einen Assoziierungsvertrag mit Neuseeland verbunden.", 
                 "Alofi", 
                 "", 
                 "", 
@@ -5739,8 +5739,8 @@
             "data": "", 
             "fields": [
                 "(Türkische Republik) Nordzypern", 
-                "&nbsp;De-facto-Regime das nur von der Türkei als Staat anerkannt wird (Besetzung 1974 durch türkische Streitkräfte).<div>&nbsp;De jure gehört das Gebiet zur Republik Zypern.</div>", 
-                "Nord-Nikosia (türk.:&nbsp;<i>Lefkoşa</i>)", 
+                " De-facto-Regime das nur von der Türkei als Staat anerkannt wird (Besetzung 1974 durch türkische Streitkräfte).  De jure gehört das Gebiet zur Republik Zypern.", 
+                "Nord-Nikosia (türk.: Lefkoşa)", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-northern_cyprus.svg\" />", 
@@ -5782,7 +5782,7 @@
             "data": "", 
             "fields": [
                 "St. Kitts und Nevis", 
-                "Mitglied im&nbsp;Commonwealth of Nations", 
+                "Mitglied im Commonwealth of Nations", 
                 "Basseterre", 
                 "", 
                 "Sovereign country", 
@@ -5867,7 +5867,7 @@
             "data": "", 
             "fields": [
                 "Tuvalu", 
-                "<div>Bis zur Unabhängigkeit 1978 hieß das Territorium Ellice Islands.</div>", 
+                "Bis zur Unabhängigkeit 1978 hieß das Territorium Ellice Islands.", 
                 "Funafuti", 
                 "", 
                 "", 
@@ -5928,7 +5928,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Åland (Ålandinseln)</div>", 
+                "Åland (Ålandinseln)", 
                 "Autonome Region Finnlands", 
                 "Mariehamn", 
                 "", 
@@ -5970,7 +5970,7 @@
             "data": "", 
             "fields": [
                 "St. Helena, Ascension und Tristan da Cunha", 
-                "<div><b>Britisches Überseegebiet</b>, bestehend aus den Inseln St. Helena und Ascension sowie der Inselgruppe&nbsp;Tristan da Cunha.</div>", 
+                "Britisches Überseegebiet, bestehend aus den Inseln St. Helena und Ascension sowie der Inselgruppe Tristan da Cunha.", 
                 "Jamestown", 
                 "", 
                 "", 
@@ -5990,7 +5990,7 @@
             "data": "", 
             "fields": [
                 "Sint Eustatius", 
-                "Besondere Gemeinde der Niederlande.<div>Eine der drei niederländischen BES-Inseln in der Karibik (Bonaire, Sint Eustatius und Saba)</div>", 
+                "Besondere Gemeinde der Niederlande. Eine der drei niederländischen BES-Inseln in der Karibik (Bonaire, Sint Eustatius und Saba)", 
                 "Oranjestad", 
                 "", 
                 "", 
@@ -6092,7 +6092,7 @@
             "data": "", 
             "fields": [
                 "Aruba", 
-                "<div>Eines der vier gleichberechtigten Länder des Königreichs der Niederlande (Niederlande,&nbsp;Aruba,&nbsp;Curaçao,&nbsp;Sint Maarten).</div><div>Eine der drei ABC-Inseln (Aruba, Bonaire, Curaçao).</div>", 
+                "Eines der vier gleichberechtigten Länder des Königreichs der Niederlande (Niederlande, Aruba, Curaçao, Sint Maarten). Eine der drei ABC-Inseln (Aruba, Bonaire, Curaçao).", 
                 "Oranjestad", 
                 "", 
                 "", 
@@ -6113,7 +6113,7 @@
             "data": "", 
             "fields": [
                 "Abchasien", 
-                "<div>Gebiet&nbsp;ist völkerrechtlich Teil von<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Georgien (Autonome Republik Abchasien)</div>", 
+                "Gebiet ist völkerrechtlich Teil von Georgien (Autonome Republik Abchasien)", 
                 "Sochumi", 
                 "", 
                 "", 
@@ -6155,8 +6155,8 @@
             "data": "", 
             "fields": [
                 "Republik Arzach", 
-                "<div>De-facto-Regime, Gebiet ist völkerrechtlich Teil von<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Aserbaidschan, bis 2017 bekannt als Republik Bergkarabach,&nbsp;überwiegend von Armeniern bewohnt</div>", 
-                "<div>Stepanakert</div>", 
+                "De-facto-Regime, Gebiet ist völkerrechtlich Teil von Aserbaidschan, bis 2017 bekannt als Republik Bergkarabach, überwiegend von Armeniern bewohnt", 
+                "Stepanakert", 
                 "", 
                 "", 
                 "<img src=\"ug-flag-artsakh.svg\" />", 
@@ -6218,7 +6218,7 @@
             "data": "", 
             "fields": [
                 "Sardinien", 
-                "Autonome Region Italiens.<div>Zweitgrößte Insel im Mittelmeer (nach Sizilien).</div>", 
+                "Autonome Region Italiens. Zweitgrößte Insel im Mittelmeer (nach Sizilien).", 
                 "Cagliari", 
                 "", 
                 "", 
@@ -6237,8 +6237,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Oblast Kaliningrad</div>", 
-                "Oblast der&nbsp;Russische Föderation.", 
+                "Oblast Kaliningrad", 
+                "Oblast der Russische Föderation.", 
                 "Kaliningrad", 
                 "", 
                 "", 
@@ -6258,7 +6258,7 @@
             "data": "", 
             "fields": [
                 "Martinique", 
-                "<b>Überseedépartement</b> und Region <b>Frankreichs</b>.<div>Gehört zu den <b>kleinen Antillen</b>.</div>", 
+                "Überseedépartement und Region Frankreichs. Gehört zu den kleinen Antillen.", 
                 "Fort-de-France", 
                 "", 
                 "", 
@@ -6299,7 +6299,7 @@
             "data": "", 
             "fields": [
                 "Korsika", 
-                "Gebietskörperschaft Frankreichs mit Sonderstatus.<div>Nach Sizilien, Sardinien und Zypern viertgrößte Mittelmeerinsel.</div>", 
+                "Gebietskörperschaft Frankreichs mit Sonderstatus. Nach Sizilien, Sardinien und Zypern viertgrößte Mittelmeerinsel.", 
                 "Ajaccio", 
                 "", 
                 "", 
@@ -6339,7 +6339,7 @@
             "data": "", 
             "fields": [
                 "Golf von Mexiko", 
-                "Randmeer des Atlantischen Ozeans,&nbsp;nahezu vollständig von Nordamerika eingeschlossene", 
+                "Randmeer des Atlantischen Ozeans, nahezu vollständig von Nordamerika eingeschlossene", 
                 "", 
                 "", 
                 "", 
@@ -6398,8 +6398,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Golf von Thailand</div>", 
-                "Randmeer des Pazifischen Ozeans<div>von Thailand, MalaysiaKambodscha und Vietnam umschlossen</div><div>grenzt es an das Südchinesische Meer</div>", 
+                "Golf von Thailand", 
+                "Randmeer des Pazifischen Ozeans. Von Thailand, MalaysiaKambodscha und Vietnam umschlossen. Grenzt es an das Südchinesische Meer", 
                 "", 
                 "", 
                 "", 
@@ -6419,7 +6419,7 @@
             "data": "", 
             "fields": [
                 "Mikronesien", 
-                "<div>(von altgriechisch mikros = klein und nēsoi = Inseln)</div>Teilregion von Ozeanien bestehend&nbsp;über 2000 tropischen Inseln und Atollen im westlichen Pazifik", 
+                "(von altgriechisch mikros = klein und nēsoi = Inseln). Teilregion von Ozeanien bestehend über 2000 tropischen Inseln und Atollen im westlichen Pazifik", 
                 "", 
                 "", 
                 "", 
@@ -6478,7 +6478,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Indischer Ozean</div>", 
+                "Indischer Ozean", 
                 "Drittgrößte Ozean der Erde (nach Pazifik und Atlantik)", 
                 "", 
                 "", 
@@ -6518,7 +6518,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Hudson Bay</div>", 
+                "Hudson Bay", 
                 "Randmeer des Atlantik", 
                 "", 
                 "", 
@@ -6539,7 +6539,7 @@
             "data": "", 
             "fields": [
                 "Labradorsee", 
-                "nördlicher Meeresarm des Atlantik&nbsp;zwischen der kanadischen Halbinsel Labrador im Südwesten und Grönland", 
+                "nördlicher Meeresarm des Atlantik zwischen der kanadischen Halbinsel Labrador im Südwesten und Grönland", 
                 "", 
                 "", 
                 "", 
@@ -6638,7 +6638,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Keltische See</div>", 
+                "Keltische See", 
                 "", 
                 "", 
                 "", 
@@ -6718,7 +6718,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Schwarzes Meer</div>", 
+                "Schwarzes Meer", 
                 "", 
                 "", 
                 "", 
@@ -6778,7 +6778,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Kaspisches Meer</div>", 
+                "Kaspisches Meer", 
                 "der größte See der Erde", 
                 "", 
                 "", 
@@ -6818,7 +6818,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Ostsibirische See</div>", 
+                "Ostsibirische See", 
                 "", 
                 "", 
                 "", 
@@ -6898,7 +6898,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Totes Meer</div>", 
+                "Totes Meer", 
                 "", 
                 "", 
                 "", 
@@ -6918,7 +6918,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Golf von Bengalen</div>", 
+                "Golf von Bengalen", 
                 "nordöstliches Randmeer des Indischen Ozeans", 
                 "", 
                 "", 
@@ -6965,7 +6965,7 @@
                 "", 
                 "", 
                 "", 
-                "<div><img src=\"ug-map-yellow_sea.jpg\" /></div>"
+                "<img src=\"ug-map-yellow_sea.jpg\" />"
             ], 
             "flags": 0, 
             "guid": "E93FJ+-35J", 
@@ -7019,13 +7019,13 @@
             "data": "", 
             "fields": [
                 "Tasmansee", 
-                "Wasserfläche zwischen Australien und Neuseeland.<div>Der Name geht auf den holländischen Entdecker Abel Tasman (1642/1643) zurück</div>", 
+                "Wasserfläche zwischen Australien und Neuseeland. Der Name geht auf den holländischen Entdecker Abel Tasman (1642/1643) zurück", 
                 "", 
                 "", 
                 "", 
                 "", 
                 "", 
-                "<div><img src=\"ug-map-tasman_sea.jpg\"><br></div>"
+                "<img src=\"ug-map-tasman_sea.jpg\">"
             ], 
             "flags": 0, 
             "guid": "pevrEWUWOC", 
@@ -7038,7 +7038,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Golf von Carpentaria</div>", 
+                "Golf von Carpentaria", 
                 "Meeresbucht, die sich prägnant in die Küste Nordaustraliens einschneidet", 
                 "", 
                 "", 
@@ -7099,7 +7099,7 @@
             "data": "", 
             "fields": [
                 "Karibisches Meer", 
-                "Nebenmeer des Atlantik<div>Bildet zusammen mit dem (nordwestlich liegenden) Golf von Mexiko das Amerikanische Mittelmeer</div><div>Am nördlichen und östlichen Rand liegen die Westindischen Inseln (große und kleine Antillen, Bahamas,&nbsp;Turks- und Caicosinseln)</div>", 
+                "Nebenmeer des Atlantik. Bildet zusammen mit dem (nordwestlich liegenden) Golf von Mexiko das Amerikanische Mittelmeer. Am nördlichen und östlichen Rand liegen die Westindischen Inseln (große und kleine Antillen, Bahamas, Turks- und Caicosinseln)", 
                 "", 
                 "", 
                 "", 
@@ -7118,7 +7118,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Golf von Kalifornien</div>", 
+                "Golf von Kalifornien", 
                 "Nebenmeer des Pazifik zwischen Mexiko und der Halbinsel Niederkalifornien (Teil Mexikos)", 
                 "", 
                 "", 
@@ -7139,7 +7139,7 @@
             "data": "", 
             "fields": [
                 "Polynesien", 
-                "Größte Inselregion Ozeaniens<div><i>[im Bild: Mikronesien: rot, Melanesien: blau, Polynesien: lila]</i></div>", 
+                "Größte Inselregion Ozeaniens.", 
                 "", 
                 "", 
                 "", 
@@ -7159,7 +7159,7 @@
             "data": "", 
             "fields": [
                 "Melanesien", 
-                "Teilregion von Ozeanien, pazifische Inselgruppe nordöstlich von Australien.<div>Zur Region zählt man die Staaten Papua-Neuguinea, Salomonen, Fidschi und Vanuatu.</div>", 
+                "Teilregion von Ozeanien, pazifische Inselgruppe nordöstlich von Australien. Zur Region zählt man die Staaten Papua-Neuguinea, Salomonen, Fidschi und Vanuatu.", 
                 "", 
                 "", 
                 "", 
@@ -7179,7 +7179,7 @@
             "data": "", 
             "fields": [
                 "Skandinavien", 
-                "Teil Nordeuropas, der je nach Definitionsweise unterschiedliche Länder umfasst, darunter <b>in jedem Fall</b> <b>Norwegen und Schweden</b> auf der Skandinavischen Halbinsel, daneben <b>im Regelfall auch Dänemark</b>.<div>Im weiteren Sinne werden auch ganz <b>Finnland</b> und <b>seltener Island und die Färöer</b> zu Skandinavien gezählt.</div>", 
+                "Teil Nordeuropas, der je nach Definitionsweise unterschiedliche Länder umfasst, darunter in jedem Fall Norwegen und Schweden auf der Skandinavischen Halbinsel, daneben im Regelfall auch Dänemark. Im weiteren Sinne werden auch ganz Finnland und seltener Island und die Färöer zu Skandinavien gezählt.", 
                 "", 
                 "", 
                 "", 
@@ -7199,7 +7199,7 @@
             "data": "", 
             "fields": [
                 "See Genezareth", 
-                "Mit 212m unter dem Meeresspiegel der <b>tiefstgelegene Süßwassersee</b> der Erde.&nbsp;<div>Nach dem Toten Meer (rund 420m unter Meeresspiegel) das <b>zweittiefst gelegene stehende Gewässer</b> der Erde.</div>", 
+                "Mit 212m unter dem Meeresspiegel der tiefstgelegene Süßwassersee der Erde. Nach dem Toten Meer (rund 420m unter Meeresspiegel) das zweittiefst gelegene stehende Gewässer der Erde.", 
                 "", 
                 "", 
                 "", 
@@ -7259,7 +7259,7 @@
             "data": "", 
             "fields": [
                 "Sizilien", 
-                "Autonome Regions Italiens.<div>Größte Insel im Mittelmeer.</div>", 
+                "Autonome Regions Italiens. Größte Insel im Mittelmeer.", 
                 "Palermo", 
                 "", 
                 "", 
@@ -7318,7 +7318,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<div>Britisches Territorium im Indischen Ozean</div>", 
+                "Britisches Territorium im Indischen Ozean", 
                 "Britisches Überseegebiet, umfasst heute nur noch den Chagos-Archipel", 
                 "London", 
                 "", 
@@ -7339,7 +7339,7 @@
             "data": "", 
             "fields": [
                 "Falklandinseln", 
-                "Britisches Überseegebiet mit innerer Autonomie.&nbsp;Das Vereinigte Königreich übernimmt Verteidigung und Außenpolitik.<div>Seit 1833 werden sie von Argentinien beansprucht.</div>", 
+                "Britisches Überseegebiet mit innerer Autonomie. Das Vereinigte Königreich übernimmt Verteidigung und Außenpolitik. Seit 1833 werden sie von Argentinien beansprucht.", 
                 "Stanley", 
                 "", 
                 "", 
@@ -7380,7 +7380,7 @@
             "data": "", 
             "fields": [
                 "Nordamerika", 
-                "Die Verbindung von Nord- und Südamerika ist die Landenge von Panama.&nbsp;<div>Gelegentlich wird Zentralamerika als eigener Kontinent genannt, nach herrschender Meinung ist es jedoch eine Region (wie z. B. Westeuropa) und gehört zu Nordamerika.</div>", 
+                "Die Verbindung von Nord- und Südamerika ist die Landenge von Panama. Gelegentlich wird Zentralamerika als eigener Kontinent genannt, nach herrschender Meinung ist es jedoch eine Region (wie z. B. Westeuropa) und gehört zu Nordamerika.", 
                 "", 
                 "", 
                 "", 
@@ -7480,7 +7480,7 @@
             "data": "", 
             "fields": [
                 "Antarktis", 
-                "Umfasst&nbsp;im Groben den Kontinent Antarktika und den Südlichen Ozean", 
+                "Umfasst im Groben den Kontinent Antarktika und den Südlichen Ozean", 
                 "", 
                 "", 
                 "", 
