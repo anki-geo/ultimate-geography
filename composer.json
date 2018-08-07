@@ -1,0 +1,14 @@
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/OnkelTem/anki-dm"
+    }
+  ],
+  "require": {
+    "onkeltem/anki-dm": "@dev"
+  },
+  "scripts": {
+    "dm": "anki-dm"
+  }
+}
