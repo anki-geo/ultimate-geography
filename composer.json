@@ -9,6 +9,8 @@
     "onkeltem/anki-dm": "@dev"
   },
   "scripts": {
-    "dm": "anki-dm"
+    "dm": "anki-dm",
+    "build": "anki-dm build",
+    "index": "anki-dm index"
   }
 }

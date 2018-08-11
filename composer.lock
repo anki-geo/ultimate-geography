@@ -58,12 +58,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OnkelTem/anki-dm.git",
-                "reference": "2436185f080a860eacf5b281fc2db590041d450a"
+                "reference": "7ed1e4cd68a9f68c2cac5c25db15c1d6abf9a4ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OnkelTem/anki-dm/zipball/2436185f080a860eacf5b281fc2db590041d450a",
-                "reference": "2436185f080a860eacf5b281fc2db590041d450a",
+                "url": "https://api.github.com/repos/OnkelTem/anki-dm/zipball/7ed1e4cd68a9f68c2cac5c25db15c1d6abf9a4ae",
+                "reference": "7ed1e4cd68a9f68c2cac5c25db15c1d6abf9a4ae",
                 "shasum": ""
             },
             "require": {
@@ -88,7 +88,7 @@
                 "source": "https://github.com/OnkelTem/anki-dm/tree/master",
                 "issues": "https://github.com/OnkelTem/anki-dm/issues"
             },
-            "time": "2018-08-05T13:51:06+00:00"
+            "time": "2018-08-07T20:40:04+00:00"
         },
         {
             "name": "paragonie/random_compat",
