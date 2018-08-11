@@ -1,0 +1,44 @@
+.card {
+  background-color: white;
+  color: black;
+  font-family: Verdana;
+  font-size: 16px;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.type {
+  color: #333;
+  font-size: 70%;
+  font-weight: bold;
+  margin-bottom: .25em;
+  text-transform: uppercase;
+}
+
+.type--top {
+  margin-top: 1em;
+}
+
+.value {
+  font-size: 150%;
+}
+
+.flag img {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+}
+
+.info {
+  color: #333;
+  font-size: 90%;
+  font-style: italic;
+  margin: .75em auto;
+  max-width: 30em;
+}
+
+.info + .info {
+  margin-top: -.375em;
+}
+
+#answer {
+  margin: 1.5em 0;
+}
