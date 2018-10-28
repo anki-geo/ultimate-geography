@@ -22,10 +22,10 @@
   ],
   "templates": [
     "Country - Capital EXT",
-    "Capital - Country EXT",
+    "Capital - Country",
     "Country - Flag EXT",
-    "Flag - Country EXT",
+    "Flag - Country",
     "Country - Map EXT",
-    "Map - Country EXT"
+    "Map - Country"
   ]
 }
