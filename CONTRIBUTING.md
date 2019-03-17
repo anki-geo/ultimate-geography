@@ -40,6 +40,7 @@ Content changes, such as adding or removing a note, replacing an image, or trans
 
 ### Release process
 
+1. Bump the version in `desc.html` and commit the change.
 1. Run `composer index && composer build`.
 1. Add the content of the `build` folder to a ZIP archive named `Ultimate_Geography_v[x.y]_UPGRADE.zip`.
 1. In Anki, synchronise all your devices and import the deck with CrowdAnki. For major versions, make sure to perform a [clean import](README.md#major-version).
