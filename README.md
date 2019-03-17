@@ -33,14 +33,22 @@ To help with memorisation and provide context while learning, most notes include
 First-time here? Welcome! If you're happy using the English version of the deck, here is how you can get started:
 
 1. Go to the **[_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases)** and find the latest release.
-1. In the release's _Downloads_ section, find the Anki package `Ultimate_Geography_v[...].apkg` and download it.
+1. In the release's _Downloads_ section, find the Anki package `Ultimate_Geography_v[...]_EN.apkg` and download it.
 1. Import it in Anki, synchronise your devices and you're good to go!
 
 > You can also download the latest package from the [shared deck page]( https://ankiweb.net/shared/info/2109889812).
 
 ### Other languages and versions
 
-The English deck is the only version available as an Anki package. If you'd like to use the German deck or the extended version of the deck in any language, please follow the steps listed in the _Minor version_ section below, making sure to download the correct archive from the latest release's _Downloads_ section.
+The English deck is the only version available as an Anki package. If you'd like to use the German deck or the extended version of the deck in any language, first install the [CrowdAnki add-on](https://github.com/Stvad/CrowdAnki) then follow these steps:
+
+1. Go to the [_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases) and find the latest release.
+1. In the release's _Downloads_ section, find the ZIP archive of the version you're interested in using (e.g. `Ultimate_Geography_v[...]_DE.zip` for the standard German deck) and download it.
+1. Extract the content of the archive on your machine.
+1. Open Anki and make sure your devices are all synchronised.
+1. In the _File_ menu, select _CrowdAnki: Import from disk_.
+1. Browse for and select the folder you extracted from the archive.
+1. Perform the import.
 
 ### Stay in touch
 
@@ -51,21 +59,13 @@ To stay informed of new releases, make sure to [watch this repository's releases
 
 ## Upgrading
 
-If you're looking to upgrade to a newer version of the deck, this section is fo you. The process differs depending on whether you're upgrading to a minor (e.g. v2.6) or a major (e.g. v3.0) version.
+If you're looking to upgrade to a newer version of the deck, this section is for you. The process differs depending on whether you're upgrading to a minor (e.g. v2.6) or a major (e.g. v3.0) version.
 
 > For more information about versioning and the differences between minor and major, please refer to the [_Versioning_](CONTRIBUTING.md#versioning) section.
 
 ### Minor version
 
-For a minor version upgrade (e.g. from 2.3 to 2.6), _do not_ import the APKG package in Anki as explained in the _Getting started_ section or you will lose your progress. Instead, install the [CrowdAnki add-on](https://github.com/Stvad/CrowdAnki) and follow these steps:
-
-1. Go to the [_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases) and find the latest release.
-1. In the release's _Downloads_ section, find the `Ultimate_Geography_v[...]_UPGRADE.zip` archive and download it.
-1. Extract the content of the archive on your machine.
-1. Open Anki and make sure your devices are all synchronised.
-1. In the _File_ menu, select _CrowdAnki: Import from disk_.
-1. Browse for and select the _Ultimate\_Geography_ folder you extracted from the archive.
-1. Perform the import.
+For a minor version upgrade (e.g. from 2.3 to 2.6), _do not_ import the APKG package in Anki as you may have done initially or you will lose your progress. Instead, proceed as described in the [_Other languages and versions_](#other-languages-and-versions) section, making sure to pick the correct archive (e.g. `Ultimate_Geography_v[...]_EN.zip` for the standard English deck).
 
 ### Major version
 
@@ -76,7 +76,7 @@ Upgrading to a major version (e.g. from 2.6 to 3.0) typically leads to a loss of
 1. In the _Tools_ menu, select _Manage Note Types_, then delete the `Ultimate Geography` note type.
 1. In the _Tools_ menu, select _Check Database_.
 1. Sync the changes with AnkiWeb and with all your devices.
-1. You can now follow the steps of the _Getting started_ section and install the major version with its APKG package.
+1. You can now follow the steps of the [_Getting started_](#getting-started) section and install the major version with its APKG package.
 
 
 ## Background

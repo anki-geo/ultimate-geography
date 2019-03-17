@@ -42,12 +42,17 @@ Content changes, such as adding or removing a note, replacing an image, or trans
 
 1. Bump the version in `desc.html` and commit the change.
 1. Run `composer index && composer build`.
-1. Add the content of the `build` folder to a ZIP archive named `Ultimate_Geography_v[x.y]_UPGRADE.zip`.
-1. In Anki, synchronise all your devices and import the deck with CrowdAnki. For major versions, make sure to perform a [clean import](README.md#major-version).
-1. Export the deck as an APKG package named `Ultimate_Geography_v[x.y].apkg`, making sure to exclude scheduling information but include all media.
+1. Add each folder in the `build` directtoy to a separate ZIP archive named as follows:
+  - `Ultimate Geography` ==> `Ultimate_Geography_v[x.y]_EN.zip`.
+  - `Ultimate Geography [Extended]` ==> `Ultimate_Geography_v[x.y]_EN_EXTENDED.zip`.
+  - `Ultimate Geography_de` ==> `Ultimate_Geography_v[x.y]_DE.zip`.
+  - `Ultimate Geography [Extended]_de` ==> `Ultimate_Geography_v[x.y]_DE_EXTENDED.zip`.
+1. In Anki, synchronise all your devices and import the folder of the standard English deck with CrowdAnki (i.e. `Ultimate Geography`). For major versions, make sure to perform a [clean import](README.md#major-version).
+1. Export the deck as an APKG package named `Ultimate_Geography_v[x.y]_EN.apkg`, making sure to exclude scheduling information but include all media.
 1. Write the release notes on GitHub.
-1. Attach the ZIP and APKG files to the release and publish it.
+1. Attach the APKG file as well as all the ZIP files to the release and publish it.
 1. Go to [AnkiWeb](https://ankiweb.net/decks/).
 1. Find the _Ultimate Geography_ deck and select _Actions_ > _Share_
 1. Update the version number in the title and the description if needed.
 1. Enter the full legal name and click _Share_.
+1. Close the milestone in GitHub and create a new one for the next version.
