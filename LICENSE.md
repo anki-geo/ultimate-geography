@@ -43,12 +43,22 @@ Most of the maps are also sourced from [Wikimedia Commons](https://commons.wikim
 - The maps of [Saint Helena](https://commons.wikimedia.org/wiki/File:St_Helena-Pos.png) (`ug-map-saint_helena.png`), [Java](https://commons.wikimedia.org/wiki/File:Java_Locator.svg) (`ug-map-java.png`), [Mount Athos](https://commons.wikimedia.org/wiki/File:Athos_in_Greece.svg) (`ug-map-mount_athos.png`), and of the [seven continents](https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_continents_(location_map_scheme)_(Winkel_3_projection)) (`ug-map-africa`, `ug-map-antartica`, `ug-map-asia`, `ug-map-europe`, `ug-map-north_america`, `ug-map-oceania`, `ug-map-south_america`) are released under **[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)**.
 - The [map of the Balkan Peninsula](https://commons.wikimedia.org/wiki/File:Balkan_Peninsula.svg) (`ug-map-balkan_peninsula.png`) was cropped in order to remove its legend. The original version is released under **[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)**; therefore, this version is as well.
 - The [flag of Northern Cyprus](https://commons.wikimedia.org/wiki/File:Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg) (`ug-flag-northern_cyprus.svg`) is released under [CC-BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/deed.en).
+- The maps of the [Arctic Ocean](https://commons.wikimedia.org/wiki/File:Arctic_Ocean_-_en.png), [Atlantic Ocean](https://commons.wikimedia.org/wiki/File:Atlantic_Ocean_-_en.png), [Celtic Sea](https://commons.wikimedia.org/wiki/File:Mappa_an_Mor_Keltek.png), [Denmark Strait](https://commons.wikimedia.org/wiki/File:Denemarkenstraat.PNG), [Gulf of Mexico](https://commons.wikimedia.org/wiki/File:Gulf_of_Mexico_places.png), [Indian Ocean](https://commons.wikimedia.org/wiki/File:Indianocean.PNG), [Melanesia](https://commons.wikimedia.org/wiki/File:Map_OC-Melanesia.PNG), [Micronesia](https://commons.wikimedia.org/wiki/File:Map_of_Micronesia_Oceania.png), and [Pacific Ocean](https://commons.wikimedia.org/wiki/File:Pacific_Ocean_-_en.png) are public domain.
+- The map of the [Azores](https://commons.wikimedia.org/wiki/File:Locator_map_of_Azores_in_EU.svg) was cropped. Both the original and the new version are under CC BY-SA 3.0.
+- The [map of the Bay of Biscay and the English Channel](https://commons.wikimedia.org/wiki/File:Bay_of_Biscay_map.png) was cropped, had labels removed and a question mark added. Both the original and the new versions are under CC BY-SA 3.0.
+- The [map of the Bering Strait and the East Siberian Sea](https://commons.wikimedia.org/wiki/File:East_Siberian_Sea_map.png) was cropped, had labels removed and a question mark added. Both the original and the new versions are under CC BY-SA 3.0.
+- The maps of [Ceuta](https://commons.wikimedia.org/wiki/File:Localizaci%C3%B3n_de_Ceuta.svg), [Melilla](https://commons.wikimedia.org/wiki/File:Localizaci%C3%B3n_de_Melilla.svg) and the [Southern Ocean](https://commons.wikimedia.org/wiki/File:Location_Southern_Ocean.svg) are under CC BY-SA 3.0.
+- The [map of Hudson Bay and Labrador Sea](https://commons.wikimedia.org/wiki/File:Labradorseamap.png
+) had labels removed and question marks added. Both the original and the new versions are under CC BY-SA 2.5.
+- The map of [Polynesia](https://commons.wikimedia.org/wiki/File:Polynesian_triangle.svg) is under CC BY 3.0.
+- The map of [Sumatra](https://commons.wikimedia.org/wiki/File:LocationSumatra.svg) is under CC BY-SA 2.5.
+- The map of the [White Sea](https://commons.wikimedia.org/wiki/File:White_Sea_map.png) was cropped, had labels removed and a question mark added. Both the original and the new version are under CC BY-SA 3.0.
 
 ### Licence unknown
 
 The licence of the following maps is unknown at this time:
 
-- Maps of water bodies (oceans, seas, gulfs, etc.)
-- Maps of Azores, Ceuta, Corsica, Galapagos Islands, Kaliningrad Oblast, Melanesia, Melilla, Micronesia, Polynesia, Sardinia, Sumatra and Zanzibar.
+- Maps of the water bodies (seas, gulfs, etc.), except for all the Oceans, the Bay of Biscay, the Bering Strait, the Celtic Sea, the Denmark Strait, the East Siberian Sea, the English Channel, the Gulf of Mexico, the Hudson Bay, the Labrador Sea and the White Sea (see above).
+- Maps of Corsica, Galapagos Islands, Kaliningrad Oblast, Sardinia and Zanzibar.
 
-I will endeavour to [replace these maps](https://github.com/axelboc/anki-ultimate-geography/issues/1) with ones I know are open source, but in the meantime, if you absolutely want to know where they come from, I invite you to use Google's [reverse image search](https://support.google.com/websearch/answer/1325808?hl=en) or to search through [Wikimedia Commons](https://commons.wikimedia.org/).
+I will endeavour to [replace these maps](https://github.com/axelboc/anki-ultimate-geography/issues/2) with ones I know are open source, but in the meantime, if you absolutely want to know where they come from, I invite you to use Google's [reverse image search](https://support.google.com/websearch/answer/1325808?hl=en) or to search through [Wikimedia Commons](https://commons.wikimedia.org/).
