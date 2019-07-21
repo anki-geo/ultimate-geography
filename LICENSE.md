@@ -39,11 +39,8 @@ Most of the maps are also sourced from [Wikimedia Commons](https://commons.wikim
 
 ### Exceptions
 
-- The flags of [Afghanistan](https://commons.wikimedia.org/wiki/File:Flag_of_Afghanistan.svg) (`ug-flag-mauritania.svg`) and [Mauritania](https://commons.wikimedia.org/wiki/File:Flag_of_Mauritania.svg) (`ug-flag-mauritania.svg`), as well as the [maps of England, Scotland, Wales and Northern Island](https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_countries_in_the_United_Kingdom_(location_map_scheme)) are released under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
-- The maps of [Saint Helena](https://commons.wikimedia.org/wiki/File:St_Helena-Pos.png) (`ug-map-saint_helena.png`), [Java](https://commons.wikimedia.org/wiki/File:Java_Locator.svg) (`ug-map-java.png`), [Mount Athos](https://commons.wikimedia.org/wiki/File:Athos_in_Greece.svg) (`ug-map-mount_athos.png`), and of the [seven continents](https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_continents_(location_map_scheme)_(Winkel_3_projection)) (`ug-map-africa`, `ug-map-antartica`, `ug-map-asia`, `ug-map-europe`, `ug-map-north_america`, `ug-map-oceania`, `ug-map-south_america`) are released under **[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)**.
-- The [map of the Balkan Peninsula](https://commons.wikimedia.org/wiki/File:Balkan_Peninsula.svg) (`ug-map-balkan_peninsula.png`) was cropped in order to remove its legend. The original version is released under **[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)**; therefore, this version is as well.
-- The [flag of Northern Cyprus](https://commons.wikimedia.org/wiki/File:Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg) (`ug-flag-northern_cyprus.svg`) is released under [CC-BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/deed.en).
-- The licenses and sources for some of the remaining maps are listed in `sources.csv`.
+- The licenses and sources for the remaining flags and maps are listed in `sources.csv`.
+- Files with the following licenses are present: **[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)**, **[CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)**, **[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)**, **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** and **PD** (in the public domain).
 
 ### Licence unknown
 
