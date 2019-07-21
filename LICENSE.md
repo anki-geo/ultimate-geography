@@ -44,9 +44,6 @@ Most of the maps are also sourced from [Wikimedia Commons](https://commons.wikim
 
 ### Licence unknown
 
-The licence of the following maps is unknown at this time:
-
-- Maps of the water bodies (seas, gulfs, etc.), except for all the Oceans, the Bay of Biscay, the Bering Strait, the Celtic Sea, the Denmark Strait, the East Siberian Sea, the English Channel, the Gulf of Mexico, the Hudson Bay, the Labrador Sea and the White Sea.
-- Maps of Corsica, Galapagos Islands, Kaliningrad Oblast, Sardinia and Zanzibar.
+The licence of the maps marked with a question mark `?` is unknown at this time. They appear to be very lightly modified versions of standard templates.
 
 I will endeavour to [replace these maps](https://github.com/axelboc/anki-ultimate-geography/issues/2) with ones I know are open source, but in the meantime, if you absolutely want to know where they come from, I invite you to use Google's [reverse image search](https://support.google.com/websearch/answer/1325808?hl=en) or to search through [Wikimedia Commons](https://commons.wikimedia.org/).
