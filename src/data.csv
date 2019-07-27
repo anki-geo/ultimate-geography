@@ -199,7 +199,7 @@ pEm(WFjeNI,Guinea,Guinea,,,Conakry,Conakry,,,,,"<img src=""ug-flag-guinea.svg"" 
 i|{O!q|&(,"New Zealand",Neuseeland,,,Wellington,Wellington,,,,,"<img src=""ug-flag-new_zealand.svg"" />","Australia (white stars, two more stars)","Australien (weiße Sterne, zwei weitere Sterne)","<img src=""ug-map-new_zealand.png"" />","UG::Oceania UG::Sovereign_State"
 "j,B{#x5qDF","French Polynesia",Französisch-Polynesien,"Overseas territory of France.","Französisches Überseegebiet.",Papeete,Papeete,,,,,"<img src=""ug-flag-french_polynesia.svg"" />",,,"<img src=""ug-map-french_polynesia.png"" />",UG::Oceania
 o9ivN6iIr!,Philippines,Philippinen,,,Manila,Manila,,,,,"<img src=""ug-flag-philippines.svg"" />",,,"<img src=""ug-map-philippines.png"" />","UG::Asia UG::Southeast_Asia UG::Sovereign_State"
-"j=,1:f39$]","Galápagos Islands",Galapagosinseln,"Province of Ecuador.","Ecuadorianische Provinz.","Puerto Baquerizo Moreno","Puerto Baquerizo Moreno",,,,,"<img src=""ug-flag-galapagos_islands.svg"" />","Sierra Leone (slightly lighter blue)","Sierra Leone (etwas helleres Blau)","<img src=""ug-map-galapagos_islands.jpg"" />","UG::America UG::South_America"
+"j=,1:f39$]","Galápagos Islands",Galapagosinseln,"Province of Ecuador.","Ecuadorianische Provinz.","Puerto Baquerizo Moreno","Puerto Baquerizo Moreno",,,,,"<img src=""ug-flag-galapagos_islands.svg"" />","Sierra Leone (slightly lighter blue)","Sierra Leone (etwas helleres Blau)","<img src=""ug-map-galapagos_islands.png"" />","UG::America UG::South_America"
 jUJSQU2P%2,Kosovo,Kosovo,"Partially recognised state claimed by Serbia.","Teilweise anerkannt Staat, von Serbien beanspruchter.",Pristina,Pristina,,,,,"<img src=""ug-flag-kosovo.svg"" />",,,"<img src=""ug-map-kosovo.png"" />","UG::Europe UG::Sovereign_State"
 h3-{dj)G!E,Libya,Libyen,,,Tripoli,Tripolis,,,,,"<img src=""ug-flag-libya.svg"" />",,,"<img src=""ug-map-libya.png"" />","UG::Africa UG::Mediterranean UG::Sovereign_State"
 pB$g~KqI~-,Palau,Palau,,,Ngerulmud,Ngerulmud,,,,,"<img src=""ug-flag-palau.svg"" />",,,"<img src=""ug-map-palau.png"" />","UG::Oceania UG::Sovereign_State"
@@ -274,7 +274,7 @@ q;`%:Y|$[Z,"Hudson Bay","Hudson Bay",,,,,,,,,,,,"<img src=""ug-map-hudson_bay.jp
 bX?b@#G`+b,"Labrador Sea",Labradorsee,,,,,,,,,,,,"<img src=""ug-map-labrador_sea.jpg"" />",UG::Oceans+Seas
 a)/A6i.IDE,"White Sea","Weißes Meer",,"Auch Weißmeer.",,,,,,,,,,"<img src=""ug-map-white_sea.jpg"" />",UG::Oceans+Seas
 c<gAS-(0qJ,"Denmark Strait",Dänemarkstraße,,,,,,,,,,,,"<img src=""ug-map-denmark_strait.jpg"" />",UG::Oceans+Seas
-j1yLgdVnj),"Norwegian Sea","Europäisches Nordmeer",,"Auch Norwegische See/Meer.",,,,,,,,,,"<img src=""ug-map-norwegian_sea.jpg"" />",UG::Oceans+Seas
+j1yLgdVnj),"Norwegian Sea","Europäisches Nordmeer",,"Auch Norwegische See/Meer.",,,,,,,,,,"<img src=""ug-map-norwegian_sea.png"" />",UG::Oceans+Seas
 c130}t)$BS,"Baltic Sea",Ostsee,,"Auch Baltisches Meer.",,,,,,,,,,"<img src=""ug-map-baltic_sea.png"" />",UG::Oceans+Seas
 Cc2l|nvbk^,"Celtic Sea","Keltische See",,,,,,,,,,,,"<img src=""ug-map-celtic_sea.jpg"" />",UG::Oceans+Seas
 oa;|#Te:Ae,"English Channel",Ärmelkanal,,,,,,,,,,,,"<img src=""ug-map-english_channel.jpg"" />",UG::Oceans+Seas
@@ -289,7 +289,7 @@ e@@^AV+dAM,"East Siberian Sea","Ostsibirische See",,,,,,,,,,,,"<img src=""ug-map
 HmoM231Qq$,"Bering Strait",Beringstraße,,,,,,,,,,,,"<img src=""ug-map-bering_strait.jpg"" />",UG::Oceans+Seas
 poPdjd5HLz,"Arabian Sea","Arabisches Meer",,,,,,,,,,,,"<img src=""ug-map-arabian_sea.jpg"" />",UG::Oceans+Seas
 zEBFrOdfe,"Red Sea","Rotes Meer",,,,,,,,,,,,"<img src=""ug-map-red_sea.jpg"" />",UG::Oceans+Seas
-zw5tXg<s5&,"Dead Sea","Totes Meer",,,,,,,,,,,,"<img src=""ug-map-dead_sea.jpg"" />",UG::Oceans+Seas
+zw5tXg<s5&,"Dead Sea","Totes Meer",,,,,,,,,,,,"<img src=""ug-map-dead_sea.png"" />",UG::Oceans+Seas
 xwmKE4lE_0,"Bay of Bengal","Golf von Bengalen",,,,,,,,,,,,"<img src=""ug-map-bay_of_bengal.jpg"" />",UG::Oceans+Seas
 bK<rY$S^s5,"Sea of Japan","Japanisches Meer",,,,,,,,,,,,"<img src=""ug-map-sea_of_japan.jpg"" />",UG::Oceans+Seas
 Je-`m3(~QF,"Yellow Sea","Gelbes Meer",,,,,,,,,,,,"<img src=""ug-map-yellow_sea.jpg"" />",UG::Oceans+Seas
@@ -304,7 +304,7 @@ h|7yQG0Wik,"Caribbean Sea","Karibisches Meer",,,,,,,,,,,,"<img src=""ug-map-cari
 beUci8clxs,Polynesia,Polynesien,"Subregion of Oceania comprising thousands of small islands in the central and southern Pacific Ocean.","Größte Inselregion Ozeaniens.",,,,,,,,,,"<img src=""ug-map-polynesia.jpg"" />",UG::Oceania
 miE4u575Ez,Melanesia,Melanesien,"Subregion of Oceania, which includes the four countries of&nbsp;Vanuatu, the Solomon Islands, Fiji, and Papua New Guinea.","Teilregion von Ozeanien, zu der die vier Staaten Vanuatu, Salomonen, Fidschi und Papua-Neuguinea gehören.",,,,,,,,,,"<img src=""ug-map-melanesia.jpg"" />",UG::Oceania
 FQfLvMyzbT,Scandinavia,Skandinavien,"Historical and cultural region in Northern Europe, which includes the countries of Denmark, Norway and Sweden, and sometimes Finland and Iceland.","Historische und kulturelle Region in Nordeuropa, die die Länder Dänemark, Norwegen und Schweden und manchmal Finnland und Island umfasst.",,,,,,,,,,"<img src=""ug-map-scandinavia.jpg"" />",UG::Europe
-O[YhHW&F>+,"Sea of Galilee","See Genezareth",,,,,,,,,,,,"<img src=""ug-map-sea_of_galilee.jpg"" />",UG::Oceans+Seas
+O[YhHW&F>+,"Sea of Galilee","See Genezareth",,,,,,,,,,,,"<img src=""ug-map-sea_of_galilee.png"" />",UG::Oceans+Seas
 "aWfat2,ev[",Sumatra,Sumatra,"Island of&nbsp;Indonesia.","Indonesische Insel.",,,,,,,,,,"<img src=""ug-map-sumatra.jpg"" />",UG::Asia
 qAsU}ONgC#,"Mount Athos",Athos,"Autonomous orthodox monastic state in northeastern Greece, also known as the Holy Mountain.","Autonomer orthodoxer Klosterstaat im Nordosten Griechenlands, auch bekannt als „Heilige Berg“.",Karyes,Karyes,,,,,"<img src=""ug-flag-mount_athos.png"" />",,,"<img src=""ug-map-mount_athos.png"" />",UG::Europe
 lIEV|(|pPu,Sicily,Sizilien,"Autonomous region of Italy.","Autonome Region Italiens.",Palermo,Palermo,,,,,"<img src=""ug-flag-sicily.svg"" />",,,,UG::Europe
