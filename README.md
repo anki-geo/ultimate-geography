@@ -6,7 +6,7 @@
 - **67 overseas territories** and dependent areas (227 cards)
 - **39 oceans and seas** (39 cards, maps only)
 - **7 continents** (7 cards, maps only)
-- for a total of **319 unique notes**, **1097 cards**, **260 flags** and **317 maps**.
+- for a total of **319 unique notes**, **1096 cards**, **260 flags** and **317 maps**.
 
 | Flag - Country | Map - Country |
 | --- | --- |
@@ -40,7 +40,9 @@ First-time here? Welcome! If you're happy using the English version of the deck,
 
 ### Other languages and versions
 
-The English deck is the only version available as an Anki package. If you'd like to use the German deck or the extended version of the deck in any language, first install the [CrowdAnki add-on](https://github.com/Stvad/CrowdAnki) then follow these steps:
+The English deck is the only version available as an Anki package. If you'd like to use the German deck or the extended version of the deck in any language, first install the [CrowdAnki add-on](https://github.com/Stvad/CrowdAnki) then follow the steps below.
+
+> Please note that importing an extended deck on top of a standard deck is not supported. You must either remove the standard deck first (by following the instructions in the [_Major version_](#major-version) section), or import the extended deck in a separate Anki profile.
 
 1. Go to the [_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases) and find the latest release.
 1. In the release's _Downloads_ section, find the ZIP archive of the version you're interested in using (e.g. `Ultimate_Geography_v[...]_DE.zip` for the standard German deck) and download it.
