@@ -285,7 +285,7 @@ ug-map-atlantic_ocean.png,https://commons.wikimedia.org/wiki/File:Atlantic_Ocean
 ug-map-australia.png,,,
 ug-map-austria.png,,,
 ug-map-azerbaijan.png,,,
-ug-map-azores.jpg,https://commons.wikimedia.org/wiki/File:Locator_map_of_Azores_in_EU.svg,CC BY-SA 3.0,cropped
+ug-map-azores.png,https://commons.wikimedia.org/wiki/File:Locator_map_of_Azores_in_EU.svg,CC BY-SA 3.0,"cropped, converted to PNG, reduced number of colours, optimised with optipng"
 ug-map-bahrain.png,,,
 ug-map-bali.png,,,
 ug-map-balkan_peninsula.png,https://commons.wikimedia.org/wiki/File:Balkan_Peninsula.svg,CC BY-SA 3.0,cropped to remove label
@@ -323,7 +323,7 @@ ug-map-caspian_sea.jpg,?,,
 ug-map-cayman_islands.png,,,
 ug-map-celtic_sea.jpg,https://commons.wikimedia.org/wiki/File:Mappa_an_Mor_Keltek.png,PD,added white line on side
 ug-map-central_african_republic.png,,,
-ug-map-ceuta.jpg,https://commons.wikimedia.org/wiki/File:Localizaci%C3%B3n_de_Ceuta.svg,CC BY-SA 3.0,
+ug-map-ceuta.png,https://commons.wikimedia.org/wiki/File:Localizaci%C3%B3n_de_Ceuta.svg,CC BY-SA 3.0,"converted to PNG, reduced number of colours, optimised with optipng"
 ug-map-chad.png,,,
 ug-map-chile.png,,,
 ug-map-china.png,,,
@@ -443,7 +443,7 @@ ug-map-mauritius.png,,,
 ug-map-mayotte.png,,,
 ug-map-mediterranean_sea.jpg,?,,
 ug-map-melanesia.jpg,https://commons.wikimedia.org/wiki/File:Map_OC-Melanesia.PNG,PD,"labels removed, old version"
-ug-map-melilla.jpg,https://commons.wikimedia.org/wiki/File:Localizaci%C3%B3n_de_Melilla.svg,CC BY-SA 3.0,
+ug-map-melilla.png,https://commons.wikimedia.org/wiki/File:Localizaci%C3%B3n_de_Melilla.svg,CC BY-SA 3.0,"converted to PNG, reduced number of colours, optimised with optipng"
 ug-map-mexico.png,,,
 ug-map-micronesia.jpg,https://commons.wikimedia.org/wiki/File:Map_of_Micronesia_Oceania.png,PD,
 ug-map-moldova.png,,,
@@ -489,7 +489,7 @@ ug-map-philippine_sea.jpg,?,,
 ug-map-philippines.png,,,
 ug-map-pitcairn_islands.png,,,
 ug-map-poland.png,,,
-ug-map-polynesia.jpg,https://commons.wikimedia.org/wiki/File:Polynesian_triangle.svg,CC BY 3.0,old version
+ug-map-polynesia.png,https://commons.wikimedia.org/wiki/File:Polynesian_triangle.svg,CC BY 3.0,"removed circles and labels, optimised with optipng"
 ug-map-portugal.png,,,
 ug-map-puerto_rico.png,,,
 ug-map-qatar.png,,,
