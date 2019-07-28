@@ -16,7 +16,7 @@
 | --- | --- |
 | ![sample-1](https://cloud.githubusercontent.com/assets/2936402/21575807/3ac6ebec-cf6e-11e6-849a-19544d5dccf5.png) | ![sample-2](https://cloud.githubusercontent.com/assets/2936402/21575809/3ac77b7a-cf6e-11e6-8d72-76f4d3e21de8.png) |
 
-The deck is available in **English** and **German**. An **extended version** is also available in both languages with the following note templates: _Country - Flag_ and _Country - Map_.
+The deck is available in **English** and **German**. An **extended version** is also available in both languages with the following additional note templates: _Country - Flag_ and _Country - Map_. Use Anki's [filtered deck feature](#custom-study) to study only a specific type of cards (e.g. map to country) or area of the world (e.g. Europe).
 
 The flags and most of the maps are sourced from [Wikimedia Commons](https://commons.wikimedia.org/). They are provided as SVG or PNG and optimised for smaller file size. Some legacy JPEG maps from the original deck (cf. [Background](#background) section below) are still present, but are [marked for replacement](https://github.com/axelboc/anki-ultimate-geography/issues/1#issuecomment-275280721).
 
