@@ -275,13 +275,13 @@ ug-map-antarctica.png,https://commons.wikimedia.org/wiki/File:Antarctica_in_the_
 ug-map-antigua_and_barbuda.png,,,
 ug-map-arabian_sea.jpg,?,,
 ug-map-aral_sea.jpg,?,,
-ug-map-arctic_ocean.jpg,https://commons.wikimedia.org/wiki/File:Arctic_Ocean_-_en.png,PD,labels removed
+ug-map-arctic_ocean.png,https://commons.wikimedia.org/wiki/File:Arctic_Ocean.png,PD,
 ug-map-argentina.png,,,
 ug-map-armenia.png,,,
 ug-map-artsakh.png,,,
 ug-map-aruba.png,,,
 ug-map-asia.png,https://commons.wikimedia.org/wiki/File:Asia_in_the_world_(red)_(W3).svg,CC BY-SA 3.0,
-ug-map-atlantic_ocean.jpg,https://commons.wikimedia.org/wiki/File:Atlantic_Ocean_-_en.png,PD,labels removed
+ug-map-atlantic_ocean.png,https://commons.wikimedia.org/wiki/File:Atlantic_Ocean.png,PD,
 ug-map-australia.png,,,
 ug-map-austria.png,,,
 ug-map-azerbaijan.png,,,
@@ -397,7 +397,7 @@ ug-map-hudson_bay.jpg,https://commons.wikimedia.org/wiki/File:Labradorseamap.png
 ug-map-hungary.png,,,
 ug-map-iceland.png,,,
 ug-map-india.png,,,
-ug-map-indian_ocean.jpg,https://commons.wikimedia.org/wiki/File:Indianocean.PNG,PD,
+ug-map-indian_ocean.png,https://commons.wikimedia.org/wiki/File:Indianocean.PNG,PD,"used version with white background, optimised with optipng"
 ug-map-indonesia.png,,,
 ug-map-iran.png,,,
 ug-map-iraq.png,,,
@@ -476,7 +476,7 @@ ug-map-norway.png,,,
 ug-map-norwegian_sea.png,https://commons.wikimedia.org/wiki/File:Norwegian_Sea_map_no.png,CC BY-SA 3.0,"removed labels, optimised with optipng"
 ug-map-oceania.png,https://commons.wikimedia.org/wiki/File:Oceania_in_the_world_(red)_(W3).svg,CC BY-SA 3.0,
 ug-map-oman.png,,,
-ug-map-pacific_ocean.jpg,https://commons.wikimedia.org/wiki/File:Pacific_Ocean_-_en.png,PD,labels removed
+ug-map-pacific_ocean.png,https://commons.wikimedia.org/wiki/File:Pacific_Ocean.png,PD,"used old, smaller version with white background, optimised with optipng"
 ug-map-pakistan.png,,,
 ug-map-palau.png,,,
 ug-map-palestine.png,,,
