@@ -275,17 +275,17 @@ ug-map-antarctica.png,https://commons.wikimedia.org/wiki/File:Antarctica_in_the_
 ug-map-antigua_and_barbuda.png,,,
 ug-map-arabian_sea.jpg,?,,
 ug-map-aral_sea.jpg,?,,
-ug-map-arctic_ocean.jpg,https://commons.wikimedia.org/wiki/File:Arctic_Ocean_-_en.png,PD,labels removed
+ug-map-arctic_ocean.png,https://commons.wikimedia.org/wiki/File:Arctic_Ocean.png,PD,
 ug-map-argentina.png,,,
 ug-map-armenia.png,,,
 ug-map-artsakh.png,,,
 ug-map-aruba.png,,,
 ug-map-asia.png,https://commons.wikimedia.org/wiki/File:Asia_in_the_world_(red)_(W3).svg,CC BY-SA 3.0,
-ug-map-atlantic_ocean.jpg,https://commons.wikimedia.org/wiki/File:Atlantic_Ocean_-_en.png,PD,labels removed
+ug-map-atlantic_ocean.png,https://commons.wikimedia.org/wiki/File:Atlantic_Ocean.png,PD,
 ug-map-australia.png,,,
 ug-map-austria.png,,,
 ug-map-azerbaijan.png,,,
-ug-map-azores.jpg,https://commons.wikimedia.org/wiki/File:Locator_map_of_Azores_in_EU.svg,CC BY-SA 3.0,cropped
+ug-map-azores.png,https://commons.wikimedia.org/wiki/File:Locator_map_of_Azores_in_EU.svg,CC BY-SA 3.0,"cropped, converted to PNG, reduced number of colours, optimised with optipng"
 ug-map-bahrain.png,,,
 ug-map-bali.png,,,
 ug-map-balkan_peninsula.png,https://commons.wikimedia.org/wiki/File:Balkan_Peninsula.svg,CC BY-SA 3.0,cropped to remove label
@@ -321,9 +321,9 @@ ug-map-cape_verde.png,,,
 ug-map-caribbean_sea.jpg,?,,
 ug-map-caspian_sea.jpg,?,,
 ug-map-cayman_islands.png,,,
-ug-map-celtic_sea.jpg,https://commons.wikimedia.org/wiki/File:Mappa_an_Mor_Keltek.png,PD,added white line on side
+ug-map-celtic_sea.png,https://commons.wikimedia.org/wiki/File:Mappa_an_Mor_Keltek.png,PD,"resized, reduced number of colours, optimised with optipng"
 ug-map-central_african_republic.png,,,
-ug-map-ceuta.jpg,https://commons.wikimedia.org/wiki/File:Localizaci%C3%B3n_de_Ceuta.svg,CC BY-SA 3.0,
+ug-map-ceuta.png,https://commons.wikimedia.org/wiki/File:Localizaci%C3%B3n_de_Ceuta.svg,CC BY-SA 3.0,"converted to PNG, reduced number of colours, optimised with optipng"
 ug-map-chad.png,,,
 ug-map-chile.png,,,
 ug-map-china.png,,,
@@ -343,7 +343,7 @@ ug-map-czech_republic.png,,,
 ug-map-dead_sea.png,https://commons.wikimedia.org/wiki/File:Dead_Sea_in_its_region_(-mini_map_-rivers)_(zoom_%2B_special_marker).svg,CC BY-SA 3.0,"500px version downloaded, optimised with optipng"
 ug-map-democratic_republic_of_the_congo.png,,,
 ug-map-denmark.png,,,
-ug-map-denmark_strait.jpg,https://commons.wikimedia.org/wiki/File:Denemarkenstraat.PNG,PD,
+ug-map-denmark_strait.png,https://commons.wikimedia.org/wiki/File:Denemarkenstraat.PNG,PD,"resized, reduced number of colours, optimised with optipng"
 ug-map-djibouti.png,,,
 ug-map-dominica.png,,,
 ug-map-dominican_republic.png,,,
@@ -387,7 +387,7 @@ ug-map-guinea-bissau.png,,,
 ug-map-guinea.png,,,
 ug-map-gulf_of_california.jpg,?,,
 ug-map-gulf_of_carpentaria.jpg,?,,
-ug-map-gulf_of_mexico.jpg,https://commons.wikimedia.org/wiki/File:Gulf_of_Mexico_places.png,PD,retouched (orange spots removed)
+ug-map-gulf_of_mexico.jpg,https://commons.wikimedia.org/wiki/File:GulfofMexico3D.jpg,PD,question mark added
 ug-map-gulf_of_thailand.jpg,?,,
 ug-map-guyana.png,,,
 ug-map-haiti.png,,,
@@ -397,7 +397,7 @@ ug-map-hudson_bay.jpg,https://commons.wikimedia.org/wiki/File:Labradorseamap.png
 ug-map-hungary.png,,,
 ug-map-iceland.png,,,
 ug-map-india.png,,,
-ug-map-indian_ocean.jpg,https://commons.wikimedia.org/wiki/File:Indianocean.PNG,PD,
+ug-map-indian_ocean.png,https://commons.wikimedia.org/wiki/File:Indianocean.PNG,PD,"used version with white background, optimised with optipng"
 ug-map-indonesia.png,,,
 ug-map-iran.png,,,
 ug-map-iraq.png,,,
@@ -443,7 +443,7 @@ ug-map-mauritius.png,,,
 ug-map-mayotte.png,,,
 ug-map-mediterranean_sea.jpg,?,,
 ug-map-melanesia.jpg,https://commons.wikimedia.org/wiki/File:Map_OC-Melanesia.PNG,PD,"labels removed, old version"
-ug-map-melilla.jpg,https://commons.wikimedia.org/wiki/File:Localizaci%C3%B3n_de_Melilla.svg,CC BY-SA 3.0,
+ug-map-melilla.png,https://commons.wikimedia.org/wiki/File:Localizaci%C3%B3n_de_Melilla.svg,CC BY-SA 3.0,"converted to PNG, reduced number of colours, optimised with optipng"
 ug-map-mexico.png,,,
 ug-map-micronesia.jpg,https://commons.wikimedia.org/wiki/File:Map_of_Micronesia_Oceania.png,PD,
 ug-map-moldova.png,,,
@@ -476,7 +476,7 @@ ug-map-norway.png,,,
 ug-map-norwegian_sea.png,https://commons.wikimedia.org/wiki/File:Norwegian_Sea_map_no.png,CC BY-SA 3.0,"removed labels, optimised with optipng"
 ug-map-oceania.png,https://commons.wikimedia.org/wiki/File:Oceania_in_the_world_(red)_(W3).svg,CC BY-SA 3.0,
 ug-map-oman.png,,,
-ug-map-pacific_ocean.jpg,https://commons.wikimedia.org/wiki/File:Pacific_Ocean_-_en.png,PD,labels removed
+ug-map-pacific_ocean.png,https://commons.wikimedia.org/wiki/File:Pacific_Ocean.png,PD,"used old, smaller version with white background, optimised with optipng"
 ug-map-pakistan.png,,,
 ug-map-palau.png,,,
 ug-map-palestine.png,,,
@@ -489,7 +489,7 @@ ug-map-philippine_sea.jpg,?,,
 ug-map-philippines.png,,,
 ug-map-pitcairn_islands.png,,,
 ug-map-poland.png,,,
-ug-map-polynesia.jpg,https://commons.wikimedia.org/wiki/File:Polynesian_triangle.svg,CC BY 3.0,old version
+ug-map-polynesia.png,https://commons.wikimedia.org/wiki/File:Polynesian_triangle.svg,CC BY 3.0,"removed circles and labels, optimised with optipng"
 ug-map-portugal.png,,,
 ug-map-puerto_rico.png,,,
 ug-map-qatar.png,,,
