@@ -3,10 +3,10 @@
 **Geography flashcard deck for [Anki](http://ankisrs.net/)** featuring:
 
 - the world's **[206 sovereign states](https://en.wikipedia.org/wiki/List_of_sovereign_states)** (824 cards)
-- **67 overseas territories** and dependent areas (227 cards)
+- **67 overseas territories** and dependent areas (224 cards)
 - **39 oceans and seas** (39 cards, maps only)
 - **7 continents** (7 cards, maps only)
-- for a total of **319 unique notes**, **1097 cards**, **260 flags** and **317 maps**.
+- for a total of **319 unique notes**, **1094 cards**, **260 flags** and **317 maps**.
 
 | Flag - Country | Map - Country |
 | --- | --- |
@@ -16,7 +16,7 @@
 | --- | --- |
 | ![sample-1](https://cloud.githubusercontent.com/assets/2936402/21575807/3ac6ebec-cf6e-11e6-849a-19544d5dccf5.png) | ![sample-2](https://cloud.githubusercontent.com/assets/2936402/21575809/3ac77b7a-cf6e-11e6-8d72-76f4d3e21de8.png) |
 
-The deck is available in **English** and **German**. An **extended version** is also available in both languages with the following note templates: _Country - Flag_ and _Country - Map_.
+The deck is available in **English** and **German**. An **extended version** is also available in both languages with the following additional note templates: _Country - Flag_ and _Country - Map_. Use Anki's [filtered deck feature](#custom-study) to study only a specific type of cards (e.g. map to country) or area of the world (e.g. Europe).
 
 The flags and most of the maps are sourced from [Wikimedia Commons](https://commons.wikimedia.org/). They are provided as SVG or PNG and optimised for smaller file size. Some legacy JPEG maps from the original deck (cf. [Background](#background) section below) are still present, but are [marked for replacement](https://github.com/axelboc/anki-ultimate-geography/issues/1#issuecomment-275280721).
 
@@ -40,7 +40,9 @@ First-time here? Welcome! If you're happy using the English version of the deck,
 
 ### Other languages and versions
 
-The English deck is the only version available as an Anki package. If you'd like to use the German deck or the extended version of the deck in any language, first install the [CrowdAnki add-on](https://github.com/Stvad/CrowdAnki) then follow these steps:
+The English deck is the only version available as an Anki package. If you'd like to use the German deck or the extended version of the deck in any language, first install the [CrowdAnki add-on](https://github.com/Stvad/CrowdAnki) then follow the steps below.
+
+> Please note that importing an extended deck on top of a standard deck is not supported. You must either remove the standard deck first (by following the instructions in the [_Major version_](#major-version) section), or import the extended deck in a separate Anki profile.
 
 1. Go to the [_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases) and find the latest release.
 1. In the release's _Downloads_ section, find the ZIP archive of the version you're interested in using (e.g. `Ultimate_Geography_v[...]_DE.zip` for the standard German deck) and download it.
