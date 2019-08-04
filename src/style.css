@@ -7,25 +7,44 @@
   text-align: center;
 }
 
-.type {
-  color: #333;
-  font-size: 70%;
+.country {
+  color: #BB0000;
+  font-size: 90%;
   font-weight: bold;
   margin-bottom: .25em;
   text-transform: uppercase;
 }
 
-.type--top {
-  margin-top: 1em;
+.nightMode .country {
+  color: #BB0000;
+}
+
+.capital {
+  color: #0000BB;
+  font-size: 60%;
+  font-weight: bold;
+  margin-bottom: .25em;
+  text-transform: uppercase;
+}
+
+.nightMode .capital {
+  color: #0000BB;
 }
 
 .value {
   font-size: 150%;
 }
 
-.type + .flag,
-.type + .map {
-  margin-top: .5em
+.mnemonic {
+  font-size: 50%;
+}
+
+.nightMode .mnemonic {
+ color: yellow;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .flag img {
@@ -44,6 +63,14 @@
   margin-top: -.375em;
 }
 
-#answer {
-  margin: 1.5em 0;
+.nightMode .info {
+ color: yellow;
+}
+
+.hint{
+  font-size: 30%
+}
+
+.map {
+  margin-top: .5em
 }

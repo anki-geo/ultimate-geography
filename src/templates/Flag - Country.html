@@ -1,13 +1,21 @@
 {{#Flag}}
+  <div class="capital">Flag</div>
   <div class="flag">{{Flag}}</div>
+
+  <br><hr id=answer><br>
+
+  <div class="country">Country</div>
+  <div class="value">???</div>
 {{/Flag}}
 
 --
 
-{{FrontSide}}
+<div class="capital">Flag</div>
+<div class="flag">{{Flag}}</div>
+{{#Flag similarity}}<div class="info">Flag similar to {{Flag similarity}}.</div>{{/Flag similarity}}
 
-<hr id=answer>
+<br><hr id=answer><br>
 
+<div class="country">Country</div>
 <div class="value">{{Country}}</div>
 {{#Country info}}<div class="info">{{Country info}}</div>{{/Country info}}
-{{#Flag similarity}}<div class="info">Flag similar to {{Flag similarity}}.</div>{{/Flag similarity}}

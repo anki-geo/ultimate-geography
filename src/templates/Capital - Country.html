@@ -1,15 +1,24 @@
 {{#Capital}}
-  <div class="type type--top">Capital</div>
+  <div class="country">Country</div>
+  <div class="value">???</div>
+
+  <br><hr><br>
+
+  <div class="capital">Capital</div>
   <div class="value">{{Capital}}</div>
-  {{#Capital hint}}<div class="info">Hint: {{Capital hint}}</div>{{/Capital hint}}
+  {{#Capital hint}}<div class="info">{{Capital hint}}</div>{{/Capital hint}}
 {{/Capital}}
 
 --
 
-{{FrontSide}}
-
-<hr id=answer>
-
-<div class="type">Country</div>
+<div class="country">Country</div>
 <div class="value">{{Country}}</div>
 {{#Country info}}<div class="info">{{Country info}}</div>{{/Country info}}
+
+<br><hr><br>
+
+<div class="capital">Capital</div>
+<div class="value">{{Capital}}</div>
+{{#Capital hint}}<div class="info">{{Capital hint}}</div>{{/Capital hint}}
+
+{{#Capital info}}<div class="info">{{Capital info}}</div>{{/Capital info}}
