@@ -33,14 +33,12 @@ For more information, please refer to <http://unlicense.org>
 
 ## Images
 
-The flags (`ug-flag-...`), with the exception of the ones listed below, are sourced from [Wikimedia Commons](https://commons.wikimedia.org/), where they are released into the **public domain**. Most are listed on Wikipedia's [Gallery of sovereign state flags](https://en.wikipedia.org/wiki/Gallery_of_sovereign_state_flags). I did not make any visual modification, but did optimise them with [svgo](https://github.com/svg/svgo) and [PNGGauntlet](https://pnggauntlet.com/) to reduce file size.
+- The licenses and sources for the maps and some of the flags are listed in `sources.csv`.
+- Files with the following licenses are present: **[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)**, **[CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)**, **[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)**, **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** and **PD** (in the public domain).
+
+The flags (`ug-flag-...`), with the exception of the ones listed in `sources.csv`, are sourced from [Wikimedia Commons](https://commons.wikimedia.org/), where they are released into the **public domain**. Most are listed on Wikipedia's [Gallery of sovereign state flags](https://en.wikipedia.org/wiki/Gallery_of_sovereign_state_flags). I did not make any visual modification, but did optimise them with [svgo](https://github.com/svg/svgo) and [PNGGauntlet](https://pnggauntlet.com/) to reduce file size.
 
 Most of the maps are also sourced from [Wikimedia Commons](https://commons.wikimedia.org/). They are part of the German [Locator map](https://de.wikipedia.org/wiki/Wikipedia:Kartenwerkstatt/Positionskarten) project of Wikipedia's [Map workshop](https://en.wikipedia.org/wiki/Wikipedia:Graphics_Lab/Map_workshop). More specifically, they are 500px-wide PNG versions of SVG locator maps from the project's [16:9 regional location map scheme](https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_(16:9_regional_location_map_scheme)), and are released under the **[CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)** licence.
-
-### Exceptions
-
-- The licenses and sources for the remaining flags and maps are listed in `sources.csv`.
-- Files with the following licenses are present: **[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)**, **[CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)**, **[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)**, **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** and **PD** (in the public domain).
 
 ### Licence unknown
 
