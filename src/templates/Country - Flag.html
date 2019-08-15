@@ -1,10 +1,11 @@
 {{#Flag}}
-  <div class="value value--top">?</div>
+  <div class="value value--top">{{Country}}</div>
+  {{#Country info}}<div class="info">{{Country info}}</div>{{/Country info}}
 
   <hr>
 
   <div class="type">Flag</div>
-  <div class="image">{{Flag}}</div>
+  <div class="value">?</div>
 {{/Flag}}
 
 --
@@ -12,7 +13,7 @@
 <div class="value value--top">{{Country}}</div>
 {{#Country info}}<div class="info">{{Country info}}</div>{{/Country info}}
 
-<hr>
+<hr id=answer>
 
 <div class="type">Flag</div>
 <div class="image">{{Flag}}</div>

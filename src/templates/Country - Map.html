@@ -1,10 +1,11 @@
 {{#Map}}
-  <div class="value value--top">?</div>
+  <div class="value value--top">{{Country}}</div>
+  {{#Country info}}<div class="info">{{Country info}}</div>{{/Country info}}
 
   <hr>
 
   <div class="type">Location</div>
-  <div class="image">{{Map}}</div>
+  <div class="value">?</div>
 {{/Map}}
 
 --
@@ -12,7 +13,7 @@
 <div class="value value--top">{{Country}}</div>
 {{#Country info}}<div class="info">{{Country info}}</div>{{/Country info}}
 
-<hr>
+<hr id=answer>
 
 <div class="type">Location</div>
 <div class="image">{{Map}}</div>
