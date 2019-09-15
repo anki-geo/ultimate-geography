@@ -8,6 +8,18 @@
 - **7 continents** (7 cards, maps only)
 - for a total of **319 unique notes**, **1095 cards**, **260 flags** and **318 maps**.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Features](#features)
+- [Getting started](#getting-started)
+- [Upgrading](#upgrading)
+- [Background](#background)
+- [Deck structure](#deck-structure)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ---
 
 ## Features
