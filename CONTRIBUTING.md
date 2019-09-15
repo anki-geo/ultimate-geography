@@ -60,3 +60,41 @@ Content changes, such as adding or removing a note, replacing an image, or trans
 1. Update the version number in the title and the description if needed.
 1. Enter the full legal name and click _Share_.
 1. Close the milestone in GitHub and create a new one for the next version.
+
+## Content guidelines
+
+### _Flag similarity_ field
+
+This field is used in the standard deck's _Flag - Country_ template.
+
+In Anki, when you keep on confusing two flags, you can't put them side by side to learn their visual differences. The _Flag similarity_ field works around this limitation by providing a concise description of the differences a flag has with another. It allows users to more easily learn to distinguish pairs of similar flags and perhaps come up with mnemonics to remember their respective countries.
+
+A note's _Flag similarity_ field contains a list of countries, each followed by a list of differences. For instance, the flag similarities for Iceland are written as follows: "Norway (red background, blue cross), Faroe Islands (white background, red and blue cross)". The list of differences must be **precise**, **clear** and **concise**. Advanced [vexillological](https://en.wikipedia.org/wiki/Vexillology) terms should be avoided.
+
+Flag similarities are always **mutual**: if flag A is similar to flag B, then flag B is similar to flag A. To determine whether two flags are similar enough to warrant mutual _Flag similarity_ information, their differences must first be **identified** and **classified**. The following classification applies:
+
+- **Critical differences (C)**
+  - presence/absence of decoration - i.e. symbol, coat of arms, etc.
+- **Major differences (M)**
+  - same colours in different positions (e.g. two swapped, three rotated)
+  - decorations of different types in same position (e.g. symbol vs. coat of arms)
+  - decorations of same type in different positions (e.g. star(s) above/below band for Curaçao/Nauru)
+- **Minor differences (m)**
+  - slightly different colours (e.g. shade of blue, red vs. maroon, darker green)
+  - slightly different geometry (e.g. width, number of serrated edges for Qatar/Bahrain, size of canton)
+  - different decoration of same type in same position (e.g. different symbol, different coat of arms)
+  - decorations of same type in different amounts (e.g. fewer stars)
+  - decorations of same type with different colours (e.g. white vs. red stars for Australia/New Zealand)
+- **Negligible differences (n)**
+  - subtly different colours - i.e. [ΔE](https://github.com/axelboc/anki-ultimate-geography/issues/50#issuecomment-525902404) < 30
+  - subtly different geometry
+
+Two flags are then elligible for _Flag similarity_ information when they respect the two rules below:
+
+- Their differences all fit in the above classification. For instance, France and Italy are not elligible because their left bands are respectively blue and green, and "different colours in same position" does not appear in the classification.
+- Their classified differences form one the following combinations:
+  - `1C 0M 0m {0+}n` = one critical difference and any number of negligible differences
+  - `0C 1M {0-2}m {0+}n` = one major difference, up to two minor differences and any number of negligible differences
+  - `0C 0M {0-3}m {0+}n` = up to three minor differences and any number of negligible differences
+
+Critical, major and minor differences should be listed in the _Flag similarity_ field. Negligible differences should be listed only when relevant, notably when two flags share nothing but negligible differences.
