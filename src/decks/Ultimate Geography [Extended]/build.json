@@ -21,11 +21,11 @@
     "Map"
   ],
   "templates": [
-    "Country - Capital EXT",
+    "Country - Capital",
     "Capital - Country",
-    "Country - Flag EXT",
+    "Country - Flag",
     "Flag - Country",
-    "Country - Map EXT",
+    "Country - Map",
     "Map - Country"
   ]
 }
