@@ -8,41 +8,9 @@
 - **7 continents** (7 cards, maps only)
 - for a total of **319 unique notes**, **1095 cards**, **260 flags** and **318 maps**.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-
-- [Features](#features)
-- [Getting started](#getting-started)
-- [Upgrading](#upgrading)
-- [Background](#background)
-- [Deck structure](#deck-structure)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
----
-
-## Features
-
 ### Note templates
 
-<table>
-  <tr><th scope="col" colspan="2">Country - Capital</th></tr>
-  <tr><th scope="col">Front</th><th scope="col">Back</th></tr>
-  <tr>
-    <td><img src="doc/Country - Capital -- Front -- Sri Lanka.png"></td>
-    <td><img src="doc/Country - Capital -- Back -- Sri Lanka.png"></td>
-  </tr>
-</table>
-
-<table>
-  <tr><th scope="col" colspan="2">Capital - Country</th></tr>
-  <tr><th scope="col">Front</th><th scope="col">Back</th></tr>
-  <tr>
-    <td><img src="doc/Capital - Country -- Front -- Finland.png"></td>
-    <td><img src="doc/Capital - Country -- Back -- Finland.png"></td>
-  </tr>
-</table>
+The standard version of the deck comes with four note templates: _Flag - Country_ and _Map - Country_, _Country - Capital_ and _Capital - Country_.
 
 <table>
   <tr><th scope="col" colspan="2">Flag - Country</th></tr>
@@ -59,6 +27,24 @@
   <tr>
     <td><img src="doc/Map - Country -- Front -- Mexico.png"></td>
     <td><img src="doc/Map - Country -- Back -- Mexico.png"></td>
+  </tr>
+</table>
+
+<table>
+  <tr><th scope="col" colspan="2">Country - Capital</th></tr>
+  <tr><th scope="col">Front</th><th scope="col">Back</th></tr>
+  <tr>
+    <td><img src="doc/Country - Capital -- Front -- Sri Lanka.png"></td>
+    <td><img src="doc/Country - Capital -- Back -- Sri Lanka.png"></td>
+  </tr>
+</table>
+
+<table>
+  <tr><th scope="col" colspan="2">Capital - Country</th></tr>
+  <tr><th scope="col">Front</th><th scope="col">Back</th></tr>
+  <tr>
+    <td><img src="doc/Capital - Country -- Front -- Finland.png"></td>
+    <td><img src="doc/Capital - Country -- Back -- Finland.png"></td>
   </tr>
 </table>
 
@@ -109,7 +95,7 @@ The extended version of the deck comes with two additional note templates: _Coun
 
 ### Custom study
 
-Anki's [search feature](http://ankisrs.net/docs/manual.html#searching), coupled with the deck's comprehensive tag structure, allows for the creation of [filtered decks](https://apps.ankiweb.net/docs/manual.html#creating-manually) covering a wide range of learning goals and abilities. Here are some search queries you can use:
+Anki's [search feature](https://apps.ankiweb.net/docs/manual.html#searching), coupled with the deck's comprehensive tag structure, allows for the creation of [filtered decks](https://apps.ankiweb.net/docs/manual.html#creating-manually) covering a wide range of learning goals and abilities. Here are some search queries you can use:
 
 - `card:"Flag - Country"` to learn flags and nothing else;
 - `tag:UG::Sovereign_State` to focus on soverign states and exclude dependent territories, water bodies and continents;
@@ -179,7 +165,7 @@ This deck is built on top of an old [shared deck](https://ankiweb.net/shared/inf
 
 ## Deck structure
 
-> Please beware that changing the structure of the deck may **prevent you from upgrading it** without losing your progress.
+> Beware that changing the structure of the deck may **prevent you from upgrading it** without loss of progress.
 
 The notes are based on a **note type** called _Ultimate Geography_, which defines **eight fields**: _Country_, _Country info_, _Capital_, _Capital info_, _Capital hint_, _Flag_, _Flag similarity_ and _Map_.
 
