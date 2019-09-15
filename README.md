@@ -3,10 +3,10 @@
 **Geography flashcard deck for [Anki](http://ankisrs.net/)** featuring:
 
 - the world's **[206 sovereign states](https://en.wikipedia.org/wiki/List_of_sovereign_states)** (824 cards)
-- **67 overseas territories** and dependent areas (225 cards)
+- **67 overseas territories** and dependent areas (227 cards)
 - **39 oceans and seas** (39 cards, maps only)
 - **7 continents** (7 cards, maps only)
-- for a total of **319 unique notes**, **1095 cards**, **260 flags** and **318 maps**.
+- for a total of **319 unique notes**, **1097 cards**, **260 flags** and **318 maps**.
 
 ### Note templates
 
