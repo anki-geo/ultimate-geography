@@ -1,5 +1,5 @@
 guid,Country,Country:de,"Country info","Country info:de",Capital,Capital:de,"Capital info","Capital info:de","Capital hint","Capital hint:de",Flag,"Flag similarity","Flag similarity:de",Map,tags
-crr.AfnVRi,England,England,"Constituent country of the United Kingdom.","Landesteil des Vereinigten Königreichs.",London,London,,,"Constituent country",,"<img src=""ug-flag-england.svg"" />",,,"<img src=""ug-map-england.png"" />",UG::Europe
+crr.AfnVRi,England,England,"Constituent country of the United Kingdom.","Landesteil des Vereinigten Königreichs.",London,London,,,"Constituent country",Landesteil,"<img src=""ug-flag-england.svg"" />",,,"<img src=""ug-map-england.png"" />",UG::Europe
 fLa47kwPQ|,Scotland,Schottland,"Constituent country of the United Kingdom.","Landesteil des Vereinigten Königreichs.",Edinburgh,Edinburgh,,,,,"<img src=""ug-flag-scotland.svg"" />",,,"<img src=""ug-map-scotland.png"" />",UG::Europe
 "qip%,jz5{B","United Kingdom","Vereinigtes Königreich",,,London,London,,,"Sovereign country","Souveränes Land","<img src=""ug-flag-united_kingdom.svg"" />",,,"<img src=""ug-map-united_kingdom.png"" />","UG::Europe UG::European_Union UG::Sovereign_State"
 a>/E!W3aZ:,"Northern Ireland",Nordirland,"Constituent country of the United Kingdom.","Landesteil des Vereinigten Königreichs.",Belfast,Belfast,,,,,,,,"<img src=""ug-map-northern_ireland.png"" />",UG::Europe
@@ -310,7 +310,7 @@ qAsU}ONgC#,"Mount Athos",Athos,"Autonomous orthodox monastic state in northeaste
 lIEV|(|pPu,Sicily,Sizilien,"Autonomous region of Italy.","Autonome Region Italiens.",Palermo,Palermo,,,,,"<img src=""ug-flag-sicily.svg"" />",,,"<img src=""ug-map-sicily.png"" />",UG::Europe
 v2Z)BIAnoM,Mayotte,Mayotte,"Overseas department of France.","Übersee-Département Frankreichs.",Mamoudzou,Mamoudzou,,,,,,,,"<img src=""ug-map-mayotte.png"" />",UG::Africa
 t3VhRfcBZs,Réunion,"La Réunion","Overseas department of France.","Übersee-Département Frankreichs",Saint-Denis,Saint-Denis,,,,,,,,"<img src=""ug-map-reunion.png"" />",UG::Africa
-ArmciP%a;a,"British Indian Ocean Territory","Britisches Territorium im Indischen Ozean","Overseas territory of the United Kingdom.","Britisches Überseegebiet.","Camp Justice",London,,,,,"<img src=""ug-flag-british_indian_ocean_territory.svg"" />",,,"<img src=""ug-map-british_indian_ocean_territory.png"" />",UG::Africa
+ArmciP%a;a,"British Indian Ocean Territory","Britisches Territorium im Indischen Ozean","Overseas territory of the United Kingdom.","Britisches Überseegebiet.","Camp Justice",London,,,,Überseegebiet,"<img src=""ug-flag-british_indian_ocean_territory.svg"" />",,,"<img src=""ug-map-british_indian_ocean_territory.png"" />",UG::Africa
 UkP!tU%r),"Falkland Islands",Falklandinseln,"Overseas territory of the United Kingdom.","Britisches Überseegebiet.",Stanley,Stanley,,,,,"<img src=""ug-flag-falkland_islands.svg"" />",,,"<img src=""ug-map-falkland_islands.png"" />","UG::America UG::South_America"
 m_r)&~O1}o,Europe,Europa,,,,,,,,,,,,"<img src=""ug-map-europe.png"" />",UG::Continents
 ~(x;GNezDa,"North America",Nordamerika,,,,,,,,,,,,"<img src=""ug-map-north_america.png"" />",UG::Continents
