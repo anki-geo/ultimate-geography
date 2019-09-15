@@ -27,6 +27,10 @@ From here, building the deck is as simple as running `composer build`. Anki Deck
 
 Anki requires each note to have a unique identifier. When you add a note to the deck, that is, when you add a row to `data.csv`, make sure to leave the first column empty. Then, tell Anki Deck Manager to re-index the deck by running `composer index`. The note you added will receive an identifier.
 
+### Quotes normalisation
+
+Anki Deck Manager has a very specific way of wrapping fields with double quotes  in `data.csv` to escape special characters (cf. #129). Whether you edit the file by hand or through an editor, chances are you won't end up with double quotes in the same places. If you commit the file as is, the diff will be cluttered with changes that have nothing to do with your edits. To avoid this, run `composer index` before commiting your changes. This command has the side effect of normalising the escaping of fields in the entire file.
+
 ## Maintainer's guide
 
 ### Versioning
