@@ -1,6 +1,6 @@
 # Translation sources
 
-This file clarifies which sources have been used for translations.
+This file clarifies which sources have been used for translations and which style choices have been made for each language.
 
 ## Norwegian bokmål (nb)
 
