@@ -98,3 +98,8 @@ Two flags are then elligible for _Flag similarity_ information when they respect
   - `0C 0M {0-3}m {0+}n` = up to three minor differences and any number of negligible differences
 
 Critical, major and minor differences should be listed in the _Flag similarity_ field. Negligible differences should be listed only when relevant, notably when two flags share nothing but negligible differences.
+
+### Translation sources
+
+If you are contributing a new language, please add any sources to `TRANSLATION_SOURCES.md`, also explaining possible style choices.
+If you are significantly changing the style or content of an existing translation, please update the sources and explanations. 
