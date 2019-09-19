@@ -60,7 +60,7 @@ To help with memorisation and provide context while learning, most notes include
 
 ### Translations
 
-The deck is available in **German**.
+The deck is available in **German** and **Norwegian (bokmål)**.
 
 <table>
   <tr><th scope="col" colspan="2">German</th></tr>
@@ -68,6 +68,15 @@ The deck is available in **German**.
   <tr>
     <td><img alt="" src="doc/DE -- Capital - Country -- Front -- Cayman Islands.png"></td>
     <td><img alt="" src="doc/DE -- Capital - Country -- Back -- Cayman Islands.png"></td>
+  </tr>
+</table>
+
+<table>
+  <tr><th scope="col" colspan="2">Norwegian (bokmål)</th></tr>
+  <tr><th scope="col">Front</th><th scope="col">Back</th></tr>
+  <tr>
+    <td><img alt="" src="doc/NB -- Capital - Country -- Front -- British Virgin Islands.png"></td>
+    <td><img alt="" src="doc/NB -- Capital - Country -- Back -- British Virgin Islands.png"></td>
   </tr>
 </table>
 
