@@ -51,7 +51,7 @@ Content changes, such as adding or removing a note, replacing an image, or trans
   - `Ultimate Geography [Extended]` ==> `Ultimate_Geography_v[x.y]_EN_EXTENDED.zip`.
   - `Ultimate Geography_de` ==> `Ultimate_Geography_v[x.y]_DE.zip`.
   - `Ultimate Geography [Extended]_de` ==> `Ultimate_Geography_v[x.y]_DE_EXTENDED.zip`.
-1. In Anki, create a new profile and import the folder of the standard English deck with CrowdAnki (i.e. `Ultimate Geography`). For major versions, make sure to perform a [clean import](README.md#major-version). Synchronise all your devices again once the import is complete.
+1. In Anki, synchronise all your devices then import the folder of the standard English deck with CrowdAnki (i.e. `Ultimate Geography`). For major versions, make sure to perform a [clean import](README.md#major-version). Synchronise all your devices again once the import is complete.
 1. Export the deck as an APKG package named `Ultimate_Geography_v[x.y]_EN.apkg`, making sure to exclude scheduling information but include all media.
 1. Write the release notes on GitHub.
 1. Attach the APKG file as well as all the ZIP files to the release and publish it.
