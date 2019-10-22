@@ -15,3 +15,9 @@ The Norwegian bokmål translation has been based on a few sources in addition to
 - **[Wikipedia in Norwegian bokmål](https://no.wikipedia.org/wiki/Portal:Forside)**: Used whenever neither of the above sources were enough to verify spelling.
 
 In matters of style and grammar, a somewhat conservative style has been used, with feminine gendered nouns used only in the case of bays and islands ("-bukta" and "-øya", e.g. Biscayabukta instead of Biscayabukten).
+
+## Spanish (es)
+
+The Spanish translation has been based on the following sources in addition to the English deck, in order of priority:
+
+- **[Wikipedia in Spanish](https://es.wikipedia.org/wiki/Wikipedia:Portada)**: Used because it follows a very good style guide based on official sources and trying to be as neutral as possible, regarding how extended is Spanish in the world.
