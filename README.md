@@ -60,7 +60,7 @@ To help with memorisation and provide context while learning, most notes include
 
 ### Translations
 
-The deck is available in **German** and **Norwegian (bokmål)**.
+The deck is available in **German**, **French** and **Norwegian (bokmål)**.
 
 <table>
   <tr><th scope="col" colspan="2">German</th></tr>
