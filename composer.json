@@ -1,4 +1,7 @@
 {
+  "name": "axelboc/anki-ultimate-geography",
+  "description": "Geography flashcard deck for Anki",
+  "license": "Unlicense",
   "repositories": [
     {
       "type": "vcs",
