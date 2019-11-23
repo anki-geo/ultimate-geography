@@ -52,11 +52,11 @@ The standard version of the deck comes with four note templates: _Flag - Country
 
 To help with memorisation and provide context while learning, most notes include extra information:
 
-- **similar flags** - e.g., Iceland = _Norway (red background, blue cross)_
-- **governance information** - e.g., Cayman Islands = _Overseas territory of the United Kingdom_
-- **alternative and former country names** - e.g., East Timor = _Also known as Timor-Leste_
-- **additional capitals** - e.g., Sucre, Bolivia = _While Sucre is the constitutional capital, La Paz is the seat of government._
-- **statehood information** - e.g., Transnistria = _Independent state claimed by Moldova_.
+- **similar flags** - e.g. Iceland = _Norway (red background, blue cross)_
+- **governance information** - e.g. Cayman Islands = _Overseas territory of the United Kingdom_
+- **alternative and former country names** - e.g. East Timor = _Also known as Timor-Leste_
+- **additional capitals** - e.g. Sucre, Bolivia = _While Sucre is the constitutional capital, La Paz is the seat of government._
+- **statehood information** - e.g. Transnistria = _Independent state claimed by Moldova_.
 
 ### Translations
 
@@ -130,7 +130,7 @@ The standard English deck is the only version available as an Anki package. If y
 > Please note that importing an extended deck on top of a standard deck is not recommended. You should either remove the standard deck first (by following the instructions in the [_Major version_](#major-version) section), or import the extended deck in a separate Anki profile.
 
 1. Go to the [_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases) and find the latest release.
-1. In the release's _Downloads_ section, find the ZIP archive of the version you're interested in using (e.g., `Ultimate_Geography_v[...]_DE.zip` for the standard German deck) and download it.
+1. In the release's _Downloads_ section, find the ZIP archive of the version you're interested in using (e.g. `Ultimate_Geography_v[...]_DE.zip` for the standard German deck) and download it.
 1. Extract the content of the archive on your machine.
 1. Open Anki and make sure your devices are all synchronised.
 1. In the _File_ menu, select _CrowdAnki: Import from disk_.
@@ -146,17 +146,17 @@ To stay informed of new releases, make sure to [watch this repository's releases
 
 ## Upgrading
 
-If you're looking to upgrade to a newer version of the deck, this section is for you. The process differs depending on whether you're upgrading to a minor (e.g., v2.6) or a major (e.g., v3.0) version.
+If you're looking to upgrade to a newer version of the deck, this section is for you. The process differs depending on whether you're upgrading to a minor (e.g. v2.6) or a major (e.g. v3.0) version.
 
 > For more information about versioning and the differences between minor and major, please refer to the [_Versioning_](CONTRIBUTING.md#versioning) section.
 
 ### Minor version
 
-For a minor version upgrade (e.g., from 2.3 to 2.6), _do not_ import the APKG package in Anki as you may have done initially or you will lose your progress. Instead, proceed as described in the [_Other languages and versions_](#other-languages-and-versions) section, making sure to pick the correct archive (e.g., `Ultimate_Geography_v[...]_EN.zip` for the standard English deck).
+For a minor version upgrade (e.g. from 2.3 to 2.6), _do not_ import the APKG package in Anki as you may have done initially or you will lose your progress. Instead, proceed as described in the [_Other languages and versions_](#other-languages-and-versions) section, making sure to pick the correct archive (e.g. `Ultimate_Geography_v[...]_EN.zip` for the standard English deck).
 
 ### Major version
 
-Upgrading to a major version (e.g., from 2.6 to 3.0) typically leads to a loss of progress. Therefore, unless the [release's page](https://github.com/axelboc/anki-ultimate-geography/releases) tells you otherwise, it is recommended to perform a clean import by following these steps:
+Upgrading to a major version (e.g. from 2.6 to 3.0) typically leads to a loss of progress. Therefore, unless the [release's page](https://github.com/axelboc/anki-ultimate-geography/releases) tells you otherwise, it is recommended to perform a clean import by following these steps:
 
 1. Open Anki and make sure your devices are all synchronised.
 1. Delete the `Ultimate Geography` deck.
