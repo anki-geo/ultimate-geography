@@ -14,4 +14,4 @@ The Norwegian bokmål translation has been based on a few sources in addition to
 - **[The Great Norwegian Encyclopedia (Store norske leksikon)](https://snl.no/)**: A Norwegian language encyclopedia edited by experts. This has been used for countries and territories which were not included above.
 - **[Wikipedia in Norwegian bokmål](https://no.wikipedia.org/wiki/Portal:Forside)**: Used whenever neither of the above sources were enough to verify spelling.
 
-In matters of style and grammar, a somewhat conservative style has been used, with feminine gendered nouns used only in the case of bays and islands ("-bukta" and "-øya", e.g. Biscayabukta instead of Biscayabukten).
+In matters of style and grammar, a somewhat conservative style has been used, with feminine gendered nouns used only in the case of bays and islands ("-bukta" and "-øya", e.g., Biscayabukta instead of Biscayabukten).

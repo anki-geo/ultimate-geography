@@ -16,7 +16,7 @@ Ready to start working on an issue? Here is what you need to know.
 
 1. Install the [CrowdAnki add-on](https://github.com/Stvad/CrowdAnki) in Anki.
 1. Fork and clone this repository on your machine.
-1. With the help of your favourite command-line package manager (e.g. `brew`, `chocolatey`, `apt-get`), install [PHP 7](http://php.net/) and [Composer](https://getcomposer.org/download/).
+1. With the help of your favourite command-line package manager (e.g., `brew`, `chocolatey`, `apt-get`), install [PHP 7](http://php.net/) and [Composer](https://getcomposer.org/download/).
 1. From the root of the project, run `composer install` to install Anki Deck Manager.
 
 ### Build and import
@@ -37,8 +37,8 @@ Anki Deck Manager has a very specific way of wrapping fields with double quotes 
 
 The releases follow a versioning scheme of the form `x.y`, where:
 
-- `x` increases in the case of a **major, breaking release** (e.g. v3.0),
-- `y` increases in the case of a **minor, non-breaking release** (e.g. v2.6).
+- `x` increases in the case of a **major, breaking release** (e.g., v3.0),
+- `y` increases in the case of a **minor, non-breaking release** (e.g., v2.6).
 
 Content changes, such as adding or removing a note, replacing an image, or translating the deck into a new language, all constitute minor changes. A change is considered major when users are likely to **lose a significant part of their progress** when upgrading the deck with CrowdAnki (cf. [_Upgrading_](README.md#upgrading) section of README).
 
@@ -51,7 +51,7 @@ Content changes, such as adding or removing a note, replacing an image, or trans
   - `Ultimate Geography [Extended]` ==> `Ultimate_Geography_v[x.y]_EN_EXTENDED.zip`.
   - `Ultimate Geography_de` ==> `Ultimate_Geography_v[x.y]_DE.zip`.
   - `Ultimate Geography [Extended]_de` ==> `Ultimate_Geography_v[x.y]_DE_EXTENDED.zip`.
-1. In Anki, synchronise all your devices then import the folder of the standard English deck with CrowdAnki (i.e. `Ultimate Geography`). For major versions, make sure to perform a [clean import](README.md#major-version). Synchronise all your devices again once the import is complete.
+1. In Anki, synchronise all your devices then import the folder of the standard English deck with CrowdAnki (i.e., `Ultimate Geography`). For major versions, make sure to perform a [clean import](README.md#major-version). Synchronise all your devices again once the import is complete.
 1. Export the deck as an APKG package named `Ultimate_Geography_v[x.y]_EN.apkg`, making sure to exclude scheduling information but include all media.
 1. Write the release notes on GitHub.
 1. Attach the APKG file as well as all the ZIP files to the release and publish it.
@@ -74,19 +74,19 @@ A note's _Flag similarity_ field contains a list of countries, each followed by 
 Flag similarities are always **mutual**: if flag A is similar to flag B, then flag B is similar to flag A. To determine whether two flags are similar enough to warrant mutual _Flag similarity_ information, their differences must first be **identified** and **classified**. The following classification applies:
 
 - **Critical differences (C)**
-  - presence/absence of decoration - i.e. symbol, coat of arms, etc.
+  - presence/absence of decoration - e.g., symbol, coat of arms, etc.
 - **Major differences (M)**
-  - same colours in different positions (e.g. two swapped, three rotated)
-  - decorations of different types in same position (e.g. symbol vs. coat of arms)
-  - decorations of same type in different positions (e.g. star(s) above/below band for Curaçao/Nauru)
+  - same colours in different positions (e.g., two swapped, three rotated)
+  - decorations of different types in same position (e.g., symbol vs. coat of arms)
+  - decorations of same type in different positions (e.g., star(s) above/below band for Curaçao/Nauru)
 - **Minor differences (m)**
-  - slightly different colours (e.g. shade of blue, red vs. maroon, darker green)
-  - slightly different geometry (e.g. width, number of serrated edges for Qatar/Bahrain, size of canton)
-  - different decoration of same type in same position (e.g. different symbol, different coat of arms)
-  - decorations of same type in different amounts (e.g. fewer stars)
-  - decorations of same type with different colours (e.g. white vs. red stars for Australia/New Zealand)
+  - slightly different colours (e.g., shade of blue, red vs. maroon, darker green)
+  - slightly different geometry (e.g., width, number of serrated edges for Qatar/Bahrain, size of canton)
+  - different decoration of same type in same position (e.g., different symbol, different coat of arms)
+  - decorations of same type in different amounts (e.g., fewer stars)
+  - decorations of same type with different colours (e.g., white vs. red stars for Australia/New Zealand)
 - **Negligible differences (n)**
-  - subtly different colours - i.e. [ΔE](https://github.com/axelboc/anki-ultimate-geography/issues/50#issuecomment-525902404) < 30
+  - subtly different colours - i.e., [ΔE](https://github.com/axelboc/anki-ultimate-geography/issues/50#issuecomment-525902404) < 30
   - subtly different geometry
 
 Two flags are then elligible for _Flag similarity_ information when they respect the two rules below:
