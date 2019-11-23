@@ -74,7 +74,7 @@ A note's _Flag similarity_ field contains a list of countries, each followed by 
 Flag similarities are always **mutual**: if flag A is similar to flag B, then flag B is similar to flag A. To determine whether two flags are similar enough to warrant mutual _Flag similarity_ information, their differences must first be **identified** and **classified**. The following classification applies:
 
 - **Critical differences (C)**
-  - presence/absence of decoration - e.g. symbol, coat of arms, etc.
+  - presence/absence of decoration - i.e. symbol, coat of arms, etc.
 - **Major differences (M)**
   - same colours in different positions (e.g. two swapped, three rotated)
   - decorations of different types in same position (e.g. symbol vs. coat of arms)
