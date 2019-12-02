@@ -32,4 +32,4 @@ jobs:
       run: composer index
 
     - name: Check diff
-      run: git diff-index --quiet HEAD -- || echo "You need to run \`composer index\`"
+      run: git diff --quiet -- || echo "You need to run \`composer index\`"
