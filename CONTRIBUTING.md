@@ -103,3 +103,11 @@ Critical, major and minor differences should be listed in the _Flag similarity_ 
 
 If you are contributing a new language, please add any sources to `TRANSLATION_SOURCES.md`, also explaining possible style choices.
 If you are significantly changing the style or content of an existing translation, please update the sources and explanations.
+
+### Country names
+
+In some cases, it's not certain what is the correct name for a given country. This usually occurs when the official English translation of the name is changed, but the old name is still frequently used (for example, in the media or in everyday conversations). 
+
+We wish to avoid having drawn-out discussions on when switching over to the new name would be appropriate (if ever) and philosophical debates on what the definition of a name of a country actually is. Hence, unless otherwise stated in `TRANSLATION_SOURCES.md`, we simply defer to Wikipedia (which will probably already have had the relevant discussions).
+
+We take the first listed name in the Wikipedia article for the country, in the language of the given deck, as the "actual" name. Any alternative names may be mentioned in the "Country info" field. For some more detailed meta-discussion see [#181](https://github.com/axelboc/anki-ultimate-geography/issues/181).
