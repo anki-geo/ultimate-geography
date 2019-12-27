@@ -54,13 +54,13 @@ To help with memorisation and provide context while learning, most notes include
 
 - **similar flags** - e.g. Iceland = _Norway (red background, blue cross)_
 - **governance information** - e.g. Cayman Islands = _Overseas territory of the United Kingdom_
-- **alternative and former country names** - e.g. East Timor = _Also known as Timer-Leste_
+- **alternative and former country names** - e.g. East Timor = _Also known as Timor-Leste_
 - **additional capitals** - e.g. Sucre, Bolivia = _While Sucre is the constitutional capital, La Paz is the seat of government._
 - **statehood information** - e.g. Transnistria = _Independent state claimed by Moldova_.
 
 ### Translations
 
-The deck is available in **German** and **Norwegian (bokmål)**.
+The deck is available in **German**, **French** and **Norwegian (bokmål)**.
 
 <table>
   <tr><th scope="col" colspan="2">German</th></tr>
