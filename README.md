@@ -154,6 +154,8 @@ If you're looking to upgrade to a newer version of the deck, this section is for
 
 For a minor version upgrade (e.g. from 2.3 to 2.6), _do not_ import the APKG package in Anki as you may have done initially or you will lose your progress. Instead, proceed as described in the [_Other languages and versions_](#other-languages-and-versions) section, making sure to pick the correct archive (e.g. `Ultimate_Geography_v[...]_EN.zip` for the standard English deck).
 
+> If you've moved some of the cards out of the default _Ultimate Geography_ deck and into antoher deck, by default CrowdAnki will move those cards back on import. This behaviour [can be disabled](https://github.com/Stvad/CrowdAnki#configuration-settings).
+
 ### Major version
 
 Upgrading to a major version (e.g. from 2.6 to 3.0) typically leads to a loss of progress. Therefore, unless the [release's page](https://github.com/axelboc/anki-ultimate-geography/releases) tells you otherwise, it is recommended to perform a clean import by following these steps:
