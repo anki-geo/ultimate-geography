@@ -49,7 +49,7 @@ Anki requires each note to have a unique identifier. When you add a note to the 
 
 ### Quotes normalisation
 
-Anki Deck Manager has a very specific way of wrapping fields with double quotes  in `data.csv` to escape special characters (cf. [#129](https://github.com/axelboc/anki-ultimate-geography/issues/129)). Whether you edit the file by hand or through an editor, chances are you won't end up with double quotes in the same places. If you commit the file as is, the diff will be cluttered with changes that have nothing to do with your edits. To avoid this, run `composer index` before commiting your changes. This command has the side effect of normalising the escaping of fields in the entire file.
+Anki Deck Manager has a very specific way of wrapping fields with double quotes in `data.csv` to escape special characters (cf. [#129](https://github.com/axelboc/anki-ultimate-geography/issues/129)). Whether you edit the file by hand or through an editor, chances are you won't end up with double quotes in the same places. If you commit the file as is, the diff will be cluttered with changes that have nothing to do with your edits. To avoid this, run `composer index` before committing your changes. This command has the side effect of normalising the escaping of fields in the entire file.
 
 ### Content guidelines
 
@@ -66,7 +66,7 @@ If the title of the Wikipedia article contains a parenthetical portion for disam
 
 Country names must not be preceded by articles, particularly in gendered languages (French, German, etc.) unless Wikipedia indicates otherwise - e.g. _United Kingdom_, _The Gambia_. This rule also applies to the _Flag similarity_ field, but not to other fields in which country names are used in sentences.
 
-> To understand the reasoning behind these decisions, see [#181 (Wikipedia as source)](https://github.com/axelboc/anki-ultimate-geography/issues/181), [#212 (disambiguating country names)] and [https://github.com/axelboc/anki-ultimate-geography/pull/157#issuecomment-549143860 (no gender articles)].
+> To understand the reasoning behind these decisions, see [#181 (Wikipedia as source)](https://github.com/axelboc/anki-ultimate-geography/issues/181), [#212 (disambiguating country names)], and [https://github.com/axelboc/anki-ultimate-geography/pull/157#issuecomment-549143860 (no gender articles)].
 
 #### _Country info_ field
 
@@ -75,7 +75,7 @@ To help with memorisation and provide context while learning, this field may con
 - governance information - e.g. _Overseas territory of the United Kingdom_ (Cayman Islands)
 - statehood information - e.g. _Independent state claimed by Moldova_ (Transnistria)
 - alternative and former country names - e.g. _Also known as Timor-Leste_ (East Timor)
-- in rare cases only, general knowledge information - see Melanasia for an example
+- in rare cases only, general knowledge information - see Melanesia for an example
 
 The content of this field should be concise and consistent across notes. It may differ between languages, notably when dealing with alternative names.
 
@@ -89,7 +89,7 @@ If a capital has alternative names, we take **the title of the Wikipedia article
 
 If multiple capitals are listed in a country's infobox, the following guidelines apply:
 
-- If the first capital is followed by a qualifier such as "official", "constitutional", "de jure", "claimed" or "political", it must be used alone in the _Capital_ field. The _Capital info_ field must then be used to detail the status and/or role of every capital - e.g. _While Dodoma is the official capital, Dar es Salaam is the de facto seat of government._
+- If the first capital is followed by a qualifier such as "official", "constitutional", "de jure", "claimed", or "political", it must be used alone in the _Capital_ field. The _Capital info_ field must then be used to detail the status and/or role of every capital - e.g. _While Dodoma is the official capital, Dar es Salaam is the de facto seat of government._
 - If government branches such as "executive" or "legislative" are the only qualifiers used, then the capitals must all be listed in the _Capital_ field, separated by commas - e.g. _Pretoria, Cape Town, Bloemfontein_ (South Africa). The _Capital info_ field must again be used to detail the role of every capital.
 - If no qualifiers are provided at all, then the capitals must all be listed in the _Capital_ field, separated by commas - e.g. _Santa Cruz de Tenerife, Las Palmas_ (Canary Islands). A concise explanation should then be provided in the _Capital info_ field.
 
@@ -120,7 +120,7 @@ The following guidelines apply to flag images:
 - Each flag must be optimised with [SVGO](https://jakearchibald.github.io/svgomg/).
 - SVG flags larger than 50 kB must be exported to PNG (still with a height of 250 px) and optimised with a tool like [PNGGauntlet](https://pnggauntlet.com/).
 
-If the name of a country appears clearly on a flag, a second version of that flag may be provided, with the name of the country blurred out. The name should be blurred using [Inkscape](https://inkscape.org/)'s Gaussian blur effect as explained in #247. The blurred flag must be named `ug-flag-<country_name>-blur.<svg|png>` and placed in the `media` folder. A second HTML element must then be added to the _Flag_ field _before_ the existing HTML element. This allows the blurred flag to appear on the front of the country's _Flag - Country_ card.
+If the name of a country appears clearly on a flag, a second version of that flag may also be provided, with the name of the country blurred out. The name should be blurred using [Inkscape](https://inkscape.org/)'s Gaussian blur effect as explained in #247. The blurred flag must be named `ug-flag-<country_name>-blur.<svg|png>` and placed in the `media` folder. A second HTML element must then be added to the _Flag_ field _before_ the existing HTML element. This allows the blurred flag to appear on the front of the country's _Flag - Country_ card.
 
 #### _Flag similarity_ field
 
@@ -133,7 +133,7 @@ A note's _Flag similarity_ field contains a list of countries, each followed by 
 Flag similarities are always **mutual**: if flag A is similar to flag B, then flag B is similar to flag A. To determine whether two flags are similar enough to warrant mutual _Flag similarity_ information, their differences must first be **identified** and **classified**. The following classification applies:
 
 - **Critical differences (C)**
-  - presence/absence of decoration - i.e. symbol, coat of arms, etc.
+  - presence/absence of decoration - e.g. symbol, coat of arms
 - **Major differences (M)**
   - same colours in different positions (e.g. two swapped, three rotated)
   - decorations of different types in same position (e.g. symbol vs. coat of arms)
@@ -153,10 +153,10 @@ Two flags are then eligible for _Flag similarity_ information when they respect 
 - Their differences all fit in the above classification. For instance, France and Italy are not eligible because their left bands are respectively blue and green, and "different colours in same position" does not appear in the classification.
 - Their classified differences form one the following combinations:
   - `1C 0M 0m {0+}n` = one critical difference and any number of negligible differences
-  - `0C 1M {0-2}m {0+}n` = one major difference, up to two minor differences and any number of negligible differences
-  - `0C 0M {0-3}m {0+}n` = up to three minor differences and any number of negligible differences
+  - `0C 1M {0–2}m {0+}n` = one major difference, up to two minor differences, and any number of negligible differences
+  - `0C 0M {0–3}m {0+}n` = up to three minor differences and any number of negligible differences
 
-Critical, major and minor differences should be listed in the _Flag similarity_ field. Negligible differences should be listed only when relevant, notably when two flags share nothing but negligible differences.
+Critical, major, and minor differences should be listed in the _Flag similarity_ field. Negligible differences should be listed only when relevant, notably when two flags share nothing but negligible differences.
 
 #### _Map_ field
 
@@ -173,7 +173,7 @@ The following guidelines apply to map images:
 
 ### Translation sources
 
-If you are contributing a new language, please add any sources to [`TRANSLATION_SOURCES.md`](https://github.com/axelboc/anki-ultimate-geography/blob/master/TRANSLATION_SOURCES.md), also explaining possible stylistic choices.
+If you are contributing a new language, please add any sources to [`TRANSLATION_SOURCES.md`](https://github.com/axelboc/anki-ultimate-geography/blob/master/TRANSLATION_SOURCES.md), also explaining any stylistic choices.
 
 If you are changing the style or content of an existing translation significantly, please update the sources and explanations.
 
@@ -192,7 +192,7 @@ Content changes, such as adding or removing a note, replacing an image, or trans
 
 1. Bump the version in `desc.html` and commit the change.
 1. Run `composer index && composer build`.
-1. Add each folder in the `build` directtoy to a separate ZIP archive named as follows:
+1. Add each folder in the `build` directory to a separate ZIP archive named as follows:
   - `Ultimate Geography` ==> `Ultimate_Geography_v[x.y]_EN.zip`.
   - `Ultimate Geography [Extended]` ==> `Ultimate_Geography_v[x.y]_EN_EXTENDED.zip`.
   - `Ultimate Geography_de` ==> `Ultimate_Geography_v[x.y]_DE.zip`.
