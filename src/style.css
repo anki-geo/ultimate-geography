@@ -37,6 +37,18 @@
   display: none;
 }
 
+.image__placeholder {
+  color: #333;
+  height: auto; /* Required for Chromium */
+  max-width: 100%;
+}
+
+.image__placeholder path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1;
+}
+
 .image img {
   box-shadow: 0 1px 4px 1px rgba(0, 0, 0, .2);
 }
@@ -53,6 +65,11 @@ hr {
   margin: 1.5em 0;
 }
 
-.nightMode .info, .nightMode .type {
+.night_mode .info,
+.night_mode .type,
+.night_mode .image__placeholder,
+.nightMode .info,
+.nightMode .type,
+.nightMode .image__placeholder {
   color: #ccc;
 }
