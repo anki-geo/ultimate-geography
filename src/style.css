@@ -35,9 +35,17 @@
   margin-top: 0.75em;
 }
 
-.value > img {
+.value > img,
+.value > .placeholder {
   max-width: 100%;
   height: auto;
+}
+
+/**
+ * Apply shadow to images, notably to bring out white areas on flags.
+ * Ignore images with non-rectagular outlines (e.g. flag of Nepal).
+ */
+.value > img:not([src*="-nobox"]) {
   box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -58,8 +66,6 @@
  * Used on "Country - Flag" and "Country - Map" templates.
  */
 .placeholder {
-  max-width: 100%;
-  height: auto;
   color: #333;
 }
 
