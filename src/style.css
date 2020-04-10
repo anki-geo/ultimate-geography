@@ -1,18 +1,26 @@
 .card {
+  padding: 1em 0;
   background-color: white;
   color: black;
   font-family: Verdana;
   font-size: 16px;
-  padding: 1em 0;
   text-align: center;
 }
 
 .type {
+  margin-bottom: 0.25em;
   color: #333;
   font-size: 70%;
   font-weight: bold;
-  margin-bottom: .25em;
   text-transform: uppercase;
+}
+
+.info {
+  max-width: 30em;
+  margin: 0.75em auto;
+  color: #333;
+  font-size: 90%;
+  font-style: italic;
 }
 
 .value {
@@ -23,53 +31,53 @@
   margin-top: 1em;
 }
 
-.image {
-  margin-top: .75em
+.value--image {
+  margin-top: 0.75em;
 }
 
-/* Some flags (e.g. Guam's) contain identifying words that can give away the answer */
-/* Card backs always show the unmodified image(s) */
-/* If a blurred image(s) is available, card front shows that instead */
-.image--front > img[src*="-blur"] + img {
-  display: none;
-}
-.image--back > img[src*="-blur"] {
-  display: none;
-}
-
-.image__placeholder {
-  color: #333;
-  height: auto; /* Required for Chromium */
+.value > img {
   max-width: 100%;
+  height: auto;
+  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);
 }
 
-.image__placeholder path {
+/**
+ * Some flags (e.g. Guam's) contain identifying words that can give away the answer.
+ * If a blurred version is available, show it on the front but not on the back.
+ */
+.value--front > img[src*="-blur"] + img {
+  display: none;
+}
+
+.value--back > img[src*="-blur"] {
+  display: none;
+}
+
+/**
+ * Placeholder SVG to hint at the type of answer that is expected.
+ * Used on "Country - Flag" and "Country - Map" templates.
+ */
+.placeholder {
+  max-width: 100%;
+  height: auto;
+  color: #333;
+}
+
+.placeholder > path {
   fill: none;
   stroke: currentColor;
   stroke-width: 1;
 }
 
-.image img {
-  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, .2);
-}
-
-.info {
-  color: #333;
-  font-size: 90%;
-  font-style: italic;
-  margin: .75em auto;
-  max-width: 30em;
+.night_mode .info,
+.night_mode .type,
+.night_mode .placeholder,
+.nightMode .info,
+.nightMode .type,
+.nightMode .placeholder {
+  color: #ccc;
 }
 
 hr {
   margin: 1.5em 0;
-}
-
-.night_mode .info,
-.night_mode .type,
-.night_mode .image__placeholder,
-.nightMode .info,
-.nightMode .type,
-.nightMode .image__placeholder {
-  color: #ccc;
 }
