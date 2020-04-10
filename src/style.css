@@ -35,7 +35,8 @@
   margin-top: 0.75em;
 }
 
-.value > img {
+.value > img,
+.value > .placeholder {
   max-width: 100%;
   height: auto;
 }
@@ -64,13 +65,9 @@
  * Placeholder SVG to hint at the type of answer that is expected.
  * Used on "Country - Flag" and "Country - Map" templates.
  */
-.placeholder {
-  max-width: 100%;
-  height: auto;
-  color: #333;
-}
 
 .placeholder > path {
+  color: #333;
   fill: none;
   stroke: currentColor;
   stroke-width: 1;
@@ -78,10 +75,10 @@
 
 .night_mode .info,
 .night_mode .type,
-.night_mode .placeholder,
+.night_mode .placeholder > path,
 .nightMode .info,
 .nightMode .type,
-.nightMode .placeholder {
+.nightMode .placeholder > path {
   color: #ccc;
 }
 
