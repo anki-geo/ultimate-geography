@@ -38,6 +38,13 @@
 .value > img {
   max-width: 100%;
   height: auto;
+}
+
+/**
+ * Apply shadow to images, notably to bring out white areas on flags.
+ * Ignore images with non-rectagular outlines (e.g. flag of Nepal).
+ */
+.value > img:not([src*="-nobox"]) {
   box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);
 }
 
