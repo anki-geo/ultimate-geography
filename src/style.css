@@ -84,6 +84,15 @@
   color: #ccc;
 }
 
+/**
+ * Apply shadow to images, to bring out black areas on flags, in night
+   mode.
+ */
+.nightMode .value > img:not([src*="-nobox"]),
+.night_mode .value > img:not([src*="-nobox"]) {
+  box-shadow: 0 1px 4px 1px rgba(202, 202, 202, 0.2);
+}
+
 hr {
   margin: 1.5em 0;
 }
