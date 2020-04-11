@@ -6,22 +6,25 @@ Seen something outdated or plain wrong? Spotted a typo somewhere? Think somethin
 
 #### Table of contents
 
-[Contributor's guide](#contributors-guide)
-
-- [Set-up](#set-up)
-- [Build and import](#build-and-import)
-- [Indexing](#indexing)
-- [Quotes normalisation](#quotes-normalisation)
-
-[Content guidelines](#content-guidelines)
+- [**Contributor's guide**](#contributors-guide)
+  - [Set-up](#set-up)
+  - [Build and import](#build-and-import)
+  - [Indexing](#indexing)
+  - [Quotes normalisation](#quotes-normalisation)
+- [**Content guidelines**](#content-guidelines)
   - [_Country_ field](#country-field)
+  - [_Country info_ field](#country-info-field)
+  - [_Capital_ field](#capital-field)
+  - [_Capital info_ field](#capital-info-field)
+  - [_Capital hint_ field](#capital-hint-field)
+  - [_Flag_ field](#flag-field)
   - [_Flag similarity_ field](#flag-similarity-field)
-  - [Translation sources](#translation-sources)
-
-[Maintainer's guide](#maintainers-guide)
-
-- [Versioning](#versioning)
-- [Release process](#release-process)
+  - [_Map_ field](#map-field)
+- [**Translation sources**](#translation-sources)
+  - [Norwegian Bokmål](norwegian-bokmål)
+- [**Maintainer's guide**](#maintainers-guide)
+  - [Versioning](#versioning)
+  - [Release process](#release-process)
 
 
 ## Contributor's guide
@@ -51,24 +54,24 @@ Anki requires each note to have a unique identifier. When you add a note to the 
 
 Anki Deck Manager has a very specific way of wrapping fields with double quotes in `data.csv` to escape special characters (cf. [#129](https://github.com/axelboc/anki-ultimate-geography/issues/129)). Whether you edit the file by hand or through an editor, chances are you won't end up with double quotes in the same places. If you commit the file as is, the diff will be cluttered with changes that have nothing to do with your edits. To avoid this, run `composer index` before committing your changes. This command has the side effect of normalising the escaping of fields in the entire file.
 
-### Content guidelines
+## Content guidelines
 
-#### _Country_ field
+### _Country_ field
 
 The correct name to use for a given country or territory in each language is not always clear. This usually occurs in two cases:
 
 - when the official name is changed but the old name remains more frequently used (in the media and in everyday conversation) - e.g. _Ivory Coast_ vs. _Côte d'Ivoire_;
 - when the official name is simply shortened in everyday use - e.g. _China_ vs. _People's Republic of China_.
 
-Unless otherwise stated in [`TRANSLATION_SOURCES.md`](https://github.com/axelboc/anki-ultimate-geography/blob/master/TRANSLATION_SOURCES.md), we take **the title of the Wikipedia article** for the country, in the language of the given deck. Alternative names may be mentioned in the _Country info_ field, when relevant.
+Unless otherwise stated in the [_Translation sources_](#translation-sources) section below, we take **the title of the Wikipedia article** for the country, in the language of the given deck. Alternative names may be mentioned in the _Country info_ field, when relevant.
 
 If the title of the Wikipedia article contains a parenthetical portion for disambiguation purposes, it must be removed, except in the very unlikely case that two countries share the same name in a given language — e.g. _Saint-Martin (Antilles françaises)_ and _Saint-Martin (royaume des Pays-Bas)_ in the French deck.
 
 Country names must not be preceded by articles, particularly in gendered languages (French, German, etc.) unless Wikipedia indicates otherwise - e.g. _United Kingdom_, _The Gambia_. This rule also applies to the _Flag similarity_ field, but not to other fields in which country names are used in sentences.
 
-> To understand the reasoning behind these decisions, see [#181 (Wikipedia as source)](https://github.com/axelboc/anki-ultimate-geography/issues/181), [#212 (disambiguating country names)], and [https://github.com/axelboc/anki-ultimate-geography/pull/157#issuecomment-549143860 (no gender articles)].
+> To understand the reasoning behind these decisions, see #181 (Wikipedia as source), #212 (disambiguating country names), and https://github.com/axelboc/anki-ultimate-geography/pull/157#issuecomment-549143860 (no gender articles).
 
-#### _Country info_ field
+### _Country info_ field
 
 To help with memorisation and provide context while learning, this field may contain:
 
@@ -79,9 +82,9 @@ To help with memorisation and provide context while learning, this field may con
 
 The content of this field should be concise and consistent across notes. It may differ between languages, notably when dealing with alternative names.
 
-#### _Capital_ field
+### _Capital_ field
 
-Unless otherwise stated in [`TRANSLATION_SOURCES.md`](https://github.com/axelboc/anki-ultimate-geography/blob/master/TRANSLATION_SOURCES.md), we use the capital given in the [infobox](https://en.wikipedia.org/wiki/Template:Infobox_country#Examples) of the Wikipedia article for the country, in the language of the given deck.
+Unless otherwise stated in the [_Translation sources_](#translation-sources) section below, we use the capital given in the [infobox](https://en.wikipedia.org/wiki/Template:Infobox_country#Examples) of the Wikipedia article for the country, in the language of the given deck.
 
 If the title of the Wikipedia article contains a parenthetical portion for disambiguation purposes, it must be removed. The _Capital hint_ field is used instead for disambiguation.
 
@@ -93,11 +96,11 @@ If multiple capitals are listed in a country's infobox, the following guidelines
 - If government branches such as "executive" or "legislative" are the only qualifiers used, then the capitals must all be listed in the _Capital_ field, separated by commas - e.g. _Pretoria, Cape Town, Bloemfontein_ (South Africa). The _Capital info_ field must again be used to detail the role of every capital.
 - If no qualifiers are provided at all, then the capitals must all be listed in the _Capital_ field, separated by commas - e.g. _Santa Cruz de Tenerife, Las Palmas_ (Canary Islands). A concise explanation should then be provided in the _Capital info_ field.
 
-#### _Capital info_ field
+### _Capital info_ field
 
 As explained in the previous section, this field is typically used for countries with multiple capitals, to clarify the role and/or status of each capital, or to explain succinctly why the country has multiple capitals.
 
-#### _Capital hint_ field
+### _Capital hint_ field
 
 This field is used in notes that share:
 
@@ -107,7 +110,7 @@ This field is used in notes that share:
 The hints appear on _Capital - Country_ cards to avoid confusion or random guesses. They should
 convey as little information as possible to not give away the answers.
 
-#### _Flag_ field
+### _Flag_ field
 
 This field must contain a single HTML image element pointing to the SVG or PNG image of a flag - e.g. `<img src="ug-flag-seychelles.svg" />`. The image must be placed in the ` media` folder and named `ug-flag-<country_name>.<svg|png>`. SVG is the preferred format.
 
@@ -122,7 +125,7 @@ The following guidelines apply to flag images:
 
 If the name of a country appears clearly on a flag, a second version of that flag may also be provided, with the name of the country blurred out. The name should be blurred using [Inkscape](https://inkscape.org/)'s Gaussian blur effect as explained in #247. The blurred flag must be named `ug-flag-<country_name>-blur.<svg|png>` and placed in the `media` folder. A second HTML element must then be added to the _Flag_ field _before_ the existing HTML element. This allows the blurred flag to appear on the front of the country's _Flag - Country_ card.
 
-#### _Flag similarity_ field
+### _Flag similarity_ field
 
 This field is used in the _Flag - Country_ template.
 
@@ -158,7 +161,7 @@ Two flags are then eligible for _Flag similarity_ information when they respect 
 
 Critical, major, and minor differences should be listed in the _Flag similarity_ field. Negligible differences should be listed only when relevant, notably when two flags share nothing but negligible differences.
 
-#### _Map_ field
+### _Map_ field
 
 This field must contain a single HTML image element pointing to the PNG image of a map - e.g. `<img src="ug-map-seychelles.png" />`. The image must be placed in the ` media` folder and named `ug-map-<country_name>.png`. PNG is the preferred format.
 
@@ -171,11 +174,22 @@ The following guidelines apply to map images:
 - The style (colours, strokes, etc.) should match that of existing maps in the deck (note that water bodies use a different style than countries).
 - For small islands or archipelagos, the map should include a zoom box to facilitate identification.
 
-### Translation sources
+## Translation sources
 
-If you are contributing a new language, please add any sources to [`TRANSLATION_SOURCES.md`](https://github.com/axelboc/anki-ultimate-geography/blob/master/TRANSLATION_SOURCES.md), also explaining any stylistic choices.
+When Wikipedia in a given language is not sufficently exhaustive to support the translation of this deck, additional sources may be used. This section references such sources, as well as any stylistic choices made by translators.
 
-If you are changing the style or content of an existing translation significantly, please update the sources and explanations.
+### Norwegian Bokmål
+
+Norwegian Bokmål (nb) is the preferred written-language standard of roughly 90% of Norway's population, with the remaining 10% preferring Norwegian Nynorsk (nn).
+
+The Norwegian Bokmål translation is based on the following sources in addition to the English and German decks, listed in order of priority:
+
+- **[_Country names, capitals and national holidays_](https://www.regjeringen.no/no/dokumenter/statsnavn-hovedsteder-og-nasjonaldager/id87863/)** - This brochure from the Norwegian Ministry of Foreign Affairs is the most authoritative source for country names in Norwegian, as it is used by Norwegian diplomats. Only includes sovereign countries.
+- **[_The Great Norwegian Encyclopedia_](https://snl.no/)** - Used for countries and territories that were not included in the above brochure.
+- **[Wikipedia in Norwegian Bokmål](https://no.wikipedia.org/wiki/Portal:Forside)** - Used when neither of the above sources were enough to verify spelling.
+
+In matters of style and grammar, a somewhat conservative style has been used, with feminine-gendered nouns used only in the case of bays and islands ("-bukta" and "-øya", e.g. Biscayabukta instead of Biscayabukten).
+
 
 ## Maintainer's guide
 
