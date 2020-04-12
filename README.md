@@ -3,14 +3,30 @@
 **Geography flashcard deck for [Anki](http://ankisrs.net/)** featuring:
 
 - the world's **[206 sovereign states](https://en.wikipedia.org/wiki/List_of_sovereign_states)** (824 cards)
-- **69 overseas territories** and dependent areas (233 cards)
+- **69 overseas territories** and dependent areas (235 cards)
 - **39 oceans and seas** (39 cards, maps only)
 - **7 continents** (7 cards, maps only)
-- for a total of **321 unique notes**, **1103 cards**, **260 flags** and **321 maps**.
+- for a total of **321 unique notes**, **1105 cards**, **260 flags** and **321 maps**.
 
-### Note templates
+The deck is available in **English**, **German**, **Spanish**, **French** and **Norwegian Bokmål**.
 
-The standard version of the deck comes with four note templates: _Flag - Country_ and _Map - Country_, _Country - Capital_ and _Capital - Country_.
+---
+
+#### Table of contents
+
+- [**Features**](#features)
+  - [Supplementary information](#supplementary-information)
+  - [Custom study](#custom-study)
+- [**Getting started**](#getting-started)
+  - [Other languages and versions](#other-languages-and-versions)
+- [**Upgrading**](#upgrading)
+  - [Minor version](#minor-version)
+  - [Major version](#major-version)
+- [**Deck structure**](#deck-structure)
+
+## Features
+
+The standard version of the deck comes with four note templates: _Country - Capital_, _Capital - Country_, _Flag - Country_, and _Map - Country_. An [extended version](#other-languages-and-versions) is also available, with two additional note templates: _Country - Flag_ and _Country - Map_.
 
 <table>
   <tr><th scope="col" colspan="2">Flag - Country</th></tr>
@@ -58,53 +74,9 @@ To help with memorisation and provide context while learning, most notes include
 - **additional capitals** - e.g. Sucre, Bolivia = _While Sucre is the constitutional capital, La Paz is the seat of government._
 - **statehood information** - e.g. Transnistria = _Independent state claimed by Moldova_.
 
-### Translations
-
-The deck is available in **German**, **French** and **Norwegian (bokmål)**.
-
-<table>
-  <tr><th scope="col" colspan="2">German</th></tr>
-  <tr><th scope="col">Front</th><th scope="col">Back</th></tr>
-  <tr>
-    <td><img alt="" src="doc/DE -- Capital - Country -- Front -- Cayman Islands.png"></td>
-    <td><img alt="" src="doc/DE -- Capital - Country -- Back -- Cayman Islands.png"></td>
-  </tr>
-</table>
-
-<table>
-  <tr><th scope="col" colspan="2">Norwegian (bokmål)</th></tr>
-  <tr><th scope="col">Front</th><th scope="col">Back</th></tr>
-  <tr>
-    <td><img alt="" src="doc/NB -- Capital - Country -- Front -- British Virgin Islands.png"></td>
-    <td><img alt="" src="doc/NB -- Capital - Country -- Back -- British Virgin Islands.png"></td>
-  </tr>
-</table>
-
-### Extended deck
-
-The extended version of the deck comes with two additional note templates: _Country - Flag_ and _Country - Map_.
-
-<table>
-  <tr><th scope="col" colspan="2">Country - Flag</th></tr>
-  <tr><th scope="col">Front</th><th scope="col">Back</th></tr>
-  <tr>
-    <td><img alt="" src="doc/EX -- Country - Flag -- Front -- Abkhazia.png"></td>
-    <td><img alt="" src="doc/EX -- Country - Flag -- Back -- Abkhazia.png"></td>
-  </tr>
-</table>
-
-<table>
-  <tr><th scope="col" colspan="2">Country - Map</th></tr>
-  <tr><th scope="col">Front</th><th scope="col">Back</th></tr>
-  <tr>
-    <td><img alt="" src="doc/EX -- Country - Map -- Front -- Guadeloupe.png"></td>
-    <td><img alt="" src="doc/EX -- Country - Map -- Back -- Guadeloupe.png"></td>
-  </tr>
-</table>
-
 ### Custom study
 
-Anki's [search feature](https://apps.ankiweb.net/docs/manual.html#searching), coupled with the deck's comprehensive tag structure, allows for the creation of [filtered decks](https://apps.ankiweb.net/docs/manual.html#creating-manually) covering a wide range of learning goals and abilities. Here are some search queries you can use:
+Anki's [search feature](https://apps.ankiweb.net/docs/manual.html#searching), coupled with the deck's comprehensive [tag structure](#deck-structure), allows for the creation of [filtered decks](https://apps.ankiweb.net/docs/manual.html#creating-manually) covering a wide range of learning goals and abilities. Here are some search queries you can use:
 
 - `card:"Flag - Country"` to learn flags and nothing else;
 - `tag:UG::Sovereign_State` to focus on soverign states and exclude dependent territories, water bodies and continents;
@@ -120,6 +92,7 @@ First-time here? Welcome! If you're happy using the standard, English version of
 1. Go to the **[_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases)** and find the latest release.
 1. In the _Downloads_ section, find the Anki package `Ultimate_Geography_v[...]_EN.apkg` and download it.
 1. Import it in Anki, synchronise your devices and you're good to go!
+1. To stay informed of new releases, make sure to [watch this repository's releases](https://help.github.com/en/articles/watching-and-unwatching-releases-for-a-repository).
 
 > You can also download the latest Anki package from the [shared deck page]( https://ankiweb.net/shared/info/2109889812).
 
@@ -136,12 +109,6 @@ The standard English deck is the only version available as an Anki package. If y
 1. In the _File_ menu, select _CrowdAnki: Import from disk_.
 1. Browse for and select the folder you extracted from the archive.
 1. Perform the import.
-
-### Stay in touch
-
-Did you spot a mistake? Do you have a suggestion to improve the deck? Would you like to help translate it into another language? Let us know by **[opening a new issue](https://github.com/axelboc/anki-ultimate-geography/issues)**.
-
-To stay informed of new releases, make sure to [watch this repository's releases](https://help.github.com/en/articles/watching-and-unwatching-releases-for-a-repository).
 
 
 ## Upgrading
@@ -166,13 +133,6 @@ Upgrading to a major version (e.g. from 2.6 to 3.0) typically leads to a loss of
 1. In the _Tools_ menu, select _Check Database_.
 1. Sync the changes with AnkiWeb and with all your devices.
 1. You can now follow the steps of the [_Getting started_](#getting-started) section and install the major version with its APKG package.
-
-
-## Background
-
-This deck is built on top of an old [shared deck](https://ankiweb.net/shared/info/261823898) that is no longer maintained. Initially, the goal was to address the poor quality of the flag images. However, the scope of the work quickly increased to include putting the deck on GitHub, rethinking the tags, cleaning up the notes to remove all HTML markup, and reviewing the whole content. For a full list of changes, check out the [initial release notes](https://github.com/axelboc/anki-ultimate-geography/releases/tag/v2.0).
-
-> This deck was initially released as `v2.0` to distinguish it from its predecessor, which was commonly referred to as `v1.0` (cf. [_Versioning_](CONTRIBUTING.md#versioning) section.)
 
 ## Deck structure
 
