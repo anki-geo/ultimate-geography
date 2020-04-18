@@ -107,7 +107,7 @@ The standard English deck is the only version available as an Anki package. If y
 1. Extract the content of the archive on your machine.
 1. Open Anki and make sure your devices are all synchronised.
 1. In the _File_ menu, select _CrowdAnki: Import from disk_.
-1. Browse for and select the folder you extracted from the archive.
+1. Browse for and select the folder you extracted from the archive, which should contain the deck's JSON file and media folder.
 1. Perform the import.
 
 
