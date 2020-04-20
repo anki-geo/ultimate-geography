@@ -90,7 +90,7 @@
  */
 .nightMode .value > img:not([src*="-nobox"]),
 .night_mode .value > img:not([src*="-nobox"]) {
-  box-shadow: 0 1px 4px 1px rgba(202, 202, 202, 0.2);
+  box-shadow: 0 0 4px 1px rgba(54, 54, 54, 0.9);
 }
 
 hr {
