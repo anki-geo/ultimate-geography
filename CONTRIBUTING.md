@@ -69,7 +69,7 @@ If the title of the Wikipedia article contains a parenthetical portion for disam
 
 Country names must not be preceded by articles, particularly in gendered languages (French, German, etc.) unless Wikipedia indicates otherwise - e.g. _United Kingdom_, _The Gambia_. This rule also applies to the _Flag similarity_ field, but not to other fields in which country names are used in sentences.
 
-> To understand the reasoning behind these decisions, see #181 (Wikipedia as source), #212 (disambiguating country names), and https://github.com/axelboc/anki-ultimate-geography/pull/157#issuecomment-549143860 (no gender articles).
+To understand the reasoning behind these decisions, see #181 (Wikipedia as source), #212 (disambiguating country names), and https://github.com/axelboc/anki-ultimate-geography/pull/157#issuecomment-549143860 (no gender articles).
 
 ### _Country info_ field
 
