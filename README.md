@@ -79,7 +79,7 @@ To help with memorisation and provide context while learning, most notes include
 Anki's [search feature](https://apps.ankiweb.net/docs/manual.html#searching), coupled with the deck's comprehensive [tag structure](#deck-structure), allows for the creation of [filtered decks](https://apps.ankiweb.net/docs/manual.html#creating-manually) covering a wide range of learning goals and abilities. Here are some search queries you can use:
 
 - `card:"Flag - Country"` to learn flags and nothing else;
-- `tag:UG::Sovereign_State` to focus on soverign states and exclude dependent territories, water bodies and continents;
+- `tag:UG::Sovereign_State` to focus on sovereign states and exclude dependent territories, water bodies and continents;
 - `-tag:"UG::Oceans+Seas"` (with "`-`" in front of the filter) to learn everything except oceans, seas and other water bodies;
 - `card:"Map - Country" tag:UG::Sovereign_State tag:UG::Europe` to learn the location of Europe's sovereign states;
 - `(card:"Country - Capital" or card:"Capital - Country") tag:UG::Sovereign_State` to learn the capitals of the world's sovereign states.
