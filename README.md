@@ -82,8 +82,8 @@ Anki's [search feature](https://apps.ankiweb.net/docs/manual.html#searching), co
 - `tag:UG::Sovereign_State` to focus on sovereign states and exclude dependent territories, water bodies and continents;
 - `-tag:"UG::Oceans+Seas"` (with "`-`" in front of the filter) to learn everything except oceans, seas and other water bodies;
 - `card:"Map - Country" tag:UG::Sovereign_State tag:UG::Europe` to learn the location of Europe's sovereign states;
-- `(card:"Country - Capital" or card:"Capital - Country") tag:UG::Sovereign_State` to learn the capitals of the world's sovereign states.
-
+- `(card:"Country - Capital" or card:"Capital - Country") tag:UG::Sovereign_State` to learn the capitals of the world's sovereign states;
+- `tag:UG::North_America -tag:UG::Caribbean` to focus on the countries in North America, but not in the Caribbean (i.e. those in Northern and Central America).
 
 ## Getting started
 
