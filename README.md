@@ -147,5 +147,5 @@ The appearance of the cards is controlled solely with CSS; the content of the no
 Every note is tagged. The tags, which are listed below by category, are prefixed with `UG::` so they don't conflict with other decks. They can be used to create [filtered decks](https://apps.ankiweb.net/docs/manual.html#creating-manually) for [custom study](#custom-study).
 
 - Type - `UG::Sovereign_State`, `UG::Oceans+Seas`, `UG::Continents`
-- Continent - `UG::Africa`, `UG::America`, `UG::Asia`, `UG::Europe`, `UG::Oceania`
-- Region - `UG::North+Central_America`, `UG::South_America`, `UG::Caribbean`, `UG::Middle_East`, `UG::Southeast_Asia`, `UG::European_Union`, `UG::Mediterranean`
+- Continent - `UG::Africa`, `UG::Asia`, `UG::Europe`, `UG::North_America`, `UG::Oceania`, `UG::South_America`
+- Region - `UG::Caribbean`, `UG::Middle_East`, `UG::Southeast_Asia`, `UG::European_Union`, `UG::Mediterranean`
