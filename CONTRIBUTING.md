@@ -52,7 +52,7 @@ Anki requires each note to have a unique identifier. When you add a note to the 
 
 ### Quotes normalisation
 
-Anki Deck Manager has a very specific way of wrapping fields with double quotes in `data.csv` to escape special characters (cf. [#129](https://github.com/axelboc/anki-ultimate-geography/issues/129)). Whether you edit the file by hand or through an editor, chances are you won't end up with double quotes in the same places. If you commit the file as is, the diff will be cluttered with changes that have nothing to do with your edits. To avoid this, run `composer index` before committing your changes. This command has the side effect of normalising the escaping of fields in the entire file.
+Anki Deck Manager has a very specific way of wrapping fields with double quotes in `data.csv` to escape special characters (cf. [#129][ref129]). Whether you edit the file by hand or through an editor, chances are you won't end up with double quotes in the same places. If you commit the file as is, the diff will be cluttered with changes that have nothing to do with your edits. To avoid this, run `composer index` before committing your changes. This command has the side effect of normalising the escaping of fields in the entire file.
 
 ## Content guidelines
 
@@ -69,7 +69,7 @@ If the title of the Wikipedia article contains a parenthetical portion for disam
 
 Country names must not be preceded by articles, particularly in gendered languages (French, German, etc.) unless Wikipedia indicates otherwise - e.g. _United Kingdom_, _The Gambia_. This rule also applies to the _Flag similarity_ field, but not to other fields in which country names are used in sentences.
 
-To understand the reasoning behind these decisions, see [#181][ref181] (Wikipedia as source), [#212][ref212] (disambiguating country names), and https://github.com/axelboc/anki-ultimate-geography/pull/157#issuecomment-549143860 (no gender articles).
+To understand the reasoning behind these decisions, see [#181][ref181] (Wikipedia as source), [#212][ref212] (disambiguating country names), and [#157#issuecomment-549143860][ref157] (no gender articles).
 
 ### _Country info_ field
 
@@ -221,7 +221,8 @@ Content changes, such as adding or removing a note, replacing an image, or trans
 1. Enter the full legal name and click _Share_.
 1. Close the milestone in GitHub and create a new one for the next version.
 
-[ref157]: https://github.com/axelboc/anki-ultimate-geography/pull/157
+[ref129]: https://github.com/axelboc/anki-ultimate-geography/issues/129
+[ref157]: https://github.com/axelboc/anki-ultimate-geography/pull/157#issuecomment-549143860
 [ref181]: https://github.com/axelboc/anki-ultimate-geography/issues/181
 [ref212]: https://github.com/axelboc/anki-ultimate-geography/issues/212
 [ref247]: https://github.com/axelboc/anki-ultimate-geography/pull/247
