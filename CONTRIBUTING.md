@@ -24,7 +24,7 @@ Seen something outdated or plain wrong? Spotted a typo somewhere? Think somethin
   - [_Flag similarity_ field](#flag-similarity-field)
   - [_Map_ field](#map-field)
 - [**Translation sources**](#translation-sources)
-  - [Norwegian Bokmål](norwegian-bokmål)
+  - [Norwegian Bokmål](#norwegian-bokmål)
 - [**Maintainer's guide**](#maintainers-guide)
   - [Versioning](#versioning)
   - [Release process](#release-process)
