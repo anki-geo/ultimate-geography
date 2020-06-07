@@ -11,6 +11,9 @@ Seen something outdated or plain wrong? Spotted a typo somewhere? Think somethin
   - [Build and import](#build-and-import)
   - [Indexing](#indexing)
   - [Quotes normalisation](#quotes-normalisation)
+- [**Content inclusion rules**](#content-inclusion-rules)
+  - [Political geography](#political-geography)
+  - [Physical geography](#physical-geography)
 - [**Content guidelines**](#content-guidelines)
   - [_Country_ field](#country-field)
   - [_Country info_ field](#country-info-field)
@@ -53,6 +56,70 @@ Anki requires each note to have a unique identifier. When you add a note to the 
 ### Quotes normalisation
 
 Anki Deck Manager has a very specific way of wrapping fields with double quotes in `data.csv` to escape special characters (cf. [#129][ref129]). Whether you edit the file by hand or through an editor, chances are you won't end up with double quotes in the same places. If you commit the file as is, the diff will be cluttered with changes that have nothing to do with your edits. To avoid this, run `composer index` before committing your changes. This command has the side effect of normalising the escaping of fields in the entire file.
+
+## Content inclusion rules
+
+In order for a geographical entity to be included in the deck, it must:
+
+- belong to a well-defined, Wikipedia-sourced list of entities of a common type (e.g. sovereign states, seas, etc.);
+- meet the inclusion criteria that apply to entities of this type.
+
+### Political geography
+
+Inclusion rules for political entities are documented and put into use in [political-entities.xlsx]. They were discussed in [#137][ref137], [#221][ref221], [#306][ref306] and [#312][ref312].
+
+A political entity can be included either fully (map, capital and flag) or partially (with only a map). In the rare case where a political entity belongs to more than one of the below categories, it will only be considered in the first category of which it's a member.
+
+#### Sovereign states
+
+- Source: https://en.wikipedia.org/wiki/List_of_sovereign_states
+- All fully included, regardless of UN membership status or recognition by other states.
+
+#### Dependent territories
+
+- Source: https://en.wikipedia.org/wiki/Dependent_territory
+- Specifically, inhabited dependent territories.
+- Criteria for inclusion with map: `population >= 15,000 OR area >= 1,000 km2`
+- Criteria for inclusion with map, capital and flag: `(population >= 15,000 AND area >= 1,000 km2) OR population >= 100,000`
+
+#### Autonomous islands
+
+- Source: https://en.wikipedia.org/wiki/List_of_autonomous_areas_by_country
+- Specifically, insular autonomous territories.
+- Criteria for inclusion with map: `population >= 100,000`
+- Capitals and flags never included.
+
+#### Transcontinental overseas territories
+
+- Source: https://en.wikipedia.org/wiki/List_of_transcontinental_countries
+- Specifically, inhabited territories located on a different content than their mainland.
+- Criteria for inclusion with map: `population >= 100,000 AND distance from mainland >= 300 km`
+- Capitals and flags never included.
+
+#### Enclaves and exclaves
+
+- Source: https://en.wikipedia.org/wiki/List_of_enclaves_and_exclaves#Semi-enclaves_and_semi-exclaves
+- Specifically, inhabited full or semi land enclaves/exclaves.
+- Relevant sections:
+  - [Enclaves that are also exclaves > National level](https://en.wikipedia.org/wiki/List_of_enclaves_and_exclaves#National_level)
+  - [Exclaves that are not enclaves > National level](https://en.wikipedia.org/wiki/List_of_enclaves_and_exclaves#National_level_2)
+  - [Semi-enclaves and semi-exclaves > Non-sovereign semi-enclaves](https://en.wikipedia.org/wiki/List_of_enclaves_and_exclaves#Non-sovereign_semi-enclaves)
+  - [Semi-enclaves and semi-exclaves > Non-sovereign semi-exclaves](https://en.wikipedia.org/wiki/List_of_enclaves_and_exclaves#Non-sovereign_semi-exclaves)
+- Criteria for inclusion with map: `population >= 100,000 AND distance from mainland >= 300 km`
+- Capitals and flags never included.
+
+### Physical geography
+
+A physical entity can only be included partially, with only a map.
+
+#### Continents
+
+- Source: https://en.wikipedia.org/wiki/Continent#Number
+- Specifically the seven-continent model.
+
+#### Water bodies
+
+The deck currently includes a number of water bodies (oceans, seas, gulfs, etc.) but inclusion rules have not yet been officialised.
 
 ## Content guidelines
 
@@ -200,7 +267,7 @@ The releases follow a versioning scheme of the form `x.y`, where:
 - `x` increases in the case of a **major, breaking release** (e.g. v3.0),
 - `y` increases in the case of a **minor, non-breaking release** (e.g. v2.6).
 
-Content changes, such as adding or removing a note, replacing an image, or translating the deck into a new language, all constitute minor changes. A change is considered major when users are likely to **lose a significant part of their progress** when upgrading the deck with CrowdAnki (cf. [_Upgrading_](README.md#upgrading) section of README).
+Content changes, such as adding a note, replacing an image, or translating the deck into a new language, all constitute minor changes. A change is considered major when users are likely to **lose a significant part of their progress** when upgrading the deck with CrowdAnki.
 
 ### Release process
 
@@ -222,7 +289,11 @@ Content changes, such as adding or removing a note, replacing an image, or trans
 1. Close the milestone in GitHub and create a new one for the next version.
 
 [ref129]: https://github.com/axelboc/anki-ultimate-geography/issues/129
+[ref137]: https://github.com/axelboc/anki-ultimate-geography/issues/137
 [ref157]: https://github.com/axelboc/anki-ultimate-geography/pull/157#issuecomment-549143860
 [ref181]: https://github.com/axelboc/anki-ultimate-geography/issues/181
 [ref212]: https://github.com/axelboc/anki-ultimate-geography/issues/212
+[ref221]: https://github.com/axelboc/anki-ultimate-geography/issues/221
 [ref247]: https://github.com/axelboc/anki-ultimate-geography/pull/247
+[ref306]: https://github.com/axelboc/anki-ultimate-geography/pull/306
+[ref312]: https://github.com/axelboc/anki-ultimate-geography/pull/312
