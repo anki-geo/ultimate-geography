@@ -1,4 +1,6 @@
-.DS_Store
-Thumbs.db
 build/
 vendor/
+
+.DS_Store
+Thumbs.db
+~$*
