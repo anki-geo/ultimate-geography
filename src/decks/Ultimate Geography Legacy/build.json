@@ -1,0 +1,29 @@
+{
+  "deck": {
+    "uuid": "3260c1f2-b3cd-11ea-9c46-9cb654c3f58b"
+  },
+  "config": {
+    "uuid": "43d37fac-9a65-11e8-9cc5-a0481cc15658",
+    "name": "Default"
+  },
+  "model": {
+    "uuid": "43e2586a-9a65-11e8-a777-a0481cc15658",
+    "name": "Ultimate Geography"
+  },
+  "fields": [
+    "Country",
+    "Country info",
+    "Capital",
+    "Capital info",
+    "Capital hint",
+    "Flag",
+    "Flag similarity",
+    "Map"
+  ],
+  "templates": [
+    "Country - Capital",
+    "Capital - Country",
+    "Flag - Country",
+    "Map - Country"
+  ]
+}
