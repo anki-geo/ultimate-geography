@@ -1,0 +1,79 @@
+name: Ultimate Geography
+id: 43e2586a-9a65-11e8-a777-a0481cc15658
+css: ".card {\n  padding: 1em 0;\n  background-color: white;\n  color: black;\n  font-family:\
+  \ Verdana;\n  font-size: 16px;\n  text-align: center;\n}\n\n.type {\n  margin-bottom:\
+  \ 0.25em;\n  color: #333;\n  font-size: 70%;\n  font-weight: bold;\n  text-transform:\
+  \ uppercase;\n}\n\n.info {\n  max-width: 30em;\n  margin: 0.75em auto;\n  color:\
+  \ #333;\n  font-size: 90%;\n  font-style: italic;\n}\n\n.value {\n  font-size: 150%;\n\
+  }\n\n.value--top {\n  margin-top: 1em;\n}\n\n.value--image {\n  margin-top: 0.75em;\n\
+  }\n\n.value > img,\n.value > .placeholder {\n  max-width: 100%;\n  height: auto;\n\
+  }\n\n/**\n * Apply shadow to images, notably to bring out white areas on flags.\n\
+  \ * Ignore images with non-rectagular outlines (e.g. flag of Nepal).\n */\n.value\
+  \ > img:not([src*=\"-nobox\"]) {\n  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);\n\
+  }\n\n/**\n * Some flags (e.g. Guam's) contain identifying words that can give away\
+  \ the answer.\n * If a blurred version is available, show it on the front but not\
+  \ on the back.\n */\n.value--front > img[src*=\"-blur\"] + img {\n  display: none;\n\
+  }\n\n.value--back > img[src*=\"-blur\"] {\n  display: none;\n}\n\n/**\n * Placeholder\
+  \ SVG to hint at the type of answer that is expected.\n * Used on \"Country - Flag\"\
+  \ and \"Country - Map\" templates.\n */\n.placeholder {\n  color: #333;\n}\n\n.placeholder\
+  \ > path {\n  fill: none;\n  stroke: currentColor;\n  stroke-width: 1;\n}\n\n.night_mode\
+  \ .info,\n.night_mode .type,\n.night_mode .placeholder,\n.nightMode .info,\n.nightMode\
+  \ .type,\n.nightMode .placeholder {\n  color: #ccc;\n}\n\n/**\n * Apply shadow to\
+  \ images, to bring out black areas on flags, in night\n   mode.\n */\n.nightMode\
+  \ .value > img:not([src*=\"-nobox\"]),\n.night_mode .value > img:not([src*=\"-nobox\"\
+  ]) {\n  box-shadow: 0 0 4px 1px rgba(54, 54, 54, 0.9);\n}\n\nhr {\n  margin: 1.5em\
+  \ 0;\n}\n"
+fields:
+- name: Country
+  font: Arial
+- name: Country info
+  font: Arial
+- name: Capital
+  font: Arial
+- name: Capital info
+  font: Arial
+- name: Capital hint
+  font: Arial
+- name: Flag
+  font: Arial
+- name: Flag similarity
+  font: Arial
+- name: Map
+  font: Arial
+templates:
+- name: Country - Capital
+  question_format: "{{#Capital}}\n  <div class=\"value value--top\">{{Country}}</div>\n\
+    \  {{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n\
+    \n  <hr>\n\n  <div class=\"type\">Capital</div>\n  <div class=\"value\">?</div>\n\
+    {{/Capital}}"
+  answer_format: "<div class=\"value value--top\">{{Country}}</div>\n{{#Country info}}<div\
+    \ class=\"info\">{{Country info}}</div>{{/Country info}}\n\n<hr id=answer>\n\n\
+    <div class=\"type\">Capital</div>\n<div class=\"value\">{{Capital}}</div>\n{{#Capital\
+    \ info}}<div class=\"info\">{{Capital info}}</div>{{/Capital info}}\n"
+- name: Capital - Country
+  question_format: "{{#Capital}}\n  <div class=\"value value--top\">?</div>\n\n  <hr>\n\
+    \n  <div class=\"type\">Capital</div>\n  <div class=\"value\">{{Capital}}</div>\n\
+    \  {{#Capital hint}}<div class=\"info\">Hint: {{Capital hint}}</div>{{/Capital\
+    \ hint}}\n{{/Capital}}"
+  answer_format: "<div id=answer class=\"value value--top\">{{Country}}</div>\n{{#Country\
+    \ info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n\n<hr>\n\n\
+    <div class=\"type\">Capital</div>\n<div class=\"value\">{{Capital}}</div>\n{{#Capital\
+    \ hint}}<div class=\"info\">Hint: {{Capital hint}}</div>{{/Capital hint}}\n{{#Capital\
+    \ info}}<div class=\"info\">{{Capital info}}</div>{{/Capital info}}\n"
+- name: Flag - Country
+  question_format: "{{#Flag}}\n  <div class=\"value value--top\">?</div>\n\n  <hr>\n\
+    \n  <div class=\"type\">Flag</div>\n  <div class=\"value value--image value--front\"\
+    >{{Flag}}</div>\n{{/Flag}}"
+  answer_format: "<div id=answer class=\"value value--top\">{{Country}}</div>\n{{#Country\
+    \ info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n\n<hr>\n\n\
+    <div class=\"type\">Flag</div>\n<div class=\"value value--image value--back\"\
+    >{{Flag}}</div>\n{{#Flag similarity}}<div class=\"info\">Flag similar to {{Flag\
+    \ similarity}}.</div>{{/Flag similarity}}\n"
+- name: Map - Country
+  question_format: "{{#Map}}\n  <div class=\"value value--top\">?</div>\n\n  <hr>\n\
+    \n  <div class=\"type\">Location</div>\n  <div class=\"value value--image\">{{Map}}</div>\n\
+    {{/Map}}"
+  answer_format: "<div id=answer class=\"value value--top\">{{Country}}</div>\n{{#Country\
+    \ info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n\n<hr>\n\n\
+    <div class=\"type\">Location</div>\n<div class=\"value value--image\">{{Map}}</div>\n"
+required_fields_per_template: []

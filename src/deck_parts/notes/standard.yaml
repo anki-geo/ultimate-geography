@@ -1,0 +1,4418 @@
+note_groupings:
+- notes:
+  - fields:
+    - England
+    - Constituent country of the United Kingdom.
+    - London
+    - ''
+    - Not a sovereign country
+    - <img src="ug-flag-england.svg" />
+    - ''
+    - <img src="ug-map-england.png" />
+    guid: e+/O]%*qfk
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - Scotland
+    - Constituent country of the United Kingdom.
+    - Edinburgh
+    - ''
+    - ''
+    - <img src="ug-flag-scotland.svg" />
+    - ''
+    - <img src="ug-map-scotland.png" />
+    guid: h~5xz+=ke~
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - United Kingdom
+    - ''
+    - London
+    - ''
+    - Sovereign country
+    - <img src="ug-flag-united_kingdom.svg" />
+    - ''
+    - <img src="ug-map-united_kingdom.png" />
+    guid: s9-GL*@AXD
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Northern Ireland
+    - Constituent country of the United Kingdom.
+    - Belfast
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-northern_ireland.png" />
+    guid: cPO|Cru8n<
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - France
+    - ''
+    - Paris
+    - ''
+    - ''
+    - <img src="ug-flag-france.svg" />
+    - ''
+    - <img src="ug-map-france.png" />
+    guid: m*#%sE.`.;
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Mediterranean
+    - UG::Sovereign_State
+  - fields:
+    - Wales
+    - Constituent country of the United Kingdom.
+    - Cardiff
+    - ''
+    - ''
+    - <img src="ug-flag-wales.svg" />
+    - ''
+    - <img src="ug-map-wales.png" />
+    guid: hNE9}>;Q&-
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - Georgia
+    - ''
+    - Tbilisi
+    - ''
+    - ''
+    - <img src="ug-flag-georgia.svg" />
+    - ''
+    - <img src="ug-map-georgia.png" />
+    guid: jN|NAUP*h}
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Germany
+    - ''
+    - Berlin
+    - ''
+    - ''
+    - <img src="ug-flag-germany.svg" />
+    - ''
+    - <img src="ug-map-germany.png" />
+    guid: j|z@PMgdx,
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Greece
+    - ''
+    - Athens
+    - ''
+    - ''
+    - <img src="ug-flag-greece.svg" />
+    - ''
+    - <img src="ug-map-greece.png" />
+    guid: n+t>2`:;P/
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Mediterranean
+    - UG::Sovereign_State
+  - fields:
+    - Greenland
+    - Constituent country in the Kingdom of Denmark.
+    - Nuuk
+    - ''
+    - ''
+    - <img src="ug-flag-greenland.svg" />
+    - ''
+    - <img src="ug-map-greenland.png" />
+    guid: ilGtw#=asM
+    note_model: Ultimate Geography
+    tags:
+    - UG::North_America
+  - fields:
+    - Hungary
+    - ''
+    - Budapest
+    - ''
+    - ''
+    - <img src="ug-flag-hungary.svg" />
+    - ''
+    - <img src="ug-map-hungary.png" />
+    guid: mcc&0Kq^xE
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Albania
+    - ''
+    - Tirana
+    - ''
+    - ''
+    - <img src="ug-flag-albania.svg" />
+    - ''
+    - <img src="ug-map-albania.png" />
+    guid: gz9${p}er*
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Mediterranean
+    - UG::Sovereign_State
+  - fields:
+    - Andorra
+    - ''
+    - Andorra la Vella
+    - ''
+    - ''
+    - <img src="ug-flag-andorra.png" />
+    - Moldova (wider, coat of arms with eagle)
+    - <img src="ug-map-andorra.png" />
+    guid: dY96`C-f(_
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Austria
+    - ''
+    - Vienna
+    - ''
+    - ''
+    - <img src="ug-flag-austria.svg" />
+    - Latvia (darker red, narrower white band)
+    - <img src="ug-map-austria.png" />
+    guid: r>aI-$$|wT
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Azerbaijan
+    - ''
+    - Baku
+    - ''
+    - ''
+    - <img src="ug-flag-azerbaijan.svg" />
+    - ''
+    - <img src="ug-map-azerbaijan.png" />
+    guid: k9E.p^<u$,
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Belarus
+    - ''
+    - Minsk
+    - ''
+    - ''
+    - <img src="ug-flag-belarus.svg" />
+    - ''
+    - <img src="ug-map-belarus.png" />
+    guid: l$zM~ihPFE
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Belgium
+    - ''
+    - Brussels
+    - ''
+    - Sovereign country
+    - <img src="ug-flag-belgium.svg" />
+    - ''
+    - <img src="ug-map-belgium.png" />
+    guid: jTNoKo}Bu+
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Bosnia and Herzegovina
+    - ''
+    - Sarajevo
+    - ''
+    - ''
+    - <img src="ug-flag-bosnia_and_herzegovina.svg" />
+    - ''
+    - <img src="ug-map-bosnia_and_herzegovina.png" />
+    guid: mz[>>AxIr4
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Mediterranean
+    - UG::Sovereign_State
+  - fields:
+    - Bulgaria
+    - ''
+    - Sofia
+    - ''
+    - ''
+    - <img src="ug-flag-bulgaria.svg" />
+    - ''
+    - <img src="ug-map-bulgaria.png" />
+    guid: u4^lH.xem5
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Croatia
+    - ''
+    - Zagreb
+    - ''
+    - ''
+    - <img src="ug-flag-croatia.png" />
+    - ''
+    - <img src="ug-map-croatia.png" />
+    guid: bk2ByZIeU+
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Mediterranean
+    - UG::Sovereign_State
+  - fields:
+    - Czech Republic
+    - Also known as Czechia.
+    - Prague
+    - ''
+    - ''
+    - <img src="ug-flag-czech_republic.svg" />
+    - ''
+    - <img src="ug-map-czech_republic.png" />
+    guid: twrhzJ[k:Z
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Denmark
+    - ''
+    - Copenhagen
+    - ''
+    - ''
+    - <img src="ug-flag-denmark.svg" />
+    - ''
+    - <img src="ug-map-denmark.png" />
+    guid: kS)hDm%w}R
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Estonia
+    - ''
+    - Tallinn
+    - ''
+    - ''
+    - <img src="ug-flag-estonia.svg" />
+    - ''
+    - <img src="ug-map-estonia.png" />
+    guid: AES],s:8=
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Faroe Islands
+    - Constituent country in the Kingdom of Denmark.
+    - Tórshavn
+    - ''
+    - ''
+    - <img src="ug-flag-faroe_islands.svg" />
+    - Iceland (blue background, red and white cross), Norway (red background, blue
+      and white cross)
+    - <img src="ug-map-faroe_islands.png" />
+    guid: k[)#L4.[v3
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - Finland
+    - ''
+    - Helsinki
+    - ''
+    - ''
+    - <img src="ug-flag-finland.svg" />
+    - ''
+    - <img src="ug-map-finland.png" />
+    guid: k}A9]O:0xw
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Iceland
+    - ''
+    - Reykjavík
+    - ''
+    - ''
+    - <img src="ug-flag-iceland.svg" />
+    - Norway (red background, blue cross), Faroe Islands (white background, red and
+      blue cross)
+    - <img src="ug-map-iceland.png" />
+    guid: j7eEZkzsCZ
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Ireland
+    - ''
+    - Dublin
+    - ''
+    - ''
+    - <img src="ug-flag-ireland.svg" />
+    - Ivory Coast (green and orange flipped, narrower)
+    - <img src="ug-map-ireland.png" />
+    guid: s<_WLSB3I/
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Italy
+    - ''
+    - Rome
+    - ''
+    - ''
+    - <img src="ug-flag-italy.svg" />
+    - ''
+    - <img src="ug-map-italy.png" />
+    guid: cYKvF#ptF7
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Mediterranean
+    - UG::Sovereign_State
+  - fields:
+    - Latvia
+    - ''
+    - Riga
+    - ''
+    - ''
+    - <img src="ug-flag-latvia.svg" />
+    - Austria (brighter red, wider white band)
+    - <img src="ug-map-latvia.png" />
+    guid: m)WUtJS`H&
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Liechtenstein
+    - ''
+    - Vaduz
+    - ''
+    - ''
+    - <img src="ug-flag-liechtenstein.svg" />
+    - ''
+    - <img src="ug-map-liechtenstein.png" />
+    guid: l$2O|9w`F~
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Lithuania
+    - ''
+    - Vilnius
+    - ''
+    - ''
+    - <img src="ug-flag-lithuania.svg" />
+    - ''
+    - <img src="ug-map-lithuania.png" />
+    guid: kZ52zV#[Iv
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Luxembourg
+    - ''
+    - Luxembourg City
+    - Officially Luxembourg.
+    - ''
+    - <img src="ug-flag-luxembourg.svg" />
+    - Netherlands (darker blue)
+    - <img src="ug-map-luxembourg.png" />
+    guid: i2]v|D3@:j
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - North Macedonia
+    - Formerly known as Macedonia.
+    - Skopje
+    - ''
+    - ''
+    - <img src="ug-flag-north_macedonia.svg" />
+    - ''
+    - <img src="ug-map-north_macedonia.png" />
+    guid: r5C646H*+*
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Malta
+    - ''
+    - Valletta
+    - ''
+    - ''
+    - <img src="ug-flag-malta.svg" />
+    - ''
+    - <img src="ug-map-malta.png" />
+    guid: nIfRn<aY:N
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Mediterranean
+    - UG::Sovereign_State
+  - fields:
+    - Moldova
+    - ''
+    - Chișinău
+    - ''
+    - ''
+    - <img src="ug-flag-moldova.svg" />
+    - Andorra (narrower, coat of arms with motto)
+    - <img src="ug-map-moldova.png" />
+    guid: 5S(f7%O-$
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Monaco
+    - ''
+    - Monaco
+    - ''
+    - ''
+    - <img src="ug-flag-monaco.svg" />
+    - Indonesia (wider, brighter red), Poland (red and white flipped, wider)
+    - <img src="ug-map-monaco.png" />
+    guid: m?}%V6s8]*
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Mediterranean
+    - UG::Sovereign_State
+  - fields:
+    - Montenegro
+    - ''
+    - Podgorica
+    - Cetinje is an honorary capital.
+    - ''
+    - <img src="ug-flag-montenegro.png" />
+    - ''
+    - <img src="ug-map-montenegro.png" />
+    guid: uRo^w#p5Be
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Mediterranean
+    - UG::Sovereign_State
+  - fields:
+    - Netherlands
+    - ''
+    - Amsterdam
+    - While Amsterdam is the official capital, The Hague is the seat of the executive
+      and legislative branches.
+    - ''
+    - <img src="ug-flag-netherlands.svg" />
+    - Luxembourg (lighter blue)
+    - <img src="ug-map-netherlands.png" />
+    guid: o=,%hU&yX%
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Norway
+    - ''
+    - Oslo
+    - ''
+    - ''
+    - <img src="ug-flag-norway.svg" />
+    - Iceland (blue background, red cross), Faroe Islands (white background, red and
+      blue cross)
+    - <img src="ug-map-norway.png" />
+    guid: lq`T^ZBF2Y
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Poland
+    - ''
+    - Warsaw
+    - ''
+    - ''
+    - <img src="ug-flag-poland.svg" />
+    - Indonesia (white and red flipped, brighter red), Monaco (white and red flipped,
+      narrower)
+    - <img src="ug-map-poland.png" />
+    guid: f>c7x2E]Q6
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Portugal
+    - ''
+    - Lisbon
+    - ''
+    - ''
+    - <img src="ug-flag-portugal.svg" />
+    - ''
+    - <img src="ug-map-portugal.png" />
+    guid: q[S4`,F0D=
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Romania
+    - ''
+    - Bucharest
+    - ''
+    - ''
+    - <img src="ug-flag-romania.svg" />
+    - Chad (slightly darker blue)
+    - <img src="ug-map-romania.png" />
+    guid: 'jCd]`-=k,:'
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Russia
+    - ''
+    - Moscow
+    - ''
+    - ''
+    - <img src="ug-flag-russia.svg" />
+    - ''
+    - <img src="ug-map-russia.png" />
+    guid: vf)G?[_?Pf
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - San Marino
+    - ''
+    - City of San Marino
+    - ''
+    - ''
+    - <img src="ug-flag-san_marino.png" />
+    - ''
+    - <img src="ug-map-san_marino.png" />
+    guid: j9:K,~DQ2v
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Serbia
+    - ''
+    - Belgrade
+    - ''
+    - ''
+    - <img src="ug-flag-serbia.png" />
+    - ''
+    - <img src="ug-map-serbia.png" />
+    guid: ui3>b-?a@m
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Slovakia
+    - ''
+    - Bratislava
+    - ''
+    - ''
+    - <img src="ug-flag-slovakia.svg" />
+    - ''
+    - <img src="ug-map-slovakia.png" />
+    guid: qVi;t%/`F|
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Slovenia
+    - ''
+    - Ljubljana
+    - ''
+    - ''
+    - <img src="ug-flag-slovenia.svg" />
+    - ''
+    - <img src="ug-map-slovenia.png" />
+    guid: g-]bb&[.E!
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Mediterranean
+    - UG::Sovereign_State
+  - fields:
+    - Spain
+    - ''
+    - Madrid
+    - ''
+    - ''
+    - <img src="ug-flag-spain.svg" />
+    - ''
+    - <img src="ug-map-spain.png" />
+    guid: f21=-A~W;~
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Mediterranean
+    - UG::Sovereign_State
+  - fields:
+    - Sweden
+    - ''
+    - Stockholm
+    - ''
+    - ''
+    - <img src="ug-flag-sweden.svg" />
+    - ''
+    - <img src="ug-map-sweden.png" />
+    guid: sT5=H|@KU|
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::European_Union
+    - UG::Sovereign_State
+  - fields:
+    - Switzerland
+    - ''
+    - Bern
+    - Switzerland has no official capital; Bern is the de facto capital.
+    - ''
+    - <img src="ug-flag-switzerland.svg" />
+    - ''
+    - <img src="ug-map-switzerland.png" />
+    guid: lU@C3<C8Wk
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Turkey
+    - ''
+    - Ankara
+    - ''
+    - ''
+    - <img src="ug-flag-turkey.svg" />
+    - ''
+    - <img src="ug-map-turkey.png" />
+    guid: jDA-V?/hVj
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Mediterranean
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Ukraine
+    - ''
+    - Kiev
+    - ''
+    - ''
+    - <img src="ug-flag-ukraine.svg" />
+    - ''
+    - <img src="ug-map-ukraine.png" />
+    guid: h_9=mkZXAH
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Vatican City
+    - ''
+    - Vatican City
+    - ''
+    - ''
+    - <img src="ug-flag-vatican_city.svg" />
+    - ''
+    - <img src="ug-map-vatican_city.png" />
+    guid: mk1VltJl<]
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Armenia
+    - ''
+    - Yerevan
+    - ''
+    - ''
+    - <img src="ug-flag-armenia.svg" />
+    - ''
+    - <img src="ug-map-armenia.png" />
+    guid: c(,2{yXI#E
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Cyprus
+    - ''
+    - Nicosia
+    - ''
+    - ''
+    - <img src="ug-flag-cyprus.svg" />
+    - ''
+    - <img src="ug-map-cyprus.png" />
+    guid: kkbYQXw5b;
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::European_Union
+    - UG::Mediterranean
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Kazakhstan
+    - ''
+    - Nur-Sultan
+    - Known as Astana until March 2019.
+    - ''
+    - <img src="ug-flag-kazakhstan.svg" />
+    - ''
+    - <img src="ug-map-kazakhstan.png" />
+    guid: ia8as9sCY|
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Egypt
+    - ''
+    - Cairo
+    - ''
+    - ''
+    - <img src="ug-flag-egypt.svg" />
+    - Iraq (text instead of emblem), Syria (two stars instead of emblem), Yemen (no
+      emblem)
+    - <img src="ug-map-egypt.png" />
+    guid: j%*8gN)q>d
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Mediterranean
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Algeria
+    - ''
+    - Algiers
+    - ''
+    - ''
+    - <img src="ug-flag-algeria.svg" />
+    - ''
+    - <img src="ug-map-algeria.png" />
+    guid: bd~Ght5tLR
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Mediterranean
+    - UG::Sovereign_State
+  - fields:
+    - Angola
+    - ''
+    - Luanda
+    - ''
+    - ''
+    - <img src="ug-flag-angola.svg" />
+    - ''
+    - <img src="ug-map-angola.png" />
+    guid: onMKID2d;D
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+  - fields:
+    - Benin
+    - ''
+    - Porto-Novo
+    - While Porto-Novo is the official capital, Cotonou is the de facto seat of government.
+    - ''
+    - <img src="ug-flag-benin.svg" />
+    - ''
+    - <img src="ug-map-benin.png" />
+    guid: q8fF$4,c6_
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+    - UG::West_Africa
+  - fields:
+    - Botswana
+    - ''
+    - Gaborone
+    - ''
+    - ''
+    - <img src="ug-flag-botswana.svg" />
+    - ''
+    - <img src="ug-map-botswana.png" />
+    guid: upiX0g1quR
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+  - fields:
+    - Burkina Faso
+    - ''
+    - Ouagadougou
+    - ''
+    - ''
+    - <img src="ug-flag-burkina_faso.svg" />
+    - ''
+    - <img src="ug-map-burkina_faso.png" />
+    guid: n:7&>YT5A=
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+    - UG::West_Africa
+  - fields:
+    - Cameroon
+    - ''
+    - Yaoundé
+    - ''
+    - ''
+    - <img src="ug-flag-cameroon.svg" />
+    - Senegal (green/yellow/red, green star)
+    - <img src="ug-map-cameroon.png" />
+    guid: j2IQ=f=w3@
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+  - fields:
+    - Burundi
+    - ''
+    - Gitega
+    - Official capital was moved from Bujumbura to Gitega in 2019.
+    - ''
+    - <img src="ug-flag-burundi.svg" />
+    - ''
+    - <img src="ug-map-burundi.png" />
+    guid: EWXNc<g5)
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Cape Verde
+    - Also known as Cabo Verde.
+    - Praia
+    - ''
+    - ''
+    - <img src="ug-flag-cape_verde.svg" />
+    - ''
+    - <img src="ug-map-cape_verde.png" />
+    guid: gFOojQO(MH
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+    - UG::West_Africa
+  - fields:
+    - São Tomé and Príncipe
+    - ''
+    - São Tomé
+    - ''
+    - ''
+    - <img src="ug-flag-sao_tome_and_principe.svg" />
+    - ''
+    - <img src="ug-map-sao_tome_and_principe.png" />
+    guid: gePC:Xt_nW
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+  - fields:
+    - Central African Republic
+    - ''
+    - Bangui
+    - ''
+    - ''
+    - <img src="ug-flag-central_african_republic.svg" />
+    - ''
+    - <img src="ug-map-central_african_republic.png" />
+    guid: vNiD6A.v#s
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+  - fields:
+    - Chad
+    - ''
+    - N'Djamena
+    - ''
+    - ''
+    - <img src="ug-flag-chad.svg" />
+    - Romania (slightly lighter blue)
+    - <img src="ug-map-chad.png" />
+    guid: ?n!)c/h=Q
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+  - fields:
+    - Equatorial Guinea
+    - ''
+    - Malabo
+    - ''
+    - ''
+    - <img src="ug-flag-equatorial_guinea.svg" />
+    - ''
+    - <img src="ug-map-equatorial_guinea.png" />
+    guid: gYIoR`|AxW
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+  - fields:
+    - Kenya
+    - ''
+    - Nairobi
+    - ''
+    - ''
+    - <img src="ug-flag-kenya.svg" />
+    - ''
+    - <img src="ug-map-kenya.png" />
+    guid: j<egqG@)EL
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Comoros
+    - ''
+    - Moroni
+    - ''
+    - ''
+    - <img src="ug-flag-comoros.svg" />
+    - ''
+    - <img src="ug-map-comoros.png" />
+    guid: t`cagaWApo
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Ivory Coast
+    - Officially Côte d'Ivoire.
+    - Yamoussoukro
+    - While Yamoussoukro is the official capital, Abidjan is the de facto seat of
+      government.
+    - ''
+    - <img src="ug-flag-ivory_coast.svg" />
+    - Ireland (orange and green flipped, wider)
+    - <img src="ug-map-ivory_coast.png" />
+    guid: jN^Vc%9OQ5
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+    - UG::West_Africa
+  - fields:
+    - Democratic Republic of the Congo
+    - Formerly Zaire.
+    - Kinshasa
+    - ''
+    - ''
+    - <img src="ug-flag-democratic_republic_of_the_congo.svg" />
+    - ''
+    - <img src="ug-map-democratic_republic_of_the_congo.png" />
+    guid: o3VS!KWb/@
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+  - fields:
+    - Djibouti
+    - ''
+    - Djibouti
+    - ''
+    - ''
+    - <img src="ug-flag-djibouti.svg" />
+    - ''
+    - <img src="ug-map-djibouti.png" />
+    guid: iR;U<J:CJJ
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Guinea-Bissau
+    - ''
+    - Bissau
+    - ''
+    - ''
+    - <img src="ug-flag-guinea-bissau.svg" />
+    - ''
+    - <img src="ug-map-guinea-bissau.png" />
+    guid: i^J8&$(1]|
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+    - UG::West_Africa
+  - fields:
+    - Eritrea
+    - ''
+    - Asmara
+    - ''
+    - ''
+    - <img src="ug-flag-eritrea.svg" />
+    - ''
+    - <img src="ug-map-eritrea.png" />
+    guid: pS>DrFhd%u
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Ethiopia
+    - ''
+    - Addis Ababa
+    - ''
+    - ''
+    - <img src="ug-flag-ethiopia.svg" />
+    - ''
+    - <img src="ug-map-ethiopia.png" />
+    guid: t|h3|;E4g{
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Gabon
+    - ''
+    - Libreville
+    - ''
+    - ''
+    - <img src="ug-flag-gabon.svg" />
+    - ''
+    - <img src="ug-map-gabon.png" />
+    guid: p.yv>BQ470
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+  - fields:
+    - The Gambia
+    - ''
+    - Banjul
+    - ''
+    - ''
+    - <img src="ug-flag-the_gambia.svg" />
+    - ''
+    - <img src="ug-map-the_gambia.png" />
+    guid: f#4-L[mp5*
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+    - UG::West_Africa
+  - fields:
+    - Lesotho
+    - ''
+    - Maseru
+    - ''
+    - ''
+    - <img src="ug-flag-lesotho.svg" />
+    - ''
+    - <img src="ug-map-lesotho.png" />
+    guid: oNpApS<AoJ
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+  - fields:
+    - Liberia
+    - ''
+    - Monrovia
+    - ''
+    - ''
+    - <img src="ug-flag-liberia.svg" />
+    - ''
+    - <img src="ug-map-liberia.png" />
+    guid: nsS59c`VL,
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+    - UG::West_Africa
+  - fields:
+    - Madagascar
+    - ''
+    - Antananarivo
+    - ''
+    - ''
+    - <img src="ug-flag-madagascar.svg" />
+    - ''
+    - <img src="ug-map-madagascar.png" />
+    guid: m{noqE29%I
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Malawi
+    - ''
+    - Lilongwe
+    - ''
+    - ''
+    - <img src="ug-flag-malawi.svg" />
+    - ''
+    - <img src="ug-map-malawi.png" />
+    guid: sSW/?WMy17
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Mali
+    - ''
+    - Bamako
+    - ''
+    - ''
+    - <img src="ug-flag-mali.svg" />
+    - Guinea (green and red flipped, slightly darker green)
+    - <img src="ug-map-mali.png" />
+    guid: d-q4J~CNW_
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+    - UG::West_Africa
+  - fields:
+    - Mauritania
+    - ''
+    - Nouakchott
+    - ''
+    - ''
+    - <img src="ug-flag-mauritania.svg" />
+    - ''
+    - <img src="ug-map-mauritania.png" />
+    guid: jKO,9y0M;#
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+    - UG::West_Africa
+  - fields:
+    - Mauritius
+    - ''
+    - Port Louis
+    - ''
+    - ''
+    - <img src="ug-flag-mauritius.svg" />
+    - ''
+    - <img src="ug-map-mauritius.png" />
+    guid: skOM(?n$GG
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Morocco
+    - ''
+    - Rabat
+    - ''
+    - ''
+    - <img src="ug-flag-morocco.svg" />
+    - ''
+    - <img src="ug-map-morocco.png" />
+    guid: mi+kf0LTW.
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Mediterranean
+    - UG::Sovereign_State
+  - fields:
+    - Mozambique
+    - ''
+    - Maputo
+    - ''
+    - ''
+    - <img src="ug-flag-mozambique.svg" />
+    - ''
+    - <img src="ug-map-mozambique.png" />
+    guid: vgdj#X?8dB
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Namibia
+    - ''
+    - Windhoek
+    - ''
+    - ''
+    - <img src="ug-flag-namibia.svg" />
+    - ''
+    - <img src="ug-map-namibia.png" />
+    guid: mkgcU7[bA%
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+  - fields:
+    - Niger
+    - ''
+    - Niamey
+    - ''
+    - ''
+    - <img src="ug-flag-niger.svg" />
+    - ''
+    - <img src="ug-map-niger.png" />
+    guid: jcu!gLw/&r
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+    - UG::West_Africa
+  - fields:
+    - Nigeria
+    - ''
+    - Abuja
+    - ''
+    - ''
+    - <img src="ug-flag-nigeria.svg" />
+    - ''
+    - <img src="ug-map-nigeria.png" />
+    guid: sB7rZQsR<l
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+    - UG::West_Africa
+  - fields:
+    - Republic of the Congo
+    - ''
+    - Brazzaville
+    - ''
+    - ''
+    - <img src="ug-flag-republic_of_the_congo.svg" />
+    - ''
+    - <img src="ug-map-republic_of_the_congo.png" />
+    guid: u|I}oElaH)
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+  - fields:
+    - Rwanda
+    - ''
+    - Kigali
+    - ''
+    - ''
+    - <img src="ug-flag-rwanda.svg" />
+    - ''
+    - <img src="ug-map-rwanda.png" />
+    guid: j)i)pB*HJ,
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Senegal
+    - ''
+    - Dakar
+    - ''
+    - ''
+    - <img src="ug-flag-senegal.svg" />
+    - Cameroon (green/red/yellow, yellow star)
+    - <img src="ug-map-senegal.png" />
+    guid: t-0>F]bu>P
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+    - UG::West_Africa
+  - fields:
+    - Seychelles
+    - ''
+    - Victoria
+    - ''
+    - ''
+    - <img src="ug-flag-seychelles.svg" />
+    - ''
+    - <img src="ug-map-seychelles.png" />
+    guid: hrI_uiW>E]
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Sierra Leone
+    - ''
+    - Freetown
+    - ''
+    - ''
+    - <img src="ug-flag-sierra_leone.svg" />
+    - ''
+    - <img src="ug-map-sierra_leone.png" />
+    guid: uc61ToT%gt
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+    - UG::West_Africa
+  - fields:
+    - South Africa
+    - ''
+    - Pretoria, Cape Town, Bloemfontein
+    - 'South Africa has no legally defined capital: the branches of government are
+      split over three cities: Pretoria (executive), Cape Town (legislative) and Bloemfontein
+      (judicial).'
+    - ''
+    - <img src="ug-flag-south_africa.svg" />
+    - ''
+    - <img src="ug-map-south_africa.png" />
+    guid: e.t$Vi5,>f
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+  - fields:
+    - Sudan
+    - ''
+    - Khartoum
+    - ''
+    - ''
+    - <img src="ug-flag-sudan.svg" />
+    - Palestine (red arrow, green stripe)
+    - <img src="ug-map-sudan.png" />
+    guid: k/u1:B%DJH
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+  - fields:
+    - Eswatini
+    - Known as Swaziland until 2018.
+    - Mbabane
+    - While Mbabane is the official, executive capital, Lobamba is the traditional,
+      spiritual and legislative capital.
+    - ''
+    - <img src="ug-flag-eswatini.svg" />
+    - ''
+    - <img src="ug-map-eswatini.png" />
+    guid: e5P*D#I{m{
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+  - fields:
+    - Tanzania
+    - ''
+    - Dodoma
+    - While Dodoma is the official capital, Dar es Salaam is the de facto seat of
+      government.
+    - ''
+    - <img src="ug-flag-tanzania.svg" />
+    - ''
+    - <img src="ug-map-tanzania.png" />
+    guid: p:SPZ:e/*[
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Togo
+    - ''
+    - Lomé
+    - ''
+    - ''
+    - <img src="ug-flag-togo.svg" />
+    - ''
+    - <img src="ug-map-togo.png" />
+    guid: t+v9b--,qs
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+    - UG::West_Africa
+  - fields:
+    - Tunisia
+    - ''
+    - Tunis
+    - ''
+    - ''
+    - <img src="ug-flag-tunisia.svg" />
+    - ''
+    - <img src="ug-map-tunisia.png" />
+    guid: fV`&p81%d(
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Mediterranean
+    - UG::Sovereign_State
+  - fields:
+    - Uganda
+    - ''
+    - Kampala
+    - ''
+    - ''
+    - <img src="ug-flag-uganda.svg" />
+    - ''
+    - <img src="ug-map-uganda.png" />
+    guid: gsS{jR,]|Q
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Sahrawi Arab Democratic Republic
+    - Partially recognised state claimed by Morocco.
+    - Laayoune
+    - While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is
+      the de facto seat of government.
+    - ''
+    - <img src="ug-flag-sahrawi_arab_democratic_republic.svg" />
+    - ''
+    - <img src="ug-map-sahrawi_arab_democratic_republic.png" />
+    guid: cAlyc~G.y%
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+  - fields:
+    - Zambia
+    - ''
+    - Lusaka
+    - ''
+    - ''
+    - <img src="ug-flag-zambia.svg" />
+    - ''
+    - <img src="ug-map-zambia.png" />
+    guid: fxAN),FAc$
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Zimbabwe
+    - ''
+    - Harare
+    - ''
+    - ''
+    - <img src="ug-flag-zimbabwe.svg" />
+    - ''
+    - <img src="ug-map-zimbabwe.png" />
+    guid: r<N4LAAnnB
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Canary Islands
+    - Autonomous community of Spain.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-canary_islands.png" />
+    guid: e?Xq9gy=@[
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+  - fields:
+    - Afghanistan
+    - ''
+    - Kabul
+    - ''
+    - ''
+    - <img src="ug-flag-afghanistan.png" />
+    - ''
+    - <img src="ug-map-afghanistan.png" />
+    guid: m5j,b/y<EE
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Bahrain
+    - ''
+    - Manama
+    - ''
+    - ''
+    - <img src="ug-flag-bahrain.svg" />
+    - Qatar (wider, more serrated edges, maroon)
+    - <img src="ug-map-bahrain.png" />
+    guid: stRa/S(0$F
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Bangladesh
+    - ''
+    - Dhaka
+    - ''
+    - ''
+    - <img src="ug-flag-bangladesh.svg" />
+    - ''
+    - <img src="ug-map-bangladesh.png" />
+    guid: l+>Ki!j#v+
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Bhutan
+    - ''
+    - Thimphu
+    - ''
+    - ''
+    - <img src="ug-flag-bhutan.svg" />
+    - ''
+    - <img src="ug-map-bhutan.png" />
+    guid: kQ:NIhJy~E
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Brunei
+    - ''
+    - Bandar Seri Begawan
+    - ''
+    - ''
+    - <img src="ug-flag-brunei.svg" />
+    - ''
+    - <img src="ug-map-brunei.png" />
+    guid: sY>@9w~i^p
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Southeast_Asia
+    - UG::Sovereign_State
+  - fields:
+    - China
+    - ''
+    - Beijing
+    - ''
+    - ''
+    - <img src="ug-flag-china.svg" />
+    - ''
+    - <img src="ug-map-china.png" />
+    guid: mJH4kwPF.-
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Cambodia
+    - ''
+    - Phnom Penh
+    - ''
+    - ''
+    - <img src="ug-flag-cambodia.svg" />
+    - ''
+    - <img src="ug-map-cambodia.png" />
+    guid: bW)ch:vs1P
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Southeast_Asia
+    - UG::Sovereign_State
+  - fields:
+    - Indonesia
+    - ''
+    - Jakarta
+    - ''
+    - ''
+    - <img src="ug-flag-indonesia.svg" />
+    - Monaco (narrower, darker red), Poland (red and white flipped, darker red)
+    - <img src="ug-map-indonesia.png" />
+    guid: sx|l+io`B@
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Southeast_Asia
+    - UG::Sovereign_State
+  - fields:
+    - India
+    - ''
+    - New Delhi
+    - ''
+    - ''
+    - <img src="ug-flag-india.svg" />
+    - ''
+    - <img src="ug-map-india.png" />
+    guid: q2#Yv[O0:|
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Hong Kong
+    - Special Administrative Region of China.
+    - ''
+    - ''
+    - ''
+    - <img src="ug-flag-hong_kong.svg" />
+    - ''
+    - <img src="ug-map-hong_kong.png" />
+    guid: lpbD0St&OU
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+  - fields:
+    - Iran
+    - ''
+    - Tehran
+    - ''
+    - ''
+    - <img src="ug-flag-iran.svg" />
+    - ''
+    - <img src="ug-map-iran.png" />
+    guid: mbz=7n[0v9
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Israel
+    - ''
+    - Jerusalem
+    - ''
+    - ''
+    - <img src="ug-flag-israel.svg" />
+    - ''
+    - <img src="ug-map-israel.png" />
+    guid: ijP>aJBT!9
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Mediterranean
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Iraq
+    - ''
+    - Baghdad
+    - ''
+    - ''
+    - <img src="ug-flag-iraq.svg" />
+    - Egypt (emblem instead of text), Syria (two stars instead of text), Yemen (no
+      text)
+    - <img src="ug-map-iraq.png" />
+    guid: jI9P-f6r3M
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - South Korea
+    - ''
+    - Seoul
+    - ''
+    - ''
+    - <img src="ug-flag-south_korea.svg" />
+    - ''
+    - <img src="ug-map-south_korea.png" />
+    guid: h?a*UKfT_M
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - North Korea
+    - ''
+    - Pyongyang
+    - ''
+    - ''
+    - <img src="ug-flag-north_korea.svg" />
+    - ''
+    - <img src="ug-map-north_korea.png" />
+    guid: r6BV%|..*5
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Jordan
+    - ''
+    - Amman
+    - ''
+    - ''
+    - <img src="ug-flag-jordan.svg" />
+    - ''
+    - <img src="ug-map-jordan.png" />
+    guid: i)]+09JUR&
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Japan
+    - ''
+    - Tokyo
+    - ''
+    - ''
+    - <img src="ug-flag-japan.svg" />
+    - ''
+    - <img src="ug-map-japan.png" />
+    guid: l}[BG9.nQS
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Lebanon
+    - ''
+    - Beirut
+    - ''
+    - ''
+    - <img src="ug-flag-lebanon.svg" />
+    - ''
+    - <img src="ug-map-lebanon.png" />
+    guid: mtd;>7T|g>
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Mediterranean
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Laos
+    - ''
+    - Vientiane
+    - ''
+    - ''
+    - <img src="ug-flag-laos.svg" />
+    - ''
+    - <img src="ug-map-laos.png" />
+    guid: iW>m(L/~c=
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Southeast_Asia
+    - UG::Sovereign_State
+  - fields:
+    - Kyrgyzstan
+    - ''
+    - Bishkek
+    - ''
+    - ''
+    - <img src="ug-flag-kyrgyzstan.svg" />
+    - ''
+    - <img src="ug-map-kyrgyzstan.png" />
+    guid: pkj3RPBUrF
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Kuwait
+    - ''
+    - Kuwait City
+    - ''
+    - ''
+    - <img src="ug-flag-kuwait.svg" />
+    - ''
+    - <img src="ug-map-kuwait.png" />
+    guid: euW0jm=wfR
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Myanmar
+    - Also known as Burma.
+    - Naypyidaw
+    - ''
+    - ''
+    - <img src="ug-flag-myanmar.svg" />
+    - ''
+    - <img src="ug-map-myanmar.png" />
+    guid: l*j*EE:!Y?
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Southeast_Asia
+    - UG::Sovereign_State
+  - fields:
+    - Mongolia
+    - ''
+    - Ulaanbaatar
+    - ''
+    - ''
+    - <img src="ug-flag-mongolia.svg" />
+    - ''
+    - <img src="ug-map-mongolia.png" />
+    guid: d3c`&/1Y^D
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Maldives
+    - ''
+    - Malé
+    - ''
+    - ''
+    - <img src="ug-flag-maldives.svg" />
+    - ''
+    - <img src="ug-map-maldives.png" />
+    guid: hXNTVF<:SH
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Malaysia
+    - ''
+    - Kuala Lumpur
+    - ''
+    - ''
+    - <img src="ug-flag-malaysia.svg" />
+    - ''
+    - <img src="ug-map-malaysia.png" />
+    guid: mk20`,N=`=
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Southeast_Asia
+    - UG::Sovereign_State
+  - fields:
+    - Oman
+    - ''
+    - Muscat
+    - ''
+    - ''
+    - <img src="ug-flag-oman.svg" />
+    - ''
+    - <img src="ug-map-oman.png" />
+    guid: eALZe^HCHq
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Nepal
+    - ''
+    - Kathmandu
+    - ''
+    - ''
+    - <img src="ug-flag-nepal-nobox.svg" />
+    - ''
+    - <img src="ug-map-nepal.png" />
+    guid: l3Ly8PBxt(
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Palestine
+    - ''
+    - Ramallah
+    - ''
+    - ''
+    - <img src="ug-flag-palestine.svg" />
+    - Sudan (green arrow, red stripe)
+    - <img src="ug-map-palestine.png" />
+    guid: g<[f89~U)A
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Mediterranean
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Pakistan
+    - ''
+    - Islamabad
+    - ''
+    - ''
+    - <img src="ug-flag-pakistan.svg" />
+    - ''
+    - <img src="ug-map-pakistan.png" />
+    guid: iIS#Nw]tr]
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Qatar
+    - ''
+    - Doha
+    - ''
+    - ''
+    - <img src="ug-flag-qatar.svg" />
+    - Bahrain (narrower, fewer serrated edges, red)
+    - <img src="ug-map-qatar.png" />
+    guid: m{oM,jr>C#
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Saudi Arabia
+    - ''
+    - Riyadh
+    - ''
+    - ''
+    - <img src="ug-flag-saudi_arabia.svg" />
+    - ''
+    - <img src="ug-map-saudi_arabia.png" />
+    guid: ln^3p)j3b.
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Singapore
+    - ''
+    - Singapore
+    - ''
+    - ''
+    - <img src="ug-flag-singapore.svg" />
+    - ''
+    - <img src="ug-map-singapore.png" />
+    guid: cL?8!xP#Wj
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Southeast_Asia
+    - UG::Sovereign_State
+  - fields:
+    - Syria
+    - ''
+    - Damascus
+    - ''
+    - ''
+    - <img src="ug-flag-syria.svg" />
+    - Egypt (emblem instead of stars), Iraq (text instead of stars), Yemen (no stars)
+    - <img src="ug-map-syria.png" />
+    guid: e=.VHQ9E+M
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Mediterranean
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Taiwan
+    - Partially recognised state claimed by China.
+    - Taipei
+    - ''
+    - ''
+    - <img src="ug-flag-taiwan.svg" />
+    - ''
+    - <img src="ug-map-taiwan.png" />
+    guid: m[96fa+HDS
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Sri Lanka
+    - ''
+    - Sri Jayawardenepura Kotte
+    - Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a
+      suburb of Colombo, is the official, legislative capital.
+    - ''
+    - <img src="ug-flag-sri_lanka.svg" />
+    - ''
+    - <img src="ug-map-sri_lanka.png" />
+    guid: g9v~y/;=z(
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Tajikistan
+    - ''
+    - Dushanbe
+    - ''
+    - ''
+    - <img src="ug-flag-tajikistan.svg" />
+    - ''
+    - <img src="ug-map-tajikistan.png" />
+    guid: g~%pF`(x{u
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Thailand
+    - ''
+    - Bangkok
+    - ''
+    - ''
+    - <img src="ug-flag-thailand.svg" />
+    - ''
+    - <img src="ug-map-thailand.png" />
+    guid: hE5j*e,Q?[
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Southeast_Asia
+    - UG::Sovereign_State
+  - fields:
+    - East Timor
+    - Also known as Timor-Leste.
+    - Dili
+    - ''
+    - ''
+    - <img src="ug-flag-east_timor.svg" />
+    - ''
+    - <img src="ug-map-east_timor.png" />
+    guid: fRSM{K+;[w
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Southeast_Asia
+    - UG::Sovereign_State
+  - fields:
+    - United Arab Emirates
+    - ''
+    - Abu Dhabi
+    - ''
+    - ''
+    - <img src="ug-flag-united_arab_emirates.svg" />
+    - ''
+    - <img src="ug-map-united_arab_emirates.png" />
+    guid: o~}KVA:VbI
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Turkmenistan
+    - ''
+    - Ashgabat
+    - ''
+    - ''
+    - <img src="ug-flag-turkmenistan.svg" />
+    - ''
+    - <img src="ug-map-turkmenistan.png" />
+    guid: u-`cspdp)D
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Yemen
+    - ''
+    - Sana'a
+    - ''
+    - ''
+    - <img src="ug-flag-yemen.svg" />
+    - Egypt (with emblem), Iraq (with text), Syria (with two stars)
+    - <img src="ug-map-yemen.png" />
+    guid: e42BpV,P}C
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Vietnam
+    - ''
+    - Hanoi
+    - ''
+    - ''
+    - <img src="ug-flag-vietnam.svg" />
+    - ''
+    - <img src="ug-map-vietnam.png" />
+    guid: pD<Pd$Ag@J
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Southeast_Asia
+    - UG::Sovereign_State
+  - fields:
+    - Uzbekistan
+    - ''
+    - Tashkent
+    - ''
+    - ''
+    - <img src="ug-flag-uzbekistan.svg" />
+    - ''
+    - <img src="ug-map-uzbekistan.png" />
+    guid: mbGXc0y3Pe
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Fiji
+    - ''
+    - Suva
+    - ''
+    - ''
+    - <img src="ug-flag-fiji.svg" />
+    - ''
+    - <img src="ug-map-fiji.png" />
+    guid: gB|K:+r?1V
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+    - UG::Sovereign_State
+  - fields:
+    - Papua New Guinea
+    - ''
+    - Port Moresby
+    - ''
+    - ''
+    - <img src="ug-flag-papua_new_guinea.svg" />
+    - ''
+    - <img src="ug-map-papua_new_guinea.png" />
+    guid: lhWI;$JC9(
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+    - UG::Sovereign_State
+  - fields:
+    - Australia
+    - ''
+    - Canberra
+    - ''
+    - ''
+    - <img src="ug-flag-australia.svg" />
+    - New Zealand (red stars, two fewer stars)
+    - <img src="ug-map-australia.png" />
+    guid: k0{O[6l]bH
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+    - UG::Sovereign_State
+  - fields:
+    - Solomon Islands
+    - ''
+    - Honiara
+    - ''
+    - ''
+    - <img src="ug-flag-solomon_islands.svg" />
+    - ''
+    - <img src="ug-map-solomon_islands.png" />
+    guid: r>g<|,FWi%
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+    - UG::Sovereign_State
+  - fields:
+    - Argentina
+    - ''
+    - Buenos Aires
+    - ''
+    - ''
+    - <img src="ug-flag-argentina.svg" />
+    - ''
+    - <img src="ug-map-argentina.png" />
+    guid: n&>e`2FO/S
+    note_model: Ultimate Geography
+    tags:
+    - UG::South_America
+    - UG::Sovereign_State
+  - fields:
+    - Bolivia
+    - ''
+    - Sucre
+    - While Sucre is the constitutional capital, La Paz is the seat of government.
+    - ''
+    - <img src="ug-flag-bolivia-blur.png" /><img src="ug-flag-bolivia.png" />
+    - Ghana (star instead of coat of arms)
+    - <img src="ug-map-bolivia.png" />
+    guid: khB~(m^@Z5
+    note_model: Ultimate Geography
+    tags:
+    - UG::South_America
+    - UG::Sovereign_State
+  - fields:
+    - Brazil
+    - ''
+    - Brasília
+    - ''
+    - ''
+    - <img src="ug-flag-brazil.svg" />
+    - ''
+    - <img src="ug-map-brazil.png" />
+    guid: spKoFRM4if
+    note_model: Ultimate Geography
+    tags:
+    - UG::South_America
+    - UG::Sovereign_State
+  - fields:
+    - Chile
+    - ''
+    - Santiago
+    - ''
+    - ''
+    - <img src="ug-flag-chile.svg" />
+    - ''
+    - <img src="ug-map-chile.png" />
+    guid: q8][)Ri}=q
+    note_model: Ultimate Geography
+    tags:
+    - UG::South_America
+    - UG::Sovereign_State
+  - fields:
+    - Colombia
+    - ''
+    - Bogotá
+    - ''
+    - ''
+    - <img src="ug-flag-colombia.svg" />
+    - Ecuador (with coat of arms)
+    - <img src="ug-map-colombia.png" />
+    guid: hoHandbYAy
+    note_model: Ultimate Geography
+    tags:
+    - UG::South_America
+    - UG::Sovereign_State
+  - fields:
+    - Ecuador
+    - ''
+    - Quito
+    - ''
+    - ''
+    - <img src="ug-flag-ecuador.png" />
+    - Colombia (no coat of arms)
+    - <img src="ug-map-ecuador.png" />
+    guid: lmRujD!(A7
+    note_model: Ultimate Geography
+    tags:
+    - UG::South_America
+    - UG::Sovereign_State
+  - fields:
+    - Guyana
+    - ''
+    - Georgetown
+    - ''
+    - ''
+    - <img src="ug-flag-guyana.svg" />
+    - ''
+    - <img src="ug-map-guyana.png" />
+    guid: q:XyGf#>Wg
+    note_model: Ultimate Geography
+    tags:
+    - UG::South_America
+    - UG::Sovereign_State
+  - fields:
+    - Paraguay
+    - ''
+    - Asunción
+    - ''
+    - ''
+    - <img src="ug-flag-paraguay-blur.svg" /><img src="ug-flag-paraguay.svg" />
+    - ''
+    - <img src="ug-map-paraguay.png" />
+    guid: s#:aIK$9^x
+    note_model: Ultimate Geography
+    tags:
+    - UG::South_America
+    - UG::Sovereign_State
+  - fields:
+    - Peru
+    - ''
+    - Lima
+    - ''
+    - ''
+    - <img src="ug-flag-peru.png" />
+    - ''
+    - <img src="ug-map-peru.png" />
+    guid: jBd@A?>g|}
+    note_model: Ultimate Geography
+    tags:
+    - UG::South_America
+    - UG::Sovereign_State
+  - fields:
+    - Suriname
+    - ''
+    - Paramaribo
+    - ''
+    - ''
+    - <img src="ug-flag-suriname.svg" />
+    - ''
+    - <img src="ug-map-suriname.png" />
+    guid: koI(}OyJ:@
+    note_model: Ultimate Geography
+    tags:
+    - UG::South_America
+    - UG::Sovereign_State
+  - fields:
+    - Uruguay
+    - ''
+    - Montevideo
+    - ''
+    - ''
+    - <img src="ug-flag-uruguay.svg" />
+    - ''
+    - <img src="ug-map-uruguay.png" />
+    guid: e?gIaPc$Ox
+    note_model: Ultimate Geography
+    tags:
+    - UG::South_America
+    - UG::Sovereign_State
+  - fields:
+    - Venezuela
+    - ''
+    - Caracas
+    - ''
+    - ''
+    - <img src="ug-flag-venezuela.png" />
+    - ''
+    - <img src="ug-map-venezuela.png" />
+    guid: o#&RMA_REo
+    note_model: Ultimate Geography
+    tags:
+    - UG::South_America
+    - UG::Sovereign_State
+  - fields:
+    - Cook Islands
+    - ''
+    - Avarua
+    - ''
+    - ''
+    - <img src="ug-flag-cook_islands.svg" />
+    - ''
+    - <img src="ug-map-cook_islands.png" />
+    guid: s4E?ZF[E<>
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+    - UG::Sovereign_State
+  - fields:
+    - Federated States of Micronesia
+    - ''
+    - Palikir
+    - ''
+    - ''
+    - <img src="ug-flag-federated_states_of_micronesia.svg" />
+    - ''
+    - <img src="ug-map-federated_states_of_micronesia.png" />
+    guid: k1]FH+s8j@
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+    - UG::Sovereign_State
+  - fields:
+    - Guam
+    - Unincorporated territory of the United States.
+    - Hagåtña
+    - ''
+    - ''
+    - <img src="ug-flag-guam-blur.svg" /><img src="ug-flag-guam.svg" />
+    - ''
+    - <img src="ug-map-guam.png" />
+    guid: dWA49p}F{k
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+  - fields:
+    - Vanuatu
+    - ''
+    - Port Vila
+    - ''
+    - ''
+    - <img src="ug-flag-vanuatu.svg" />
+    - ''
+    - <img src="ug-map-vanuatu.png" />
+    guid: K*b}<I3(~
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+    - UG::Sovereign_State
+  - fields:
+    - Canada
+    - ''
+    - Ottawa
+    - ''
+    - ''
+    - <img src="ug-flag-canada.svg" />
+    - ''
+    - <img src="ug-map-canada.png" />
+    guid: e?h=Xhs+K&
+    note_model: Ultimate Geography
+    tags:
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - United States of America
+    - ''
+    - Washington, D.C.
+    - ''
+    - ''
+    - <img src="ug-flag-united_states_of_america.svg" />
+    - ''
+    - <img src="ug-map-united_states_of_america.png" />
+    guid: b@M[XTc?}5
+    note_model: Ultimate Geography
+    tags:
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Mexico
+    - ''
+    - Mexico City
+    - ''
+    - ''
+    - <img src="ug-flag-mexico.png" />
+    - ''
+    - <img src="ug-map-mexico.png" />
+    guid: sxOMs+bE8@
+    note_model: Ultimate Geography
+    tags:
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Puerto Rico
+    - Unincorporated territory of the United States.
+    - San Juan
+    - ''
+    - ''
+    - <img src="ug-flag-puerto_rico.svg" />
+    - Cuba (red triangle, blue stripes)
+    - <img src="ug-map-puerto_rico.png" />
+    guid: t3aZXtpNyi
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+  - fields:
+    - Cuba
+    - ''
+    - Havana
+    - ''
+    - ''
+    - <img src="ug-flag-cuba.svg" />
+    - Puerto Rico (blue triangle, red stripes)
+    - <img src="ug-map-cuba.png" />
+    guid: rPekx@n9:L
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Dominican Republic
+    - ''
+    - Santo Domingo
+    - ''
+    - ''
+    - <img src="ug-flag-dominican_republic.png" />
+    - ''
+    - <img src="ug-map-dominican_republic.png" />
+    guid: lAxH.CfJB@
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Haiti
+    - ''
+    - Port-au-Prince
+    - ''
+    - ''
+    - <img src="ug-flag-haiti.svg" />
+    - ''
+    - <img src="ug-map-haiti.png" />
+    guid: hZ/V/D&rO`
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Jamaica
+    - ''
+    - Kingston
+    - ''
+    - ''
+    - <img src="ug-flag-jamaica.svg" />
+    - ''
+    - <img src="ug-map-jamaica.png" />
+    guid: h&`>n98~V1
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Trinidad and Tobago
+    - ''
+    - Port of Spain
+    - ''
+    - ''
+    - <img src="ug-flag-trinidad_and_tobago.svg" />
+    - ''
+    - <img src="ug-map-trinidad_and_tobago.png" />
+    guid: t50y/[AEhF
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Bermuda
+    - Overseas territory of the United Kingdom.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-bermuda.png" />
+    guid: gBCR?!O*;E
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+  - fields:
+    - Guadeloupe
+    - Overseas department of France.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-guadeloupe.png" />
+    guid: tTnCoO/*tk
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+  - fields:
+    - The Bahamas
+    - ''
+    - Nassau
+    - ''
+    - ''
+    - <img src="ug-flag-the_bahamas.svg" />
+    - ''
+    - <img src="ug-map-the_bahamas.png" />
+    guid: W5?6yQZD2
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Barbados
+    - ''
+    - Bridgetown
+    - ''
+    - ''
+    - <img src="ug-flag-barbados.svg" />
+    - ''
+    - <img src="ug-map-barbados.png" />
+    guid: e{e8vi@^PY
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Belize
+    - ''
+    - Belmopan
+    - ''
+    - ''
+    - <img src="ug-flag-belize.png" />
+    - ''
+    - <img src="ug-map-belize.png" />
+    guid: tcneuK7v%`
+    note_model: Ultimate Geography
+    tags:
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Costa Rica
+    - ''
+    - San José
+    - ''
+    - ''
+    - <img src="ug-flag-costa_rica.png" />
+    - ''
+    - <img src="ug-map-costa_rica.png" />
+    guid: uH*Q(mcRt5
+    note_model: Ultimate Geography
+    tags:
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - El Salvador
+    - ''
+    - San Salvador
+    - ''
+    - ''
+    - <img src="ug-flag-el_salvador-blur.png" /><img src="ug-flag-el_salvador.png"
+      />
+    - Nicaragua (different coat of arms, slightly lighter blue)
+    - <img src="ug-map-el_salvador.png" />
+    guid: k$1_yaF?9#
+    note_model: Ultimate Geography
+    tags:
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Guatemala
+    - ''
+    - Guatemala City
+    - ''
+    - ''
+    - <img src="ug-flag-guatemala.png" />
+    - ''
+    - <img src="ug-map-guatemala.png" />
+    guid: dUZ^=SE5BG
+    note_model: Ultimate Geography
+    tags:
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Honduras
+    - ''
+    - Tegucigalpa
+    - ''
+    - ''
+    - <img src="ug-flag-honduras.svg" />
+    - ''
+    - <img src="ug-map-honduras.png" />
+    guid: t_h*fbN#:(
+    note_model: Ultimate Geography
+    tags:
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Nicaragua
+    - ''
+    - Managua
+    - ''
+    - ''
+    - <img src="ug-flag-nicaragua-blur.svg" /><img src="ug-flag-nicaragua.svg" />
+    - El Salvador (different coat of arms, slightly darker blue)
+    - <img src="ug-map-nicaragua.png" />
+    guid: q=w[<m2Bk&
+    note_model: Ultimate Geography
+    tags:
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Panama
+    - ''
+    - Panama City
+    - ''
+    - ''
+    - <img src="ug-flag-panama.svg" />
+    - ''
+    - <img src="ug-map-panama.png" />
+    guid: vpOTK6tMr@
+    note_model: Ultimate Geography
+    tags:
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Antigua and Barbuda
+    - ''
+    - St. John's
+    - ''
+    - ''
+    - <img src="ug-flag-antigua_and_barbuda.svg" />
+    - ''
+    - <img src="ug-map-antigua_and_barbuda.png" />
+    guid: m2F|cUkKhv
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Dominica
+    - ''
+    - Roseau
+    - ''
+    - ''
+    - <img src="ug-flag-dominica.svg" />
+    - ''
+    - <img src="ug-map-dominica.png" />
+    guid: k}4/oj#$~s
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Saint Vincent and the Grenadines
+    - ''
+    - Kingstown
+    - ''
+    - ''
+    - <img src="ug-flag-saint_vincent_and_the_grenadines.svg" />
+    - ''
+    - <img src="ug-map-saint_vincent_and_the_grenadines.png" />
+    guid: va/ky=f5pK
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Somalia
+    - ''
+    - Mogadishu
+    - ''
+    - ''
+    - <img src="ug-flag-somalia.svg" />
+    - ''
+    - <img src="ug-map-somalia.png" />
+    guid: c,5(mUGzYT
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Zanzibar
+    - Semi-autonomous region of Tanzania.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-zanzibar.png" />
+    guid: gp[h@]y13l
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+  - fields:
+    - Ghana
+    - ''
+    - Accra
+    - ''
+    - ''
+    - <img src="ug-flag-ghana.svg" />
+    - Bolivia (coat of arms instead of star)
+    - <img src="ug-map-ghana.png" />
+    guid: gx:;za!?C9
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+    - UG::West_Africa
+  - fields:
+    - Guinea
+    - ''
+    - Conakry
+    - ''
+    - ''
+    - <img src="ug-flag-guinea.svg" />
+    - Mali (red and green flipped, slightly brighter green)
+    - <img src="ug-map-guinea.png" />
+    guid: r]*Ioa%$bK
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Sovereign_State
+    - UG::West_Africa
+  - fields:
+    - New Zealand
+    - ''
+    - Wellington
+    - ''
+    - ''
+    - <img src="ug-flag-new_zealand.svg" />
+    - Australia (white stars, two more stars)
+    - <img src="ug-map-new_zealand.png" />
+    guid: )Y}Qy.3GK
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+    - UG::Sovereign_State
+  - fields:
+    - French Polynesia
+    - Overseas territory of France.
+    - Papeete
+    - ''
+    - ''
+    - <img src="ug-flag-french_polynesia.svg" />
+    - ''
+    - <img src="ug-map-french_polynesia.png" />
+    guid: lH^2D]w;[H
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+  - fields:
+    - Philippines
+    - ''
+    - Manila
+    - ''
+    - ''
+    - <img src="ug-flag-philippines.svg" />
+    - ''
+    - <img src="ug-map-philippines.png" />
+    guid: qx%>fB$d+$
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Southeast_Asia
+    - UG::Sovereign_State
+  - fields:
+    - Kosovo
+    - Partially recognised state claimed by Serbia.
+    - Pristina
+    - ''
+    - ''
+    - <img src="ug-flag-kosovo.svg" />
+    - ''
+    - <img src="ug-map-kosovo.png" />
+    guid: libliptkB4
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Libya
+    - ''
+    - Tripoli
+    - ''
+    - ''
+    - <img src="ug-flag-libya.svg" />
+    - ''
+    - <img src="ug-map-libya.png" />
+    guid: jrM28*HbyG
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::Mediterranean
+    - UG::Sovereign_State
+  - fields:
+    - Palau
+    - ''
+    - Ngerulmud
+    - ''
+    - ''
+    - <img src="ug-flag-palau.svg" />
+    - ''
+    - <img src="ug-map-palau.png" />
+    guid: r?E$4f-d0/
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+    - UG::Sovereign_State
+  - fields:
+    - Saint Lucia
+    - ''
+    - Castries
+    - ''
+    - ''
+    - <img src="ug-flag-saint_lucia.svg" />
+    - ''
+    - <img src="ug-map-saint_lucia.png" />
+    guid: leh^fmrt*#
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Bali
+    - Island of Indonesia.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-bali.png" />
+    guid: O~pXkAbd3
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+  - fields:
+    - Grenada
+    - ''
+    - St. George's
+    - ''
+    - ''
+    - <img src="ug-flag-grenada.svg" />
+    - ''
+    - <img src="ug-map-grenada.png" />
+    guid: f*LO~>!0PN
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - British Virgin Islands
+    - Overseas territory of the United Kingdom.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-british_virgin_islands.png" />
+    guid: q[}7hk(+=e
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+  - fields:
+    - Turks and Caicos Islands
+    - Overseas territory of the United Kingdom.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-turks_and_caicos_islands.png" />
+    guid: q7do-wLx%E
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+  - fields:
+    - Cayman Islands
+    - Overseas territory of the United Kingdom.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-cayman_islands.png" />
+    guid: vwc3}.=Z#&
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+  - fields:
+    - Anguilla
+    - Overseas territory of the United Kingdom.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-anguilla.png" />
+    guid: e<X;[vACXC
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+  - fields:
+    - Azores
+    - Autonomous region of Portugal.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-azores.png" />
+    guid: j=L,YBvsBk
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - Curaçao
+    - Constituent country of the Kingdom of the Netherlands.
+    - Willemstad
+    - ''
+    - ''
+    - <img src="ug-flag-curacao.svg" />
+    - Nauru (single star below yellow band)
+    - <img src="ug-map-curacao.png" />
+    guid: oa87&PB&Bm
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+  - fields:
+    - French Guiana
+    - Overseas department of France.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-french_guiana.png" />
+    guid: b^Try&me1A
+    note_model: Ultimate Geography
+    tags:
+    - UG::South_America
+  - fields:
+    - Gibraltar
+    - Overseas territory of the United Kingdom.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-gibraltar.png" />
+    guid: o``:?0>/yz
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Mediterranean
+  - fields:
+    - Guernsey
+    - Crown dependency of the United Kingdom.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-guernsey.png" />
+    guid: pz(G*<F93/
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - Isle of Man
+    - Crown dependency of the United Kingdom.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-isle_of_man.png" />
+    guid: cV4idO^r8W
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - Jersey
+    - Crown dependency of the United Kingdom.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-jersey.png" />
+    guid: m*PYE=#wr^
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - Kiribati
+    - ''
+    - Tarawa
+    - ''
+    - ''
+    - <img src="ug-flag-kiribati.svg" />
+    - ''
+    - <img src="ug-map-kiribati.png" />
+    guid: sXzvT.g31p
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+    - UG::Sovereign_State
+  - fields:
+    - Macau
+    - Special Administrative Region of China.
+    - ''
+    - ''
+    - ''
+    - <img src="ug-flag-macau.svg" />
+    - ''
+    - <img src="ug-map-macau.png" />
+    guid: mq)8`hi{hb
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+  - fields:
+    - Madeira
+    - Autonomous region of Portugal.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-madeira.png" />
+    guid: h}lnSN_f$_
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - Marshall Islands
+    - ''
+    - Majuro
+    - ''
+    - ''
+    - <img src="ug-flag-marshall_islands.svg" />
+    - ''
+    - <img src="ug-map-marshall_islands.png" />
+    guid: eT<gzg?q,r
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+    - UG::Sovereign_State
+  - fields:
+    - Nauru
+    - ''
+    - Yaren
+    - Nauru has no official capital; the Yaren District is the de facto capital.
+    - ''
+    - <img src="ug-flag-nauru.svg" />
+    - Curaçao (two stars in top-left corner)
+    - <img src="ug-map-nauru.png" />
+    guid: vE[T$`n9T)
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+    - UG::Sovereign_State
+  - fields:
+    - New Caledonia
+    - Overseas territory of France.
+    - Nouméa
+    - ''
+    - ''
+    - <img src="ug-flag-new_caledonia.svg" />
+    - ''
+    - <img src="ug-map-new_caledonia.png" />
+    guid: tj&bK}%P!F
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+  - fields:
+    - Niue
+    - ''
+    - Alofi
+    - ''
+    - ''
+    - <img src="ug-flag-niue.svg" />
+    - ''
+    - <img src="ug-map-niue.png" />
+    guid: kX]hN=_.c-
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+    - UG::Sovereign_State
+  - fields:
+    - Northern Cyprus
+    - State recognised only by Turkey and claimed by Cyprus.
+    - North Nicosia
+    - ''
+    - ''
+    - <img src="ug-flag-northern_cyprus.svg" />
+    - ''
+    - <img src="ug-map-northern_cyprus.png" />
+    guid: r/B|ra%L,.
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Mediterranean
+    - UG::Middle_East
+    - UG::Sovereign_State
+  - fields:
+    - Saint Kitts and Nevis
+    - ''
+    - Basseterre
+    - ''
+    - ''
+    - <img src="ug-flag-saint_kitts_and_nevis.svg" />
+    - ''
+    - <img src="ug-map-saint_kitts_and_nevis.png" />
+    guid: b[(2`4t&?J
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+    - UG::Sovereign_State
+  - fields:
+    - Samoa
+    - ''
+    - Apia
+    - ''
+    - ''
+    - <img src="ug-flag-samoa.svg" />
+    - ''
+    - <img src="ug-map-samoa.png" />
+    guid: qvITjNxkLN
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+    - UG::Sovereign_State
+  - fields:
+    - Somaliland
+    - Independent state claimed by Somalia.
+    - Hargeisa
+    - ''
+    - ''
+    - <img src="ug-flag-somaliland.svg" />
+    - ''
+    - <img src="ug-map-somaliland.png" />
+    guid: jX=#G8wu#(
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - South Sudan
+    - ''
+    - Juba
+    - ''
+    - ''
+    - <img src="ug-flag-south_sudan.svg" />
+    - ''
+    - <img src="ug-map-south_sudan.png" />
+    guid: l&#7I)Ah/E
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+    - UG::Sovereign_State
+  - fields:
+    - Tuvalu
+    - ''
+    - Funafuti
+    - ''
+    - ''
+    - <img src="ug-flag-tuvalu.svg" />
+    - ''
+    - <img src="ug-map-tuvalu.png" />
+    guid: de=9c:,@j9
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+    - UG::Sovereign_State
+  - fields:
+    - United States Virgin Islands
+    - Unincorporated territory of the United States.
+    - Charlotte Amalie
+    - ''
+    - ''
+    - <img src="ug-flag-united_states_virgin_islands.svg" />
+    - ''
+    - <img src="ug-map-united_states_virgin_islands.png" />
+    guid: kE!iKHLN_g
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+  - fields:
+    - Åland Islands
+    - Autonomous region of Finland.
+    - Mariehamn
+    - ''
+    - ''
+    - <img src="ug-flag-aland_islands.svg" />
+    - ''
+    - <img src="ug-map-aland_islands.png" />
+    guid: d``B*6:eCx
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - South Ossetia
+    - Independent state claimed by Georgia.
+    - Tskhinvali
+    - ''
+    - ''
+    - <img src="ug-flag-south_ossetia.svg" />
+    - ''
+    - <img src="ug-map-south_ossetia.png" />
+    guid: p]t8:Tka7q
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - American Samoa
+    - Unincorporated territory of the United States.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-american_samoa.png" />
+    guid: 'niJUFZF$Y:'
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+  - fields:
+    - Northern Mariana Islands
+    - Unincorporated territory of the United States.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-northern_mariana_islands.png" />
+    guid: p}Qa|!7PpR
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+  - fields:
+    - Aruba
+    - Constituent country of the Kingdom of the Netherlands.
+    - Oranjestad
+    - ''
+    - ''
+    - <img src="ug-flag-aruba.svg" />
+    - ''
+    - <img src="ug-map-aruba.png" />
+    guid: uv1fGXHN@)
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+  - fields:
+    - Abkhazia
+    - Independent state claimed by Georgia.
+    - Sukhumi
+    - ''
+    - ''
+    - <img src="ug-flag-abkhazia.svg" />
+    - ''
+    - <img src="ug-map-abkhazia.png" />
+    guid: sRw-ik:I$v
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Sint Maarten
+    - Constituent country of the Kingdom of the Netherlands.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-sint_maarten.png" />
+    guid: bnEK#)[;qT
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+  - fields:
+    - Republic of Artsakh
+    - Independent state claimed by Azerbaijan, formerly known as Nagorno-Karabakh.
+    - Stepanakert
+    - ''
+    - ''
+    - <img src="ug-flag-republic_of_artsakh.svg" />
+    - ''
+    - <img src="ug-map-republic_of_artsakh.png" />
+    guid: ey:Q|*t!Lg
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Sovereign_State
+  - fields:
+    - Tonga
+    - ''
+    - Nukuʻalofa
+    - ''
+    - ''
+    - <img src="ug-flag-tonga.svg" />
+    - ''
+    - <img src="ug-map-tonga.png" />
+    guid: c^,~EC6Pb2
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+    - UG::Sovereign_State
+  - fields:
+    - Transnistria
+    - Independent state claimed by Moldova.
+    - Tiraspol
+    - ''
+    - ''
+    - <img src="ug-flag-transnistria.svg" />
+    - ''
+    - <img src="ug-map-transnistria.png" />
+    guid: tMMtBUpb$&
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+    - UG::Sovereign_State
+  - fields:
+    - Sardinia
+    - Autonomous region of Italy.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-sardinia.png" />
+    guid: jKIDq|}J&c
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - Kaliningrad Oblast
+    - Oblast (administrative region) of the Russian Federation.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-kaliningrad_oblast.png" />
+    guid: dC:e5G4J/p
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - Martinique
+    - Overseas department of France.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-martinique.png" />
+    guid: u;|vR#mVMW
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+  - fields:
+    - Java
+    - Island of Indonesia.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-java.png" />
+    guid: gDsLPj(9S#
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+  - fields:
+    - Corsica
+    - Region of France.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-corsica.png" />
+    guid: xb&P*pH(Q
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - European Union
+    - ''
+    - Brussels
+    - Brussels is the seat of the executive branch, but the European Union has institutions
+      in other European cities.
+    - Not a sovereign country
+    - <img src="ug-flag-european_union.svg" />
+    - ''
+    - <img src="ug-map-european_union.png" />
+    guid: Bszsaz0Iuo
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - Gulf of Mexico
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-gulf_of_mexico.png" />
+    guid: JOT:U4ayh@
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Philippine Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-philippine_sea.png" />
+    guid: G/^_##fcPN
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Southern Ocean
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-southern_ocean-nobox.png" />
+    guid: LPF4AfaHKR
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Gulf of Thailand
+    - Also known as the Gulf of Siam.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-gulf_of_thailand.png" />
+    guid: rSneU!3}bn
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Micronesia
+    - Subregion of Oceania comprising thousands of small islands in the western Pacific
+      Ocean.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-micronesia.png" />
+    guid: cv+Nq9:a<P
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+  - fields:
+    - Pacific Ocean
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-pacific_ocean-nobox.png" />
+    guid: f*2@qiHh_1
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Atlantic Ocean
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-atlantic_ocean-nobox.png" />
+    guid: nuU8A_$i2M
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Indian Ocean
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-indian_ocean-nobox.png" />
+    guid: fT!w8R#>dg
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Arctic Ocean
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-arctic_ocean-nobox.png" />
+    guid: gG6SWfM>H0
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Hudson Bay
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-hudson_bay.png" />
+    guid: sM0GPt1HS1
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Labrador Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-labrador_sea.png" />
+    guid: dlU7VG|3Gd
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - White Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-white_sea.png" />
+    guid: cEO^y)Md[G
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Denmark Strait
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-denmark_strait.png" />
+    guid: eN#^kPGv*L
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Norwegian Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-norwegian_sea.png" />
+    guid: lp@e##m.!+
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Baltic Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-baltic_sea.png" />
+    guid: epvt3>HH?U
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Celtic Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-celtic_sea.png" />
+    guid: E3u*2.<9#`
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - English Channel
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-english_channel.png" />
+    guid: q1Q3Do8S>g
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Adriatic Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-adriatic_sea.png" />
+    guid: yX:tmrd5;]
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Bay of Biscay
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-bay_of_biscay.png" />
+    guid: H*c[ML+`s=
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Black Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-black_sea.png" />
+    guid: e_;dzXj8de
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Aegean Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-aegean_sea.png" />
+    guid: iB-8Br~onq
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Balkan Peninsula
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-balkan_peninsula.png" />
+    guid: zSc]-^U=0=
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - Caspian Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-caspian_sea.png" />
+    guid: x2d4n4ADcP
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Mediterranean Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-mediterranean_sea.png" />
+    guid: Gn;q2Y)Xe4
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - East Siberian Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-east_siberian_sea.png" />
+    guid: gRVZ]qJ#>O
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Bering Strait
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-bering_strait.png" />
+    guid: J%,fuysl*&
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Arabian Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-arabian_sea.png" />
+    guid: r(h9&#wc~B
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Red Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-red_sea.png" />
+    guid: _]DH+g9!$
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Dead Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-dead_sea.png" />
+    guid: B:x<p&Q=t)
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Bay of Bengal
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-bay_of_bengal.png" />
+    guid: z:*d{z(~V2
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Sea of Japan
+    - A naming dispute exists between the sea's bordering countries, with South Korea
+      notably supporting the name East Sea.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-sea_of_japan.png" />
+    guid: d}R:qHj1,7
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Yellow Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-yellow_sea.png" />
+    guid: L5M1*yG7eH
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Coral Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-coral_sea.png" />
+    guid: s|K&2S,UP|
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - South China Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-south_china_sea.png" />
+    guid: t$y1C2R-Av
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Tasman Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-tasman_sea.png" />
+    guid: eHJ?)TAdTo
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Gulf of Carpentaria
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-gulf_of_carpentaria.png" />
+    guid: pQpX%(EVOH
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Aral Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-aral_sea.png" />
+    guid: qiv/4tOlf=
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Persian Gulf
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-persian_gulf.png" />
+    guid: M$bc0[jYf0
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Caribbean Sea
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-caribbean_sea.png" />
+    guid: jYz[ibrr9m
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Gulf of California
+    - Also known as the Sea of Cortez.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-gulf_of_california.png" />
+    guid: SlOEXfq#|
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Polynesia
+    - Subregion of Oceania comprising thousands of small islands in the central and
+      southern Pacific Ocean.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-polynesia.png" />
+    guid: d5m8%D6,;u
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+  - fields:
+    - Melanesia
+    - Subregion of Oceania, which includes the four countries of Vanuatu, the Solomon
+      Islands, Fiji, and Papua New Guinea.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-melanesia.png" />
+    guid: o9{x<AyA]B
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+  - fields:
+    - Scandinavia
+    - Historical and cultural region in Northern Europe, which includes the countries
+      of Denmark, Norway and Sweden, and sometimes Finland and Iceland.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-scandinavia.png" />
+    guid: He!e=h?_2V
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - Sea of Galilee
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-sea_of_galilee.png" />
+    guid: QSq%~rFaP-
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceans+Seas
+  - fields:
+    - Sumatra
+    - Island of Indonesia.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-sumatra.png" />
+    guid: ck!6;xK$/^
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+  - fields:
+    - Sicily
+    - Autonomous region of Italy.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-sicily.png" />
+    guid: n{{o2K1:dw
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - Mayotte
+    - Overseas department of France.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-mayotte.png" />
+    guid: xqrJ^d[.(O
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+  - fields:
+    - Réunion
+    - Overseas department of France.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-reunion.png" />
+    guid: vrn%j%6{nu
+    note_model: Ultimate Geography
+    tags:
+    - UG::Africa
+    - UG::East_Africa
+  - fields:
+    - Falkland Islands
+    - Overseas territory of the United Kingdom.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-falkland_islands.png" />
+    guid: p#R$-mG/L
+    note_model: Ultimate Geography
+    tags:
+    - UG::South_America
+  - fields:
+    - Europe
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-europe-nobox.png" />
+    guid: oV/JG7fwZq
+    note_model: Ultimate Geography
+    tags:
+    - UG::Continents
+  - fields:
+    - North America
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-north_america-nobox.png" />
+    guid: bD?R}i8_[c
+    note_model: Ultimate Geography
+    tags:
+    - UG::Continents
+  - fields:
+    - South America
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-south_america-nobox.png" />
+    guid: Lol+XIvY21
+    note_model: Ultimate Geography
+    tags:
+    - UG::Continents
+  - fields:
+    - Asia
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-asia-nobox.png" />
+    guid: Qlib4)q2Hk
+    note_model: Ultimate Geography
+    tags:
+    - UG::Continents
+  - fields:
+    - Africa
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-africa-nobox.png" />
+    guid: pwwZu{7f~(
+    note_model: Ultimate Geography
+    tags:
+    - UG::Continents
+  - fields:
+    - Australia (Oceania)
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-oceania-nobox.png" />
+    guid: qFuGdDx^Yv
+    note_model: Ultimate Geography
+    tags:
+    - UG::Continents
+  - fields:
+    - Antarctica
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-antarctica-nobox.png" />
+    guid: Cf2@;p<aL
+    note_model: Ultimate Geography
+    tags:
+    - UG::Continents
+  - fields:
+    - Saint Martin
+    - Overseas territory of France.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-saint_martin.png" />
+    guid: 't2&ri|[Un:'
+    note_model: Ultimate Geography
+    tags:
+    - UG::Caribbean
+    - UG::North_America
+  - fields:
+    - Wallis and Futuna
+    - Overseas territory of France.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-wallis_and_futuna.png" />
+    guid: dbP/Cj}sB+
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+  - fields:
+    - Akrotiri and Dhekelia
+    - Overseas territory of the United Kingdom.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-akrotiri_and_dhekelia.png" />
+    guid: wa>{k!2cXc
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia
+    - UG::Mediterranean
+    - UG::Middle_East
+  - fields:
+    - Svalbard
+    - Unincorporated internal area of Norway.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-svalbard.png" />
+    guid: 5JJ2]i)p4
+    note_model: Ultimate Geography
+    tags:
+    - UG::Europe
+  - fields:
+    - Hawaii
+    - State of the United States.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-hawaii.png" />
+    guid: s>f40rn,O]
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+  - fields:
+    - Alaska
+    - State of the United States.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-alaska.png" />
+    guid: ssbyA9}]QP
+    note_model: Ultimate Geography
+    tags:
+    - UG::North_America
+  - fields:
+    - Bougainville
+    - Autonomous region of Papua New Guinea.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-bougainville.png" />
+    guid: vKx<0Qa!aP
+    note_model: Ultimate Geography
+    tags:
+    - UG::Oceania
+  - fields:
+    - Jeju
+    - Autonomous province of South Korea.
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <img src="ug-map-jeju.png" />
+    guid: fkq7lhLkdH
+    note_model: Ultimate Geography
+    tags:
+    - UG::Asia

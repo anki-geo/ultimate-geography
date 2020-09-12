@@ -1,0 +1,25 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "43929658785bdd6732cfb1582a99d3edabcea8ba8d0ea54ec50deff0cd09fd36"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "brain-brew": {
+            "editable": true,
+            "path": "/home/jmo/Development/brain-brew"
+        }
+    },
+    "develop": {}
+}

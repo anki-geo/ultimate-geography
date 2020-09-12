@@ -1,0 +1,89 @@
+- generate deck parts:
+  - from deck parts:
+      note_models:
+        - name: Ultimate Geography
+          file: src/deck_parts/note_models/Ultimate Geography.yaml
+        - name: Ultimate Geography Combined Fields
+          file: src/deck_parts/note_models/Ultimate Geography Combined Fields.yaml
+  - from csv:
+      notes:
+        name: all_fields
+        #save_to_file:
+
+        note_model_mappings: &nmm
+          - note_models:
+              - Ultimate Geography
+              - Ultimate Geography Combined Fields
+            columns_to_fields:
+              guid: guid
+              tags: tags
+
+              Country: Country
+              Country:de: Country:de
+              Country:es: Country:es
+              Country:fr: Country:fr
+              Country:nb: Country:nb
+
+              Country info: Country info
+              Country info:de: Country info:de
+              Country info:es: Country info:es
+              Country info:fr: Country info:fr
+              Country info:nb: Country info:nb
+
+              Capital: Capital
+              Capital:de: Capital:de
+              Capital:es: Capital:es
+              Capital:fr: Capital:fr
+              Capital:nb: Capital:nb
+
+              Capital info: Capital info
+              Capital info:de: Capital info:de
+              Capital info:es: Capital info:es
+              Capital info:fr: Capital info:fr
+              Capital info:nb: Capital info:nb
+
+              Capital hint: Capital hint
+              Capital hint:de: Capital hint:de
+              Capital hint:es: Capital hint:es
+              Capital hint:fr: Capital hint:fr
+              Capital hint:nb: Capital hint:nb
+
+              Flag similarity: Flag similarity
+              Flag similarity:de: Flag similarity:de
+              Flag similarity:es: Flag similarity:es
+              Flag similarity:fr: Flag similarity:fr
+              Flag similarity:nb: Flag similarity:nb
+
+              Flag: Flag
+              Map: Map
+
+            personal_fields: []
+
+        file_mappings:
+          - file: src/data/combined_data.csv
+            note_model: Ultimate Geography Combined Fields
+
+- generate csvs:
+    notes: all_fields
+
+    note_model_mappings: *nmm
+
+    file_mappings:
+      - file: src/data/split/main.csv
+        note_model: Ultimate Geography
+
+        derivatives:
+          - file: src/data/split/country.csv
+            sort_by_columns: [ country ]
+          - file: src/data/split/country_info.csv
+            sort_by_columns: [ country ]
+
+          - file: src/data/split/capital.csv
+            sort_by_columns: [ country ]
+          - file: src/data/split/capital_info.csv
+            sort_by_columns: [ country ]
+          - file: src/data/split/capital_hint.csv
+            sort_by_columns: [ country ]
+
+          - file: src/data/split/flag_similarity.csv
+            sort_by_columns: [ country ]
