@@ -4,3 +4,4 @@ vendor/
 .DS_Store
 Thumbs.db
 ~$*
+/brain_brew_build/

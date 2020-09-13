@@ -4,7 +4,7 @@
       notes:
         name: standard notes
         sort_order: [Country]
-        save_to_file: src/deck_parts/notes/standard.yaml
+        #save_to_file: src/deck_parts/notes/english.yaml
       note_models:
         - name: Ultimate Geography
           save_to_file: src/deck_parts/note_models/Ultimate Geography.yaml
@@ -15,30 +15,30 @@
         from_notes: true
         from_note_models: true
 
-- generate csvs:
-    notes: standard notes
-
-    note_model_mappings:
-      - note_models:
-          - Ultimate Geography
-
-        columns_to_fields:
-          guid: guid
-          tags: tags
-
-          country: Country
-          country info: Country Info
-
-          capital: Capital
-          capital info: Capital Info
-          capital hint: Capital hint
-
-          flag: flag
-          flag similarity: Flag similarity
-
-          map: map
-
-        personal_fields: []
-
-    file_mappings:
-      - file: src/
+#- generate csvs:
+#    notes: standard notes
+#
+#    note_model_mappings:
+#      - note_models:
+#          - Ultimate Geography
+#
+#        columns_to_fields:
+#          guid: guid
+#          tags: tags
+#
+#          country: Country
+#          country info: Country Info
+#
+#          capital: Capital
+#          capital info: Capital Info
+#          capital hint: Capital hint
+#
+#          flag: flag
+#          flag similarity: Flag similarity
+#
+#          map: map
+#
+#        personal_fields: []
+#
+#    file_mappings:
+#      - file: src/

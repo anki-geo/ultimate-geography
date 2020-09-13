@@ -18,6 +18,9 @@
               guid: guid
               tags: tags
 
+              Flag: Flag
+              Map: Map
+
               Country: Country
               Country:de: Country:de
               Country:es: Country:es
@@ -53,9 +56,6 @@
               Flag similarity:es: Flag similarity:es
               Flag similarity:fr: Flag similarity:fr
               Flag similarity:nb: Flag similarity:nb
-
-              Flag: Flag
-              Map: Map
 
             personal_fields: []
 

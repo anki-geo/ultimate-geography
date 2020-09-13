@@ -1,28 +1,22 @@
 crowdanki_uuid: 43c5ba66-9a65-11e8-90c9-a0481cc15658
 name: Ultimate Geography
-desc: "\n<a href=\"https://github.com/axelboc/anki-ultimate-geography/\"><b>FULL DESCRIPTION</b></a>\
-  \ | <a href=\"https://github.com/axelboc/anki-ultimate-geography/releases\"><b>RELEASE\
-  \ NOTES</b></a> | <a href=\"https://github.com/axelboc/anki-ultimate-geography/blob/master/CONTRIBUTING.md\"\
-  ><b>CONTRIBUTING</b></a>\n\n<b>Ultimate Geography v4.0</b> features:\n\n- the world's\
-  \ <a href=\"https://en.wikipedia.org/wiki/List_of_sovereign_states\"><b>206 sovereign\
-  \ states</b></a> (824 cards)\n- <b>52 territories, world regions, and other entities</b>\
-  \ (98 cards)\n- <b>39 oceans and seas</b> (39 cards, maps only)\n- <b>7 continents</b>\
-  \ (7 cards, maps only)\n- for a total of <b>304 unique notes</b>, <b>968 cards</b>,\
-  \ <b>222 flags</b> and <b>304 maps</b>.\n\nThe deck is available in <a href=\"https://github.com/axelboc/anki-ultimate-geography#other-languages-and-versions\"\
-  >five languages</a>: <b>English</b>, <b>German</b>, <b>Spanish</b>, <b>French</b>\
-  \ and <b>Norwegian</b>. An <a href=\"https://github.com/axelboc/anki-ultimate-geography#other-languages-and-versions\"\
-  ><b>extended version</b></a> is also available in each language. To help with memorisation\
-  \ and provide context while learning, some notes include extra information such\
-  \ as similar flags, governance information, alternative country names, etc.\n\n\
-  You can use Anki's <a href=\"https://github.com/axelboc/anki-ultimate-geography#custom-study\"\
-  >filtered deck feature</a> to focus your study on a subset of the deck, such as\
-  \ sovereign states, a single note template (e.g. map to country), or a specific\
-  \ continent (e.g. Europe).\n\nThis deck is <a href=\"https://github.com/axelboc/anki-ultimate-geography\"\
-  ><b>maintained on GitHub</b></a>. If you spot a mistake, have a suggestion or want\
-  \ to help, please don't hesitate to <a href=\"https://github.com/axelboc/anki-ultimate-geography/issues\"\
-  >open an issue</a>. Want to <b>stay informed of new releases</b>? Watch the GitHub\
-  \ repository or subscribe to the <a href=\"https://github.com/axelboc/anki-ultimate-geography/releases.atom\"\
-  >releases feed</a>!\n"
+desc: |
+  <a href="https://github.com/axelboc/anki-ultimate-geography/"><b>FULL DESCRIPTION</b></a> | <a href="https://github.com/axelboc/anki-ultimate-geography/releases"><b>RELEASE NOTES</b></a> | <a href="https://github.com/axelboc/anki-ultimate-geography/blob/master/CONTRIBUTING.md"><b>CONTRIBUTING</b></a>
+
+  <b>Ultimate Geography v4.0</b> features:
+
+  - the world's <a href="https://en.wikipedia.org/wiki/List_of_sovereign_states"><b>206 sovereign states</b></a> (824 cards)
+  - <b>52 territories, world regions, and other entities</b> (98 cards)
+  - <b>39 oceans and seas</b> (39 cards, maps only)
+  - <b>7 continents</b> (7 cards, maps only)
+  - for a total of <b>304 unique notes</b>, <b>968 cards</b>, <b>222 flags</b> and <b>304 maps</b>.
+
+  The deck is available in <a href="https://github.com/axelboc/anki-ultimate-geography#other-languages-and-versions">five languages</a>: <b>English</b>, <b>German</b>, <b>Spanish</b>, <b>French</b> and <b>Norwegian</b>. An <a href="https://github.com/axelboc/anki-ultimate-geography#other-languages-and-versions"><b>extended version</b></a> is also available in each language. To help with memorisation and provide context while learning, some notes include extra information such as similar flags, governance information, alternative country names, etc.
+
+  You can use Anki's <a href="https://github.com/axelboc/anki-ultimate-geography#custom-study">filtered deck feature</a> to focus your study on a subset of the deck, such as sovereign states, a single note template (e.g. map to country), or a specific continent (e.g. Europe).
+
+  This deck is <a href="https://github.com/axelboc/anki-ultimate-geography"><b>maintained on GitHub</b></a>. If you spot a mistake, have a suggestion or want to help, please don't hesitate to <a href="https://github.com/axelboc/anki-ultimate-geography/issues">open an issue</a>. Want to <b>stay informed of new releases</b>? Watch the GitHub repository or subscribe to the <a href="https://github.com/axelboc/anki-ultimate-geography/releases.atom">releases feed</a>!
+
 dyn: 0
 extendNew: 10
 extendRev: 50

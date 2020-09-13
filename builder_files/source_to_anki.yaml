@@ -1,0 +1,165 @@
+- generate deck parts:
+  - from deck parts:
+      note_models:
+        - name: Ultimate Geography
+          file: src/deck_parts/note_models/Ultimate Geography.yaml
+      headers:
+        - name: default header
+          file: src/deck_parts/headers/default.yaml
+
+  - from csv:
+      notes:
+        name: english
+        save_to_file: src/deck_parts/notes/english.yaml
+
+        note_model_mappings:
+          - note_models: &note_models_in_mapping
+              - Ultimate Geography
+            columns_to_fields:
+              <<: &default_columns_to_fields
+                guid: guid
+                tags: tags
+
+                Flag: Flag
+                Map: Map
+
+              Country          : Country
+              Country info     : Country info
+              Capital          : Capital
+              Capital info     : Capital info
+              Capital hint     : Capital hint
+              Flag similarity  : Flag similarity
+
+            personal_fields: [ ]
+
+        file_mappings: &file_mappings
+          - file: src/data/split/main.csv
+            note_model: Ultimate Geography
+            derivatives:
+              - file: src/data/split/country.csv
+              - file: src/data/split/country_info.csv
+              - file: src/data/split/capital.csv
+              - file: src/data/split/capital_info.csv
+              - file: src/data/split/capital_hint.csv
+              - file: src/data/split/flag_similarity.csv
+
+  - from csv:
+      notes:
+        name: german
+        #save_to_file:
+
+        note_model_mappings:
+          - note_models: *note_models_in_mapping
+            columns_to_fields:
+              <<: *default_columns_to_fields
+
+              Country:de          : Country
+              Country info:de     : Country info
+              Capital:de          : Capital
+              Capital info:de     : Capital info
+              Capital hint:de     : Capital hint
+              Flag similarity:de  : Flag similarity
+
+            personal_fields: [ ]
+
+        file_mappings: *file_mappings
+  - from csv:
+      notes:
+        name: spanish
+        #save_to_file:
+
+        note_model_mappings:
+          - note_models: *note_models_in_mapping
+            columns_to_fields:
+              <<: *default_columns_to_fields
+
+              Country:es          : Country
+              Country info:es     : Country info
+              Capital:es          : Capital
+              Capital info:es     : Capital info
+              Capital hint:es     : Capital hint
+              Flag similarity:es  : Flag similarity
+
+            personal_fields: [ ]
+
+        file_mappings: *file_mappings
+  - from csv:
+      notes:
+        name: french
+        #save_to_file:
+
+        note_model_mappings:
+          - note_models: *note_models_in_mapping
+            columns_to_fields:
+              <<: *default_columns_to_fields
+
+              Country:fr          : Country
+              Country info:fr     : Country info
+              Capital:fr          : Capital
+              Capital info:fr     : Capital info
+              Capital hint:fr     : Capital hint
+              Flag similarity:fr  : Flag similarity
+
+            personal_fields: [ ]
+
+        file_mappings: *file_mappings
+  - from csv:
+      notes:
+        name: norwegian
+        #save_to_file:
+
+        note_model_mappings:
+          - note_models: *note_models_in_mapping
+            columns_to_fields:
+              <<: *default_columns_to_fields
+
+              Country:nb          : Country
+              Country info:nb     : Country info
+              Capital:nb          : Capital
+              Capital info:nb     : Capital info
+              Capital hint:nb     : Capital hint
+              Flag similarity:nb  : Flag similarity
+
+            personal_fields: [ ]
+
+        file_mappings: *file_mappings
+
+
+
+
+
+
+
+- generate crowd anki:
+    <<: &default_crowd_anki_gen
+      headers: default header
+      note_models:
+        deck_parts:
+          - deck_part: Ultimate Geography
+      media:
+        from_notes: true
+        from_note_models: true
+
+    folder: brain_brew_build/Ultimate Geography
+    notes:
+      deck_part: english
+- generate crowd anki:
+    <<: *default_crowd_anki_gen
+    folder: brain_brew_build/Ultimate Geography_de
+    notes:
+      deck_part: german
+- generate crowd anki:
+    <<: *default_crowd_anki_gen
+    folder: brain_brew_build/Ultimate Geography_es
+    notes:
+      deck_part: spanish
+- generate crowd anki:
+    <<: *default_crowd_anki_gen
+    folder: brain_brew_build/Ultimate Geography_fr
+    notes:
+      deck_part: french
+- generate crowd anki:
+    <<: *default_crowd_anki_gen
+    folder: brain_brew_build/Ultimate Geography_nb
+    notes:
+      deck_part: norwegian
