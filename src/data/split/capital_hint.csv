@@ -1,5 +1,5 @@
-country,capital hint, hint:de,capital hint:es,capital hint:fr,capital hint:nb
-Belgium,Sovereign country,,Es un país soberano,Nation souveraine,
-England,Not a sovereign country,,No es un país soberano,Pas une nation souveraine,Ikke selvstendig land
-European Union,Not a sovereign country,,No es un país soberano,Pas une nation souveraine,
-United Kingdom,Sovereign country,,Es un país soberano,Nation souveraine,Selvstendig land
+country,capital hint,capital hint:de,capital hint:es,capital hint:fr,capital hint:nb
+Belgium,Sovereign country,Souveräner Staat,Es un país soberano,Nation souveraine,
+England,Not a sovereign country,Kein souveräner Staat,No es un país soberano,Pas une nation souveraine,Ikke selvstendig land
+European Union,Not a sovereign country,Kein souveräner Staat,No es un país soberano,Pas une nation souveraine,
+United Kingdom,Sovereign country,Souveräner Staat,Es un país soberano,Nation souveraine,Selvstendig land
