@@ -1,15 +1,15 @@
-- generate deck parts:
-  - from deck parts:
+- build_deck_parts:
+  - from_deck_parts:
       note_models:
-        - name: Ultimate Geography
+        - part_id: Ultimate Geography
           file: src/deck_parts/note_models/Ultimate Geography.yaml
       headers:
-        - name: default header
+        - part_id: default header
           file: src/deck_parts/headers/default.yaml
 
-  - from csv:
+  - from_csvs:
       notes:
-        name: english
+        part_id: english
         save_to_file: src/deck_parts/notes/english.yaml
 
         note_model_mappings:
@@ -43,9 +43,9 @@
               - file: src/data/split/capital_hint.csv
               - file: src/data/split/flag_similarity.csv
 
-  - from csv:
+  - from_csvs:
       notes:
-        name: german
+        part_id: german
         #save_to_file:
 
         note_model_mappings:
@@ -63,9 +63,9 @@
             personal_fields: [ ]
 
         file_mappings: *file_mappings
-  - from csv:
+  - from_csvs:
       notes:
-        name: spanish
+        part_id: spanish
         #save_to_file:
 
         note_model_mappings:
@@ -83,9 +83,9 @@
             personal_fields: [ ]
 
         file_mappings: *file_mappings
-  - from csv:
+  - from_csvs:
       notes:
-        name: french
+        part_id: french
         #save_to_file:
 
         note_model_mappings:
@@ -103,9 +103,9 @@
             personal_fields: [ ]
 
         file_mappings: *file_mappings
-  - from csv:
+  - from_csvs:
       notes:
-        name: norwegian
+        part_id: norwegian
         #save_to_file:
 
         note_model_mappings:
@@ -130,7 +130,7 @@
 
 
 
-- generate crowd anki:
+- generate_crowd_anki:
     <<: &default_crowd_anki_gen
       headers: default header
       note_models:
@@ -143,22 +143,22 @@
     folder: brain_brew_build/Ultimate Geography
     notes:
       deck_part: english
-- generate crowd anki:
+- generate_crowd_anki:
     <<: *default_crowd_anki_gen
     folder: brain_brew_build/Ultimate Geography_de
     notes:
       deck_part: german
-- generate crowd anki:
+- generate_crowd_anki:
     <<: *default_crowd_anki_gen
     folder: brain_brew_build/Ultimate Geography_es
     notes:
       deck_part: spanish
-- generate crowd anki:
+- generate_crowd_anki:
     <<: *default_crowd_anki_gen
     folder: brain_brew_build/Ultimate Geography_fr
     notes:
       deck_part: french
-- generate crowd anki:
+- generate_crowd_anki:
     <<: *default_crowd_anki_gen
     folder: brain_brew_build/Ultimate Geography_nb
     notes:

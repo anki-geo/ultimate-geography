@@ -1,13 +1,13 @@
-- generate deck parts:
-  - from deck parts:
+- build_deck_parts:
+  - from_deck_parts:
       note_models:
-        - name: Ultimate Geography
+        - part_id: Ultimate Geography
           file: src/deck_parts/note_models/Ultimate Geography.yaml
-        - name: Ultimate Geography Combined Fields
+        - part_id: Ultimate Geography Combined Fields
           file: src/deck_parts/note_models/Ultimate Geography Combined Fields.yaml
-  - from csv:
+  - from_csvs:
       notes:
-        name: all_fields
+        part_id: all_fields
         #save_to_file:
 
         note_model_mappings: &nmm
@@ -63,7 +63,7 @@
           - file: src/data/combined_data.csv
             note_model: Ultimate Geography Combined Fields
 
-- generate csvs:
+- generate_csvs:
     notes: all_fields
 
     note_model_mappings: *nmm

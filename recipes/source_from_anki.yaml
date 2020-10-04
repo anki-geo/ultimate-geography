@@ -1,21 +1,21 @@
-- generate deck parts:
-  - from crowd anki:
+- build_deck_parts:
+  - from_crowd_anki:
       folder: brain_brew_build/Ultimate Geography/
       notes:
-        name: standard notes
+        part_id: standard notes
         sort_order: [Country]
         save_to_file: src/deck_parts/notes/english.yaml
       note_models:
-        - name: Ultimate Geography
+        - part_id: Ultimate Geography
           save_to_file: src/deck_parts/note_models/Ultimate Geography.yaml
       headers:
-        name: default
+        part_id: default
         save_to_file: src/deck_parts/headers/default.yaml
       media:
         from_notes: true
         from_note_models: true
 
-- generate csvs:
+- generate_csvs:
    notes: standard notes
 
    note_model_mappings:
