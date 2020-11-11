@@ -117,7 +117,7 @@ A physical entity can only be included partially, with only a map.
 #### Continents
 
 - Source: https://en.wikipedia.org/wiki/Continent#Number
-- Specifically the seven-continent model.
+- Specifically the seven-continent model but with the continent of _Australia_ replaced with the world region of _Oceania_, as discussed in [#345][ref345].
 
 #### Water bodies
 
@@ -299,4 +299,5 @@ Content changes, such as adding a note, replacing an image, or translating the d
 [ref247]: https://github.com/axelboc/anki-ultimate-geography/pull/247
 [ref306]: https://github.com/axelboc/anki-ultimate-geography/pull/306
 [ref312]: https://github.com/axelboc/anki-ultimate-geography/pull/312
+[ref345]: https://github.com/axelboc/anki-ultimate-geography/pull/345
 [ref361]: https://github.com/axelboc/anki-ultimate-geography/pull/361
