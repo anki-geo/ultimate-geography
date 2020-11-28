@@ -1,128 +1,125 @@
-- build_deck_parts:
-  - from_deck_parts:
-      note_models:
-        - part_id: Ultimate Geography
-          file: src/deck_parts/note_models/Ultimate Geography.yaml
-      headers:
-        - part_id: default header
-          file: src/deck_parts/headers/default.yaml
+- build_parts:
+  - note_models_from_yaml_part:
+      - part_id: Ultimate Geography
+        file: src/deck_parts/note_models/Ultimate Geography.yaml
+  - headers_from_yaml_part:
+      - part_id: default header
+        file: src/deck_parts/headers/default.yaml
+  - media_group_from_folder:
+      - part_id: all_media
+        source: src/deck_parts/media
+        recursive: true
+  - notes_from_csvs:
+      part_id: english
+      save_to_file: src/deck_parts/notes/english.yaml
 
-  - from_csvs:
-      notes:
-        part_id: english
-        save_to_file: src/deck_parts/notes/english.yaml
+      note_model_mappings:
+        - note_models: &note_models_in_mapping
+            - Ultimate Geography
+          columns_to_fields:
+            <<: &default_columns_to_fields
+              guid: guid
+              tags: tags
 
-        note_model_mappings:
-          - note_models: &note_models_in_mapping
-              - Ultimate Geography
-            columns_to_fields:
-              <<: &default_columns_to_fields
-                guid: guid
-                tags: tags
+              Flag: Flag
+              Map: Map
 
-                Flag: Flag
-                Map: Map
+            Country          : Country
+            Country info     : Country info
+            Capital          : Capital
+            Capital info     : Capital info
+            Capital hint     : Capital hint
+            Flag similarity  : Flag similarity
 
-              Country          : Country
-              Country info     : Country info
-              Capital          : Capital
-              Capital info     : Capital info
-              Capital hint     : Capital hint
-              Flag similarity  : Flag similarity
+          personal_fields: [ ]
 
-            personal_fields: [ ]
+      file_mappings: &file_mappings
+        - file: src/data/split/main.csv
+          note_model: Ultimate Geography
+          derivatives:
+            - file: src/data/split/country.csv
+            - file: src/data/split/country_info.csv
+            - file: src/data/split/capital.csv
+            - file: src/data/split/capital_info.csv
+            - file: src/data/split/capital_hint.csv
+            - file: src/data/split/flag_similarity.csv
 
-        file_mappings: &file_mappings
-          - file: src/data/split/main.csv
-            note_model: Ultimate Geography
-            derivatives:
-              - file: src/data/split/country.csv
-              - file: src/data/split/country_info.csv
-              - file: src/data/split/capital.csv
-              - file: src/data/split/capital_info.csv
-              - file: src/data/split/capital_hint.csv
-              - file: src/data/split/flag_similarity.csv
+  - notes_from_csvs:
+      part_id: german
+      #save_to_file:
 
-  - from_csvs:
-      notes:
-        part_id: german
-        #save_to_file:
+      note_model_mappings:
+        - note_models: *note_models_in_mapping
+          columns_to_fields:
+            <<: *default_columns_to_fields
 
-        note_model_mappings:
-          - note_models: *note_models_in_mapping
-            columns_to_fields:
-              <<: *default_columns_to_fields
+            Country:de          : Country
+            Country info:de     : Country info
+            Capital:de          : Capital
+            Capital info:de     : Capital info
+            Capital hint:de     : Capital hint
+            Flag similarity:de  : Flag similarity
 
-              Country:de          : Country
-              Country info:de     : Country info
-              Capital:de          : Capital
-              Capital info:de     : Capital info
-              Capital hint:de     : Capital hint
-              Flag similarity:de  : Flag similarity
+          personal_fields: [ ]
 
-            personal_fields: [ ]
+      file_mappings: *file_mappings
+  - notes_from_csvs:
+      part_id: spanish
+      #save_to_file:
 
-        file_mappings: *file_mappings
-  - from_csvs:
-      notes:
-        part_id: spanish
-        #save_to_file:
+      note_model_mappings:
+        - note_models: *note_models_in_mapping
+          columns_to_fields:
+            <<: *default_columns_to_fields
 
-        note_model_mappings:
-          - note_models: *note_models_in_mapping
-            columns_to_fields:
-              <<: *default_columns_to_fields
+            Country:es          : Country
+            Country info:es     : Country info
+            Capital:es          : Capital
+            Capital info:es     : Capital info
+            Capital hint:es     : Capital hint
+            Flag similarity:es  : Flag similarity
 
-              Country:es          : Country
-              Country info:es     : Country info
-              Capital:es          : Capital
-              Capital info:es     : Capital info
-              Capital hint:es     : Capital hint
-              Flag similarity:es  : Flag similarity
+          personal_fields: [ ]
 
-            personal_fields: [ ]
+      file_mappings: *file_mappings
+  - notes_from_csvs:
+      part_id: french
+      #save_to_file:
 
-        file_mappings: *file_mappings
-  - from_csvs:
-      notes:
-        part_id: french
-        #save_to_file:
+      note_model_mappings:
+        - note_models: *note_models_in_mapping
+          columns_to_fields:
+            <<: *default_columns_to_fields
 
-        note_model_mappings:
-          - note_models: *note_models_in_mapping
-            columns_to_fields:
-              <<: *default_columns_to_fields
+            Country:fr          : Country
+            Country info:fr     : Country info
+            Capital:fr          : Capital
+            Capital info:fr     : Capital info
+            Capital hint:fr     : Capital hint
+            Flag similarity:fr  : Flag similarity
 
-              Country:fr          : Country
-              Country info:fr     : Country info
-              Capital:fr          : Capital
-              Capital info:fr     : Capital info
-              Capital hint:fr     : Capital hint
-              Flag similarity:fr  : Flag similarity
+          personal_fields: [ ]
 
-            personal_fields: [ ]
+      file_mappings: *file_mappings
+  - notes_from_csvs:
+      part_id: norwegian
+      #save_to_file:
 
-        file_mappings: *file_mappings
-  - from_csvs:
-      notes:
-        part_id: norwegian
-        #save_to_file:
+      note_model_mappings:
+        - note_models: *note_models_in_mapping
+          columns_to_fields:
+            <<: *default_columns_to_fields
 
-        note_model_mappings:
-          - note_models: *note_models_in_mapping
-            columns_to_fields:
-              <<: *default_columns_to_fields
+            Country:nb          : Country
+            Country info:nb     : Country info
+            Capital:nb          : Capital
+            Capital info:nb     : Capital info
+            Capital hint:nb     : Capital hint
+            Flag similarity:nb  : Flag similarity
 
-              Country:nb          : Country
-              Country info:nb     : Country info
-              Capital:nb          : Capital
-              Capital info:nb     : Capital info
-              Capital hint:nb     : Capital hint
-              Flag similarity:nb  : Flag similarity
+          personal_fields: [ ]
 
-            personal_fields: [ ]
-
-        file_mappings: *file_mappings
+      file_mappings: *file_mappings
 
 
 
@@ -134,32 +131,31 @@
     <<: &default_crowd_anki_gen
       headers: default header
       note_models:
-        deck_parts:
-          - deck_part: Ultimate Geography
+        parts:
+          - part_id: Ultimate Geography
       media:
-        from_notes: true
-        from_note_models: true
+        parts: [all_media]
 
     folder: brain_brew_build/Ultimate Geography
     notes:
-      deck_part: english
+      part_id: english
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
     folder: brain_brew_build/Ultimate Geography_de
     notes:
-      deck_part: german
+      part_id: german
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
     folder: brain_brew_build/Ultimate Geography_es
     notes:
-      deck_part: spanish
+      part_id: spanish
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
     folder: brain_brew_build/Ultimate Geography_fr
     notes:
-      deck_part: french
+      part_id: french
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
     folder: brain_brew_build/Ultimate Geography_nb
     notes:
-      deck_part: norwegian
+      part_id: norwegian

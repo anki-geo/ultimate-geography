@@ -1,4 +1,3 @@
 
-media_files_location: src/deck_parts/media/
 sort_case_insensitive: true
 join_values_with: ", "
