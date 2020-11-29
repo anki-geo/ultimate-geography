@@ -5,3 +5,4 @@ vendor/
 Thumbs.db
 ~$*
 /brain_brew_build/
+.idea

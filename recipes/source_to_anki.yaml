@@ -1,7 +1,59 @@
 - build_parts:
-  - note_models_from_yaml_part:
-      - part_id: Ultimate Geography
-        file: src/deck_parts/note_models/Ultimate Geography.yaml
+  - note_model_templates_from_html:
+      - part_id: Country - Capital
+        html_file: src/deck_parts/note_models/templates/Country - Capital.html
+      - part_id: Country - Capital
+        html_file: src/deck_parts/note_models/templates/Country - Capital.html
+      - part_id: Country - Flag
+        html_file: src/deck_parts/note_models/templates/Country - Flag.html
+      - part_id: Country - Map
+        html_file: src/deck_parts/note_models/templates/Country - Map.html
+      - part_id: Flag - Country
+        html_file: src/deck_parts/note_models/templates/Flag - Country.html
+      - part_id: Map - Country
+        html_file: src/deck_parts/note_models/templates/Map - Country.html
+  - note_model_from_html_parts:
+      part_id: normal_model
+      model_name: Ultimate Geography
+      model_id: 43e2586a-9a65-11e8-a777-a0481cc15658
+      css_file: src/deck_parts/note_models/style.css
+      fields: &all_fields
+        - name: Country
+          font: Arial
+        - name: Country info
+          font: Arial
+        - name: Capital
+          font: Arial
+        - name: Capital info
+          font: Arial
+        - name: Capital hint
+          font: Arial
+        - name: Flag
+          font: Arial
+        - name: Flag similarity
+          font: Arial
+        - name: Map
+          font: Arial
+      templates:
+        - Country - Capital
+        - Country - Capital
+        - Country - Flag
+        - Country - Map
+  - note_model_from_html_parts:
+      part_id: extended_model
+      model_name: Ultimate Geography [Extended]
+      model_id: 0a39f994-daaf-11e8-b984-a0481cc15658
+      css_file: src/deck_parts/note_models/style.css
+      fields: *all_fields
+      templates:
+        - Country - Capital
+        - Country - Capital
+        - Country - Flag
+        - Country - Map
+        - Flag - Country
+        - Map - Country
+
+
   - headers_from_yaml_part:
       - part_id: default header
         file: src/deck_parts/headers/default.yaml
@@ -9,13 +61,15 @@
       - part_id: all_media
         source: src/deck_parts/media
         recursive: true
+
+
   - notes_from_csvs:
       part_id: english
       save_to_file: src/deck_parts/notes/english.yaml
 
       note_model_mappings:
         - note_models: &note_models_in_mapping
-            - Ultimate Geography
+            - normal_model
           columns_to_fields:
             <<: &default_columns_to_fields
               guid: guid
@@ -35,7 +89,7 @@
 
       file_mappings: &file_mappings
         - file: src/data/split/main.csv
-          note_model: Ultimate Geography
+          note_model: normal_model
           derivatives:
             - file: src/data/split/country.csv
             - file: src/data/split/country_info.csv
@@ -130,11 +184,11 @@
 - generate_crowd_anki:
     <<: &default_crowd_anki_gen
       headers: default header
-      note_models:
-        parts:
-          - part_id: Ultimate Geography
       media:
         parts: [all_media]
+      note_models:
+        parts:
+          - part_id: normal_model
 
     folder: brain_brew_build/Ultimate Geography
     notes:
@@ -157,5 +211,39 @@
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
     folder: brain_brew_build/Ultimate Geography_nb
+    notes:
+      part_id: norwegian
+
+
+- generate_crowd_anki:
+    <<: &extended_deck
+      headers: default header
+      media:
+        parts: [ all_media ]
+      note_models:
+        parts:
+          - part_id: normal_model # TODO: Fix. Cannot set this to the extended model as the Notes are of type Normal_Model
+
+    folder: brain_brew_build/Ultimate Geography [Extended]
+    notes:
+      part_id: english
+- generate_crowd_anki:
+    <<: *extended_deck
+    folder: brain_brew_build/Ultimate Geography_de [Extended]
+    notes:
+      part_id: german
+- generate_crowd_anki:
+    <<: *extended_deck
+    folder: brain_brew_build/Ultimate Geography_es [Extended]
+    notes:
+      part_id: spanish
+- generate_crowd_anki:
+    <<: *extended_deck
+    folder: brain_brew_build/Ultimate Geography_fr [Extended]
+    notes:
+      part_id: french
+- generate_crowd_anki:
+    <<: *extended_deck
+    folder: brain_brew_build/Ultimate Geography_nb [Extended]
     notes:
       part_id: norwegian

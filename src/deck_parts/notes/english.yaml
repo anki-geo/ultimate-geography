@@ -10,7 +10,7 @@ note_groupings:
     - ''
     - <img src="ug-map-england.png" />
     guid: e+/O]%*qfk
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -23,7 +23,7 @@ note_groupings:
     - ''
     - <img src="ug-map-scotland.png" />
     guid: h~5xz+=ke~
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -36,7 +36,7 @@ note_groupings:
     - ''
     - <img src="ug-map-united_kingdom.png" />
     guid: s9-GL*@AXD
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -51,7 +51,7 @@ note_groupings:
     - ''
     - <img src="ug-map-northern_ireland.png" />
     guid: cPO|Cru8n<
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -64,7 +64,7 @@ note_groupings:
     - ''
     - <img src="ug-map-france.png" />
     guid: m*#%sE.`.;
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -80,7 +80,7 @@ note_groupings:
     - ''
     - <img src="ug-map-wales.png" />
     guid: hNE9}>;Q&-
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -93,7 +93,7 @@ note_groupings:
     - ''
     - <img src="ug-map-georgia.png" />
     guid: jN|NAUP*h}
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -107,7 +107,7 @@ note_groupings:
     - ''
     - <img src="ug-map-germany.png" />
     guid: j|z@PMgdx,
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -122,7 +122,7 @@ note_groupings:
     - ''
     - <img src="ug-map-greece.png" />
     guid: n+t>2`:;P/
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -138,7 +138,7 @@ note_groupings:
     - ''
     - <img src="ug-map-greenland.png" />
     guid: ilGtw#=asM
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::North_America
   - fields:
@@ -151,7 +151,7 @@ note_groupings:
     - ''
     - <img src="ug-map-hungary.png" />
     guid: mcc&0Kq^xE
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -166,7 +166,7 @@ note_groupings:
     - ''
     - <img src="ug-map-albania.png" />
     guid: gz9${p}er*
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Mediterranean
@@ -181,7 +181,7 @@ note_groupings:
     - Moldova (wider, coat of arms with eagle)
     - <img src="ug-map-andorra.png" />
     guid: dY96`C-f(_
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -195,7 +195,7 @@ note_groupings:
     - Latvia (darker red, narrower white band)
     - <img src="ug-map-austria.png" />
     guid: r>aI-$$|wT
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -210,7 +210,7 @@ note_groupings:
     - ''
     - <img src="ug-map-azerbaijan.png" />
     guid: k9E.p^<u$,
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -224,7 +224,7 @@ note_groupings:
     - ''
     - <img src="ug-map-belarus.png" />
     guid: l$zM~ihPFE
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -238,7 +238,7 @@ note_groupings:
     - ''
     - <img src="ug-map-belgium.png" />
     guid: jTNoKo}Bu+
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -253,7 +253,7 @@ note_groupings:
     - ''
     - <img src="ug-map-bosnia_and_herzegovina.png" />
     guid: mz[>>AxIr4
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Mediterranean
@@ -268,7 +268,7 @@ note_groupings:
     - ''
     - <img src="ug-map-bulgaria.png" />
     guid: u4^lH.xem5
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -283,7 +283,7 @@ note_groupings:
     - ''
     - <img src="ug-map-croatia.png" />
     guid: bk2ByZIeU+
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -299,7 +299,7 @@ note_groupings:
     - ''
     - <img src="ug-map-czech_republic.png" />
     guid: twrhzJ[k:Z
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -314,7 +314,7 @@ note_groupings:
     - ''
     - <img src="ug-map-denmark.png" />
     guid: kS)hDm%w}R
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -329,7 +329,7 @@ note_groupings:
     - ''
     - <img src="ug-map-estonia.png" />
     guid: AES],s:8=
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -345,7 +345,7 @@ note_groupings:
       and white cross)
     - <img src="ug-map-faroe_islands.png" />
     guid: k[)#L4.[v3
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -358,7 +358,7 @@ note_groupings:
     - ''
     - <img src="ug-map-finland.png" />
     guid: k}A9]O:0xw
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -374,7 +374,7 @@ note_groupings:
       blue cross)
     - <img src="ug-map-iceland.png" />
     guid: j7eEZkzsCZ
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -388,7 +388,7 @@ note_groupings:
     - Ivory Coast (green and orange flipped, narrower)
     - <img src="ug-map-ireland.png" />
     guid: s<_WLSB3I/
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -403,7 +403,7 @@ note_groupings:
     - ''
     - <img src="ug-map-italy.png" />
     guid: cYKvF#ptF7
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -419,7 +419,7 @@ note_groupings:
     - Austria (brighter red, wider white band)
     - <img src="ug-map-latvia.png" />
     guid: m)WUtJS`H&
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -434,7 +434,7 @@ note_groupings:
     - ''
     - <img src="ug-map-liechtenstein.png" />
     guid: l$2O|9w`F~
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -448,7 +448,7 @@ note_groupings:
     - ''
     - <img src="ug-map-lithuania.png" />
     guid: kZ52zV#[Iv
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -463,7 +463,7 @@ note_groupings:
     - Netherlands (darker blue)
     - <img src="ug-map-luxembourg.png" />
     guid: i2]v|D3@:j
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -478,7 +478,7 @@ note_groupings:
     - ''
     - <img src="ug-map-north_macedonia.png" />
     guid: r5C646H*+*
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -492,7 +492,7 @@ note_groupings:
     - ''
     - <img src="ug-map-malta.png" />
     guid: nIfRn<aY:N
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -508,7 +508,7 @@ note_groupings:
     - Andorra (narrower, coat of arms with motto)
     - <img src="ug-map-moldova.png" />
     guid: 5S(f7%O-$
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -522,7 +522,7 @@ note_groupings:
     - Indonesia (wider, brighter red), Poland (red and white flipped, wider)
     - <img src="ug-map-monaco.png" />
     guid: m?}%V6s8]*
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Mediterranean
@@ -537,7 +537,7 @@ note_groupings:
     - ''
     - <img src="ug-map-montenegro.png" />
     guid: uRo^w#p5Be
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Mediterranean
@@ -553,7 +553,7 @@ note_groupings:
     - Luxembourg (lighter blue)
     - <img src="ug-map-netherlands.png" />
     guid: o=,%hU&yX%
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -569,7 +569,7 @@ note_groupings:
       blue cross)
     - <img src="ug-map-norway.png" />
     guid: lq`T^ZBF2Y
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -584,7 +584,7 @@ note_groupings:
       narrower)
     - <img src="ug-map-poland.png" />
     guid: f>c7x2E]Q6
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -599,7 +599,7 @@ note_groupings:
     - ''
     - <img src="ug-map-portugal.png" />
     guid: q[S4`,F0D=
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -614,7 +614,7 @@ note_groupings:
     - Chad (slightly darker blue)
     - <img src="ug-map-romania.png" />
     guid: 'jCd]`-=k,:'
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -629,7 +629,7 @@ note_groupings:
     - ''
     - <img src="ug-map-russia.png" />
     guid: vf)G?[_?Pf
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -643,7 +643,7 @@ note_groupings:
     - ''
     - <img src="ug-map-san_marino.png" />
     guid: j9:K,~DQ2v
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -657,7 +657,7 @@ note_groupings:
     - ''
     - <img src="ug-map-serbia.png" />
     guid: ui3>b-?a@m
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -671,7 +671,7 @@ note_groupings:
     - ''
     - <img src="ug-map-slovakia.png" />
     guid: qVi;t%/`F|
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -686,7 +686,7 @@ note_groupings:
     - ''
     - <img src="ug-map-slovenia.png" />
     guid: g-]bb&[.E!
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -702,7 +702,7 @@ note_groupings:
     - ''
     - <img src="ug-map-spain.png" />
     guid: f21=-A~W;~
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -718,7 +718,7 @@ note_groupings:
     - ''
     - <img src="ug-map-sweden.png" />
     guid: sT5=H|@KU|
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::European_Union
@@ -733,7 +733,7 @@ note_groupings:
     - ''
     - <img src="ug-map-switzerland.png" />
     guid: lU@C3<C8Wk
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -747,7 +747,7 @@ note_groupings:
     - ''
     - <img src="ug-map-turkey.png" />
     guid: jDA-V?/hVj
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Mediterranean
@@ -763,7 +763,7 @@ note_groupings:
     - ''
     - <img src="ug-map-ukraine.png" />
     guid: h_9=mkZXAH
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -777,7 +777,7 @@ note_groupings:
     - ''
     - <img src="ug-map-vatican_city.png" />
     guid: mk1VltJl<]
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -791,7 +791,7 @@ note_groupings:
     - ''
     - <img src="ug-map-armenia.png" />
     guid: c(,2{yXI#E
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -805,7 +805,7 @@ note_groupings:
     - ''
     - <img src="ug-map-cyprus.png" />
     guid: kkbYQXw5b;
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::European_Union
@@ -822,7 +822,7 @@ note_groupings:
     - ''
     - <img src="ug-map-kazakhstan.png" />
     guid: ia8as9sCY|
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -837,7 +837,7 @@ note_groupings:
       emblem)
     - <img src="ug-map-egypt.png" />
     guid: j%*8gN)q>d
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Mediterranean
@@ -853,7 +853,7 @@ note_groupings:
     - ''
     - <img src="ug-map-algeria.png" />
     guid: bd~Ght5tLR
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Mediterranean
@@ -868,7 +868,7 @@ note_groupings:
     - ''
     - <img src="ug-map-angola.png" />
     guid: onMKID2d;D
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -882,7 +882,7 @@ note_groupings:
     - ''
     - <img src="ug-map-benin.png" />
     guid: q8fF$4,c6_
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -897,7 +897,7 @@ note_groupings:
     - ''
     - <img src="ug-map-botswana.png" />
     guid: upiX0g1quR
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -911,7 +911,7 @@ note_groupings:
     - ''
     - <img src="ug-map-burkina_faso.png" />
     guid: n:7&>YT5A=
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -926,7 +926,7 @@ note_groupings:
     - Senegal (green/yellow/red, green star)
     - <img src="ug-map-cameroon.png" />
     guid: j2IQ=f=w3@
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -940,7 +940,7 @@ note_groupings:
     - ''
     - <img src="ug-map-burundi.png" />
     guid: EWXNc<g5)
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -955,7 +955,7 @@ note_groupings:
     - ''
     - <img src="ug-map-cape_verde.png" />
     guid: gFOojQO(MH
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -970,7 +970,7 @@ note_groupings:
     - ''
     - <img src="ug-map-sao_tome_and_principe.png" />
     guid: gePC:Xt_nW
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -984,7 +984,7 @@ note_groupings:
     - ''
     - <img src="ug-map-central_african_republic.png" />
     guid: vNiD6A.v#s
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -998,7 +998,7 @@ note_groupings:
     - Romania (slightly lighter blue)
     - <img src="ug-map-chad.png" />
     guid: ?n!)c/h=Q
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1012,7 +1012,7 @@ note_groupings:
     - ''
     - <img src="ug-map-equatorial_guinea.png" />
     guid: gYIoR`|AxW
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1026,7 +1026,7 @@ note_groupings:
     - ''
     - <img src="ug-map-kenya.png" />
     guid: j<egqG@)EL
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -1041,7 +1041,7 @@ note_groupings:
     - ''
     - <img src="ug-map-comoros.png" />
     guid: t`cagaWApo
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -1057,7 +1057,7 @@ note_groupings:
     - Ireland (orange and green flipped, wider)
     - <img src="ug-map-ivory_coast.png" />
     guid: jN^Vc%9OQ5
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1072,7 +1072,7 @@ note_groupings:
     - ''
     - <img src="ug-map-democratic_republic_of_the_congo.png" />
     guid: o3VS!KWb/@
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1086,7 +1086,7 @@ note_groupings:
     - ''
     - <img src="ug-map-djibouti.png" />
     guid: iR;U<J:CJJ
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -1101,7 +1101,7 @@ note_groupings:
     - ''
     - <img src="ug-map-guinea-bissau.png" />
     guid: i^J8&$(1]|
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1116,7 +1116,7 @@ note_groupings:
     - ''
     - <img src="ug-map-eritrea.png" />
     guid: pS>DrFhd%u
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -1131,7 +1131,7 @@ note_groupings:
     - ''
     - <img src="ug-map-ethiopia.png" />
     guid: t|h3|;E4g{
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -1146,7 +1146,7 @@ note_groupings:
     - ''
     - <img src="ug-map-gabon.png" />
     guid: p.yv>BQ470
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1160,7 +1160,7 @@ note_groupings:
     - ''
     - <img src="ug-map-the_gambia.png" />
     guid: f#4-L[mp5*
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1175,7 +1175,7 @@ note_groupings:
     - ''
     - <img src="ug-map-lesotho.png" />
     guid: oNpApS<AoJ
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1189,7 +1189,7 @@ note_groupings:
     - ''
     - <img src="ug-map-liberia.png" />
     guid: nsS59c`VL,
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1204,7 +1204,7 @@ note_groupings:
     - ''
     - <img src="ug-map-madagascar.png" />
     guid: m{noqE29%I
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -1219,7 +1219,7 @@ note_groupings:
     - ''
     - <img src="ug-map-malawi.png" />
     guid: sSW/?WMy17
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -1234,7 +1234,7 @@ note_groupings:
     - Guinea (green and red flipped, slightly darker green)
     - <img src="ug-map-mali.png" />
     guid: d-q4J~CNW_
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1249,7 +1249,7 @@ note_groupings:
     - ''
     - <img src="ug-map-mauritania.png" />
     guid: jKO,9y0M;#
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1264,7 +1264,7 @@ note_groupings:
     - ''
     - <img src="ug-map-mauritius.png" />
     guid: skOM(?n$GG
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -1279,7 +1279,7 @@ note_groupings:
     - ''
     - <img src="ug-map-morocco.png" />
     guid: mi+kf0LTW.
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Mediterranean
@@ -1294,7 +1294,7 @@ note_groupings:
     - ''
     - <img src="ug-map-mozambique.png" />
     guid: vgdj#X?8dB
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -1309,7 +1309,7 @@ note_groupings:
     - ''
     - <img src="ug-map-namibia.png" />
     guid: mkgcU7[bA%
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1323,7 +1323,7 @@ note_groupings:
     - ''
     - <img src="ug-map-niger.png" />
     guid: jcu!gLw/&r
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1338,7 +1338,7 @@ note_groupings:
     - ''
     - <img src="ug-map-nigeria.png" />
     guid: sB7rZQsR<l
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1353,7 +1353,7 @@ note_groupings:
     - ''
     - <img src="ug-map-republic_of_the_congo.png" />
     guid: u|I}oElaH)
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1367,7 +1367,7 @@ note_groupings:
     - ''
     - <img src="ug-map-rwanda.png" />
     guid: j)i)pB*HJ,
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -1382,7 +1382,7 @@ note_groupings:
     - Cameroon (green/red/yellow, yellow star)
     - <img src="ug-map-senegal.png" />
     guid: t-0>F]bu>P
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1397,7 +1397,7 @@ note_groupings:
     - ''
     - <img src="ug-map-seychelles.png" />
     guid: hrI_uiW>E]
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -1412,7 +1412,7 @@ note_groupings:
     - ''
     - <img src="ug-map-sierra_leone.png" />
     guid: uc61ToT%gt
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1429,7 +1429,7 @@ note_groupings:
     - ''
     - <img src="ug-map-south_africa.png" />
     guid: e.t$Vi5,>f
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1443,7 +1443,7 @@ note_groupings:
     - Palestine (red arrow, green stripe)
     - <img src="ug-map-sudan.png" />
     guid: k/u1:B%DJH
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1458,7 +1458,7 @@ note_groupings:
     - ''
     - <img src="ug-map-eswatini.png" />
     guid: e5P*D#I{m{
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1473,7 +1473,7 @@ note_groupings:
     - ''
     - <img src="ug-map-tanzania.png" />
     guid: p:SPZ:e/*[
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -1488,7 +1488,7 @@ note_groupings:
     - ''
     - <img src="ug-map-togo.png" />
     guid: t+v9b--,qs
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1503,7 +1503,7 @@ note_groupings:
     - ''
     - <img src="ug-map-tunisia.png" />
     guid: fV`&p81%d(
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Mediterranean
@@ -1518,7 +1518,7 @@ note_groupings:
     - ''
     - <img src="ug-map-uganda.png" />
     guid: gsS{jR,]|Q
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -1534,7 +1534,7 @@ note_groupings:
     - ''
     - <img src="ug-map-sahrawi_arab_democratic_republic.png" />
     guid: cAlyc~G.y%
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -1548,7 +1548,7 @@ note_groupings:
     - ''
     - <img src="ug-map-zambia.png" />
     guid: fxAN),FAc$
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -1563,7 +1563,7 @@ note_groupings:
     - ''
     - <img src="ug-map-zimbabwe.png" />
     guid: r<N4LAAnnB
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -1578,7 +1578,7 @@ note_groupings:
     - ''
     - <img src="ug-map-canary_islands.png" />
     guid: e?Xq9gy=@[
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
   - fields:
@@ -1591,7 +1591,7 @@ note_groupings:
     - ''
     - <img src="ug-map-afghanistan.png" />
     guid: m5j,b/y<EE
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -1605,7 +1605,7 @@ note_groupings:
     - Qatar (wider, more serrated edges, maroon)
     - <img src="ug-map-bahrain.png" />
     guid: stRa/S(0$F
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Middle_East
@@ -1620,7 +1620,7 @@ note_groupings:
     - ''
     - <img src="ug-map-bangladesh.png" />
     guid: l+>Ki!j#v+
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -1634,7 +1634,7 @@ note_groupings:
     - ''
     - <img src="ug-map-bhutan.png" />
     guid: kQ:NIhJy~E
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -1648,7 +1648,7 @@ note_groupings:
     - ''
     - <img src="ug-map-brunei.png" />
     guid: sY>@9w~i^p
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Southeast_Asia
@@ -1663,7 +1663,7 @@ note_groupings:
     - ''
     - <img src="ug-map-china.png" />
     guid: mJH4kwPF.-
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -1677,7 +1677,7 @@ note_groupings:
     - ''
     - <img src="ug-map-cambodia.png" />
     guid: bW)ch:vs1P
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Southeast_Asia
@@ -1692,7 +1692,7 @@ note_groupings:
     - Monaco (narrower, darker red), Poland (red and white flipped, darker red)
     - <img src="ug-map-indonesia.png" />
     guid: sx|l+io`B@
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Southeast_Asia
@@ -1707,7 +1707,7 @@ note_groupings:
     - ''
     - <img src="ug-map-india.png" />
     guid: q2#Yv[O0:|
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -1721,7 +1721,7 @@ note_groupings:
     - ''
     - <img src="ug-map-hong_kong.png" />
     guid: lpbD0St&OU
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
   - fields:
@@ -1734,7 +1734,7 @@ note_groupings:
     - ''
     - <img src="ug-map-iran.png" />
     guid: mbz=7n[0v9
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Middle_East
@@ -1749,7 +1749,7 @@ note_groupings:
     - ''
     - <img src="ug-map-israel.png" />
     guid: ijP>aJBT!9
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Mediterranean
@@ -1766,7 +1766,7 @@ note_groupings:
       text)
     - <img src="ug-map-iraq.png" />
     guid: jI9P-f6r3M
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Middle_East
@@ -1781,7 +1781,7 @@ note_groupings:
     - ''
     - <img src="ug-map-south_korea.png" />
     guid: h?a*UKfT_M
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -1795,7 +1795,7 @@ note_groupings:
     - ''
     - <img src="ug-map-north_korea.png" />
     guid: r6BV%|..*5
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -1809,7 +1809,7 @@ note_groupings:
     - ''
     - <img src="ug-map-jordan.png" />
     guid: i)]+09JUR&
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Middle_East
@@ -1824,7 +1824,7 @@ note_groupings:
     - ''
     - <img src="ug-map-japan.png" />
     guid: l}[BG9.nQS
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -1838,7 +1838,7 @@ note_groupings:
     - ''
     - <img src="ug-map-lebanon.png" />
     guid: mtd;>7T|g>
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Mediterranean
@@ -1854,7 +1854,7 @@ note_groupings:
     - ''
     - <img src="ug-map-laos.png" />
     guid: iW>m(L/~c=
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Southeast_Asia
@@ -1869,7 +1869,7 @@ note_groupings:
     - ''
     - <img src="ug-map-kyrgyzstan.png" />
     guid: pkj3RPBUrF
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -1883,7 +1883,7 @@ note_groupings:
     - ''
     - <img src="ug-map-kuwait.png" />
     guid: euW0jm=wfR
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Middle_East
@@ -1898,7 +1898,7 @@ note_groupings:
     - ''
     - <img src="ug-map-myanmar.png" />
     guid: l*j*EE:!Y?
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Southeast_Asia
@@ -1913,7 +1913,7 @@ note_groupings:
     - ''
     - <img src="ug-map-mongolia.png" />
     guid: d3c`&/1Y^D
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -1927,7 +1927,7 @@ note_groupings:
     - ''
     - <img src="ug-map-maldives.png" />
     guid: hXNTVF<:SH
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -1941,7 +1941,7 @@ note_groupings:
     - ''
     - <img src="ug-map-malaysia.png" />
     guid: mk20`,N=`=
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Southeast_Asia
@@ -1956,7 +1956,7 @@ note_groupings:
     - ''
     - <img src="ug-map-oman.png" />
     guid: eALZe^HCHq
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Middle_East
@@ -1971,7 +1971,7 @@ note_groupings:
     - ''
     - <img src="ug-map-nepal.png" />
     guid: l3Ly8PBxt(
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -1985,7 +1985,7 @@ note_groupings:
     - Sudan (green arrow, red stripe)
     - <img src="ug-map-palestine.png" />
     guid: g<[f89~U)A
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Mediterranean
@@ -2001,7 +2001,7 @@ note_groupings:
     - ''
     - <img src="ug-map-pakistan.png" />
     guid: iIS#Nw]tr]
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -2015,7 +2015,7 @@ note_groupings:
     - Bahrain (narrower, fewer serrated edges, red)
     - <img src="ug-map-qatar.png" />
     guid: m{oM,jr>C#
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Middle_East
@@ -2030,7 +2030,7 @@ note_groupings:
     - ''
     - <img src="ug-map-saudi_arabia.png" />
     guid: ln^3p)j3b.
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Middle_East
@@ -2045,7 +2045,7 @@ note_groupings:
     - ''
     - <img src="ug-map-singapore.png" />
     guid: cL?8!xP#Wj
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Southeast_Asia
@@ -2060,7 +2060,7 @@ note_groupings:
     - Egypt (emblem instead of stars), Iraq (text instead of stars), Yemen (no stars)
     - <img src="ug-map-syria.png" />
     guid: e=.VHQ9E+M
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Mediterranean
@@ -2076,7 +2076,7 @@ note_groupings:
     - ''
     - <img src="ug-map-taiwan.png" />
     guid: m[96fa+HDS
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -2091,7 +2091,7 @@ note_groupings:
     - ''
     - <img src="ug-map-sri_lanka.png" />
     guid: g9v~y/;=z(
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -2105,7 +2105,7 @@ note_groupings:
     - ''
     - <img src="ug-map-tajikistan.png" />
     guid: g~%pF`(x{u
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -2119,7 +2119,7 @@ note_groupings:
     - ''
     - <img src="ug-map-thailand.png" />
     guid: hE5j*e,Q?[
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Southeast_Asia
@@ -2134,7 +2134,7 @@ note_groupings:
     - ''
     - <img src="ug-map-east_timor.png" />
     guid: fRSM{K+;[w
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Southeast_Asia
@@ -2149,7 +2149,7 @@ note_groupings:
     - ''
     - <img src="ug-map-united_arab_emirates.png" />
     guid: o~}KVA:VbI
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Middle_East
@@ -2164,7 +2164,7 @@ note_groupings:
     - ''
     - <img src="ug-map-turkmenistan.png" />
     guid: u-`cspdp)D
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -2178,7 +2178,7 @@ note_groupings:
     - Egypt (with emblem), Iraq (with text), Syria (with two stars)
     - <img src="ug-map-yemen.png" />
     guid: e42BpV,P}C
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Middle_East
@@ -2193,7 +2193,7 @@ note_groupings:
     - ''
     - <img src="ug-map-vietnam.png" />
     guid: pD<Pd$Ag@J
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Southeast_Asia
@@ -2208,7 +2208,7 @@ note_groupings:
     - ''
     - <img src="ug-map-uzbekistan.png" />
     guid: mbGXc0y3Pe
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -2222,7 +2222,7 @@ note_groupings:
     - ''
     - <img src="ug-map-fiji.png" />
     guid: gB|K:+r?1V
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
     - UG::Sovereign_State
@@ -2236,7 +2236,7 @@ note_groupings:
     - ''
     - <img src="ug-map-papua_new_guinea.png" />
     guid: lhWI;$JC9(
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
     - UG::Sovereign_State
@@ -2250,7 +2250,7 @@ note_groupings:
     - New Zealand (red stars, two fewer stars)
     - <img src="ug-map-australia.png" />
     guid: k0{O[6l]bH
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
     - UG::Sovereign_State
@@ -2264,7 +2264,7 @@ note_groupings:
     - ''
     - <img src="ug-map-solomon_islands.png" />
     guid: r>g<|,FWi%
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
     - UG::Sovereign_State
@@ -2278,7 +2278,7 @@ note_groupings:
     - ''
     - <img src="ug-map-argentina.png" />
     guid: n&>e`2FO/S
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::South_America
     - UG::Sovereign_State
@@ -2292,7 +2292,7 @@ note_groupings:
     - Ghana (star instead of coat of arms)
     - <img src="ug-map-bolivia.png" />
     guid: khB~(m^@Z5
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::South_America
     - UG::Sovereign_State
@@ -2306,7 +2306,7 @@ note_groupings:
     - ''
     - <img src="ug-map-brazil.png" />
     guid: spKoFRM4if
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::South_America
     - UG::Sovereign_State
@@ -2320,7 +2320,7 @@ note_groupings:
     - ''
     - <img src="ug-map-chile.png" />
     guid: q8][)Ri}=q
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::South_America
     - UG::Sovereign_State
@@ -2334,7 +2334,7 @@ note_groupings:
     - Ecuador (with coat of arms)
     - <img src="ug-map-colombia.png" />
     guid: hoHandbYAy
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::South_America
     - UG::Sovereign_State
@@ -2348,7 +2348,7 @@ note_groupings:
     - Colombia (no coat of arms)
     - <img src="ug-map-ecuador.png" />
     guid: lmRujD!(A7
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::South_America
     - UG::Sovereign_State
@@ -2362,7 +2362,7 @@ note_groupings:
     - ''
     - <img src="ug-map-guyana.png" />
     guid: q:XyGf#>Wg
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::South_America
     - UG::Sovereign_State
@@ -2376,7 +2376,7 @@ note_groupings:
     - ''
     - <img src="ug-map-paraguay.png" />
     guid: s#:aIK$9^x
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::South_America
     - UG::Sovereign_State
@@ -2390,7 +2390,7 @@ note_groupings:
     - ''
     - <img src="ug-map-peru.png" />
     guid: jBd@A?>g|}
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::South_America
     - UG::Sovereign_State
@@ -2404,7 +2404,7 @@ note_groupings:
     - ''
     - <img src="ug-map-suriname.png" />
     guid: koI(}OyJ:@
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::South_America
     - UG::Sovereign_State
@@ -2418,7 +2418,7 @@ note_groupings:
     - ''
     - <img src="ug-map-uruguay.png" />
     guid: e?gIaPc$Ox
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::South_America
     - UG::Sovereign_State
@@ -2432,7 +2432,7 @@ note_groupings:
     - ''
     - <img src="ug-map-venezuela.png" />
     guid: o#&RMA_REo
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::South_America
     - UG::Sovereign_State
@@ -2446,7 +2446,7 @@ note_groupings:
     - ''
     - <img src="ug-map-cook_islands.png" />
     guid: s4E?ZF[E<>
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
     - UG::Sovereign_State
@@ -2460,7 +2460,7 @@ note_groupings:
     - ''
     - <img src="ug-map-federated_states_of_micronesia.png" />
     guid: k1]FH+s8j@
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
     - UG::Sovereign_State
@@ -2474,7 +2474,7 @@ note_groupings:
     - ''
     - <img src="ug-map-guam.png" />
     guid: dWA49p}F{k
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
   - fields:
@@ -2487,7 +2487,7 @@ note_groupings:
     - ''
     - <img src="ug-map-vanuatu.png" />
     guid: K*b}<I3(~
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
     - UG::Sovereign_State
@@ -2501,7 +2501,7 @@ note_groupings:
     - ''
     - <img src="ug-map-canada.png" />
     guid: e?h=Xhs+K&
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::North_America
     - UG::Sovereign_State
@@ -2515,7 +2515,7 @@ note_groupings:
     - ''
     - <img src="ug-map-united_states_of_america.png" />
     guid: b@M[XTc?}5
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::North_America
     - UG::Sovereign_State
@@ -2529,7 +2529,7 @@ note_groupings:
     - ''
     - <img src="ug-map-mexico.png" />
     guid: sxOMs+bE8@
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::North_America
     - UG::Sovereign_State
@@ -2543,7 +2543,7 @@ note_groupings:
     - Cuba (red triangle, blue stripes)
     - <img src="ug-map-puerto_rico.png" />
     guid: t3aZXtpNyi
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -2557,7 +2557,7 @@ note_groupings:
     - Puerto Rico (blue triangle, red stripes)
     - <img src="ug-map-cuba.png" />
     guid: rPekx@n9:L
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -2572,7 +2572,7 @@ note_groupings:
     - ''
     - <img src="ug-map-dominican_republic.png" />
     guid: lAxH.CfJB@
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -2587,7 +2587,7 @@ note_groupings:
     - ''
     - <img src="ug-map-haiti.png" />
     guid: hZ/V/D&rO`
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -2602,7 +2602,7 @@ note_groupings:
     - ''
     - <img src="ug-map-jamaica.png" />
     guid: h&`>n98~V1
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -2617,7 +2617,7 @@ note_groupings:
     - ''
     - <img src="ug-map-trinidad_and_tobago.png" />
     guid: t50y/[AEhF
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -2632,7 +2632,7 @@ note_groupings:
     - ''
     - <img src="ug-map-bermuda.png" />
     guid: gBCR?!O*;E
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -2646,7 +2646,7 @@ note_groupings:
     - ''
     - <img src="ug-map-guadeloupe.png" />
     guid: tTnCoO/*tk
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -2660,7 +2660,7 @@ note_groupings:
     - ''
     - <img src="ug-map-the_bahamas.png" />
     guid: W5?6yQZD2
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -2675,7 +2675,7 @@ note_groupings:
     - ''
     - <img src="ug-map-barbados.png" />
     guid: e{e8vi@^PY
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -2690,7 +2690,7 @@ note_groupings:
     - ''
     - <img src="ug-map-belize.png" />
     guid: tcneuK7v%`
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::North_America
     - UG::Sovereign_State
@@ -2704,7 +2704,7 @@ note_groupings:
     - ''
     - <img src="ug-map-costa_rica.png" />
     guid: uH*Q(mcRt5
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::North_America
     - UG::Sovereign_State
@@ -2719,7 +2719,7 @@ note_groupings:
     - Nicaragua (different coat of arms, slightly lighter blue)
     - <img src="ug-map-el_salvador.png" />
     guid: k$1_yaF?9#
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::North_America
     - UG::Sovereign_State
@@ -2733,7 +2733,7 @@ note_groupings:
     - ''
     - <img src="ug-map-guatemala.png" />
     guid: dUZ^=SE5BG
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::North_America
     - UG::Sovereign_State
@@ -2747,7 +2747,7 @@ note_groupings:
     - ''
     - <img src="ug-map-honduras.png" />
     guid: t_h*fbN#:(
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::North_America
     - UG::Sovereign_State
@@ -2761,7 +2761,7 @@ note_groupings:
     - El Salvador (different coat of arms, slightly darker blue)
     - <img src="ug-map-nicaragua.png" />
     guid: q=w[<m2Bk&
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::North_America
     - UG::Sovereign_State
@@ -2775,7 +2775,7 @@ note_groupings:
     - ''
     - <img src="ug-map-panama.png" />
     guid: vpOTK6tMr@
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::North_America
     - UG::Sovereign_State
@@ -2789,7 +2789,7 @@ note_groupings:
     - ''
     - <img src="ug-map-antigua_and_barbuda.png" />
     guid: m2F|cUkKhv
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -2804,7 +2804,7 @@ note_groupings:
     - ''
     - <img src="ug-map-dominica.png" />
     guid: k}4/oj#$~s
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -2819,7 +2819,7 @@ note_groupings:
     - ''
     - <img src="ug-map-saint_vincent_and_the_grenadines.png" />
     guid: va/ky=f5pK
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -2834,7 +2834,7 @@ note_groupings:
     - ''
     - <img src="ug-map-somalia.png" />
     guid: c,5(mUGzYT
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -2849,7 +2849,7 @@ note_groupings:
     - ''
     - <img src="ug-map-zanzibar.png" />
     guid: gp[h@]y13l
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
   - fields:
@@ -2862,7 +2862,7 @@ note_groupings:
     - Bolivia (coat of arms instead of star)
     - <img src="ug-map-ghana.png" />
     guid: gx:;za!?C9
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -2877,7 +2877,7 @@ note_groupings:
     - Mali (red and green flipped, slightly brighter green)
     - <img src="ug-map-guinea.png" />
     guid: r]*Ioa%$bK
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Sovereign_State
@@ -2892,7 +2892,7 @@ note_groupings:
     - Australia (white stars, two more stars)
     - <img src="ug-map-new_zealand.png" />
     guid: )Y}Qy.3GK
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
     - UG::Sovereign_State
@@ -2906,7 +2906,7 @@ note_groupings:
     - ''
     - <img src="ug-map-french_polynesia.png" />
     guid: lH^2D]w;[H
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
   - fields:
@@ -2919,7 +2919,7 @@ note_groupings:
     - ''
     - <img src="ug-map-philippines.png" />
     guid: qx%>fB$d+$
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Southeast_Asia
@@ -2934,7 +2934,7 @@ note_groupings:
     - ''
     - <img src="ug-map-kosovo.png" />
     guid: libliptkB4
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -2948,7 +2948,7 @@ note_groupings:
     - ''
     - <img src="ug-map-libya.png" />
     guid: jrM28*HbyG
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::Mediterranean
@@ -2963,7 +2963,7 @@ note_groupings:
     - ''
     - <img src="ug-map-palau.png" />
     guid: r?E$4f-d0/
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
     - UG::Sovereign_State
@@ -2977,7 +2977,7 @@ note_groupings:
     - ''
     - <img src="ug-map-saint_lucia.png" />
     guid: leh^fmrt*#
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -2992,7 +2992,7 @@ note_groupings:
     - ''
     - <img src="ug-map-bali.png" />
     guid: O~pXkAbd3
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
   - fields:
@@ -3005,7 +3005,7 @@ note_groupings:
     - ''
     - <img src="ug-map-grenada.png" />
     guid: f*LO~>!0PN
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -3020,7 +3020,7 @@ note_groupings:
     - ''
     - <img src="ug-map-british_virgin_islands.png" />
     guid: q[}7hk(+=e
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -3034,7 +3034,7 @@ note_groupings:
     - ''
     - <img src="ug-map-turks_and_caicos_islands.png" />
     guid: q7do-wLx%E
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -3048,7 +3048,7 @@ note_groupings:
     - ''
     - <img src="ug-map-cayman_islands.png" />
     guid: vwc3}.=Z#&
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -3062,7 +3062,7 @@ note_groupings:
     - ''
     - <img src="ug-map-anguilla.png" />
     guid: e<X;[vACXC
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -3076,7 +3076,7 @@ note_groupings:
     - ''
     - <img src="ug-map-azores.png" />
     guid: j=L,YBvsBk
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -3089,7 +3089,7 @@ note_groupings:
     - Nauru (single star below yellow band)
     - <img src="ug-map-curacao.png" />
     guid: oa87&PB&Bm
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -3103,7 +3103,7 @@ note_groupings:
     - ''
     - <img src="ug-map-french_guiana.png" />
     guid: b^Try&me1A
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::South_America
   - fields:
@@ -3116,7 +3116,7 @@ note_groupings:
     - ''
     - <img src="ug-map-gibraltar.png" />
     guid: o``:?0>/yz
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Mediterranean
@@ -3130,7 +3130,7 @@ note_groupings:
     - ''
     - <img src="ug-map-guernsey.png" />
     guid: pz(G*<F93/
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -3143,7 +3143,7 @@ note_groupings:
     - ''
     - <img src="ug-map-isle_of_man.png" />
     guid: cV4idO^r8W
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -3156,7 +3156,7 @@ note_groupings:
     - ''
     - <img src="ug-map-jersey.png" />
     guid: m*PYE=#wr^
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -3169,7 +3169,7 @@ note_groupings:
     - ''
     - <img src="ug-map-kiribati.png" />
     guid: sXzvT.g31p
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
     - UG::Sovereign_State
@@ -3183,7 +3183,7 @@ note_groupings:
     - ''
     - <img src="ug-map-macau.png" />
     guid: mq)8`hi{hb
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
   - fields:
@@ -3196,7 +3196,7 @@ note_groupings:
     - ''
     - <img src="ug-map-madeira.png" />
     guid: h}lnSN_f$_
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -3209,7 +3209,7 @@ note_groupings:
     - ''
     - <img src="ug-map-marshall_islands.png" />
     guid: eT<gzg?q,r
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
     - UG::Sovereign_State
@@ -3223,7 +3223,7 @@ note_groupings:
     - Curaçao (two stars in top-left corner)
     - <img src="ug-map-nauru.png" />
     guid: vE[T$`n9T)
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
     - UG::Sovereign_State
@@ -3237,7 +3237,7 @@ note_groupings:
     - ''
     - <img src="ug-map-new_caledonia.png" />
     guid: tj&bK}%P!F
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
   - fields:
@@ -3250,7 +3250,7 @@ note_groupings:
     - ''
     - <img src="ug-map-niue.png" />
     guid: kX]hN=_.c-
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
     - UG::Sovereign_State
@@ -3264,7 +3264,7 @@ note_groupings:
     - ''
     - <img src="ug-map-northern_cyprus.png" />
     guid: r/B|ra%L,.
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Mediterranean
@@ -3280,7 +3280,7 @@ note_groupings:
     - ''
     - <img src="ug-map-saint_kitts_and_nevis.png" />
     guid: b[(2`4t&?J
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -3295,7 +3295,7 @@ note_groupings:
     - ''
     - <img src="ug-map-samoa.png" />
     guid: qvITjNxkLN
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
     - UG::Sovereign_State
@@ -3309,7 +3309,7 @@ note_groupings:
     - ''
     - <img src="ug-map-somaliland.png" />
     guid: jX=#G8wu#(
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -3324,7 +3324,7 @@ note_groupings:
     - ''
     - <img src="ug-map-south_sudan.png" />
     guid: l&#7I)Ah/E
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -3339,7 +3339,7 @@ note_groupings:
     - ''
     - <img src="ug-map-tuvalu.png" />
     guid: de=9c:,@j9
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
     - UG::Sovereign_State
@@ -3353,7 +3353,7 @@ note_groupings:
     - ''
     - <img src="ug-map-united_states_virgin_islands.png" />
     guid: kE!iKHLN_g
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -3367,7 +3367,7 @@ note_groupings:
     - ''
     - <img src="ug-map-aland_islands.png" />
     guid: d``B*6:eCx
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -3380,7 +3380,7 @@ note_groupings:
     - ''
     - <img src="ug-map-south_ossetia.png" />
     guid: p]t8:Tka7q
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -3394,7 +3394,7 @@ note_groupings:
     - ''
     - <img src="ug-map-american_samoa.png" />
     guid: 'niJUFZF$Y:'
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
   - fields:
@@ -3407,7 +3407,7 @@ note_groupings:
     - ''
     - <img src="ug-map-northern_mariana_islands.png" />
     guid: p}Qa|!7PpR
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
   - fields:
@@ -3420,7 +3420,7 @@ note_groupings:
     - ''
     - <img src="ug-map-aruba.png" />
     guid: uv1fGXHN@)
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -3434,7 +3434,7 @@ note_groupings:
     - ''
     - <img src="ug-map-abkhazia.png" />
     guid: sRw-ik:I$v
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -3448,7 +3448,7 @@ note_groupings:
     - ''
     - <img src="ug-map-sint_maarten.png" />
     guid: bnEK#)[;qT
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -3462,7 +3462,7 @@ note_groupings:
     - ''
     - <img src="ug-map-republic_of_artsakh.png" />
     guid: ey:Q|*t!Lg
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Sovereign_State
@@ -3476,7 +3476,7 @@ note_groupings:
     - ''
     - <img src="ug-map-tonga.png" />
     guid: c^,~EC6Pb2
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
     - UG::Sovereign_State
@@ -3490,7 +3490,7 @@ note_groupings:
     - ''
     - <img src="ug-map-transnistria.png" />
     guid: tMMtBUpb$&
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
     - UG::Sovereign_State
@@ -3504,7 +3504,7 @@ note_groupings:
     - ''
     - <img src="ug-map-sardinia.png" />
     guid: jKIDq|}J&c
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -3517,7 +3517,7 @@ note_groupings:
     - ''
     - <img src="ug-map-kaliningrad_oblast.png" />
     guid: dC:e5G4J/p
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -3530,7 +3530,7 @@ note_groupings:
     - ''
     - <img src="ug-map-martinique.png" />
     guid: u;|vR#mVMW
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -3544,7 +3544,7 @@ note_groupings:
     - ''
     - <img src="ug-map-java.png" />
     guid: gDsLPj(9S#
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
   - fields:
@@ -3557,7 +3557,7 @@ note_groupings:
     - ''
     - <img src="ug-map-corsica.png" />
     guid: xb&P*pH(Q
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -3571,7 +3571,7 @@ note_groupings:
     - ''
     - <img src="ug-map-european_union.png" />
     guid: Bszsaz0Iuo
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -3584,7 +3584,7 @@ note_groupings:
     - ''
     - <img src="ug-map-gulf_of_mexico.png" />
     guid: JOT:U4ayh@
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3597,7 +3597,7 @@ note_groupings:
     - ''
     - <img src="ug-map-philippine_sea.png" />
     guid: G/^_##fcPN
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3610,7 +3610,7 @@ note_groupings:
     - ''
     - <img src="ug-map-southern_ocean-nobox.png" />
     guid: LPF4AfaHKR
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3623,7 +3623,7 @@ note_groupings:
     - ''
     - <img src="ug-map-gulf_of_thailand.png" />
     guid: rSneU!3}bn
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3637,7 +3637,7 @@ note_groupings:
     - ''
     - <img src="ug-map-micronesia.png" />
     guid: cv+Nq9:a<P
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
   - fields:
@@ -3650,7 +3650,7 @@ note_groupings:
     - ''
     - <img src="ug-map-pacific_ocean-nobox.png" />
     guid: f*2@qiHh_1
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3663,7 +3663,7 @@ note_groupings:
     - ''
     - <img src="ug-map-atlantic_ocean-nobox.png" />
     guid: nuU8A_$i2M
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3676,7 +3676,7 @@ note_groupings:
     - ''
     - <img src="ug-map-indian_ocean-nobox.png" />
     guid: fT!w8R#>dg
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3689,7 +3689,7 @@ note_groupings:
     - ''
     - <img src="ug-map-arctic_ocean-nobox.png" />
     guid: gG6SWfM>H0
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3702,7 +3702,7 @@ note_groupings:
     - ''
     - <img src="ug-map-hudson_bay.png" />
     guid: sM0GPt1HS1
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3715,7 +3715,7 @@ note_groupings:
     - ''
     - <img src="ug-map-labrador_sea.png" />
     guid: dlU7VG|3Gd
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3728,7 +3728,7 @@ note_groupings:
     - ''
     - <img src="ug-map-white_sea.png" />
     guid: cEO^y)Md[G
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3741,7 +3741,7 @@ note_groupings:
     - ''
     - <img src="ug-map-denmark_strait.png" />
     guid: eN#^kPGv*L
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3754,7 +3754,7 @@ note_groupings:
     - ''
     - <img src="ug-map-norwegian_sea.png" />
     guid: lp@e##m.!+
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3767,7 +3767,7 @@ note_groupings:
     - ''
     - <img src="ug-map-baltic_sea.png" />
     guid: epvt3>HH?U
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3780,7 +3780,7 @@ note_groupings:
     - ''
     - <img src="ug-map-celtic_sea.png" />
     guid: E3u*2.<9#`
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3793,7 +3793,7 @@ note_groupings:
     - ''
     - <img src="ug-map-english_channel.png" />
     guid: q1Q3Do8S>g
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3806,7 +3806,7 @@ note_groupings:
     - ''
     - <img src="ug-map-adriatic_sea.png" />
     guid: yX:tmrd5;]
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3819,7 +3819,7 @@ note_groupings:
     - ''
     - <img src="ug-map-bay_of_biscay.png" />
     guid: H*c[ML+`s=
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3832,7 +3832,7 @@ note_groupings:
     - ''
     - <img src="ug-map-black_sea.png" />
     guid: e_;dzXj8de
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3845,7 +3845,7 @@ note_groupings:
     - ''
     - <img src="ug-map-aegean_sea.png" />
     guid: iB-8Br~onq
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3858,7 +3858,7 @@ note_groupings:
     - ''
     - <img src="ug-map-balkan_peninsula.png" />
     guid: zSc]-^U=0=
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -3871,7 +3871,7 @@ note_groupings:
     - ''
     - <img src="ug-map-caspian_sea.png" />
     guid: x2d4n4ADcP
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3884,7 +3884,7 @@ note_groupings:
     - ''
     - <img src="ug-map-mediterranean_sea.png" />
     guid: Gn;q2Y)Xe4
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3897,7 +3897,7 @@ note_groupings:
     - ''
     - <img src="ug-map-east_siberian_sea.png" />
     guid: gRVZ]qJ#>O
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3910,7 +3910,7 @@ note_groupings:
     - ''
     - <img src="ug-map-bering_strait.png" />
     guid: J%,fuysl*&
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3923,7 +3923,7 @@ note_groupings:
     - ''
     - <img src="ug-map-arabian_sea.png" />
     guid: r(h9&#wc~B
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3936,7 +3936,7 @@ note_groupings:
     - ''
     - <img src="ug-map-red_sea.png" />
     guid: _]DH+g9!$
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3949,7 +3949,7 @@ note_groupings:
     - ''
     - <img src="ug-map-dead_sea.png" />
     guid: B:x<p&Q=t)
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3962,7 +3962,7 @@ note_groupings:
     - ''
     - <img src="ug-map-bay_of_bengal.png" />
     guid: z:*d{z(~V2
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3976,7 +3976,7 @@ note_groupings:
     - ''
     - <img src="ug-map-sea_of_japan.png" />
     guid: d}R:qHj1,7
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -3989,7 +3989,7 @@ note_groupings:
     - ''
     - <img src="ug-map-yellow_sea.png" />
     guid: L5M1*yG7eH
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -4002,7 +4002,7 @@ note_groupings:
     - ''
     - <img src="ug-map-coral_sea.png" />
     guid: s|K&2S,UP|
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -4015,7 +4015,7 @@ note_groupings:
     - ''
     - <img src="ug-map-south_china_sea.png" />
     guid: t$y1C2R-Av
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -4028,7 +4028,7 @@ note_groupings:
     - ''
     - <img src="ug-map-tasman_sea.png" />
     guid: eHJ?)TAdTo
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -4041,7 +4041,7 @@ note_groupings:
     - ''
     - <img src="ug-map-gulf_of_carpentaria.png" />
     guid: pQpX%(EVOH
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -4054,7 +4054,7 @@ note_groupings:
     - ''
     - <img src="ug-map-aral_sea.png" />
     guid: qiv/4tOlf=
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -4067,7 +4067,7 @@ note_groupings:
     - ''
     - <img src="ug-map-persian_gulf.png" />
     guid: M$bc0[jYf0
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -4080,7 +4080,7 @@ note_groupings:
     - ''
     - <img src="ug-map-caribbean_sea.png" />
     guid: jYz[ibrr9m
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -4093,7 +4093,7 @@ note_groupings:
     - ''
     - <img src="ug-map-gulf_of_california.png" />
     guid: SlOEXfq#|
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -4107,7 +4107,7 @@ note_groupings:
     - ''
     - <img src="ug-map-polynesia.png" />
     guid: d5m8%D6,;u
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
   - fields:
@@ -4121,7 +4121,7 @@ note_groupings:
     - ''
     - <img src="ug-map-melanesia.png" />
     guid: o9{x<AyA]B
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
   - fields:
@@ -4135,7 +4135,7 @@ note_groupings:
     - ''
     - <img src="ug-map-scandinavia.png" />
     guid: He!e=h?_2V
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -4148,7 +4148,7 @@ note_groupings:
     - ''
     - <img src="ug-map-sea_of_galilee.png" />
     guid: QSq%~rFaP-
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceans+Seas
   - fields:
@@ -4161,7 +4161,7 @@ note_groupings:
     - ''
     - <img src="ug-map-sumatra.png" />
     guid: ck!6;xK$/^
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
   - fields:
@@ -4174,7 +4174,7 @@ note_groupings:
     - ''
     - <img src="ug-map-sicily.png" />
     guid: n{{o2K1:dw
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -4187,7 +4187,7 @@ note_groupings:
     - ''
     - <img src="ug-map-mayotte.png" />
     guid: xqrJ^d[.(O
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -4201,7 +4201,7 @@ note_groupings:
     - ''
     - <img src="ug-map-reunion.png" />
     guid: vrn%j%6{nu
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Africa
     - UG::East_Africa
@@ -4215,7 +4215,7 @@ note_groupings:
     - ''
     - <img src="ug-map-falkland_islands.png" />
     guid: p#R$-mG/L
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::South_America
   - fields:
@@ -4228,7 +4228,7 @@ note_groupings:
     - ''
     - <img src="ug-map-europe-nobox.png" />
     guid: oV/JG7fwZq
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Continents
   - fields:
@@ -4241,7 +4241,7 @@ note_groupings:
     - ''
     - <img src="ug-map-north_america-nobox.png" />
     guid: bD?R}i8_[c
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Continents
   - fields:
@@ -4254,7 +4254,7 @@ note_groupings:
     - ''
     - <img src="ug-map-south_america-nobox.png" />
     guid: Lol+XIvY21
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Continents
   - fields:
@@ -4267,7 +4267,7 @@ note_groupings:
     - ''
     - <img src="ug-map-asia-nobox.png" />
     guid: Qlib4)q2Hk
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Continents
   - fields:
@@ -4280,7 +4280,7 @@ note_groupings:
     - ''
     - <img src="ug-map-africa-nobox.png" />
     guid: pwwZu{7f~(
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Continents
   - fields:
@@ -4293,7 +4293,7 @@ note_groupings:
     - ''
     - <img src="ug-map-oceania-nobox.png" />
     guid: qFuGdDx^Yv
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Continents
   - fields:
@@ -4306,7 +4306,7 @@ note_groupings:
     - ''
     - <img src="ug-map-antarctica-nobox.png" />
     guid: Cf2@;p<aL
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Continents
   - fields:
@@ -4319,7 +4319,7 @@ note_groupings:
     - ''
     - <img src="ug-map-saint_martin.png" />
     guid: 't2&ri|[Un:'
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Caribbean
     - UG::North_America
@@ -4333,7 +4333,7 @@ note_groupings:
     - ''
     - <img src="ug-map-wallis_and_futuna.png" />
     guid: dbP/Cj}sB+
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
   - fields:
@@ -4346,7 +4346,7 @@ note_groupings:
     - ''
     - <img src="ug-map-akrotiri_and_dhekelia.png" />
     guid: wa>{k!2cXc
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
     - UG::Mediterranean
@@ -4361,7 +4361,7 @@ note_groupings:
     - ''
     - <img src="ug-map-svalbard.png" />
     guid: 5JJ2]i)p4
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Europe
   - fields:
@@ -4374,7 +4374,7 @@ note_groupings:
     - ''
     - <img src="ug-map-hawaii.png" />
     guid: s>f40rn,O]
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
   - fields:
@@ -4387,7 +4387,7 @@ note_groupings:
     - ''
     - <img src="ug-map-alaska.png" />
     guid: ssbyA9}]QP
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::North_America
   - fields:
@@ -4400,7 +4400,7 @@ note_groupings:
     - ''
     - <img src="ug-map-bougainville.png" />
     guid: vKx<0Qa!aP
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Oceania
   - fields:
@@ -4413,6 +4413,6 @@ note_groupings:
     - ''
     - <img src="ug-map-jeju.png" />
     guid: fkq7lhLkdH
-    note_model: Ultimate Geography
+    note_model: normal_model
     tags:
     - UG::Asia
