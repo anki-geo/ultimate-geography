@@ -2,8 +2,8 @@
   - note_model_templates_from_html:
       - part_id: Country - Capital
         html_file: src/deck_parts/note_models/templates/Country - Capital.html
-      - part_id: Country - Capital
-        html_file: src/deck_parts/note_models/templates/Country - Capital.html
+      - part_id: Capital - Country
+        html_file: src/deck_parts/note_models/templates/Capital - Country.html
       - part_id: Country - Flag
         html_file: src/deck_parts/note_models/templates/Country - Flag.html
       - part_id: Country - Map
@@ -13,7 +13,7 @@
       - part_id: Map - Country
         html_file: src/deck_parts/note_models/templates/Map - Country.html
   - note_model_from_html_parts:
-      part_id: normal_model
+      part_id: Ultimate Geography
       model_name: Ultimate Geography
       model_id: 43e2586a-9a65-11e8-a777-a0481cc15658
       css_file: src/deck_parts/note_models/style.css
@@ -36,18 +36,18 @@
           font: Arial
       templates:
         - Country - Capital
-        - Country - Capital
+        - Capital - Country
         - Country - Flag
         - Country - Map
   - note_model_from_html_parts:
-      part_id: extended_model
+      part_id: Ultimate Geography [Extended]
       model_name: Ultimate Geography [Extended]
       model_id: 0a39f994-daaf-11e8-b984-a0481cc15658
       css_file: src/deck_parts/note_models/style.css
       fields: *all_fields
       templates:
         - Country - Capital
-        - Country - Capital
+        - Capital - Country
         - Country - Flag
         - Country - Map
         - Flag - Country
@@ -69,7 +69,7 @@
 
       note_model_mappings:
         - note_models: &note_models_in_mapping
-            - normal_model
+            - Ultimate Geography
           columns_to_fields:
             <<: &default_columns_to_fields
               guid: guid
@@ -89,7 +89,7 @@
 
       file_mappings: &file_mappings
         - file: src/data/split/main.csv
-          note_model: normal_model
+          note_model: Ultimate Geography
           derivatives:
             - file: src/data/split/country.csv
             - file: src/data/split/country_info.csv
@@ -188,7 +188,7 @@
         parts: [all_media]
       note_models:
         parts:
-          - part_id: normal_model
+          - part_id: Ultimate Geography
 
     folder: brain_brew_build/Ultimate Geography
     notes:
@@ -222,28 +222,35 @@
         parts: [ all_media ]
       note_models:
         parts:
-          - part_id: normal_model # TODO: Fix. Cannot set this to the extended model as the Notes are of type Normal_Model
+          - part_id: Ultimate Geography [Extended]
 
     folder: brain_brew_build/Ultimate Geography [Extended]
     notes:
       part_id: english
+      <<: &override_nm
+        override:
+          note_model: Ultimate Geography [Extended]
 - generate_crowd_anki:
     <<: *extended_deck
     folder: brain_brew_build/Ultimate Geography_de [Extended]
     notes:
       part_id: german
+      <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
     folder: brain_brew_build/Ultimate Geography_es [Extended]
     notes:
       part_id: spanish
+      <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
     folder: brain_brew_build/Ultimate Geography_fr [Extended]
     notes:
       part_id: french
+      <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
     folder: brain_brew_build/Ultimate Geography_nb [Extended]
     notes:
       part_id: norwegian
+      <<: *override_nm
