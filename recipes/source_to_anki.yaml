@@ -57,6 +57,9 @@
   - headers_from_yaml_part:
       - part_id: default header
         file: src/deck_parts/headers/default.yaml
+        override:
+          deck_description_html_file: src/deck_parts/headers/desc.html
+
   - media_group_from_folder:
       - part_id: all_media
         source: src/deck_parts/media
@@ -65,7 +68,7 @@
 
   - notes_from_csvs:
       part_id: english
-      save_to_file: src/deck_parts/notes/english.yaml
+      # save_to_file: src/deck_parts/notes/english.yaml
 
       note_model_mappings:
         - note_models: &note_models_in_mapping

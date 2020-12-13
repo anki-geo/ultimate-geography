@@ -3,7 +3,7 @@
       source: brain_brew_build/Ultimate Geography/
       part_id: standard notes
       sort_order: [Country]
-      save_to_file: src/deck_parts/notes/english.yaml
+      # save_to_file: src/deck_parts/notes/english.yaml
   - note_models_from_crowd_anki:
     - source: brain_brew_build/Ultimate Geography/
       part_id: Ultimate Geography
