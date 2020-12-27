@@ -75,7 +75,7 @@ All other csv files are Derivatives of main and contain extra data that is added
 Each contains the Country name as the first field,
 which is used to match it together with the row in `main.csv`.
 
-*Derivative entries are completely optional!* ´Capital_hint.csv` only have 4 entries,
+*Derivative entries are completely optional!* `Capital_hint.csv` only has 4 entries,
 as those are the only ones that actually have any of the columns populated.
 Only enter a row into a derivative csv if it is needed.
 
