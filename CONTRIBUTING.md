@@ -35,27 +35,120 @@ Seen something outdated or plain wrong? Spotted a typo somewhere? Think somethin
 Ready to start working on an issue? Here is what you need to know.
 
 - If you're new to contributing on GitHub, [read this guide](https://guides.github.com/activities/contributing-to-open-source/) first.
-- The deck is managed with [Anki Deck Manager](https://github.com/OnkelTem/anki-dm). The project's documentation explains the file structure in details, but the most important file is `data.csv`. It contains the actual content of the deck, including translations. In most cases, this is the only file you'll need to work on.
-- If you add a new row to `data.csv`, make changes to other files, or would like to review the changes you made to the deck in Anki, you'll need to set up and use Anki Deck Manager.
+- The deck is managed with [Brain Brew][Brain Brew].
+    - All data is (currently) stored in the split csv files in `src/data/split` with a column for each translation of the deck.
+    - [Brain Brew][Brain Brew] allows for syncing to and from Anki, so one can edit this deck in either Csv format or in Anki itself. See the steps below for how to build the deck.
+    - All dependencies are managed with [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/basics.html)
+        - This ensures that this project runs in a virtual environment, which is not hampered by individual setups
 
 ### Set-up
 
 1. Install the [CrowdAnki add-on](https://github.com/Stvad/CrowdAnki) in Anki.
+
 1. Fork and clone this repository on your machine.
-1. With the help of your favourite command-line package manager (e.g. `brew`, `chocolatey`, `apt-get`), install [PHP 7](http://php.net/) and [Composer](https://getcomposer.org/download/).
-1. From the root of the project, run `composer install` to install Anki Deck Manager.
 
-### Build and import
+1. Install `Pip` (requires Python)
+    - Linux: `sudo apt install python3-pip` (or use the below script)
+    - Windows: Use the `get-pip.py` [script](https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py) (See https://phoenixnap.com/kb/install-pip-windows)
+    - Mac: Use the `get-pip.py` [script](https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py) (See https://ahmadawais.com/install-pip-macos-os-x-python/)
 
-From here, building the deck is as simple as running `composer build`. Anki Deck Manager builds the deck into the `build` folder, in a format that CrowdAnki understands, which you can then import into Anki.
+1. Install `Pipenv`
+    - `pip install pipenv` (may need to use `pip3` instead)
 
-### Indexing
+1. Setup the Pipenv environment. This will install [Brain Brew][Brain Brew] and all of its dependencies in a virtual environment.
+    - `pipenv install`
 
-Anki requires each note to have a unique identifier. When you add a note to the deck, that is, when you add a row to `data.csv`, make sure to leave the first column empty. Then, tell Anki Deck Manager to re-index the deck by running `composer index`. The note you added will receive an identifier.
+    1. Use this new virtual environment
+        - `pipenv shell` in the main directory
+        - Use `deactivate` to exit the virtual environment, if you wish
 
-### Quotes normalisation
+### Project structure
 
-Anki Deck Manager has a very specific way of wrapping fields with double quotes in `data.csv` to escape special characters (cf. [#129][ref129]). Whether you edit the file by hand or through an editor, chances are you won't end up with double quotes in the same places. If you commit the file as is, the diff will be cluttered with changes that have nothing to do with your edits. To avoid this, run `composer index` before committing your changes. This command has the side effect of normalising the escaping of fields in the entire file.
+#### Csvs
+
+The data for the deck is stored in multiple csv files in `src/data/split`,
+which are all split up by the different fields and their many translations.
+It is split up this way as a single csv file with each translation is too unwieldy.
+
+The main file is `main.csv` which contains the guid, country, flag, map, and tags.
+All other csv files are Derivatives of main and contain extra data that is added onto main's rows.
+Each contains the Country name as the first field,
+which is used to match it together with the row in `main.csv`.
+
+*Derivative entries are completely optional!* `Capital_hint.csv` only has 4 entries,
+as those are the only ones that actually have any of the columns populated.
+Only enter a row into a derivative csv if it is needed.
+
+
+#### Media
+
+Media files are stored in the `src/media` folder, under arbitrary subfolders.
+
+
+### Source to Anki
+
+From here, building the deck is as simple as running `brain_brew recipes/source_to_anki.yaml`.
+[Brain Brew][Brain Brew] builds the deck into the `build` folder,
+in a format that CrowdAnki understands, which you can then import into Anki.
+
+On first run it will generate all the missing files and folders, with some warnings in the output.
+This is normal.
+
+
+### Anki to Source
+
+One can also make changes in Anki, and pull the changes back into the csv files. Simply:
+
+1. Make your edit(s) in Anki
+1. Export the deck using CrowdAnki into the `build/Ultimate Geography` folder
+    - Use this folder even if you are using the Extended deck.
+      The below recipe yaml file is setup to look at this export.
+      The end result will be the same.
+    - If using a different language than English then this option will need further configuring :sweat:
+1. Run `brain_brew recipes/source_from_anki.yaml`
+    - This will take all changes to Notes and their Media.
+        - Existing media will be updated in the folder it is already located.
+          New media will be placed on the top level of the `src/media` folder.
+          They can then be moved into any arbitrary subfolder.
+    - However it will **not** take changes to Note Models, Card Templates, Deck Description, or Deck options.
+
+
+
+### Making a change in source files
+
+#### Adding a new country
+
+Add the country to `main.csv`, and then any other derivative files that are needed.
+
+Do not create a guid for the country, that will be autogenerated on the
+first run of the `source_to_anki.yaml` recipe.
+
+#### Changing an existing entry
+
+If you change the country name, please remember to update each derivative file that contains that country.
+
+#### Removing a country entirely
+
+Same as above, remember the derivative files.
+
+#### Adding a new translation
+
+Add a new column to each of the csv files, following the
+naming convention of `[field name]:[country code]`
+(e.g. `country info:fr`) all in lowercase.
+
+#### Adding a new column (e.g. Population, Currency, etc)
+
+The most heavily requested change to the deck!
+This will soon™ be solved using [Brain Brew][Brain Brew] by combining separate repositories.
+
+#### Changing the Recipe builders
+
+Advanced.
+See [Brain Brew's Contributing](https://github.com/ohare93/brain-brew/blob/master/CONTRIBUTING.md) for more info.
+
+`-v` can be used when building a recipe to only run verification on the recipe file.
+
 
 ## Content inclusion rules
 
@@ -274,7 +367,7 @@ Content changes, such as adding a note, replacing an image, or translating the d
 ### Release process
 
 1. Bump the version in `desc.html` and commit the change.
-1. Run `composer index && composer build`.
+1. Run `brain_brew recipes/source_to_anki.yaml`.
 1. Add each folder in the `build` directory to a separate ZIP archive named as follows:
   - `Ultimate Geography` ==> `Ultimate_Geography_v[x.y]_EN.zip`.
   - `Ultimate Geography [Extended]` ==> `Ultimate_Geography_v[x.y]_EN_EXTENDED.zip`.
@@ -301,3 +394,4 @@ Content changes, such as adding a note, replacing an image, or translating the d
 [ref312]: https://github.com/axelboc/anki-ultimate-geography/pull/312
 [ref345]: https://github.com/axelboc/anki-ultimate-geography/pull/345
 [ref361]: https://github.com/axelboc/anki-ultimate-geography/pull/361
+[Brain Brew]: https://github.com/ohare93/brain-brew

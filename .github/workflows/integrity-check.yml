@@ -9,27 +9,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-
-    - name: Validate composer.json and composer.lock
-      run: composer validate
-
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
     - name: Install dependencies
-      run: composer install --prefer-dist --no-progress --no-suggest
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
 
-    - name: Build decks
-      run: composer build
+    - name: Validate
+      run: |
+        brain_brew recipes/source_to_anki.yaml || (echo "::error file=source_to_anki,line=0,col=0::Build failed" && exit 1)
 
-  index:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v1
-
-    - name: Install dependencies
-      run: composer install --prefer-dist --no-progress --no-suggest
-
-    - name: Index data.csv
-      run: composer index
-
-    - name: Check diff
-      run: git diff --quiet -- || echo "You need to run \`composer index\`"
+      # TODO: Validate the csv file structure

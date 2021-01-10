@@ -1,0 +1,144 @@
+- build_parts:
+  - note_model_from_html_parts:
+      part_id: Ultimate Geography
+      model_id: 43e2586a-9a65-11e8-a777-a0481cc15658
+      css_file: src/note_models/style.css
+      fields:
+        - name: Flag
+        - name: Map
+        - name: Country
+        - name: Country info
+        - name: Capital
+        - name: Capital info
+        - name: Capital hint
+        - name: Flag similarity
+
+      templates: []
+
+  - note_model_from_html_parts:
+      part_id: Ultimate Geography Combined Fields
+      model_id: 43e2586a-9a65-11e8-a777-a0481cc15658
+      css_file: src/note_models/style.css
+      fields:
+        - name: Flag
+        - name: Map
+
+        - name: Country
+        - name: Country:es
+        - name: Country:fr
+        - name: Country:nb
+        - name: Country:de
+
+        - name: Country info
+        - name: Country info:de
+        - name: Country info:es
+        - name: Country info:fr
+        - name: Country info:nb
+
+        - name: Capital
+        - name: Capital:de
+        - name: Capital:es
+        - name: Capital:fr
+        - name: Capital:nb
+
+        - name: Capital info
+        - name: Capital info:de
+        - name: Capital info:es
+        - name: Capital info:fr
+        - name: Capital info:nb
+
+        - name: Capital hint
+        - name: Capital hint:de
+        - name: Capital hint:es
+        - name: Capital hint:fr
+        - name: Capital hint:nb
+
+        - name: Flag similarity
+        - name: Flag similarity:de
+        - name: Flag similarity:es
+        - name: Flag similarity:fr
+        - name: Flag similarity:nb
+
+      templates: []
+
+  - notes_from_csvs:
+      part_id: all_fields
+      #save_to_file:
+
+      note_model_mappings: &nmm
+        - note_models:
+            - Ultimate Geography
+            - Ultimate Geography Combined Fields
+          columns_to_fields:
+            guid: guid
+            tags: tags
+
+            Flag: Flag
+            Map: Map
+
+            Country: Country
+            Country:de: Country:de
+            Country:es: Country:es
+            Country:fr: Country:fr
+            Country:nb: Country:nb
+
+            Country info: Country info
+            Country info:de: Country info:de
+            Country info:es: Country info:es
+            Country info:fr: Country info:fr
+            Country info:nb: Country info:nb
+
+            Capital: Capital
+            Capital:de: Capital:de
+            Capital:es: Capital:es
+            Capital:fr: Capital:fr
+            Capital:nb: Capital:nb
+
+            Capital info: Capital info
+            Capital info:de: Capital info:de
+            Capital info:es: Capital info:es
+            Capital info:fr: Capital info:fr
+            Capital info:nb: Capital info:nb
+
+            Capital hint: Capital hint
+            Capital hint:de: Capital hint:de
+            Capital hint:es: Capital hint:es
+            Capital hint:fr: Capital hint:fr
+            Capital hint:nb: Capital hint:nb
+
+            Flag similarity: Flag similarity
+            Flag similarity:de: Flag similarity:de
+            Flag similarity:es: Flag similarity:es
+            Flag similarity:fr: Flag similarity:fr
+            Flag similarity:nb: Flag similarity:nb
+
+          personal_fields: []
+
+      file_mappings:
+        - file: src/data/combined_data.csv
+          note_model: Ultimate Geography Combined Fields
+
+- generate_csvs:
+    notes: all_fields
+
+    note_model_mappings: *nmm
+
+    file_mappings:
+      - file: src/data/main.csv
+        note_model: Ultimate Geography
+
+        derivatives:
+          - file: src/data/country.csv
+            sort_by_columns: [ country ]
+          - file: src/data/country_info.csv
+            sort_by_columns: [ country ]
+
+          - file: src/data/capital.csv
+            sort_by_columns: [ country ]
+          - file: src/data/capital_info.csv
+            sort_by_columns: [ country ]
+          - file: src/data/capital_hint.csv
+            sort_by_columns: [ country ]
+
+          - file: src/data/flag_similarity.csv
+            sort_by_columns: [ country ]
