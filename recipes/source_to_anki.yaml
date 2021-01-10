@@ -101,6 +101,8 @@
             - file: src/data/capital_hint.csv
             - file: src/data/flag_similarity.csv
 
+      generate_guids: true
+
   - notes_from_csvs:
       part_id: german
       #save_to_file:

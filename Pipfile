@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-brain-brew = "*"
+brain-brew = "0.2.6"
 
 [requires]
 python_version = "3.7"
