@@ -2,7 +2,7 @@
   - note_model_from_html_parts:
       part_id: Ultimate Geography
       model_id: 43e2586a-9a65-11e8-a777-a0481cc15658
-      css_file: src/deck_parts/note_models/style.css
+      css_file: src/note_models/style.css
       fields:
         - name: Flag
         - name: Map
@@ -18,7 +18,7 @@
   - note_model_from_html_parts:
       part_id: Ultimate Geography Combined Fields
       model_id: 43e2586a-9a65-11e8-a777-a0481cc15658
-      css_file: src/deck_parts/note_models/style.css
+      css_file: src/note_models/style.css
       fields:
         - name: Flag
         - name: Map
@@ -124,21 +124,21 @@
     note_model_mappings: *nmm
 
     file_mappings:
-      - file: src/data/split/main.csv
+      - file: src/data/main.csv
         note_model: Ultimate Geography
 
         derivatives:
-          - file: src/data/split/country.csv
+          - file: src/data/country.csv
             sort_by_columns: [ country ]
-          - file: src/data/split/country_info.csv
-            sort_by_columns: [ country ]
-
-          - file: src/data/split/capital.csv
-            sort_by_columns: [ country ]
-          - file: src/data/split/capital_info.csv
-            sort_by_columns: [ country ]
-          - file: src/data/split/capital_hint.csv
+          - file: src/data/country_info.csv
             sort_by_columns: [ country ]
 
-          - file: src/data/split/flag_similarity.csv
+          - file: src/data/capital.csv
+            sort_by_columns: [ country ]
+          - file: src/data/capital_info.csv
+            sort_by_columns: [ country ]
+          - file: src/data/capital_hint.csv
+            sort_by_columns: [ country ]
+
+          - file: src/data/flag_similarity.csv
             sort_by_columns: [ country ]

@@ -1,23 +1,23 @@
 - build_parts:
   - notes_from_crowd_anki:
-      source: brain_brew_build/Ultimate Geography/
+      source: build/Ultimate Geography/
       part_id: standard notes
       sort_order: [Country]
-      # save_to_file: src/deck_parts/notes/english.yaml
+      # save_to_file: src/notes/english.yaml
   - note_models_from_crowd_anki:
-    - source: brain_brew_build/Ultimate Geography/
+    - source: build/Ultimate Geography/
       part_id: Ultimate Geography
-      # save_to_file: src/deck_parts/note_models/Ultimate Geography.yaml
+      # save_to_file: src/note_models/Ultimate Geography.yaml
   - headers_from_crowd_anki:
-    - source: brain_brew_build/Ultimate Geography/
+    - source: build/Ultimate Geography/
       part_id: default
-      # save_to_file: src/deck_parts/headers/default.yaml
+      # save_to_file: src/headers/default.yaml
   - media_group_from_crowd_anki:
-    - source: brain_brew_build/Ultimate Geography/
+    - source: build/Ultimate Geography/
       part_id: all_anki_media
   - save_media_group_to_folder:
       parts: [all_anki_media]
-      folder: src/deck_parts/media
+      folder: src/media
       clear_folder: false
       recursive: true
 
@@ -47,21 +47,21 @@
        personal_fields: []
 
    file_mappings:
-      - file: src/data/split/main.csv
+      - file: src/data/main.csv
         note_model: Ultimate Geography
 
         derivatives:
-          - file: src/data/split/country.csv
+          - file: src/data/country.csv
             sort_by_columns: [ country ]
-          - file: src/data/split/country_info.csv
-            sort_by_columns: [ country ]
-
-          - file: src/data/split/capital.csv
-            sort_by_columns: [ country ]
-          - file: src/data/split/capital_info.csv
-            sort_by_columns: [ country ]
-          - file: src/data/split/capital_hint.csv
+          - file: src/data/country_info.csv
             sort_by_columns: [ country ]
 
-          - file: src/data/split/flag_similarity.csv
+          - file: src/data/capital.csv
+            sort_by_columns: [ country ]
+          - file: src/data/capital_info.csv
+            sort_by_columns: [ country ]
+          - file: src/data/capital_hint.csv
+            sort_by_columns: [ country ]
+
+          - file: src/data/flag_similarity.csv
             sort_by_columns: [ country ]

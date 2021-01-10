@@ -82,7 +82,7 @@ Only enter a row into a derivative csv if it is needed.
 
 #### Media
 
-Media files are stored in the `src/deck_parts/media` folder, under arbitrary subfolders.
+Media files are stored in the `src/media` folder, under arbitrary subfolders.
 
 
 ### Source to Anki
@@ -108,7 +108,7 @@ One can also make changes in Anki, and pull the changes back into the csv files.
 1. Run `brain_brew recipes/source_from_anki.yaml`
     - This will take all changes to Notes and their Media.
         - Existing media will be updated in the folder it is already located.
-          New media will be placed on the top level of the `src/deck_parts/media` folder.
+          New media will be placed on the top level of the `src/media` folder.
           They can then be moved into any arbitrary subfolder.
     - However it will **not** take changes to Note Models, Card Templates, Deck Description, or Deck options.
 
