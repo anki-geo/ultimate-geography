@@ -88,7 +88,7 @@ Media files are stored in the `src/media` folder, under arbitrary subfolders.
 ### Source to Anki
 
 From here, building the deck is as simple as running `brain_brew recipes/source_to_anki.yaml`.
-[Brain Brew][Brain Brew] builds the deck into the `brain_brew_build` folder,
+[Brain Brew][Brain Brew] builds the deck into the `build` folder,
 in a format that CrowdAnki understands, which you can then import into Anki.
 
 On first run it will generate all the missing files and folders, with some warnings in the output.
@@ -100,7 +100,7 @@ This is normal.
 One can also make changes in Anki, and pull the changes back into the csv files. Simply:
 
 1. Make your edit(s) in Anki
-1. Export the deck using CrowdAnki into the `brain_brew_build/Ultimate Geography` folder
+1. Export the deck using CrowdAnki into the `build/Ultimate Geography` folder
     - Use this folder even if you are using the Extended deck.
       The below recipe yaml file is setup to look at this export.
       The end result will be the same.
@@ -368,7 +368,7 @@ Content changes, such as adding a note, replacing an image, or translating the d
 
 1. Bump the version in `desc.html` and commit the change.
 1. Run `brain_brew recipes/source_to_anki.yaml`.
-1. Add each folder in the `brain_brew_build` directory to a separate ZIP archive named as follows:
+1. Add each folder in the `build` directory to a separate ZIP archive named as follows:
   - `Ultimate Geography` ==> `Ultimate_Geography_v[x.y]_EN.zip`.
   - `Ultimate Geography [Extended]` ==> `Ultimate_Geography_v[x.y]_EN_EXTENDED.zip`.
   - `Ultimate Geography_de` ==> `Ultimate_Geography_v[x.y]_DE.zip`.
