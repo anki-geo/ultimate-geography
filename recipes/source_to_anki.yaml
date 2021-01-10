@@ -37,8 +37,8 @@
       templates:
         - Country - Capital
         - Capital - Country
-        - Country - Flag
-        - Country - Map
+        - Flag - Country
+        - Map - Country
   - note_model_from_html_parts:
       part_id: Ultimate Geography [Extended]
       model_name: Ultimate Geography [Extended]
@@ -49,8 +49,8 @@
         - Country - Capital
         - Capital - Country
         - Country - Flag
-        - Country - Map
         - Flag - Country
+        - Country - Map
         - Map - Country
 
 
