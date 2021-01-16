@@ -47,10 +47,12 @@ Ready to start working on an issue? Here is what you need to know.
 
 1. Fork and clone this repository on your machine.
 
-1. Install `Pip` (requires Python)
-    - Linux: `sudo apt install python3-pip` (or use the below script)
-    - Windows: Use the `get-pip.py` [script](https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py) (See https://phoenixnap.com/kb/install-pip-windows)
-    - Mac: Use the `get-pip.py` [script](https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py) (See https://ahmadawais.com/install-pip-macos-os-x-python/)
+
+1. Install Python 3.7 and `Pip`
+   - https://www.python.org/downloads/release/python-379/
+   - Also install `pip` with it (it is optional)
+   - Tick `Add Python 3.7 to PATH` in the install options
+
 
 1. Install `Pipenv`
     - `pip install pipenv` (may need to use `pip3` instead)
