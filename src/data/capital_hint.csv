@@ -1,5 +1,5 @@
 country,capital hint,capital hint:de,capital hint:es,capital hint:fr,capital hint:nb,capital hint:cs
-England,Not a sovereign country,Kein souveräner Staat,No es un país soberano,Pas une nation souveraine,Ikke selvstendig land
-United Kingdom,Sovereign country,Souveräner Staat,Es un país soberano,Nation souveraine,Selvstendig land
-Belgium,Sovereign country,Souveräner Staat,Es un país soberano,Nation souveraine,
-European Union,Not a sovereign country,Kein souveräner Staat,No es un país soberano,Pas une nation souveraine,
+England,Not a sovereign country,Kein souveräner Staat,No es un país soberano,Pas une nation souveraine,Ikke selvstendig land,<div>Nejedná se o suverénní stát.</div><div></div>
+United Kingdom,Sovereign country,Souveräner Staat,Es un país soberano,Nation souveraine,Selvstendig land,<div>Suverénní stát.</div>
+Belgium,Sovereign country,Souveräner Staat,Es un país soberano,Nation souveraine,,<div>Suverénní stát</div><div></div>
+European Union,Not a sovereign country,Kein souveräner Staat,No es un país soberano,Pas une nation souveraine,,<div>Nejedná se o suverénní stát.</div>
