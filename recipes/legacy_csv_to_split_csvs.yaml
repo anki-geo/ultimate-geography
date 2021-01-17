@@ -28,36 +28,42 @@
         - name: Country:fr
         - name: Country:nb
         - name: Country:de
+        - name: Country:ru
 
         - name: Country info
         - name: Country info:de
         - name: Country info:es
         - name: Country info:fr
         - name: Country info:nb
+        - name: Country info:ru
 
         - name: Capital
         - name: Capital:de
         - name: Capital:es
         - name: Capital:fr
         - name: Capital:nb
+        - name: Capital:ru
 
         - name: Capital info
         - name: Capital info:de
         - name: Capital info:es
         - name: Capital info:fr
         - name: Capital info:nb
+        - name: Capital info:ru
 
         - name: Capital hint
         - name: Capital hint:de
         - name: Capital hint:es
         - name: Capital hint:fr
         - name: Capital hint:nb
+        - name: Capital hint:ru
 
         - name: Flag similarity
         - name: Flag similarity:de
         - name: Flag similarity:es
         - name: Flag similarity:fr
         - name: Flag similarity:nb
+        - name: Flag similarity:ru
 
       templates: []
 
@@ -81,36 +87,42 @@
             Country:es: Country:es
             Country:fr: Country:fr
             Country:nb: Country:nb
+            Country:ru: Country:ru
 
             Country info: Country info
             Country info:de: Country info:de
             Country info:es: Country info:es
             Country info:fr: Country info:fr
             Country info:nb: Country info:nb
+            Country info:ru: Country info:ru
 
             Capital: Capital
             Capital:de: Capital:de
             Capital:es: Capital:es
             Capital:fr: Capital:fr
             Capital:nb: Capital:nb
+            Capital:ru: Capital:ru
 
             Capital info: Capital info
             Capital info:de: Capital info:de
             Capital info:es: Capital info:es
             Capital info:fr: Capital info:fr
             Capital info:nb: Capital info:nb
+            Capital info:ru: Capital info:ru
 
             Capital hint: Capital hint
             Capital hint:de: Capital hint:de
             Capital hint:es: Capital hint:es
             Capital hint:fr: Capital hint:fr
             Capital hint:nb: Capital hint:nb
+            Capital hint:ru: Capital hint:ru
 
             Flag similarity: Flag similarity
             Flag similarity:de: Flag similarity:de
             Flag similarity:es: Flag similarity:es
             Flag similarity:fr: Flag similarity:fr
             Flag similarity:nb: Flag similarity:nb
+            Flag similarity:ru: Flag similarity:ru
 
           personal_fields: []
 
@@ -129,16 +141,10 @@
 
         derivatives:
           - file: src/data/country.csv
-            sort_by_columns: [ country ]
           - file: src/data/country_info.csv
-            sort_by_columns: [ country ]
 
           - file: src/data/capital.csv
-            sort_by_columns: [ country ]
           - file: src/data/capital_info.csv
-            sort_by_columns: [ country ]
           - file: src/data/capital_hint.csv
-            sort_by_columns: [ country ]
 
           - file: src/data/flag_similarity.csv
-            sort_by_columns: [ country ]
