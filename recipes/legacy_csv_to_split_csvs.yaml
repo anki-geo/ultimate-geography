@@ -141,16 +141,16 @@
 
         derivatives:
           - file: src/data/country.csv
-            sort_by_columns: [ country ]
+            # sort_by_columns: [ country ]
           - file: src/data/country_info.csv
-            sort_by_columns: [ country ]
+            # sort_by_columns: [ country ]
 
           - file: src/data/capital.csv
-            sort_by_columns: [ country ]
+            # sort_by_columns: [ country ]
           - file: src/data/capital_info.csv
-            sort_by_columns: [ country ]
+            # sort_by_columns: [ country ]
           - file: src/data/capital_hint.csv
-            sort_by_columns: [ country ]
+            # sort_by_columns: [ country ]
 
           - file: src/data/flag_similarity.csv
-            sort_by_columns: [ country ]
+            # sort_by_columns: [ country ]
