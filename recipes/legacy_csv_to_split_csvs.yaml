@@ -24,40 +24,46 @@
         - name: Map
 
         - name: Country
+        - name: Country:de
         - name: Country:es
         - name: Country:fr
         - name: Country:nb
-        - name: Country:de
+        - name: Country:cs
 
         - name: Country info
         - name: Country info:de
         - name: Country info:es
         - name: Country info:fr
         - name: Country info:nb
+        - name: Country info:cs
 
         - name: Capital
         - name: Capital:de
         - name: Capital:es
         - name: Capital:fr
         - name: Capital:nb
+        - name: Capital:cs
 
         - name: Capital info
         - name: Capital info:de
         - name: Capital info:es
         - name: Capital info:fr
         - name: Capital info:nb
+        - name: Capital info:cs
 
         - name: Capital hint
         - name: Capital hint:de
         - name: Capital hint:es
         - name: Capital hint:fr
         - name: Capital hint:nb
+        - name: Capital hint:cs
 
         - name: Flag similarity
         - name: Flag similarity:de
         - name: Flag similarity:es
         - name: Flag similarity:fr
         - name: Flag similarity:nb
+        - name: Flag similarity:cs
 
       templates: []
 
@@ -81,36 +87,42 @@
             Country:es: Country:es
             Country:fr: Country:fr
             Country:nb: Country:nb
+            Country:cs: Country:cs
 
             Country info: Country info
             Country info:de: Country info:de
             Country info:es: Country info:es
             Country info:fr: Country info:fr
             Country info:nb: Country info:nb
+            Country info:cs: Country info:cs
 
             Capital: Capital
             Capital:de: Capital:de
             Capital:es: Capital:es
             Capital:fr: Capital:fr
             Capital:nb: Capital:nb
+            Capital:cs: Capital:cs
 
             Capital info: Capital info
             Capital info:de: Capital info:de
             Capital info:es: Capital info:es
             Capital info:fr: Capital info:fr
             Capital info:nb: Capital info:nb
+            Capital info:cs: Capital info:cs
 
             Capital hint: Capital hint
             Capital hint:de: Capital hint:de
             Capital hint:es: Capital hint:es
             Capital hint:fr: Capital hint:fr
             Capital hint:nb: Capital hint:nb
+            Capital hint:cs: Capital hint:cs
 
             Flag similarity: Flag similarity
             Flag similarity:de: Flag similarity:de
             Flag similarity:es: Flag similarity:es
             Flag similarity:fr: Flag similarity:fr
             Flag similarity:nb: Flag similarity:nb
+            Flag similarity:cs: Flag similarity:cs
 
           personal_fields: []
 
