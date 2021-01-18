@@ -339,5 +339,5 @@
       part_id: russian
     folder: build/Ultimate Geography_nl [Extended]
     notes:
-      part_id: nl
+      part_id: dutch
       <<: *override_nm
