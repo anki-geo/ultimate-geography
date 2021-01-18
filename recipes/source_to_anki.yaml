@@ -199,7 +199,11 @@
 
       file_mappings: *file_mappings
   - notes_from_csvs:
+<<<<<<< HEAD
       part_id: russian
+=======
+      part_id: dutch
+>>>>>>> Updated brew recipe for Dutch language
       #save_to_file:
 
       note_model_mappings:
@@ -207,6 +211,7 @@
           columns_to_fields:
             <<: *default_columns_to_fields
 
+<<<<<<< HEAD
             Country:ru          : Country
             Country info:ru     : Country info
             Capital:ru          : Capital
@@ -215,6 +220,18 @@
             Flag similarity:ru  : Flag similarity
 
           personal_fields: [ ]
+=======
+            Country:nl          : Country
+            Country info:nl     : Country info
+            Capital:nl          : Capital
+            Capital info:nl     : Capital info
+            Capital hint:nl     : Capital hint
+            Flag similarity:nl  : Flag similarity
+
+          personal_fields: [ ]
+
+      file_mappings: *file_mappings
+>>>>>>> Updated brew recipe for Dutch language
 
       file_mappings: *file_mappings
 
@@ -265,6 +282,9 @@
     folder: build/Ultimate Geography_ru
     notes:
       part_id: russian
+    folder: build/Ultimate Geography_nl
+    notes:
+      part_id: dutch
 
 
 - generate_crowd_anki:
@@ -317,4 +337,7 @@
     folder: build/Ultimate Geography_ru [Extended]
     notes:
       part_id: russian
+    folder: build/Ultimate Geography_nl [Extended]
+    notes:
+      part_id: nl
       <<: *override_nm
