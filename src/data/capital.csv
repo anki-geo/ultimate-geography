@@ -42,7 +42,7 @@ Poland,Warsaw,Warschau,Varsovia,Varsovie,Warszawa,Varšava
 Portugal,Lisbon,Lissabon,Lisboa,Lisbonne,Lisboa,Lisabon
 Romania,Bucharest,Bukarest,Bucarest,Bucarest,Bucuresti,Bukurešť
 Russia,Moscow,Moskau,Moscú,Moscou,Moskva,Moskva
-San Marino,City of San Marino,Stadt San Marino,San Marino,Ville de Saint-Marin,San Marino by,San Marino (město)
+San Marino,City of San Marino,Stadt San Marino,San Marino,Ville de Saint-Marin,San Marino by,San Marino
 Serbia,Belgrade,Belgrad,Belgrado,Belgrade,Beograd,Bělehrad
 Slovakia,Bratislava,Bratislava,Bratislava,Bratislava,Bratislava,Bratislava
 Slovenia,Ljubljana,Ljubljana,Liubliana,Ljubljana,Ljubljana,Lublaň
@@ -84,7 +84,7 @@ Madagascar,Antananarivo,Antananarivo,Antananarivo,Antananarivo,Antananarivo,Anta
 Malawi,Lilongwe,Lilongwe,Lilongüe,Lilongwe,Lilongwe,Lilongwe
 Mali,Bamako,Bamako,Bamako,Bamako,Bamako,Bamako
 Mauritania,Nouakchott,Nouakchott,Nuakchot,Nouakchott,Nouakchott,Nuakšott
-Mauritius,Port Louis,Port Louis,Port Louis,Port-Louis,Port Louis,Port Louis (Mauricius)
+Mauritius,Port Louis,Port Louis,Port Louis,Port-Louis,Port Louis,Port Louis
 Morocco,Rabat,Rabat,Rabat,Rabat,Rabat,Rabat
 Mozambique,Maputo,Maputo,Maputo,Maputo,Maputo,Maputo
 Namibia,Windhoek,Windhoek,Windhoek,Windhoek,Windhoek,Windhoek
@@ -93,7 +93,7 @@ Nigeria,Abuja,Abuja,Abuya,Abuja,Abuja,Abuja
 Republic of the Congo,Brazzaville,Brazzaville,Brazzaville,Brazzaville,Brazzaville,Brazzaville
 Rwanda,Kigali,Kigali,Kigali,Kigali,Kigali,Kigali
 Senegal,Dakar,Dakar,Dakar,Dakar,Dakar,Dakar
-Seychelles,Victoria,Victoria,Victoria,Victoria,Victoria,Victoria (Seychely)
+Seychelles,Victoria,Victoria,Victoria,Victoria,Victoria,Victoria
 Sierra Leone,Freetown,Freetown,Freetown,Freetown,Freetown,Freetown
 South Africa,"Pretoria, Cape Town, Bloemfontein","Pretoria, Kapstadt, Bloemfontein","Pretoria, Ciudad del Cabo, Bloemfontein","Pretoria, Le Cap, Bloemfontein","Pretoria, Cape Town, Bloemfontein","Pretorie, Kapské Město, Bloemfontein"
 Sudan,Khartoum,Khartum,Jartum,Khartoum,Khartoum,Chartúm
@@ -102,7 +102,7 @@ Tanzania,Dodoma,Dodoma,Dodoma,Dodoma,Dodoma,Dodoma
 Togo,Lomé,Lomé,Lomé,Lomé,Lomé,Lomé
 Tunisia,Tunis,Tunis,Túnez,Tunis,Tunis,Tunis
 Uganda,Kampala,Kampala,Kampala,Kampala,Kampala,Kampala
-Sahrawi Arab Democratic Republic,Laayoune,El Aaiún,El Aaiún,Laâyoune,El Aaiún,Al-´ Ajún
+Sahrawi Arab Democratic Republic,Laayoune,El Aaiún,El Aaiún,Laâyoune,El Aaiún,Al-´Ajún
 Zambia,Lusaka,Lusaka,Lusaka,Lusaka,Lusaka,Lusaka
 Zimbabwe,Harare,Harare,Harare,Harare,Harare,Harare
 Afghanistan,Kabul,Kabul,Kabul,Kaboul,Kabul,Kábul
@@ -124,7 +124,7 @@ Japan,Tokyo,Tokio,Tokio,Tokyo,Tokyo,Tokio
 Lebanon,Beirut,Beirut,Beirut,Beyrouth,Beirut,Bejrút
 Laos,Vientiane,Vientiane,Vientián,Vientiane,Vientiane,Vientiane
 Kyrgyzstan,Bishkek,Bischkek,Biskek,Bichkek,Bisjkek,Biškek
-Kuwait,Kuwait City,Kuwait-Stadt,Kuwait,Koweït,Kuwait by,Kuvajt (město)
+Kuwait,Kuwait City,Kuwait-Stadt,Kuwait,Koweït,Kuwait by,Kuvajt
 Myanmar,Naypyidaw,Naypyidaw,Naipyidó,Naypyidaw,Naypyidaw,Neipyijto
 Mongolia,Ulaanbaatar,Ulaanbaatar,Ulán Bator,Oulan-Bator,Ulaanbaatar,Ulánbátar
 Maldives,Malé,Malé,Malé,Malé,Malé,Male
@@ -209,7 +209,7 @@ Northern Cyprus,North Nicosia,Nord-Nikosia,Nicosia del Norte,Nicosie-Nord,Nord-N
 Saint Kitts and Nevis,Basseterre,Basseterre,Basseterre,Basseterre,Basseterre,Basseterre
 Samoa,Apia,Apia,Apia,Apia,Apia,Apia
 Somaliland,Hargeisa,Hargeysa,Hargeisa,Hargeisa,Hargeisa,Hargeysa
-South Sudan,Juba,Juba,Yuba,Djouba,Juba,Džuba (město)
+South Sudan,Juba,Juba,Yuba,Djouba,Juba,Džuba
 Tuvalu,Funafuti,Funafuti,Funafuti,Funafuti,Vaiaku/Funafuti,Funafuti
 United States Virgin Islands,Charlotte Amalie,Charlotte Amalie,Charlotte Amalie,Charlotte-Amélie,Charlotte Amalie,Charlotte Amalie
 Åland Islands,Mariehamn,Mariehamn,Mariehamn,Mariehamn,Mariehamn,Mariehamn
