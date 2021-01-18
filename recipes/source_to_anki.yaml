@@ -180,6 +180,25 @@
 
       file_mappings: *file_mappings
   - notes_from_csvs:
+      part_id: czech
+      #save_to_file:
+
+      note_model_mappings:
+        - note_models: *note_models_in_mapping
+          columns_to_fields:
+            <<: *default_columns_to_fields
+
+            Country:cs          : Country
+            Country info:cs     : Country info
+            Capital:cs          : Capital
+            Capital info:cs     : Capital info
+            Capital hint:cs     : Capital hint
+            Flag similarity:cs  : Flag similarity
+
+          personal_fields: [ ]
+
+      file_mappings: *file_mappings
+  - notes_from_csvs:
       part_id: russian
       #save_to_file:
 
@@ -238,6 +257,11 @@
       part_id: norwegian
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
+    folder: build/Ultimate Geography_cs
+    notes:
+      part_id: czech
+- generate_crowd_anki:
+    <<: *default_crowd_anki_gen
     folder: build/Ultimate Geography_ru
     notes:
       part_id: russian
@@ -281,6 +305,12 @@
     folder: build/Ultimate Geography_nb [Extended]
     notes:
       part_id: norwegian
+      <<: *override_nm
+- generate_crowd_anki:
+    <<: *extended_deck
+    folder: build/Ultimate Geography_cs [Extended]
+    notes:
+      part_id: czech
       <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
