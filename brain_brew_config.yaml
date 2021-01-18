@@ -1,0 +1,3 @@
+
+sort_case_insensitive: true
+join_values_with: ", "

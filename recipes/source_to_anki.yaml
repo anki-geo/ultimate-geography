@@ -1,0 +1,290 @@
+- build_parts:
+  - note_model_templates_from_html:
+      - part_id: Country - Capital
+        html_file: src/note_models/templates/Country - Capital.html
+      - part_id: Capital - Country
+        html_file: src/note_models/templates/Capital - Country.html
+      - part_id: Country - Flag
+        html_file: src/note_models/templates/Country - Flag.html
+      - part_id: Country - Map
+        html_file: src/note_models/templates/Country - Map.html
+      - part_id: Flag - Country
+        html_file: src/note_models/templates/Flag - Country.html
+      - part_id: Map - Country
+        html_file: src/note_models/templates/Map - Country.html
+  - note_model_from_html_parts:
+      part_id: Ultimate Geography
+      model_name: Ultimate Geography
+      model_id: 43e2586a-9a65-11e8-a777-a0481cc15658
+      css_file: src/note_models/style.css
+      fields: &all_fields
+        - name: Country
+          font: Arial
+        - name: Country info
+          font: Arial
+        - name: Capital
+          font: Arial
+        - name: Capital info
+          font: Arial
+        - name: Capital hint
+          font: Arial
+        - name: Flag
+          font: Arial
+        - name: Flag similarity
+          font: Arial
+        - name: Map
+          font: Arial
+      templates:
+        - Country - Capital
+        - Capital - Country
+        - Flag - Country
+        - Map - Country
+  - note_model_from_html_parts:
+      part_id: Ultimate Geography [Extended]
+      model_name: Ultimate Geography [Extended]
+      model_id: 0a39f994-daaf-11e8-b984-a0481cc15658
+      css_file: src/note_models/style.css
+      fields: *all_fields
+      templates:
+        - Country - Capital
+        - Capital - Country
+        - Country - Flag
+        - Flag - Country
+        - Country - Map
+        - Map - Country
+
+
+  - headers_from_yaml_part:
+      - part_id: default header
+        file: src/headers/default.yaml
+        override:
+          deck_description_html_file: src/headers/desc.html
+
+  - media_group_from_folder:
+      - part_id: all_media
+        source: src/media
+        recursive: true
+
+
+  - notes_from_csvs:
+      part_id: english
+      # save_to_file: src/notes/english.yaml
+
+      note_model_mappings:
+        - note_models: &note_models_in_mapping
+            - Ultimate Geography
+          columns_to_fields:
+            <<: &default_columns_to_fields
+              guid: guid
+              tags: tags
+
+              Flag: Flag
+              Map: Map
+
+            Country          : Country
+            Country info     : Country info
+            Capital          : Capital
+            Capital info     : Capital info
+            Capital hint     : Capital hint
+            Flag similarity  : Flag similarity
+
+          personal_fields: [ ]
+
+      file_mappings: &file_mappings
+        - file: src/data/main.csv
+          note_model: Ultimate Geography
+          derivatives:
+            - file: src/data/country.csv
+            - file: src/data/country_info.csv
+            - file: src/data/capital.csv
+            - file: src/data/capital_info.csv
+            - file: src/data/capital_hint.csv
+            - file: src/data/flag_similarity.csv
+
+      generate_guids: true
+
+  - notes_from_csvs:
+      part_id: german
+      #save_to_file:
+
+      note_model_mappings:
+        - note_models: *note_models_in_mapping
+          columns_to_fields:
+            <<: *default_columns_to_fields
+
+            Country:de          : Country
+            Country info:de     : Country info
+            Capital:de          : Capital
+            Capital info:de     : Capital info
+            Capital hint:de     : Capital hint
+            Flag similarity:de  : Flag similarity
+
+          personal_fields: [ ]
+
+      file_mappings: *file_mappings
+  - notes_from_csvs:
+      part_id: spanish
+      #save_to_file:
+
+      note_model_mappings:
+        - note_models: *note_models_in_mapping
+          columns_to_fields:
+            <<: *default_columns_to_fields
+
+            Country:es          : Country
+            Country info:es     : Country info
+            Capital:es          : Capital
+            Capital info:es     : Capital info
+            Capital hint:es     : Capital hint
+            Flag similarity:es  : Flag similarity
+
+          personal_fields: [ ]
+
+      file_mappings: *file_mappings
+  - notes_from_csvs:
+      part_id: french
+      #save_to_file:
+
+      note_model_mappings:
+        - note_models: *note_models_in_mapping
+          columns_to_fields:
+            <<: *default_columns_to_fields
+
+            Country:fr          : Country
+            Country info:fr     : Country info
+            Capital:fr          : Capital
+            Capital info:fr     : Capital info
+            Capital hint:fr     : Capital hint
+            Flag similarity:fr  : Flag similarity
+
+          personal_fields: [ ]
+
+      file_mappings: *file_mappings
+  - notes_from_csvs:
+      part_id: norwegian
+      #save_to_file:
+
+      note_model_mappings:
+        - note_models: *note_models_in_mapping
+          columns_to_fields:
+            <<: *default_columns_to_fields
+
+            Country:nb          : Country
+            Country info:nb     : Country info
+            Capital:nb          : Capital
+            Capital info:nb     : Capital info
+            Capital hint:nb     : Capital hint
+            Flag similarity:nb  : Flag similarity
+
+          personal_fields: [ ]
+
+      file_mappings: *file_mappings
+  - notes_from_csvs:
+      part_id: russian
+      #save_to_file:
+
+      note_model_mappings:
+        - note_models: *note_models_in_mapping
+          columns_to_fields:
+            <<: *default_columns_to_fields
+
+            Country:ru          : Country
+            Country info:ru     : Country info
+            Capital:ru          : Capital
+            Capital info:ru     : Capital info
+            Capital hint:ru     : Capital hint
+            Flag similarity:ru  : Flag similarity
+
+          personal_fields: [ ]
+
+      file_mappings: *file_mappings
+
+
+
+
+
+
+- generate_crowd_anki:
+    <<: &default_crowd_anki_gen
+      headers: default header
+      media:
+        parts: [all_media]
+      note_models:
+        parts:
+          - part_id: Ultimate Geography
+
+    folder: build/Ultimate Geography
+    notes:
+      part_id: english
+- generate_crowd_anki:
+    <<: *default_crowd_anki_gen
+    folder: build/Ultimate Geography_de
+    notes:
+      part_id: german
+- generate_crowd_anki:
+    <<: *default_crowd_anki_gen
+    folder: build/Ultimate Geography_es
+    notes:
+      part_id: spanish
+- generate_crowd_anki:
+    <<: *default_crowd_anki_gen
+    folder: build/Ultimate Geography_fr
+    notes:
+      part_id: french
+- generate_crowd_anki:
+    <<: *default_crowd_anki_gen
+    folder: build/Ultimate Geography_nb
+    notes:
+      part_id: norwegian
+- generate_crowd_anki:
+    <<: *default_crowd_anki_gen
+    folder: build/Ultimate Geography_ru
+    notes:
+      part_id: russian
+
+
+- generate_crowd_anki:
+    <<: &extended_deck
+      headers: default header
+      media:
+        parts: [ all_media ]
+      note_models:
+        parts:
+          - part_id: Ultimate Geography [Extended]
+
+    folder: build/Ultimate Geography [Extended]
+    notes:
+      part_id: english
+      <<: &override_nm
+        override:
+          note_model: Ultimate Geography [Extended]
+- generate_crowd_anki:
+    <<: *extended_deck
+    folder: build/Ultimate Geography_de [Extended]
+    notes:
+      part_id: german
+      <<: *override_nm
+- generate_crowd_anki:
+    <<: *extended_deck
+    folder: build/Ultimate Geography_es [Extended]
+    notes:
+      part_id: spanish
+      <<: *override_nm
+- generate_crowd_anki:
+    <<: *extended_deck
+    folder: build/Ultimate Geography_fr [Extended]
+    notes:
+      part_id: french
+      <<: *override_nm
+- generate_crowd_anki:
+    <<: *extended_deck
+    folder: build/Ultimate Geography_nb [Extended]
+    notes:
+      part_id: norwegian
+      <<: *override_nm
+- generate_crowd_anki:
+    <<: *extended_deck
+    folder: build/Ultimate Geography_ru [Extended]
+    notes:
+      part_id: russian
+      <<: *override_nm
