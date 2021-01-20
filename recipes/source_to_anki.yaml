@@ -217,6 +217,26 @@
           personal_fields: [ ]
 
       file_mappings: *file_mappings
+  - notes_from_csvs:
+      part_id: dutch
+      #save_to_file:
+
+      note_model_mappings:
+        - note_models: *note_models_in_mapping
+          columns_to_fields:
+            <<: *default_columns_to_fields
+
+            Country:nl          : Country
+            Country info:nl     : Country info
+            Capital:nl          : Capital
+            Capital info:nl     : Capital info
+            Capital hint:nl     : Capital hint
+            Flag similarity:nl  : Flag similarity
+
+          personal_fields: [ ]
+
+      file_mappings: *file_mappings
+
 
 
 
@@ -265,6 +285,11 @@
     folder: build/Ultimate Geography_ru
     notes:
       part_id: russian
+- generate_crowd_anki:
+    <<: *default_crowd_anki_gen
+    folder: build/Ultimate Geography_nl
+    notes:
+      part_id: dutch
 
 
 - generate_crowd_anki:
@@ -317,4 +342,10 @@
     folder: build/Ultimate Geography_ru [Extended]
     notes:
       part_id: russian
+      <<: *override_nm
+- generate_crowd_anki:
+    <<: *extended_deck
+    folder: build/Ultimate Geography_nl [Extended]
+    notes:
+      part_id: dutch
       <<: *override_nm
