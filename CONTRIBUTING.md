@@ -156,7 +156,7 @@ See [Brain Brew's Contributing](https://github.com/ohare93/brain-brew/blob/maste
 
 In order for a geographical entity to be included in the deck, it must:
 
-- belong to a well-defined, Wikipedia-sourced list of entities of a common type (e.g. sovereign states, seas, etc.);
+- belong to a well-defined, well-sourced list of entities of a common type (e.g. sovereign states, seas, etc.);
 - meet the inclusion criteria that apply to entities of this type.
 
 ### Political geography
@@ -207,6 +207,8 @@ A political entity can be included either fully (map, capital and flag) or parti
 
 ### Physical geography
 
+Apart from continents and oceans, inclusion rules for physical entities are documented and put into use in [physical-entities.xlsx](physical-entities.xlsx). They were discussed in [#137][ref137] and [#346][ref346].
+
 A physical entity can only be included partially, with only a map.
 
 #### Continents
@@ -214,9 +216,39 @@ A physical entity can only be included partially, with only a map.
 - Source: https://en.wikipedia.org/wiki/Continent#Number
 - Specifically the seven-continent model but with the continent of _Australia_ replaced with the world region of _Oceania_, as discussed in [#345][ref345].
 
-#### Water bodies
+#### Oceans
 
-The deck currently includes a number of water bodies (oceans, seas, gulfs, etc.) but inclusion rules have not yet been officialised.
+- Source: https://en.wikipedia.org/wiki/Ocean#Oceanic_divisions
+
+#### Marginal seas
+
+- Sources:
+  - [IHO, _Limits of Oceans and Seas_, 4th Edition (Final Draft), 2002](http://wiki.geosys.ru/lib/exe/fetch.php/ru/portal/lib/iho/s23.los.ed4draft.2002.pdf)
+  - [IHO, _Limits of Oceans and Seas_, 3rd Edition, 1953](https://epic.awi.de/id/eprint/29772/1/IHO1953a.pdf) (adds _Sea of Japan_)
+- Specifically all water bodies defined in the above publications, with the exception of oceans, basins, straits, channels, passages, and the _South China and Eastern Archipelagic Seas_.
+- Criteria for inclusion:
+  - for water bodies defined in 1953: `area >= 125,000 km2`
+  - for water bodies added in 2002: `area >= 500,000 km2`
+- Area calculations are based on the IHO's 2002 definitions.
+
+#### Straits
+
+- Sources:
+  - [IHO, _Limits of Oceans and Seas_, 4th Edition (Final Draft), 2002](http://wiki.geosys.ru/lib/exe/fetch.php/ru/portal/lib/iho/s23.los.ed4draft.2002.pdf)
+  - [Transit passage](https://en.wikipedia.org/wiki/Transit_passage) (adds _Bab-el-Mandeb_ and _Strait of Magellan_).
+- Straits mentioned on the _Transit passage_ article as being governed by an international convention are included.
+- Groups of straits and their constituents are excluded, namely the _Danish straits_ and _Turkish Straits_.
+- Criteria for inclusion: `is transit passage OR (borders >= 2 states AND area <= 50,000 km2)`
+- Area calculations are based on the IHO's 2002 definitions.
+
+#### Channels and passages
+
+- Source: [IHO, _Limits of Oceans and Seas_, 4th Edition (Final Draft), 2002](http://wiki.geosys.ru/lib/exe/fetch.php/ru/portal/lib/iho/s23.los.ed4draft.2002.pdf)
+- Criterion for inclusion: `borders >= 2 states`
+
+#### Other water bodies
+
+The deck currently includes a number of lakes for which inclusion rules have not yet been officialised. Other kinds of water bodies may also be included in the future (e.g. rivers).
 
 ## Content guidelines
 
@@ -395,5 +427,6 @@ Content changes, such as adding a note, replacing an image, or translating the d
 [ref306]: https://github.com/axelboc/anki-ultimate-geography/pull/306
 [ref312]: https://github.com/axelboc/anki-ultimate-geography/pull/312
 [ref345]: https://github.com/axelboc/anki-ultimate-geography/pull/345
+[ref346]: https://github.com/axelboc/anki-ultimate-geography/pull/346
 [ref361]: https://github.com/axelboc/anki-ultimate-geography/pull/361
 [Brain Brew]: https://github.com/ohare93/brain-brew
