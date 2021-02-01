@@ -258,10 +258,6 @@
 
 
 
-
-
-
-
 - generate_crowd_anki:
     <<: &default_crowd_anki_gen
       headers: default header
@@ -271,47 +267,47 @@
         parts:
           - part_id: Ultimate Geography
 
-    folder: build/Ultimate Geography
+    folder: build/Ultimate Geography [EN]
     notes:
       part_id: english
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography_de
+    folder: build/Ultimate Geography [DE]
     notes:
       part_id: german
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography_es
+    folder: build/Ultimate Geography [ES]
     notes:
       part_id: spanish
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography_fr
+    folder: build/Ultimate Geography [FR]
     notes:
       part_id: french
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography_nb
+    folder: build/Ultimate Geography [NB]
     notes:
       part_id: norwegian
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography_cs
+    folder: build/Ultimate Geography [CS]
     notes:
       part_id: czech
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography_ru
+    folder: build/Ultimate Geography [RU]
     notes:
       part_id: russian
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography_nl
+    folder: build/Ultimate Geography [NL]
     notes:
       part_id: dutch
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography_sv
+    folder: build/Ultimate Geography [SV]
     notes:
       part_id: swedish
 
@@ -325,7 +321,7 @@
         parts:
           - part_id: Ultimate Geography [Extended]
 
-    folder: build/Ultimate Geography [Extended]
+    folder: build/Ultimate Geography [EN] [Extended]
     notes:
       part_id: english
       <<: &override_nm
@@ -333,49 +329,49 @@
           note_model: Ultimate Geography [Extended]
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography_de [Extended]
+    folder: build/Ultimate Geography [DE] [Extended]
     notes:
       part_id: german
       <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography_es [Extended]
+    folder: build/Ultimate Geography [ES] [Extended]
     notes:
       part_id: spanish
       <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography_fr [Extended]
+    folder: build/Ultimate Geography [FR] [Extended]
     notes:
       part_id: french
       <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography_nb [Extended]
+    folder: build/Ultimate Geography [NB] [Extended]
     notes:
       part_id: norwegian
       <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography_cs [Extended]
+    folder: build/Ultimate Geography [CS] [Extended]
     notes:
       part_id: czech
       <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography_ru [Extended]
+    folder: build/Ultimate Geography [RU] [Extended]
     notes:
       part_id: russian
       <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography_nl [Extended]
+    folder: build/Ultimate Geography [NL] [Extended]
     notes:
       part_id: dutch
       <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography_sv [Extended]
+    folder: build/Ultimate Geography [SV] [Extended]
     notes:
       part_id: swedish
       <<: *override_nm

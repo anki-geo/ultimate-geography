@@ -400,13 +400,11 @@ Content changes, such as adding a note, replacing an image, or translating the d
 
 ### Release process
 
-1. Bump the version in `desc.html` and commit the change.
-1. Run `brain_brew recipes/source_to_anki.yaml`.
+1. Bump the version number in `src/headers/desc.html` and commit the change.
+1. Run `pipenv run brain_brew recipes/source_to_anki.yaml`.
 1. Add each folder in the `build` directory to a separate ZIP archive named as follows:
-  - `Ultimate Geography` ==> `Ultimate_Geography_v[x.y]_EN.zip`.
-  - `Ultimate Geography [Extended]` ==> `Ultimate_Geography_v[x.y]_EN_EXTENDED.zip`.
-  - `Ultimate Geography_de` ==> `Ultimate_Geography_v[x.y]_DE.zip`.
-  - `Ultimate Geography [Extended]_de` ==> `Ultimate_Geography_v[x.y]_DE_EXTENDED.zip`.
+  - `Ultimate Geography [EN]` ==> `Ultimate_Geography_v[x.y]_EN.zip`.
+  - `Ultimate Geography [EN] [Extended]` ==> `Ultimate_Geography_v[x.y]_EN_EXTENDED.zip`.
 1. In Anki, synchronise all your devices then import the folder of the standard English deck with CrowdAnki (i.e. `Ultimate Geography`). For major versions, make sure to perform a [clean import](README.md#major-version). Synchronise all your devices again once the import is complete.
 1. Export the deck as an APKG package named `Ultimate_Geography_v[x.y]_EN.apkg`, making sure to exclude scheduling information but include all media.
 1. Write the release notes on GitHub.
