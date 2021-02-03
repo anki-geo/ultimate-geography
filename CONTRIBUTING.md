@@ -43,7 +43,7 @@ Seen something outdated or plain wrong? Spotted a typo somewhere? Think somethin
   - [_Flag_ field](#flag-field)
   - [_Flag similarity_ field](#flag-similarity-field)
   - [_Map_ field](#map-field)
-  - [Field style](#field-style)
+  - [Writing style](#writing-style)
 - [**Translation sources**](#translation-sources)
   - [Norwegian Bokmål](#norwegian-bokmål)
 - [**Maintainer's guide**](#maintainers-guide)
@@ -391,15 +391,11 @@ The following guidelines apply to map images:
 - The style (colours, strokes, etc.) should match that of existing maps in the deck (note that water bodies use a different style than countries).
 - For small islands or archipelagos, the map should include a zoom box to facilitate identification.
 
-### Field style
+### Writing style
 
-As mentioned above, we strive to keep the descriptive fields (`capital info`, `capital hint`, `country info`, `flag similarity`) as concise as possible. For instance, where the subject of the description is the same as the subject of the card, we use a truncated phrase instead of a full sentence — e.g. `Also known as Kiev.`, rather than `Kyiv is also known as Kiev.`.
+As mentioned above, we strive to keep the descriptive fields (_Capital info_, _Capital hint_, _Country info_, _Flag similarity_) as concise as possible. For instance, where the subject of the description is the same as the subject of the card, we use a truncated phrase instead of a full sentence — e.g. "Also known as Kiev.", rather than "Kyiv is also known as Kiev.".
 
-By convention and for consistency, we use a full stop at the end of the `capital info` and `country info` fields and no full stop for the `capital hint` and `flag similarity` fields, in all languages, unless there are strong typographic or grammatical reasons against this in the given language. (No such language is currently in the deck.) The justification for this convention, as described in [#383][ref383] is that:
-
-1. The former two fields contain sentences (as opposed to phrases) relatively frequently, while the latter two almost never (exceptions include `(No) es un país soberano`). For consistency, and to avoid missing full stops when they are grammatically needed, it's useful for all the fields of the same type to use the same convention.
-2. It helps visually differentiate the former two "informative" fields, from the latter two "practical" ones.
-3. The former two fields, unlike the latter two, sometimes contain multiple sentences or multiple phrases (e.g. `Auch Nur-Sultan. Früher Astana.`), which need to be delimited with full stops, so always ending these sentences and phrases with a full stop makes sense.
+By convention and for consistency, we use a full stop at the end of the _Capital info_ and _Country info_ fields and no full stop for the _Capital hint_ and _Flag similarity_ fields, in all languages, unless there are strong typographic or grammatical reasons against this in the given language. (No such language is currently in the deck.) The justification for this convention is described in [#383][ref383].
 
 ## Translation sources
 
