@@ -8,12 +8,32 @@ Seen something outdated or plain wrong? Spotted a typo somewhere? Think somethin
 
 - [**Contributor's guide**](#contributors-guide)
   - [Set-up](#set-up)
-  - [Build and import](#build-and-import)
-  - [Indexing](#indexing)
-  - [Quotes normalisation](#quotes-normalisation)
+  - [Project structure](#project-structure)
+    - [Csvs](#csvs)
+    - [Media](#media)
+  - [Source to Anki](#source-to-anki)
+  - [Anki to Source](#anki-to-source)
+  - [Making a change in source files](#making-a-change-in-source-files)
+    - [Adding a new country](#adding-a-new-country)
+    - [Changing an existing entry](#changing-an-existing-entry)
+    - [Removing a country entirely](#removing-a-country-entirely)
+    - [Adding a new translation](#adding-a-new-translation)
+    - [Adding a new column (e.g. Population, Currency, etc)](#adding-a-new-column-eg-population-currency-etc)
+    - [Changing the Recipe builders](#changing-the-recipe-builders)
 - [**Content inclusion rules**](#content-inclusion-rules)
   - [Political geography](#political-geography)
+    - [Sovereign states](#sovereign-states)
+    - [Dependent territories](#dependent-territories)
+    - [Autonomous islands](#autonomous-islands)
+    - [Transcontinental overseas territories](#transcontinental-overseas-territories)
+    - [Enclaves and exclaves](#enclaves-and-exclaves)
   - [Physical geography](#physical-geography)
+    - [Continents](#continents)
+    - [Oceans](#oceans)
+    - [Marginal seas](#marginal-seas)
+    - [Straits](#straits)
+    - [Channels and passages](#channels-and-passages)
+    - [Other water bodies](#other-water-bodies)
 - [**Content guidelines**](#content-guidelines)
   - [_Country_ field](#country-field)
   - [_Country info_ field](#country-info-field)
@@ -23,6 +43,7 @@ Seen something outdated or plain wrong? Spotted a typo somewhere? Think somethin
   - [_Flag_ field](#flag-field)
   - [_Flag similarity_ field](#flag-similarity-field)
   - [_Map_ field](#map-field)
+  - [Writing style](#writing-style)
 - [**Translation sources**](#translation-sources)
   - [Norwegian Bokmål](#norwegian-bokmål)
 - [**Maintainer's guide**](#maintainers-guide)
@@ -370,6 +391,12 @@ The following guidelines apply to map images:
 - The style (colours, strokes, etc.) should match that of existing maps in the deck (note that water bodies use a different style than countries).
 - For small islands or archipelagos, the map should include a zoom box to facilitate identification.
 
+### Writing style
+
+As mentioned above, we strive to keep the descriptive fields (_Capital info_, _Capital hint_, _Country info_, _Flag similarity_) as concise as possible. For instance, where the subject of the description is the same as the subject of the card, we use a truncated phrase instead of a full sentence — e.g. "Also known as Kiev.", rather than "Kyiv is also known as Kiev.".
+
+By convention and for consistency, we use a full stop at the end of the _Capital info_ and _Country info_ fields and no full stop for the _Capital hint_ and _Flag similarity_ fields, in all languages, unless there are strong typographic or grammatical reasons against this in the given language. (No such language is currently in the deck.) The justification for this convention is described in [#383][ref383].
+
 ## Translation sources
 
 When Wikipedia in a given language is not sufficently exhaustive to support the translation of this deck, additional sources may be used. This section references such sources, as well as any stylistic choices made by translators.
@@ -430,4 +457,5 @@ Content changes, such as adding a note, replacing an image, or translating the d
 [ref345]: https://github.com/axelboc/anki-ultimate-geography/pull/345
 [ref346]: https://github.com/axelboc/anki-ultimate-geography/pull/346
 [ref361]: https://github.com/axelboc/anki-ultimate-geography/pull/361
+[ref383]: https://github.com/axelboc/anki-ultimate-geography/issues/383
 [Brain Brew]: https://github.com/ohare93/brain-brew
