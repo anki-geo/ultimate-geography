@@ -45,6 +45,4 @@ The sources and licenses of the flags (`ug-flag-...`) and maps (`ug-map-...`) in
 
 `sources.csv` references only the licenses of the files themselves. Some flags, like the [European Union flag](https://www.coe.int/en/web/about-us/the-european-flag#column-5), may come with additional copyright retrictions.
 
-A question mark in the _Source_ column indicates that the source and license of an image are unknown. Effort is being made to replace such images (cf. issue #1).
-
 All images have been optimised, resized and/or converted to reduce file size. Any further modifications are listed in the  _Modifications_ column.
