@@ -427,7 +427,7 @@ Content changes, such as adding a note, replacing an image, or translating the d
 
 ### Release process
 
-1. Bump the version number in `src/headers/desc.html` and commit the change.
+1. Bump the version number in `src/headers/desc.html`, check that the notes/cards stats are up to date in both `desc.html` abd `README.md`, and commit the changes.
 1. Run `pipenv run brain_brew recipes/source_to_anki.yaml`.
 1. Add each folder in the `build` directory to a separate ZIP archive named as follows:
   - `Ultimate Geography [EN]` ==> `Ultimate_Geography_v[x.y]_EN.zip`.
@@ -436,14 +436,14 @@ Content changes, such as adding a note, replacing an image, or translating the d
 1. Export the deck as an APKG package named `Ultimate_Geography_v[x.y]_EN.apkg`, making sure to exclude scheduling information but include all media.
 1. On GitHub, create a new **pre-release** named with the version number followed by `-beta`.
 1. Write the release notes, attach the APKG file and all the ZIP files, and publish the pre-release.
-1. Announce the beta in a discussion and wait for feedback.
+1. Announce the beta in a discussion thread and wait for feedback.
 1. Once the beta is stable, convert the pre-release to an official release.
 1. Close the milestone and create a new one for the next version.
 1. Go to [AnkiWeb](https://ankiweb.net/decks/).
 1. Find the _Ultimate Geography_ deck and select _Actions_ > _Share_
 1. Update the version number in the title and the description if needed.
 1. Enter the full legal name and click _Share_.
-1. Announce the release on Reddit.
+1. Announce the release [on Reddit](https://www.reddit.com/r/Anki/search?q=ultimate%20geography&restrict_sr=1).
 
 [ref129]: https://github.com/axelboc/anki-ultimate-geography/issues/129
 [ref137]: https://github.com/axelboc/anki-ultimate-geography/issues/137
