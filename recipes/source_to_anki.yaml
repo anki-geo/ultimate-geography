@@ -75,12 +75,12 @@
             - Ultimate Geography
           columns_to_fields:
             <<: &default_columns_to_fields
-              guid: guid
               tags: tags
 
               Flag: Flag
               Map: Map
 
+            guid             : guid
             Country          : Country
             Country info     : Country info
             Capital          : Capital
@@ -94,14 +94,13 @@
         - file: src/data/main.csv
           note_model: Ultimate Geography
           derivatives:
+            - file: src/data/guid.csv
             - file: src/data/country.csv
             - file: src/data/country_info.csv
             - file: src/data/capital.csv
             - file: src/data/capital_info.csv
             - file: src/data/capital_hint.csv
             - file: src/data/flag_similarity.csv
-
-      generate_guids: true
 
   - notes_from_csvs:
       part_id: german
@@ -112,6 +111,7 @@
           columns_to_fields:
             <<: *default_columns_to_fields
 
+            guid:de             : guid
             Country:de          : Country
             Country info:de     : Country info
             Capital:de          : Capital
@@ -131,6 +131,7 @@
           columns_to_fields:
             <<: *default_columns_to_fields
 
+            guid:es             : guid
             Country:es          : Country
             Country info:es     : Country info
             Capital:es          : Capital
@@ -150,6 +151,7 @@
           columns_to_fields:
             <<: *default_columns_to_fields
 
+            guid:fr             : guid
             Country:fr          : Country
             Country info:fr     : Country info
             Capital:fr          : Capital
@@ -169,6 +171,7 @@
           columns_to_fields:
             <<: *default_columns_to_fields
 
+            guid:nb             : guid
             Country:nb          : Country
             Country info:nb     : Country info
             Capital:nb          : Capital
@@ -188,6 +191,7 @@
           columns_to_fields:
             <<: *default_columns_to_fields
 
+            guid:cs             : guid
             Country:cs          : Country
             Country info:cs     : Country info
             Capital:cs          : Capital
@@ -207,6 +211,7 @@
           columns_to_fields:
             <<: *default_columns_to_fields
 
+            guid:ru             : guid
             Country:ru          : Country
             Country info:ru     : Country info
             Capital:ru          : Capital
@@ -226,6 +231,7 @@
           columns_to_fields:
             <<: *default_columns_to_fields
 
+            guid:nl             : guid
             Country:nl          : Country
             Country info:nl     : Country info
             Capital:nl          : Capital
@@ -245,6 +251,7 @@
           columns_to_fields:
             <<: *default_columns_to_fields
 
+            guid:sv             : guid
             Country:sv          : Country
             Country info:sv     : Country info
             Capital:sv          : Capital
