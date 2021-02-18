@@ -1,3 +1,16 @@
+- generate_guids_in_csv:
+    source: src/data/guid.csv
+    columns:
+      - guid
+      - guid:de
+      - guid:es
+      - guid:fr
+      - guid:nb
+      - guid:cs
+      - guid:ru
+      - guid:nl
+      - guid:sv
+
 - build_parts:
   - note_model_templates_from_html:
       - part_id: Country - Capital
