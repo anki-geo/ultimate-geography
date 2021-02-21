@@ -26,7 +26,7 @@ The deck is available in **English**, **German**, **Spanish**, **French**, **Nor
 
 ## Features
 
-The standard version of the deck comes with four note templates: _Country - Capital_, _Capital - Country_, _Flag - Country_, and _Map - Country_. An [extended version](#other-languages-and-versions) is also available, with two additional note templates: _Country - Flag_ and _Country - Map_.
+The standard version of the deck comes with four note templates: _Country - Capital_, _Capital - Country_, _Flag - Country_, and _Map - Country_. An **extended version** is also available, with two additional note templates: _Country - Flag_ and _Country - Map_.
 
 <table>
   <tr><th scope="col" colspan="2">Flag - Country</th></tr>
@@ -87,52 +87,67 @@ Anki's [search feature](https://docs.ankiweb.net/#/searching), coupled with the 
 
 ## Getting started
 
-First-time here? Welcome! If you're happy using the standard, English version of the deck, here is how to get started:
+First-time here? Welcome! 👋
 
-1. Go to the **[_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases)** and find the latest release.
-1. In the _Downloads_ section, find the Anki package `Ultimate_Geography_v[...]_EN.apkg` and download it.
-1. Import it in Anki, synchronise your devices and you're good to go!
-1. To stay informed of new releases, make sure to [watch this repository's releases](https://help.github.com/en/articles/watching-and-unwatching-releases-for-a-repository).
+In order to install and later upgrade _Ultimate Geography_ you'll need to first install an Anki add-on called [CrowdAnki](https://github.com/Stvad/CrowdAnki):
 
-> You can also download the latest Anki package from the [shared deck page]( https://ankiweb.net/shared/info/2109889812).
+1. Open Anki on your computer, go to the _Tools_ menu and select _Add-ons_.
+1. In the dialog box, click on _Get Add-ons..._ and paste in the code provided on [this page](https://ankiweb.net/shared/info/1788670778).
+1. Click on _OK_ to download the add-on, and then restart Anki.
 
-### Other languages and versions
+You're now ready to install _Ultimate Geography_:
 
-The standard English deck is the only version available as an Anki package. If you'd like to use the standard deck in another language, or the extended deck in any language, first install the [CrowdAnki add-on](https://github.com/Stvad/CrowdAnki) then follow the steps below.
-
-> Please note that importing an extended deck on top of a standard deck is not recommended. You should either remove the standard deck first (by following the instructions in the [_Major version_](#major-version) section), or import the extended deck in a separate Anki profile.
-
-1. Go to the [_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases) and find the latest release.
-1. In the release's _Downloads_ section, find the ZIP archive of the version you're interested in using (e.g. `Ultimate_Geography_v[...]_DE.zip` for the standard German deck) and download it.
-1. Extract the content of the archive on your machine.
+1. Go to the **[_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases)**.
+1. In the latest release's _Downloads_ section, download the ZIP archive of the version of the deck you'd like to use. You can choose between [a standard and an extended version](#features) in [a number of languages](#ultimate-geography) -- for instance, if you're after the standard German deck, download `Ultimate_Geography_v[...]_DE.zip`.
+1. Extract the content of the archive on your computer.
 1. Open Anki and make sure your devices are all synchronised.
 1. In the _File_ menu, select _CrowdAnki: Import from disk_.
-1. Browse for and select the folder you extracted from the archive, which should contain the deck's JSON file and media folder.
-1. Perform the import.
+1. Browse for and select the folder you extracted from the archive, which should contain the deck's JSON file and `media` folder -- e.g. `Ultimate Geography [DE]`.
+1. Don't change anything in the _CrowdAnki Import Settings_ dialog box that opens -- just press _OK_ to perform the import. A dialog box should then confirm that the import was successful.
 
+To stay informed of new releases, make sure to [watch this repository's releases](https://help.github.com/en/articles/watching-and-unwatching-releases-for-a-repository).
 
 ## Upgrading
 
-If you're looking to upgrade to a newer version of the deck, this section is for you. The process differs depending on whether you're upgrading to a minor (e.g. v2.6) or a major (e.g. v3.0) version.
+The upgrade process is typically the same as the installation process explained in the [previous section](#getting-started). However, some situations require extra care. As a general rule, **always read the release notes carefully**; they will likely tell you what to do or point you to a page that does.
 
-> For more information about versioning and the differences between minor and major, please refer to the [_Versioning_](CONTRIBUTING.md#versioning) section.
+### First upgrade after APKG import
 
-### Minor version
+You may have initially installed _Ultimate Geography_ by importing an **APKG file**. You may have downloaded such a file from this repo or from the [deck's page](https://ankiweb.net/shared/info/2109889812) on AnkiWeb, as this used to be the recommended installation process.
 
-For a minor version upgrade (e.g. from 2.3 to 2.6), _do not_ import the APKG package in Anki as you may have done initially or you will lose your progress. Instead, proceed as described in the [_Other languages and versions_](#other-languages-and-versions) section, making sure to pick the correct archive (e.g. `Ultimate_Geography_v[...]_EN.zip` for the standard English deck).
+If you're in this situation and wish to upgrade, proceed as follows:
 
-> If you've moved some of the cards out of the default _Ultimate Geography_ deck and into another deck, by default CrowdAnki will move those cards back on import. This behaviour [can be disabled](https://github.com/Stvad/CrowdAnki#configuration-settings).
+1. Perform the _Getting started_ steps exactly.
+1. You should end up with two decks: your original deck called "Ultimate Geography" and a new, duplicated deck called "Ultimate Geography_2". Every card in your original deck should have moved automatically to the new deck and your original deck should now be empty. You can verify this in Anki's [card browser](https://docs.ankiweb.net/#/browsing?id=browsing).
+1. To get back to having a single deck, delete your original deck and rename the new deck to "Ultimate Geography". From here on, future upgrades will be seamless.
+
+### Cards moved into other deck
+
+If you've moved some of the cards out of the default _Ultimate Geography_ deck and into another deck, by default CrowdAnki will move those cards back on import.
+
+To prevent this behaviour and update the existing cards in place, follow the steps in the [_Getting started_](@getting-started) section but in the last step, make sure to tick the _Do Not Move Existing Cards_ checkbox in the _CrowdAnki Import Settings_ dialog box.
+
+### Standard to extended
+
+Importing an extended deck on top of a standard deck may bring unepected results. Instead, we recommend that you start learning the extended deck from scratch. To do so, either:
+
+- remove the standard deck first by following the instructions in the [_Major version_](#major-version) section below, or
+- import the extended deck in a separate Anki profile.
 
 ### Major version
 
-Upgrading to a major version (e.g. from 2.6 to 3.0) typically leads to a loss of progress. Therefore, unless the [release's page](https://github.com/axelboc/anki-ultimate-geography/releases) tells you otherwise, it is recommended to perform a clean import by following these steps:
+Major versions (e.g. `v3.0`) typically indicate that upgrading may lead to a loss of progress. This occurs, for instance, when cards are removed or when changes are made to the structure of the deck.
+
+> For more information about versioning and the differences between minor and major, please refer to the [_Versioning_](CONTRIBUTING.md#versioning) section of the _CONTRIBUTING_ guide.
+
+As for any release, the release notes of a major version will tell you how to upgrade, or point you to a page that does. In some cases, there may even be a way to keep your progress! However, this is rarely straightforward. If you don't mind losing your progress, the simplest way to upgrade to a major version is to perform a "clean import":
 
 1. Open Anki and make sure your devices are all synchronised.
 1. Delete the `Ultimate Geography` deck.
 1. In the _Tools_ menu, select _Manage Note Types_, then delete the `Ultimate Geography` note type.
 1. In the _Tools_ menu, select _Check Database_.
 1. Sync the changes with AnkiWeb and with all your devices.
-1. You can now follow the steps of the [_Getting started_](#getting-started) section and install the major version with its APKG package.
+1. You can now follow the steps of the [_Getting started_](#getting-started) section to install the major version.
 
 ## Deck structure
 
