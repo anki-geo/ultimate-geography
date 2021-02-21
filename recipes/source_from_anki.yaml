@@ -1,19 +1,19 @@
 - build_parts:
   - notes_from_crowd_anki:
-      source: build/Ultimate Geography/
+      source: build/Ultimate Geography [EN]/
       part_id: standard notes
       sort_order: [Country]
       # save_to_file: src/notes/english.yaml
   - note_models_from_crowd_anki:
-    - source: build/Ultimate Geography/
+    - source: build/Ultimate Geography [EN]/
       part_id: Ultimate Geography
       # save_to_file: src/note_models/Ultimate Geography.yaml
   - headers_from_crowd_anki:
-    - source: build/Ultimate Geography/
+    - source: build/Ultimate Geography [EN]/
       part_id: default
       # save_to_file: src/headers/default.yaml
   - media_group_from_crowd_anki:
-    - source: build/Ultimate Geography/
+    - source: build/Ultimate Geography [EN]/
       part_id: all_anki_media
   - save_media_group_to_folder:
       parts: [all_anki_media]
@@ -51,6 +51,8 @@
         note_model: Ultimate Geography
 
         derivatives:
+          - file: src/data/guid.csv
+
           - file: src/data/country.csv
           - file: src/data/country_info.csv
 
