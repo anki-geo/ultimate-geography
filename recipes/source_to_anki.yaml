@@ -88,18 +88,17 @@
             - Ultimate Geography
           columns_to_fields:
             <<: &default_columns_to_fields
+              flag: Flag
+              map: Map
               tags: tags
 
-              Flag: Flag
-              Map: Map
-
             guid             : guid
-            Country          : Country
-            Country info     : Country info
-            Capital          : Capital
-            Capital info     : Capital info
-            Capital hint     : Capital hint
-            Flag similarity  : Flag similarity
+            country          : Country
+            country info     : Country info
+            capital          : Capital
+            capital info     : Capital info
+            capital hint     : Capital hint
+            flag similarity  : Flag similarity
 
           personal_fields: [ ]
 
@@ -125,12 +124,12 @@
             <<: *default_columns_to_fields
 
             guid:de             : guid
-            Country:de          : Country
-            Country info:de     : Country info
-            Capital:de          : Capital
-            Capital info:de     : Capital info
-            Capital hint:de     : Capital hint
-            Flag similarity:de  : Flag similarity
+            country:de          : Country
+            country info:de     : Country info
+            capital:de          : Capital
+            capital info:de     : Capital info
+            capital hint:de     : Capital hint
+            flag similarity:de  : Flag similarity
 
           personal_fields: [ ]
 
@@ -145,12 +144,12 @@
             <<: *default_columns_to_fields
 
             guid:es             : guid
-            Country:es          : Country
-            Country info:es     : Country info
-            Capital:es          : Capital
-            Capital info:es     : Capital info
-            Capital hint:es     : Capital hint
-            Flag similarity:es  : Flag similarity
+            country:es          : Country
+            country info:es     : Country info
+            capital:es          : Capital
+            capital info:es     : Capital info
+            capital hint:es     : Capital hint
+            flag similarity:es  : Flag similarity
 
           personal_fields: [ ]
 
@@ -165,12 +164,12 @@
             <<: *default_columns_to_fields
 
             guid:fr             : guid
-            Country:fr          : Country
-            Country info:fr     : Country info
-            Capital:fr          : Capital
-            Capital info:fr     : Capital info
-            Capital hint:fr     : Capital hint
-            Flag similarity:fr  : Flag similarity
+            country:fr          : Country
+            country info:fr     : Country info
+            capital:fr          : Capital
+            capital info:fr     : Capital info
+            capital hint:fr     : Capital hint
+            flag similarity:fr  : Flag similarity
 
           personal_fields: [ ]
 
@@ -185,12 +184,12 @@
             <<: *default_columns_to_fields
 
             guid:nb             : guid
-            Country:nb          : Country
-            Country info:nb     : Country info
-            Capital:nb          : Capital
-            Capital info:nb     : Capital info
-            Capital hint:nb     : Capital hint
-            Flag similarity:nb  : Flag similarity
+            country:nb          : Country
+            country info:nb     : Country info
+            capital:nb          : Capital
+            capital info:nb     : Capital info
+            capital hint:nb     : Capital hint
+            flag similarity:nb  : Flag similarity
 
           personal_fields: [ ]
 
@@ -205,12 +204,12 @@
             <<: *default_columns_to_fields
 
             guid:cs             : guid
-            Country:cs          : Country
-            Country info:cs     : Country info
-            Capital:cs          : Capital
-            Capital info:cs     : Capital info
-            Capital hint:cs     : Capital hint
-            Flag similarity:cs  : Flag similarity
+            country:cs          : Country
+            country info:cs     : Country info
+            capital:cs          : Capital
+            capital info:cs     : Capital info
+            capital hint:cs     : Capital hint
+            flag similarity:cs  : Flag similarity
 
           personal_fields: [ ]
 
@@ -225,12 +224,12 @@
             <<: *default_columns_to_fields
 
             guid:ru             : guid
-            Country:ru          : Country
-            Country info:ru     : Country info
-            Capital:ru          : Capital
-            Capital info:ru     : Capital info
-            Capital hint:ru     : Capital hint
-            Flag similarity:ru  : Flag similarity
+            country:ru          : Country
+            country info:ru     : Country info
+            capital:ru          : Capital
+            capital info:ru     : Capital info
+            capital hint:ru     : Capital hint
+            flag similarity:ru  : Flag similarity
 
           personal_fields: [ ]
 
@@ -245,12 +244,12 @@
             <<: *default_columns_to_fields
 
             guid:nl             : guid
-            Country:nl          : Country
-            Country info:nl     : Country info
-            Capital:nl          : Capital
-            Capital info:nl     : Capital info
-            Capital hint:nl     : Capital hint
-            Flag similarity:nl  : Flag similarity
+            country:nl          : Country
+            country info:nl     : Country info
+            capital:nl          : Capital
+            capital info:nl     : Capital info
+            capital hint:nl     : Capital hint
+            flag similarity:nl  : Flag similarity
 
           personal_fields: [ ]
 
@@ -265,12 +264,12 @@
             <<: *default_columns_to_fields
 
             guid:sv             : guid
-            Country:sv          : Country
-            Country info:sv     : Country info
-            Capital:sv          : Capital
-            Capital info:sv     : Capital info
-            Capital hint:sv     : Capital hint
-            Flag similarity:sv  : Flag similarity
+            country:sv          : Country
+            country info:sv     : Country info
+            capital:sv          : Capital
+            capital info:sv     : Capital info
+            capital hint:sv     : Capital hint
+            flag similarity:sv  : Flag similarity
 
           personal_fields: [ ]
 
