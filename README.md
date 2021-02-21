@@ -118,8 +118,8 @@ You may have initially installed _Ultimate Geography_ by importing an **APKG fil
 If you're in this situation and wish to upgrade, proceed as follows:
 
 1. Perform the _Getting started_ steps exactly.
-1. You should end up with two decks: your original deck called "Ultimate Geography" and a new, duplicated deck called "Ultimate Geography_2". Every card in your original deck should have moved automatically to the new deck and your original deck should now be empty. You can verify this in Anki's [card browser](https://docs.ankiweb.net/#/browsing?id=browsing).
-1. To get back to having a single deck, delete your original deck and rename the new deck to "Ultimate Geography". From here on, future upgrades will be seamless.
+1. You should end up with two decks: your original deck called "Ultimate Geography" and a new, duplicated deck called "Ultimate Geography_2". Unless you created some notes of your own, every card in your original deck should have moved automatically to the new deck and your original deck should now be empty. You can verify this in Anki's [card browser](https://docs.ankiweb.net/#/browsing?id=browsing).
+1. To get back to having a single deck, move any remaining cards out of the original deck and delete it. Then, rename the new deck to "Ultimate Geography". From here on, future upgrades will be seamless.
 
 ### Cards moved into other deck
 
@@ -129,10 +129,16 @@ To prevent this behaviour and update the existing cards in place, follow the ste
 
 ### Standard to extended
 
-Importing an extended deck on top of a standard deck may bring unepected results. Instead, we recommend that you start learning the extended deck from scratch. To do so, either:
+Importing an extended deck on top of a standard deck may bring unexpected results. You should consider learning the extended deck from scratch. To do so, either:
 
 - remove the standard deck first by following the instructions in the [_Major version_](#major-version) section below, or
 - import the extended deck in a separate Anki profile.
+
+If you'd rather keep your progress, proceed as follows:
+
+1. Perform the _Getting started_ steps exactly or as per the [_Cards moved into other deck_](cards-moved-into-other-deck) scenario.
+1. Instead of a dialog box confirming that the import was successful, you'll see another dialog box titled _Change Note Type_. In the _Cards_ section, set _Change Flag - Country to:_ to "Flag - Country" (instead of "Country - Flag"), and set _Change Map - Country to:_ to "Map - Country" (instead of "Flag - Country").
+1. Check that the other cards and fields map correctly and click on _OK_.
 
 ### Major version
 
