@@ -93,19 +93,19 @@ In order to install and later upgrade _Ultimate Geography_ you'll need to first 
 
 1. Open Anki on your computer, go to the _Tools_ menu and select _Add-ons_.
 1. In the dialog box, click on _Get Add-ons..._ and paste in the code provided on [this page](https://ankiweb.net/shared/info/1788670778).
-1. Click on _OK_ to download the add-on, and then restart Anki.
+1. Click on _OK_ to install the add-on, and then restart Anki.
 
 You're now ready to install _Ultimate Geography_:
 
 1. Go to the **[_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases)**.
-1. In the latest release's _Downloads_ section, download the ZIP archive of the version of the deck you'd like to use. You can choose between [a standard and an extended version](#features) in [a number of languages](#ultimate-geography) -- for instance, if you're after the standard German deck, download `Ultimate_Geography_v[...]_DE.zip`.
+1. In the latest release's _Downloads_ section, download the ZIP archive of the version of the deck you'd like to use. You can choose between [a standard and an extended version](#features) in a number of [languages](#ultimate-geography) -- for instance, if you're after the standard German deck, download `Ultimate_Geography_v[...]_DE.zip`.
 1. Extract the content of the archive on your computer.
 1. Open Anki and make sure your devices are all synchronised.
 1. In the _File_ menu, select _CrowdAnki: Import from disk_.
-1. Browse for and select the folder you extracted from the archive, which should contain the deck's JSON file and `media` folder -- e.g. `Ultimate Geography [DE]`.
-1. Don't change anything in the _CrowdAnki Import Settings_ dialog box that opens -- just press _OK_ to perform the import. A dialog box should then confirm that the import was successful.
+1. Browse for and select the folder you extracted from the archive, which contains the deck's JSON file and `media` folder -- e.g. `Ultimate Geography [DE]`.
+1. Don't change anything in the _CrowdAnki Import Settings_ dialog box that opens -- just press _OK_ to start the import. A dialog box should then confirm that the import was successful.
 
-To stay informed of new releases, make sure to [watch this repository's releases](https://help.github.com/en/articles/watching-and-unwatching-releases-for-a-repository).
+👉 To stay informed of new releases, make sure to [watch this repository's releases](https://help.github.com/en/articles/watching-and-unwatching-releases-for-a-repository).
 
 ## Upgrading
 
@@ -113,21 +113,25 @@ The upgrade process is typically the same as the installation process explained 
 
 ### First upgrade after APKG import
 
-You may have initially installed _Ultimate Geography_ by importing an **APKG file**. You may have downloaded such a file from this repo or from the [deck's page](https://ankiweb.net/shared/info/2109889812) on AnkiWeb, as this used to be the recommended installation process.
+You may have initially installed _Ultimate Geography_ by importing an **APKG file**. You may have downloaded such a file from this repository or from the [deck's page](https://ankiweb.net/shared/info/2109889812) on AnkiWeb, as this used to be the recommended installation process.
 
 If you're in this situation and wish to upgrade, proceed as follows:
 
 1. Perform the _Getting started_ steps exactly.
 1. You should end up with two decks: your original deck called "Ultimate Geography" and a new, duplicated deck called "Ultimate Geography_2". Unless you created some notes of your own, every card in your original deck should have moved automatically to the new deck and your original deck should now be empty. You can verify this in Anki's [card browser](https://docs.ankiweb.net/#/browsing?id=browsing).
-1. To get back to having a single deck, move any remaining cards out of the original deck and delete it. Then, rename the new deck to "Ultimate Geography". From here on, future upgrades will be seamless.
+1. To get back to having a single deck, move any of your own cards out of the original deck and delete it. Then, rename the new deck to "Ultimate Geography". From here on, future upgrades will be seamless.
 
-### Cards moved into other deck
+### Keeping any moved cards where they are
 
 If you've moved some of the cards out of the default _Ultimate Geography_ deck and into another deck, by default CrowdAnki will move those cards back on import.
 
 To prevent this behaviour and update the existing cards in place, follow the steps in the [_Getting started_](@getting-started) section but in the last step, make sure to tick the _Do Not Move Existing Cards_ checkbox in the _CrowdAnki Import Settings_ dialog box.
 
-### Standard to extended
+### Keeping your own cards
+
+Unless otherwise mentioned in the release notes, if you've added your own cards to the deck, you can be reassured that upgrading will not affect them whatsoever. If a duplicated deck is created on import for whatever reason, the cards you created will always remain in their original deck.
+
+### Levelling up from standard to extended
 
 Importing an extended deck on top of a standard deck may bring unexpected results. You should consider learning the extended deck from scratch. To do so, either:
 
@@ -138,7 +142,7 @@ If you'd rather keep your progress, proceed as follows:
 
 1. Perform the _Getting started_ steps exactly or as per the [_Cards moved into other deck_](cards-moved-into-other-deck) scenario.
 1. Instead of a dialog box confirming that the import was successful, you'll see another dialog box titled _Change Note Type_. In the _Cards_ section, set _Change Flag - Country to:_ to "Flag - Country" (instead of "Country - Flag"), and set _Change Map - Country to:_ to "Map - Country" (instead of "Flag - Country").
-1. Check that the other cards and fields map correctly and click on _OK_.
+1. Check that the other cards and fields map correctly and click on _OK_ to start the import.
 
 ### Major version
 
