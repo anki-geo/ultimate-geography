@@ -89,7 +89,6 @@
           columns_to_fields:
             <<: &default_columns_to_fields
               tags: tags
-
               Flag: Flag
               Map: Map
 

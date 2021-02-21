@@ -7,19 +7,11 @@ Seen something outdated or plain wrong? Spotted a typo somewhere? Think somethin
 #### Table of contents
 
 - [**Contributor's guide**](#contributors-guide)
-  - [Set-up](#set-up)
-  - [Project structure](#project-structure)
-    - [Csvs](#csvs)
-    - [Media](#media)
-  - [Source to Anki](#source-to-anki)
-  - [Anki to Source](#anki-to-source)
-  - [Making a change in source files](#making-a-change-in-source-files)
-    - [Adding a new country](#adding-a-new-country)
-    - [Changing an existing entry](#changing-an-existing-entry)
-    - [Removing a country entirely](#removing-a-country-entirely)
-    - [Adding a new translation](#adding-a-new-translation)
-    - [Adding a new column (e.g. Population, Currency, etc)](#adding-a-new-column-eg-population-currency-etc)
-    - [Changing the Recipe builders](#changing-the-recipe-builders)
+  - [Getting started](#getting-started)
+  - [Brain Brew recipes](#brain-brew-recipes)
+    - [Source to Anki](#source-to-anki)
+    - [Anki to Source](#anki-to-source)
+  - [How-to's](#how-tos)
 - [**Content inclusion rules**](#content-inclusion-rules)
   - [Political geography](#political-geography)
     - [Sovereign states](#sovereign-states)
@@ -55,123 +47,58 @@ Seen something outdated or plain wrong? Spotted a typo somewhere? Think somethin
 
 Ready to start working on an issue? Here is what you need to know.
 
-- If you're new to contributing on GitHub, [read this guide](https://guides.github.com/activities/contributing-to-open-source/) first.
-- The deck is managed with [Brain Brew][Brain Brew].
-    - All data is (currently) stored in the split csv files in `src/data/split` with a column for each translation of the deck.
-    - [Brain Brew][Brain Brew] allows for syncing to and from Anki, so one can edit this deck in either Csv format or in Anki itself. See the steps below for how to build the deck.
-    - All dependencies are managed with [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/basics.html)
-        - This ensures that this project runs in a virtual environment, which is not hampered by individual setups
+> If you're new to contributing on GitHub, [read this guide](https://guides.github.com/activities/contributing-to-open-source/) first.
 
-### Set-up
+The deck is managed with [Brain Brew][Brain Brew], a deck manager that allows transforming _Ultimate Geography_ back and forth between its CrowdAnki JSON representation and a format that is easy for humans to read, modify and version-control (currently CSV). This means that one can edit this deck either here, in this repository, or in Anki itself.
 
-1. Install the [CrowdAnki add-on](https://github.com/Stvad/CrowdAnki) in Anki.
+Brain Brew and its dependencies are managed with [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/basics.html). Running Brain Brew inside a virtual environment guarantees that is not hampered by individual setups.
+
+The content of the deck is stored in multiple CSV files under `src/data`. The main file is `main.csv`. Each row corresponds to a note and each column to a field.
+
+Translated fields, such as _Country_ or _Capital info_, have their own CSV files called _derivatives_, in which each column corresponds to one language. The _Country_ field is used to map rows in the derivatives with notes in `main.csv`. The mapping is not necessarily one to one: if a note has no capital (e.g. because it's a water body), then it must not appear in `capital.csv`.
+
+### Getting started
 
 1. Fork and clone this repository on your machine.
+1. [Install Python 3.7](https://www.python.org/downloads/release/python-379/)
+  - During the installation, make sure to install `pip` (it's optional) and to tick _Add Python 3.7 to PATH_.
+1. Install Pipenv with `pip install pipenv`.
+  - If the `pip` executable is not available, try `pip3 install pipenv` instead.
+1. In the root directory of your fork, run `pipenv install` to install Brain Brew and its dependencies in a new virtual environment.
+1. You can now run this deck's Brain Brew recipes with `pipenv run brain_brew recipes/<filename>.yaml`.
 
+### Brain Brew recipes
 
-1. Install Python 3.7 and `Pip`
-   - https://www.python.org/downloads/release/python-379/
-   - Also install `pip` with it (it is optional)
-   - Tick `Add Python 3.7 to PATH` in the install options
+#### Source to Anki
 
+```bash
+pipenv run brain_brew recipes/source_to_anki.yaml
+```
 
-1. Install `Pipenv`
-    - `pip install pipenv` (may need to use `pip3` instead)
+This recipe builds the deck from source in a format that can be imported into Anki with the CrowdAnki add-on. More precisely, it generates every possible version of the deck (i.e. standard + extended, in every language) into sub-folders inside the `build` folder. Each of these sub-folders includes a CrowndAnki JSON file and all of the deck's images.
 
-1. Setup the Pipenv environment. This will install [Brain Brew][Brain Brew] and all of its dependencies in a virtual environment.
-    - `pipenv install`
+On first run, this recipe generates all the missing files and folders in the `build` folder, logging warnings in the output. Upon subsequent runs, the warnings disappear.
 
-    1. Use this new virtual environment
-        - `pipenv shell` in the main directory
-        - Use `deactivate` to exit the virtual environment, if you wish
+#### Anki to Source
 
-### Project structure
+```bash
+pipenv run brain_brew recipes/anki_to_source.yaml
+```
 
-#### Csvs
+This recipe allows editing the English standard or extended deck in Anki, and then pulling the changes into the CSVs. Other languages are currently not supported. It also does not support editing the note model, card templates, deck description, etc. -- only the content of the notes.
 
-The data for the deck is stored in multiple csv files in `src/data/split`,
-which are all split up by the different fields and their many translations.
-It is split up this way as a single csv file with each translation is too unwieldy.
+1. Make your edits in Anki.
+1. Export the deck with CrowdAnki into the `build/Ultimate Geography [EN]` folder (even if you've edited the extended deck).
+1. Run `pipenv run brain_brew recipes/anki_to_source.yaml`.
+1. Any new media will be placed at the top level of the `src/media` folder and will need to be moved into the appropriate sub-folder.
 
-The main file is `main.csv` which contains the guid, country, flag, map, and tags.
-All other csv files are Derivatives of main and contain extra data that is added onto main's rows.
-Each contains the Country name as the first field,
-which is used to match it together with the row in `main.csv`.
+### How-to's
 
-*Derivative entries are completely optional!* `Capital_hint.csv` only has 4 entries,
-as those are the only ones that actually have any of the columns populated.
-Only enter a row into a derivative csv if it is needed.
+- To **add a new note** to the deck, add one row to `main.csv`, `guid.csv`, and any of the derivative CSVs as needed. Don't fill in any of the GUIDs in `guid.csv` -- they will be generated automatically by the `source_to_anki.yaml` recipe.
+- To **change the _Country_ field** of a note, change it in `main.csv`, `guid.csv`, `country.csv`, and any other derivative CSV in which the note appears.
+- To **add a new translation**, add a new column to each of the CSV files and name them as follows: `[field name]:[language code]` (e.g. `country info:fr`, all lowercase). In most cases, the language code should match the Wikipedia subdomain for that language (e.g. https://fr.wikipedia.org/).
 
-
-#### Media
-
-Media files are stored in the `src/media` folder, under arbitrary subfolders.
-
-
-### Source to Anki
-
-From here, building the deck is as simple as running `brain_brew recipes/source_to_anki.yaml`.
-[Brain Brew][Brain Brew] builds the deck into the `build` folder,
-in a format that CrowdAnki understands, which you can then import into Anki.
-
-On first run it will generate all the missing files and folders, with some warnings in the output.
-This is normal.
-
-
-### Anki to Source
-
-One can also make changes in Anki, and pull the changes back into the csv files. Simply:
-
-1. Make your edit(s) in Anki
-1. Export the deck using CrowdAnki into the `build/Ultimate Geography` folder
-    - Use this folder even if you are using the Extended deck.
-      The below recipe yaml file is setup to look at this export.
-      The end result will be the same.
-    - If using a different language than English then this option will need further configuring :sweat:
-1. Run `brain_brew recipes/source_from_anki.yaml`
-    - This will take all changes to Notes and their Media.
-        - Existing media will be updated in the folder it is already located.
-          New media will be placed on the top level of the `src/media` folder.
-          They can then be moved into any arbitrary subfolder.
-    - However it will **not** take changes to Note Models, Card Templates, Deck Description, or Deck options.
-
-
-
-### Making a change in source files
-
-#### Adding a new country
-
-Add the country to `main.csv`, and then any other derivative files that are needed.
-
-Do not create a guid for the country, that will be autogenerated on the
-first run of the `source_to_anki.yaml` recipe.
-
-#### Changing an existing entry
-
-If you change the country name, please remember to update each derivative file that contains that country.
-
-#### Removing a country entirely
-
-Same as above, remember the derivative files.
-
-#### Adding a new translation
-
-Add a new column to each of the csv files, following the
-naming convention of `[field name]:[country code]`
-(e.g. `country info:fr`) all in lowercase.
-
-#### Adding a new column (e.g. Population, Currency, etc)
-
-The most heavily requested change to the deck!
-This will soon™ be solved using [Brain Brew][Brain Brew] by combining separate repositories.
-
-#### Changing the Recipe builders
-
-Advanced.
-See [Brain Brew's Contributing](https://github.com/ohare93/brain-brew/blob/master/CONTRIBUTING.md) for more info.
-
-`-v` can be used when building a recipe to only run verification on the recipe file.
-
+> Adding new fields (e.g. population, currency, etc.), the most heavily requested change to the deck, will soon™ be solved using [Brain Brew][Brain Brew], by combining separate repositories. Stay tuned.
 
 ## Content inclusion rules
 
