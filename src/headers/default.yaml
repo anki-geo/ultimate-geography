@@ -6,7 +6,7 @@ extendRev: 50
 deck_configurations:
 - __type__: DeckConfig
   crowdanki_uuid: 43d37fac-9a65-11e8-9cc5-a0481cc15658
-  name: Default
+  name: Ultimate Geography
   autoplay: false
   dyn: false
   lapse:
