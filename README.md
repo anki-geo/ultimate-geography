@@ -147,8 +147,6 @@ If you'd rather keep your progress, proceed as follows:
 
 Major versions (e.g. `v3.0`) typically indicate that upgrading may lead to a significant loss of progress, or to the loss of [some of the customisations](#customising-the-deck) you may have made to the deck that would normally be preserved. This can occur, for instance, when [significant changes](https://github.com/axelboc/anki-ultimate-geography/releases/tag/v3.0) are made to the structure of the deck.
 
-> For more information about versioning and the differences between minor and major, please refer to the [_Versioning_](CONTRIBUTING.md#versioning) section of the _CONTRIBUTING_ guide.
-
 Read the release notes carefully to know if the loss of progress/customisation actually concerns you. If it does, the release notes will tell you how best to upgrade and may even offer you ways to preserve or mitigate your losses. Worst-case scenario, you may have no other choice but to accept the losses and perform a "clean import" as follows:
 
 1. Open Anki and make sure your devices are all synchronised.
@@ -204,17 +202,11 @@ Interested in making changes to the deck in Anki? Here's what you need to know.
 
   Any edits you make to the built-in templates of the _Ultimate Geography_ note type will be reverted on upgrade. Same goes with the CSS styles that are shared by all the templates.
 
-  One way to workaround this and preserve your changes is to  first duplicate the note type and switch all the cards to the new note type in the Anki browser. You can then make your template and style changes in the duplicate note type without affecting the original note type. The next time you upgrade, all the cards will switch back to the original note type, but you can easily switch them back to your customised note type in the Anki browser.
+  One way to workaround this and preserve your changes is to first [clone the note type](https://docs.ankiweb.net/#/editing?id=adding-a-note-type) and switch all the cards to the new note type in the Anki browser. You can then make your template and style changes in the cloned note type without affecting the original note type. The next time you upgrade, all the cards will switch back to the original note type, but you can easily switch them back to your customised note type in the Anki browser.
 
   > Note that you may have to update your custom templates and styles afterwards to stay in line with the built-in templates.
 
-- **Adding or removing a template**
-
-  We're getting into dangerous territory here, but you should be able to make this work by duplicating the default note type as explained in the previous point, _Customising the templates and their styles_.
-
-  The difference is that, when you import the deck and/or when you switch back the cards to your customised note type, you may see a dialog box asking you to match the templates of one note type to the templates of the other note type. (This same dialog box appears when importing the extended deck [on top of the standard deck](#levelling-up-from-standard-to-extended).)
-
-  As long as you map the templates that Anki asks you to match correctly, you should be fine. However, we strongly recommend that you try this out in a separate Anki profile first.
+  A word of caution ⚠️: the above workaround is not guaranteed to work, so you may want to back up your local deck before upgrading by first exporting it with CrowdAnki.
 
 ### Changes that get reverted 😬
 
@@ -243,12 +235,18 @@ The changes listed below will be lost the next time you upgrade and there's no o
   - creating a [filtered deck](#custom-study) that doesn't include the card;
   - moving the card into an "icebox" deck and ticking the _Do Not Move Existing Cards_ the next time you upgrade, as explained in the previous section, under _Moving cards into another deck_.
 
+- **Adding or removing a template**
+
+  If you add your own template to the _Ultimate Geography_ note type, you will lose it and all the cards created from it when you upgrade. During the upgrade, you will see a dialog box asking you to match your current templates to the deck's built-in templates. (This same dialog box appears when importing the extended deck [on top of the standard deck](#levelling-up-from-standard-to-extended).) Unfortunately, you will have not choice but to map your extra template to "Nothing". You can re-add it again after the upgrade, to recreate the cards, but your progress on those cards will be lost.
+
+  If you remove a template, you will see the same dialog box when you upgrade. The template and its associated cards will then be recreated. You can easily remove the template again after the upgrade, if you so wish.
+
 ### Changes that prevent upgrading ⛔
 
 - **Adding a new field (population, currency, etc.)**
 
   Adding a new field to the _Ultimate Geography_ note type will prevent you from upgrading the deck entirely. When you'll try to import it again, Anki will likely error and you'll risk losing your entire progress. Hopefully Anki, CrowdAnki, Brain Brew, and UG will [one day](https://github.com/ohare93/brain-brew/issues/4#issuecomment-644975261) find a way to make this possible.
 
-  Note that the technique of duplicating the note type explained under _Customising the templates and styles_ will not work here. If you've added a new field and are wanting to upgrade, you have no choice but to first **remove the field** from the note type.
+  Note that the technique of cloning the note type explained under _Customising the templates and styles_ will not work here. If you've added a new field and are wanting to upgrade, you have no choice but to first **remove the field** from the note type.
 
   > If you really know what you're doing, you could try exporting your deck with CrowdAnki, carefully merging the JSON file of the new version of the deck into your exported deck's JSON file, and then importing your deck back into Anki ... but if you're capable of this, your skills would be put to much better use contributing to [CrowdAnki](https://github.com/Stvad/CrowdAnki) and [Brain Brew](https://github.com/ohare93/brain-brew/)! 😁
