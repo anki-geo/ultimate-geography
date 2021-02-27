@@ -132,7 +132,7 @@ If you've made, or are thinking of making, any changes to your _Ultimate Geograp
 
 ### Levelling up from standard to extended
 
-Importing an extended deck on top of a standard deck may bring unexpected results. You should consider learning the extended deck from scratch. To do so, either:
+Importing an extended deck on top of a standard deck is tricky and needs care. You may instead consider learning the extended deck from scratch. To do so, either:
 
 - remove the standard deck first by following the instructions in the [_Major version_](#major-version) section below, or
 - import the extended deck in a separate Anki profile.
@@ -145,7 +145,7 @@ If you'd rather keep your progress, proceed as follows:
 
 ### Major version
 
-Major versions (e.g. `v3.0`) typically indicate that upgrading may lead to a significant loss of progress, or to the loss of [some of the customisations](#customising-the-deck) you may have made to the deck that would normally be preserved. This can occur, for instance, when [significant changes](https://github.com/axelboc/anki-ultimate-geography/releases/tag/v3.0) are made to the structure of the deck, or when [lots of cards](https://github.com/axelboc/anki-ultimate-geography/releases/tag/v4.0) are removed.
+Major versions (e.g. `v3.0`) typically indicate that upgrading may lead to a significant loss of progress, or to the loss of [some of the customisations](#customising-the-deck) you may have made to the deck that would normally be preserved. This can occur, for instance, when [significant changes](https://github.com/axelboc/anki-ultimate-geography/releases/tag/v3.0) are made to the structure of the deck.
 
 > For more information about versioning and the differences between minor and major, please refer to the [_Versioning_](CONTRIBUTING.md#versioning) section of the _CONTRIBUTING_ guide.
 
@@ -180,7 +180,7 @@ Interested in making changes to the deck in Anki? Here's what you need to know.
 
 - **Adding your own cards and media files**
 
-  Go wild. 🌊 Upgrading will not affect any new cards you create, or any new media files you add.
+  Go wild. 🌊 Upgrading will not affect any new cards you create, or any new media files you add to the newly added cards.
 
   If a duplicated deck is [created on import](#first-upgrade-after-apkg-import), your own cards will stay in their original deck.
 
@@ -188,7 +188,7 @@ Interested in making changes to the deck in Anki? Here's what you need to know.
 
   Some people prefer to combine multiple decks into one to review them together.
 
-  By default, CrowdAnki will move all the cards back into the _Ultimate Geography_ deck on import. To prevent this behaviour and update the existing cards in place, follow the steps in the [_Getting started_](@getting-started) section but in the last step, make sure to tick the _Do Not Move Existing Cards_ checkbox in the _CrowdAnki Import Settings_ dialog box.
+  By default, CrowdAnki will move all the cards back into the _Ultimate Geography_ deck on import. To prevent this behaviour and update the existing cards in place, make sure to tick the _Do Not Move Existing Cards_ checkbox in the _CrowdAnki Import Settings_ dialog box, when following the steps in the [_Getting started_](@getting-started) section.
 
   > Note that if you had previously deleted the _Ultimate Geography_ deck, it will be recreated and may contain new cards.
 
@@ -247,7 +247,7 @@ The changes listed below will be lost the next time you upgrade and there's no o
 
 - **Adding a new field (population, currency, etc.)**
 
-  Adding a new field to the _Ultimate Geography_ note type will prevent you from upgrading the deck entirely. When you'll try to import it again, Anki will likely error and you'll risk losing your entire progress. Hopefully Anki, CrowdAnki, Brain Brew and UG will [one day](https://github.com/ohare93/brain-brew/issues/4#issuecomment-644975261) find a way to make this possible.
+  Adding a new field to the _Ultimate Geography_ note type will prevent you from upgrading the deck entirely. When you'll try to import it again, Anki will likely error and you'll risk losing your entire progress. Hopefully Anki, CrowdAnki, Brain Brew, and UG will [one day](https://github.com/ohare93/brain-brew/issues/4#issuecomment-644975261) find a way to make this possible.
 
   Note that the technique of duplicating the note type explained under _Customising the templates and styles_ will not work here. If you've added a new field and are wanting to upgrade, you have no choice but to first **remove the field** from the note type.
 
