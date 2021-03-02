@@ -18,15 +18,20 @@ The deck is available in **English**, **German**, **Spanish**, **French**, **Nor
   - [Supplementary information](#supplementary-information)
   - [Custom study](#custom-study)
 - [**Getting started**](#getting-started)
-  - [Other languages and versions](#other-languages-and-versions)
 - [**Upgrading**](#upgrading)
-  - [Minor version](#minor-version)
+  - [First upgrade after APKG import](#first-upgrade-after-apkg-import)
+  - [Keeping deck customisations](#keeping-deck-customisations)
+  - [Levelling up from standard to extended](#levelling-up-from-standard-to-extended)
   - [Major version](#major-version)
 - [**Deck structure**](#deck-structure)
+- [**Customising the deck**](#customising-the-deck)
+  - [Changes that are or can be preserved](#changes-that-are-or-can-be-preserved-)
+  - [Changes that get reverted](#changes-that-get-reverted-)
+  - [Changes that prevent upgrading](#changes-that-prevent-upgrading-)
 
 ## Features
 
-The standard version of the deck comes with four note templates: _Country - Capital_, _Capital - Country_, _Flag - Country_, and _Map - Country_. An [extended version](#other-languages-and-versions) is also available, with two additional note templates: _Country - Flag_ and _Country - Map_.
+The standard version of the deck comes with four note templates: _Country - Capital_, _Capital - Country_, _Flag - Country_, and _Map - Country_. An **extended version** is also available, with two additional note templates: _Country - Flag_ and _Country - Map_.
 
 <table>
   <tr><th scope="col" colspan="2">Flag - Country</th></tr>
@@ -87,56 +92,71 @@ Anki's [search feature](https://docs.ankiweb.net/#/searching), coupled with the 
 
 ## Getting started
 
-First-time here? Welcome! If you're happy using the standard, English version of the deck, here is how to get started:
+First-time here? Welcome! 👋
 
-1. Go to the **[_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases)** and find the latest release.
-1. In the _Downloads_ section, find the Anki package `Ultimate_Geography_v[...]_EN.apkg` and download it.
-1. Import it in Anki, synchronise your devices and you're good to go!
-1. To stay informed of new releases, make sure to [watch this repository's releases](https://help.github.com/en/articles/watching-and-unwatching-releases-for-a-repository).
+In order to install and later upgrade _Ultimate Geography_ you'll need to first install an Anki add-on called [CrowdAnki](https://github.com/Stvad/CrowdAnki):
 
-> You can also download the latest Anki package from the [shared deck page]( https://ankiweb.net/shared/info/2109889812).
+1. Open Anki on your computer, go to the _Tools_ menu and select _Add-ons_.
+1. In the dialog box, click on _Get Add-ons..._ and paste in the code provided on [this page](https://ankiweb.net/shared/info/1788670778).
+1. Click on _OK_ to install the add-on, and then restart Anki.
 
-### Other languages and versions
+You're now ready to install _Ultimate Geography_:
 
-The standard English deck is the only version available as an Anki package. If you'd like to use the standard deck in another language, or the extended deck in any language, first install the [CrowdAnki add-on](https://github.com/Stvad/CrowdAnki) then follow the steps below.
-
-> Please note that importing an extended deck on top of a standard deck is not recommended. You should either remove the standard deck first (by following the instructions in the [_Major version_](#major-version) section), or import the extended deck in a separate Anki profile.
-
-1. Go to the [_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases) and find the latest release.
-1. In the release's _Downloads_ section, find the ZIP archive of the version you're interested in using (e.g. `Ultimate_Geography_v[...]_DE.zip` for the standard German deck) and download it.
-1. Extract the content of the archive on your machine.
+1. Go to the **[_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases)**.
+1. In the latest release's _Downloads_ section, download the ZIP archive of the version of the deck you'd like to use. You can choose between [a standard and an extended version](#features) in a number of [languages](#ultimate-geography) -- for instance, if you're after the standard German deck, download `Ultimate_Geography_v[...]_DE.zip`.
+1. Extract the content of the archive on your computer.
 1. Open Anki and make sure your devices are all synchronised.
 1. In the _File_ menu, select _CrowdAnki: Import from disk_.
-1. Browse for and select the folder you extracted from the archive, which should contain the deck's JSON file and media folder.
-1. Perform the import.
+1. Browse for and select the folder you extracted from the archive, which contains the deck's JSON file and `media` folder -- e.g. `Ultimate Geography [DE]`.
+1. Don't change anything in the _CrowdAnki Import Settings_ dialog box that opens -- just press _OK_ to start the import. A dialog box should then confirm that the import was successful.
 
+👉 To stay informed of new releases, make sure to [watch this repository's releases](https://help.github.com/en/articles/watching-and-unwatching-releases-for-a-repository).
 
 ## Upgrading
 
-If you're looking to upgrade to a newer version of the deck, this section is for you. The process differs depending on whether you're upgrading to a minor (e.g. v2.6) or a major (e.g. v3.0) version.
+The upgrade process is typically the same as the installation process explained in the [previous section](#getting-started). However, some situations require extra care. As a general rule, **always read the release notes carefully**; they will likely tell you what to do or point you to a page that does.
 
-> For more information about versioning and the differences between minor and major, please refer to the [_Versioning_](CONTRIBUTING.md#versioning) section.
+### First upgrade after APKG import
 
-### Minor version
+You may have initially installed _Ultimate Geography_ by importing an **APKG file**. You may have downloaded such a file from this repository or from the [deck's page](https://ankiweb.net/shared/info/2109889812) on AnkiWeb, as this used to be the recommended installation process.
 
-For a minor version upgrade (e.g. from 2.3 to 2.6), _do not_ import the APKG package in Anki as you may have done initially or you will lose your progress. Instead, proceed as described in the [_Other languages and versions_](#other-languages-and-versions) section, making sure to pick the correct archive (e.g. `Ultimate_Geography_v[...]_EN.zip` for the standard English deck).
+If you're in this situation and wish to upgrade, proceed as follows:
 
-> If you've moved some of the cards out of the default _Ultimate Geography_ deck and into another deck, by default CrowdAnki will move those cards back on import. This behaviour [can be disabled](https://github.com/Stvad/CrowdAnki#configuration-settings).
+1. Perform the _Getting started_ steps exactly.
+1. You should end up with two decks: your original deck called "Ultimate Geography" and a new, duplicated deck called "Ultimate Geography_2". Unless you created some notes of your own, every card in your original deck should have moved automatically to the new deck and your original deck should now be empty. You can verify this in Anki's [card browser](https://docs.ankiweb.net/#/browsing?id=browsing).
+1. To get back to having a single deck, move any of your own cards out of the original deck and delete it. Then, rename the new deck to "Ultimate Geography". From here on, future upgrades will be seamless.
+
+### Keeping deck customisations
+
+If you've made, or are thinking of making, any changes to your _Ultimate Geography_ deck, check the [_Customising the deck_](#customising-the-deck) section below to see what will happen to them the next time you upgrade, and whether you need to take any steps to preserve them.
+
+### Levelling up from standard to extended
+
+Importing an extended deck on top of a standard deck is tricky and needs care. You may instead consider learning the extended deck from scratch. To do so, either:
+
+- remove the standard deck first by following the instructions in the [_Major version_](#major-version) section below, or
+- import the extended deck in a separate Anki profile.
+
+If you'd rather keep your progress, proceed as follows:
+
+1. Perform the _Getting started_ steps exactly.
+1. Instead of a dialog box confirming that the import was successful, you'll see another dialog box titled _Change Note Type_. In the _Cards_ section, set _Change Flag - Country to:_ to "Flag - Country" (instead of "Country - Flag"), and set _Change Map - Country to:_ to "Map - Country" (instead of "Flag - Country").
+1. Check that the other cards and fields map correctly and click on _OK_ to start the import.
 
 ### Major version
 
-Upgrading to a major version (e.g. from 2.6 to 3.0) typically leads to a loss of progress. Therefore, unless the [release's page](https://github.com/axelboc/anki-ultimate-geography/releases) tells you otherwise, it is recommended to perform a clean import by following these steps:
+Major versions (e.g. `v3.0`) typically indicate that upgrading may lead to a significant loss of progress, or to the loss of [some of the customisations](#customising-the-deck) you may have made to the deck that would normally be preserved. This can occur, for instance, when [significant changes](https://github.com/axelboc/anki-ultimate-geography/releases/tag/v3.0) are made to the structure of the deck.
+
+Read the release notes carefully to know if the loss of progress/customisation actually concerns you. If it does, the release notes will tell you how best to upgrade and may even offer you ways to preserve or mitigate your losses. Worst-case scenario, you may have no other choice but to accept the losses and perform a "clean import" as follows:
 
 1. Open Anki and make sure your devices are all synchronised.
 1. Delete the `Ultimate Geography` deck.
 1. In the _Tools_ menu, select _Manage Note Types_, then delete the `Ultimate Geography` note type.
 1. In the _Tools_ menu, select _Check Database_.
 1. Sync the changes with AnkiWeb and with all your devices.
-1. You can now follow the steps of the [_Getting started_](#getting-started) section and install the major version with its APKG package.
+1. You can now follow the steps of the [_Getting started_](#getting-started) section to install the major version.
 
 ## Deck structure
-
-> Beware that changing the structure of the deck may **prevent you from upgrading it** without loss of progress.
 
 The notes are based on a **note type** called _Ultimate Geography_, which defines **eight fields**: _Country_, _Country info_, _Capital_, _Capital info_, _Capital hint_, _Flag_, _Flag similarity_ and _Map_.
 
@@ -149,3 +169,84 @@ Every note is tagged. The tags, which are listed below by category, are prefixed
 - Type - `UG::Sovereign_State`, `UG::Oceans+Seas`, `UG::Continents`
 - Continent - `UG::Africa`, `UG::Asia`, `UG::Europe`, `UG::North_America`, `UG::Oceania`, `UG::South_America`
 - Region - `UG::Caribbean`, `UG::Middle_East`, `UG::Southeast_Asia`, `UG::European_Union`, `UG::Mediterranean`, `UG::East_Africa`, `UG::West_Africa`
+
+## Customising the deck
+
+Interested in making changes to the deck in Anki? Here's what you need to know.
+
+### Changes that are or can be preserved 💖
+
+- **Adding your own cards and media files**
+
+  Go wild. 🌊 Upgrading will not affect any new cards you create, or any new media files you add to the newly added cards.
+
+  If a duplicated deck is [created on import](#first-upgrade-after-apkg-import), your own cards will stay in their original deck.
+
+- **Moving cards into another deck**
+
+  Some people prefer to combine multiple decks into one to review them together.
+
+  By default, CrowdAnki will move all the cards back into the _Ultimate Geography_ deck on import. To prevent this behaviour and update the existing cards in place, make sure to tick the _Do Not Move Existing Cards_ checkbox in the _CrowdAnki Import Settings_ dialog box, when following the steps in the [_Getting started_](@getting-started) section.
+
+  > Note that if you had previously deleted the _Ultimate Geography_ deck, it will be recreated and may contain new cards.
+
+- **Changing the deck's options**
+
+  Deck options are, for instance, the number of new cards per day, the maximum number of reviews per day, etc.
+
+  When importing the deck for the first time, CrowdAnki creates a new "option group" called _Ultimate Geography_ (unless it already exists). If you've made any changes to this group's options, they will be reverted on import.
+
+  To avoid losing your options, create your own option group and give it a distinctive name. After you upgrade, you'll just have to switch the deck back to this option group.
+
+- **Customising the templates and styles**
+
+  Any edits you make to the built-in templates of the _Ultimate Geography_ note type will be reverted on upgrade. Same goes with the CSS styles that are shared by all the templates.
+
+  One way to workaround this and preserve your changes is to first [clone the note type](https://docs.ankiweb.net/#/editing?id=adding-a-note-type) and switch all the cards to the new note type in the Anki browser. You can then make your template and style changes in the cloned note type without affecting the original note type. The next time you upgrade, all the cards will switch back to the original note type, but you can easily switch them back to your customised note type in the Anki browser.
+
+  > Note that you may have to update your custom templates and styles afterwards to stay in line with the built-in templates.
+
+  A word of caution ⚠️: the above workaround is not guaranteed to work, so you may want to back up your local deck before upgrading by first exporting it with CrowdAnki.
+
+### Changes that get reverted 😬
+
+The changes listed below will be lost the next time you upgrade and there's no other solution than to make the changes again manually after the upgrade.
+
+- **Renaming the deck or changing its description**
+
+  Upgrading always restores the deck's default name and description.
+
+- **Editing the content of a note**
+
+  Examples:
+
+  - adding a link to Wikipedia in the _Country info_ field of Curaçao;
+  - adding your own memoization hint to the _Flag similarity_ field of Poland;
+  - adding or removing a tag from a note;
+  - renaming a tag.
+
+  > If you correct a typo or a mistake, don't forget to [open an issue](https://github.com/axelboc/anki-ultimate-geography/issues/new) or a Pull Request so you don't lose your correction the next time you upgrade. 😉
+
+- **Deleting a card**
+
+  Upgrading will bring the card back. If you don't want to learn a card at all or if you want to delay learning it, consider:
+
+  - suspending or burying the card;
+  - creating a [filtered deck](#custom-study) that doesn't include the card;
+  - moving the card into an "icebox" deck and ticking the _Do Not Move Existing Cards_ the next time you upgrade, as explained in the previous section, under _Moving cards into another deck_.
+
+- **Adding or removing a template**
+
+  If you add your own template to the _Ultimate Geography_ note type, you will lose it and all the cards created from it when you upgrade. During the upgrade, you will see a dialog box asking you to match your current templates to the deck's built-in templates. (This same dialog box appears when importing the extended deck [on top of the standard deck](#levelling-up-from-standard-to-extended).) Unfortunately, you will have not choice but to map your extra template to "Nothing". You can re-add it again after the upgrade, to recreate the cards, but your progress on those cards will be lost.
+
+  If you remove a template, you will see the same dialog box when you upgrade. The template and its associated cards will then be recreated. You can easily remove the template again after the upgrade, if you so wish.
+
+### Changes that prevent upgrading ⛔
+
+- **Adding a new field (population, currency, etc.)**
+
+  Adding a new field to the _Ultimate Geography_ note type will prevent you from upgrading the deck entirely. When you'll try to import it again, Anki will likely error and you'll risk losing your entire progress. Hopefully Anki, CrowdAnki, Brain Brew, and UG will [one day](https://github.com/ohare93/brain-brew/issues/4#issuecomment-644975261) find a way to make this possible.
+
+  Note that the technique of cloning the note type explained under _Customising the templates and styles_ will not work here. If you've added a new field and are wanting to upgrade, you have no choice but to first **remove the field** from the note type.
+
+  > If you really know what you're doing, you could try exporting your deck with CrowdAnki, carefully merging the JSON file of the new version of the deck into your exported deck's JSON file, and then importing your deck back into Anki ... but if you're capable of this, your skills would be put to much better use contributing to [CrowdAnki](https://github.com/Stvad/CrowdAnki) and [Brain Brew](https://github.com/ohare93/brain-brew/)! 😁
