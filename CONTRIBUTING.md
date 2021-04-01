@@ -354,7 +354,7 @@ Content changes, such as adding a note, replacing an image, or translating the d
 
 ### Release process
 
-1. Bump the version number in `src/headers/desc.html`, check that the notes/cards stats are up to date in both `desc.html` abd `README.md`, and commit the changes.
+1. Bump the version number in `src/headers/desc.html`, check that the notes/cards stats are up to date in both `desc.html` and `README.md`, and commit the changes.
 1. Run `pipenv run brain_brew recipes/source_to_anki.yaml`.
 1. Add each folder in the `build` directory to a separate ZIP archive named as follows:
   - `Ultimate Geography [EN]` ==> `Ultimate_Geography_v[x.y]_EN.zip`.
