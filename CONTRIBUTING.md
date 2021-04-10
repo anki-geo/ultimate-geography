@@ -66,6 +66,7 @@ Translated fields, such as _Country_ or _Capital info_, have their own CSV files
   - If the `pip` executable is not available, try `pip3 install pipenv` instead.
 1. In the root directory of your fork, run `pipenv install` to install Brain Brew and its dependencies in a new virtual environment.
 1. You can now run this deck's Brain Brew recipes with `pipenv run brain_brew recipes/<filename>.yaml`.
+  - Alternatively, run `pipenv run build` to build the deck for Anki with the `source_to_anki.yaml` recipe.
 
 ### Brain Brew recipes
 
