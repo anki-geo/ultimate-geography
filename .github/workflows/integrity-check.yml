@@ -1,6 +1,6 @@
 name: Integrity check
 
-on: [pull_request]
+on: [push]
 
 jobs:
 
@@ -9,17 +9,20 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+
     - name: Set up Python 3.8
       uses: actions/setup-python@v1
       with:
         python-version: 3.8
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+
+    - name: Install dependecies
+      uses: VaultVulp/action-pipenv@v2.0.1
+      with:
+        command: install
 
     - name: Validate
-      run: |
-        brain_brew recipes/source_to_anki.yaml || (echo "::error file=source_to_anki,line=0,col=0::Build failed" && exit 1)
+      uses: VaultVulp/action-pipenv@v2.0.1
+      with:
+        command: run build
 
       # TODO: Validate the csv file structure
