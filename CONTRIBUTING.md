@@ -2,7 +2,7 @@
 
 :wave: Hello there! :tada: Thanks for taking the time to contribute!
 
-Seen something outdated or plain wrong? Spotted a typo somewhere? Think something could be better translated, or want to translate the whole deck into a new language? Awesome! :100: Let us now right away by [opening a new issue](https://github.com/axelboc/anki-ultimate-geography/issues).
+Seen something outdated or plain wrong? Spotted a typo somewhere? Think something could be better translated, or want to translate the whole deck into a new language? Awesome! :100: Let us know right away by [opening a new issue](https://github.com/axelboc/anki-ultimate-geography/issues).
 
 #### Table of contents
 
