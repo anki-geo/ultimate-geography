@@ -331,16 +331,15 @@ When Wikipedia in a given language is not sufficently exhaustive to support the 
 
 ### Norwegian Bokmål
 
-Norwegian Bokmål (nb) is the preferred written-language standard of roughly 90% of Norway's population, with the remaining 10% preferring Norwegian Nynorsk (nn).
+Norwegian Bokmål (nb-NO) is the preferred written-language standard of roughly 90% of Norway's population, with the remaining 10% preferring Norwegian Nynorsk (nn-NO). With regard to style and grammar, we have chosen a conservative style (riksmål), preferring feminine-gendered nouns only in the case of bays and islands ("-bukta" and "-øya", e.g. Biscayabukta instead of Biscayabukten).
 
-The Norwegian Bokmål translation is based on the following sources in addition to the English and German decks, listed in order of priority:
+The Norwegian Bokmål translation is based on the following sources (in addition to the English and German decks), listed in order of priority:
 
-- **[_Country names, capitals and national holidays_](https://www.regjeringen.no/no/dokumenter/statsnavn-hovedsteder-og-nasjonaldager/id87863/)** - This brochure from the Norwegian Ministry of Foreign Affairs is the most authoritative source for country names in Norwegian, as it is used by Norwegian diplomats. Only includes sovereign countries.
-- **[_The Great Norwegian Encyclopedia_](https://snl.no/)** - Used for countries and territories that were not included in the above brochure.
-- **[Wikipedia in Norwegian Bokmål](https://no.wikipedia.org/wiki/Portal:Forside)** - Used when neither of the above sources were enough to verify spelling.
-
-In matters of style and grammar, a somewhat conservative style has been used, with feminine-gendered nouns used only in the case of bays and islands ("-bukta" and "-øya", e.g. Biscayabukta instead of Biscayabukten).
-
+- **[_Store norske leksikon (The Large Norwegian Encyclopedia)_](https://snl.no/)** - Open to audience contributions, edited by professionals. The editors are usually academics. In the original translator's opinion a good trade-off between being quickly updated and being correct.
+- **[_Country names, capitals and national holidays_](https://www.regjeringen.no/no/dokumenter/statsnavn-hovedsteder-og-nasjonaldager/id87863/)** - This brochure from the Norwegian Ministry of Foreign Affairs is the most authoritative source for country names in Norwegian, as it is used by Norwegian diplomats. There are a few weaknesses: 
+  - The brochure is not updated often, possibly due to a lack of attention or diplomatic reasons for lagging behind _de facto_ changes. 
+  - Only includes sovereign countries.
+- **[Wikipedia in Norwegian (Bokmål)](https://no.wikipedia.org/wiki/Portal:Forside)** - Used when neither of the above sources were enough to verify spelling.
 
 ## Maintainer's guide
 
