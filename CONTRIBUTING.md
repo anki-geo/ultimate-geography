@@ -304,6 +304,8 @@ Two flags are then eligible for _Flag similarity_ information when they respect 
   - `0C 1M {0–2}m {0+}n` = one major difference, up to two minor differences, and any number of negligible differences
   - `0C 0M {0–3}m {0+}n` = up to three minor differences and any number of negligible differences
 
+> The [_Flag similarities_ wiki page](https://github.com/anki-geo/ultimate-geography/pull/429) lists the pairs of countries that have already been audited for flag similarities.
+
 Critical, major, and minor differences should be listed in the _Flag similarity_ field. Negligible differences should be listed only when relevant, notably when two flags share nothing but negligible differences.
 
 ### _Map_ field
@@ -336,8 +338,8 @@ Norwegian Bokmål (nb-NO) is the preferred written-language standard of roughly 
 The Norwegian Bokmål translation is based on the following sources (in addition to the English and German decks), listed in order of priority:
 
 - **[_Store norske leksikon (The Large Norwegian Encyclopedia)_](https://snl.no/)** - Open to audience contributions, edited by professionals. The editors are usually academics. In the original translator's opinion a good trade-off between being quickly updated and being correct.
-- **[_Country names, capitals and national holidays_](https://www.regjeringen.no/no/dokumenter/statsnavn-hovedsteder-og-nasjonaldager/id87863/)** - This brochure from the Norwegian Ministry of Foreign Affairs is the most authoritative source for country names in Norwegian, as it is used by Norwegian diplomats. There are a few weaknesses: 
-  - The brochure is not updated often, possibly due to a lack of attention or diplomatic reasons for lagging behind _de facto_ changes. 
+- **[_Country names, capitals and national holidays_](https://www.regjeringen.no/no/dokumenter/statsnavn-hovedsteder-og-nasjonaldager/id87863/)** - This brochure from the Norwegian Ministry of Foreign Affairs is the most authoritative source for country names in Norwegian, as it is used by Norwegian diplomats. There are a few weaknesses:
+  - The brochure is not updated often, possibly due to a lack of attention or diplomatic reasons for lagging behind _de facto_ changes.
   - Only includes sovereign countries.
 - **[Wikipedia in Norwegian (Bokmål)](https://no.wikipedia.org/wiki/Portal:Forside)** - Used when neither of the above sources were enough to verify spelling.
 
