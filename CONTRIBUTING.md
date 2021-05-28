@@ -304,7 +304,7 @@ Two flags are then eligible for _Flag similarity_ information when they respect 
   - `0C 1M {0–2}m {0+}n` = one major difference, up to two minor differences, and any number of negligible differences
   - `0C 0M {0–3}m {0+}n` = up to three minor differences and any number of negligible differences
 
-> The [_Flag similarities_ wiki page](https://github.com/anki-geo/ultimate-geography/pull/429) lists the pairs of countries that have already been audited for flag similarities.
+> The [_Flag similarities_ wiki page](https://github.com/anki-geo/ultimate-geography/wiki/Flag-similarities) lists the pairs of countries that have already been audited for flag similarities.
 
 Critical, major, and minor differences should be listed in the _Flag similarity_ field. Negligible differences should be listed only when relevant, notably when two flags share nothing but negligible differences.
 
