@@ -124,7 +124,7 @@ Japan,Tokyo,Tokio,Tokio,Tokyo,Tokyo,Tokio,Токио,Tokio,Tokyo
 Lebanon,Beirut,Beirut,Beirut,Beyrouth,Beirut,Bejrút,Бейрут,Beiroet,Beirut
 Laos,Vientiane,Vientiane,Vientián,Vientiane,Vientiane,Vientiane,Вьентьян,Vientiane,Vientiane
 Kyrgyzstan,Bishkek,Bischkek,Biskek,Bichkek,Bisjkek,Biškek,Бишкек,Bisjkek,Bisjkek
-Kuwait,Kuwait City,Kuwait-Stadt,Kuwait,Koweït,Kuwait by,Kuvajt,Эль-Кувейт,Koeweit-stad,Kuwait
+Kuwait,Kuwait City,Kuwait-Stadt,Kuwait,Koweït,Kuwait by,Kuvajt,Эль-Кувейт,Koeweit,Kuwait
 Myanmar,Naypyidaw,Naypyidaw,Naipyidó,Naypyidaw,Naypyidaw,Neipyijto,Нейпьидо,Naypyidaw,Naypyidaw
 Mongolia,Ulaanbaatar,Ulaanbaatar,Ulán Bator,Oulan-Bator,Ulaanbaatar,Ulánbátar,Улан-Батор,Ulaanbaatar,Ulan Bator
 Maldives,Malé,Malé,Malé,Malé,Malé,Male,Мужчина,Malé,Malé
@@ -139,8 +139,8 @@ Singapore,Singapore,Singapur,Singapur,Singapour,Singapore,Singapur,Сингап�
 Syria,Damascus,Damaskus,Damasco,Damas,Damaskus,Damašek,Дамаск,Damascus,Damaskus
 Taiwan,Taipei,Taipeh,Taipéi,Taipei,Taipei,Tchaj-pej,Тайбэй,Taipei,Taipei
 Sri Lanka,Sri Jayawardenepura Kotte,Sri Jayewardenepura Kotte,Sri Jayawardenapura Kotte,Sri Jayawardenapura Kotte,Colombo,Šrí Džajavardanapura Kotte,Шри Джаяварденепура Котте,Sri Jayewardenapura Kotte,Sri Jayawardenapura
-Tajikistan,Dushanbe,Duschanbe,Dusambé,Douchanbé,Dusjanbe,Dušanbe,Душанбе,Dusjanbe,Dusjanbe
-Thailand,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Бангкок,Bankok,Bangkok
+Tajikistan,Dushanbe,Duschanbe,Dusambé,Douchanbé,Dusjanbe,Dušanbe,Душанбе,Doesjanbe,Dusjanbe
+Thailand,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Бангкок,Bangkok,Bangkok
 East Timor,Dili,Dili,Dili,Dili,Dili,Dili,Дили,Dili,Dili
 United Arab Emirates,Abu Dhabi,Abu Dhabi,Abu Dabi,Abou Dabi,Abu Dhabi,Abú Zabí,Абу Даби,Abu Dhabi,Abu Dhabi
 Turkmenistan,Ashgabat,Aşgabat,Asjabad,Achgabat,Asjkhabad,Ašchabad,Ашхабад,Asjchabad,Asjchabad
@@ -187,13 +187,13 @@ Nicaragua,Managua,Managua,Managua,Managua,Managua,Managua,Манагуа,Managua
 Panama,Panama City,Panama-Stadt,Ciudad de Panamá,Panama,Panama by,Panamá,Панама-Сити,Panama-stad,Panama City
 Antigua and Barbuda,St. John's,Saint John’s,Saint John,Saint John's,Saint John’s,Saint John's,Сент-Джонс,Saint John's,Saint John's
 Dominica,Roseau,Roseau,Roseau,Roseau,Roseau,Roseau,Розо,Roseau,Roseau
-Saint Vincent and the Grenadines,Kingstown,Kingstown,Kingstown,Kingstown,Kingstown,Kingstown,Кингстаун,Kingston,Kingstown
+Saint Vincent and the Grenadines,Kingstown,Kingstown,Kingstown,Kingstown,Kingstown,Kingstown,Кингстаун,Kingstown,Kingstown
 Somalia,Mogadishu,Mogadischu,Mogadiscio,Mogadiscio,Mogadishu,Mogadišo,Могадишо,Mogadishu,Mogadishu
 Ghana,Accra,Accra,Acra,Accra,Accra,Accra,Аккра,Accra,Accra
 Guinea,Conakry,Conakry,Conakri,Conakry,Conakry,Conakry,Конакри,Conakry,Conakry
 New Zealand,Wellington,Wellington,Wellington,Wellington,Wellington,Wellington,Веллингтон,Wellington,Wellington
 French Polynesia,Papeete,Papeete,Papeete,Papeete,Papeete,Papeete,Папеэте,Papeete,Papeete
-Philippines,Manila,Manila,Manila,Manille,Manila,Manila,Манила,Manila,Manila
+Philippines,Manila,Manila,Manila,Manille,Manila,Manila,Манила,Manilla,Manila
 Kosovo,Pristina,Pristina,Pristina,Pristina,Pristina,Priština,Приштина,Pristina,Pristina
 Libya,Tripoli,Tripolis,Trípoli,Tripoli,Tripoli,Tripolis,Триполи,Tripoli,Tripoli
 Palau,Ngerulmud,Ngerulmud,Ngerulmud,Melekeok,Ngerulmud,Ngerulmud,Нгерулмуд,Ngerulmud,Ngerulmud
