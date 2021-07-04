@@ -229,21 +229,23 @@ The content of this field should be concise and consistent across notes. It may 
 
 ### _Capital_ field
 
-Unless otherwise stated in the [_Translation sources_](#translation-sources) section below, we use the capital given in the [infobox](https://en.wikipedia.org/wiki/Template:Infobox_country#Examples) of the Wikipedia article for the country, in the language of the given deck.
+We use the capital(s) given in the [infobox](https://en.wikipedia.org/wiki/Template:Infobox_country#Examples) of the country's English Wikipedia article. This ensures consistency across languages and simplifies maintainance, as discussed in issue [#416#issuecomment-821864712][ref416].
+
+For spelling, unless otherwise stated in the [_Translation sources_](#translation-sources) section below, we take **the title of the Wikipedia article** for the capital, in the language of the given deck. Alternative names may be mentioned in the _Capital info_ field, when relevant.
 
 If the title of the Wikipedia article contains a parenthetical portion for disambiguation purposes, it must be removed. The _Capital hint_ field is used instead for disambiguation.
-
-If a capital has alternative names, we take **the title of the Wikipedia article** for the capital, in the language of the given deck. This corresponds typically to the name used in the infobox of the country's Wikipedia article. Alternative names may be mentioned in the _Capital info_ field, when relevant.
 
 If multiple capitals are listed in a country's infobox, the following guidelines apply:
 
 - If the first capital is followed by a qualifier such as "official", "constitutional", "de jure", "claimed", or "political", it must be used alone in the _Capital_ field. The _Capital info_ field must then be used to detail the status and/or role of every capital - e.g. _While Dodoma is the official capital, Dar es Salaam is the de facto seat of government._
 - If government branches such as "executive" or "legislative" are the only qualifiers used, then the capitals must all be listed in the _Capital_ field, separated by commas - e.g. _Pretoria, Cape Town, Bloemfontein_ (South Africa). The _Capital info_ field must again be used to detail the role of every capital.
-- If no qualifiers are provided at all, then the capitals must all be listed in the _Capital_ field, separated by commas - e.g. _Santa Cruz de Tenerife, Las Palmas_ (Canary Islands). A concise explanation should then be provided in the _Capital info_ field.
+- If no qualifiers are provided at all, then the capitals must all be listed in the _Capital_ field, separated by commas. A concise explanation should then be provided in the _Capital info_ field.
 
 ### _Capital info_ field
 
-As explained in the previous section, this field is typically used for countries with multiple capitals, to clarify the role and/or status of each capital, or to explain succinctly why the country has multiple capitals.
+As explained in the previous section, this field is typically used for countries with multiple capitals, to clarify the role and/or status of each capital, or to explain succinctly why the country has multiple capitals. In such case, the content of the field should be consistent across languages.
+
+This field may also be used to provide alternative capital names and spellings, which may be language-specific.
 
 ### _Capital hint_ field
 
@@ -335,7 +337,7 @@ When Wikipedia in a given language is not sufficently exhaustive to support the 
 
 Norwegian Bokmål (nb-NO) is the preferred written-language standard of roughly 90% of Norway's population, with the remaining 10% preferring Norwegian Nynorsk (nn-NO). With regard to style and grammar, we have chosen a conservative style (riksmål), preferring feminine-gendered nouns only in the case of bays and islands ("-bukta" and "-øya", e.g. Biscayabukta instead of Biscayabukten).
 
-The Norwegian Bokmål translation is based on the following sources (in addition to the English and German decks), listed in order of priority:
+The Norwegian Bokmål translation is based on the following sources (in addition to the English deck), listed in order of priority:
 
 - **[_Store norske leksikon (The Large Norwegian Encyclopedia)_](https://snl.no/)** - Open to audience contributions, edited by professionals. The editors are usually academics. In the original translator's opinion a good trade-off between being quickly updated and being correct.
 - **[_Country names, capitals and national holidays_](https://www.regjeringen.no/no/dokumenter/statsnavn-hovedsteder-og-nasjonaldager/id87863/)** - This brochure from the Norwegian Ministry of Foreign Affairs is the most authoritative source for country names in Norwegian, as it is used by Norwegian diplomats. There are a few weaknesses:
@@ -375,17 +377,18 @@ Content changes, such as adding a note, replacing an image, or translating the d
 1. Enter the full legal name and click _Share_.
 1. Announce the release [on Reddit](https://www.reddit.com/r/Anki/search?q=ultimate%20geography&restrict_sr=1), with links to the release notes, to the upgrade instructions in the `README`, and to the _Discussions_ and _Issues_ pages.
 
-[ref129]: https://github.com/axelboc/anki-ultimate-geography/issues/129
-[ref137]: https://github.com/axelboc/anki-ultimate-geography/issues/137
-[ref157]: https://github.com/axelboc/anki-ultimate-geography/pull/157#issuecomment-549143860
-[ref181]: https://github.com/axelboc/anki-ultimate-geography/issues/181
-[ref212]: https://github.com/axelboc/anki-ultimate-geography/issues/212
-[ref221]: https://github.com/axelboc/anki-ultimate-geography/issues/221
-[ref247]: https://github.com/axelboc/anki-ultimate-geography/pull/247
-[ref306]: https://github.com/axelboc/anki-ultimate-geography/pull/306
-[ref312]: https://github.com/axelboc/anki-ultimate-geography/pull/312
-[ref345]: https://github.com/axelboc/anki-ultimate-geography/pull/345
-[ref346]: https://github.com/axelboc/anki-ultimate-geography/pull/346
-[ref361]: https://github.com/axelboc/anki-ultimate-geography/pull/361
-[ref383]: https://github.com/axelboc/anki-ultimate-geography/issues/383
+[ref129]: https://github.com/anki-geo/ultimate-geography/issues/129
+[ref137]: https://github.com/anki-geo/ultimate-geography/issues/137
+[ref157]: https://github.com/anki-geo/ultimate-geography/pull/157#issuecomment-549143860
+[ref181]: https://github.com/anki-geo/ultimate-geography/issues/181
+[ref212]: https://github.com/anki-geo/ultimate-geography/issues/212
+[ref221]: https://github.com/anki-geo/ultimate-geography/issues/221
+[ref247]: https://github.com/anki-geo/ultimate-geography/pull/247
+[ref306]: https://github.com/anki-geo/ultimate-geography/pull/306
+[ref312]: https://github.com/anki-geo/ultimate-geography/pull/312
+[ref345]: https://github.com/anki-geo/ultimate-geography/pull/345
+[ref346]: https://github.com/anki-geo/ultimate-geography/pull/346
+[ref361]: https://github.com/anki-geo/ultimate-geography/pull/361
+[ref383]: https://github.com/anki-geo/ultimate-geography/issues/383
+[ref416]: https://github.com/anki-geo/ultimate-geography/issues/416#issuecomment-821864712
 [Brain Brew]: https://github.com/ohare93/brain-brew
