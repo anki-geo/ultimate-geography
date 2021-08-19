@@ -15,14 +15,13 @@ jobs:
       with:
         python-version: 3.7
 
-    - name: Install dependecies
-      uses: VaultVulp/action-pipenv@v2.0.1
-      with:
-        command: install
+    - name: Install dependencies
+      run: |
+        python3 -m pip install --upgrade pipenv
+        pipenv install
 
     - name: Validate
-      uses: VaultVulp/action-pipenv@v2.0.1
-      with:
-        command: run build
+      run: |
+        pipenv run build
 
       # TODO: Validate the csv file structure
