@@ -8,21 +8,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
 
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v1
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v2
       with:
-        python-version: 3.8
+        python-version: 3.7
 
-    - name: Install dependecies
-      uses: VaultVulp/action-pipenv@v2.0.1
-      with:
-        command: install
+    - name: Install dependencies
+      run: |
+        python3 -m pip install --upgrade pipenv
+        pipenv install
 
     - name: Validate
-      uses: VaultVulp/action-pipenv@v2.0.1
-      with:
-        command: run build
+      run: |
+        pipenv run build
 
       # TODO: Validate the csv file structure
