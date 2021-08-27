@@ -97,7 +97,7 @@ Seychelles,Seychellen,Seychelles,Seychelles,Seychellene,Seychely,Сейшель�
 Sierra Leone,Sierra Leone,Sierra Leona,Sierra Leone,Sierra Leone,Sierra Leone,Сьерра Леоне,Sierra Leone,Sierra Leone
 South Africa,Südafrika,Sudáfrica,Afrique du Sud,Sør-Afrika,Jihoafrická republika,Южная Африка,Zuid-Afrika,Sydafrika
 Sudan,Sudan,Sudán,Soudan,Sudan,Súdán,Судан,Soedan,Sudan
-Eswatini,Eswatini,Suazilandia,Eswatini,Eswatini,Svazijsko,Свазиленд,eSwatini,Swaziland
+Eswatini,Eswatini,Suazilandia,Eswatini,Eswatini,Svazijsko,Эсватини,eSwatini,Swaziland
 Tanzania,Tansania,Tanzania,Tanzanie,Tanzania,Tanzanie,Танзания,Tanzania,Tanzania
 Togo,Togo,Togo,Togo,Togo,Togo,Того,Togo,Togo
 Tunisia,Tunesien,Túnez,Tunisie,Tunisia,Tunisko,Тунис,Tunesië,Tunisien
@@ -178,7 +178,7 @@ Dominican Republic,Dominikanische Republik,República Dominicana,République dom
 Haiti,Haiti,Haití,Haïti,Haiti,Haiti,Гаити,Haïti,Haiti
 Jamaica,Jamaika,Jamaica,Jamaïque,Jamaica,Jamajka,Ямайка,Jamaica,Jamaica
 Trinidad and Tobago,Trinidad und Tobago,Trinidad y Tobago,Trinité-et-Tobago,Trinidad og Tobago,Trinidad a Tobago,Тринидад и Тобаго,Trinidad en Tobago,Trinidad och Tobago
-Bermuda,Bermuda,Bermudas,Bermudes,Bermuda,Bermuda,Бермудский,Bermuda,Bermuda
+Bermuda,Bermuda,Bermudas,Bermudes,Bermuda,Bermuda,Бермудские Острова,Bermuda,Bermuda
 Guadeloupe,Guadeloupe,Guadalupe,Guadeloupe,Guadeloupe,Guadeloupe,Гваделупа,Guadeloupe,Guadeloupe
 The Bahamas,Bahamas,Bahamas,Bahamas,Bahamas,Bahamy,Багамские острова,Bahama's,Bahamas
 Barbados,Barbados,Barbados,Barbade,Barbados,Barbados,Барбадос,Barbados,Barbados
@@ -256,16 +256,16 @@ Atlantic Ocean,Atlantischer Ozean,Océano Atlántico,Océan Atlantique,Atlanterh
 Indian Ocean,Indischer Ozean,Océano Índico,Océan Indien,Det indiske hav,Indický oceán,Индийский океан,Indische Oceaan,Indiska oceanen
 Arctic Ocean,Arktischer Ozean,Océano Ártico,Océan Arctique,Nordishavet,Severní ledový oceán,Северный Ледовитый океан,Arctische Oceaan,Norra ishavet
 Hudson Bay,Hudson Bay,Bahía de Hudson,Baie d'Hudson,Hudsonbukta,Hudsonův záliv,Гудзонов залив,Hudsonbaai,Hudson Bay
-Labrador Sea,Labradorsee,Mar de Labrador,Mer du Labrador,Labradorsjøen,Labradorské moře,Лабрадорское Море,Labradorzee,Labradorhavet
+Labrador Sea,Labradorsee,Mar de Labrador,Mer du Labrador,Labradorsjøen,Labradorské moře,Море Лабрадор,Labradorzee,Labradorhavet
 White Sea,Weißes Meer,Mar Blanco,Mer Blanche,Kvitsjøen,Bílé moře,Белое море,Witte Zee,Vita havet
 Denmark Strait,Dänemarkstraße,Estrecho de Dinamarca,Détroit de Danemark,Danmarkstredet,Dánský průliv,Датский Пролив,Straat Denemarken,Danmarksundet
 Norwegian Sea,Europäisches Nordmeer,Mar de Noruega,Mer de Norvège,Norskehavet,Norské moře,Норвежское море,Noorse Zee,Norska havet
 Baltic Sea,Ostsee,Mar Báltico,Mer Baltique,Østersjøen,Baltské moře,Балтийское море,Oostzee,Östersjön
-Celtic Sea,Keltische See,Mar Céltico,Mer Celtique,Det keltiske hav,Keltské moře,Кельтское Море,Keltische Zee,Keltiska havet
+Celtic Sea,Keltische See,Mar Céltico,Mer Celtique,Det keltiske hav,Keltské moře,Кельтское море,Keltische Zee,Keltiska havet
 English Channel,Ärmelkanal,Canal de la Mancha,Manche,Den engelske kanal,Lamanšský průliv,Английский канал,Het Kanaal,Engelska kanalen
 Adriatic Sea,Adriatisches Meer,Mar Adriático,Mer Adriatique,Adriaterhavet,Jaderské moře,Адриатическое море,Adriatische Zee,Adriatiska havet
 Bay of Biscay,Biskaya,Golfo de Vizcaya,Golfe de Gascogne,Biscayabukta,Biskajský záliv,Бискайский залив,Golf van Biskaje,Biscayabukten
-Black Sea,Schwarzes Meer,Mar Negro,Mer Noire,Svartehavet,Černé moře,Черное море,Zwarte Zee,Svarta havet
+Black Sea,Schwarzes Meer,Mar Negro,Mer Noire,Svartehavet,Černé moře,Чёрное море,Zwarte Zee,Svarta havet
 Aegean Sea,Ägäisches Meer,Mar Egeo,Mer Égée,Egeerhavet,Egejské moře,Эгейское море,Egeïsche Zee,Egeiska havet
 Balkan Peninsula,Balkanhalbinsel,Península balcánica,Balkans,Balkan,Balkán,Балканский полуостров,Balkan,Balkanhalvön
 Caspian Sea,Kaspisches Meer,Mar Caspio,Mer Caspienne,Det kaspiske hav,Kaspické moře,Каспийское море,Kaspische Zee,Kaspiska havet
@@ -277,7 +277,7 @@ Red Sea,Rotes Meer,Mar Rojo,Mer Rouge,Rødehavet,Rudé moře,Красное мо
 Dead Sea,Totes Meer,Mar Muerto,Mer Morte,Dødehavet,Mrtvé moře,Мертвое море,Dode Zee,Döda havet
 Bay of Bengal,Golf von Bengalen,Bahía de Bengala,Golfe du Bengale,Bengalbukta,Bengálský záliv,Бенгальский залив,Golf van Bengalen,Bengaliska viken
 Sea of Japan,Japanisches Meer,Mar del Japón,Mer du Japon,Japanhavet,Japonské moře,Японское море,Japanse Zee,Japanska havet
-Yellow Sea,Gelbes Meer,Mar Amarillo,Mer Jaune,Gulehavet,Žluté moře,Желтое море,Gele Zee,Gula havet
+Yellow Sea,Gelbes Meer,Mar Amarillo,Mer Jaune,Gulehavet,Žluté moře,Жёлтое море,Gele Zee,Gula havet
 Coral Sea,Korallenmeer,Mar del Coral,Mer de Corail,Korallhavet,Korálové moře,Коралловое море,Koraalzee,Korallhavet
 South China Sea,Südchinesisches Meer,Mar de la China Meridional,Mer de Chine méridionale,Sør-Kina-havet,Jihočínské moře,Южно-Китайское море,Zuid-Chinese Zee,Sydkinesiska havet
 Tasman Sea,Tasmansee,Mar de Tasmania,Mer de Tasman,Tasmanhavet,Tasmanovo moře,Тасманово море,Tasmanzee,Tasmanhavet
@@ -310,11 +310,11 @@ Hawaii,Hawaii,Hawái,Hawaï,Hawaii,Havaj,Гавайи,Hawaï,Hawaii
 Alaska,Alaska,Alaska,Alaska,Alaska,Aljaška,Аляска,Alaska,Alaska
 Bougainville,Bougainville,Bougainville,Bougainville,Bougainville,Bougainville,Бугенвиль,Bougainville,Bougainville
 Jeju,Jeju-do,Jeju,Jeju,Jeju,Čedžu,Чеджудо,Jeju,Jeju
-Banda Sea,Bandasee,Mar de Banda,Mer de Banda,Bandasjøen,Bandské moře,Банда море,Bandazee,Bandasjön
+Banda Sea,Bandasee,Mar de Banda,Mer de Banda,Bandasjøen,Bandské moře,Море Банда,Bandazee,Bandasjön
 Barents Sea,Barentssee,Mar de Barents,Mer de Barents,Barentshavet,Barentsovo moře,Баренцево море,Barentszzee,Barents hav
-Celebes Sea,Celebessee,Mar de Célebes,Mer de Célèbes,Celebessjøen,Celebeské moře,Сулавеси море,Celebeszee,Sulawesisjön
+Celebes Sea,Celebessee,Mar de Célebes,Mer de Célèbes,Celebessjøen,Celebeské moře,Море Сулавеси,Celebeszee,Sulawesisjön
 East China Sea,Ostchinesisches Meer,Mar de la China Oriental,Mer de Chine orientale,Øst-Kina-havet,Východočínské moře,Восточно-Китайское море,Oost-Chinese Zee,Östkinesiska havet
-Gulf of Alaska,Golf von Alaska,Golfo de Alaska,Golfe d'Alaska,Alaskabukta,Aljašský záliv,Аля́ска залив,Golf van Alaska,Alaskagolfen
+Gulf of Alaska,Golf von Alaska,Golfo de Alaska,Golfe d'Alaska,Alaskabukta,Aljašský záliv,Залив Аляска,Golf van Alaska,Alaskagolfen
 Gulf of Guinea,Golf von Guinea,Golfo de Guinea,Golfe de Guinée,Guineabukta,Guinejský záliv,Гвинейский залив,Golf van Guinee,Guineabukten
 North Sea,Nordsee,Mar del Norte,Mer du Nord,Nordsjøen,Severní moře,Северное море,Noordzee,Nordsjön
 Sea of Okhotsk,Ochotskisches Meer,Mar de Ojotsk,Mer d'Okhotsk,Okhotskhavet,Ochotské moře,Охотское море,Zee van Ochotsk,Ochotska havet
