@@ -63,7 +63,7 @@ Botswana,Gaborone,Gaborone,Gaborone,Gaborone,Gaborone,Gaborone,Габороне,
 Burkina Faso,Ouagadougou,Ouagadougou,Uagadugú,Ouagadougou,Ouagadougou,Ouagadougou,Уагадугу,Ouagadougou,Ouagadougou
 Cameroon,Yaoundé,Yaoundé,Yaundé,Yaoundé,Yaoundé,Yaoundé,Яунде,Yaoundé,Yaoundé
 Burundi,Gitega,Gitega,Guitega,Gitega,Gitega,Gitega,Гитега,Gitega,Gitega
-Cape Verde,Praia,Praia,Praia,Praia,Praia,Praia,Прайя,Praia,Praia
+Cape Verde,Praia,Praia,Praia,Praia,Praia,Praia,Прая,Praia,Praia
 São Tomé and Príncipe,São Tomé,São Tomé,Santo Tomé,São Tomé,São Tomé,São Tomé,Сан-Томе,Sao Tomé,São Tomé
 Central African Republic,Bangui,Bangui,Bangui,Bangui,Bangui,Bangui,Банги,Bangui,Bangui
 Chad,N'Djamena,N’Djamena,Yamena,N'Djaména,Ndjamena,N'Djamena,Нджамена,Ndjamena,N'Djamena
@@ -75,7 +75,7 @@ Democratic Republic of the Congo,Kinshasa,Kinshasa,Kinsasa,Kinshasa,Kinshasa,Kin
 Djibouti,Djibouti,Dschibuti,Yibuti,Djibouti,Djibouti,Džibuti,Джибути,Djibouti,Djibouti
 Guinea-Bissau,Bissau,Bissau,Bisáu,Bissau,Bissau,Bissau,Бисау,Bissau,Bissau
 Eritrea,Asmara,Asmara,Asmara,Asmara,Asmara,Asmara,Асмэра,Asmara,Asmara
-Ethiopia,Addis Ababa,Addis Abeba,Adís Abeba,Addis-Abeba,Addis Abeba,Addis Abeba,Аддис Абеба,Addis Ababa,Addis Abeba
+Ethiopia,Addis Ababa,Addis Abeba,Adís Abeba,Addis-Abeba,Addis Abeba,Addis Abeba,Аддис-Абеба,Addis Ababa,Addis Abeba
 Gabon,Libreville,Libreville,Libreville,Libreville,Libreville,Libreville,Либревиль,Libreville,Libreville
 The Gambia,Banjul,Banjul,Banjul,Banjul,Banjul,Banjul,Банджул,Banjul,Banjul
 Lesotho,Maseru,Maseru,Maseru,Maseru,Maseru,Maseru,Масеру,Maseru,Maseru
@@ -84,7 +84,7 @@ Madagascar,Antananarivo,Antananarivo,Antananarivo,Antananarivo,Antananarivo,Anta
 Malawi,Lilongwe,Lilongwe,Lilongüe,Lilongwe,Lilongwe,Lilongwe,Лилонгве,Lilongwe,Lilongwe
 Mali,Bamako,Bamako,Bamako,Bamako,Bamako,Bamako,Бамако,Bamako,Bamako
 Mauritania,Nouakchott,Nouakchott,Nuakchot,Nouakchott,Nouakchott,Nuakšott,Нуакшот,Nouakchott,Nouakchott
-Mauritius,Port Louis,Port Louis,Port Louis,Port-Louis,Port Louis,Port Louis,Порт Луи,Port Louis,Port Louis
+Mauritius,Port Louis,Port Louis,Port Louis,Port-Louis,Port Louis,Port Louis,Порт-Луи,Port Louis,Port Louis
 Morocco,Rabat,Rabat,Rabat,Rabat,Rabat,Rabat,Рабат,Rabat,Rabat
 Mozambique,Maputo,Maputo,Maputo,Maputo,Maputo,Maputo,Мапуту,Maputo,Maputo
 Namibia,Windhoek,Windhoek,Windhoek,Windhoek,Windhoek,Windhoek,Виндхук,Windhoek,Windhoek
@@ -99,7 +99,7 @@ South Africa,"Pretoria, Cape Town, Bloemfontein","Pretoria, Kapstadt, Bloemfonte
 Sudan,Khartoum,Khartum,Jartum,Khartoum,Khartoum,Chartúm,Хартум,Khartoem,Khartoum
 Eswatini,Mbabane,Mbabane,Mbabane,Mbabane,Mbabane,Mbabane,Мбабане,Mbabane,Mbabane
 Tanzania,Dodoma,Dodoma,Dodoma,Dodoma,Dodoma,Dodoma,Додома,Dodoma,Dodoma
-Togo,Lomé,Lomé,Lomé,Lomé,Lomé,Lomé,Лом,Lomé,Lomé
+Togo,Lomé,Lomé,Lomé,Lomé,Lomé,Lomé,Ломе,Lomé,Lomé
 Tunisia,Tunis,Tunis,Túnez,Tunis,Tunis,Tunis,Тунис,Tunis,Tunis
 Uganda,Kampala,Kampala,Kampala,Kampala,Kampala,Kampala,Кампала,Kampala,Kampala
 Sahrawi Arab Democratic Republic,Laayoune,El Aaiún,El Aaiún,Laâyoune,El Aaiún,Al-´Ajún,Эль-Аюн,al-Ajoen,al-Ayun
@@ -109,7 +109,7 @@ Afghanistan,Kabul,Kabul,Kabul,Kaboul,Kabul,Kábul,Кабул,Kabul,Kabul
 Bahrain,Manama,Manama,Manama,Manama,Manama,Manáma,Манама,Manama,Manama
 Bangladesh,Dhaka,Dhaka,Daca,Dacca,Dhaka,Dháka,Дакка,Dhaka,Dhaka
 Bhutan,Thimphu,Thimphu,Timbu,Thimphou,Thimpu,Thimbú,Тхимпху,Thimphu,Thimphu
-Brunei,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan,Бандар Сери Бегаван,Bandar Seri Begawan,Bandar Seri Begawan
+Brunei,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan,Бандар-Сери-Бегаван,Bandar Seri Begawan,Bandar Seri Begawan
 China,Beijing,Peking,Pekín,Pékin,Beijing,Peking,Пекин,Peking,Peking
 Cambodia,Phnom Penh,Phnom Penh,Nom Pen,Phnom Penh,Phnom Penh,Phnompenh,Пномпень,Phnom Penh,Phnom Penh
 Indonesia,Jakarta,Jakarta,Yakarta,Jakarta,Jakarta,Jakarta,Джакарта,Jakarta,Jakarta
@@ -128,8 +128,8 @@ Kuwait,Kuwait City,Kuwait-Stadt,Kuwait,Koweït,Kuwait by,Kuvajt,Эль-Куве�
 Myanmar,Naypyidaw,Naypyidaw,Naipyidó,Naypyidaw,Naypyidaw,Neipyijto,Нейпьидо,Naypyidaw,Naypyidaw
 Mongolia,Ulaanbaatar,Ulaanbaatar,Ulán Bator,Oulan-Bator,Ulaanbaatar,Ulánbátar,Улан-Батор,Ulaanbaatar,Ulan Bator
 Maldives,Malé,Malé,Malé,Malé,Malé,Male,Мале,Malé,Malé
-Malaysia,Kuala Lumpur,Kuala Lumpur,Kuala Lumpur,Kuala Lumpur,Kuala Lumpur,Kuala Lumpur,Куала Лумпур,Kuala Lumpur,Kuala Lumpur
-Oman,Muscat,Maskat,Mascate,Mascate,Muscat,Maskat,Мускат,Masqat,Muskat
+Malaysia,Kuala Lumpur,Kuala Lumpur,Kuala Lumpur,Kuala Lumpur,Kuala Lumpur,Kuala Lumpur,Куала-Лумпур,Kuala Lumpur,Kuala Lumpur
+Oman,Muscat,Maskat,Mascate,Mascate,Muscat,Maskat,Маскат,Masqat,Muskat
 Nepal,Kathmandu,Kathmandu,Katmandú,Katmandou,Katmandu,Káthmándú,Катманду,Kathmandu,Katmandu
 Palestine,Jerusalem,Jerusalem,Jerusalén,Jérusalem,Jerusalem,Jeruzalém,Иерусалим,Jeruzalem,Jerusalem
 Pakistan,Islamabad,Islamabad,Islamabad,Islamabad,Islamabad,Islámábád,Исламабад,Islamabad,Islamabad
@@ -138,20 +138,20 @@ Saudi Arabia,Riyadh,Riad,Riad,Riyad,Riyadh,Rijád,Эр-Рияд,Riyad,Riyadh
 Singapore,Singapore,Singapur,Singapur,Singapour,Singapore,Singapur,Сингапур,Singapore,Singapore
 Syria,Damascus,Damaskus,Damasco,Damas,Damaskus,Damašek,Дамаск,Damascus,Damaskus
 Taiwan,Taipei,Taipeh,Taipéi,Taipei,Taipei,Tchaj-pej,Тайбэй,Taipei,Taipei
-Sri Lanka,Sri Jayawardenepura Kotte,Sri Jayewardenepura Kotte,Sri Jayawardenapura Kotte,Sri Jayawardenapura Kotte,Colombo,Šrí Džajavardanapura Kotte,Шри Джаяварденепура Котте,Sri Jayewardenapura Kotte,Sri Jayawardenapura
+Sri Lanka,Sri Jayawardenepura Kotte,Sri Jayewardenepura Kotte,Sri Jayawardenapura Kotte,Sri Jayawardenapura Kotte,Colombo,Šrí Džajavardanapura Kotte,Шри-Джаяварденепура-Котте,Sri Jayewardenapura Kotte,Sri Jayawardenapura
 Tajikistan,Dushanbe,Duschanbe,Dusambé,Douchanbé,Dusjanbe,Dušanbe,Душанбе,Doesjanbe,Dusjanbe
 Thailand,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Бангкок,Bangkok,Bangkok
 East Timor,Dili,Dili,Dili,Dili,Dili,Dili,Дили,Dili,Dili
-United Arab Emirates,Abu Dhabi,Abu Dhabi,Abu Dabi,Abou Dabi,Abu Dhabi,Abú Zabí,Абу Даби,Abu Dhabi,Abu Dhabi
+United Arab Emirates,Abu Dhabi,Abu Dhabi,Abu Dabi,Abou Dabi,Abu Dhabi,Abú Zabí,Абу-Даби,Abu Dhabi,Abu Dhabi
 Turkmenistan,Ashgabat,Aşgabat,Asjabad,Achgabat,Asjkhabad,Ašchabad,Ашхабад,Asjchabad,Asjchabad
 Yemen,Sana'a,Sanaa,Saná,Sanaa,Sana,San'á,Сана,Sanaa,Sanaa
 Vietnam,Hanoi,Hanoi,Hanói,Hanoï,Hanoi,Hanoj,Ханой,Hanoi,Hanoi
 Uzbekistan,Tashkent,Taschkent,Taskent,Tachkent,Tasjkent,Taškent,Ташкент,Tasjkent,Tasjkent
 Fiji,Suva,Suva,Suva,Suva,Suva,Suva,Сува,Suva,Suva
-Papua New Guinea,Port Moresby,Port Moresby,Puerto Moresby,Port Moresby,Port Moresby,Port Moresby,Порт Морсби,Port Moresby,Port Moresby
+Papua New Guinea,Port Moresby,Port Moresby,Puerto Moresby,Port Moresby,Port Moresby,Port Moresby,Порт-Морсби,Port Moresby,Port Moresby
 Australia,Canberra,Canberra,Canberra,Canberra,Canberra,Canberra,Канберра,Canberra,Canberra
 Solomon Islands,Honiara,Honiara,Honiara,Honiara,Honiara,Honiara,Хониара,Honiara,Honiara
-Argentina,Buenos Aires,Buenos Aires,Buenos Aires,Buenos Aires,Buenos Aires,Buenos Aires,Буэнос Айрес,Buenos Aires,Buenos Aires
+Argentina,Buenos Aires,Buenos Aires,Buenos Aires,Buenos Aires,Buenos Aires,Buenos Aires,Буэнос-Айрес,Buenos Aires,Buenos Aires
 Bolivia,Sucre,Sucre,Sucre,Sucre,Sucre,Sucre,Сукре,Sucre,Sucre
 Brazil,Brasília,Brasília,Brasilia,Brasilia,Brasilia,Brasília,Бразилиа,Brasilia,Brasília
 Chile,Santiago,Santiago de Chile,Santiago de Chile,Santiago,Santiago de Chile,Santiago de Chile,Сантьяго,Santiago,Santiago de Chile
@@ -200,7 +200,7 @@ Palau,Ngerulmud,Ngerulmud,Ngerulmud,Ngerulmud,Ngerulmud,Ngerulmud,Нгерулм
 Saint Lucia,Castries,Castries,Castries,Castries,Castries,Castries,Кастри,Castries,Castries
 Grenada,St. George's,St. George's,Saint George,Saint-Georges,St. George's,Saint George's,Сент-Джорджес,Saint George's,Saint George's
 Curaçao,Willemstad,Willemstad,Willemstad,Willemstad,Willemstad,Willemstad,Виллемстад,Willemstad,Willemstad
-Kiribati,Tarawa,Tarawa,Tarawa,Tarawa,Bairiki (på Tarawa øy),Tarawa,Тарава,Tarawa,Tarawa
+Kiribati,Tarawa,Tarawa,Tarawa,Tarawa,Bairiki (på Tarawa øy),Tarawa,Южная Тарава,Tarawa,Tarawa
 Marshall Islands,Majuro,Majuro,Majuro,Majuro,Majuro,Majuro,Маджуро,Majuro,Majuro
 Nauru,Yaren,Yaren,Yaren,Yaren,Yaren,Yaren,Ярен,Yaren,Yaren
 New Caledonia,Nouméa,Nouméa,Numea,Nouméa,Nouméa,Nouméa,Нумеа,Nouméa,Nouméa
@@ -217,5 +217,5 @@ South Ossetia,Tskhinvali,Zchinwali,Tsjinval,Tskhinvali,Tskhinvali,Cchinvali,Цх
 Aruba,Oranjestad,Oranjestad,Oranjestad,Oranjestad,Oranjestad,Oranjestad,Ораньестад,Oranjestad,Oranjestad
 Abkhazia,Sukhumi,Sochumi,Sujumi,Soukhoumi,Sukhumi,Suchumi,Сухуми,Soechoemi,Suchumi
 Republic of Artsakh,Stepanakert,Stepanakert,Stepanakert,Stepanakert,Stepanakert,Štěpanakert,Степанакерт,Stepanakert,Stepanakert
-Tonga,Nukuʻalofa,Nukuʻalofa,Nukualofa,Nukuʻalofa,Nukualofa,Nukuʻalofa,Nuku'alofa,Nukuʻalofa,Nuku'alofa
+Tonga,Nukuʻalofa,Nukuʻalofa,Nukualofa,Nukuʻalofa,Nukualofa,Nukuʻalofa,Нукуалофа,Nukuʻalofa,Nuku'alofa
 Transnistria,Tiraspol,Tiraspol,Tiráspol,Tiraspol,Tiraspol,Tiraspol,Тирасполь,Tiraspol,Tiraspol
