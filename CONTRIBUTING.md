@@ -372,7 +372,8 @@ Content changes, such as adding a note, replacing an image, or translating the d
 1. Draft the release notes, making sure to add a link to the upgrade steps in the `README` and/or [in the wiki](https://github.com/anki-geo/ultimate-geography/wiki/Upgrade-instructions).
 1. Attach all the ZIP files and save the draft release notes.
 1. Post a link to the draft release notes on the _Prepare for v[x.y]_ dicussion thread and wait for feedback.
-1. Once maintainers have reviewed the release notes and the upgrade process, open the draft release notes, tick the box to open a discussion thread when publishing, and publish the release.
+1. Once maintainers have reviewed the release notes and the upgrade process, open the draft release notes, and publish the release.
+1. Open a discussion thread to announce the release, with links to the release notes and upgrade instructions.
 1. Close the milestone and create a new one for the next minor version.
 1. Go to [AnkiWeb](https://ankiweb.net/decks/).
 1. Find the _Ultimate Geography_ deck and select _Actions_ > _Share_
