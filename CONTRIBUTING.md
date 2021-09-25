@@ -358,24 +358,27 @@ Content changes, such as adding a note, replacing an image, or translating the d
 
 ### Release process
 
-1. Bump the version number in `src/headers/desc.html`, check that the notes/cards stats are up to date in both `desc.html` and `README.md`, and commit the changes.
-1. Run `pipenv run brain_brew recipes/source_to_anki.yaml`.
+1. Open a discussion thread named _Prepare for v[x.y]_ a few weeks ahead of the release to coordinate any remaining work.
+1. When ready to release, bump the version number in `src/headers/desc.html`.
+1. Run `pipenv run build`.
+1. In Anki, synchronise all your devices then upgrade the standard English deck by following the recommended procedure, which was agreed upon in the discussion thread. Synchronise all your devices again once the upgrade is complete.
+1. With the help of the Anki card browser, update the notes/cards stats in both `desc.html` and `README.md`, and commit the changes (including the version bump).
+1. Run `pipenv run build` again.
+1. Re-import the standard English deck in Anki and synchronise with AnkiWeb.
 1. Add each folder in the `build` directory to a separate ZIP archive named as follows:
   - `Ultimate Geography [EN]` ==> `Ultimate_Geography_v[x.y]_EN.zip`.
   - `Ultimate Geography [EN] [Extended]` ==> `Ultimate_Geography_v[x.y]_EN_EXTENDED.zip`.
-1. In Anki, synchronise all your devices then import the folder of the standard English deck with CrowdAnki (i.e. `Ultimate Geography`). For major versions, make sure to perform a [clean import](README.md#major-version). Synchronise all your devices again once the import is complete.
-1. Export the deck as an APKG package named `Ultimate_Geography_v[x.y]_EN.apkg`, making sure to exclude scheduling information but include all media.
-1. On GitHub, create a new **pre-release** named with the version number followed by `-beta`.
-1. Write the release notes, making sure to add a link to the upgrade steps in the `README`.
-1. Attach the APKG file and all the ZIP files, and publish the pre-release.
-1. Announce the beta in a discussion thread and wait for feedback.
-1. Once the beta is stable, convert the pre-release to an official release.
-1. Close the milestone and create a new one for the next version.
+1. On GitHub, create a new **release** named after the version number.
+1. Draft the release notes, making sure to add a link to the upgrade steps in the `README` and/or [in the wiki](https://github.com/anki-geo/ultimate-geography/wiki/Upgrade-instructions).
+1. Attach all the ZIP files and save the draft release notes.
+1. Post a link to the draft release notes on the _Prepare for v[x.y]_ dicussion thread and wait for feedback.
+1. Once maintainers have reviewed the release notes and the upgrade process, open the draft release notes, tick the box to open a discussion thread when publishing, and publish the release.
+1. Close the milestone and create a new one for the next minor version.
 1. Go to [AnkiWeb](https://ankiweb.net/decks/).
 1. Find the _Ultimate Geography_ deck and select _Actions_ > _Share_
 1. Update the version number in the title and the description if needed.
-1. Enter the full legal name and click _Share_.
-1. Announce the release [on Reddit](https://www.reddit.com/r/Anki/search?q=ultimate%20geography&restrict_sr=1), with links to the release notes, to the upgrade instructions in the `README`, and to the _Discussions_ and _Issues_ pages.
+1. Enter full legal name and click _Share_.
+1. Announce the release [on Reddit](https://www.reddit.com/r/Anki/search?q=ultimate%20geography&restrict_sr=1), with links to the release notes, to the upgrade instructions, and to the _Discussions_ and _Issues_ pages.
 
 [ref129]: https://github.com/anki-geo/ultimate-geography/issues/129
 [ref137]: https://github.com/anki-geo/ultimate-geography/issues/137
