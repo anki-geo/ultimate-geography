@@ -376,8 +376,8 @@ Content changes, such as adding a note, replacing an image, or translating the d
 1. Close the milestone and create a new one for the next minor version.
 1. Go to [AnkiWeb](https://ankiweb.net/decks/).
 1. Find the _Ultimate Geography_ deck and select _Actions_ > _Share_
-1. Update the version number in the title and the description if needed.
-1. Enter full legal name and click _Share_.
+1. Update the version number in the title and, if needed, update the description with the content of `desc.html`.
+1. Tick the _Copyright_ box and click _Share_.
 1. Announce the release [on Reddit](https://www.reddit.com/r/Anki/search?q=ultimate%20geography&restrict_sr=1), with links to the release notes, to the upgrade instructions, and to the _Discussions_ and _Issues_ pages.
 
 [ref129]: https://github.com/anki-geo/ultimate-geography/issues/129
