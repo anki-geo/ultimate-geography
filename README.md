@@ -102,7 +102,7 @@ In order to install and later upgrade _Ultimate Geography_ you'll need to first 
 
 You're now ready to install _Ultimate Geography_:
 
-1. Go to the **[_Releases_ page](https://github.com/axelboc/anki-ultimate-geography/releases)**.
+1. Go to the **[_Releases_ page](https://github.com/anki-geo/ultimate-geography/releases)**.
 1. In the latest release's _Assets_ section, download the ZIP archive of the version of the deck you'd like to use. You can choose between [a standard and an extended version](#features) in a number of [languages](#ultimate-geography) -- for instance, if you're after the standard German deck, download `Ultimate_Geography_v[...]_DE.zip`.
 1. Extract the content of the archive on your computer.
 1. Open Anki and make sure your devices are all synchronised.
@@ -225,7 +225,7 @@ The changes listed below will be lost the next time you upgrade and there's no o
   - adding or removing a tag from a note;
   - renaming a tag.
 
-  > If you correct a typo or a mistake, don't forget to [open an issue](https://github.com/axelboc/anki-ultimate-geography/issues/new) or a Pull Request so you don't lose your correction the next time you upgrade. 😉
+  > If you correct a typo or a mistake, don't forget to [open an issue](https://github.com/anki-geo/ultimate-geography/issues/new) or a Pull Request so you don't lose your correction the next time you upgrade. 😉
 
 - **Deleting a card**
 

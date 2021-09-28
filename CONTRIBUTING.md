@@ -2,7 +2,7 @@
 
 :wave: Hello there! :tada: Thanks for taking the time to contribute!
 
-Seen something outdated or plain wrong? Spotted a typo somewhere? Think something could be better translated, or want to translate the whole deck into a new language? Awesome! :100: Let us know right away by [opening a new issue](https://github.com/axelboc/anki-ultimate-geography/issues).
+Seen something outdated or plain wrong? Spotted a typo somewhere? Think something could be better translated, or want to translate the whole deck into a new language? Awesome! :100: Let us know right away by [opening a new issue](https://github.com/anki-geo/ultimate-geography/issues).
 
 #### Table of contents
 
@@ -295,7 +295,7 @@ Flag similarities are always **mutual**: if flag A is similar to flag B, then fl
   - decorations of same type in different amounts (e.g. fewer stars)
   - decorations of same type with different colours (e.g. white vs. red stars for Australia/New Zealand)
 - **Negligible differences (n)**
-  - subtly different colours - i.e. [ΔE](https://github.com/axelboc/anki-ultimate-geography/issues/50#issuecomment-525902404) < 30
+  - subtly different colours - i.e. [ΔE](https://github.com/anki-geo/ultimate-geography/issues/50#issuecomment-525902404) < 30
   - subtly different geometry
 
 Two flags are then eligible for _Flag similarity_ information when they respect the two rules below:
