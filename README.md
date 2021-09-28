@@ -145,9 +145,9 @@ If you'd rather keep your progress, proceed as follows:
 
 ### Major version
 
-Major versions (e.g. `v3.0`) typically indicate that upgrading may lead to a significant loss of progress, or to the loss of [some of the customisations](#customising-the-deck) you may have made to the deck that would normally be preserved. This can occur, for instance, when [significant changes](https://github.com/axelboc/anki-ultimate-geography/releases/tag/v3.0) are made to the structure of the deck.
+Major versions (e.g. `v3.0`) typically indicate that upgrading ["the normal way"](#upgrading) may lead to a significant loss of progress, or to the loss of [some of the customisations](#customising-the-deck) you may have made to the deck that would normally be preserved. This can occur, for instance, when [significant changes](https://github.com/anki-geo/ultimate-geography/releases/tag/v3.0) are made to the structure of the deck.
 
-Read the release notes carefully to know if the loss of progress/customisation actually concerns you. If it does, the release notes will tell you how best to upgrade and may even offer you ways to preserve or mitigate your losses. Worst-case scenario, you may have no other choice but to accept the losses and perform a "clean import" as follows:
+The [release notes](https://github.com/anki-geo/ultimate-geography/releases) and [upgrade instructions](https://github.com/anki-geo/ultimate-geography/wiki/Upgrade-instructions) on the wiki will typically provide you with a way to upgrade to the major version _without_ losing your progress. However, in some cases, the process can be daunting. 😰 If keeping your progress isn't worth the effort, or if you just feel like starting the deck again from scratch, then we recommend you perform a "clean import" as follows:
 
 1. Open Anki and make sure your devices are all synchronised.
 1. Delete the `Ultimate Geography` deck.
