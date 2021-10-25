@@ -285,13 +285,13 @@
           columns_to_fields:
             <<: *default_columns_to_fields
 
-            guid:sv             : guid
-            country:sv          : Country
-            country info:sv     : Country info
-            capital:sv          : Capital
-            capital info:sv     : Capital info
-            capital hint:sv     : Capital hint
-            flag similarity:sv  : Flag similarity
+            guid:pt-br             : guid
+            country:pt-br          : Country
+            country info:pt-br     : Country info
+            capital:pt-br          : Capital
+            capital info:pt-br     : Capital info
+            capital hint:pt-br     : Capital hint
+            flag similarity:pt-br  : Flag similarity
 
           personal_fields: [ ]
 
