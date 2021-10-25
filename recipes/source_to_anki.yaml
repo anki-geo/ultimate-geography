@@ -276,6 +276,27 @@
 
       file_mappings: *file_mappings
 
+  - notes_from_csvs:
+      part_id: brazilian-portuguese
+      #save_to_file:
+
+      note_model_mappings:
+        - note_models: *note_models_in_mapping
+          columns_to_fields:
+            <<: *default_columns_to_fields
+
+            guid:sv             : guid
+            country:sv          : Country
+            country info:sv     : Country info
+            capital:sv          : Capital
+            capital info:sv     : Capital info
+            capital hint:sv     : Capital hint
+            flag similarity:sv  : Flag similarity
+
+          personal_fields: [ ]
+
+      file_mappings: *file_mappings
+
 
 
 - generate_crowd_anki:
