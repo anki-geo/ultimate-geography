@@ -277,7 +277,7 @@
       file_mappings: *file_mappings
 
   - notes_from_csvs:
-      part_id: brazilian-portuguese
+      part_id: portuguese
       #save_to_file:
 
       note_model_mappings:
@@ -355,7 +355,7 @@
     <<: *default_crowd_anki_gen
     folder: build/Ultimate Geography [pt]
     notes:
-      part_id: brazilian-portuguese
+      part_id: portuguese
 
 
 - generate_crowd_anki:
@@ -425,5 +425,5 @@
     <<: *extended_deck
     folder: build/Ultimate Geography [pt] [Extended]
     notes:
-      part_id: brazilian-portuguese
+      part_id: portuguese
       <<: *override_nm
