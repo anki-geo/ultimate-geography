@@ -10,7 +10,7 @@
       - guid:ru
       - guid:nl
       - guid:sv
-      - guid:pt-br
+      - guid:pt
 
 - build_parts:
   - note_model_templates_from_html:
@@ -285,13 +285,13 @@
           columns_to_fields:
             <<: *default_columns_to_fields
 
-            guid:pt-br             : guid
-            country:pt-br          : Country
-            country info:pt-br     : Country info
-            capital:pt-br          : Capital
-            capital info:pt-br     : Capital info
-            capital hint:pt-br     : Capital hint
-            flag similarity:pt-br  : Flag similarity
+            guid:pt             : guid
+            country:pt          : Country
+            country info:pt     : Country info
+            capital:pt          : Capital
+            capital info:pt     : Capital info
+            capital hint:pt     : Capital hint
+            flag similarity:pt  : Flag similarity
 
           personal_fields: [ ]
 
@@ -353,7 +353,7 @@
       part_id: swedish
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography [PT-BR]
+    folder: build/Ultimate Geography [pt]
     notes:
       part_id: brazilian-portuguese
 
@@ -423,7 +423,7 @@
       <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography [PT-BR] [Extended]
+    folder: build/Ultimate Geography [pt] [Extended]
     notes:
       part_id: brazilian-portuguese
       <<: *override_nm
