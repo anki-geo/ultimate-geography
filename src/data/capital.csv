@@ -20,10 +20,10 @@ Bosnia and Herzegovina,Sarajevo,Sarajevo,Sarajevo,Sarajevo,Sarajevo,Sarajevo,С�
 Bulgaria,Sofia,Sofia,Sofía,Sofia,Sofia,Sofie,София,Sofia,Sofia,Sófia
 Croatia,Zagreb,Zagreb,Zagreb,Zagreb,Zagreb,Záhřeb,Загреб,Zagreb,Zagreb,Zagrebe
 Czech Republic,Prague,Prag,Praga,Prague,Praha,Praha,Прага,Praag,Prag,Praga
-Denmark,Copenhagen,Kopenhagen,Copenhague,Copenhague,København,Kodaň,Копенгаген,Kopenhagen,Köpenhamn,Copenhague/Copenhaga
+Denmark,Copenhagen,Kopenhagen,Copenhague,Copenhague,København,Kodaň,Копенгаген,Kopenhagen,Köpenhamn,"Copenhague (BR), Copenhaga (PT)"
 Estonia,Tallinn,Tallinn,Tallin,Tallinn,Tallinn,Tallinn,Таллинн,Tallinn,Tallinn,Talim
 Faroe Islands,Tórshavn,Tórshavn,Tórshavn,Tórshavn,Tórshavn,Tórshavn,Торсхавн,Tórshavn,Tórshavn,Tórshavn
-Finland,Helsinki,Helsinki,Helsinki,Helsinki,Helsingfors,Helsinky,Хельсинки,Helsinki,Helsingfors,Helsinque/Helsínquia
+Finland,Helsinki,Helsinki,Helsinki,Helsinki,Helsingfors,Helsinky,Хельсинки,Helsinki,Helsingfors,"Helsinque (BR), Helsínquia (PT)"
 Iceland,Reykjavík,Reykjavík,Reikiavik,Reykjavik,Reykjavík,Reykjavík,Рейкьявик,Reykjavik,Reykjavik,Reiquiavique
 Ireland,Dublin,Dublin,Dublín,Dublin,Dublin,Dublin,Дублин,Dublin,Dublin,Dublim
 Italy,Rome,Rom,Roma,Rome,Roma,Řím,Рим,Rome,Rom,Roma
@@ -34,19 +34,19 @@ Luxembourg,Luxembourg City,Luxemburg,Luxemburgo,Luxembourg,Luxembourg,Lucemburk,
 North Macedonia,Skopje,Skopje,Skopie,Skopje,Skopje,Skopje,Скопье,Skopje,Skopje,Escópia
 Malta,Valletta,Valletta,La Valeta,La Valette,Valletta,Valletta,Валлетта,Valletta,Valletta,Valeta
 Moldova,Chișinău,Chișinău,Chisináu,Chișinău,Chisinau,Kišiněv,Кишинэу,Chișinău,Chișinău,Quixinau
-Monaco,Monaco,Monaco,Mónaco,Monaco,Monaco,Monaco-Ville,Монако,Monaco,Monaco,Mônaco/Mónaco
+Monaco,Monaco,Monaco,Mónaco,Monaco,Monaco,Monaco-Ville,Монако,Monaco,Monaco,"Mônaco (BR), Mônaco (PT)"
 Montenegro,Podgorica,Podgorica,Podgorica,Podgorica,Podgorica,Podgorica,Подгорица,Podgorica,Podgorica,Podgorica
-Netherlands,Amsterdam,Amsterdam,Ámsterdam,Amsterdam,Amsterdam,Amsterdam,Амстердам,Amsterdam,Amsterdam,Amsterdã/Amsterdão
+Netherlands,Amsterdam,Amsterdam,Ámsterdam,Amsterdam,Amsterdam,Amsterdam,Амстердам,Amsterdam,Amsterdam,"Amsterdã (BR), Amsterdão (PT)"
 Norway,Oslo,Oslo,Oslo,Oslo,Oslo,Oslo,Осло,Oslo,Oslo,Oslo
 Poland,Warsaw,Warschau,Varsovia,Varsovie,Warszawa,Varšava,Варшава,Warschau,Warszawa,Varsóvia
 Portugal,Lisbon,Lissabon,Lisboa,Lisbonne,Lisboa,Lisabon,Лиссабон,Lissabon,Lissabon,Lisboa
 Romania,Bucharest,Bukarest,Bucarest,Bucarest,Bucuresti,Bukurešť,Бухарест,Boekarest,Bukarest,Bucareste
-Russia,Moscow,Moskau,Moscú,Moscou,Moskva,Moskva,Москва,Moskou,Moskva,Moscou/Moscovo
+Russia,Moscow,Moskau,Moscú,Moscou,Moskva,Moskva,Москва,Moskou,Moskva,"Moscou (BR), Moscovo (PT)"
 San Marino,City of San Marino,Stadt San Marino,San Marino,Ville de Saint-Marin,San Marino by,San Marino,Сан-Марино,San Marino,San Marino,San Marino
 Serbia,Belgrade,Belgrad,Belgrado,Belgrade,Beograd,Bělehrad,Белград,Belgrado,Belgrad,Belgrado
 Slovakia,Bratislava,Bratislava,Bratislava,Bratislava,Bratislava,Bratislava,Братислава,Bratislava,Bratislava,Bratislava
 Slovenia,Ljubljana,Ljubljana,Liubliana,Ljubljana,Ljubljana,Lublaň,Любляна,Ljubljana,Ljubljana,Liubliana
-Spain,Madrid,Madrid,Madrid,Madrid,Madrid,Madrid,Мадрид,Madrid,Madrid,Madri/Madrid
+Spain,Madrid,Madrid,Madrid,Madrid,Madrid,Madrid,Мадрид,Madrid,Madrid,"Madri (BR), Madrid (PT)"
 Sweden,Stockholm,Stockholm,Estocolmo,Stockholm,Stockholm,Stockholm,Стокгольм,Stockholm,Stockholm,Estocolmo
 Switzerland,Bern,Bern,Berna,Berne,Bern,Bern,Берн,Bern,Bern,Berna
 Turkey,Ankara,Ankara,Ankara,Ankara,Ankara,Ankara,Анкара,Ankara,Ankara,Ancara
@@ -72,7 +72,7 @@ Kenya,Nairobi,Nairobi,Nairobi,Nairobi,Nairobi,Nairobi,Найроби,Nairobi,Nai
 Comoros,Moroni,Moroni,Moroni,Moroni,Moroni,Moroni,Морони,Moroni,Moroni,Moroni
 Ivory Coast,Yamoussoukro,Yamoussoukro,Yamusukro,Yamoussoukro,Yamoussoukro,Yamoussoukro,Ямусукро,Yamoussoukro,Yamoussoukro,Iamussucro
 Democratic Republic of the Congo,Kinshasa,Kinshasa,Kinsasa,Kinshasa,Kinshasa,Kinshasa,Киншаса,Kinshasa,Kinshasa,Quinxassa
-Djibouti,Djibouti,Dschibuti,Yibuti,Djibouti,Djibouti,Džibuti,Джибути,Djibouti,Djibouti,Djibuti/Jibuti
+Djibouti,Djibouti,Dschibuti,Yibuti,Djibouti,Djibouti,Džibuti,Джибути,Djibouti,Djibouti,"Djibuti (BR), Jibuti (PT)"
 Guinea-Bissau,Bissau,Bissau,Bisáu,Bissau,Bissau,Bissau,Бисау,Bissau,Bissau,Bissau
 Eritrea,Asmara,Asmara,Asmara,Asmara,Asmara,Asmara,Асмэра,Asmara,Asmara,Asmara
 Ethiopia,Addis Ababa,Addis Abeba,Adís Abeba,Addis-Abeba,Addis Abeba,Addis Abeba,Аддис-Абеба,Addis Ababa,Addis Abeba,Adis Abeba
@@ -116,7 +116,7 @@ Indonesia,Jakarta,Jakarta,Yakarta,Jakarta,Jakarta,Jakarta,Джакарта,Jakar
 India,New Delhi,Neu-Delhi,Nueva Delhi,New Delhi,New Delhi,Nové Dillí,Нью-Дели,New Delhi,New Delhi,Nova Deli
 Iran,Tehran,Teheran,Teherán,Téhéran,Teheran,Teherán,Тегеран,Teheran,Teheran,Teerão
 Israel,Jerusalem,Jerusalem,Jerusalén,Jérusalem,Jerusalem,Jeruzalém,Иерусалим,Jeruzalem,Jerusalem,Jerusalém
-Iraq,Baghdad,Bagdad,Bagdad,Bagdad,Bagdad,Bagdád,Багдад,Bagdad,Bagdad,Bagdá/Bagdade
+Iraq,Baghdad,Bagdad,Bagdad,Bagdad,Bagdad,Bagdád,Багдад,Bagdad,Bagdad,"Bagdá (BR), Bagdade (PT)"
 South Korea,Seoul,Seoul,Seúl,Séoul,Seoul,Soul,Сеул,Seoel,Seoul,Seul
 North Korea,Pyongyang,Pjöngjang,Pionyang,Pyongyang,Pyongyang,Pchjongjang,Пхеньян,Pyongyang,Pyongyang,Pionguiangue
 Jordan,Amman,Amman,Amán,Amman,Amman,Ammán,Амман,Amman,Amman,Amã
@@ -140,7 +140,7 @@ Syria,Damascus,Damaskus,Damasco,Damas,Damaskus,Damašek,Дамаск,Damascus,Da
 Taiwan,Taipei,Taipeh,Taipéi,Taipei,Taipei,Tchaj-pej,Тайбэй,Taipei,Taipei,Taipé
 Sri Lanka,Sri Jayawardenepura Kotte,Sri Jayewardenepura Kotte,Sri Jayawardenapura Kotte,Sri Jayawardenapura Kotte,Colombo,Šrí Džajavardanapura Kotte,Шри-Джаяварденепура-Котте,Sri Jayewardenapura Kotte,Sri Jayawardenapura,Seri Jaiavardenapura-Cota
 Tajikistan,Dushanbe,Duschanbe,Dusambé,Douchanbé,Dusjanbe,Dušanbe,Душанбе,Doesjanbe,Dusjanbe,Duxambé
-Thailand,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Бангкок,Bangkok,Bangkok,Bancoque/Banguecoque
+Thailand,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Бангкок,Bangkok,Bangkok,"Bancoque (BR), Banguecoque (PT)"
 East Timor,Dili,Dili,Dili,Dili,Dili,Dili,Дили,Dili,Dili,Díli
 United Arab Emirates,Abu Dhabi,Abu Dhabi,Abu Dabi,Abou Dabi,Abu Dhabi,Abú Zabí,Абу-Даби,Abu Dhabi,Abu Dhabi,Abu Dabi
 Turkmenistan,Ashgabat,Aşgabat,Asjabad,Achgabat,Asjkhabad,Ašchabad,Ашхабад,Asjchabad,Asjchabad,Asgabate
@@ -161,7 +161,7 @@ Guyana,Georgetown,Georgetown,Georgetown,Georgetown,Georgetown,Georgetown,Джо�
 Paraguay,Asunción,Asunción,Asunción,Asuncion,Asunción,Asunción,Асунсьон,Asunción,Asunción,Assunção
 Peru,Lima,Lima,Lima,Lima,Lima,Lima,Лима,Lima,Lima,Lima
 Suriname,Paramaribo,Paramaribo,Paramaribo,Paramaribo,Paramaribo,Paramaribo,Парамарибо,Paramaribo,Paramaribo,Paramaribo
-Uruguay,Montevideo,Montevideo,Montevideo,Montevideo,Montevideo,Montevideo,Монтевидео,Montevideo,Montevideo,Montevidéu/Montevideu
+Uruguay,Montevideo,Montevideo,Montevideo,Montevideo,Montevideo,Montevideo,Монтевидео,Montevideo,Montevideo,"Montevidéu (BR), Montevideu (PT)"
 Venezuela,Caracas,Caracas,Caracas,Caracas,Caracas,Caracas,Каракас,Caracas,Caracas,Caracas
 Cook Islands,Avarua,Avarua,Avarua,Avarua,Avarua,Avarua,Аваруа,Avarua,Avarua,Avarua
 Federated States of Micronesia,Palikir,Palikir,Palikir,Palikir,Palikir,Palikir,Паликир,Palikir,Palikir,Paliquir
