@@ -345,6 +345,14 @@ The Norwegian Bokmål translation is based on the following sources (in addition
   - Only includes sovereign countries.
 - **[Wikipedia in Norwegian (Bokmål)](https://no.wikipedia.org/wiki/Portal:Forside)** - Used when neither of the above sources were enough to verify spelling.
 
+### Portuguese
+
+Portuguese is used in several countries around the world, with some significant differences between the dialects from different countries.  The two principal sets of dialects are European Portuguese (pt-PT) and Brazilian Portuguese (pt-BR).  We have decided to use Brazilian Portuguese in the _Capital hint_, _Capital info_, _Country info_ and _Flag similarity_ fields.
+
+In cases where the Wikipedia article about the given country or city provides two spellings, describing them as the Brazilian Portuguese and European Portuguese versions (e.g. `Romênia (português brasileiro) ou Roménia (português europeu)`), we provide both in the given _Country_ or _City_ field, with (BR) and (PT) in parentheses to indicate the dialects (e.g. `"Romênia (BR), Roménia (PT)"`).  This explicitly overrides the recommendation in the [_Country_ field content guidelines](#country-field) regarding using the title of the Wikipedia article.
+
+As suggested above, the country or city names used in the other fields should be the Brazilian spellings.
+
 ## Maintainer's guide
 
 ### Versioning
