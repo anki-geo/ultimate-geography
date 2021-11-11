@@ -60,7 +60,7 @@ Algeria,Algerien,Argelia,Algérie,Algerie,Alžírsko,Алжир,Algerije,Algerie
 Angola,Angola,Angola,Angola,Angola,Angola,Ангола,Angola,Angola,Angola
 Benin,Benin,Benín,Bénin,Benin,Benin,Бенин,Benin,Benin,Benim
 Botswana,Botswana,Botsuana,Botswana,Botswana,Botswana,Ботсвана,Botswana,Botswana,Botsuana
-Burkina Faso,Burkina Faso,Burkina Faso,Burkina Faso,Burkina Faso,Burkina Faso,Буркина Фасо,Burkina Faso,Burkina Faso,Burquina Fasso
+Burkina Faso,Burkina Faso,Burkina Faso,Burkina Faso,Burkina Faso,Burkina Faso,Буркина-Фасо,Burkina Faso,Burkina Faso,Burquina Fasso
 Cameroon,Kamerun,Camerún,Cameroun,Kamerun,Kamerun,Камерун,Kameroen,Kamerun,Camarões
 Burundi,Burundi,Burundi,Burundi,Burundi,Burundi,Бурунди,Burundi,Burundi,Burundi
 Cape Verde,Kap Verde,Cabo Verde,Cap-Vert,Kapp Verde,Kapverdy,Кабо-Верде,Kaapverdië,Kap Verde,Cabo Verde
@@ -70,7 +70,7 @@ Chad,Tschad,Chad,Tchad,Tsjad,Čad,Чад,Tsjaad,Tchad,Chade
 Equatorial Guinea,Äquatorialguinea,Guinea Ecuatorial,Guinée équatoriale,Ekvatorial-Guinea,Rovníková Guinea,Экваториальная Гвинея,Equatoriaal-Guinea,Ekvatorialguinea,Guiné Equatorial
 Kenya,Kenia,Kenia,Kenya,Kenya,Keňa,Кения,Kenia,Kenya,"Quênia (BR), Quénia (PT)"
 Comoros,Komoren,Comoras,Comores,Komorene,Komory,Коморские острова,Comoren,Komorerna,Comores
-Ivory Coast,Elfenbeinküste,Costa de Marfil,Côte d'Ivoire,Elfenbenskysten,Pobřeží slonoviny,берег слоновой кости,Ivoorkust,Elfenbenskusten,Costa do Marfim
+Ivory Coast,Elfenbeinküste,Costa de Marfil,Côte d'Ivoire,Elfenbenskysten,Pobřeží slonoviny,Кот-д’Ивуар,Ivoorkust,Elfenbenskusten,Costa do Marfim
 Democratic Republic of the Congo,Demokratische Republik Kongo,República Democrática del Congo,République démocratique du Congo,Kongo,Konžská demokratická republika,Демократическая Республика Конго,Democratische Republiek Congo,Kongo-Kinshasa,República Democrática do Congo
 Djibouti,Dschibuti,Yibuti,Djibouti,Djibouti,Džibutsko,Джибути,Djibouti,Djibouti,"Djibuti (BR), Jibuti (PT)"
 Guinea-Bissau,Guinea-Bissau,Guinea-Bisáu,Guinée-Bissau,Guinea-Bissau,Guinea-Bissau,Гвинея-Бисау,Guinee-Bissau,Guinea-Bissau,Guiné-Bissau
@@ -94,8 +94,8 @@ Republic of the Congo,Republik Kongo,República del Congo,République du Congo,K
 Rwanda,Ruanda,Ruanda,Rwanda,Rwanda,Rwanda,Руанда,Rwanda,Rwanda,Ruanda
 Senegal,Senegal,Senegal,Sénégal,Senegal,Senegal,Сенегал,Senegal,Senegal,Senegal
 Seychelles,Seychellen,Seychelles,Seychelles,Seychellene,Seychely,Сейшельские острова,Seychellen,Seychellerna,Seicheles
-Sierra Leone,Sierra Leone,Sierra Leona,Sierra Leone,Sierra Leone,Sierra Leone,Сьерра Леоне,Sierra Leone,Sierra Leone,Serra Leoa
-South Africa,Südafrika,Sudáfrica,Afrique du Sud,Sør-Afrika,Jihoafrická republika,Южная Африка,Zuid-Afrika,Sydafrika,África do Sul
+Sierra Leone,Sierra Leone,Sierra Leona,Sierra Leone,Sierra Leone,Sierra Leone,Сьерра-Леоне,Sierra Leone,Sierra Leone,Serra Leoa
+South Africa,Südafrika,Sudáfrica,Afrique du Sud,Sør-Afrika,Jihoafrická republika,Южно-Африканская Республика,Zuid-Afrika,Sydafrika,África do Sul
 Sudan,Sudan,Sudán,Soudan,Sudan,Súdán,Судан,Soedan,Sudan,Sudão
 Eswatini,Eswatini,Suazilandia,Eswatini,Eswatini,Svazijsko,Эсватини,eSwatini,Swaziland,Essuatíni
 Tanzania,Tansania,Tanzania,Tanzanie,Tanzania,Tanzanie,Танзания,Tanzania,Tanzania,Tanzânia
@@ -140,7 +140,7 @@ Saudi Arabia,Saudi-Arabien,Arabia Saudita,Arabie saoudite,Saudi-Arabia,Saúdská
 Singapore,Singapur,Singapur,Singapour,Singapore,Singapur,Сингапур,Singapore,Singapore,Singapura
 Syria,Syrien,Siria,Syrie,Syria,Sýrie,Сирия,Syrië,Syrien,Síria
 Taiwan,Taiwan,Taiwán,Taïwan,Taiwan,Tchaj-wan,Тайвань,Taiwan,Taiwan,Taiwan
-Sri Lanka,Sri Lanka,Sri Lanka,Sri Lanka,Sri Lanka,Srí Lanka,ШриЛанка,Sri Lanka,Sri Lanka,Sri Lanka
+Sri Lanka,Sri Lanka,Sri Lanka,Sri Lanka,Sri Lanka,Srí Lanka,Шри-Ланка,Sri Lanka,Sri Lanka,Sri Lanka
 Tajikistan,Tadschikistan,Tayikistán,Tadjikistan,Tadsjikistan,Tádžikistán,Таджикистан,Tadzjikistan,Tadzjikistan,Tajiquistão
 Thailand,Thailand,Tailandia,Thaïlande,Thailand,Thajsko,Таиланд,Thailand,Thailand,Tailândia
 East Timor,Osttimor,Timor Oriental,Timor oriental,Øst-Timor,Východní Timor,Восточный Тимор,Oost-Timor,Östtimor,Tailândia
@@ -172,7 +172,7 @@ Vanuatu,Vanuatu,Vanuatu,Vanuatu,Vanuatu,Vanuatu,Вануату,Vanuatu,Vanuatu,V
 Canada,Kanada,Canadá,Canada,Canada,Kanada,Канада,Canada,Kanada,Canadá
 United States of America,Vereinigte Staaten von Amerika,Estados Unidos,États-Unis,USA,Spojené státy americké,Соединенные Штаты Америки,Verenigde Staten,USA,Estados Unidos
 Mexico,Mexiko,México,Mexique,Mexico,Mexiko,Мексика,Mexico,Mexiko,México
-Puerto Rico,Puerto Rico,Puerto Rico,Porto Rico,Puerto Rico,Portoriko,Пуэрто Рико,Puerto Rico,Puerto Rico,Porto Rico
+Puerto Rico,Puerto Rico,Puerto Rico,Porto Rico,Puerto Rico,Portoriko,Пуэрто-Рико,Puerto Rico,Puerto Rico,Porto Rico
 Cuba,Kuba,Cuba,Cuba,Cuba,Kuba,Куба,Cuba,Kuba,Cuba
 Dominican Republic,Dominikanische Republik,República Dominicana,République dominicaine,Den dominikanske republikk,Dominikánská republika,Доминиканская Республика,Dominicaanse Republiek,Dominikanska republiken,República Dominicana
 Haiti,Haiti,Haití,Haïti,Haiti,Haiti,Гаити,Haïti,Haiti,Haiti
@@ -183,7 +183,7 @@ Guadeloupe,Guadeloupe,Guadalupe,Guadeloupe,Guadeloupe,Guadeloupe,Гваделу�
 The Bahamas,Bahamas,Bahamas,Bahamas,Bahamas,Bahamy,Багамские острова,Bahama's,Bahamas,Bahamas
 Barbados,Barbados,Barbados,Barbade,Barbados,Barbados,Барбадос,Barbados,Barbados,Barbados
 Belize,Belize,Belice,Belize,Belize,Belize,Белиз,Belize,Belize,Belize
-Costa Rica,Costa Rica,Costa Rica,Costa Rica,Costa Rica,Kostarika,Коста Рика,Costa Rica,Costa Rica,Costa Rica
+Costa Rica,Costa Rica,Costa Rica,Costa Rica,Costa Rica,Kostarika,Коста-Рика,Costa Rica,Costa Rica,Costa Rica
 El Salvador,El Salvador,El Salvador,Salvador,El Salvador,Salvador,Сальвадор,El Salvador,El Salvador,El Salvador
 Guatemala,Guatemala,Guatemala,Guatemala,Guatemala,Guatemala,Гватемала,Guatemala,Guatemala,Guatemala
 Honduras,Honduras,Honduras,Honduras,Honduras,Honduras,Гондурас,Honduras,Honduras,Honduras
@@ -262,7 +262,7 @@ Denmark Strait,Dänemarkstraße,Estrecho de Dinamarca,Détroit de Danemark,Danma
 Norwegian Sea,Europäisches Nordmeer,Mar de Noruega,Mer de Norvège,Norskehavet,Norské moře,Норвежское море,Noorse Zee,Norska havet,Mar da Noruega
 Baltic Sea,Ostsee,Mar Báltico,Mer Baltique,Østersjøen,Baltské moře,Балтийское море,Oostzee,Östersjön,Mar Báltico
 Celtic Sea,Keltische See,Mar Céltico,Mer Celtique,Det keltiske hav,Keltské moře,Кельтское море,Keltische Zee,Keltiska havet,Mar Celta
-English Channel,Ärmelkanal,Canal de la Mancha,Manche,Den engelske kanal,Lamanšský průliv,Английский канал,Het Kanaal,Engelska kanalen,Canal da Mancha
+English Channel,Ärmelkanal,Canal de la Mancha,Manche,Den engelske kanal,Lamanšský průliv,Ла-Манш,Het Kanaal,Engelska kanalen,Canal da Mancha
 Adriatic Sea,Adriatisches Meer,Mar Adriático,Mer Adriatique,Adriaterhavet,Jaderské moře,Адриатическое море,Adriatische Zee,Adriatiska havet,Mar Adriático
 Bay of Biscay,Biskaya,Golfo de Vizcaya,Golfe de Gascogne,Biscayabukta,Biskajský záliv,Бискайский залив,Golf van Biskaje,Biscayabukten,Golfo da Biscaia
 Black Sea,Schwarzes Meer,Mar Negro,Mer Noire,Svartehavet,Černé moře,Чёрное море,Zwarte Zee,Svarta havet,Mar Negro
@@ -305,7 +305,7 @@ Antarctica,Antarktis,Antártida,Antarctique,Antarktis,Antarktida,Антаркт�
 Saint Martin,Saint-Martin,San Martín (Francia),Saint-Martin (Antilles françaises),Saint-Martin,Svatý Martin (francouzská část),Сен-Мартен,Sint-Maarten,Saint Martin,São Martinho (França)
 Wallis and Futuna,Wallis und Futuna,Wallis y Futuna,Wallis-et-Futuna,Wallis og Futuna,Wallis a Futuna,Уоллис и Футуна,Wallis en Fortuna,Wallis- och Futunaöarna,Wallis e Futuna
 Akrotiri and Dhekelia,Akrotiri und Dekelia,Acrotiri y Dhekelia,Akrotiri et Dhekelia,Akrotiri og Dekelia,Akrotiri a Dekelia,Акротири и Декелия,Akrotiri en Dhekelia,Akrotiri och Dhekelia,Acrotíri e Deceleia
-Svalbard,Spitzbergen,Svalbard,Svalbard,Svalbard,Špicberky,Свальбард,Spitsbergen,Svalbard,Esvalbarda
+Svalbard,Spitzbergen,Svalbard,Svalbard,Svalbard,Špicberky,Шпицберген,Spitsbergen,Svalbard,Esvalbarda
 Hawaii,Hawaii,Hawái,Hawaï,Hawaii,Havaj,Гавайи,Hawaï,Hawaii,Havaí
 Alaska,Alaska,Alaska,Alaska,Alaska,Aljaška,Аляска,Alaska,Alaska,Alasca
 Bougainville,Bougainville,Bougainville,Bougainville,Bougainville,Bougainville,Бугенвиль,Bougainville,Bougainville,Bougainville
