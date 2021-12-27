@@ -31,6 +31,7 @@
         - name: Country:cs
         - name: Country:nl
         - name: Country:pt
+        - name: Country:zh
 
         - name: Country info
         - name: Country info:de
@@ -40,6 +41,7 @@
         - name: Country info:cs
         - name: Country info:nl
         - name: Country info:pt
+        - name: Country info:zh
 
         - name: Capital
         - name: Capital:de
@@ -49,6 +51,7 @@
         - name: Capital:cs
         - name: Capital:nl
         - name: Capital:pt
+        - name: Capital:zh
 
         - name: Capital info
         - name: Capital info:de
@@ -58,6 +61,7 @@
         - name: Capital info:cs
         - name: Capital info:nl
         - name: Capital info:pt
+        - name: Capital info:zh
 
         - name: Capital hint
         - name: Capital hint:de
@@ -67,6 +71,7 @@
         - name: Capital hint:cs
         - name: Capital hint:nl
         - name: Capital hint:pt
+        - name: Capital hint:zh
 
         - name: Flag similarity
         - name: Flag similarity:de
@@ -76,6 +81,7 @@
         - name: Flag similarity:cs
         - name: Flag similarity:nl
         - name: Flag similarity:pt
+        - name: Flag similarity:zh
 
       templates: []
 
@@ -102,6 +108,7 @@
             Country:cs: Country:cs
             Country:nl: Country:nl
             Country:pt: Country:pt
+            Country:zh: Country:zh
 
             Country info: Country info
             Country info:de: Country info:de
@@ -111,6 +118,7 @@
             Country info:cs: Country info:cs
             Country info:nl: Country info:nl
             Country info:pt: Country info:pt
+            Country info:zh: Country info:zh
 
             Capital: Capital
             Capital:de: Capital:de
@@ -120,6 +128,7 @@
             Capital:cs: Capital:cs
             Capital:nl: Capital:nl
             Capital:pt: Capital:pt
+            Capital:zh: Capital:zh
 
             Capital info: Capital info
             Capital info:de: Capital info:de
@@ -129,6 +138,7 @@
             Capital info:cs: Capital info:cs
             Capital info:nl: Capital info:nl
             Capital info:pt: Capital info:pt
+            Capital info:zh: Capital info:zh
 
             Capital hint: Capital hint
             Capital hint:de: Capital hint:de
@@ -138,6 +148,7 @@
             Capital hint:cs: Capital hint:cs
             Capital hint:nl: Capital hint:nl
             Capital hint:pt: Capital hint:pt
+            Capital hint:zh: Capital hint:zh
 
             Flag similarity: Flag similarity
             Flag similarity:de: Flag similarity:de
@@ -147,6 +158,7 @@
             Flag similarity:cs: Flag similarity:cs
             Flag similarity:nl: Flag similarity:nl
             Flag similarity:pt: Flag similarity:pt
+            Flag similarity:zh: Flag similarity:zh
 
           personal_fields: []
 
