@@ -11,6 +11,7 @@
       - guid:nl
       - guid:sv
       - guid:pt
+      - guid:zh
 
 - build_parts:
   - note_model_templates_from_html:
@@ -73,6 +74,10 @@
         file: src/headers/default.yaml
         override:
           deck_description_html_file: src/headers/desc.html
+      - part_id: default header:zh
+        file: src/headers/default.yaml
+        override:
+          deck_description_html_file: src/headers/desc_zh.html
 
   - media_group_from_folder:
       - part_id: all_media
@@ -297,6 +302,27 @@
 
       file_mappings: *file_mappings
 
+  - notes_from_csvs:
+      part_id: chinese
+      #save_to_file:
+
+      note_model_mappings:
+        - note_models: *note_models_in_mapping
+          columns_to_fields:
+            <<: *default_columns_to_fields
+
+            guid:zh             : guid
+            country:zh          : Country
+            country info:zh     : Country info
+            capital:zh          : Capital
+            capital info:zh     : Capital info
+            capital hint:zh     : Capital hint
+            flag similarity:zh  : Flag similarity
+
+          personal_fields: [ ]
+
+      file_mappings: *file_mappings
+
 
 
 - generate_crowd_anki:
@@ -356,6 +382,12 @@
     folder: build/Ultimate Geography [PT]
     notes:
       part_id: portuguese
+- generate_crowd_anki:
+    <<: *default_crowd_anki_gen
+    headers: default header:zh
+    folder: build/Ultimate Geography [ZH]
+    notes:
+      part_id: chinese
 
 
 - generate_crowd_anki:
@@ -426,4 +458,11 @@
     folder: build/Ultimate Geography [PT] [Extended]
     notes:
       part_id: portuguese
+      <<: *override_nm
+- generate_crowd_anki:
+    <<: *extended_deck
+    headers: default header:zh
+    folder: build/Ultimate Geography [ZH] [Extended]
+    notes:
+      part_id: chinese
       <<: *override_nm
