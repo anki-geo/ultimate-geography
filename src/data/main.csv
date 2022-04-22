@@ -1,7 +1,7 @@
 country,flag,map,tags
 England,"<img src=""ug-flag-england.svg"" />","<img src=""ug-map-england.png"" />",UG::Europe
 Scotland,"<img src=""ug-flag-scotland.svg"" />","<img src=""ug-map-scotland.png"" />",UG::Europe
-United Kingdom,"<img src=""ug-flag-united_kingdom.svg"" />","<img src=""ug-map-united_kingdom.png"" />","UG::Europe, UG::European_Union, UG::Sovereign_State"
+United Kingdom,"<img src=""ug-flag-united_kingdom.svg"" />","<img src=""ug-map-united_kingdom.png"" />","UG::Europe, UG::Sovereign_State"
 Northern Ireland,,"<img src=""ug-map-northern_ireland.png"" />",UG::Europe
 France,"<img src=""ug-flag-france.svg"" />","<img src=""ug-map-france.png"" />","UG::Europe, UG::European_Union, UG::Mediterranean, UG::Sovereign_State"
 Wales,"<img src=""ug-flag-wales.svg"" />","<img src=""ug-map-wales.png"" />",UG::Europe
