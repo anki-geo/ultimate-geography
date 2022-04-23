@@ -415,7 +415,6 @@
       part_id: chinese
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
-    headers: default header:pl
     folder: build/Ultimate Geography [PL]
     notes:
       part_id: polish
@@ -500,7 +499,6 @@
       <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    headers: default header:pl
     folder: build/Ultimate Geography [PL] [Extended]
     notes:
       part_id: polish
