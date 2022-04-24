@@ -4,7 +4,7 @@
       part_id: standard notes
       sort_order: [Country]
       # save_to_file: src/notes/english.yaml
-  - note_models_from_crowd_anki:
+  - note_model_from_crowd_anki:
     - source: build/Ultimate Geography [EN]
       part_id: Ultimate Geography
       # save_to_file: src/note_models/Ultimate Geography.yaml
@@ -15,11 +15,11 @@
   - media_group_from_crowd_anki:
     - source: build/Ultimate Geography [EN]
       part_id: all_anki_media
-  - save_media_group_to_folder:
-      parts: [all_anki_media]
-      folder: src/media
-      clear_folder: false
-      recursive: true
+- save_media_group_to_folder:
+    parts: [all_anki_media]
+    folder: src/media
+    clear_folder: false
+    recursive: true
 
 - generate_csvs:
    notes: standard notes
