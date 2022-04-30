@@ -12,6 +12,7 @@
       - guid:sv
       - guid:pt
       - guid:zh
+      - guid:pl
 
 - build_parts:
   - note_model_templates_from_html:
@@ -327,7 +328,26 @@
 
       file_mappings: *file_mappings
 
+  - notes_from_csvs:
+      part_id: polish
+      #save_to_file:
 
+      note_model_mappings:
+        - note_models: *note_models_in_mapping
+          columns_to_fields:
+            <<: *default_columns_to_fields
+
+            guid:pl             : guid
+            country:pl          : Country
+            country info:pl     : Country info
+            capital:pl          : Capital
+            capital info:pl     : Capital info
+            capital hint:pl     : Capital hint
+            flag similarity:pl  : Flag similarity
+
+          personal_fields: [ ]
+
+      file_mappings: *file_mappings
 
 - generate_crowd_anki:
     <<: &default_crowd_anki_gen
@@ -393,6 +413,11 @@
     folder: build/Ultimate Geography [ZH]
     notes:
       part_id: chinese
+- generate_crowd_anki:
+    <<: *default_crowd_anki_gen
+    folder: build/Ultimate Geography [PL]
+    notes:
+      part_id: polish
 
 
 - generate_crowd_anki:
@@ -471,4 +496,10 @@
     folder: build/Ultimate Geography [ZH] [Extended]
     notes:
       part_id: chinese
+      <<: *override_nm
+- generate_crowd_anki:
+    <<: *extended_deck
+    folder: build/Ultimate Geography [PL] [Extended]
+    notes:
+      part_id: polish
       <<: *override_nm
