@@ -15,60 +15,12 @@
       - guid:pl
 
 - build_parts:
-  - note_model_templates_from_html:
-      - part_id: Country - Capital
-        html_file: src/note_models/templates/Country - Capital.html
-      - part_id: Capital - Country
-        html_file: src/note_models/templates/Capital - Country.html
-      - part_id: Country - Flag
-        html_file: src/note_models/templates/Country - Flag.html
-      - part_id: Country - Map
-        html_file: src/note_models/templates/Country - Map.html
-      - part_id: Flag - Country
-        html_file: src/note_models/templates/Flag - Country.html
-      - part_id: Map - Country
-        html_file: src/note_models/templates/Map - Country.html
-  - note_model_from_html_parts:
+  - note_model_from_yaml_part:
       part_id: Ultimate Geography
-      model_name: Ultimate Geography
-      model_id: 43e2586a-9a65-11e8-a777-a0481cc15658
-      css_file: src/note_models/style.css
-      fields: &all_fields
-        - name: Country
-          font: Arial
-        - name: Country info
-          font: Arial
-        - name: Capital
-          font: Arial
-        - name: Capital info
-          font: Arial
-        - name: Capital hint
-          font: Arial
-        - name: Flag
-          font: Arial
-        - name: Flag similarity
-          font: Arial
-        - name: Map
-          font: Arial
-      templates:
-        - Country - Capital
-        - Capital - Country
-        - Flag - Country
-        - Map - Country
-  - note_model_from_html_parts:
+      file: src/note_models/Ultimate_Geography.yaml
+  - note_model_from_yaml_part:
       part_id: Ultimate Geography [Extended]
-      model_name: Ultimate Geography [Extended]
-      model_id: 0a39f994-daaf-11e8-b984-a0481cc15658
-      css_file: src/note_models/style.css
-      fields: *all_fields
-      templates:
-        - Country - Capital
-        - Capital - Country
-        - Country - Flag
-        - Flag - Country
-        - Country - Map
-        - Map - Country
-
+      file: src/note_models/Ultimate_Geography_[Extended].yaml
 
   - headers_from_yaml_part:
       - part_id: default header
