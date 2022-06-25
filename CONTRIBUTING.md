@@ -114,7 +114,7 @@ In order for a geographical entity to be included in the deck, it must:
 
 Inclusion rules for political entities are documented and put into use in [political-entities.xlsx](political-entities.xlsx). They were discussed in [#137][ref137], [#221][ref221], [#306][ref306], [#312][ref312] and [#361][ref361].
 
-A political entity can be included either fully (map, capital and flag) or partially (with only a map). In the rare case where a political entity belongs to more than one of the below categories, it will only be considered in the first category of which it's a member.
+A political entity can be included either fully (map, capital, and flag) or partially (with only a map). In the rare case where a political entity belongs to more than one of the below categories, it will only be considered in the first category of which it's a member.
 
 #### Sovereign states
 
@@ -128,7 +128,7 @@ A political entity can be included either fully (map, capital and flag) or parti
   - https://en.wikipedia.org/wiki/Countries_of_the_United_Kingdom
 - Specifically, inhabited dependent territories.
 - Criteria for inclusion with map: `population >= 15,000 OR area >= 1,000 km2`
-- Criteria for inclusion with map, capital and flag: `(population >= 15,000 AND area >= 1,000 km2) OR population >= 100,000`
+- Criteria for inclusion with map, capital, and flag: `(population >= 15,000 AND area >= 1,000 km2) OR population >= 100,000`
 
 #### Autonomous islands
 
