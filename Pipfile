@@ -6,10 +6,10 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-brain-brew = "==0.3.2"
+brain-brew = "==0.3.8"
 
 [requires]
 python_version = "3.7"
 
 [scripts]
-build = "brain_brew recipes/source_to_anki.yaml"
+build = "brain_brew run recipes/source_to_anki.yaml"

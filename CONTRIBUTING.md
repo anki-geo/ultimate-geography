@@ -99,6 +99,8 @@ This recipe allows editing the English standard or extended deck in Anki, and th
 - To **change the _Country_ field** of a note, change it in `main.csv`, `guid.csv`, `country.csv`, and any other derivative CSV in which the note appears.
 - To **add a new translation**, add a new column to each of the CSV files and name them as follows: `[field name]:[language code]` (e.g. `country info:fr`, all lowercase). In most cases, the language code should match the Wikipedia subdomain for that language (e.g. https://fr.wikipedia.org/).
 
+When editing `guid.csv` please try to avoid using a spreadsheet, if possible, and instead use a text editor (e.g. notepad) since spreadsheets mangle some of the GUIDs that start with `=` signs.
+
 > Adding new fields (e.g. population, currency, etc.), the most heavily requested change to the deck, will soon™ be solved using [Brain Brew][Brain Brew], by combining separate repositories. Stay tuned.
 
 ## Content inclusion rules
