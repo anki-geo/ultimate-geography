@@ -76,7 +76,7 @@ Translated fields, such as _Country_ or _Capital info_, have their own CSV files
 pipenv run brain_brew recipes/source_to_anki.yaml
 ```
 
-This recipe builds the deck from source in a format that can be imported into Anki with the CrowdAnki add-on. More precisely, it generates every possible version of the deck (i.e. standard + extended, in every language) into sub-folders inside the `build` folder. Each of these sub-folders includes a CrowndAnki JSON file and all of the deck's images.
+This recipe builds the deck from source in a format that can be imported into Anki with the CrowdAnki add-on. More precisely, it generates every possible version of the deck (i.e. standard + extended, in every language) into sub-folders inside the `build` folder. Each of these sub-folders includes a CrowdAnki JSON file and all of the deck's images.
 
 On first run, this recipe generates all the missing files and folders in the `build` folder, logging warnings in the output. Upon subsequent runs, the warnings disappear.
 
@@ -229,7 +229,7 @@ The content of this field should be concise and consistent across notes. It may 
 
 ### _Capital_ field
 
-We use the capital(s) given in the [infobox](https://en.wikipedia.org/wiki/Template:Infobox_country#Examples) of the country's English Wikipedia article. This ensures consistency across languages and simplifies maintainance, as discussed in issue [#416#issuecomment-821864712][ref416].
+We use the capital(s) given in the [infobox](https://en.wikipedia.org/wiki/Template:Infobox_country#Examples) of the country's English Wikipedia article. This ensures consistency across languages and simplifies maintenance, as discussed in issue [#416#issuecomment-821864712][ref416].
 
 For spelling, unless otherwise stated in the [_Translation sources_](#translation-sources) section below, we take **the title of the Wikipedia article** for the capital, in the language of the given deck. Alternative names may be mentioned in the _Capital info_ field, when relevant.
 
@@ -331,7 +331,7 @@ By convention and for consistency, we use a full stop at the end of the _Capital
 
 ## Translation sources
 
-When Wikipedia in a given language is not sufficently exhaustive to support the translation of this deck, additional sources may be used. This section references such sources, as well as any stylistic choices made by translators.
+When Wikipedia in a given language is not sufficiently exhaustive to support the translation of this deck, additional sources may be used. This section references such sources, as well as any stylistic choices made by translators.
 
 ### Norwegian Bokmål
 
@@ -340,7 +340,7 @@ Norwegian Bokmål (nb-NO) is the preferred written-language standard of roughly 
 The Norwegian Bokmål translation is based on the following sources (in addition to the English deck), listed in order of priority:
 
 - **[_Store norske leksikon (The Large Norwegian Encyclopedia)_](https://snl.no/)** - Open to audience contributions, edited by professionals. The editors are usually academics. In the original translator's opinion a good trade-off between being quickly updated and being correct.
-- **[_Country names, capitals and national holidays_](https://www.regjeringen.no/no/dokumenter/statsnavn-hovedsteder-og-nasjonaldager/id87863/)** - This brochure from the Norwegian Ministry of Foreign Affairs is the most authoritative source for country names in Norwegian, as it is used by Norwegian diplomats. There are a few weaknesses:
+- **[_Country names, capitals, and national holidays_](https://www.regjeringen.no/no/dokumenter/statsnavn-hovedsteder-og-nasjonaldager/id87863/)** - This brochure from the Norwegian Ministry of Foreign Affairs is the most authoritative source for country names in Norwegian, as it is used by Norwegian diplomats. There are a few weaknesses:
   - The brochure is not updated often, possibly due to a lack of attention or diplomatic reasons for lagging behind _de facto_ changes.
   - Only includes sovereign countries.
 - **[Wikipedia in Norwegian (Bokmål)](https://no.wikipedia.org/wiki/Portal:Forside)** - Used when neither of the above sources were enough to verify spelling.
@@ -372,14 +372,14 @@ Content changes, such as adding a note, replacing an image, or translating the d
 1. In Anki, synchronise all your devices then upgrade the standard English deck by following the recommended procedure, which was agreed upon in the discussion thread. Synchronise all your devices again once the upgrade is complete.
 1. With the help of the Anki card browser, update the notes/cards stats in both `desc.html` and `README.md`, and commit the changes (including the version bump).
 1. Run `pipenv run build` again.
-1. Re-import the standard English deck in Anki and synchronise with AnkiWeb.
+1. Reimport the standard English deck in Anki and synchronise with AnkiWeb.
 1. Add each folder in the `build` directory to a separate ZIP archive named as follows:
   - `Ultimate Geography [EN]` ==> `Ultimate_Geography_v[x.y]_EN.zip`.
   - `Ultimate Geography [EN] [Extended]` ==> `Ultimate_Geography_v[x.y]_EN_EXTENDED.zip`.
 1. On GitHub, create a new **release** named after the version number.
 1. Draft the release notes, making sure to add a link to the upgrade steps in the `README` and/or [in the wiki](https://github.com/anki-geo/ultimate-geography/wiki/Upgrade-instructions).
 1. Attach all the ZIP files and save the draft release notes.
-1. Post a link to the draft release notes on the _Prepare for v[x.y]_ dicussion thread and wait for feedback.
+1. Post a link to the draft release notes on the _Prepare for v[x.y]_ discussion thread and wait for feedback.
 1. Once maintainers have reviewed the release notes and the upgrade process, open the draft release notes, and publish the release.
 1. Open a discussion thread to announce the release, with links to the release notes and upgrade instructions.
 1. Close the milestone and create a new one for the next minor version.
