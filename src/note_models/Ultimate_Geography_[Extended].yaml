@@ -28,6 +28,6 @@ templates:
   - name: Flag - Country
     html_file: src/note_models/templates/Flag - Country.html
   - name: Country - Map
-    html_file: src/note_models/templates/Map - Country.html
+    html_file: src/note_models/templates/Country - Map.html
   - name: Map - Country
     html_file: src/note_models/templates/Map - Country.html
