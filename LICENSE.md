@@ -43,6 +43,6 @@ The sources and licenses of the flags (`ug-flag-...`) and maps (`ug-map-...`) in
 - [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - [PD](https://en.wikipedia.org/wiki/Public_domain) (public domain)
 
-`sources.csv` references only the licenses of the files themselves. Some flags, like the [European Union flag](https://www.coe.int/en/web/about-us/the-european-flag#column-5), may come with additional copyright retrictions.
+`sources.csv` references only the licenses of the files themselves. Some flags, like the [European Union flag](https://www.coe.int/en/web/about-us/the-european-flag#column-5), may come with additional copyright restrictions.
 
 All images have been optimised, resized and/or converted to reduce file size. Any further modifications are listed in the  _Modifications_ column.
