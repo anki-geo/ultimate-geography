@@ -61,19 +61,19 @@ Translated fields, such as _Country_ or _Capital info_, have their own CSV files
 
 1. Fork and clone this repository on your machine.
 1. [Install Python 3.7](https://www.python.org/downloads/release/python-379/)
-  - During the installation, make sure to install `pip` (it's optional) and to tick _Add Python 3.7 to PATH_.
+   - During the installation, make sure to install `pip` (it's optional) and to tick _Add Python 3.7 to PATH_.
 1. Install Pipenv with `pip install pipenv`.
-  - If the `pip` executable is not available, try `pip3 install pipenv` instead.
+   - If the `pip` executable is not available, try `pip3 install pipenv` instead.
 1. In the root directory of your fork, run `pipenv install` to install Brain Brew and its dependencies in a new virtual environment.
-1. You can now run this deck's Brain Brew recipes with `pipenv run brain_brew recipes/<filename>.yaml`.
-  - Alternatively, run `pipenv run build` to build the deck for Anki with the `source_to_anki.yaml` recipe.
+1. You can now run this deck's Brain Brew recipes with `pipenv run brain_brew run recipes/<filename>.yaml`.
+   - Alternatively, run `pipenv run build` to build the deck for Anki with the `source_to_anki.yaml` recipe.
 
 ### Brain Brew recipes
 
 #### Source to Anki
 
 ```bash
-pipenv run brain_brew recipes/source_to_anki.yaml
+pipenv run brain_brew run recipes/source_to_anki.yaml
 ```
 
 This recipe builds the deck from source in a format that can be imported into Anki with the CrowdAnki add-on. More precisely, it generates every possible version of the deck (i.e. standard + extended, in every language) into sub-folders inside the `build` folder. Each of these sub-folders includes a CrowdAnki JSON file and all of the deck's images.
@@ -83,14 +83,14 @@ On first run, this recipe generates all the missing files and folders in the `bu
 #### Anki to Source
 
 ```bash
-pipenv run brain_brew recipes/anki_to_source.yaml
+pipenv run brain_brew run recipes/anki_to_source.yaml
 ```
 
 This recipe allows editing the English standard or extended deck in Anki, and then pulling the changes into the CSVs. Other languages are currently not supported. It also does not support editing the note model, card templates, deck description, etc. -- only the content of the notes.
 
 1. Make your edits in Anki.
 1. Export the deck with CrowdAnki into the `build/Ultimate Geography [EN]` folder (even if you've edited the extended deck).
-1. Run `pipenv run brain_brew recipes/anki_to_source.yaml`.
+1. Run `pipenv run brain_brew run recipes/anki_to_source.yaml`.
 1. Any new media will be placed at the top level of the `src/media` folder and will need to be moved into the appropriate sub-folder.
 
 ### How-to's
@@ -376,8 +376,8 @@ Content changes, such as adding a note, replacing an image, or translating the d
 1. Run `pipenv run build` again.
 1. Reimport the standard English deck in Anki and synchronise with AnkiWeb.
 1. Add each folder in the `build` directory to a separate ZIP archive named as follows:
-  - `Ultimate Geography [EN]` ==> `Ultimate_Geography_v[x.y]_EN.zip`.
-  - `Ultimate Geography [EN] [Extended]` ==> `Ultimate_Geography_v[x.y]_EN_EXTENDED.zip`.
+   - `Ultimate Geography [EN]` ==> `Ultimate_Geography_v[x.y]_EN.zip`.
+   - `Ultimate Geography [EN] [Extended]` ==> `Ultimate_Geography_v[x.y]_EN_EXTENDED.zip`.
 1. On GitHub, create a new **release** named after the version number.
 1. Draft the release notes, making sure to add a link to the upgrade steps in the `README` and/or [in the wiki](https://github.com/anki-geo/ultimate-geography/wiki/Upgrade-instructions).
 1. Attach all the ZIP files and save the draft release notes.
