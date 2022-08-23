@@ -28,14 +28,20 @@
         file: src/headers/default.yaml
         override:
           deck_description_html_file: src/headers/desc.html
+          crowdanki_uuid: 43c5ba66-9a65-11e8-90c9-a0481cc15658
+          name: Ultimate Geography
       - part_id: default header:es
-        file: src/headers/default_es.yaml
+        file: src/headers/default.yaml
         override:
           deck_description_html_file: src/headers/desc_es.html
+          crowdanki_uuid: cb4d32ee-12ed-9960-1841-28c09449ded0
+          name: Ultimate Geography [ES]
       - part_id: default header:zh
-        file: src/headers/default_zh.yaml
+        file: src/headers/default.yaml
         override:
           deck_description_html_file: src/headers/desc_zh.html
+          crowdanki_uuid: 6c995ee1-4b62-4019-a033-de0ef8651c83
+          name: Ultimate Geography [ZH]
 
   - media_group_from_folder:
       - part_id: all_media

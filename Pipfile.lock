@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7da6375b69c8801a1adaf4d3f1c5ca6fd2aa172cce818ed73e42f53c8447350a"
+            "sha256": "8b8a481aa712d5963c9c33f0958393730d03e63453943212111ceb4a0e77512d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -17,12 +17,9 @@
     },
     "default": {
         "brain-brew": {
-            "hashes": [
-                "sha256:8427a74deba6a433afbefeaa5f679eee833a954b2290f72197b020e1bc464bd6",
-                "sha256:9f9c788c51cdb0c298d040404b335ac80a277157825db4e4f6a2222249c3de87"
-            ],
-            "index": "pypi",
-            "version": "==0.3.8"
+            "editable": true,
+            "git": "https://github.com/ohare93/brain-brew.git",
+            "ref": "9c54e3d59436e46a7e0146278955c2f90801aa90"
         },
         "pyyaml": {
             "hashes": [
