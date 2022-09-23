@@ -54,6 +54,7 @@ Ukraine,Kyiv,Kiew,Kiev,Kiev,Kiev,Kyjev,Киев,Kiev,Kiev,Quieve,基辅(Kyiv),Ki
 Vatican City,Vatican City,Vatikanstadt,Ciudad del Vaticano,Vatican,Vatikanstaten,Vatikán,Ватикан,Vaticaanstad,Vatikanstaden,Vaticano,梵蒂冈城(Vatican City),Watykan,Città del Vaticano
 Armenia,Yerevan,Jerewan,Ereván,Erevan,Jerevan,Jerevan,Ереван,Jerevan,Jerevan,Erevã,埃里温(Yerevan),Erywań,Erevan
 Cyprus,Nicosia,Nikosia,Nicosia,Nicosie,Nikosia,Nikósie,Никосия,Nicosia,Nicosia,Nicósia,尼科西亚(Nicosia),Nikozja,Nicosia
+Kazakhstan,Astana,Astana,Astaná,Astana,Astana,Astana,Астана,Astana,Astana,Astana,阿斯塔纳(Astana),Astana,Astana
 Kazakhstan,Nur-Sultan,Nur-Sultan,Nursultán,Noursoultan,Nursultan,Nur-Sultan,Нур-Султан,Nur-Sultan,Nur-Sultan,Nur-Sultã,努尔苏丹(Nur-Sultan),Nur-Sułtan,Nur-Sultan
 Egypt,Cairo,Kairo,El Cairo,Le Caire,Kairo,Káhira,Каир,Caïro,Kairo,Cairo,开罗(Cairo),Kair,Il Cairo
 Algeria,Algiers,Algier,Argel,Alger,Alger,Alžír,Алжир,Algiers,Alger,Argel,阿尔及尔(Algiers),Algier,Algeri
@@ -64,7 +65,7 @@ Burkina Faso,Ouagadougou,Ouagadougou,Uagadugú,Ouagadougou,Ouagadougou,Ouagadoug
 Cameroon,Yaoundé,Yaoundé,Yaundé,Yaoundé,Yaoundé,Yaoundé,Яунде,Yaoundé,Yaoundé,Iaundé,雅温得(Yaoundé),Jaunde,Yaoundé
 Burundi,Gitega,Gitega,Guitega,Gitega,Gitega,Gitega,Гитега,Gitega,Gitega,Guitega,基特加(Gitega),Gitega,Gitega
 Cape Verde,Praia,Praia,Praia,Praia,Praia,Praia,Прая,Praia,Praia,Praia,普拉亚(Praia),Praia,Praia
-São Tomé and Príncipe,São Tomé,São Tomé,Santo Tomé,São Tomé,São Tomé,São Tomé,Сан-Томе,Sao Tomé,São Tomé,São Tomé,圣多美(São Tomé),São Tomé,São Tomé 
+São Tomé and Príncipe,São Tomé,São Tomé,Santo Tomé,São Tomé,São Tomé,São Tomé,Сан-Томе,Sao Tomé,São Tomé,São Tomé,圣多美(São Tomé),São Tomé,São Tomé
 Central African Republic,Bangui,Bangui,Bangui,Bangui,Bangui,Bangui,Банги,Bangui,Bangui,Bangui,班吉(Bangui),Bangi,Bangui
 Chad,N'Djamena,N’Djamena,Yamena,N'Djaména,Ndjamena,N'Djamena,Нджамена,Ndjamena,N'Djamena,Jamena,恩贾梅纳(N'Djamena),Ndżamena,N'Djamena
 Equatorial Guinea,Malabo,Malabo,Malabo,Malabo,Malabo,Malabo,Малабо,Malabo,Malabo,Malabo,马拉博(Malabo),Malabo,Malabo
@@ -138,7 +139,7 @@ Saudi Arabia,Riyadh,Riad,Riad,Riyad,Riyadh,Rijád,Эр-Рияд,Riyad,Riyadh,Ria
 Singapore,Singapore,Singapur,Singapur,Singapour,Singapore,Singapur,Сингапур,Singapore,Singapore,Singapura,新加坡(Singapore),Singapur,Singapore
 Syria,Damascus,Damaskus,Damasco,Damas,Damaskus,Damašek,Дамаск,Damascus,Damaskus,Damasco,大马士革(Damascus),Damaszek,Damasco
 Taiwan,Taipei,Taipeh,Taipéi,Taipei,Taipei,Tchaj-pej,Тайбэй,Taipei,Taipei,Taipé,台北(Taipei),Tajpej,Taipei
-Sri Lanka,Sri Jayawardenepura Kotte,Sri Jayewardenepura Kotte,Sri Jayawardenapura Kotte,Sri Jayawardenapura Kotte,Colombo,Šrí Džajavardanapura Kotte,Шри-Джаяварденепура-Котте,Sri Jayewardenapura Kotte,Sri Jayawardenapura,Seri Jaiavardenapura-Cota,斯里贾亚瓦德纳普拉科特(Sri Jayawardenepura Kotte)，亦称科特,Sri Dźajawardanapura Kotte,Sri Jayawardenapura Kotte 
+Sri Lanka,Sri Jayawardenepura Kotte,Sri Jayewardenepura Kotte,Sri Jayawardenapura Kotte,Sri Jayawardenapura Kotte,Colombo,Šrí Džajavardanapura Kotte,Шри-Джаяварденепура-Котте,Sri Jayewardenapura Kotte,Sri Jayawardenapura,Seri Jaiavardenapura-Cota,斯里贾亚瓦德纳普拉科特(Sri Jayawardenepura Kotte)，亦称科特,Sri Dźajawardanapura Kotte,Sri Jayawardenapura Kotte
 Tajikistan,Dushanbe,Duschanbe,Dusambé,Douchanbé,Dusjanbe,Dušanbe,Душанбе,Doesjanbe,Dusjanbe,Duxambé,杜尚别(Dushanbe),Duszanbe,Dušanbe
 Thailand,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Бангкок,Bangkok,Bangkok,"Bancoque (BR), Banguecoque (PT)",曼谷(Bangkok),Bangkok,Bangkok
 East Timor,Dili,Dili,Dili,Dili,Dili,Dili,Дили,Dili,Dili,Díli,帝力(Dili),Dili,Dili
@@ -165,8 +166,8 @@ Uruguay,Montevideo,Montevideo,Montevideo,Montevideo,Montevideo,Montevideo,Мон
 Venezuela,Caracas,Caracas,Caracas,Caracas,Caracas,Caracas,Каракас,Caracas,Caracas,Caracas,加拉加斯(Caracas),Caracas,Caracas
 Cook Islands,Avarua,Avarua,Avarua,Avarua,Avarua,Avarua,Аваруа,Avarua,Avarua,Avarua,阿瓦鲁阿(Avarua),Avarua,Avarua
 Federated States of Micronesia,Palikir,Palikir,Palikir,Palikir,Palikir,Palikir,Паликир,Palikir,Palikir,Paliquir,帕利基尔(Palikir),Palikir,Palikir
-Guam,Hagåtña,Hagåtña,Agaña,Hagåtña,Hagåtña,Hagåtña,Хагатна,Hagåtña,Hagåtña,Aganha,哈加特纳(Hagåtña),Hagåtña,Hagåtña 
-Vanuatu,Port Vila,Port Vila,Port Vila,Port-Vila,Vila,Port Vila,Порт-Вила,Port Vila,Port Vila,Porto Vila,维拉港(Port Vila),Port Vila,Port Vila 
+Guam,Hagåtña,Hagåtña,Agaña,Hagåtña,Hagåtña,Hagåtña,Хагатна,Hagåtña,Hagåtña,Aganha,哈加特纳(Hagåtña),Hagåtña,Hagåtña
+Vanuatu,Port Vila,Port Vila,Port Vila,Port-Vila,Vila,Port Vila,Порт-Вила,Port Vila,Port Vila,Porto Vila,维拉港(Port Vila),Port Vila,Port Vila
 Canada,Ottawa,Ottawa,Ottawa,Ottawa,Ottawa,Ottawa,Оттава,Ottawa,Ottawa,Otava,渥太华(Ottawa),Ottawa,Ottawa
 United States of America,"Washington, D.C.","Washington, D.C.",Washington D. C.,Washington,"Washington, D.C.","Washington, D.C.","Вашингтон, округ Колумбия",Washington D.C.,"Washington, D.C.","Washington, D.C.","华盛顿特区(Washington, D.C.)",Waszyngton,Washington
 Mexico,Mexico City,Mexiko-Stadt,Ciudad de México,Mexico,Mexico by,Ciudad de México,Мехико,Mexico-Stad,Mexico City,Cidade do México,墨西哥城(Mexico City),Meksyk,Città del Messico
