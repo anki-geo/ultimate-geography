@@ -261,7 +261,7 @@ convey as little information as possible to not give away the answers.
 
 ### _Flag_ field
 
-This field must contain a single HTML image element pointing to the SVG image of a flag - e.g. `<img src="ug-flag-seychelles.svg" />`. The image must be placed in the ` media` folder and named `ug-flag-<country_name>.svg`. SVG is the preferred format.
+This field must contain a single HTML image element pointing to the SVG image of a flag - e.g. `<img src="ug-flag-seychelles.svg" />`. The image must be placed in the ` media` folder and named `ug-flag-<country_name>.svg`.
 
 SVG flags are sourced from [Wikimedia](https://commons.wikimedia.org/). We use the flag that is presented in the [infobox](https://en.wikipedia.org/wiki/Template:Infobox_country#Examples) of the English Wikipedia article for the country. The flag's source URL and licence must be documented in `sources.csv`.
 
