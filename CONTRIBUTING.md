@@ -261,7 +261,7 @@ convey as little information as possible to not give away the answers.
 
 ### _Flag_ field
 
-This field must contain a single HTML image element pointing to the SVG or PNG image of a flag - e.g. `<img src="ug-flag-seychelles.svg" />`. The image must be placed in the ` media` folder and named `ug-flag-<country_name>.<svg|png>`. SVG is the preferred format.
+This field must contain a single HTML image element pointing to the SVG image of a flag - e.g. `<img src="ug-flag-seychelles.svg" />`. The image must be placed in the ` media` folder and named `ug-flag-<country_name>.svg`.
 
 SVG flags are sourced from [Wikimedia](https://commons.wikimedia.org/). We use the flag that is presented in the [infobox](https://en.wikipedia.org/wiki/Template:Infobox_country#Examples) of the English Wikipedia article for the country. The flag's source URL and licence must be documented in `sources.csv`.
 
@@ -270,9 +270,8 @@ The following guidelines apply to flag images:
 - The `viewBox`, `width` and `height` attributes are required.
 - The height must be set to 250 px (`height="250"`) and the width adjusted proportionally.
 - Each flag must be optimised with [SVGO](https://jakearchibald.github.io/svgomg/).
-- SVG flags larger than 50 kB must be exported to PNG (still with a height of 250 px) and optimised with a tool like [PNGGauntlet](https://pnggauntlet.com/).
 
-If the name of a country appears clearly on a flag, a second version of that flag may also be provided, with the name of the country blurred out. The name should be blurred using [Inkscape](https://inkscape.org/)'s Gaussian blur effect as explained in [#247][ref247]. The blurred flag must be named `ug-flag-<country_name>-blur.<svg|png>` and placed in the `media` folder. A second HTML element must then be added to the _Flag_ field _before_ the existing HTML element. This allows the blurred flag to appear on the front of the country's _Flag - Country_ card.
+If the name of a country appears clearly on a flag, a second version of that flag may also be provided, with the name of the country blurred out. The name should be blurred using [Inkscape](https://inkscape.org/)'s Gaussian blur effect as explained in [587#issuecomment-1357163000][ref587]. The blurred flag must be named `ug-flag-<country_name>-blur.svg` and placed in the `media` folder. A second HTML element must then be added to the _Flag_ field _before_ the existing HTML element. This allows the blurred flag to appear on the front of the country's _Flag - Country_ card.
 
 ### _Flag similarity_ field
 
@@ -397,7 +396,6 @@ Content changes, such as adding a note, replacing an image, or translating the d
 [ref181]: https://github.com/anki-geo/ultimate-geography/issues/181
 [ref212]: https://github.com/anki-geo/ultimate-geography/issues/212
 [ref221]: https://github.com/anki-geo/ultimate-geography/issues/221
-[ref247]: https://github.com/anki-geo/ultimate-geography/pull/247
 [ref306]: https://github.com/anki-geo/ultimate-geography/pull/306
 [ref312]: https://github.com/anki-geo/ultimate-geography/pull/312
 [ref345]: https://github.com/anki-geo/ultimate-geography/pull/345
@@ -405,4 +403,5 @@ Content changes, such as adding a note, replacing an image, or translating the d
 [ref361]: https://github.com/anki-geo/ultimate-geography/pull/361
 [ref383]: https://github.com/anki-geo/ultimate-geography/issues/383
 [ref416]: https://github.com/anki-geo/ultimate-geography/issues/416#issuecomment-821864712
+[ref587]: https://github.com/anki-geo/ultimate-geography/pull/587#issuecomment-1357163000
 [Brain Brew]: https://github.com/ohare93/brain-brew
