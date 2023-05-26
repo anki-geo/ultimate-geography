@@ -75,7 +75,7 @@ Democratic Republic of the Congo,Kinshasa,Kinshasa,Kinsasa,Kinshasa,Kinshasa,Kin
 Djibouti,Djibouti,Dschibuti,Yibuti,Djibouti,Djibouti,Džibuti,Джибути,Djibouti,Djibouti,"Djibuti (BR), Jibuti (PT)",吉布提(Djibouti),Dżibuti,Gibuti
 Guinea-Bissau,Bissau,Bissau,Bisáu,Bissau,Bissau,Bissau,Бисау,Bissau,Bissau,Bissau,比绍(Bissau),Bissau,Bissau
 Eritrea,Asmara,Asmara,Asmara,Asmara,Asmara,Asmara,Асмэра,Asmara,Asmara,Asmara,阿斯马拉(Asmara),Asmara,Asmara
-Ethiopia,Addis Ababa,Addis Abeba,Adís Abeba,Addis-Abeba,Addis Abeba,Addis Abeba,Аддис-Абеба,Addis Ababa,Addis Abeba,Adis Abeba,亚的斯亚贝巴(Addis Ababa),Addis Abeba,Addis Abeba
+Ethiopia,Addis Ababa,Addis Abeba,Adís Abeba,Addis-Abeba,Addis Abeba,Addis Abeba,Аддис-Абеба,Addis Abeba,Addis Abeba,Adis Abeba,亚的斯亚贝巴(Addis Ababa),Addis Abeba,Addis Abeba
 Gabon,Libreville,Libreville,Libreville,Libreville,Libreville,Libreville,Либревиль,Libreville,Libreville,Librevile,利伯维尔(Libreville),Libreville,Libreville
 The Gambia,Banjul,Banjul,Banjul,Banjul,Banjul,Banjul,Банджул,Banjul,Banjul,Banjul,班珠尔(Banjul),Bandżul,Banjul
 Lesotho,Maseru,Maseru,Maseru,Maseru,Maseru,Maseru,Масеру,Maseru,Maseru,Maseru,马塞卢(Maseru),Maseru,Maseru
@@ -172,7 +172,7 @@ United States of America,"Washington, D.C.","Washington, D.C.",Washington D. C.,
 Mexico,Mexico City,Mexiko-Stadt,Ciudad de México,Mexico,Mexico by,Ciudad de México,Мехико,Mexico-Stad,Mexico City,Cidade do México,墨西哥城(Mexico City),Meksyk,Città del Messico
 Puerto Rico,San Juan,San Juan,San Juan,San Juan,San Juan,San Juan,Сан-Хуан,San Juan,San Juan,São João,圣胡安(San Juan),San Juan,San Juan
 Cuba,Havana,Havanna,La Habana,La Havane,Havanna,Havana,Гавана,Havana,Havanna,Havana,哈瓦那(Havana),Hawana,L'Avana
-Dominican Republic,Santo Domingo,Santo Domingo,Santo Domingo,Saint-Domingue,Santo Domingo,Santo Domingo,Санто-Доминго,Santo Dominigo,Santo Domingo,São Domingos,圣多明各(Santo Domingo),Santo Domingo,Santo Domingo
+Dominican Republic,Santo Domingo,Santo Domingo,Santo Domingo,Saint-Domingue,Santo Domingo,Santo Domingo,Санто-Доминго,Santo Domingo,Santo Domingo,São Domingos,圣多明各(Santo Domingo),Santo Domingo,Santo Domingo
 Haiti,Port-au-Prince,Port-au-Prince,Puerto Príncipe,Port-au-Prince,Port-au-Prince,Port-au-Prince,Порт-о-Пренс,Port-au-Prince,Port-au-Prince,Porto Príncipe,太子港(Port-au-Prince),Port-au-Prince,Port-au-Prince
 Jamaica,Kingston,Kingston,Kingston,Kingston,Kingston,Kingston,Кингстон,Kingston,Kingston,Kingston,金斯敦(Kingston),Kingston,Kingston
 Trinidad and Tobago,Port of Spain,Port of Spain,Puerto España,Port-d'Espagne,Port of Spain,Port of Spain,Порт-оф-Спейн,Port of Spain,Port of Spain,Porto da Espanha,西班牙港(Port of Spain),Port-of-Spain,Port of Spain
@@ -205,7 +205,7 @@ Marshall Islands,Majuro,Majuro,Majuro,Majuro,Majuro,Majuro,Маджуро,Majuro
 Nauru,Yaren,Yaren,Yaren,Yaren,Yaren,Yaren,Ярен,Yaren,Yaren,Iarém,亚伦(Yaren),Yaren,Yaren
 New Caledonia,Nouméa,Nouméa,Numea,Nouméa,Nouméa,Nouméa,Нумеа,Nouméa,Nouméa,Numeá,努美阿(Nouméa),Numea,Numea
 Niue,Alofi,Alofi,Alofi,Alofi,Alofi,Alofi,Алофи,Alofi,Alofi,Alofi,阿洛菲(Alofi),Alofi,Alofi
-Northern Cyprus,North Nicosia,Nord-Nikosia,Nicosia del Norte,Nicosie-Nord,Nord-Nikosia,Severní Nikósie,Северная Никосия,North Nicosia,Norra Nicosia,Nicósia do Norte,北尼科西亚(North Nicosia),Nikozja Północna,Nicosia Nord
+Northern Cyprus,North Nicosia,Nord-Nikosia,Nicosia del Norte,Nicosie-Nord,Nord-Nikosia,Severní Nikósie,Северная Никосия,Noord-Nicosia,Norra Nicosia,Nicósia do Norte,北尼科西亚(North Nicosia),Nikozja Północna,Nicosia Nord
 Saint Kitts and Nevis,Basseterre,Basseterre,Basseterre,Basseterre,Basseterre,Basseterre,Бастер,Basseterre,Basseterre,Basseterre,巴斯特尔(Basseterre),Basseterre,Basseterre
 Samoa,Apia,Apia,Apia,Apia,Apia,Apia,Апиа,Apia,Apia,Apia,阿皮亚(Apia),Apia,Apia
 Somaliland,Hargeisa,Hargeysa,Hargeisa,Hargeisa,Hargeisa,Hargeysa,Харгейса,Hargeisa,Hargeisa,Hargeisa,哈尔格萨(Hargeisa),Hargejsa,Hargheisa
@@ -213,7 +213,7 @@ South Sudan,Juba,Juba,Yuba,Djouba,Juba,Džuba,Джуба,Djoeba,Juba,Juba,朱巴
 Tuvalu,Funafuti,Funafuti,Funafuti,Funafuti,Funafuti,Funafuti,Фунафути,Funafuti,Funafuti,Funafuti,富纳富提(Funafuti),Funafuti,Funafuti
 United States Virgin Islands,Charlotte Amalie,Charlotte Amalie,Charlotte Amalie,Charlotte-Amélie,Charlotte Amalie,Charlotte Amalie,Шарлотта-Амалия,Charlotte Amalie,Charlotte Amalie,Carlota Amália,夏洛特阿马利亚(Charlotte Amalie),Charlotte Amalie,Charlotte Amalie
 Åland Islands,Mariehamn,Mariehamn,Mariehamn,Mariehamn,Mariehamn,Mariehamn,Мариехамн,Mariehamn,Mariehamn,Marianhamina,玛丽港(Mariehamn),Maarianhamina,Mariehamn
-South Ossetia,Tskhinvali,Zchinwali,Tsjinval,Tskhinvali,Tskhinvali,Cchinvali,Цхинвал,Tsinvali,Tschinvali,Tsequinváli,茨欣瓦利(Tskhinvali),Cchinwali,Tskhinvali
+South Ossetia,Tskhinvali,Zchinwali,Tsjinval,Tskhinvali,Tskhinvali,Cchinvali,Цхинвал,Tschinvali,Tschinvali,Tsequinváli,茨欣瓦利(Tskhinvali),Cchinwali,Tskhinvali
 Aruba,Oranjestad,Oranjestad,Oranjestad,Oranjestad,Oranjestad,Oranjestad,Ораньестад,Oranjestad,Oranjestad,Oranjestade,奥拉涅斯塔德(Oranjestad),Oranjestad,Oranjestad
 Abkhazia,Sukhumi,Sochumi,Sujumi,Soukhoumi,Sukhumi,Suchumi,Сухуми,Soechoemi,Suchumi,Sucumi,苏呼米(Sukhumi),Suchumi,Sukhumi
 Republic of Artsakh,Stepanakert,Stepanakert,Stepanakert,Stepanakert,Stepanakert,Štěpanakert,Степанакерт,Stepanakert,Stepanakert,Estepanaquerte,斯捷潘纳克特(Stepanakert),Stepanakert,Step'anakert

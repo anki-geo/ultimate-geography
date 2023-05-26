@@ -115,7 +115,7 @@ China,Volksrepublik China,China,Chine,Kina,Čína,Китай,China,Kina,China,�
 Cambodia,Kambodscha,Camboya,Cambodge,Kambodsja,Kambodža,Камбоджа,Cambodja,Kambodja,Camboja,柬埔寨(Cambodia),Kambodża,Cambogia
 Indonesia,Indonesien,Indonesia,Indonésie,Indonesia,Indonésie,Индонезия,Indonesië,Indonesien,Indonésia,印度尼西亚(Indonesia),Indonezja,Indonesia
 India,Indien,India,Inde,India,Indie,Индия,India,Indien,Índia,印度(India),Indie,India
-Hong Kong,Hongkong,Hong Kong,Hong Kong,Hongkong,Hongkong,Гонконг,Hong Kong,Hongkong,Hong Kong,香港(Hong Kong),Hongkong,Hong Kong
+Hong Kong,Hongkong,Hong Kong,Hong Kong,Hongkong,Hongkong,Гонконг,Hongkong,Hongkong,Hong Kong,香港(Hong Kong),Hongkong,Hong Kong
 Iran,Iran,Irán,Iran,Iran,Írán,Иран,Iran,Iran,"Irã (BR), Irão (PT)",伊朗(Iran),Iran,Iran
 Israel,Israel,Israel,Israël,Israel,Izrael,Израиль,Israël,Israel,Israel,以色列(Israel),Izrael,Israele
 Iraq,Irak,Irak,Irak,Irak,Irák,Ирак,Irak,Irak,Iraque,伊拉克(Iraq),Irak,Iraq
@@ -155,7 +155,7 @@ Australia,Australien,Australia,Australie,Australia,Austrálie,Австралия
 Solomon Islands,Salomonen,Islas Salomón,Îles Salomon,Salomonøyene,Šalomounovy ostrovy,Соломоновы острова,Salomonseilanden,Salomonöarna,Ilhas Salomão,所罗门群岛(Solomon Islands),Wyspy Salomona,Isole Salomone
 Argentina,Argentinien,Argentina,Argentine,Argentina,Argentina,Аргентина,Argentinië,Argentina,Argentina,阿根廷(Argentina),Argentyna,Argentina
 Bolivia,Bolivien,Bolivia,Bolivie,Bolivia,Bolívie,Боливия,Bolivia,Bolivia,Bolívia,玻利维亚(Bolivia),Boliwia,Bolivia
-Brazil,Brasilien,Brasil,Brésil,Brasil,Brazílie,Бразилия,Brazillië,Brasilien,Brasil,巴西(Brazil),Brazylia,Brasile
+Brazil,Brasilien,Brasil,Brésil,Brasil,Brazílie,Бразилия,Brazilië,Brasilien,Brasil,巴西(Brazil),Brazylia,Brasile
 Chile,Chile,Chile,Chili,Chile,Chile,Чили,Chili,Chile,Chile,智利(Chile),Chile,Cile
 Colombia,Kolumbien,Colombia,Colombie,Colombia,Kolumbie,Колумбия,Colombia,Colombia,Colômbia,哥伦比亚(Colombia),Kolumbia,Colombia
 Ecuador,Ecuador,Ecuador,Équateur,Ecuador,Ekvádor,Эквадор,Ecuador,Ecuador,Equador,厄瓜多尔(Ecuador),Ekwador,Ecuador
@@ -206,14 +206,14 @@ Saint Lucia,St. Lucia,Santa Lucía,Sainte-Lucie,Saint Lucia,Svatá Lucie,Сен�
 Bali,Bali,Bali,Bali,Bali,Bali,Бали,Bali,Bali,Bali,巴厘岛(Bali),Bali,Bali
 Grenada,Grenada,Granada,Grenade,Grenada,Grenada,Гренада,Grenada,Grenada,Granada,格林纳达(Grenada),Grenada,Grenada
 British Virgin Islands,Britische Jungferninseln,Islas Vírgenes Británicas,Îles Vierges britanniques,De britiske Jomfruøyer,Britské Panenské ostrovy,Британские Виргинские Острова,Britse Maagdeneilanden,Brittiska Jungfruöarna,Ilhas Virgens Britânicas,英属维尔京群岛(British Virgin Islands),Brytyjskie Wyspy Dziewicze,Isole Vergini britanniche
-Turks and Caicos Islands,Turks- und Caicosinseln,Islas Turcas y Caicos,Îles Turques-et-Caïques,Turks- og Caicosøyene,Turks a Caicos,Острова Теркс и Кайкос,Turks-en Caicoseilanden,Turks- och Caicosöarna,Turcas e Caicos,特克斯和凯科斯群岛(Turks and Caicos Islands),Wyspy Turks i Caicos,Turks e Caicos
+Turks and Caicos Islands,Turks- und Caicosinseln,Islas Turcas y Caicos,Îles Turques-et-Caïques,Turks- og Caicosøyene,Turks a Caicos,Острова Теркс и Кайкос,Turks- en Caicoseilanden,Turks- och Caicosöarna,Turcas e Caicos,特克斯和凯科斯群岛(Turks and Caicos Islands),Wyspy Turks i Caicos,Turks e Caicos
 Cayman Islands,Cayman Islands (Kaimaninseln),Islas Caimán,Îles Caïmans,Caymanøyene,Kajmanské ostrovy,Каймановы острова,Kaaimaneilanden,Caymanöarna,Ilhas Caimã,开曼群岛(Cayman Islands),Kajmany,Isole Cayman
 Anguilla,Anguilla,Anguila,Anguilla,Anguilla,Anguilla,Ангилья,Anguilla,Anguilla,Anguila,安圭拉(Anguilla),Anguilla,Anguilla
 Azores,Azoren (Habichtsinseln),Azores,Açores,Asorene,Azory,Азорские острова,Azoren,Azorerna,Açores,亚速尔群岛(Azores),Azory,Azzorre
 Curaçao,Curaçao,Curazao,Curaçao,Curaçao,Curaçao,Кюрасао,Curaçao,Curaçao,Curaçao,库拉索(Curaçao),Curaçao,Curaçao
 French Guiana,Französisch-Guayana,Guayana Francesa,Guyane,Fransk Guyana,Francouzská Guyana,Французская Гвиана,Frans-Guyana,Franska Guyana,Guiana Francesa,法属圭亚那(French Guiana),Gujana Francuska,Guyana francese
 Gibraltar,Gibraltar,Gibraltar,Gibraltar,Gibraltar,Gibraltar,Гибралтар,Gibraltar,Gibraltar,Gibraltar,直布罗陀(Gibraltar),Gibraltar,Gibilterra
-Guernsey,Guernsey,Guernsey,Guernesey,Guernsey,Guernsey,Гернси,Guersney,Guernsey,Guernesei,根西岛(Guernsey),Guernsey,Guernsey
+Guernsey,Guernsey,Guernsey,Guernesey,Guernsey,Guernsey,Гернси,Guernsey,Guernsey,Guernesei,根西岛(Guernsey),Guernsey,Guernsey
 Isle of Man,Isle of Man,Isla de Man,Île de Man,Man,Man,Остров Мэн,Man,Isle of Man,Ilha de Man,马恩岛(Isle of Man),Wyspa Man,Isola di Man
 Jersey,Jersey,Jersey,Jersey,Jersey,Jersey,Джерси,Jersey,Jersey,Jérsia,泽西岛(Jersey),Jersey,Jersey
 Kiribati,Kiribati,Kiribati,Kiribati,Kiribati,Kiribati,Кирибати,Kiribati,Kiribati,Quiribati,基里巴斯(Kiribati),Kiribati,Kiribati
@@ -250,7 +250,7 @@ Gulf of Mexico,Golf von Mexiko,Golfo de México,Golfe du Mexique,Mexicogolfen,Me
 Philippine Sea,Philippinensee,Mar de Filipinas,Mer des Philippines,Filippinerhavet,Filipínské moře,Филиппинское море,Filipijnenzee,Filippinska sjön,Mar das Filipinas,菲律宾海(Philippine Sea),Morze Filipińskie,Mare delle Filippine
 Southern Ocean,Südlicher Ozean,Océano Antártico,Océan Austral,Sørishavet,Jižní oceán,Южный океан,Zuidelijke Oceaan,Antarktiska oceanen,Oceano Antártico,南大洋(Southern Ocean),Ocean Południowy,Oceano Antartico
 Gulf of Thailand,Golf von Thailand,Golfo de Tailandia,Golfe de Thaïlande,Thailandbukta,Thajský záliv,Сиамский залив,Golf van Thailand,Thailandviken,Golfo da Tailândia,泰国湾(Gulf of Thailand),Zatoka Tajlandzka,Golfo del Siam
-Micronesia,Mikronesien,Micronesia,Micronésie,Mikronesia,Mikronésie,Микронезия,Micronesia,Mikronesien,Micronésia,密克罗尼西亚(Micronesia),Mikronezja,Micronesia
+Micronesia,Mikronesien,Micronesia,Micronésie,Mikronesia,Mikronésie,Микронезия,Micronesië,Mikronesien,Micronésia,密克罗尼西亚(Micronesia),Mikronezja,Micronesia
 Pacific Ocean,Pazifischer Ozean,Océano Pacífico,Océan Pacifique,Stillehavet,Tichý oceán,Тихий океан,Stille Oceaan,Stilla havet,Oceano Pacífico,太平洋(Pacific Ocean),Ocean Spokojny,Oceano Pacifico
 Atlantic Ocean,Atlantischer Ozean,Océano Atlántico,Océan Atlantique,Atlanterhavet,Atlantský oceán,Атлантический океан,Atlantische Oceaan,Atlanten,Oceano Atlântico,大西洋(Atlantic Ocean),Ocean Atlantycki,Oceano Atlantico
 Indian Ocean,Indischer Ozean,Océano Índico,Océan Indien,Det indiske hav,Indický oceán,Индийский океан,Indische Oceaan,Indiska oceanen,Oceano Índico,印度洋(Indian Ocean),Ocean Indyjski,Oceano Indiano
@@ -288,7 +288,7 @@ Caribbean Sea,Karibisches Meer,Mar Caribe,Mer des Caraïbes,Det karibiske hav,Ka
 Gulf of California,Golf von Kalifornien,Golfo de California,Golfe de Californie,Californiabukta,Kalifornský záliv,Калифорнийский залив,Golf van Californië,Californiaviken,Golfo da Califórnia,加利福尼亚湾(Gulf of California),Zatoka Kalifornijska,Golfo di California
 Polynesia,Polynesien,Polinesia,Polynésie,Polynesia,Polynésie,Полинезия,Polynesië,Polynesien,Polinésia,波利尼西亚(Polynesia),Polinezja,Polinesia
 Melanesia,Melanesien,Melanesia,Mélanésie,Melanesia,Melanésie,Меланезия,Melanesië,Melanesien,Melanésia,美拉尼西亚(Melanesia),Melanezja,Melanesia
-Scandinavia,Skandinavien,Escandinavia,Scandinavie,Skandinavia og Norden,Skandinávie,Скандинавия,Schandinavisch Schiereiland,Skandinavien,Escandinávia,斯堪的纳维亚(Scandinavia),Skandynawia,Scandinavia
+Scandinavia,Skandinavien,Escandinavia,Scandinavie,Skandinavia og Norden,Skandinávie,Скандинавия,Scandinavisch Schiereiland,Skandinavien,Escandinávia,斯堪的纳维亚(Scandinavia),Skandynawia,Scandinavia
 Sea of Galilee,See Genezareth,Mar de Galilea,Lac de Tibériade,Gennesaretsjøen,Galilejské jezero,Галилейское море,Meer van Tiberias,Gennesaretsjön,Mar da Galileia,加利利海(Sea of Galilee),Jezioro Tyberiadzkie,Lago di Tiberiade
 Sumatra,Sumatra,Sumatra,Sumatra,Sumatra,Sumatra,Суматра,Sumatra,Sumatra,Sumatra,苏门答腊岛(Sumatra),Sumatra,Sumatra
 Sicily,Sizilien,Sicilia,Sicile,Sicilia,Sicílie,Сицилия,Sicilië,Sicilien,Sicília,西西里岛(Sicily),Sycylia,Sicilia
