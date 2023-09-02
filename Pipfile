@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-brain-brew = {git = "https://github.com/ohare93/brain-brew.git", editable = true, ref = "HeadersOverrideForNameUUID"}
+brain-brew = "==0.3.10"
 
 [requires]
 python_version = "3.7"
