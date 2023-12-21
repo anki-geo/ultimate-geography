@@ -286,7 +286,7 @@ Flag similarities are always **mutual**: if flag A is similar to flag B, then fl
 - **Critical differences (C)**
   - presence/absence of decoration - e.g. symbol, coat of arms
 - **Major differences (M)**
-  - same colours in different positions (e.g. two swapped, three rotated)
+  - same colours in different positions (e.g. two swapped, three cyclically permuted ("rotated"))
   - decorations of different types in same position (e.g. symbol vs. coat of arms)
   - decorations of same type in different positions (e.g. star(s) above/below band for Curaçao/Nauru)
 - **Minor differences (m)**
