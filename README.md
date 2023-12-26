@@ -168,7 +168,7 @@ Every note is tagged. The tags, which are listed below by category, are prefixed
 
 - Type - `UG::Sovereign_State`, `UG::Oceans+Seas`, `UG::Continents`
 - Continent - `UG::Africa`, `UG::Asia`, `UG::Europe`, `UG::North_America`, `UG::Oceania`, `UG::South_America`
-- Region - `UG::Caribbean`, `UG::Middle_East`, `UG::Southeast_Asia`, `UG::European_Union`, `UG::Mediterranean`, `UG::East_Africa`, `UG::West_Africa`
+- Region - `UG::Caribbean`, `UG::Middle_East`, `UG::Southeast_Asia`, `UG::European_Union`, `UG::Mediterranean`, `UG::East_Africa`, `UG::West_Africa`, `UG::South_Africa`, `UG::Central_Africa`, `UG::North_Africa`
 
 ## Customising the deck
 
