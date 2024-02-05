@@ -354,6 +354,15 @@ In cases where the Wikipedia article about the given country or city provides tw
 
 As suggested above, the country or city names used in the other fields should be the Brazilian spellings.
 
+### Danish
+
+The Danish translation is based on the following sources (in addition to the
+English deck), listed in order of priority:
+
+- **[Lande og nationaliteter](https://sproget.dk/raad-og-regler/ordlister/andre-ordlister/lande-og-nationaliteter)** - This list is maintained by the "Danske Sprognævn".
+- **[Den Store Danske](https://denstoredanske.lex.dk/)** - Denmarks national encyclopedia.
+- **[Wikipedia in Danish](https://da.wikipedia.org)** - Used when neither of the above sources where enough to verify spelling.
+
 ## Maintainer's guide
 
 ### Versioning
