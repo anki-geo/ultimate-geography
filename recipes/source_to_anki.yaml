@@ -14,6 +14,7 @@
       - guid:zh
       - guid:pl
       - guid:it
+      - guid:da
 
 - build_parts:
   - note_model_from_yaml_part:
@@ -329,6 +330,27 @@
 
       file_mappings: *file_mappings
 
+  - notes_from_csvs:
+      part_id: danish
+      #save_to_file:
+
+      note_model_mappings:
+        - note_models: *note_models_in_mapping
+          columns_to_fields:
+            <<: *default_columns_to_fields
+
+            guid:da             : guid
+            country:da          : Country
+            country info:da     : Country info
+            capital:da          : Capital
+            capital info:da     : Capital info
+            capital hint:da     : Capital hint
+            flag similarity:da  : Flag similarity
+
+          personal_fields: [ ]
+
+      file_mappings: *file_mappings
+
 - generate_crowd_anki:
     <<: &default_crowd_anki_gen
       headers: default header
@@ -403,6 +425,11 @@
     folder: build/Ultimate Geography [IT]
     notes:
       part_id: italian
+- generate_crowd_anki:
+    <<: *default_crowd_anki_gen
+    folder: build/Ultimate Geography [DA]
+    notes:
+      part_id: danish
 
 
 - generate_crowd_anki:
@@ -493,4 +520,10 @@
     folder: build/Ultimate Geography [IT] [Extended]
     notes:
       part_id: italian
+      <<: *override_nm
+- generate_crowd_anki:
+    <<: *extended_deck
+    folder: build/Ultimate Geography [DA] [Extended]
+    notes:
+      part_id: danish
       <<: *override_nm
