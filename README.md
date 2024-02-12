@@ -126,6 +126,8 @@ If you're in this situation and wish to upgrade, proceed as follows:
 1. You should end up with two decks: your original deck called "Ultimate Geography" and a new, duplicated deck called "Ultimate Geography_2". Unless you created some notes of your own, every card in your original deck should have moved automatically to the new deck and your original deck should now be empty. You can verify this in Anki's [card browser](https://docs.ankiweb.net/browsing).
 1. To get back to having a single deck, move any of your own cards out of the original deck and delete it. Then, rename the new deck to "Ultimate Geography". From here on, future upgrades will be seamless.
 
+If you're upgrading from v3.3 or earlier, then you may want to additionally follow the [instructions for the v4.0 release](https://github.com/anki-geo/ultimate-geography/releases/tag/v4.0).
+
 ### Keeping deck customisations
 
 If you've made, or are thinking of making, any changes to your _Ultimate Geography_ deck, check the [_Customising the deck_](#customising-the-deck) section below to see what will happen to them the next time you upgrade, and whether you need to take any steps to preserve them.
