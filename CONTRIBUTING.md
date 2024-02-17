@@ -268,6 +268,7 @@ SVG flags are sourced from [Wikimedia](https://commons.wikimedia.org/). We consi
 Discussion of some edit wars (in particular, some for Costa Rica, Peru, and Venezuela) can be found [here](https://github.com/anki-geo/ultimate-geography/issues/111#issuecomment-1382229132).
 
 The flag's source URL and licence must be documented in `sources.csv`.
+
 The following guidelines apply to flag images:
 
 - The `viewBox`, `width` and `height` attributes are required.
