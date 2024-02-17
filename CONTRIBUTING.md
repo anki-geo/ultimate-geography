@@ -263,7 +263,11 @@ convey as little information as possible to not give away the answers.
 
 This field must contain a single HTML image element pointing to the SVG image of a flag - e.g. `<img src="ug-flag-seychelles.svg" />`. The image must be placed in the ` media` folder and named `ug-flag-<country_name>.svg`.
 
-SVG flags are sourced from [Wikimedia](https://commons.wikimedia.org/). We use the flag that is presented in the [infobox](https://en.wikipedia.org/wiki/Template:Infobox_country#Examples) of the English Wikipedia article for the country. The flag's source URL and licence must be documented in `sources.csv`.
+SVG flags are sourced from [Wikimedia](https://commons.wikimedia.org/). We consider two possible sources for the flag: (1) the flag presented in the [infobox](https://en.wikipedia.org/wiki/Template:Infobox_country#Examples) of the English Wikipedia article for the country and (2) the primary flag presented in the English Wikipedia article for the country's flag. When both sources agree, we use the common flag; when they differ, we default to the state flag. We try to stay a few months behind edits in an attempt to avoid quick back-and-forth changes; in case of repeated back-and-forth changes, investigate reasons for the edit war, make a decision, document the decision in this document; review these decisions from time to time.
+
+Discussion of some edit wars (in particular, some for Costa Rica, Peru, and Venezuela) can be found [here](https://github.com/anki-geo/ultimate-geography/issues/111#issuecomment-1382229132).
+
+The flag's source URL and licence must be documented in `sources.csv`.
 
 The following guidelines apply to flag images:
 
