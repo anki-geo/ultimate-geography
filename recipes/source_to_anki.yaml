@@ -37,6 +37,12 @@
           deck_description_html_file: src/headers/desc_es.html
           crowdanki_uuid: cb4d32ee-12ed-9960-1841-28c09449ded0
           name: Ultimate Geography [ES]
+      - part_id: default header:sv
+        file: src/headers/default.yaml
+        override:
+          deck_description_html_file: src/headers/desc_sv.html
+          crowdanki_uuid: 75bfcdb5-0ff3-4038-83cb-3e6ed974f439
+          name: Ultimate Geography [SV]
       - part_id: default header:zh
         file: src/headers/default.yaml
         override:
@@ -401,6 +407,7 @@
       part_id: dutch
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
+    headers: default header:sv
     folder: build/Ultimate Geography [SV]
     notes:
       part_id: swedish
