@@ -407,7 +407,7 @@
       part_id: dutch
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
-    headers: default header:es
+    headers: default header:sv
     folder: build/Ultimate Geography [SV]
     notes:
       part_id: swedish
