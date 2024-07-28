@@ -67,7 +67,7 @@
             - file: src/data/capital_info.csv
             - file: src/data/capital_hint.csv
             - file: src/data/flag_similarity.csv
-            - file: src/data/experimental.csv
+            - file: src/data/region_code.csv
 
 - generate_crowd_anki:
     headers: default header
