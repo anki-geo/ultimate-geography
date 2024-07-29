@@ -1,6 +1,6 @@
 // IIFE used specifically to isolate namespaces between cards
 (function () {
-  if (Number(sessionStorage.getItem("interactiveEnabled")))
+  if (+sessionStorage.getItem("interactiveEnabled") && sessionStorage.getItem("regionCode"))
     interactiveMapMode();
   else
     staticMapFallbackMode();
@@ -43,7 +43,7 @@
         // Persist selected region for Green/Red logic (see Back Template)
         sessionStorage.setItem("selectedRegion", code);
 
-        if (Number(sessionStorage.getItem("showAnswerOnRegionSelectEnabled"))) {
+        if (+sessionStorage.getItem("showAnswerOnRegionSelectEnabled")) {
           // Show answer hack
           //AnkiDroid requires use of API instead of event dispatch
           if (typeof AnkiDroidJS !== "undefined") {

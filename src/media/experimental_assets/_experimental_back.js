@@ -1,6 +1,8 @@
 // IIFE used specifically to isolate namespaces between cards
 (function () {
-  if (Number(sessionStorage.getItem("interactiveEnabled")))
+  let regionCode = sessionStorage.getItem("regionCode");
+
+  if (+sessionStorage.getItem("interactiveEnabled") && regionCode)
     interactiveMapMode();
   else
     staticMapFallbackMode();
@@ -8,10 +10,8 @@
   function interactiveMapMode() {
     document.querySelector(".value--map").style.display = "block";
 
-    let regionCode = sessionStorage.getItem("regionCode");
-
     // Green/Red region highlighting color depending on user answer
-    let color = Boolean(Number(sessionStorage.getItem("greenRedRegionEnabled")))
+    let color = !!+sessionStorage.getItem("greenRedRegionEnabled")
     && regionCode === sessionStorage.getItem("selectedRegion")
       ? "#329446" // green if both enabled and region selected is correct
       : "#c02637"; // red otherwise
