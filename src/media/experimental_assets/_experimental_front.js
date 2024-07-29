@@ -43,15 +43,17 @@
         // Persist selected region for Green/Red logic (see Back Template)
         sessionStorage.setItem("selectedRegion", code);
 
-        // Show answer hack
-        //AnkiDroid requires use of API instead of event dispatch
-        if (typeof AnkiDroidJS !== "undefined") {
-          showAnswer();
-        } else {
-          // Simulate pressing "Enter" on the input element to show the answer
-          let input = document.querySelector("textarea#typeans");
-          let ev = new KeyboardEvent("keypress", {code: "Enter"});
-          input.dispatchEvent(ev);
+        if (Number(sessionStorage.getItem("showAnswerOnRegionSelectEnabled"))) {
+          // Show answer hack
+          //AnkiDroid requires use of API instead of event dispatch
+          if (typeof AnkiDroidJS !== "undefined") {
+            showAnswer();
+          } else {
+            // Simulate pressing "Enter" on the input element to show the answer
+            let input = document.querySelector("textarea#typeans");
+            let ev = new KeyboardEvent("keypress", {code: "Enter"});
+            input.dispatchEvent(ev);
+          }
         }
       },
 
