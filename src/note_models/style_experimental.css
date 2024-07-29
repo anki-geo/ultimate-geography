@@ -37,6 +37,12 @@
   margin-top: 0.75em;
 }
 
+.value--map {
+  width: 90%;
+  height: 50vh;
+  margin: 2em auto
+}
+
 .value > img,
 .value > .placeholder {
   max-width: 100%;
