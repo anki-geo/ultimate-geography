@@ -1,5 +1,10 @@
-<script src="_jsvectormap.js"></script>
-<script src="_world.js"></script>
+<script>
+  // 1 - show correctly selected region with green; 0 - always red
+  sessionStorage.setItem("greenRedRegionEnabled", "1");
+
+  //Do not edit
+  sessionStorage.setItem("regionCode", "{{Region code}}");
+</script>
 
 {{#Map}}
 <div class="value value--top">{{Country}}</div>
@@ -12,72 +17,11 @@
 <textarea id="typeans" style="display: none;"></textarea>
 {{/Map}}
 
-<script>
-  let interactiveEnabled = "1";
-  let greenRedRegionEnabled = "1";
-
-  sessionStorage.setItem("interactiveEnabled", interactiveEnabled);
-  sessionStorage.setItem("greenRedRegionEnabled", greenRedRegionEnabled);
-
-  //TODO: finish interactive disabling switch logic
-  if (Boolean(interactiveEnabled)) {
-    // Tooltip on mobile is required for dragging to work
-    // To avoid hinting user, prevent tooltip showing using style
-    let mobileHack =
-      navigator.userAgent.indexOf("Mobile") > 0
-        ? {
-          showTooltip: true,
-          onRegionTooltipShow(event, tooltip) {
-            tooltip._tooltip.style.display = "none";
-          }
-        }
-        : { showTooltip: false };
-
-    // Set event handler to swap card to answer side on "Enter" press
-    document.querySelector("textarea#typeans").onkeypress = () => _typeAnsPress();
-
-    new jsVectorMap({
-      selector: "#map-front",
-      map: "world",
-      zoomButtons: false,
-      backgroundColor: "#b3dff5",
-      regionsSelectable: true,
-      regionsSelectableOne: true,
-
-      regionStyle: {
-        initial: {
-          fill: "#fdfbe5",
-          stroke: "#757674",
-          strokeWidth: 1
-        },
-        selected: { fill: "#e7f3ea" }
-      },
-
-      onRegionSelected(code) {
-        // Persist selected region for Green/Red logic (see Back Template)
-        sessionStorage.setItem("selectedRegion", code);
-
-        // Show answer hack
-        //AnkiDroid requires use of API instead of event dispatch
-        if (typeof AnkiDroidJS !== "undefined") {
-          showAnswer();
-        } else {
-          // Simulate pressing "Enter" on the input element to show the answer
-          var input = document.querySelector("textarea#typeans");
-          let ev = new KeyboardEvent("keypress", { code: "Enter" });
-          input.dispatchEvent(ev);
-        }
-      },
-
-      ...mobileHack
-    });
-  }
-</script>
-
---
-
 <script src="_jsvectormap.js"></script>
 <script src="_world.js"></script>
+<script src="_experimental_front.js"></script>
+
+--
 
 <div class="value value--top">{{Country}}</div>
 {{#Country info}}<div class="info">{{Country info}}</div>{{/Country info}}
@@ -87,36 +31,6 @@
 <div class="type">Location</div>
 <div id="map-back" class="value value--image" style="width: 90%; height: 50vh; margin: 2em auto"></div>
 
-<script>
-  // Green/Red region color depending on user answer
-  let color = `${sessionStorage.getItem("selectedRegion")}` === "{{Region code}}" ? "#329446" : "#c02637";
-
-  // Disable Green/Red by default
-  //color = "#c02637";
-
-  new jsVectorMap({
-    selector: "#map-back",
-    map: "world",
-    zoomButtons: false,
-    selectedRegions: ["{{Region code}}"],
-  backgroundColor: "#b3dff5",
-
-    focusOn: {
-    region: "{{Region code}}",
-    animate: true
-  },
-  regionStyle: {
-    initial: {
-      fill: "#fdfbe5",
-        stroke: "#757674",
-        strokeWidth: 1
-    },
-    selected: { fill: color }
-  },
-
-  onRegionTooltipShow(event, tooltip) {
-    tooltip._tooltip.style["background-color"] = "#fdfbe5";
-    tooltip._tooltip.style["color"] = "black";
-  }
-  });
-</script>
+<script src="_jsvectormap.js"></script>
+<script src="_world.js"></script>
+<script src="_experimental_back.js"></script>
