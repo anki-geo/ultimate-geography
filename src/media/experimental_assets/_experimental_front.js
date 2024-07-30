@@ -1,5 +1,8 @@
 // IIFE used specifically to isolate namespaces between cards
 (function () {
+  //temporary hack to remove jvm tooltip
+  document.querySelectorAll("body > div.jvm-tooltip").forEach(x => x.remove());
+
   let interactiveEnabled = sessionStorage.getItem("interactiveEnabled"),
     isMobile = document.documentElement.classList.contains("mobile"),
     interactiveMobileEnabled = sessionStorage.getItem("interactiveMobileEnabled"),
