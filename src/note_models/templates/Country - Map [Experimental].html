@@ -1,6 +1,9 @@
 <script>
-  // 1 - show interactive map; 0 - static fallback
+  // Any other value not equal to "1" is considered equal to "0"
+  // 1 - show interactive map; 0 - static fallback for both desktop and mobile (AnkiDroid + AnkiMobile)
   sessionStorage.setItem("interactiveEnabled", "1");
+  // 0 - disable interactive map for mobile
+  sessionStorage.setItem("interactiveMobileEnabled", "1");
   // 1 - show correctly selected region with green; 0 - always red
   sessionStorage.setItem("greenRedRegionEnabled", "1");
   // 1 - turn card to answer side when region is selected; 0 - manually turn card

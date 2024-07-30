@@ -1,8 +1,13 @@
 // IIFE used specifically to isolate namespaces between cards
 (function () {
-  let regionCode = sessionStorage.getItem("regionCode");
+  let interactiveEnabled = sessionStorage.getItem("interactiveEnabled"),
+    isMobile = document.documentElement.classList.contains("mobile"),
+    interactiveMobileEnabled = sessionStorage.getItem("interactiveMobileEnabled"),
+    regionCode = sessionStorage.getItem("regionCode");
 
-  if (+sessionStorage.getItem("interactiveEnabled") && regionCode)
+  if (+interactiveEnabled
+    && ((isMobile && +interactiveMobileEnabled) || !isMobile)
+    && regionCode)
     interactiveMapMode();
 
   function interactiveMapMode() {
