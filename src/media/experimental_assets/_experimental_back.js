@@ -4,10 +4,9 @@
 
   if (+sessionStorage.getItem("interactiveEnabled") && regionCode)
     interactiveMapMode();
-  else
-    staticMapFallbackMode();
 
   function interactiveMapMode() {
+    document.querySelector(".value--image").style.display = "none";
     document.querySelector(".value--map").style.display = "block";
 
     // Green/Red region highlighting color depending on user answer
@@ -41,9 +40,5 @@
         tooltip._tooltip.style["color"] = "black";
       }
     });
-  }
-
-  function staticMapFallbackMode() {
-    document.querySelector(".value--image").style.display = "block";
   }
 }())

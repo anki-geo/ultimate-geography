@@ -2,10 +2,11 @@
 (function () {
   if (+sessionStorage.getItem("interactiveEnabled") && sessionStorage.getItem("regionCode"))
     interactiveMapMode();
-  else
-    staticMapFallbackMode();
 
   function interactiveMapMode() {
+    // Static fallback is specifically enabled by default (if script fails to load)
+    // And gets hidden when interactive map succeeds to proceed
+    document.querySelector(".value--image").style.display = "none";
     document.querySelector(".value--map").style.display = "block";
 
     // Tooltip on mobile is required for dragging to work
@@ -59,9 +60,5 @@
 
       ...mobileHack
     });
-  }
-
-  function staticMapFallbackMode() {
-    document.querySelector(".value--image").style.display = "block";
   }
 }())
