@@ -6,7 +6,7 @@
   let interactiveEnabled = sessionStorage.getItem("interactiveEnabled"),
     isMobile = document.documentElement.classList.contains("mobile"),
     interactiveMobileEnabled = sessionStorage.getItem("interactiveMobileEnabled"),
-    regionCode = sessionStorage.getItem("regionCode")
+    regionCode = sessionStorage.getItem("regionCode");
 
   if (+interactiveEnabled
     && ((isMobile && +interactiveMobileEnabled) || !isMobile)
@@ -19,17 +19,6 @@
     document.querySelector(".value--image").style.display = "none";
     document.querySelector(".value--map").style.display = "block";
 
-    // Tooltip on mobile is required for dragging to work
-    // To avoid hinting user, prevent tooltip from being shown by disabling it via style
-    let mobileHack = navigator.userAgent.indexOf("Mobile") > 0
-      ? {
-        showTooltip: true,
-        onRegionTooltipShow(event, tooltip) {
-          tooltip._tooltip.style.display = "none";
-        }
-      }
-      : {showTooltip: false};
-
     // Set event handler to swap card to answer side on "Enter" press
     document.querySelector("textarea#typeans").onkeypress = () => _typeAnsPress();
 
@@ -40,6 +29,7 @@
       backgroundColor: "#b3dff5",
       regionsSelectable: true,
       regionsSelectableOne: true,
+      showTooltip: false,
 
       regionStyle: {
         initial: {
@@ -67,8 +57,6 @@
           }
         }
       },
-
-      ...mobileHack
     });
   }
 }())

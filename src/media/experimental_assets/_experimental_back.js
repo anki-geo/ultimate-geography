@@ -3,7 +3,8 @@
   let interactiveEnabled = sessionStorage.getItem("interactiveEnabled"),
     isMobile = document.documentElement.classList.contains("mobile"),
     interactiveMobileEnabled = sessionStorage.getItem("interactiveMobileEnabled"),
-    regionCode = sessionStorage.getItem("regionCode");
+    regionCode = sessionStorage.getItem("regionCode"),
+    toolTipEnabled = sessionStorage.getItem("showTooltipOnAnswer");
 
   if (+interactiveEnabled
     && ((isMobile && +interactiveMobileEnabled) || !isMobile)
@@ -26,6 +27,7 @@
       zoomButtons: false,
       selectedRegions: [regionCode],
       backgroundColor: "#b3dff5",
+      showTooltip: !!+toolTipEnabled,
 
       focusOn: {
         region: regionCode,
