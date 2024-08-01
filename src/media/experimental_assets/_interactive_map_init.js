@@ -1,12 +1,12 @@
 // IIFE is used intentionally to isolate namespaces between cards of a review session
 (function () {
   const commonConfig = {
-      regionCode: sessionStorage.getItem("regionCode"),
+      regionCode: sessionGetString("regionCode"),
       cardSide: document.currentScript.dataset.cardSide,
-      interactiveEnabled: sessionStorage.getItem("interactiveEnabled"),
-      interactiveMobileEnabled: sessionStorage.getItem("interactiveMobileEnabled"),
+      interactiveEnabled: sessionGetBool("interactiveEnabled"),
+      interactiveMobileEnabled: sessionGetBool("interactiveMobileEnabled"),
       isMobile: document.documentElement.classList.contains("mobile"),
-      toolTipEnabled: sessionStorage.getItem("showTooltipOnAnswer")
+      toolTipEnabled: sessionGetBool("showTooltipOnAnswer")
     },
     commonElements = {
       interactiveMap: document.querySelector(".value--map"),
@@ -40,15 +40,42 @@
 
   clearTooltips();
 
-  if (+commonConfig.interactiveEnabled
-    && ((commonConfig.isMobile && +commonConfig.interactiveMobileEnabled) || !commonConfig.isMobile)
-    && commonConfig.regionCode) {
+  if (commonConfig.interactiveEnabled && (nonMobile() || interactiveMobileEnabled()) && commonConfig.regionCode) {
     if (commonConfig.cardSide === "question")
       initFrontMap();
     else if (commonConfig.cardSide === "answer")
       initBackMap();
   }
 
+
+  /**
+   * Shortcut function of value retrieval from sessionStorage
+   */
+  function sessionGetString(key) {
+    return sessionStorage.getItem(key);
+  }
+
+  /**
+   * Returns true if and only if key is equal to "1" and false otherwise
+   */
+  function sessionGetBool(key) {
+    return !!+sessionGetString(key);
+  }
+
+  /**
+   * @returns {boolean} true when device is not mobile, false otherwise
+   */
+  function nonMobile() {
+    return !commonConfig.isMobile
+  }
+
+  /**
+   * @returns {boolean} true if and only if the device is mobile
+   * and interactive map is enabled
+   */
+  function interactiveMobileEnabled() {
+    return commonConfig.isMobile && commonConfig.interactiveMobileEnabled;
+  }
 
   /**
    * Initialization of the map displayed on the front side of the card
@@ -91,10 +118,10 @@
         animate: true
       },
 
-      ...mobileDraggingHack(!!+commonConfig.toolTipEnabled, (event, tooltip) => {
+      ...mobileDraggingHack(commonConfig.toolTipEnabled, (event, tooltip) => {
         tooltip._tooltip.style.backgroundColor = commonColors.tooltipBackground;
         tooltip._tooltip.style.color = commonColors.tooltipText;
-      }),
+      })
     });
   }
 
@@ -146,7 +173,7 @@
   function swapToBackSide(selectedRegionCode) {
     sessionStorage.setItem("selectedRegion", selectedRegionCode);
 
-    if (!+sessionStorage.getItem("showAnswerOnRegionSelectEnabled"))
+    if (!sessionGetBool("showAnswerOnRegionSelectEnabled"))
       return
 
     if (!commonElements.hiddenTextarea.onkeypress)
@@ -165,8 +192,8 @@
    * mode is enabled and region is selected correctly, red hex code otherwise
    */
   function getGreenRedRegionColor() {
-    return !!+sessionStorage.getItem("greenRedRegionEnabled")
-    && commonConfig.regionCode === sessionStorage.getItem("selectedRegion")
+    return sessionGetBool("greenRedRegionEnabled")
+    && commonConfig.regionCode === sessionGetString("selectedRegion")
       ? commonColors.highlightedCorrectRegion
       : commonColors.highlightedRegion;
   }
