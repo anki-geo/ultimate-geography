@@ -49,22 +49,10 @@
 
 
   /**
-   * Jsvectormap logic incompatibility with project specifics - tooltips are inserted
-   * as direct children of &lt;body&gt; element and get persisted during cards review session
-   * accumulating and littering the canvas. Current handling is temporary fix until library issue is resolved
-   */
-  function clearTooltips() {
-    document.querySelectorAll(commonSelectors.mapTooltip).forEach(x => x.remove());
-  }
-
-  /**
    * Initialization of the map displayed on the front side of the card
    */
   function initFrontMap() {
     enableInteractiveMapMode();
-
-    // Set event handler to swap card to answer side on "Enter" press
-    document.querySelector(commonSelectors.hiddenTextarea).onkeypress = () => _typeAnsPress();
 
     new jsVectorMap({
       ...commonMapProps,
@@ -77,23 +65,7 @@
         selected: {fill: commonMapHexColors.selectedLandMass}
       },
 
-      onRegionSelected(code) {
-        // Persist selected region for Green/Red logic (see Back Template)
-        sessionStorage.setItem("selectedRegion", code);
-
-        if (+sessionStorage.getItem("showAnswerOnRegionSelectEnabled")) {
-          // Show answer hack
-          //AnkiDroid requires use of API instead of event dispatch
-          if (typeof AnkiDroidJS !== "undefined") {
-            showAnswer();
-          } else {
-            // Simulate pressing "Enter" on the input element to show the answer
-            let input = document.querySelector(commonSelectors.hiddenTextarea);
-            let ev = new KeyboardEvent("keypress", {code: "Enter"});
-            input.dispatchEvent(ev);
-          }
-        }
-      },
+      onRegionSelected: swapToBackSide,
     });
   }
 
@@ -118,10 +90,19 @@
       },
 
       onRegionTooltipShow(event, tooltip) {
-        tooltip._tooltip.style["background-color"] = commonMapHexColors.tooltipBackground;
-        tooltip._tooltip.style["color"] = commonMapHexColors.tooltipText;
+        tooltip._tooltip.style.backgroundColor = commonMapHexColors.tooltipBackground;
+        tooltip._tooltip.style.color = commonMapHexColors.tooltipText;
       }
     });
+  }
+
+  /**
+   * Jsvectormap logic incompatibility with project specifics - tooltips are inserted
+   * as direct children of &lt;body&gt; element and get persisted during cards review session
+   * accumulating and littering the canvas. Current handling is temporary fix until library issue is resolved
+   */
+  function clearTooltips() {
+    document.querySelectorAll(commonSelectors.mapTooltip).forEach(x => x.remove());
   }
 
   /**
@@ -131,6 +112,29 @@
   function enableInteractiveMapMode() {
     document.querySelector(commonSelectors.staticMap).style.display = "none";
     document.querySelector(commonSelectors.interactiveMap).style.display = "block";
+  }
+
+  /**
+   * After region on the front card side is selected persist its region code and
+   * swap the card to back side if configuration allows to do so. The action is
+   * achieved via sending "Enter" key event on manually defined hidden text area
+   */
+  function swapToBackSide(selectedRegionCode) {
+    sessionStorage.setItem("selectedRegion", selectedRegionCode);
+
+    if (!+sessionStorage.getItem("showAnswerOnRegionSelectEnabled"))
+      return
+
+    let hiddenTextarea = document.querySelector(commonSelectors.hiddenTextarea);
+
+    if (!hiddenTextarea.onkeypress)
+      hiddenTextarea.onkeypress = () => _typeAnsPress();
+
+    if (typeof AnkiDroidJS !== "undefined") {
+      showAnswer();
+    } else {
+      hiddenTextarea.dispatchEvent(new KeyboardEvent("keypress", {code: "Enter"}));
+    }
   }
 
   /**
