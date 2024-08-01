@@ -19,6 +19,7 @@
       tooltipText: "#000000"
     },
     commonMapProps = {
+      selector: "#map",
       map: "world",
       zoomButtons: false,
       backgroundColor: commonMapHexColors.bodyOfWater,
@@ -61,7 +62,6 @@
 
     new jsVectorMap({
       ...commonMapProps,
-      selector: "#map-front",
       regionsSelectable: true,
       regionsSelectableOne: true,
       showTooltip: false,
@@ -99,7 +99,6 @@
 
     new jsVectorMap({
       ...commonMapProps,
-      selector: "#map-back",
       selectedRegions: [regionCode],
       showTooltip: !!+toolTipEnabled,
 
