@@ -6,11 +6,11 @@
     interactiveMobileEnabled = sessionStorage.getItem("interactiveMobileEnabled"),
     regionCode = sessionStorage.getItem("regionCode"),
     toolTipEnabled = sessionStorage.getItem("showTooltipOnAnswer"),
-    commonSelectors = {
-      interactiveMap: ".value--map",
-      staticMap: ".value--image",
-      mapTooltip: "body > div.jvm-tooltip",
-      hiddenTextarea: "textarea#typeans"
+    commonDomElements = {
+      interactiveMap: document.querySelector(".value--map"),
+      staticMap: document.querySelector(".value--image"),
+      mapTooltips: document.querySelectorAll("body > div.jvm-tooltip"),
+      hiddenTextarea: document.querySelector("textarea#typeans")
     },
     commonMapHexColors = {
       bodyOfWater: "#b3dff5",
@@ -23,7 +23,7 @@
       tooltipText: "#000000"
     },
     commonMapProps = {
-      selector: commonSelectors.interactiveMap,
+      selector: commonDomElements.interactiveMap,
       map: "world",
       zoomButtons: false,
       backgroundColor: commonMapHexColors.bodyOfWater,
@@ -102,7 +102,7 @@
    * accumulating and littering the canvas. Current handling is temporary fix until library issue is resolved
    */
   function clearTooltips() {
-    document.querySelectorAll(commonSelectors.mapTooltip).forEach(x => x.remove());
+    commonDomElements.mapTooltips.forEach(x => x.remove());
   }
 
   /**
@@ -110,8 +110,8 @@
    * Note, that static fallback is specifically displayed by default in case interactive map initialization fails
    */
   function enableInteractiveMapMode() {
-    document.querySelector(commonSelectors.staticMap).style.display = "none";
-    document.querySelector(commonSelectors.interactiveMap).style.display = "block";
+    commonDomElements.staticMap.style.display = "none";
+    commonDomElements.interactiveMap.style.display = "block";
   }
 
   /**
@@ -125,15 +125,13 @@
     if (!+sessionStorage.getItem("showAnswerOnRegionSelectEnabled"))
       return
 
-    let hiddenTextarea = document.querySelector(commonSelectors.hiddenTextarea);
-
-    if (!hiddenTextarea.onkeypress)
-      hiddenTextarea.onkeypress = () => _typeAnsPress();
+    if (!commonDomElements.hiddenTextarea.onkeypress)
+      commonDomElements.hiddenTextarea.onkeypress = () => _typeAnsPress();
 
     if (typeof AnkiDroidJS !== "undefined") {
       showAnswer();
     } else {
-      hiddenTextarea.dispatchEvent(new KeyboardEvent("keypress", {code: "Enter"}));
+      commonDomElements.hiddenTextarea.dispatchEvent(new KeyboardEvent("keypress", {code: "Enter"}));
     }
   }
 
