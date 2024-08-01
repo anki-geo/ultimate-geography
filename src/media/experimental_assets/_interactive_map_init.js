@@ -60,7 +60,6 @@
       ...commonMap,
       regionsSelectable: true,
       regionsSelectableOne: true,
-      showTooltip: false,
 
       regionStyle: {
         ...commonMap.regionStyle,
@@ -68,6 +67,8 @@
       },
 
       onRegionSelected: swapToBackSide,
+
+      ...mobileDraggingHack(false)
     });
   }
 
@@ -80,7 +81,6 @@
     new jsVectorMap({
       ...commonMap,
       selectedRegions: [commonConfig.regionCode],
-      showTooltip: !!+commonConfig.toolTipEnabled,
 
       regionStyle: {
         ...commonMap.regionStyle,
@@ -91,10 +91,10 @@
         animate: true
       },
 
-      onRegionTooltipShow(event, tooltip) {
+      ...mobileDraggingHack(!!+commonConfig.toolTipEnabled, (event, tooltip) => {
         tooltip._tooltip.style.backgroundColor = commonColors.tooltipBackground;
         tooltip._tooltip.style.color = commonColors.tooltipText;
-      }
+      }),
     });
   }
 
@@ -114,6 +114,28 @@
   function enableInteractiveMapMode() {
     commonElements.staticMap.style.display = "none";
     commonElements.interactiveMap.style.display = "block";
+  }
+
+  /**
+   * Jsvectormap library bug - map dragging does not work on mobile with disabled tooltip.
+   * Enable tooltip and hide it in case original tooltip is not displayable.
+   * Current handling is temporary fix until library issue is resolved
+   */
+  function mobileDraggingHack(tooltipEnabled, tooltipShowHandler) {
+    return commonConfig.isMobile
+      ? {
+        showTooltip: true,
+        onRegionTooltipShow(event, tooltip) {
+          if (tooltipEnabled && tooltipShowHandler)
+            tooltipShowHandler(event, tooltip)
+          else
+            tooltip._tooltip.style.display = "none";
+        }
+      }
+      : {
+        showTooltip: tooltipEnabled,
+        onRegionTooltipShow: tooltipShowHandler
+      }
   }
 
   /**
