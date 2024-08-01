@@ -1,13 +1,17 @@
 // IIFE is used intentionally to isolate namespaces between cards of a review session
 (function () {
-  clearTooltips();
-
   const cardSide = document.currentScript.dataset.cardSide,
     interactiveEnabled = sessionStorage.getItem("interactiveEnabled"),
     isMobile = document.documentElement.classList.contains("mobile"),
     interactiveMobileEnabled = sessionStorage.getItem("interactiveMobileEnabled"),
     regionCode = sessionStorage.getItem("regionCode"),
     toolTipEnabled = sessionStorage.getItem("showTooltipOnAnswer"),
+    commonSelectors = {
+      interactiveMap: ".value--map",
+      staticMap: ".value--image",
+      mapTooltip: "body > div.jvm-tooltip",
+      hiddenTextarea: "textarea#typeans"
+    },
     commonMapHexColors = {
       bodyOfWater: "#b3dff5",
       landMass: "#fdfbe5",
@@ -19,7 +23,7 @@
       tooltipText: "#000000"
     },
     commonMapProps = {
-      selector: "#map",
+      selector: commonSelectors.interactiveMap,
       map: "world",
       zoomButtons: false,
       backgroundColor: commonMapHexColors.bodyOfWater,
@@ -31,6 +35,8 @@
         }
       }
     };
+
+  clearTooltips();
 
   if (+interactiveEnabled
     && ((isMobile && +interactiveMobileEnabled) || !isMobile)
@@ -48,7 +54,7 @@
    * accumulating and littering the canvas. Current handling is temporary fix until library issue is resolved
    */
   function clearTooltips() {
-    document.querySelectorAll("body > div.jvm-tooltip").forEach(x => x.remove());
+    document.querySelectorAll(commonSelectors.mapTooltip).forEach(x => x.remove());
   }
 
   /**
@@ -58,7 +64,7 @@
     enableInteractiveMapMode();
 
     // Set event handler to swap card to answer side on "Enter" press
-    document.querySelector("textarea#typeans").onkeypress = () => _typeAnsPress();
+    document.querySelector(commonSelectors.hiddenTextarea).onkeypress = () => _typeAnsPress();
 
     new jsVectorMap({
       ...commonMapProps,
@@ -82,7 +88,7 @@
             showAnswer();
           } else {
             // Simulate pressing "Enter" on the input element to show the answer
-            let input = document.querySelector("textarea#typeans");
+            let input = document.querySelector(commonSelectors.hiddenTextarea);
             let ev = new KeyboardEvent("keypress", {code: "Enter"});
             input.dispatchEvent(ev);
           }
@@ -123,8 +129,8 @@
    * Note, that static fallback is specifically displayed by default in case interactive map initialization fails
    */
   function enableInteractiveMapMode() {
-    document.querySelector(".value--image").style.display = "none";
-    document.querySelector(".value--map").style.display = "block";
+    document.querySelector(commonSelectors.staticMap).style.display = "none";
+    document.querySelector(commonSelectors.interactiveMap).style.display = "block";
   }
 
   /**
