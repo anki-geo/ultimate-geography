@@ -1,18 +1,20 @@
 // IIFE is used intentionally to isolate namespaces between cards of a review session
 (function () {
-  const cardSide = document.currentScript.dataset.cardSide,
-    interactiveEnabled = sessionStorage.getItem("interactiveEnabled"),
-    isMobile = document.documentElement.classList.contains("mobile"),
-    interactiveMobileEnabled = sessionStorage.getItem("interactiveMobileEnabled"),
-    regionCode = sessionStorage.getItem("regionCode"),
-    toolTipEnabled = sessionStorage.getItem("showTooltipOnAnswer"),
-    commonDomElements = {
+  const commonConfig = {
+      regionCode: sessionStorage.getItem("regionCode"),
+      cardSide: document.currentScript.dataset.cardSide,
+      interactiveEnabled: sessionStorage.getItem("interactiveEnabled"),
+      interactiveMobileEnabled: sessionStorage.getItem("interactiveMobileEnabled"),
+      isMobile: document.documentElement.classList.contains("mobile"),
+      toolTipEnabled: sessionStorage.getItem("showTooltipOnAnswer")
+    },
+    commonElements = {
       interactiveMap: document.querySelector(".value--map"),
       staticMap: document.querySelector(".value--image"),
       mapTooltips: document.querySelectorAll("body > div.jvm-tooltip"),
       hiddenTextarea: document.querySelector("textarea#typeans")
     },
-    commonMapHexColors = {
+    commonColors = {
       bodyOfWater: "#b3dff5",
       landMass: "#fdfbe5",
       selectedLandMass: "#e7f3ea",
@@ -22,15 +24,15 @@
       tooltipBackground: "#fdfbe5",
       tooltipText: "#000000"
     },
-    commonMapProps = {
-      selector: commonDomElements.interactiveMap,
+    commonMap = {
+      selector: commonElements.interactiveMap,
       map: "world",
       zoomButtons: false,
-      backgroundColor: commonMapHexColors.bodyOfWater,
+      backgroundColor: commonColors.bodyOfWater,
       regionStyle: {
         initial: {
-          fill: commonMapHexColors.landMass,
-          stroke: commonMapHexColors.border,
+          fill: commonColors.landMass,
+          stroke: commonColors.border,
           strokeWidth: 1
         }
       }
@@ -38,12 +40,12 @@
 
   clearTooltips();
 
-  if (+interactiveEnabled
-    && ((isMobile && +interactiveMobileEnabled) || !isMobile)
-    && regionCode) {
-    if (cardSide === "question")
+  if (+commonConfig.interactiveEnabled
+    && ((commonConfig.isMobile && +commonConfig.interactiveMobileEnabled) || !commonConfig.isMobile)
+    && commonConfig.regionCode) {
+    if (commonConfig.cardSide === "question")
       initFrontMap();
-    else if (cardSide === "answer")
+    else if (commonConfig.cardSide === "answer")
       initBackMap();
   }
 
@@ -55,14 +57,14 @@
     enableInteractiveMapMode();
 
     new jsVectorMap({
-      ...commonMapProps,
+      ...commonMap,
       regionsSelectable: true,
       regionsSelectableOne: true,
       showTooltip: false,
 
       regionStyle: {
-        ...commonMapProps.regionStyle,
-        selected: {fill: commonMapHexColors.selectedLandMass}
+        ...commonMap.regionStyle,
+        selected: {fill: commonColors.selectedLandMass}
       },
 
       onRegionSelected: swapToBackSide,
@@ -76,22 +78,22 @@
     enableInteractiveMapMode();
 
     new jsVectorMap({
-      ...commonMapProps,
-      selectedRegions: [regionCode],
-      showTooltip: !!+toolTipEnabled,
+      ...commonMap,
+      selectedRegions: [commonConfig.regionCode],
+      showTooltip: !!+commonConfig.toolTipEnabled,
 
       regionStyle: {
-        ...commonMapProps.regionStyle,
+        ...commonMap.regionStyle,
         selected: {fill: getGreenRedRegionColor()}
       },
       focusOn: {
-        region: regionCode,
+        region: commonConfig.regionCode,
         animate: true
       },
 
       onRegionTooltipShow(event, tooltip) {
-        tooltip._tooltip.style.backgroundColor = commonMapHexColors.tooltipBackground;
-        tooltip._tooltip.style.color = commonMapHexColors.tooltipText;
+        tooltip._tooltip.style.backgroundColor = commonColors.tooltipBackground;
+        tooltip._tooltip.style.color = commonColors.tooltipText;
       }
     });
   }
@@ -102,7 +104,7 @@
    * accumulating and littering the canvas. Current handling is temporary fix until library issue is resolved
    */
   function clearTooltips() {
-    commonDomElements.mapTooltips.forEach(x => x.remove());
+    commonElements.mapTooltips.forEach(x => x.remove());
   }
 
   /**
@@ -110,8 +112,8 @@
    * Note, that static fallback is specifically displayed by default in case interactive map initialization fails
    */
   function enableInteractiveMapMode() {
-    commonDomElements.staticMap.style.display = "none";
-    commonDomElements.interactiveMap.style.display = "block";
+    commonElements.staticMap.style.display = "none";
+    commonElements.interactiveMap.style.display = "block";
   }
 
   /**
@@ -125,13 +127,13 @@
     if (!+sessionStorage.getItem("showAnswerOnRegionSelectEnabled"))
       return
 
-    if (!commonDomElements.hiddenTextarea.onkeypress)
-      commonDomElements.hiddenTextarea.onkeypress = () => _typeAnsPress();
+    if (!commonElements.hiddenTextarea.onkeypress)
+      commonElements.hiddenTextarea.onkeypress = () => _typeAnsPress();
 
     if (typeof AnkiDroidJS !== "undefined") {
       showAnswer();
     } else {
-      commonDomElements.hiddenTextarea.dispatchEvent(new KeyboardEvent("keypress", {code: "Enter"}));
+      commonElements.hiddenTextarea.dispatchEvent(new KeyboardEvent("keypress", {code: "Enter"}));
     }
   }
 
@@ -142,8 +144,8 @@
    */
   function getGreenRedRegionColor() {
     return !!+sessionStorage.getItem("greenRedRegionEnabled")
-    && regionCode === sessionStorage.getItem("selectedRegion")
-      ? commonMapHexColors.highlightedCorrectRegion
-      : commonMapHexColors.highlightedRegion;
+    && commonConfig.regionCode === sessionStorage.getItem("selectedRegion")
+      ? commonColors.highlightedCorrectRegion
+      : commonColors.highlightedRegion;
   }
 }())
