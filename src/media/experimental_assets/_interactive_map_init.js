@@ -1,4 +1,4 @@
-// IIFE used specifically to isolate namespaces between cards
+// IIFE is used intentionally to isolate namespaces between cards of a review session
 (function () {
   clearTooltips();
 
@@ -8,14 +8,24 @@
     interactiveMobileEnabled = sessionStorage.getItem("interactiveMobileEnabled"),
     regionCode = sessionStorage.getItem("regionCode"),
     toolTipEnabled = sessionStorage.getItem("showTooltipOnAnswer"),
+    commonMapHexColors = {
+      bodyOfWater: "#b3dff5",
+      landMass: "#fdfbe5",
+      selectedLandMass: "#e7f3ea",
+      border: "#757674",
+      highlightedRegion: "#c02637",
+      highlightedCorrectRegion: "#329446",
+      tooltipBackground: "#fdfbe5",
+      tooltipText: "#000000"
+    },
     commonMapProps = {
       map: "world",
       zoomButtons: false,
-      backgroundColor: "#b3dff5",
+      backgroundColor: commonMapHexColors.bodyOfWater,
       regionStyle: {
         initial: {
-          fill: "#fdfbe5",
-          stroke: "#757674",
+          fill: commonMapHexColors.landMass,
+          stroke: commonMapHexColors.border,
           strokeWidth: 1
         }
       }
@@ -58,7 +68,7 @@
 
       regionStyle: {
         ...commonMapProps.regionStyle,
-        selected: {fill: "#e7f3ea"}
+        selected: {fill: commonMapHexColors.selectedLandMass}
       },
 
       onRegionSelected(code) {
@@ -103,8 +113,8 @@
       },
 
       onRegionTooltipShow(event, tooltip) {
-        tooltip._tooltip.style["background-color"] = "#fdfbe5";
-        tooltip._tooltip.style["color"] = "black";
+        tooltip._tooltip.style["background-color"] = commonMapHexColors.tooltipBackground;
+        tooltip._tooltip.style["color"] = commonMapHexColors.tooltipText;
       }
     });
   }
@@ -126,7 +136,7 @@
   function getGreenRedRegionColor() {
     return !!+sessionStorage.getItem("greenRedRegionEnabled")
     && regionCode === sessionStorage.getItem("selectedRegion")
-      ? "#329446"
-      : "#c02637";
+      ? commonMapHexColors.highlightedCorrectRegion
+      : commonMapHexColors.highlightedRegion;
   }
 }())
