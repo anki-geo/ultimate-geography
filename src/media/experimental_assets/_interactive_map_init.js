@@ -1,12 +1,20 @@
 // IIFE is used intentionally to isolate namespaces between cards of a review session
 (function () {
   const commonConfig = {
-      regionCode: sessionGetString("regionCode"),
-      cardSide: document.currentScript.dataset.cardSide,
       interactiveEnabled: sessionGetBool("interactiveEnabled"),
       interactiveMobileEnabled: sessionGetBool("interactiveMobileEnabled"),
+      toolTipEnabled: sessionGetBool("showTooltipOnAnswer"),
+      autoAnswerEnabled: sessionGetBool("showAnswerOnRegionSelectEnabled"),
+      greenRedEnabled: sessionGetBool("greenRedRegionEnabled"),
       isMobile: document.documentElement.classList.contains("mobile"),
-      toolTipEnabled: sessionGetBool("showTooltipOnAnswer")
+
+      regionCode: sessionGetString("regionCode"),
+      cardSide: document.currentScript.dataset.cardSide,
+
+      questionCardSideName: "question",
+      answerCardSideName: "answer",
+      mapSvgId: "world",
+      selectedRegionSessionKey: "selectedRegion"
     },
     commonElements = {
       interactiveMap: document.querySelector(".value--map"),
@@ -26,7 +34,7 @@
     },
     commonMap = {
       selector: commonElements.interactiveMap,
-      map: "world",
+      map: commonConfig.mapSvgId,
       zoomButtons: false,
       backgroundColor: commonColors.bodyOfWater,
       regionStyle: {
@@ -43,9 +51,9 @@
   if (resolveInteractiveEnabled() && commonConfig.regionCode) {
     interactiveMapMode(true);
     try {
-      if (commonConfig.cardSide === "question")
+      if (commonConfig.cardSide === commonConfig.questionCardSideName)
         initFrontMap();
-      else if (commonConfig.cardSide === "answer")
+      else if (commonConfig.cardSide === commonConfig.answerCardSideName)
         initBackMap();
     } catch (e) {
       interactiveMapMode(false);
@@ -180,9 +188,9 @@
    * achieved via sending "Enter" key event on manually defined hidden text area
    */
   function swapToBackSide(selectedRegionCode) {
-    sessionStorage.setItem("selectedRegion", selectedRegionCode);
+    sessionStorage.setItem(commonConfig.selectedRegionSessionKey, selectedRegionCode);
 
-    if (!sessionGetBool("showAnswerOnRegionSelectEnabled"))
+    if (!commonConfig.autoAnswerEnabled)
       return
 
     if (!commonElements.hiddenTextarea.onkeypress)
@@ -201,8 +209,8 @@
    * mode is enabled and region is selected correctly, red hex code otherwise
    */
   function getGreenRedRegionColor() {
-    return sessionGetBool("greenRedRegionEnabled")
-    && commonConfig.regionCode === sessionGetString("selectedRegion")
+    return commonConfig.greenRedEnabled
+    && commonConfig.regionCode === sessionGetString(commonConfig.selectedRegionSessionKey)
       ? commonColors.highlightedCorrectRegion
       : commonColors.highlightedRegion;
   }
