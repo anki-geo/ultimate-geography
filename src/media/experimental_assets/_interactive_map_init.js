@@ -40,11 +40,17 @@
 
   clearTooltips();
 
-  if (commonConfig.interactiveEnabled && (nonMobile() || interactiveMobileEnabled()) && commonConfig.regionCode) {
-    if (commonConfig.cardSide === "question")
-      initFrontMap();
-    else if (commonConfig.cardSide === "answer")
-      initBackMap();
+  if (resolveInteractiveEnabled() && commonConfig.regionCode) {
+    interactiveMapMode(true);
+    try {
+      if (commonConfig.cardSide === "question")
+        initFrontMap();
+      else if (commonConfig.cardSide === "answer")
+        initBackMap();
+    } catch (e) {
+      interactiveMapMode(false);
+      throw e;
+    }
   }
 
 
@@ -60,6 +66,13 @@
    */
   function sessionGetBool(key) {
     return +sessionGetString(key) === 1;
+  }
+
+  /**
+   * Using configuration options determine whether to display interactive map
+   */
+  function resolveInteractiveEnabled() {
+    return commonConfig.interactiveEnabled && (nonMobile() || interactiveMobileEnabled())
   }
 
   /**
@@ -81,8 +94,6 @@
    * Initialization of the map displayed on the front side of the card
    */
   function initFrontMap() {
-    enableInteractiveMapMode();
-
     new jsVectorMap({
       ...commonMap,
       regionsSelectable: true,
@@ -103,8 +114,6 @@
    * Initialization of the map displayed on the back side of the card
    */
   function initBackMap() {
-    enableInteractiveMapMode();
-
     new jsVectorMap({
       ...commonMap,
       selectedRegions: [commonConfig.regionCode],
@@ -135,12 +144,12 @@
   }
 
   /**
-   * Hide the display of static fallback and show the interactive map.
-   * Note, that static fallback is specifically displayed by default in case interactive map initialization fails
+   * Set interactive display map mode based on passed boolean argument
+   * Note, that static fallback is specifically displayed by default in case current script fails to be loaded
    */
-  function enableInteractiveMapMode() {
-    commonElements.staticMap.style.display = "none";
-    commonElements.interactiveMap.style.display = "block";
+  function interactiveMapMode(enabled) {
+    commonElements.staticMap.style.display = enabled ? "none" : "block";
+    commonElements.interactiveMap.style.display = enabled ? "block" : "none";
   }
 
   /**
