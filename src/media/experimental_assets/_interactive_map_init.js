@@ -8,12 +8,13 @@
       greenRedEnabled: sessionGetBool("greenRedRegionEnabled"),
       isMobile: document.documentElement.classList.contains("mobile"),
 
+      mapHighDetail: sessionGetBool("mapHighDetail"),
       regionCode: sessionGetString("regionCode"),
       cardSide: document.currentScript.dataset.cardSide,
 
       questionCardSideName: "question",
       answerCardSideName: "answer",
-      mapSvgId: "world",
+      mapSvgId: sessionGetBool("mapHighDetail") ? "world_high_detail" : "world_low_detail",
       selectedRegionSessionKey: "selectedRegion"
     },
     commonElements = {
@@ -36,12 +37,13 @@
       selector: commonElements.interactiveMap,
       map: commonConfig.mapSvgId,
       zoomButtons: false,
+      zoomMax: 25,
       backgroundColor: commonColors.bodyOfWater,
       regionStyle: {
         initial: {
           fill: commonColors.landMass,
           stroke: commonColors.border,
-          strokeWidth: 1
+          strokeWidth: commonConfig.mapHighDetail ? 0.2 : 1
         }
       }
     };
