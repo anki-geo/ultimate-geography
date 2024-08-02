@@ -59,7 +59,7 @@
    * Returns true if and only if key is equal to "1" and false otherwise
    */
   function sessionGetBool(key) {
-    return !!+sessionGetString(key);
+    return +sessionGetString(key) === 1;
   }
 
   /**
