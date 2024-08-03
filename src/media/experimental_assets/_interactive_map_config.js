@@ -4,11 +4,11 @@
 function getUserConfig() {
   let configObj = {};
   configObj.commonFeatures = {
-    interactiveEnabled: true,
-    interactiveMobileEnabled: true,
-    autoAnswerEnabled: true,
-    mapHighDetail: true,
-    toolTipEnabled: false,
+    interactiveEnabled: "true",
+    interactiveMobileEnabled: "true",
+    autoAnswerEnabled: "true",
+    mapHighDetail: "true",
+    toolTipEnabled: "false",
   };
   configObj.commonColors = {
     region: "#fdfbe5",
@@ -87,11 +87,11 @@ function getMapConfig() {
  * Assemble the object from properties of original object
  * values of which match the predicate
  */
-function filterObj(obj, predicate) {
+function filterObj(obj, predicate, mapper) {
   let filtered = {};
   for (let [key, value] of Object.entries(obj))
     if (predicate(value))
-      filtered[key] = value;
+      filtered[key] = mapper ? mapper(value) : value;
   return filtered;
 }
 
@@ -100,7 +100,11 @@ function filterObj(obj, predicate) {
  * ignoring invalid and non-boolean properties
  */
 function filterObjValidBooleans(obj) {
-  return filterObj(obj, v => typeof v === "boolean");
+  let toLower = v => v.toString().toLowerCase()
+  return filterObj(
+    obj,
+    v => ["true", "false"].some(x => toLower(v) === x),
+    v => toLower(v) === "true");
 }
 
 /**
@@ -108,5 +112,8 @@ function filterObjValidBooleans(obj) {
  * ignoring invalid and non-HEX properties
  */
 function filterObjValidColors(obj) {
-  return filterObj(obj, v => v.toString().match(/^#(?:[0-9a-fA-F]{3}){1,2}$/g));
+  return filterObj(
+    obj,
+    v => v.toString().match(/^#(?:[0-9a-fA-F]{3}){1,2}$/g)
+  );
 }
