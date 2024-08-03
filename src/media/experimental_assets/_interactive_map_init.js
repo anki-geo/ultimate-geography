@@ -1,52 +1,10 @@
 // IIFE is used intentionally to isolate namespaces between cards of a review session
 (function () {
-  const commonConfig = {
-      interactiveEnabled: sessionGetBool("interactiveEnabled"),
-      interactiveMobileEnabled: sessionGetBool("interactiveMobileEnabled"),
-      toolTipEnabled: sessionGetBool("showTooltipOnAnswer"),
-      autoAnswerEnabled: sessionGetBool("showAnswerOnRegionSelectEnabled"),
-      greenRedEnabled: sessionGetBool("greenRedRegionEnabled"),
-      isMobile: document.documentElement.classList.contains("mobile"),
-
-      mapHighDetail: sessionGetBool("mapHighDetail"),
-      regionCode: sessionGetString("regionCode"),
-      cardSide: document.currentScript.dataset.cardSide,
-
-      questionCardSideName: "question",
-      answerCardSideName: "answer",
-      mapSvgId: sessionGetBool("mapHighDetail") ? "world_high_detail" : "world_low_detail",
-      selectedRegionSessionKey: "selectedRegion"
-    },
-    commonElements = {
-      interactiveMap: document.querySelector(".value--map"),
-      staticMap: document.querySelector(".value--image"),
-      mapTooltips: document.querySelectorAll("body > div.jvm-tooltip"),
-      hiddenTextarea: document.querySelector("textarea#typeans")
-    },
-    commonColors = {
-      bodyOfWater: "#b3dff5",
-      landMass: "#fdfbe5",
-      selectedLandMass: "#e7f3ea",
-      border: "#757674",
-      highlightedRegion: "#c02637",
-      highlightedCorrectRegion: "#329446",
-      tooltipBackground: "#fdfbe5",
-      tooltipText: "#000000"
-    },
-    commonMap = {
-      selector: commonElements.interactiveMap,
-      map: commonConfig.mapSvgId,
-      zoomButtons: false,
-      zoomMax: 1000,
-      backgroundColor: commonColors.bodyOfWater,
-      regionStyle: {
-        initial: {
-          fill: commonColors.landMass,
-          stroke: commonColors.border,
-          strokeWidth: commonConfig.mapHighDetail ? 0.2 : 1
-        }
-      }
-    };
+  const mapConfig = getMapConfig();
+  const commonConfig = mapConfig.commonConfig;
+  const commonColors = mapConfig.commonColors;
+  const commonElements = mapConfig.commonElements;
+  const commonMap = mapConfig.commonMap;
 
   clearTooltips();
 
@@ -63,20 +21,6 @@
     }
   }
 
-
-  /**
-   * Shortcut function of value retrieval from sessionStorage
-   */
-  function sessionGetString(key) {
-    return sessionStorage.getItem(key);
-  }
-
-  /**
-   * Returns true if and only if key is equal to "1" and false otherwise
-   */
-  function sessionGetBool(key) {
-    return +sessionGetString(key) === 1;
-  }
 
   /**
    * Using configuration options determine whether to display interactive map
@@ -212,7 +156,7 @@
    */
   function getGreenRedRegionColor() {
     return commonConfig.greenRedEnabled
-    && commonConfig.regionCode === sessionGetString(commonConfig.selectedRegionSessionKey)
+    && commonConfig.regionCode === sessionStorage.getItem(commonConfig.selectedRegionSessionKey)
       ? commonColors.highlightedCorrectRegion
       : commonColors.highlightedRegion;
   }

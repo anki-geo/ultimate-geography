@@ -1,22 +1,3 @@
-<script>
-  // Any other value not equal to "1" is considered equal to "0"
-  // 1 - show interactive map; 0 - static fallback for both desktop and mobile (AnkiDroid + AnkiMobile)
-  sessionStorage.setItem("interactiveEnabled", "1");
-  // 0 - disable interactive map for mobile
-  sessionStorage.setItem("interactiveMobileEnabled", "1");
-  // 1 - show correctly selected region with green; 0 - always red
-  sessionStorage.setItem("greenRedRegionEnabled", "1");
-  // 1 - turn card to answer side when region is selected; 0 - manually turn card
-  sessionStorage.setItem("showAnswerOnRegionSelectEnabled", "1");
-  // 1 - tooltip with country names enabled on answer side; 0 - disabled
-  sessionStorage.setItem("showTooltipOnAnswer", "0");
-  // 1 - show high-detail map, may be low-performing on some devices; 0 - low detail
-  sessionStorage.setItem("mapHighDetail", "1")
-
-  //Do not edit
-  sessionStorage.setItem("regionCode", "{{Region code}}");
-</script>
-
 <div class="value value--top">{{Country}}</div>
 <hr>
 
@@ -39,7 +20,9 @@
 <script src="_jsvectormap.js"></script>
 <script src="_world_low_detail.js"></script>
 <script src="_world_high_detail.js"></script>
-<script src="_interactive_map_init.js" data-card-side="question"></script>
+<script src="_interactive_map_config.js"></script>
+<script src="_interactive_map_init.js"
+        data-card-side="question" data-region-code="{{Region code}}"></script>
 
 --
 
@@ -55,4 +38,6 @@
 <script src="_jsvectormap.js"></script>
 <script src="_world_low_detail.js"></script>
 <script src="_world_high_detail.js"></script>
-<script src="_interactive_map_init.js" data-card-side="answer"></script>
+<script src="_interactive_map_config.js"></script>
+<script src="_interactive_map_init.js"
+        data-card-side="answer" data-region-code="{{Region code}}"></script>
