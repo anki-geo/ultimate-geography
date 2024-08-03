@@ -51,8 +51,11 @@
           name: Ultimate Geography [ZH]
 
   - media_group_from_folder:
-      - part_id: all_media
-        source: src/media
+      - part_id: maps
+        source: src/media/maps
+        recursive: true
+      - part_id: flags
+        source: src/media/flags
         recursive: true
 
 
@@ -361,7 +364,7 @@
     <<: &default_crowd_anki_gen
       headers: default header
       media:
-        parts: [all_media]
+        parts: [maps, flags]
       note_models:
         parts:
           - part_id: Ultimate Geography
@@ -443,7 +446,7 @@
     <<: &extended_deck
       headers: default header
       media:
-        parts: [ all_media ]
+        parts: [ maps, flags ]
       note_models:
         parts:
           - part_id: Ultimate Geography [Extended]
