@@ -37,7 +37,7 @@
       selector: commonElements.interactiveMap,
       map: commonConfig.mapSvgId,
       zoomButtons: false,
-      zoomMax: 25,
+      zoomMax: 1000,
       backgroundColor: commonColors.bodyOfWater,
       regionStyle: {
         initial: {
