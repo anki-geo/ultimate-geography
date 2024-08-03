@@ -55,7 +55,7 @@
 
       regionStyle: {
         ...commonMap.regionStyle,
-        selected: {fill: commonColors.selectedLandMass}
+        selected: {fill: commonColors.selectedRegion}
       },
 
       onRegionSelected: swapToBackSide,
@@ -155,9 +155,8 @@
    * mode is enabled and region is selected correctly, red hex code otherwise
    */
   function getGreenRedRegionColor() {
-    return commonConfig.greenRedEnabled
-    && commonConfig.regionCode === sessionStorage.getItem(commonConfig.selectedRegionSessionKey)
-      ? commonColors.highlightedCorrectRegion
-      : commonColors.highlightedRegion;
+    return commonConfig.regionCode === sessionStorage.getItem(commonConfig.selectedRegionSessionKey)
+      ? commonColors.correctRegionHighlight
+      : commonColors.incorrectRegionHighlight;
   }
 }())

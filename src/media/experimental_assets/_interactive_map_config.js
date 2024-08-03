@@ -7,17 +7,16 @@ function getUserConfig() {
     interactiveEnabled: true,
     interactiveMobileEnabled: true,
     autoAnswerEnabled: true,
-    greenRedEnabled: true,
     mapHighDetail: true,
     toolTipEnabled: false,
   };
   configObj.commonColors = {
-    bodyOfWater: "#b3dff5",
-    landMass: "#fdfbe5",
-    selectedLandMass: "#e7f3ea",
+    region: "#fdfbe5",
+    selectedRegion: "#e7f3ea",
+    incorrectRegionHighlight: "#c02637",
+    correctRegionHighlight: "#329446",
+    background: "#b3dff5",
     border: "#757674",
-    highlightedRegion: "#c02637",
-    highlightedCorrectRegion: "#329446",
     tooltipBackground: "#fdfbe5",
     tooltipText: "#000000"
   };
@@ -36,7 +35,6 @@ function getMapConfig() {
     interactiveEnabled: true,
     interactiveMobileEnabled: true,
     autoAnswerEnabled: true,
-    greenRedEnabled: true,
     mapHighDetail: true,
     toolTipEnabled: false,
     ...filterObjValidBooleans(userConfig.commonFeatures),
@@ -52,12 +50,12 @@ function getMapConfig() {
     }
   }
   configObj.commonColors = {
-    bodyOfWater: "#b3dff5",
-    landMass: "#fdfbe5",
-    selectedLandMass: "#e7f3ea",
+    region: "#fdfbe5",
+    selectedRegion: "#e7f3ea",
+    incorrectRegionHighlight: "#c02637",
+    correctRegionHighlight: "#329446",
+    background: "#b3dff5",
     border: "#757674",
-    highlightedRegion: "#c02637",
-    highlightedCorrectRegion: "#329446",
     tooltipBackground: "#fdfbe5",
     tooltipText: "#000000",
     ...filterObjValidColors(userConfig.commonColors)
@@ -73,10 +71,10 @@ function getMapConfig() {
     map: configObj.commonConfig.mapSvgId,
     zoomButtons: false,
     zoomMax: 1000,
-    backgroundColor: configObj.commonColors.bodyOfWater,
+    backgroundColor: configObj.commonColors.background,
     regionStyle: {
       initial: {
-        fill: configObj.commonColors.landMass,
+        fill: configObj.commonColors.region,
         stroke: configObj.commonColors.border,
         strokeWidth: configObj.commonConfig.mapHighDetail ? 0.2 : 1
       }
