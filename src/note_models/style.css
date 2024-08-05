@@ -39,8 +39,8 @@
 
 .value--map {
   width: 90%;
-  height: 50vh;
-  margin: 2em auto
+  height: 65vh;
+  margin: 2em auto 0 auto;
 }
 
 .value > img,
