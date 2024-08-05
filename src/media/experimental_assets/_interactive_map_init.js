@@ -8,7 +8,7 @@
 
   clearTooltips();
 
-  if (resolveInteractiveEnabled() && commonConfig.regionCode) {
+  if (resolveInteractiveEnabled() && verifyRegionCode()) {
     interactiveMapMode(true);
     try {
       if (commonConfig.cardSide === commonConfig.questionCardSideName)
@@ -27,6 +27,15 @@
    */
   function resolveInteractiveEnabled() {
     return commonConfig.interactiveEnabled && (nonMobile() || interactiveMobileEnabled())
+  }
+
+  /**
+   * Verify that region code specified in the card field is present in the map object
+   * so that the country the region represents can be displayed on the back card
+   */
+  function verifyRegionCode() {
+    let usedMapObj = window[commonConfig.mapSvgId];
+    return usedMapObj.paths[commonConfig.regionCode];
   }
 
   /**
