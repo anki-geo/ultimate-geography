@@ -8,13 +8,15 @@
 
   clearTooltips();
 
-  if (resolveInteractiveEnabled() && verifyRegionCode()) {
+  if (resolveInteractiveEnabled()) {
     interactiveMapMode(true);
     try {
-      if (commonConfig.cardSide === commonConfig.questionCardSideName)
+      if (cardSide(commonConfig.questionCardSideName))
         initFrontMap();
-      else if (commonConfig.cardSide === commonConfig.answerCardSideName)
+      else if (cardSide(commonConfig.answerCardSideName)) {
+        failInvalidRegionCode()
         initBackMap();
+      }
     } catch (e) {
       interactiveMapMode(false);
       throw e;
@@ -30,15 +32,6 @@
   }
 
   /**
-   * Verify that region code specified in the card field is present in the map object
-   * so that the country the region represents can be displayed on the back card
-   */
-  function verifyRegionCode() {
-    let usedMapObj = window[commonConfig.mapSvgId];
-    return usedMapObj.paths[commonConfig.regionCode];
-  }
-
-  /**
    * @returns {boolean} true when device is not mobile, false otherwise
    */
   function nonMobile() {
@@ -51,6 +44,29 @@
    */
   function interactiveMobileEnabled() {
     return commonConfig.isMobile && commonConfig.interactiveMobileEnabled;
+  }
+
+  /**
+   * Set interactive display map mode based on passed boolean argument
+   * Note, that static fallback is specifically displayed by default in case current script fails to be loaded
+   */
+  function interactiveMapMode(enabled) {
+    commonElements.staticMap.style.display = enabled ? "none" : "block";
+    commonElements.interactiveMap.style.display = enabled ? "block" : "none";
+  }
+
+  function cardSide(cardSideName) {
+    return commonConfig.cardSide === cardSideName;
+  }
+
+  /**
+   * Throw an error if region code specified in the card field is absent in the map object to indicate
+   * the reason of static map display and to automatically undo enabled interactive map mode
+   */
+  function failInvalidRegionCode() {
+    let usedMapObj = window[commonConfig.mapSvgId];
+    if (!usedMapObj.paths[commonConfig.regionCode])
+      throw Error(`Region code "${commonConfig.regionCode || "empty"}" does not exist in the map`);
   }
 
   /**
@@ -104,15 +120,6 @@
    */
   function clearTooltips() {
     commonElements.mapTooltips.forEach(x => x.remove());
-  }
-
-  /**
-   * Set interactive display map mode based on passed boolean argument
-   * Note, that static fallback is specifically displayed by default in case current script fails to be loaded
-   */
-  function interactiveMapMode(enabled) {
-    commonElements.staticMap.style.display = enabled ? "none" : "block";
-    commonElements.interactiveMap.style.display = enabled ? "block" : "none";
   }
 
   /**
