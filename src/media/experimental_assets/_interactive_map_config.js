@@ -7,7 +7,6 @@ function getUserConfig() {
     interactiveEnabled: "true",
     interactiveMobileEnabled: "true",
     autoAnswerEnabled: "true",
-    mapHighDetail: "true",
     toolTipEnabled: "false",
   };
   configObj.commonColors = {
@@ -35,7 +34,6 @@ function getMapConfig() {
     interactiveEnabled: true,
     interactiveMobileEnabled: true,
     autoAnswerEnabled: true,
-    mapHighDetail: true,
     toolTipEnabled: false,
     ...filterObjValidBooleans(userConfig.commonFeatures),
 
@@ -45,9 +43,7 @@ function getMapConfig() {
     questionCardSideName: "question",
     answerCardSideName: "answer",
     selectedRegionSessionKey: "selectedRegion",
-    get mapSvgId() {
-      return this.mapHighDetail ? "world_high_detail" : "world_low_detail"
-    }
+    mapSvgId: "world"
   }
   configObj.commonColors = {
     region: "#fdfbe5",
@@ -76,7 +72,7 @@ function getMapConfig() {
       initial: {
         fill: configObj.commonColors.region,
         stroke: configObj.commonColors.border,
-        strokeWidth: configObj.commonConfig.mapHighDetail ? 0.2 : 1
+        strokeWidth: 0.2
       }
     }
   };
