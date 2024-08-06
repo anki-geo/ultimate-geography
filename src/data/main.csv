@@ -28,13 +28,13 @@ Iceland,"<img src=""ug-flag-iceland.svg"" />","<img src=""ug-map-iceland.png"" /
 Ireland,"<img src=""ug-flag-ireland.svg"" />","<img src=""ug-map-ireland.png"" />",IE,"UG::Europe, UG::European_Union, UG::Sovereign_State"
 Italy,"<img src=""ug-flag-italy.svg"" />","<img src=""ug-map-italy.png"" />",IT,"UG::Europe, UG::European_Union, UG::Mediterranean, UG::Sovereign_State"
 Latvia,"<img src=""ug-flag-latvia.svg"" />","<img src=""ug-map-latvia.png"" />",LV,"UG::Europe, UG::European_Union, UG::Sovereign_State"
-Liechtenstein,"<img src=""ug-flag-liechtenstein.svg"" />","<img src=""ug-map-liechtenstein.png"" />",LI,"UG::Europe, UG::Sovereign_State"
+Liechtenstein,"<img src=""ug-flag-liechtenstein.svg"" />","<img src=""ug-map-liechtenstein.png"" />",,"UG::Europe, UG::Sovereign_State"
 Lithuania,"<img src=""ug-flag-lithuania.svg"" />","<img src=""ug-map-lithuania.png"" />",LT,"UG::Europe, UG::European_Union, UG::Sovereign_State"
 Luxembourg,"<img src=""ug-flag-luxembourg.svg"" />","<img src=""ug-map-luxembourg.png"" />",LU,"UG::Europe, UG::European_Union, UG::Sovereign_State"
 North Macedonia,"<img src=""ug-flag-north_macedonia.svg"" />","<img src=""ug-map-north_macedonia.png"" />",MK,"UG::Europe, UG::Sovereign_State"
-Malta,"<img src=""ug-flag-malta.svg"" />","<img src=""ug-map-malta.png"" />",MT,"UG::Europe, UG::European_Union, UG::Mediterranean, UG::Sovereign_State"
+Malta,"<img src=""ug-flag-malta.svg"" />","<img src=""ug-map-malta.png"" />",,"UG::Europe, UG::European_Union, UG::Mediterranean, UG::Sovereign_State"
 Moldova,"<img src=""ug-flag-moldova.svg"" />","<img src=""ug-map-moldova.png"" />",MD,"UG::Europe, UG::Sovereign_State"
-Monaco,"<img src=""ug-flag-monaco.svg"" />","<img src=""ug-map-monaco.png"" />",MC,"UG::Europe, UG::Mediterranean, UG::Sovereign_State"
+Monaco,"<img src=""ug-flag-monaco.svg"" />","<img src=""ug-map-monaco.png"" />",,"UG::Europe, UG::Mediterranean, UG::Sovereign_State"
 Montenegro,"<img src=""ug-flag-montenegro.svg"" />","<img src=""ug-map-montenegro.png"" />",ME,"UG::Europe, UG::Mediterranean, UG::Sovereign_State"
 Netherlands,"<img src=""ug-flag-netherlands.svg"" />","<img src=""ug-map-netherlands.png"" />",NL,"UG::Europe, UG::European_Union, UG::Sovereign_State"
 Norway,"<img src=""ug-flag-norway.svg"" />","<img src=""ug-map-norway.png"" />",NO,"UG::Europe, UG::Sovereign_State"
@@ -42,7 +42,7 @@ Poland,"<img src=""ug-flag-poland.svg"" />","<img src=""ug-map-poland.png"" />",
 Portugal,"<img src=""ug-flag-portugal.svg"" />","<img src=""ug-map-portugal.png"" />",PT,"UG::Europe, UG::European_Union, UG::Sovereign_State"
 Romania,"<img src=""ug-flag-romania.svg"" />","<img src=""ug-map-romania.png"" />",RO,"UG::Europe, UG::European_Union, UG::Sovereign_State"
 Russia,"<img src=""ug-flag-russia.svg"" />","<img src=""ug-map-russia.png"" />",RU,"UG::Europe, UG::Sovereign_State"
-San Marino,"<img src=""ug-flag-san_marino.svg"" />","<img src=""ug-map-san_marino.png"" />",SM,"UG::Europe, UG::Sovereign_State"
+San Marino,"<img src=""ug-flag-san_marino.svg"" />","<img src=""ug-map-san_marino.png"" />",,"UG::Europe, UG::Sovereign_State"
 Serbia,"<img src=""ug-flag-serbia.svg"" />","<img src=""ug-map-serbia.png"" />",RS,"UG::Europe, UG::Sovereign_State"
 Slovakia,"<img src=""ug-flag-slovakia.svg"" />","<img src=""ug-map-slovakia.png"" />",SK,"UG::Europe, UG::European_Union, UG::Sovereign_State"
 Slovenia,"<img src=""ug-flag-slovenia.svg"" />","<img src=""ug-map-slovenia.png"" />",SI,"UG::Europe, UG::European_Union, UG::Mediterranean, UG::Sovereign_State"
@@ -51,7 +51,7 @@ Sweden,"<img src=""ug-flag-sweden.svg"" />","<img src=""ug-map-sweden.png"" />",
 Switzerland,"<img src=""ug-flag-switzerland.svg"" />","<img src=""ug-map-switzerland.png"" />",CH,"UG::Europe, UG::Sovereign_State"
 Turkey,"<img src=""ug-flag-turkey.svg"" />","<img src=""ug-map-turkey.png"" />",TR,"UG::Asia, UG::Mediterranean, UG::Middle_East, UG::Sovereign_State"
 Ukraine,"<img src=""ug-flag-ukraine.svg"" />","<img src=""ug-map-ukraine.png"" />",UA,"UG::Europe, UG::Sovereign_State"
-Vatican City,"<img src=""ug-flag-vatican_city.svg"" />","<img src=""ug-map-vatican_city.png"" />",VA,"UG::Europe, UG::Sovereign_State"
+Vatican City,"<img src=""ug-flag-vatican_city.svg"" />","<img src=""ug-map-vatican_city.png"" />",,"UG::Europe, UG::Sovereign_State"
 Armenia,"<img src=""ug-flag-armenia.svg"" />","<img src=""ug-map-armenia.png"" />",AM,"UG::Europe, UG::Sovereign_State"
 Cyprus,"<img src=""ug-flag-cyprus.svg"" />","<img src=""ug-map-cyprus.png"" />",CY,"UG::Asia, UG::European_Union, UG::Mediterranean, UG::Middle_East, UG::Sovereign_State"
 Kazakhstan,"<img src=""ug-flag-kazakhstan.svg"" />","<img src=""ug-map-kazakhstan.png"" />",KZ,"UG::Asia, UG::Sovereign_State"
@@ -93,7 +93,7 @@ Nigeria,"<img src=""ug-flag-nigeria.svg"" />","<img src=""ug-map-nigeria.png"" /
 Republic of the Congo,"<img src=""ug-flag-republic_of_the_congo.svg"" />","<img src=""ug-map-republic_of_the_congo.png"" />",CG,"UG::Africa, UG::Sovereign_State"
 Rwanda,"<img src=""ug-flag-rwanda.svg"" />","<img src=""ug-map-rwanda.png"" />",RW,"UG::Africa, UG::East_Africa, UG::Sovereign_State"
 Senegal,"<img src=""ug-flag-senegal.svg"" />","<img src=""ug-map-senegal.png"" />",SN,"UG::Africa, UG::Sovereign_State, UG::West_Africa"
-Seychelles,"<img src=""ug-flag-seychelles.svg"" />","<img src=""ug-map-seychelles.png"" />",SC,"UG::Africa, UG::East_Africa, UG::Sovereign_State"
+Seychelles,"<img src=""ug-flag-seychelles.svg"" />","<img src=""ug-map-seychelles.png"" />",,"UG::Africa, UG::East_Africa, UG::Sovereign_State"
 Sierra Leone,"<img src=""ug-flag-sierra_leone.svg"" />","<img src=""ug-map-sierra_leone.png"" />",SL,"UG::Africa, UG::Sovereign_State, UG::West_Africa"
 South Africa,"<img src=""ug-flag-south_africa.svg"" />","<img src=""ug-map-south_africa.png"" />",ZA,"UG::Africa, UG::Sovereign_State"
 Sudan,"<img src=""ug-flag-sudan.svg"" />","<img src=""ug-map-sudan.png"" />",SD,"UG::Africa, UG::Sovereign_State"
@@ -129,7 +129,7 @@ Kyrgyzstan,"<img src=""ug-flag-kyrgyzstan.svg"" />","<img src=""ug-map-kyrgyzsta
 Kuwait,"<img src=""ug-flag-kuwait.svg"" />","<img src=""ug-map-kuwait.png"" />",KW,"UG::Asia, UG::Middle_East, UG::Sovereign_State"
 Myanmar,"<img src=""ug-flag-myanmar.svg"" />","<img src=""ug-map-myanmar.png"" />",MM,"UG::Asia, UG::Southeast_Asia, UG::Sovereign_State"
 Mongolia,"<img src=""ug-flag-mongolia.svg"" />","<img src=""ug-map-mongolia.png"" />",MN,"UG::Asia, UG::Sovereign_State"
-Maldives,"<img src=""ug-flag-maldives.svg"" />","<img src=""ug-map-maldives.png"" />",MV,"UG::Asia, UG::Sovereign_State"
+Maldives,"<img src=""ug-flag-maldives.svg"" />","<img src=""ug-map-maldives.png"" />",,"UG::Asia, UG::Sovereign_State"
 Malaysia,"<img src=""ug-flag-malaysia.svg"" />","<img src=""ug-map-malaysia.png"" />",MY,"UG::Asia, UG::Southeast_Asia, UG::Sovereign_State"
 Oman,"<img src=""ug-flag-oman.svg"" />","<img src=""ug-map-oman.png"" />",OM,"UG::Asia, UG::Middle_East, UG::Sovereign_State"
 Nepal,"<img src=""ug-flag-nepal-nobox.svg"" />","<img src=""ug-map-nepal.png"" />",NP,"UG::Asia, UG::Sovereign_State"
@@ -165,9 +165,9 @@ Peru,"<img src=""ug-flag-peru.svg"" />","<img src=""ug-map-peru.png"" />",PE,"UG
 Suriname,"<img src=""ug-flag-suriname.svg"" />","<img src=""ug-map-suriname.png"" />",SR,"UG::South_America, UG::Sovereign_State"
 Uruguay,"<img src=""ug-flag-uruguay.svg"" />","<img src=""ug-map-uruguay.png"" />",UY,"UG::South_America, UG::Sovereign_State"
 Venezuela,"<img src=""ug-flag-venezuela.svg"" />","<img src=""ug-map-venezuela.png"" />",VE,"UG::South_America, UG::Sovereign_State"
-Cook Islands,"<img src=""ug-flag-cook_islands.svg"" />","<img src=""ug-map-cook_islands.png"" />",CK,"UG::Oceania, UG::Sovereign_State"
+Cook Islands,"<img src=""ug-flag-cook_islands.svg"" />","<img src=""ug-map-cook_islands.png"" />",,"UG::Oceania, UG::Sovereign_State"
 Federated States of Micronesia,"<img src=""ug-flag-federated_states_of_micronesia.svg"" />","<img src=""ug-map-federated_states_of_micronesia.png"" />",,"UG::Oceania, UG::Sovereign_State"
-Guam,"<img src=""ug-flag-guam-blur.svg"" /><img src=""ug-flag-guam.svg"" />","<img src=""ug-map-guam.png"" />",GU,UG::Oceania
+Guam,"<img src=""ug-flag-guam-blur.svg"" /><img src=""ug-flag-guam.svg"" />","<img src=""ug-map-guam.png"" />",,UG::Oceania
 Vanuatu,"<img src=""ug-flag-vanuatu.svg"" />","<img src=""ug-map-vanuatu.png"" />",VU,"UG::Oceania, UG::Sovereign_State"
 Canada,"<img src=""ug-flag-canada.svg"" />","<img src=""ug-map-canada.png"" />",CA,"UG::North_America, UG::Sovereign_State"
 United States of America,"<img src=""ug-flag-united_states_of_america.svg"" />","<img src=""ug-map-united_states_of_america.png"" />",US,"UG::North_America, UG::Sovereign_State"
@@ -178,7 +178,7 @@ Dominican Republic,"<img src=""ug-flag-dominican_republic.svg"" />","<img src=""
 Haiti,"<img src=""ug-flag-haiti.svg"" />","<img src=""ug-map-haiti.png"" />",HT,"UG::Caribbean, UG::North_America, UG::Sovereign_State"
 Jamaica,"<img src=""ug-flag-jamaica.svg"" />","<img src=""ug-map-jamaica.png"" />",JM,"UG::Caribbean, UG::North_America, UG::Sovereign_State"
 Trinidad and Tobago,"<img src=""ug-flag-trinidad_and_tobago.svg"" />","<img src=""ug-map-trinidad_and_tobago.png"" />",TT,"UG::Caribbean, UG::North_America, UG::Sovereign_State"
-Bermuda,,"<img src=""ug-map-bermuda.png"" />",BM,"UG::Caribbean, UG::North_America"
+Bermuda,,"<img src=""ug-map-bermuda.png"" />",,"UG::Caribbean, UG::North_America"
 Guadeloupe,,"<img src=""ug-map-guadeloupe.png"" />",GP,"UG::Caribbean, UG::North_America"
 The Bahamas,"<img src=""ug-flag-the_bahamas.svg"" />","<img src=""ug-map-the_bahamas.png"" />",BS,"UG::Caribbean, UG::North_America, UG::Sovereign_State"
 Barbados,"<img src=""ug-flag-barbados.svg"" />","<img src=""ug-map-barbados.png"" />",BB,"UG::Caribbean, UG::North_America, UG::Sovereign_State"
@@ -191,53 +191,53 @@ Nicaragua,"<img src=""ug-flag-nicaragua-blur.svg"" /><img src=""ug-flag-nicaragu
 Panama,"<img src=""ug-flag-panama.svg"" />","<img src=""ug-map-panama.png"" />",PA,"UG::North_America, UG::Sovereign_State"
 Antigua and Barbuda,"<img src=""ug-flag-antigua_and_barbuda.svg"" />","<img src=""ug-map-antigua_and_barbuda.png"" />",AG,"UG::Caribbean, UG::North_America, UG::Sovereign_State"
 Dominica,"<img src=""ug-flag-dominica.svg"" />","<img src=""ug-map-dominica.png"" />",DM,"UG::Caribbean, UG::North_America, UG::Sovereign_State"
-Saint Vincent and the Grenadines,"<img src=""ug-flag-saint_vincent_and_the_grenadines.svg"" />","<img src=""ug-map-saint_vincent_and_the_grenadines.png"" />",VC,"UG::Caribbean, UG::North_America, UG::Sovereign_State"
+Saint Vincent and the Grenadines,"<img src=""ug-flag-saint_vincent_and_the_grenadines.svg"" />","<img src=""ug-map-saint_vincent_and_the_grenadines.png"" />",,"UG::Caribbean, UG::North_America, UG::Sovereign_State"
 Somalia,"<img src=""ug-flag-somalia.svg"" />","<img src=""ug-map-somalia.png"" />",SO,"UG::Africa, UG::East_Africa, UG::Sovereign_State"
 Zanzibar,,"<img src=""ug-map-zanzibar.png"" />",,UG::Africa
 Ghana,"<img src=""ug-flag-ghana.svg"" />","<img src=""ug-map-ghana.png"" />",GH,"UG::Africa, UG::Sovereign_State, UG::West_Africa"
 Guinea,"<img src=""ug-flag-guinea.svg"" />","<img src=""ug-map-guinea.png"" />",GN,"UG::Africa, UG::Sovereign_State, UG::West_Africa"
 New Zealand,"<img src=""ug-flag-new_zealand.svg"" />","<img src=""ug-map-new_zealand.png"" />",NZ,"UG::Oceania, UG::Sovereign_State"
-French Polynesia,"<img src=""ug-flag-french_polynesia.svg"" />","<img src=""ug-map-french_polynesia.png"" />",PF,UG::Oceania
+French Polynesia,"<img src=""ug-flag-french_polynesia.svg"" />","<img src=""ug-map-french_polynesia.png"" />",,UG::Oceania
 Philippines,"<img src=""ug-flag-philippines.svg"" />","<img src=""ug-map-philippines.png"" />",PH,"UG::Asia, UG::Southeast_Asia, UG::Sovereign_State"
 Kosovo,"<img src=""ug-flag-kosovo.svg"" />","<img src=""ug-map-kosovo.png"" />",,"UG::Europe, UG::Sovereign_State"
 Libya,"<img src=""ug-flag-libya.svg"" />","<img src=""ug-map-libya.png"" />",LY,"UG::Africa, UG::Mediterranean, UG::Sovereign_State"
-Palau,"<img src=""ug-flag-palau.svg"" />","<img src=""ug-map-palau.png"" />",PW,"UG::Oceania, UG::Sovereign_State"
-Saint Lucia,"<img src=""ug-flag-saint_lucia.svg"" />","<img src=""ug-map-saint_lucia.png"" />",LC,"UG::Caribbean, UG::North_America, UG::Sovereign_State"
+Palau,"<img src=""ug-flag-palau.svg"" />","<img src=""ug-map-palau.png"" />",,"UG::Oceania, UG::Sovereign_State"
+Saint Lucia,"<img src=""ug-flag-saint_lucia.svg"" />","<img src=""ug-map-saint_lucia.png"" />",,"UG::Caribbean, UG::North_America, UG::Sovereign_State"
 Bali,,"<img src=""ug-map-bali.png"" />",,UG::Asia
-Grenada,"<img src=""ug-flag-grenada.svg"" />","<img src=""ug-map-grenada.png"" />",GD,"UG::Caribbean, UG::North_America, UG::Sovereign_State"
-British Virgin Islands,,"<img src=""ug-map-british_virgin_islands.png"" />",VG,"UG::Caribbean, UG::North_America"
-Turks and Caicos Islands,,"<img src=""ug-map-turks_and_caicos_islands.png"" />",TC,"UG::Caribbean, UG::North_America"
-Cayman Islands,,"<img src=""ug-map-cayman_islands.png"" />",KY,"UG::Caribbean, UG::North_America"
-Anguilla,,"<img src=""ug-map-anguilla.png"" />",AI,"UG::Caribbean, UG::North_America"
+Grenada,"<img src=""ug-flag-grenada.svg"" />","<img src=""ug-map-grenada.png"" />",,"UG::Caribbean, UG::North_America, UG::Sovereign_State"
+British Virgin Islands,,"<img src=""ug-map-british_virgin_islands.png"" />",,"UG::Caribbean, UG::North_America"
+Turks and Caicos Islands,,"<img src=""ug-map-turks_and_caicos_islands.png"" />",,"UG::Caribbean, UG::North_America"
+Cayman Islands,,"<img src=""ug-map-cayman_islands.png"" />",,"UG::Caribbean, UG::North_America"
+Anguilla,,"<img src=""ug-map-anguilla.png"" />",,"UG::Caribbean, UG::North_America"
 Azores,,"<img src=""ug-map-azores.png"" />",,UG::Europe
-Curaçao,"<img src=""ug-flag-curacao.svg"" />","<img src=""ug-map-curacao.png"" />",CW,"UG::Caribbean, UG::North_America"
+Curaçao,"<img src=""ug-flag-curacao.svg"" />","<img src=""ug-map-curacao.png"" />",,"UG::Caribbean, UG::North_America"
 French Guiana,,"<img src=""ug-map-french_guiana.png"" />",GF,UG::South_America
-Gibraltar,,"<img src=""ug-map-gibraltar.png"" />",GI,"UG::Europe, UG::Mediterranean"
-Guernsey,,"<img src=""ug-map-guernsey.png"" />",GG,UG::Europe
+Gibraltar,,"<img src=""ug-map-gibraltar.png"" />",,"UG::Europe, UG::Mediterranean"
+Guernsey,,"<img src=""ug-map-guernsey.png"" />",,UG::Europe
 Isle of Man,,"<img src=""ug-map-isle_of_man.png"" />",IM,UG::Europe
-Jersey,,"<img src=""ug-map-jersey.png"" />",JE,UG::Europe
-Kiribati,"<img src=""ug-flag-kiribati.svg"" />","<img src=""ug-map-kiribati.png"" />",KI,"UG::Oceania, UG::Sovereign_State"
-Macau,"<img src=""ug-flag-macau.svg"" />","<img src=""ug-map-macau.png"" />",MO,UG::Asia
+Jersey,,"<img src=""ug-map-jersey.png"" />",,UG::Europe
+Kiribati,"<img src=""ug-flag-kiribati.svg"" />","<img src=""ug-map-kiribati.png"" />",,"UG::Oceania, UG::Sovereign_State"
+Macau,"<img src=""ug-flag-macau.svg"" />","<img src=""ug-map-macau.png"" />",,UG::Asia
 Madeira,,"<img src=""ug-map-madeira.png"" />",,UG::Europe
-Marshall Islands,"<img src=""ug-flag-marshall_islands.svg"" />","<img src=""ug-map-marshall_islands.png"" />",MH,"UG::Oceania, UG::Sovereign_State"
-Nauru,"<img src=""ug-flag-nauru.svg"" />","<img src=""ug-map-nauru.png"" />",NR,"UG::Oceania, UG::Sovereign_State"
+Marshall Islands,"<img src=""ug-flag-marshall_islands.svg"" />","<img src=""ug-map-marshall_islands.png"" />",,"UG::Oceania, UG::Sovereign_State"
+Nauru,"<img src=""ug-flag-nauru.svg"" />","<img src=""ug-map-nauru.png"" />",,"UG::Oceania, UG::Sovereign_State"
 New Caledonia,"<img src=""ug-flag-new_caledonia.svg"" />","<img src=""ug-map-new_caledonia.png"" />",NC,UG::Oceania
-Niue,"<img src=""ug-flag-niue.svg"" />","<img src=""ug-map-niue.png"" />",NU,"UG::Oceania, UG::Sovereign_State"
+Niue,"<img src=""ug-flag-niue.svg"" />","<img src=""ug-map-niue.png"" />",,"UG::Oceania, UG::Sovereign_State"
 Northern Cyprus,"<img src=""ug-flag-northern_cyprus.svg"" />","<img src=""ug-map-northern_cyprus.png"" />",,"UG::Asia, UG::Mediterranean, UG::Middle_East, UG::Sovereign_State"
-Saint Kitts and Nevis,"<img src=""ug-flag-saint_kitts_and_nevis.svg"" />","<img src=""ug-map-saint_kitts_and_nevis.png"" />",KN,"UG::Caribbean, UG::North_America, UG::Sovereign_State"
-Samoa,"<img src=""ug-flag-samoa.svg"" />","<img src=""ug-map-samoa.png"" />",WS,"UG::Oceania, UG::Sovereign_State"
+Saint Kitts and Nevis,"<img src=""ug-flag-saint_kitts_and_nevis.svg"" />","<img src=""ug-map-saint_kitts_and_nevis.png"" />",,"UG::Caribbean, UG::North_America, UG::Sovereign_State"
+Samoa,"<img src=""ug-flag-samoa.svg"" />","<img src=""ug-map-samoa.png"" />",,"UG::Oceania, UG::Sovereign_State"
 Somaliland,"<img src=""ug-flag-somaliland.svg"" />","<img src=""ug-map-somaliland.png"" />",,"UG::Africa, UG::East_Africa, UG::Sovereign_State"
 South Sudan,"<img src=""ug-flag-south_sudan.svg"" />","<img src=""ug-map-south_sudan.png"" />",SS,"UG::Africa, UG::East_Africa, UG::Sovereign_State"
-Tuvalu,"<img src=""ug-flag-tuvalu.svg"" />","<img src=""ug-map-tuvalu.png"" />",TV,"UG::Oceania, UG::Sovereign_State"
-United States Virgin Islands,"<img src=""ug-flag-united_states_virgin_islands.svg"" />","<img src=""ug-map-united_states_virgin_islands.png"" />",VI,"UG::Caribbean, UG::North_America"
+Tuvalu,"<img src=""ug-flag-tuvalu.svg"" />","<img src=""ug-map-tuvalu.png"" />",,"UG::Oceania, UG::Sovereign_State"
+United States Virgin Islands,"<img src=""ug-flag-united_states_virgin_islands.svg"" />","<img src=""ug-map-united_states_virgin_islands.png"" />",,"UG::Caribbean, UG::North_America"
 Åland Islands,"<img src=""ug-flag-aland_islands.svg"" />","<img src=""ug-map-aland_islands.png"" />",AX,UG::Europe
 South Ossetia,"<img src=""ug-flag-south_ossetia.svg"" />","<img src=""ug-map-south_ossetia.png"" />",,"UG::Europe, UG::Sovereign_State"
-American Samoa,,"<img src=""ug-map-american_samoa.png"" />",AS,UG::Oceania
-Northern Mariana Islands,,"<img src=""ug-map-northern_mariana_islands.png"" />",MP,UG::Oceania
-Aruba,"<img src=""ug-flag-aruba.svg"" />","<img src=""ug-map-aruba.png"" />",AW,"UG::Caribbean, UG::North_America"
+American Samoa,,"<img src=""ug-map-american_samoa.png"" />",,UG::Oceania
+Northern Mariana Islands,,"<img src=""ug-map-northern_mariana_islands.png"" />",,UG::Oceania
+Aruba,"<img src=""ug-flag-aruba.svg"" />","<img src=""ug-map-aruba.png"" />",,"UG::Caribbean, UG::North_America"
 Abkhazia,"<img src=""ug-flag-abkhazia.svg"" />","<img src=""ug-map-abkhazia.png"" />",,"UG::Europe, UG::Sovereign_State"
-Sint Maarten,,"<img src=""ug-map-sint_maarten.png"" />",SX,"UG::Caribbean, UG::North_America"
-Tonga,"<img src=""ug-flag-tonga.svg"" />","<img src=""ug-map-tonga.png"" />",TO,"UG::Oceania, UG::Sovereign_State"
+Sint Maarten,,"<img src=""ug-map-sint_maarten.png"" />",,"UG::Caribbean, UG::North_America"
+Tonga,"<img src=""ug-flag-tonga.svg"" />","<img src=""ug-map-tonga.png"" />",,"UG::Oceania, UG::Sovereign_State"
 Transnistria,"<img src=""ug-flag-transnistria.svg"" />","<img src=""ug-map-transnistria.png"" />",,"UG::Europe, UG::Sovereign_State"
 Sardinia,,"<img src=""ug-map-sardinia.png"" />",,UG::Europe
 Kaliningrad Oblast,,"<img src=""ug-map-kaliningrad_oblast.png"" />",,UG::Europe
@@ -249,7 +249,7 @@ Gulf of Mexico,,"<img src=""ug-map-gulf_of_mexico.png"" />",,UG::Oceans+Seas
 Philippine Sea,,"<img src=""ug-map-philippine_sea.png"" />",,UG::Oceans+Seas
 Southern Ocean,,"<img src=""ug-map-southern_ocean-nobox.png"" />",,UG::Oceans+Seas
 Gulf of Thailand,,"<img src=""ug-map-gulf_of_thailand.png"" />",,UG::Oceans+Seas
-Micronesia,,"<img src=""ug-map-micronesia.png"" />",FM,UG::Oceania
+Micronesia,,"<img src=""ug-map-micronesia.png"" />",,UG::Oceania
 Pacific Ocean,,"<img src=""ug-map-pacific_ocean-nobox.png"" />",,UG::Oceans+Seas
 Atlantic Ocean,,"<img src=""ug-map-atlantic_ocean-nobox.png"" />",,UG::Oceans+Seas
 Indian Ocean,,"<img src=""ug-map-indian_ocean-nobox.png"" />",,UG::Oceans+Seas
@@ -301,8 +301,8 @@ Asia,,"<img src=""ug-map-asia-nobox.png"" />",,UG::Continents
 Africa,,"<img src=""ug-map-africa-nobox.png"" />",,UG::Continents
 Oceania,,"<img src=""ug-map-oceania-nobox.png"" />",,UG::Continents
 Antarctica,,"<img src=""ug-map-antarctica-nobox.png"" />",,UG::Continents
-Saint Martin,,"<img src=""ug-map-saint_martin.png"" />",MF,"UG::Caribbean, UG::North_America"
-Wallis and Futuna,,"<img src=""ug-map-wallis_and_futuna.png"" />",WF,UG::Oceania
+Saint Martin,,"<img src=""ug-map-saint_martin.png"" />",,"UG::Caribbean, UG::North_America"
+Wallis and Futuna,,"<img src=""ug-map-wallis_and_futuna.png"" />",,UG::Oceania
 Akrotiri and Dhekelia,,"<img src=""ug-map-akrotiri_and_dhekelia.png"" />",,"UG::Asia, UG::Mediterranean, UG::Middle_East"
 Svalbard,,"<img src=""ug-map-svalbard.png"" />",SJ,UG::Europe
 Hawaii,,"<img src=""ug-map-hawaii.png"" />",,UG::Oceania
