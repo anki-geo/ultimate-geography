@@ -66,7 +66,7 @@ function getMapConfig() {
     selector: configObj.commonElements.interactiveMap,
     map: configObj.commonConfig.mapSvgId,
     zoomButtons: false,
-    zoomMax: 1000,
+    zoomMax: 25,
     backgroundColor: configObj.commonColors.background,
     regionStyle: {
       initial: {
