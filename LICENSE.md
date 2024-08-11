@@ -46,3 +46,7 @@ The sources and licenses of the flags (`ug-flag-...`) and maps (`ug-map-...`) in
 `sources.csv` references only the licenses of the files themselves. Some flags, like the [European Union flag](https://www.coe.int/en/web/about-us/the-european-flag#column-5), may come with additional copyright restrictions.
 
 All images have been optimised, resized and/or converted to reduce file size. Any further modifications are listed in the  _Modifications_ column.
+
+## jsvectormap
+
+[MIT License — Copyright (c) 2020 Mustafa Omar](https://github.com/themustafaomar/jsvectormap/blob/main/LICENSE)
