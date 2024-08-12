@@ -1,34 +1,10 @@
 /**
- * Customizable user properties
- */
-function getUserConfig() {
-  let configObj = {};
-  configObj.commonFeatures = {
-    interactiveEnabled: "true",
-    interactiveMobileEnabled: "true",
-    autoAnswerEnabled: "true",
-    toolTipEnabled: "false",
-  };
-  configObj.commonColors = {
-    region: "#fdfbe5",
-    selectedRegion: "#e7f3ea",
-    incorrectRegionHighlight: "#c02637",
-    correctRegionHighlight: "#329446",
-    background: "#b3dff5",
-    border: "#757674",
-    tooltipBackground: "#fdfbe5",
-    tooltipText: "#000000"
-  };
-  return configObj;
-}
-
-/**
  * Overall configuration. Includes validated user properties
  * and core properties - program auxiliary data. Should not
  * be modified unless the author understands what they are doing
  */
 function getMapConfig() {
-  let userConfig = getUserConfig()
+  let userConfig = JSON.parse(sessionStorage.getItem("userConfig"));
   let configObj = {};
   configObj.commonConfig = {
     interactiveEnabled: true,

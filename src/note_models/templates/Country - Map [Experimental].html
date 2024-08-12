@@ -1,3 +1,24 @@
+<script>
+  sessionStorage.setItem("userConfig",
+    JSON.stringify({
+      commonFeatures: {
+        interactiveEnabled: "true",
+        interactiveMobileEnabled: "true",
+        autoAnswerEnabled: "true",
+        toolTipEnabled: "false",
+      },
+      commonColors: {
+        region: "#fdfbe5",
+        selectedRegion: "#e7f3ea",
+        incorrectRegionHighlight: "#c02637",
+        correctRegionHighlight: "#329446",
+        background: "#b3dff5",
+        border: "#757674",
+        tooltipBackground: "#fdfbe5",
+        tooltipText: "#000000"
+      }
+    }));
+</script>
 <div class="value value--top">{{Country}}</div>
 <hr>
 
