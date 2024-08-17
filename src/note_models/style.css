@@ -1,3 +1,5 @@
+@import url("_ug-jsvectormap.min.css");
+
 .card {
   padding: 1em 0;
   background-color: white;
@@ -33,6 +35,12 @@
 
 .value--image {
   margin-top: 0.75em;
+}
+
+.value--map {
+  width: 90%;
+  height: 65vh;
+  margin: 2em auto 0 auto;
 }
 
 .value > img,

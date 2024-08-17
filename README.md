@@ -31,7 +31,7 @@ The deck is available in **English**, **German**, **Spanish**, **French**, **Nor
 
 ## Features
 
-The standard version of the deck comes with four note templates: _Country - Capital_, _Capital - Country_, _Flag - Country_, and _Map - Country_. An **extended version** is also available, with two additional note templates: _Country - Flag_ and _Country - Map_.
+The standard version of the deck comes with four note templates: _Country - Capital_, _Capital - Country_, _Flag - Country_, and _Map - Country_. An **extended version** is also available, with two additional note templates: _Country - Flag_ and _Country - Map_. The [experimental version](https://github.com/anki-geo/ultimate-geography/wiki/Experimental-extended-deck) is a clone of extended version except it also provides interactivity for the _Country - Map_ note template.
 
 <table>
   <tr><th scope="col" colspan="2">Flag - Country</th></tr>
@@ -103,9 +103,10 @@ In order to install and later upgrade _Ultimate Geography_, you'll need to first
 You're now ready to install _Ultimate Geography_:
 
 1. Go to the **[_Releases_ page](https://github.com/anki-geo/ultimate-geography/releases)**.
-1. In the latest release's _Assets_ section, download the ZIP archive of the version of the deck you'd like to use. You can choose between [a standard and an extended version](#features) in a number of [languages](#ultimate-geography) -- for instance, if you're after the standard German deck, download `Ultimate_Geography_v[...]_DE.zip`.
+1. In the latest release's _Assets_ section, download the ZIP archive of the version of the deck you'd like to use. You can choose between [a standard, extended and experimental version](#features) in a number of [languages](#ultimate-geography) -- for instance, if you're after the standard German deck, download `Ultimate_Geography_v[...]_DE.zip`.
 1. Extract the content of the archive on your computer.
 1. Open Anki and make sure your devices are all synchronised.
+1. Create [a manual backup](https://docs.ankiweb.net/backups.html#creating) via _File -> Create Backup_ in case something goes wrong.
 1. In the _File_ menu, select _CrowdAnki: Import from disk_.
 1. Browse for and select the folder you extracted from the archive, which contains the deck's JSON file and `media` folder -- e.g. `Ultimate Geography [DE]`.
 1. Don't change anything in the _CrowdAnki Import Settings_ dialog box that opens -- just press _OK_ to start the import. A dialog box should then confirm that the import was successful.

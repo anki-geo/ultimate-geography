@@ -20,8 +20,12 @@ jobs:
         python3 -m pip install --upgrade pipenv
         pipenv install
 
-    - name: Validate
+    - name: Validate regular & extended decks
       run: |
         pipenv run build
+
+    - name: Validate experimental deck
+      run: |
+        pipenv run build_experimental
 
       # TODO: Validate the csv file structure

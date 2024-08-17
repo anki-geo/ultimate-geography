@@ -18,11 +18,8 @@
 
 - build_parts:
   - note_model_from_yaml_part:
-      part_id: Ultimate Geography
-      file: src/note_models/Ultimate_Geography.yaml
-  - note_model_from_yaml_part:
-      part_id: Ultimate Geography [Extended]
-      file: src/note_models/Ultimate_Geography_[Extended].yaml
+      part_id: Ultimate Geography [Experimental]
+      file: src/note_models/Ultimate_Geography_[Experimental].yaml
 
   - headers_from_yaml_part:
       - part_id: default header
@@ -57,19 +54,20 @@
       - part_id: flags
         source: src/media/flags
         recursive: true
-
+      - part_id: experimental_assets
+        source: src/media/experimental_assets
 
   - notes_from_csvs:
       part_id: english
-      # save_to_file: src/notes/english.yaml
 
       note_model_mappings:
         - note_models: &note_models_in_mapping
-            - Ultimate Geography
+            - Ultimate Geography [Experimental]
           columns_to_fields:
             <<: &default_columns_to_fields
               flag: Flag
               map: Map
+              region code: Region code
               tags: tags
 
             guid             : guid
@@ -84,7 +82,7 @@
 
       file_mappings: &file_mappings
         - file: src/data/main.csv
-          note_model: Ultimate Geography
+          note_model: Ultimate Geography [Experimental]
           derivatives:
             - file: src/data/guid.csv
             - file: src/data/country.csv
@@ -96,7 +94,6 @@
 
   - notes_from_csvs:
       part_id: german
-      #save_to_file:
 
       note_model_mappings:
         - note_models: *note_models_in_mapping
@@ -116,7 +113,6 @@
       file_mappings: *file_mappings
   - notes_from_csvs:
       part_id: spanish
-      #save_to_file:
 
       note_model_mappings:
         - note_models: *note_models_in_mapping
@@ -134,9 +130,9 @@
           personal_fields: [ ]
 
       file_mappings: *file_mappings
+
   - notes_from_csvs:
       part_id: french
-      #save_to_file:
 
       note_model_mappings:
         - note_models: *note_models_in_mapping
@@ -154,9 +150,9 @@
           personal_fields: [ ]
 
       file_mappings: *file_mappings
+
   - notes_from_csvs:
       part_id: norwegian
-      #save_to_file:
 
       note_model_mappings:
         - note_models: *note_models_in_mapping
@@ -174,9 +170,9 @@
           personal_fields: [ ]
 
       file_mappings: *file_mappings
+
   - notes_from_csvs:
       part_id: czech
-      #save_to_file:
 
       note_model_mappings:
         - note_models: *note_models_in_mapping
@@ -194,9 +190,9 @@
           personal_fields: [ ]
 
       file_mappings: *file_mappings
+
   - notes_from_csvs:
       part_id: russian
-      #save_to_file:
 
       note_model_mappings:
         - note_models: *note_models_in_mapping
@@ -214,9 +210,9 @@
           personal_fields: [ ]
 
       file_mappings: *file_mappings
+
   - notes_from_csvs:
       part_id: dutch
-      #save_to_file:
 
       note_model_mappings:
         - note_models: *note_models_in_mapping
@@ -234,9 +230,9 @@
           personal_fields: [ ]
 
       file_mappings: *file_mappings
+
   - notes_from_csvs:
       part_id: swedish
-      #save_to_file:
 
       note_model_mappings:
         - note_models: *note_models_in_mapping
@@ -257,7 +253,6 @@
 
   - notes_from_csvs:
       part_id: portuguese
-      #save_to_file:
 
       note_model_mappings:
         - note_models: *note_models_in_mapping
@@ -278,7 +273,6 @@
 
   - notes_from_csvs:
       part_id: chinese
-      #save_to_file:
 
       note_model_mappings:
         - note_models: *note_models_in_mapping
@@ -299,7 +293,6 @@
 
   - notes_from_csvs:
       part_id: polish
-      #save_to_file:
 
       note_model_mappings:
         - note_models: *note_models_in_mapping
@@ -320,7 +313,6 @@
 
   - notes_from_csvs:
       part_id: italian
-      #save_to_file:
 
       note_model_mappings:
         - note_models: *note_models_in_mapping
@@ -341,7 +333,6 @@
 
   - notes_from_csvs:
       part_id: danish
-      #save_to_file:
 
       note_model_mappings:
         - note_models: *note_models_in_mapping
@@ -360,180 +351,83 @@
 
       file_mappings: *file_mappings
 
-- generate_crowd_anki:
-    <<: &default_crowd_anki_gen
-      headers: default header
-      media:
-        parts: [maps, flags]
-      note_models:
-        parts:
-          - part_id: Ultimate Geography
-
-    folder: build/Ultimate Geography [EN]
-    notes:
-      part_id: english
-- generate_crowd_anki:
-    <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography [DE]
-    notes:
-      part_id: german
-- generate_crowd_anki:
-    <<: *default_crowd_anki_gen
-    headers: default header:es
-    folder: build/Ultimate Geography [ES]
-    notes:
-      part_id: spanish
-- generate_crowd_anki:
-    <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography [FR]
-    notes:
-      part_id: french
-- generate_crowd_anki:
-    <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography [NB]
-    notes:
-      part_id: norwegian
-- generate_crowd_anki:
-    <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography [CS]
-    notes:
-      part_id: czech
-- generate_crowd_anki:
-    <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography [RU]
-    notes:
-      part_id: russian
-- generate_crowd_anki:
-    <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography [NL]
-    notes:
-      part_id: dutch
-- generate_crowd_anki:
-    <<: *default_crowd_anki_gen
-    headers: default header:sv
-    folder: build/Ultimate Geography [SV]
-    notes:
-      part_id: swedish
-- generate_crowd_anki:
-    <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography [PT]
-    notes:
-      part_id: portuguese
-- generate_crowd_anki:
-    <<: *default_crowd_anki_gen
-    headers: default header:zh
-    folder: build/Ultimate Geography [ZH]
-    notes:
-      part_id: chinese
-- generate_crowd_anki:
-    <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography [PL]
-    notes:
-      part_id: polish
-- generate_crowd_anki:
-    <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography [IT]
-    notes:
-      part_id: italian
-- generate_crowd_anki:
-    <<: *default_crowd_anki_gen
-    folder: build/Ultimate Geography [DA]
-    notes:
-      part_id: danish
-
 
 - generate_crowd_anki:
     <<: &extended_deck
       headers: default header
       media:
-        parts: [ maps, flags ]
+        parts: [ maps, flags, experimental_assets ]
       note_models:
         parts:
-          - part_id: Ultimate Geography [Extended]
+          - part_id: Ultimate Geography [Experimental]
 
-    folder: build/Ultimate Geography [EN] [Extended]
+    folder: build/Ultimate Geography [EN] [Experimental]
     notes:
       part_id: english
-      <<: &override_nm
-        override:
-          note_model: Ultimate Geography [Extended]
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography [DE] [Extended]
+    folder: build/Ultimate Geography [DE] [Experimental]
     notes:
       part_id: german
-      <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
     headers: default header:es
-    folder: build/Ultimate Geography [ES] [Extended]
+    folder: build/Ultimate Geography [ES] [Experimental]
     notes:
       part_id: spanish
-      <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography [FR] [Extended]
+    folder: build/Ultimate Geography [FR] [Experimental]
     notes:
       part_id: french
-      <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography [NB] [Extended]
+    folder: build/Ultimate Geography [NB] [Experimental]
     notes:
       part_id: norwegian
-      <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography [CS] [Extended]
+    folder: build/Ultimate Geography [CS] [Experimental]
     notes:
       part_id: czech
-      <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography [RU] [Extended]
+    folder: build/Ultimate Geography [RU] [Experimental]
     notes:
       part_id: russian
-      <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography [NL] [Extended]
+    folder: build/Ultimate Geography [NL] [Experimental]
     notes:
       part_id: dutch
-      <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography [SV] [Extended]
+    folder: build/Ultimate Geography [SV] [Experimental]
     notes:
       part_id: swedish
-      <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography [PT] [Extended]
+    folder: build/Ultimate Geography [PT] [Experimental]
     notes:
       part_id: portuguese
-      <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
     headers: default header:zh
-    folder: build/Ultimate Geography [ZH] [Extended]
+    folder: build/Ultimate Geography [ZH] [Experimental]
     notes:
       part_id: chinese
-      <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography [PL] [Extended]
+    folder: build/Ultimate Geography [PL] [Experimental]
     notes:
       part_id: polish
-      <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography [IT] [Extended]
+    folder: build/Ultimate Geography [IT] [Experimental]
     notes:
       part_id: italian
-      <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
-    folder: build/Ultimate Geography [DA] [Extended]
+    folder: build/Ultimate Geography [DA] [Experimental]
     notes:
       part_id: danish
-      <<: *override_nm
