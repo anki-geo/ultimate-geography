@@ -1,4 +1,3 @@
-// IIFE is used intentionally to isolate namespaces between cards of a review session
 (function () {
   const mapConfig = getMapConfig();
   const commonConfig = mapConfig.commonConfig;
@@ -25,7 +24,7 @@
 
 
   /**
-   * Using configuration options determine whether to display interactive map
+   * Using configuration options to determine whether to display interactive map
    */
   function resolveInteractiveEnabled() {
     return commonConfig.interactiveEnabled && (nonMobile() || interactiveMobileEnabled())
@@ -55,6 +54,11 @@
     commonElements.interactiveMap.style.display = enabled ? "block" : "none";
   }
 
+  /**
+   * Determine card side using predefined names from configuration.
+   * Note that current card side is figured out via accessing the value of
+   * data attribute of the &lt;script&gt; element invoking the program
+   */
   function cardSide(cardSideName) {
     return commonConfig.cardSide === cardSideName;
   }
@@ -85,7 +89,7 @@
 
       onRegionSelected: swapToBackSide,
 
-      ...mobileDraggingHack(false)
+      ...mobileSwipingHack(false)
     });
   }
 
@@ -99,14 +103,14 @@
 
       regionStyle: {
         ...commonMap.regionStyle,
-        selected: {fill: getGreenRedRegionColor()}
+        selected: {fill: getRegionColor()}
       },
       focusOn: {
         region: commonConfig.regionCode,
         animate: true
       },
 
-      ...mobileDraggingHack(commonConfig.toolTipEnabled, (event, tooltip) => {
+      ...mobileSwipingHack(commonConfig.toolTipEnabled, (event, tooltip) => {
         tooltip._tooltip.style.backgroundColor = commonColors.tooltipBackground;
         tooltip._tooltip.style.color = commonColors.tooltipText;
       })
@@ -123,11 +127,11 @@
   }
 
   /**
-   * Jsvectormap library bug - map dragging does not work on mobile with disabled tooltip.
+   * Jsvectormap library bug - map swiping does not work on mobile with disabled tooltip.
    * Enable tooltip and hide it in case original tooltip is not displayable.
    * Current handling is temporary fix until library issue is resolved
    */
-  function mobileDraggingHack(tooltipEnabled, tooltipShowHandler) {
+  function mobileSwipingHack(tooltipEnabled, tooltipShowHandler) {
     return commonConfig.isMobile
       ? {
         showTooltip: true,
@@ -167,10 +171,10 @@
 
   /**
    * Retrieve region highlighting color for answer card side
-   * @returns {string} - Green hex code if and only if green highlighting
-   * mode is enabled and region is selected correctly, red hex code otherwise
+   * depending on the configuration and whether the selected
+   * by the user on question side region is correct
    */
-  function getGreenRedRegionColor() {
+  function getRegionColor() {
     return commonConfig.regionCode === sessionStorage.getItem(commonConfig.selectedRegionSessionKey)
       ? commonColors.correctRegionHighlight
       : commonColors.incorrectRegionHighlight;
