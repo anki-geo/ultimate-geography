@@ -175,8 +175,8 @@
   }
 
   /**
-   * Trigger "Enter" key press event. Note that Anki &lt; 24.06
-   * uses `code` property and Anki &gt;= 24.06 - `key` property
+   * Trigger "Enter" key press event. Note that Anki < 24.06
+   * uses `code` property and Anki >= 24.06 - `key` property
    * to query pressed key, so both properties must be present
    */
   function dispatchEnterEvent() {
