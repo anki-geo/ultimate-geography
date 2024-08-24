@@ -1,3 +1,8 @@
+/**
+ * Interactive map initialization logic declaration.
+ * Note that due to Anki Desktop web view being persistent
+ * for card reviews IIFE is used to separate the namespaces
+ */
 (function () {
   const mapConfig = getMapConfig();
   const commonConfig = mapConfig.commonConfig;
