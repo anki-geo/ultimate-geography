@@ -165,8 +165,18 @@
     if (typeof AnkiDroidJS !== "undefined") {
       showAnswer();
     } else {
-      commonElements.hiddenTextarea.dispatchEvent(new KeyboardEvent("keypress", {code: "Enter"}));
+      dispatchEnterEvent()
     }
+  }
+
+  /**
+   * Trigger "Enter" key press event. Note that Anki &lt; 24.06
+   * uses `code` property and Anki &gt;= 24.06 - `key` property
+   * to query pressed key, so both properties must be present
+   */
+  function dispatchEnterEvent() {
+    let artificialEvent = new KeyboardEvent("keypress", {code: "Enter", key: "Enter"});
+    commonElements.hiddenTextarea.dispatchEvent(artificialEvent);
   }
 
   /**
