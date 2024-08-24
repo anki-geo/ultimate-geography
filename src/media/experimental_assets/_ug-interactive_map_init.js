@@ -1,3 +1,8 @@
+/**
+ * Interactive map initialization logic declaration.
+ * Note that due to Anki Desktop web view being persistent
+ * for card reviews IIFE is used to separate the namespaces
+ */
 (function () {
   const mapConfig = getMapConfig();
   const commonConfig = mapConfig.commonConfig;
@@ -165,8 +170,18 @@
     if (typeof AnkiDroidJS !== "undefined") {
       showAnswer();
     } else {
-      commonElements.hiddenTextarea.dispatchEvent(new KeyboardEvent("keypress", {code: "Enter"}));
+      dispatchEnterEvent()
     }
+  }
+
+  /**
+   * Trigger "Enter" key press event. Note that Anki < 24.06
+   * uses `code` property and Anki >= 24.06 - `key` property
+   * to query pressed key, so both properties must be present
+   */
+  function dispatchEnterEvent() {
+    let artificialEvent = new KeyboardEvent("keypress", {code: "Enter", key: "Enter"});
+    commonElements.hiddenTextarea.dispatchEvent(artificialEvent);
   }
 
   /**
