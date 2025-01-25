@@ -1,220 +1,220 @@
-,country,capital,capital:de,capital:es,capital:fr,capital:nb,capital:cs,capital:ru,capital:nl,capital:sv,capital:pt,capital:zh,capital:zh-tw,capital:pl,capital:it,capital:da
-0,England,London,London,Londres,Londres,London,Londýn,Лондон,Londen,London,Londres,伦敦(London),倫敦 (London),Londyn,Londra,London
-1,Scotland,Edinburgh,Edinburgh,Edimburgo,Édimbourg,Edinburgh,Edinburgh,Эдинбург,Edinburgh,Edinburgh,Edimburgo,爱丁堡(Edinburgh),愛丁堡 (Edinburgh),Edynburg,Edimburgo,Edinburgh
-2,United Kingdom,London,London,Londres,Londres,London,Londýn,Лондон,Londen,London,Londres,伦敦(London),倫敦 (London),Londyn,Londra,London
-3,Northern Ireland,Belfast,Belfast,Belfast,Belfast,Belfast,Belfast,Белфаст,Belfast,Belfast,Belfaste,贝尔法斯特(Belfast),貝爾法斯特 (Belfast),Belfast,Belfast,Belfast
-4,France,Paris,Paris,París,Paris,Paris,Paříž,Париж,Parijs,Paris,Paris,巴黎(Paris),巴黎 (Paris),Paryż,Parigi,Paris
-5,Wales,Cardiff,Cardiff,Cardiff,Cardiff,Cardiff,Cardiff,Кардифф,Cardiff,Cardiff,Cardife,卡迪夫(Cardiff),卡地夫 (Cardiff),Cardiff,Cardiff,Cardiff
-6,Georgia,Tbilisi,Tiflis,Tiflis,Tbilissi,Tbilisi,Tbilisi,Тбилиси,Tbilisi,Tbilisi,Tiblissi,第比利斯(Tbilisi),第比利斯 (Tbilisi),Tbilisi,Tbilisi,Tbilisi
-7,Germany,Berlin,Berlin,Berlín,Berlin,Berlin,Berlín,Берлин,Berlijn,Berlin,Berlim,柏林(Berlin),柏林 (Berlin),Berlin,Berlino,Berlin
-8,Greece,Athens,Athen,Atenas,Athènes,Aten,Athény,Афины,Athene,Aten,Atenas,雅典(Athens),雅典 (Athens),Ateny,Atene,Athen
-9,Greenland,Nuuk,Nuuk,Nuuk,Nuuk,Nuuk,Nuuk,Нуук,Nuuk,Nuuk,Nuque,努克(Nuuk),努克 (Nuuk),Nuuk,Nuuk,Nuuk
-10,Hungary,Budapest,Budapest,Budapest,Budapest,Budapest,Budapešť,Будапешт,Boedapest,Budapest,Budapeste,布达佩斯(Budapest),布達佩斯 (Budapest),Budapeszt,Budapest,Budapest
-11,Albania,Tirana,Tirana,Tirana,Tirana,Tirana,Tirana,Тирана,Tirana,Tirana,Tirana,地拉那(Tirana),地拉那 (Tirana),Tirana,Tirana,Tirana
-12,Andorra,Andorra la Vella,Andorra la Vella,Andorra la Vieja,Andorre-la-Vieille,Andorra la Vella,Andorra la Vella,Андорра-ла-Велья,Andorra la Vella,Andorra la Vella,Andorra-a-Velha,安道尔城(Andorra la Vella),安道爾城 (Andorra la Vella),Andora,Andorra la Vella,Andorra la Vella
-13,Austria,Vienna,Wien,Viena,Vienne,Wien,Vídeň,Вена,Wenen,Wien,Viena,维也纳(Vienna),維也納 (Vienna),Wiedeń,Vienna,Wien
-14,Azerbaijan,Baku,Baku,Bakú,Bakou,Baku,Baku,Баку,Bakoe,Baku,Bacu,巴库(Baku),巴庫 (Baku),Baku,Baku,Baku
-15,Belarus,Minsk,Minsk,Minsk,Minsk,Minsk,Minsk,Минск,Minsk,Minsk,Minsque,明斯克(Minsk),明斯克 (Minsk),Mińsk,Minsk,Minsk
-16,Belgium,Brussels,Brüssel,Bruselas,Bruxelles,Brussel,Brusel,Брюссель,Brussel,Bryssel,Bruxelas,布鲁塞尔(Brussels),布魯塞爾 (Brussels),Bruksela,Bruxelles,Bruxelles
-17,Bosnia and Herzegovina,Sarajevo,Sarajevo,Sarajevo,Sarajevo,Sarajevo,Sarajevo,Сараево,Sarajevo,Sarajevo,Sarajevo,萨拉热窝(Sarajevo),塞拉耶佛 (Sarajevo),Sarajewo,Sarajevo,Sarajevo
-18,Bulgaria,Sofia,Sofia,Sofía,Sofia,Sofia,Sofie,София,Sofia,Sofia,Sófia,索菲亚(Sofia),索菲亞 (Sofia),Sofia,Sofia,Sofia
-19,Croatia,Zagreb,Zagreb,Zagreb,Zagreb,Zagreb,Záhřeb,Загреб,Zagreb,Zagreb,Zagrebe,萨格勒布(Zagreb),薩格勒布 (Zagreb),Zagrzeb,Zagabria,Zagreb
-20,Czech Republic,Prague,Prag,Praga,Prague,Praha,Praha,Прага,Praag,Prag,Praga,布拉格(Prague),布拉格 (Prague),Praga,Praga,Prag
-21,Denmark,Copenhagen,Kopenhagen,Copenhague,Copenhague,København,Kodaň,Копенгаген,Kopenhagen,Köpenhamn,"Copenhague (BR), Copenhaga (PT)",哥本哈根(Copenhagen),哥本哈根 (Copenhagen),Kopenhaga,Copenaghen,København
-22,Estonia,Tallinn,Tallinn,Tallin,Tallinn,Tallinn,Tallinn,Таллинн,Tallinn,Tallinn,Talim,塔林(Tallinn),塔林 (Tallinn),Tallinn,Tallinn,Tallinn
-23,Faroe Islands,Tórshavn,Tórshavn,Tórshavn,Tórshavn,Tórshavn,Tórshavn,Торсхавн,Tórshavn,Tórshavn,Tórshavn,托尔斯港(Tórshavn),托爾斯港 (Tórshavn),Thorshavn,Tórshavn,Thorshavn
-24,Finland,Helsinki,Helsinki,Helsinki,Helsinki,Helsingfors,Helsinky,Хельсинки,Helsinki,Helsingfors,"Helsinque (BR), Helsínquia (PT)",赫尔辛基(Helsinki),赫爾辛基 (Helsinki),Helsinki,Helsinki,Helsinki
-25,Iceland,Reykjavík,Reykjavík,Reikiavik,Reykjavik,Reykjavík,Reykjavík,Рейкьявик,Reykjavik,Reykjavik,Reiquiavique,雷克雅未克(Reykjavík),雷克雅維克 (Reykjavík),Reykjavík,Reykjavík,Reykjavík
-26,Ireland,Dublin,Dublin,Dublín,Dublin,Dublin,Dublin,Дублин,Dublin,Dublin,Dublim,都柏林(Dublin),都柏林 (Dublin),Dublin,Dublino,Dublin
-27,Italy,Rome,Rom,Roma,Rome,Roma,Řím,Рим,Rome,Rom,Roma,罗马(Rome),羅馬 (Rome),Rzym,Roma,Rom
-28,Latvia,Riga,Riga,Riga,Riga,Riga,Riga,Рига,Riga,Riga,Riga,里加(Riga),里加 (Riga),Ryga,Riga,Riga
-29,Liechtenstein,Vaduz,Vaduz,Vaduz,Vaduz,Vaduz,Vaduz,Вадуц,Vaduz,Vaduz,Vaduz,瓦杜兹(Vaduz),瓦杜茲 (Vaduz),Vaduz,Vaduz,Vaduz
-30,Lithuania,Vilnius,Vilnius,Vilna,Vilnius,Vilnius,Vilnius,Вильнюс,Vilnius,Vilnius,Vilnius,维尔纽斯(Vilnius),維爾紐斯 (Vilnius),Wilno,Vilnius,Vilnius
-31,Luxembourg,Luxembourg City,Luxemburg,Luxemburgo,Luxembourg,Luxembourg,Lucemburk,город Люксембург,Luxemburg,Luxemburg,Luxemburgo,卢森堡市(Luxembourg City),盧森堡市 (Luxembourg City),Luksemburg,Lussemburgo,Luxembourg
-32,North Macedonia,Skopje,Skopje,Skopie,Skopje,Skopje,Skopje,Скопье,Skopje,Skopje,Escópia,斯科普里(Skopje),斯科普里 (Skopje),Skopje,Skopje,Skopje
-33,Malta,Valletta,Valletta,La Valeta,La Valette,Valletta,Valletta,Валлетта,Valletta,Valletta,Valeta,瓦莱塔(Valletta),瓦萊塔 (Valletta),Valletta,La Valletta,Valletta
-34,Moldova,Chișinău,Chișinău,Chisináu,Chișinău,Chisinau,Kišiněv,Кишинёв,Chișinău,Chișinău,Quixinau,基希讷乌(Chișinău),基希訥烏 (Chișinău),Kiszyniów,Chișinău,Chisinau
-35,Monaco,Monaco,Monaco,Mónaco,Monaco,Monaco,Monaco-Ville,Монако,Monaco,Monaco,"Mônaco (BR), Mónaco (PT)",摩纳哥(Monaco),摩納哥 (Monaco),Monako,Comune di Monaco,Monaco
-36,Montenegro,Podgorica,Podgorica,Podgorica,Podgorica,Podgorica,Podgorica,Подгорица,Podgorica,Podgorica,Podgorica,波德戈里察(Podgorica),波德戈里察 (Podgorica),Podgorica,Podgorica,Podgorica
-37,Netherlands,Amsterdam,Amsterdam,Ámsterdam,Amsterdam,Amsterdam,Amsterdam,Амстердам,Amsterdam,Amsterdam,"Amsterdã (BR), Amsterdão (PT)",阿姆斯特丹(Amsterdam),阿姆斯特丹 (Amsterdam),Amsterdam,Amsterdam,Amsterdam
-38,Norway,Oslo,Oslo,Oslo,Oslo,Oslo,Oslo,Осло,Oslo,Oslo,Oslo,奥斯陆(Oslo),奧斯陸 (Oslo),Oslo,Oslo,Oslo
-39,Poland,Warsaw,Warschau,Varsovia,Varsovie,Warszawa,Varšava,Варшава,Warschau,Warszawa,Varsóvia,华沙(Warsaw),華沙 (Warsaw),Warszawa,Varsavia,Warszawa
-40,Portugal,Lisbon,Lissabon,Lisboa,Lisbonne,Lisboa,Lisabon,Лиссабон,Lissabon,Lissabon,Lisboa,里斯本(Lisbon),里斯本 (Lisbon),Lizbona,Lisbona,Lissabon
-41,Romania,Bucharest,Bukarest,Bucarest,Bucarest,Bucuresti,Bukurešť,Бухарест,Boekarest,Bukarest,Bucareste,布加勒斯特(Bucharest),布加勒斯特 (Bucharest),Bukareszt,Bucarest,Bukarest
-42,Russia,Moscow,Moskau,Moscú,Moscou,Moskva,Moskva,Москва,Moskou,Moskva,"Moscou (BR), Moscovo (PT)",莫斯科(Moscow),莫斯科 (Moscow),Moskwa,Mosca,Moskva
-43,San Marino,City of San Marino,Stadt San Marino,San Marino,Ville de Saint-Marin,San Marino by,San Marino,Сан-Марино,San Marino,San Marino,São Marinho,圣马力诺市(City of San Marino),聖馬利諾 (City of San Marino),San Marino,Città di San Marino,San Marino
-44,Serbia,Belgrade,Belgrad,Belgrado,Belgrade,Beograd,Bělehrad,Белград,Belgrado,Belgrad,Belgrado,贝尔格莱德(Belgrade),貝爾格勒 (Belgrade),Belgrad,Belgrado,Beograd
-45,Slovakia,Bratislava,Bratislava,Bratislava,Bratislava,Bratislava,Bratislava,Братислава,Bratislava,Bratislava,Bratislava,布拉迪斯拉发(Bratislava),布拉提斯拉瓦 (Bratislava),Bratysława,Bratislava,Bratislava
-46,Slovenia,Ljubljana,Ljubljana,Liubliana,Ljubljana,Ljubljana,Lublaň,Любляна,Ljubljana,Ljubljana,Liubliana,卢布尔雅那(Ljubljana),盧布爾雅那 (Ljubljana),Lublana,Lubiana,Ljubljana
-47,Spain,Madrid,Madrid,Madrid,Madrid,Madrid,Madrid,Мадрид,Madrid,Madrid,"Madri (BR), Madrid (PT)",马德里(Madrid),馬德里 (Madrid),Madryt,Madrid,Madrid
-48,Sweden,Stockholm,Stockholm,Estocolmo,Stockholm,Stockholm,Stockholm,Стокгольм,Stockholm,Stockholm,Estocolmo,斯德哥尔摩(Stockholm),斯德哥爾摩 (Stockholm),Sztokholm,Stoccolma,Stockholm
-49,Switzerland,Bern,Bern,Berna,Berne,Bern,Bern,Берн,Bern,Bern,Berna,伯尔尼(Bern),伯爾尼 (Bern),Berno,Berna,Bern
-50,Turkey,Ankara,Ankara,Ankara,Ankara,Ankara,Ankara,Анкара,Ankara,Ankara,Ancara,安卡拉(Ankara),安卡拉 (Ankara),Ankara,Ankara,Ankara
-51,Ukraine,Kyiv,Kiew,Kiev,Kiev,Kiev,Kyjev,Киев,Kiev,Kiev,Quieve,基辅(Kyiv),基輔 (Kyiv),Kijów,Kiev,Kyiv
-52,Vatican City,Vatican City,Vatikanstadt,Ciudad del Vaticano,Vatican,Vatikanstaten,Vatikán,Ватикан,Vaticaanstad,Vatikanstaden,Vaticano,梵蒂冈城(Vatican City),梵蒂岡 (Vatican City),Watykan,Città del Vaticano,Vatikanstaten
-53,Armenia,Yerevan,Jerewan,Ereván,Erevan,Jerevan,Jerevan,Ереван,Jerevan,Jerevan,Erevã,埃里温(Yerevan),耶烈萬 (Yerevan),Erywań,Erevan,Jerevan
-54,Cyprus,Nicosia,Nikosia,Nicosia,Nicosie,Nikosia,Nikósie,Никосия,Nicosia,Nicosia,Nicósia,尼科西亚(Nicosia),尼克西亞 (Nicosia),Nikozja,Nicosia,Nicosia
-55,Kazakhstan,Astana,Astana,Astaná,Astana,Astana,Astana,Астана,Astana,Astana,Astana,阿斯塔纳(Astana),阿斯塔納 (Astana),Astana,Astana,Astana
-56,Egypt,Cairo,Kairo,El Cairo,Le Caire,Kairo,Káhira,Каир,Caïro,Kairo,Cairo,开罗(Cairo),開羅 (Cairo),Kair,Il Cairo,Cairo
-57,Algeria,Algiers,Algier,Argel,Alger,Alger,Alžír,Алжир,Algiers,Alger,Argel,阿尔及尔(Algiers),阿爾及爾 (Algiers),Algier,Algeri,Algier
-58,Angola,Luanda,Luanda,Luanda,Luanda,Luanda,Luanda,Луанда,Luanda,Luanda,Luanda,罗安达(Luanda),盧安達 (Luanda),Luanda,Luanda,Luanda
-59,Benin,Porto-Novo,Porto-Novo,Porto Novo,Porto-Novo,Porto-Novo,Porto Novo,Порто-Ново,Porto-Novo,Porto-Novo,Porto Novo,"波多诺伏(Porto-Novo, 也被称之为“新港”)",新港 (Porto-Novo),Porto-Novo,Porto-Novo,Porto Novo
-60,Botswana,Gaborone,Gaborone,Gaborone,Gaborone,Gaborone,Gaborone,Габороне,Gaborone,Gaborone,Gaborone,哈博罗内(Gaborone),嘉柏隆里 (Gaborone),Gaborone,Gaborone,Gaborone
-61,Burkina Faso,Ouagadougou,Ouagadougou,Uagadugú,Ouagadougou,Ouagadougou,Ouagadougou,Уагадугу,Ouagadougou,Ouagadougou,Uagadugu,瓦加杜古(Ouagadougou),瓦加杜古 (Ouagadougou),Wagadugu,Ouagadougou,Ouagadougou
-62,Cameroon,Yaoundé,Yaoundé,Yaundé,Yaoundé,Yaoundé,Yaoundé,Яунде,Yaoundé,Yaoundé,Iaundé,雅温得(Yaoundé),雅溫德 (Yaoundé),Jaunde,Yaoundé,Yaoundé
-63,Burundi,Gitega,Gitega,Guitega,Gitega,Gitega,Gitega,Гитега,Gitega,Gitega,Guitega,基特加(Gitega),吉特加 (Gitega),Gitega,Gitega,Gitega
-64,Cape Verde,Praia,Praia,Praia,Praia,Praia,Praia,Прая,Praia,Praia,Praia,普拉亚(Praia),培亞 (Praia),Praia,Praia,Praia
-65,São Tomé and Príncipe,São Tomé,São Tomé,Santo Tomé,São Tomé,São Tomé,São Tomé,Сан-Томе,Sao Tomé,São Tomé,São Tomé,圣多美(São Tomé),聖多美 (São Tomé),São Tomé,São Tomé,São Tomé
-66,Central African Republic,Bangui,Bangui,Bangui,Bangui,Bangui,Bangui,Банги,Bangui,Bangui,Bangui,班吉(Bangui),班基 (Bangui),Bangi,Bangui,Bangui
-67,Chad,N'Djamena,N’Djamena,Yamena,N'Djaména,Ndjamena,N'Djamena,Нджамена,Ndjamena,N'Djamena,Jamena,恩贾梅纳(N'Djamena),恩加美納 (N'Djamena),Ndżamena,N'Djamena,Ndjamena
-68,Equatorial Guinea,Malabo,Malabo,Malabo,Malabo,Malabo,Malabo,Малабо,Malabo,Malabo,Malabo,马拉博(Malabo),馬拉博 (Malabo),Malabo,Malabo,Malabo
-69,Kenya,Nairobi,Nairobi,Nairobi,Nairobi,Nairobi,Nairobi,Найроби,Nairobi,Nairobi,Nairóbi,内罗毕(Nairobi),奈洛比 (Nairobi),Nairobi,Nairobi,Nairobi
-70,Comoros,Moroni,Moroni,Moroni,Moroni,Moroni,Moroni,Морони,Moroni,Moroni,Moroni,莫罗尼(Moroni),莫洛尼 (Moroni),Moroni,Moroni,Moroni
-71,Ivory Coast,Yamoussoukro,Yamoussoukro,Yamusukro,Yamoussoukro,Yamoussoukro,Yamoussoukro,Ямусукро,Yamoussoukro,Yamoussoukro,Iamussucro,亚穆苏克罗(Yamoussoukro),雅穆索戈 (Yamoussoukro),Jamusukro,Yamoussoukro,Yamoussoukro
-72,Democratic Republic of the Congo,Kinshasa,Kinshasa,Kinsasa,Kinshasa,Kinshasa,Kinshasa,Киншаса,Kinshasa,Kinshasa,Quinxassa,金沙萨(Kinshasa),金夏沙 (Kinshasa),Kinszasa,Kinshasa,Kinshasa
-73,Djibouti,Djibouti,Dschibuti,Yibuti,Djibouti,Djibouti,Džibuti,Джибути,Djibouti,Djibouti,"Djibuti (BR), Jibuti (PT)",吉布提(Djibouti),吉布地 (Djibouti),Dżibuti,Gibuti,Djibouti
-74,Guinea-Bissau,Bissau,Bissau,Bisáu,Bissau,Bissau,Bissau,Бисау,Bissau,Bissau,Bissau,比绍(Bissau),比索 (Bissau),Bissau,Bissau,Bissau
-75,Eritrea,Asmara,Asmara,Asmara,Asmara,Asmara,Asmara,Асмэра,Asmara,Asmara,Asmara,阿斯马拉(Asmara),阿斯馬拉 (Asmara),Asmara,Asmara,Asmara
-76,Ethiopia,Addis Ababa,Addis Abeba,Adís Abeba,Addis-Abeba,Addis Abeba,Addis Abeba,Аддис-Абеба,Addis Abeba,Addis Abeba,Adis Abeba,亚的斯亚贝巴(Addis Ababa),阿迪斯阿貝巴 (Addis Ababa),Addis Abeba,Addis Abeba,Addis Abeba
-77,Gabon,Libreville,Libreville,Libreville,Libreville,Libreville,Libreville,Либревиль,Libreville,Libreville,Librevile,利伯维尔(Libreville),自由市 (Libreville),Libreville,Libreville,Libreville
-78,The Gambia,Banjul,Banjul,Banjul,Banjul,Banjul,Banjul,Банджул,Banjul,Banjul,Banjul,班珠尔(Banjul),班竹市 (Banjul),Bandżul,Banjul,Banjul
-79,Lesotho,Maseru,Maseru,Maseru,Maseru,Maseru,Maseru,Масеру,Maseru,Maseru,Maseru,马塞卢(Maseru),馬賽魯 (Maseru),Maseru,Maseru,Maseru
-80,Liberia,Monrovia,Monrovia,Monrovia,Monrovia,Monrovia,Monrovia,Монровия,Monrovia,Monrovia,Monróvia,蒙罗维亚(Monrovia),蒙羅維亞 (Monrovia),Monrovia,Monrovia,Monrovia
-81,Madagascar,Antananarivo,Antananarivo,Antananarivo,Antananarivo,Antananarivo,Antananarivo,Антананариву,Antananarivo,Antananarivo,Antananarivo,塔那那利佛(Antananarivo),安塔那那利弗 (Antananarivo),Antananarywa,Antananarivo,Antananarivo
-82,Malawi,Lilongwe,Lilongwe,Lilongüe,Lilongwe,Lilongwe,Lilongwe,Лилонгве,Lilongwe,Lilongwe,Lilongué,利隆圭(Lilongwe),里朗威 (Lilongwe),Lilongwe,Lilongwe,Lilongwe
-83,Mali,Bamako,Bamako,Bamako,Bamako,Bamako,Bamako,Бамако,Bamako,Bamako,Bamaco,巴马科(Bamako),巴馬科 (Bamako),Bamako,Bamako,Bamako
-84,Mauritania,Nouakchott,Nouakchott,Nuakchot,Nouakchott,Nouakchott,Nuakšott,Нуакшот,Nouakchott,Nouakchott,Nuaquexote,努瓦克肖特(Nouakchott),諾克少 (Nouakchott),Nawakszut,Nouakchott,Nouakchott
-85,Mauritius,Port Louis,Port Louis,Port Louis,Port-Louis,Port Louis,Port Louis,Порт-Луи,Port Louis,Port Louis,Porto Luís,路易港(Port Louis),路易士港 (Port Louis),Port Louis,Port Louis,Port Louis
-86,Morocco,Rabat,Rabat,Rabat,Rabat,Rabat,Rabat,Рабат,Rabat,Rabat,Rabate,拉巴特(Rabat),拉巴特 (Rabat),Rabat,Rabat,Rabat
-87,Mozambique,Maputo,Maputo,Maputo,Maputo,Maputo,Maputo,Мапуту,Maputo,Maputo,Maputo,马普托(Maputo),馬布多 (Maputo),Maputo,Maputo,Maputo
-88,Namibia,Windhoek,Windhoek,Windhoek,Windhoek,Windhoek,Windhoek,Виндхук,Windhoek,Windhoek,Vinduque,温得和克(Windhoek),溫荷克 (Windhoek),Windhuk,Windhoek,Windhoek
-89,Niger,Niamey,Niamey,Niamey,Niamey,Niamey,Niamey,Ниамей,Niamey,Niamey,Niamei,尼亚美(Niamey),尼阿美 (Niamey),Niamey,Niamey,Niamey
-90,Nigeria,Abuja,Abuja,Abuya,Abuja,Abuja,Abuja,Абуджа,Abuja,Abuja,Abuja,阿布贾(Abuja),阿布加 (Abuja),Abudża,Abuja,Abuja
-91,Republic of the Congo,Brazzaville,Brazzaville,Brazzaville,Brazzaville,Brazzaville,Brazzaville,Браззавиль,Brazzaville,Brazzaville,Brazavile,布拉柴维尔(Brazzaville),布拉薩 (Brazzaville),Brazzaville,Brazzaville,Brazzaville
-92,Rwanda,Kigali,Kigali,Kigali,Kigali,Kigali,Kigali,Кигали,Kigali,Kigali,Quigali,基加利(Kigali),吉佳利 (Kigali),Kigali,Kigali,Kigali
-93,Senegal,Dakar,Dakar,Dakar,Dakar,Dakar,Dakar,Дакар,Dakar,Dakar,Dacar,达喀尔(Dakar),達卡 (Dakar),Dakar,Dakar,Dakar
-94,Seychelles,Victoria,Victoria,Victoria,Victoria,Victoria,Victoria,Виктория,Victoria,Victoria,Vitória,维多利亚(Victoria),維多利亞 (Victoria),Victoria,Victoria,Victoria
-95,Sierra Leone,Freetown,Freetown,Freetown,Freetown,Freetown,Freetown,Фритаун,Freetown,Freetown,Freetown,弗里敦(Freetown),自由城 (Freetown),Freetown,Freetown,Freetown
-96,South Africa,"Pretoria, Cape Town, Bloemfontein","Pretoria, Kapstadt, Bloemfontein","Pretoria, Ciudad del Cabo, Bloemfontein","Pretoria, Le Cap, Bloemfontein","Pretoria, Cape Town, Bloemfontein","Pretorie, Kapské Město, Bloemfontein","Претория, Кейптаун, Блумфонтейн","Pretoria, Kaapstad, Bloemfontein","Pretoria, Kapstaden, Bloemfontein","Pretória, Cidade do Cabo, Blumefontaina",比勒陀利亚(Pretoria)、开普敦(Cape Town)、布隆方丹(Bloemfontein),"普利托利亞、開普敦、布隆泉 (Pretoria, Cape Town, Bloemfontein)","Pretoria, Kapsztad, Bloemfontein","Pretoria, Città del Capo, Bloemfontein","Pretoria, Cape Town, Bloemfontein"
-97,Sudan,Khartoum,Khartum,Jartum,Khartoum,Khartoum,Chartúm,Хартум,Khartoem,Khartoum,Cartum,喀土穆(Khartoum),喀土穆 (Khartoum),Chartum,Khartum,Khartoum
-98,Eswatini,Mbabane,Mbabane,Mbabane,Mbabane,Mbabane,Mbabane,Мбабане,Mbabane,Mbabane,Mebabane,姆巴巴内(Mbabane),姆巴巴內市 (Mbabane),Mbabane,Mbabane,Mbabane
-99,Tanzania,Dodoma,Dodoma,Dodoma,Dodoma,Dodoma,Dodoma,Додома,Dodoma,Dodoma,Dodoma,多多马(Dodoma),杜篤馬 (Dodoma),Dodoma,Dodoma,Dodoma
-100,Togo,Lomé,Lomé,Lomé,Lomé,Lomé,Lomé,Ломе,Lomé,Lomé,Lomé,洛美(Lomé),洛梅 (Lomé),Lomé,Lomé,Lomé
-101,Tunisia,Tunis,Tunis,Túnez,Tunis,Tunis,Tunis,Тунис,Tunis,Tunis,Tunes,突尼斯(Tunis),突尼斯 (Tunis),Tunis,Tunisi,Tunis
-102,Uganda,Kampala,Kampala,Kampala,Kampala,Kampala,Kampala,Кампала,Kampala,Kampala,Campala,坎帕拉(Kampala),坎帕拉 (Kampala),Kampala,Kampala,Kampala
-103,Sahrawi Arab Democratic Republic,Laayoune,El Aaiún,El Aaiún,Laâyoune,El Aaiún,Al-´Ajún,Эль-Аюн,al-Ajoen,al-Ayun,Laiune,阿尤恩(Laayoune),阿尤恩 (Laayoune),Al-Ujun,El Aaiún,El Aaiun
-104,Zambia,Lusaka,Lusaka,Lusaka,Lusaka,Lusaka,Lusaka,Лусака,Lusaka,Lusaka,Lusaca,卢萨卡(Lusaka),路沙卡 (Lusaka),Lusaka,Lusaka,Lusaka
-105,Zimbabwe,Harare,Harare,Harare,Harare,Harare,Harare,Хараре,Harare,Harare,Harare,哈拉雷(Harare),哈拉雷 (Harare),Harare,Harare,Harare
-106,Afghanistan,Kabul,Kabul,Kabul,Kaboul,Kabul,Kábul,Кабул,Kabul,Kabul,Cabul,喀布尔(Kabul),喀布爾 (Kabul),Kabul,Kabul,Kabul
-107,Bahrain,Manama,Manama,Manama,Manama,Manama,Manáma,Манама,Manama,Manama,Manama,麦纳麦(Manama),麥納瑪 (Manama),Manama,Manama,Manama
-108,Bangladesh,Dhaka,Dhaka,Daca,Dacca,Dhaka,Dháka,Дакка,Dhaka,Dhaka,Daca,达卡(Dhaka),達卡 (Dhaka),Dhaka,Dacca,Dhaka
-109,Bhutan,Thimphu,Thimphu,Timbu,Thimphou,Thimpu,Thimbú,Тхимпху,Thimphu,Thimphu,Timbu,廷布(Thimphu),辛布市 (Thimphu),Thimphu,Thimphu,Timphu
-110,Brunei,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan,Бандар-Сери-Бегаван,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begauã,斯里巴加湾市(Bandar Seri Begawan),斯里巴加灣市 (Bandar Seri Begawan),Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan
-111,China,Beijing,Peking,Pekín,Pékin,Beijing,Peking,Пекин,Peking,Peking,Pequim,北京(Beijing),北京 (Beijing),Pekin,Pechino,Beijing
-112,Cambodia,Phnom Penh,Phnom Penh,Nom Pen,Phnom Penh,Phnom Penh,Phnompenh,Пномпень,Phnom Penh,Phnom Penh,Penome Pene,金边(Phnom Penh),金邊 (Phnom Penh),Phnom Penh,Phnom Penh,Phnom Penh
-113,Indonesia,Jakarta,Jakarta,Yakarta,Jakarta,Jakarta,Jakarta,Джакарта,Jakarta,Jakarta,Jacarta,雅加达(Jakarta),雅加達 (Jakarta),Dżakarta,Giacarta,Djakarta
-114,India,New Delhi,Neu-Delhi,Nueva Delhi,New Delhi,New Delhi,Nové Dillí,Нью-Дели,New Delhi,New Delhi,Nova Deli,新德里(New Delhi),新德里 (New Delhi),Nowe Delhi,Nuova Delhi,New Delhi
-115,Iran,Tehran,Teheran,Teherán,Téhéran,Teheran,Teherán,Тегеран,Teheran,Teheran,Teerão,德黑兰(Tehran),德黑蘭 (Tehran),Teheran,Teheran,Teheran
-116,Israel,Jerusalem,Jerusalem,Jerusalén,Jérusalem,Jerusalem,Jeruzalém,Иерусалим,Jeruzalem,Jerusalem,Jerusalém,耶路撒冷(Jerusalem),耶路撒冷 (Jerusalem),Jerozolima,Gerusalemme,Jerusalem
-117,Iraq,Baghdad,Bagdad,Bagdad,Bagdad,Bagdad,Bagdád,Багдад,Bagdad,Bagdad,"Bagdá (BR), Bagdade (PT)",巴格达(Baghdad),巴格達 (Baghdad),Bagdad,Baghdad,Bagdad
-118,South Korea,Seoul,Seoul,Seúl,Séoul,Seoul,Soul,Сеул,Seoel,Seoul,Seul,首尔(Seoul),首爾 (Seoul),Seul,Seul,Seoul
-119,North Korea,Pyongyang,Pjöngjang,Pionyang,Pyongyang,Pyongyang,Pchjongjang,Пхеньян,Pyongyang,Pyongyang,Pionguiangue,平壤(Pyongyang),平壤 (Pyongyang),Pjongjang,Pyongyang,Pyongyang
-120,Jordan,Amman,Amman,Amán,Amman,Amman,Ammán,Амман,Amman,Amman,Amã,安曼(Amman),安曼 (Amman),Amman,Amman,Amman
-121,Japan,Tokyo,Tokio,Tokio,Tokyo,Tokyo,Tokio,Токио,Tokio,Tokyo,Tóquio,东京(Tokyo),東京 (Tokyo),Tokio,Tokyo,Tokyo
-122,Lebanon,Beirut,Beirut,Beirut,Beyrouth,Beirut,Bejrút,Бейрут,Beiroet,Beirut,Beirute,贝鲁特(Beirut),貝魯特 (Beirut),Bejrut,Beirut,Beirut
-123,Laos,Vientiane,Vientiane,Vientián,Vientiane,Vientiane,Vientiane,Вьентьян,Vientiane,Vientiane,Vienciana,万象(Vientiane),永珍 (Vientiane),Wientian,Vientiane,Vientiane
-124,Kyrgyzstan,Bishkek,Bischkek,Biskek,Bichkek,Bisjkek,Biškek,Бишкек,Bisjkek,Bisjkek,Bisqueque,比什凯克(Bishkek),比斯凱克 (Bishkek),Biszkek,Biškek,Bisjkek
-125,Kuwait,Kuwait City,Kuwait-Stadt,Kuwait,Koweït,Kuwait by,Kuvajt,Эль-Кувейт,Koeweit,Kuwait,Kuwait,科威特城(Kuwait City),科威特市 (Kuwait City),Kuwejt,Al Kuwait,Kuwait
-126,Myanmar,Naypyidaw,Naypyidaw,Naipyidó,Naypyidaw,Naypyidaw,Neipyijto,Нейпьидо,Naypyidaw,Naypyidaw,Nepiedó,内比都(Naypyidaw),奈比都 (Naypyidaw),Naypyidaw,Naypyidaw,Naypyidaw
-127,Mongolia,Ulaanbaatar,Ulaanbaatar,Ulán Bator,Oulan-Bator,Ulaanbaatar,Ulánbátar,Улан-Батор,Ulaanbaatar,Ulan Bator,Ulã Bator,乌兰巴托(Ulaanbaatar),烏蘭巴托 (Ulaanbaatar),Ułan Bator,Ulan Bator,Ulan Bator
-128,Maldives,Malé,Malé,Malé,Malé,Malé,Male,Мале,Malé,Malé,Malé,马累(Malé),馬列市 (Malé),Male,Malé,Malé
-129,Malaysia,Kuala Lumpur,Kuala Lumpur,Kuala Lumpur,Kuala Lumpur,Kuala Lumpur,Kuala Lumpur,Куала-Лумпур,Kuala Lumpur,Kuala Lumpur,Quala Lumpur,吉隆坡(Kuala Lumpur),吉隆坡 (Kuala Lumpur),Kuala Lumpur,Kuala Lumpur,Kuala Lumpur
-130,Oman,Muscat,Maskat,Mascate,Mascate,Muscat,Maskat,Маскат,Masqat,Muskat,Mascate,马斯喀特(Muscat),馬斯開特 (Muscat),Muskat,Mascate,Muscat
-131,Nepal,Kathmandu,Kathmandu,Katmandú,Katmandou,Katmandu,Káthmándú,Катманду,Kathmandu,Katmandu,Catmandu,加德满都(Kathmandu),加德滿都 (Kathmandu),Katmandu,Katmandu,Katmandu
-132,Palestine,Jerusalem,Jerusalem,Jerusalén,Jérusalem,Jerusalem,Jeruzalém,Иерусалим,Jeruzalem,Jerusalem,Jerusalém,耶路撒冷(Jerusalem),耶路撒冷 (Jerusalem),Jerozolima,Gerusalemme,Jerusalem
-133,Pakistan,Islamabad,Islamabad,Islamabad,Islamabad,Islamabad,Islámábád,Исламабад,Islamabad,Islamabad,Islamabade,伊斯兰堡(Islamabad),伊斯蘭馬巴德 (Islamabad),Islamabad,Islamabad,Islamabad
-134,Qatar,Doha,Doha,Doha,Doha,Doha,Dauhá,Доха,Doha,Doha,Doa,多哈(Doha),杜哈 (Doha),Doha,Doha,Doha
-135,Saudi Arabia,Riyadh,Riad,Riad,Riyad,Riyadh,Rijád,Эр-Рияд,Riyad,Riyadh,Riade,利雅得(Riyadh),利雅德 (Riyadh),Rijad,Riad,Riyadh
-136,Singapore,Singapore,Singapur,Singapur,Singapour,Singapore,Singapur,Сингапур,Singapore,Singapore,Singapura,新加坡(Singapore),新加坡 (Singapore),Singapur,Singapore,Singapore
-137,Syria,Damascus,Damaskus,Damasco,Damas,Damaskus,Damašek,Дамаск,Damascus,Damaskus,Damasco,大马士革(Damascus),大馬士革 (Damascus),Damaszek,Damasco,Damaskus
-138,Taiwan,Taipei,Taipeh,Taipéi,Taipei,Taipei,Tchaj-pej,Тайбэй,Taipei,Taipei,Taipé,台北(Taipei),台北 (Taipei),Tajpej,Taipei,Taipei
-139,Sri Lanka,Sri Jayawardenepura Kotte,Sri Jayewardenepura Kotte,Sri Jayawardenapura Kotte,Sri Jayawardenapura Kotte,Colombo,Šrí Džajavardanapura Kotte,Шри-Джаяварденепура-Котте,Sri Jayewardenapura Kotte,Sri Jayawardenapura,Seri Jaiavardenapura-Cota,斯里贾亚瓦德纳普拉科特(Sri Jayawardenepura Kotte)，亦称科特,可倫坡、 斯里賈亞瓦德納普拉科特 (Sri Jayawardenepura Kotte),Sri Dźajawardanapura Kotte,Sri Jayawardenapura Kotte,Sri Jayawardenapura Kotte
-140,Tajikistan,Dushanbe,Duschanbe,Dusambé,Douchanbé,Dusjanbe,Dušanbe,Душанбе,Doesjanbe,Dusjanbe,Duxambé,杜尚别(Dushanbe),杜尚貝 (Dushanbe),Duszanbe,Dušanbe,Dusjanbe
-141,Thailand,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Бангкок,Bangkok,Bangkok,"Bancoque (BR), Banguecoque (PT)",曼谷(Bangkok),曼谷 (Bangkok),Bangkok,Bangkok,Bangkok
-142,East Timor,Dili,Dili,Dili,Dili,Dili,Dili,Дили,Dili,Dili,Díli,帝力(Dili),帝利 (Dili),Dili,Dili,Dili
-143,United Arab Emirates,Abu Dhabi,Abu Dhabi,Abu Dabi,Abou Dabi,Abu Dhabi,Abú Zabí,Абу-Даби,Abu Dhabi,Abu Dhabi,Abu Dabi,阿布扎比(Abu Dhabi),阿布達比 (Abu Dhabi),Abu Zabi,Abu Dhabi,Abu Dhabi
-144,Turkmenistan,Ashgabat,Aşgabat,Asjabad,Achgabat,Asjkhabad,Ašchabad,Ашхабад,Asjchabad,Asjchabad,Asgabate,阿什哈巴德(Ashgabat),阿什哈巴特 (Ashgabat),Aszchabad,Aşgabat,Asjkhabad
-145,Yemen,Sana'a,Sanaa,Saná,Sanaa,Sana,San'á,Сана,Sanaa,Sanaa,Saná,萨那(Sana'a),沙那 (Sana'a),Sana,Sana'a,Sana
-146,Vietnam,Hanoi,Hanoi,Hanói,Hanoï,Hanoi,Hanoj,Ханой,Hanoi,Hanoi,Hanói,河内(Hanoi),河內 (Hanoi),Hanoi,Hanoi,Hanoi
-147,Uzbekistan,Tashkent,Taschkent,Taskent,Tachkent,Tasjkent,Taškent,Ташкент,Tasjkent,Tasjkent,Tasquente,塔什干(Tashkent),塔什干 (Tashkent),Taszkent,Tashkent,Tasjkent
-148,Fiji,Suva,Suva,Suva,Suva,Suva,Suva,Сува,Suva,Suva,Suva,苏瓦(Suva),蘇瓦 (Suva),Suva,Suva,Suva
-149,Papua New Guinea,Port Moresby,Port Moresby,Puerto Moresby,Port Moresby,Port Moresby,Port Moresby,Порт-Морсби,Port Moresby,Port Moresby,Porto Moresby,莫尔兹比港(Port Moresby),莫士比港 (Port Moresby),Port Moresby,Port Moresby,Port Moresby
-150,Australia,Canberra,Canberra,Canberra,Canberra,Canberra,Canberra,Канберра,Canberra,Canberra,Camberra,堪培拉(Canberra),坎培拉 (Canberra),Canberra,Canberra,Canberra
-151,Solomon Islands,Honiara,Honiara,Honiara,Honiara,Honiara,Honiara,Хониара,Honiara,Honiara,Honiara,霍尼亚拉(Honiara),荷尼阿拉 (Honiara),Honiara,Honiara,Honiara
-152,Argentina,Buenos Aires,Buenos Aires,Buenos Aires,Buenos Aires,Buenos Aires,Buenos Aires,Буэнос-Айрес,Buenos Aires,Buenos Aires,Buenos Aires,布宜诺斯艾利斯(Buenos Aires),布宜諾斯艾利斯 (Buenos Aires),Buenos Aires,Buenos Aires,Buenos Aires
-153,Bolivia,Sucre,Sucre,Sucre,Sucre,Sucre,Sucre,Сукре,Sucre,Sucre,Sucre,苏克雷(Sucre),蘇克瑞 (Sucre),Sucre,Sucre,Sucre
-154,Brazil,Brasília,Brasília,Brasilia,Brasilia,Brasilia,Brasília,Бразилиа,Brasilia,Brasília,Brasília,巴西利亚(Brasília),巴西利亞 (Brasília),Brasilia,Brasilia,Brasilia
-155,Chile,Santiago,Santiago de Chile,Santiago de Chile,Santiago,Santiago de Chile,Santiago de Chile,Сантьяго,Santiago,Santiago de Chile,Santiago,圣地亚哥(Santiago),聖地牙哥 (Santiago),Santiago,Santiago del Cile,Santiago
-156,Colombia,Bogotá,Bogotá,Bogotá,Bogota,Bogotá,Bogotá,Богота,Bogota,Bogotá,Bogotá,波哥大(Bogotá),波哥大 (Bogotá),Bogota,Bogotà,Bogotá
-157,Ecuador,Quito,Quito,Quito,Quito,Quito,Quito,Кито,Quito,Quito,Quito,基多(Quito),基多市 (Quito),Quito,Quito,Quito
-158,Guyana,Georgetown,Georgetown,Georgetown,Georgetown,Georgetown,Georgetown,Джорджтаун,Georgetown,Georgetown,Georgetown,乔治敦(Georgetown),喬治城 (Georgetown),Georgetown,Georgetown,Georgetown
-159,Paraguay,Asunción,Asunción,Asunción,Asuncion,Asunción,Asunción,Асунсьон,Asunción,Asunción,Assunção,亚松森(Asunción),亞松森 (Asunción),Asunción,Asunción,Asunción
-160,Peru,Lima,Lima,Lima,Lima,Lima,Lima,Лима,Lima,Lima,Lima,利马(Lima),利馬 (Lima),Lima,Lima,Lima
-161,Suriname,Paramaribo,Paramaribo,Paramaribo,Paramaribo,Paramaribo,Paramaribo,Парамарибо,Paramaribo,Paramaribo,Paramaribo,帕拉马里博(Paramaribo),巴拉馬利波 (Paramaribo),Paramaribo,Paramaribo,Paramaribo
-162,Uruguay,Montevideo,Montevideo,Montevideo,Montevideo,Montevideo,Montevideo,Монтевидео,Montevideo,Montevideo,"Montevidéu (BR), Montevideu (PT)",蒙得维的亚(Montevideo),蒙特維多市 (Montevideo),Montevideo,Montevideo,Montevideo
-163,Venezuela,Caracas,Caracas,Caracas,Caracas,Caracas,Caracas,Каракас,Caracas,Caracas,Caracas,加拉加斯(Caracas),卡拉卡斯 (Caracas),Caracas,Caracas,Caracas
-164,Cook Islands,Avarua,Avarua,Avarua,Avarua,Avarua,Avarua,Аваруа,Avarua,Avarua,Avarua,阿瓦鲁阿(Avarua),阿瓦魯阿 (Avarua),Avarua,Avarua,Avarua
-165,Federated States of Micronesia,Palikir,Palikir,Palikir,Palikir,Palikir,Palikir,Паликир,Palikir,Palikir,Paliquir,帕利基尔(Palikir),帕里克爾 (Palikir),Palikir,Palikir,Palikir
-166,Guam,Hagåtña,Hagåtña,Agaña,Hagåtña,Hagåtña,Hagåtña,Хагатна,Hagåtña,Hagåtña,Aganha,哈加特纳(Hagåtña),亞加納 (Hagåtña),Hagåtña,Hagåtña,Agana
-167,Vanuatu,Port Vila,Port Vila,Port Vila,Port-Vila,Vila,Port Vila,Порт-Вила,Port Vila,Port Vila,Porto Vila,维拉港(Port Vila),維拉港 (Port Vila),Port Vila,Port Vila,Port Vila
-168,Canada,Ottawa,Ottawa,Ottawa,Ottawa,Ottawa,Ottawa,Оттава,Ottawa,Ottawa,Otava,渥太华(Ottawa),渥太華 (Ottawa),Ottawa,Ottawa,Ottawa
-169,United States of America,"Washington, D.C.","Washington, D.C.",Washington D. C.,Washington,"Washington, D.C.","Washington, D.C.","Вашингтон, округ Колумбия",Washington D.C.,"Washington, D.C.","Washington, D.C.","华盛顿特区(Washington, D.C.)","華盛頓DC (Washington, D.C.)",Waszyngton,Washington,Washington
-170,Mexico,Mexico City,Mexiko-Stadt,Ciudad de México,Mexico,Mexico by,Ciudad de México,Мехико,Mexico-Stad,Mexico City,Cidade do México,墨西哥城(Mexico City),墨西哥城 (Mexico City),Meksyk,Città del Messico,Mexico City
-171,Puerto Rico,San Juan,San Juan,San Juan,San Juan,San Juan,San Juan,Сан-Хуан,San Juan,San Juan,São João,圣胡安(San Juan),聖胡安 (San Juan),San Juan,San Juan,San Juan
-172,Cuba,Havana,Havanna,La Habana,La Havane,Havanna,Havana,Гавана,Havana,Havanna,Havana,哈瓦那(Havana),哈瓦那 (Havana),Hawana,L'Avana,Havanna
-173,Dominican Republic,Santo Domingo,Santo Domingo,Santo Domingo,Saint-Domingue,Santo Domingo,Santo Domingo,Санто-Доминго,Santo Domingo,Santo Domingo,São Domingos,圣多明各(Santo Domingo),聖多明哥 (Santo Domingo),Santo Domingo,Santo Domingo,Santo Domingo
-174,Haiti,Port-au-Prince,Port-au-Prince,Puerto Príncipe,Port-au-Prince,Port-au-Prince,Port-au-Prince,Порт-о-Пренс,Port-au-Prince,Port-au-Prince,Porto Príncipe,太子港(Port-au-Prince),太子港 (Port-au-Prince),Port-au-Prince,Port-au-Prince,Port-au-Prince
-175,Jamaica,Kingston,Kingston,Kingston,Kingston,Kingston,Kingston,Кингстон,Kingston,Kingston,Kingston,金斯敦(Kingston),京斯敦 (Kingston),Kingston,Kingston,Kingston
-176,Trinidad and Tobago,Port of Spain,Port of Spain,Puerto España,Port-d'Espagne,Port of Spain,Port of Spain,Порт-оф-Спейн,Port of Spain,Port of Spain,Porto da Espanha,西班牙港(Port of Spain),西班牙港 (Port of Spain),Port-of-Spain,Port of Spain,Port of Spain
-177,The Bahamas,Nassau,Nassau,Nasáu,Nassau,Nassau,Nassau,Нассау,Nassau,Nassau,Nassau,拿骚(Nassau),拿騷 (Nassau),Nassau,Nassau,Nassau
-178,Barbados,Bridgetown,Bridgetown,Bridgetown,Bridgetown,Bridgetown,Bridgetown,Бриджтаун,Bridgetown,Bridgetown,Bridgetown,布里奇敦(Bridgetown),橋鎮 (Bridgetown),Bridgetown,Bridgetown,Bridgetown
-179,Belize,Belmopan,Belmopan,Belmopán,Belmopan,Belmopan,Belmopan,Бельмопан,Belmopan,Belmopan,Belmopã,贝尔莫潘(Belmopan),貝爾墨邦 (Belmopan),Belmopan,Belmopan,Belmopan
-180,Costa Rica,San José,San José,San José,San José,San José,San José,Сан-Хосе,San José,San José,São José,圣何塞(San José),聖荷西 (San José),San José,San José,San José
-181,El Salvador,San Salvador,San Salvador,San Salvador,San Salvador,San Salvador,San Salvador,Сан-Сальвадор,San Salvador,San Salvador,São Salvador,圣萨尔瓦多(San Salvador),聖薩爾瓦多 (San Salvador),San Salvador,San Salvador,San Salvador
-182,Guatemala,Guatemala City,Guatemala-Stadt,Ciudad de Guatemala,Guatemala,Guatemala by,Ciudad de Guatemala,Гватемала,Guatemala-Stad,Guatemala City,Cidade da Guatemala,危地马拉市(Guatemala City),瓜地馬拉市 (Guatemala City),Gwatemala,Città del Guatemala,Guatemala City
-183,Honduras,Tegucigalpa,Tegucigalpa,Tegucigalpa,Tegucigalpa,Tegucigalpa,Tegucigalpa,Тегусигальпа,Tegucigalpa,Tegucigalpa,Tegucigalpa,特古西加尔巴(Tegucigalpa),德古西加巴 (Tegucigalpa),Tegucigalpa,Tegucigalpa,Tegucigalpa
-184,Nicaragua,Managua,Managua,Managua,Managua,Managua,Managua,Манагуа,Managua,Managua,Manágua,马那瓜(Managua),馬納瓜 (Managua),Managua,Managua,Managua
-185,Panama,Panama City,Panama-Stadt,Ciudad de Panamá,Panama,Panama by,Panamá,Панама-Сити,Panama-stad,Panama City,Cidade do Panamá,巴拿马城(Panama City),巴拿馬城 (Panama City),Panama,Panama,Panama City
-186,Antigua and Barbuda,St. John's,Saint John’s,Saint John,Saint John's,Saint John’s,Saint John's,Сент-Джонс,Saint John's,Saint John's,São João,圣约翰(St. John's),聖約翰 (St. John's),Saint John’s,Saint John's,St. John’s
-187,Dominica,Roseau,Roseau,Roseau,Roseau,Roseau,Roseau,Розо,Roseau,Roseau,Roseau,罗索(Roseau),羅索 (Roseau),Roseau,Roseau,Roseau
-188,Saint Vincent and the Grenadines,Kingstown,Kingstown,Kingstown,Kingstown,Kingstown,Kingstown,Кингстаун,Kingstown,Kingstown,Kingstown,金斯敦(Kingstown),金石城 (Kingstown),Kingstown,Kingstown,Kingstown
-189,Somalia,Mogadishu,Mogadischu,Mogadiscio,Mogadiscio,Mogadishu,Mogadišo,Могадишо,Mogadishu,Mogadishu,Mogadíscio,摩加迪沙(Mogadishu),摩加迪休 (Mogadishu),Mogadiszu,Mogadiscio,Mogadishu
-190,Ghana,Accra,Accra,Acra,Accra,Accra,Accra,Аккра,Accra,Accra,Acra,阿克拉(Accra),阿克拉 (Accra),Akra,Accra,Accra
-191,Guinea,Conakry,Conakry,Conakri,Conakry,Conakry,Conakry,Конакри,Conakry,Conakry,Conacri,科纳克里(Conakry),柯那克里 (Conakry),Konakry,Conakry,Conakry
-192,New Zealand,Wellington,Wellington,Wellington,Wellington,Wellington,Wellington,Веллингтон,Wellington,Wellington,Wellington,惠灵顿(Wellington),威靈頓 (Wellington),Wellington,Wellington,Wellington
-193,French Polynesia,Papeete,Papeete,Papeete,Papeete,Papeete,Papeete,Папеэте,Papeete,Papeete,Papete,帕皮提(Papeete),帕皮提 (Papeete),Papeete,Papeete,Papeete
-194,Philippines,Manila,Manila,Manila,Manille,Manila,Manila,Манила,Manilla,Manila,Manila,马尼拉(Manila),馬尼拉 (Manila),Manila,Manila,Manila
-195,Kosovo,Pristina,Pristina,Pristina,Pristina,Pristina,Priština,Приштина,Pristina,Pristina,Pristina,普里什蒂纳(Pristina),普里斯提納 (Pristina),Prisztina,Pristina,Pristina
-196,Libya,Tripoli,Tripolis,Trípoli,Tripoli,Tripoli,Tripolis,Триполи,Tripoli,Tripoli,Trípoli,的黎波里(Tripoli),的黎波里 (Tripoli),Trypolis,Tripoli,Tripoli
-197,Palau,Ngerulmud,Ngerulmud,Ngerulmud,Ngerulmud,Ngerulmud,Ngerulmud,Нгерулмуд,Ngerulmud,Ngerulmud,Ngerulmud,恩格鲁穆德(Ngerulmud),恩吉魯穆德 (Ngerulmud),Ngerulmud,Ngerulmud,Ngerulmud
-198,Saint Lucia,Castries,Castries,Castries,Castries,Castries,Castries,Кастри,Castries,Castries,Castries,卡斯特里(Castries),卡斯翠 (Castries),Castries,Castries,Castries
-199,Grenada,St. George's,St. George's,Saint George,Saint-Georges,St. George's,Saint George's,Сент-Джорджес,Saint George's,Saint George's,São Jorge,圣乔治(St. George's),聖喬治市 (St. George's),Saint George’s,Saint George's,St. George’s
-200,Curaçao,Willemstad,Willemstad,Willemstad,Willemstad,Willemstad,Willemstad,Виллемстад,Willemstad,Willemstad,Willemstad,威廉斯塔德(Willemstad),威廉城 (Willemstad),Willemstad,Willemstad,Willemstad
-201,Kiribati,South Tarawa,South Tarawa,Tarawa Sur,Tarawa-Sud,South Tarawa,Jižní Tarawa,Южная Тарава,Zuid-Tarawa,South Tarawa,Taraua do Sul,南塔拉瓦(South Tarawa),南塔拉瓦 (South Tarawa),South Tarawa,Tarawa Sud,Sydtarawa
-202,Marshall Islands,Majuro,Majuro,Majuro,Majuro,Majuro,Majuro,Маджуро,Majuro,Majuro,Majuro,马朱罗(Majuro),馬久羅 (Majuro),Majuro,Majuro,Majuro
-203,Nauru,Yaren,Yaren,Yaren,Yaren,Yaren,Yaren,Ярен,Yaren,Yaren,Iarém,亚伦(Yaren),雅連 (Yaren),Yaren,Yaren,Yaren
-204,New Caledonia,Nouméa,Nouméa,Numea,Nouméa,Nouméa,Nouméa,Нумеа,Nouméa,Nouméa,Numeá,努美阿(Nouméa),努美阿 (Nouméa),Numea,Numea,Nouméa
-205,Niue,Alofi,Alofi,Alofi,Alofi,Alofi,Alofi,Алофи,Alofi,Alofi,Alofi,阿洛菲(Alofi),阿洛非 (Alofi),Alofi,Alofi,Alofi
-206,Northern Cyprus,North Nicosia,Nord-Nikosia,Nicosia del Norte,Nicosie-Nord,Nord-Nikosia,Severní Nikósie,Северная Никосия,Noord-Nicosia,Norra Nicosia,Nicósia do Norte,北尼科西亚(North Nicosia),尼古西亞市 (North Nicosia),Nikozja Północna,Nicosia Nord,Nordnicosia
-207,Saint Kitts and Nevis,Basseterre,Basseterre,Basseterre,Basseterre,Basseterre,Basseterre,Бастер,Basseterre,Basseterre,Basseterre,巴斯特尔(Basseterre),巴士底 (Basseterre),Basseterre,Basseterre,Basseterre
-208,Samoa,Apia,Apia,Apia,Apia,Apia,Apia,Апиа,Apia,Apia,Apia,阿皮亚(Apia),阿庇亞 (Apia),Apia,Apia,Apia
-209,Somaliland,Hargeisa,Hargeysa,Hargeisa,Hargeisa,Hargeisa,Hargeysa,Харгейса,Hargeisa,Hargeisa,Hargeisa,哈尔格萨(Hargeisa),哈爾格薩 (Hargeisa),Hargejsa,Hargheisa,Hargeisa
-210,South Sudan,Juba,Juba,Yuba,Djouba,Juba,Džuba,Джуба,Djoeba,Juba,Juba,朱巴(Juba),朱巴 (Juba),Dżuba,Giuba,Juba
-211,Tuvalu,Funafuti,Funafuti,Funafuti,Funafuti,Funafuti,Funafuti,Фунафути,Funafuti,Funafuti,Funafuti,富纳富提(Funafuti),富那富提 (Funafuti),Funafuti,Funafuti,Funafuti
-212,United States Virgin Islands,Charlotte Amalie,Charlotte Amalie,Charlotte Amalie,Charlotte-Amélie,Charlotte Amalie,Charlotte Amalie,Шарлотта-Амалия,Charlotte Amalie,Charlotte Amalie,Carlota Amália,夏洛特阿马利亚(Charlotte Amalie),夏洛特阿馬利亞 (Charlotte Amalie),Charlotte Amalie,Charlotte Amalie,Charlotte Amalie
-213,Åland Islands,Mariehamn,Mariehamn,Mariehamn,Mariehamn,Mariehamn,Mariehamn,Мариехамн,Mariehamn,Mariehamn,Marianhamina,玛丽港(Mariehamn),瑪麗港 (Mariehamn),Maarianhamina,Mariehamn,Mariehamn
-214,South Ossetia,Tskhinvali,Zchinwali,Tsjinval,Tskhinvali,Tskhinvali,Cchinvali,Цхинвал,Tschinvali,Tschinvali,Tsequinváli,茨欣瓦利(Tskhinvali),茲辛瓦利 (Tskhinvali),Cchinwali,Tskhinvali,Tskhinvali
-215,Aruba,Oranjestad,Oranjestad,Oranjestad,Oranjestad,Oranjestad,Oranjestad,Ораньестад,Oranjestad,Oranjestad,Oranjestade,奥拉涅斯塔德(Oranjestad),奧拉涅斯塔德 (Oranjestad),Oranjestad,Oranjestad,Oranjestad
-216,Abkhazia,Sukhumi,Sochumi,Sujumi,Soukhoumi,Sukhumi,Suchumi,Сухуми,Soechoemi,Suchumi,Sucumi,苏呼米(Sukhumi),蘇呼米 (Sukhumi),Suchumi,Sukhumi,Sukhumi
-217,Tonga,Nukuʻalofa,Nukuʻalofa,Nukualofa,Nukuʻalofa,Nukualofa,Nukuʻalofa,Нукуалофа,Nukuʻalofa,Nuku'alofa,Nucualofa,努库阿洛法(Nukuʻalofa),努瓜婁發 (Nukuʻalofa),Nukuʻalofa,Nukuʻalofa,Nukualofa
-218,Transnistria,Tiraspol,Tiraspol,Tiráspol,Tiraspol,Tiraspol,Tiraspol,Тирасполь,Tiraspol,Tiraspol,Tiráspol,蒂拉斯波尔(Tiraspol),基希涅夫 (Tiraspol),Tyraspol,Tiraspol,Tiraspol
+country,capital,capital:de,capital:es,capital:fr,capital:nb,capital:cs,capital:ru,capital:nl,capital:sv,capital:pt,capital:zh,capital:zh-tw,capital:pl,capital:it,capital:da
+England,London,London,Londres,Londres,London,Londýn,Лондон,Londen,London,Londres,伦敦(London),倫敦 (London),Londyn,Londra,London
+Scotland,Edinburgh,Edinburgh,Edimburgo,Édimbourg,Edinburgh,Edinburgh,Эдинбург,Edinburgh,Edinburgh,Edimburgo,爱丁堡(Edinburgh),愛丁堡 (Edinburgh),Edynburg,Edimburgo,Edinburgh
+United Kingdom,London,London,Londres,Londres,London,Londýn,Лондон,Londen,London,Londres,伦敦(London),倫敦 (London),Londyn,Londra,London
+Northern Ireland,Belfast,Belfast,Belfast,Belfast,Belfast,Belfast,Белфаст,Belfast,Belfast,Belfaste,贝尔法斯特(Belfast),貝爾法斯特 (Belfast),Belfast,Belfast,Belfast
+France,Paris,Paris,París,Paris,Paris,Paříž,Париж,Parijs,Paris,Paris,巴黎(Paris),巴黎 (Paris),Paryż,Parigi,Paris
+Wales,Cardiff,Cardiff,Cardiff,Cardiff,Cardiff,Cardiff,Кардифф,Cardiff,Cardiff,Cardife,卡迪夫(Cardiff),卡地夫 (Cardiff),Cardiff,Cardiff,Cardiff
+Georgia,Tbilisi,Tiflis,Tiflis,Tbilissi,Tbilisi,Tbilisi,Тбилиси,Tbilisi,Tbilisi,Tiblissi,第比利斯(Tbilisi),第比利斯 (Tbilisi),Tbilisi,Tbilisi,Tbilisi
+Germany,Berlin,Berlin,Berlín,Berlin,Berlin,Berlín,Берлин,Berlijn,Berlin,Berlim,柏林(Berlin),柏林 (Berlin),Berlin,Berlino,Berlin
+Greece,Athens,Athen,Atenas,Athènes,Aten,Athény,Афины,Athene,Aten,Atenas,雅典(Athens),雅典 (Athens),Ateny,Atene,Athen
+Greenland,Nuuk,Nuuk,Nuuk,Nuuk,Nuuk,Nuuk,Нуук,Nuuk,Nuuk,Nuque,努克(Nuuk),努克 (Nuuk),Nuuk,Nuuk,Nuuk
+Hungary,Budapest,Budapest,Budapest,Budapest,Budapest,Budapešť,Будапешт,Boedapest,Budapest,Budapeste,布达佩斯(Budapest),布達佩斯 (Budapest),Budapeszt,Budapest,Budapest
+Albania,Tirana,Tirana,Tirana,Tirana,Tirana,Tirana,Тирана,Tirana,Tirana,Tirana,地拉那(Tirana),地拉那 (Tirana),Tirana,Tirana,Tirana
+Andorra,Andorra la Vella,Andorra la Vella,Andorra la Vieja,Andorre-la-Vieille,Andorra la Vella,Andorra la Vella,Андорра-ла-Велья,Andorra la Vella,Andorra la Vella,Andorra-a-Velha,安道尔城(Andorra la Vella),安道爾城 (Andorra la Vella),Andora,Andorra la Vella,Andorra la Vella
+Austria,Vienna,Wien,Viena,Vienne,Wien,Vídeň,Вена,Wenen,Wien,Viena,维也纳(Vienna),維也納 (Vienna),Wiedeń,Vienna,Wien
+Azerbaijan,Baku,Baku,Bakú,Bakou,Baku,Baku,Баку,Bakoe,Baku,Bacu,巴库(Baku),巴庫 (Baku),Baku,Baku,Baku
+Belarus,Minsk,Minsk,Minsk,Minsk,Minsk,Minsk,Минск,Minsk,Minsk,Minsque,明斯克(Minsk),明斯克 (Minsk),Mińsk,Minsk,Minsk
+Belgium,Brussels,Brüssel,Bruselas,Bruxelles,Brussel,Brusel,Брюссель,Brussel,Bryssel,Bruxelas,布鲁塞尔(Brussels),布魯塞爾 (Brussels),Bruksela,Bruxelles,Bruxelles
+Bosnia and Herzegovina,Sarajevo,Sarajevo,Sarajevo,Sarajevo,Sarajevo,Sarajevo,Сараево,Sarajevo,Sarajevo,Sarajevo,萨拉热窝(Sarajevo),塞拉耶佛 (Sarajevo),Sarajewo,Sarajevo,Sarajevo
+Bulgaria,Sofia,Sofia,Sofía,Sofia,Sofia,Sofie,София,Sofia,Sofia,Sófia,索菲亚(Sofia),索菲亞 (Sofia),Sofia,Sofia,Sofia
+Croatia,Zagreb,Zagreb,Zagreb,Zagreb,Zagreb,Záhřeb,Загреб,Zagreb,Zagreb,Zagrebe,萨格勒布(Zagreb),薩格勒布 (Zagreb),Zagrzeb,Zagabria,Zagreb
+Czech Republic,Prague,Prag,Praga,Prague,Praha,Praha,Прага,Praag,Prag,Praga,布拉格(Prague),布拉格 (Prague),Praga,Praga,Prag
+Denmark,Copenhagen,Kopenhagen,Copenhague,Copenhague,København,Kodaň,Копенгаген,Kopenhagen,Köpenhamn,"Copenhague (BR), Copenhaga (PT)",哥本哈根(Copenhagen),哥本哈根 (Copenhagen),Kopenhaga,Copenaghen,København
+Estonia,Tallinn,Tallinn,Tallin,Tallinn,Tallinn,Tallinn,Таллинн,Tallinn,Tallinn,Talim,塔林(Tallinn),塔林 (Tallinn),Tallinn,Tallinn,Tallinn
+Faroe Islands,Tórshavn,Tórshavn,Tórshavn,Tórshavn,Tórshavn,Tórshavn,Торсхавн,Tórshavn,Tórshavn,Tórshavn,托尔斯港(Tórshavn),托爾斯港 (Tórshavn),Thorshavn,Tórshavn,Thorshavn
+Finland,Helsinki,Helsinki,Helsinki,Helsinki,Helsingfors,Helsinky,Хельсинки,Helsinki,Helsingfors,"Helsinque (BR), Helsínquia (PT)",赫尔辛基(Helsinki),赫爾辛基 (Helsinki),Helsinki,Helsinki,Helsinki
+Iceland,Reykjavík,Reykjavík,Reikiavik,Reykjavik,Reykjavík,Reykjavík,Рейкьявик,Reykjavik,Reykjavik,Reiquiavique,雷克雅未克(Reykjavík),雷克雅維克 (Reykjavík),Reykjavík,Reykjavík,Reykjavík
+Ireland,Dublin,Dublin,Dublín,Dublin,Dublin,Dublin,Дублин,Dublin,Dublin,Dublim,都柏林(Dublin),都柏林 (Dublin),Dublin,Dublino,Dublin
+Italy,Rome,Rom,Roma,Rome,Roma,Řím,Рим,Rome,Rom,Roma,罗马(Rome),羅馬 (Rome),Rzym,Roma,Rom
+Latvia,Riga,Riga,Riga,Riga,Riga,Riga,Рига,Riga,Riga,Riga,里加(Riga),里加 (Riga),Ryga,Riga,Riga
+Liechtenstein,Vaduz,Vaduz,Vaduz,Vaduz,Vaduz,Vaduz,Вадуц,Vaduz,Vaduz,Vaduz,瓦杜兹(Vaduz),瓦杜茲 (Vaduz),Vaduz,Vaduz,Vaduz
+Lithuania,Vilnius,Vilnius,Vilna,Vilnius,Vilnius,Vilnius,Вильнюс,Vilnius,Vilnius,Vilnius,维尔纽斯(Vilnius),維爾紐斯 (Vilnius),Wilno,Vilnius,Vilnius
+Luxembourg,Luxembourg City,Luxemburg,Luxemburgo,Luxembourg,Luxembourg,Lucemburk,город Люксембург,Luxemburg,Luxemburg,Luxemburgo,卢森堡市(Luxembourg City),盧森堡市 (Luxembourg City),Luksemburg,Lussemburgo,Luxembourg
+North Macedonia,Skopje,Skopje,Skopie,Skopje,Skopje,Skopje,Скопье,Skopje,Skopje,Escópia,斯科普里(Skopje),斯科普里 (Skopje),Skopje,Skopje,Skopje
+Malta,Valletta,Valletta,La Valeta,La Valette,Valletta,Valletta,Валлетта,Valletta,Valletta,Valeta,瓦莱塔(Valletta),瓦萊塔 (Valletta),Valletta,La Valletta,Valletta
+Moldova,Chișinău,Chișinău,Chisináu,Chișinău,Chisinau,Kišiněv,Кишинёв,Chișinău,Chișinău,Quixinau,基希讷乌(Chișinău),基希訥烏 (Chișinău),Kiszyniów,Chișinău,Chisinau
+Monaco,Monaco,Monaco,Mónaco,Monaco,Monaco,Monaco-Ville,Монако,Monaco,Monaco,"Mônaco (BR), Mónaco (PT)",摩纳哥(Monaco),摩納哥 (Monaco),Monako,Comune di Monaco,Monaco
+Montenegro,Podgorica,Podgorica,Podgorica,Podgorica,Podgorica,Podgorica,Подгорица,Podgorica,Podgorica,Podgorica,波德戈里察(Podgorica),波德戈里察 (Podgorica),Podgorica,Podgorica,Podgorica
+Netherlands,Amsterdam,Amsterdam,Ámsterdam,Amsterdam,Amsterdam,Amsterdam,Амстердам,Amsterdam,Amsterdam,"Amsterdã (BR), Amsterdão (PT)",阿姆斯特丹(Amsterdam),阿姆斯特丹 (Amsterdam),Amsterdam,Amsterdam,Amsterdam
+Norway,Oslo,Oslo,Oslo,Oslo,Oslo,Oslo,Осло,Oslo,Oslo,Oslo,奥斯陆(Oslo),奧斯陸 (Oslo),Oslo,Oslo,Oslo
+Poland,Warsaw,Warschau,Varsovia,Varsovie,Warszawa,Varšava,Варшава,Warschau,Warszawa,Varsóvia,华沙(Warsaw),華沙 (Warsaw),Warszawa,Varsavia,Warszawa
+Portugal,Lisbon,Lissabon,Lisboa,Lisbonne,Lisboa,Lisabon,Лиссабон,Lissabon,Lissabon,Lisboa,里斯本(Lisbon),里斯本 (Lisbon),Lizbona,Lisbona,Lissabon
+Romania,Bucharest,Bukarest,Bucarest,Bucarest,Bucuresti,Bukurešť,Бухарест,Boekarest,Bukarest,Bucareste,布加勒斯特(Bucharest),布加勒斯特 (Bucharest),Bukareszt,Bucarest,Bukarest
+Russia,Moscow,Moskau,Moscú,Moscou,Moskva,Moskva,Москва,Moskou,Moskva,"Moscou (BR), Moscovo (PT)",莫斯科(Moscow),莫斯科 (Moscow),Moskwa,Mosca,Moskva
+San Marino,City of San Marino,Stadt San Marino,San Marino,Ville de Saint-Marin,San Marino by,San Marino,Сан-Марино,San Marino,San Marino,São Marinho,圣马力诺市(City of San Marino),聖馬利諾 (City of San Marino),San Marino,Città di San Marino,San Marino
+Serbia,Belgrade,Belgrad,Belgrado,Belgrade,Beograd,Bělehrad,Белград,Belgrado,Belgrad,Belgrado,贝尔格莱德(Belgrade),貝爾格勒 (Belgrade),Belgrad,Belgrado,Beograd
+Slovakia,Bratislava,Bratislava,Bratislava,Bratislava,Bratislava,Bratislava,Братислава,Bratislava,Bratislava,Bratislava,布拉迪斯拉发(Bratislava),布拉提斯拉瓦 (Bratislava),Bratysława,Bratislava,Bratislava
+Slovenia,Ljubljana,Ljubljana,Liubliana,Ljubljana,Ljubljana,Lublaň,Любляна,Ljubljana,Ljubljana,Liubliana,卢布尔雅那(Ljubljana),盧布爾雅那 (Ljubljana),Lublana,Lubiana,Ljubljana
+Spain,Madrid,Madrid,Madrid,Madrid,Madrid,Madrid,Мадрид,Madrid,Madrid,"Madri (BR), Madrid (PT)",马德里(Madrid),馬德里 (Madrid),Madryt,Madrid,Madrid
+Sweden,Stockholm,Stockholm,Estocolmo,Stockholm,Stockholm,Stockholm,Стокгольм,Stockholm,Stockholm,Estocolmo,斯德哥尔摩(Stockholm),斯德哥爾摩 (Stockholm),Sztokholm,Stoccolma,Stockholm
+Switzerland,Bern,Bern,Berna,Berne,Bern,Bern,Берн,Bern,Bern,Berna,伯尔尼(Bern),伯爾尼 (Bern),Berno,Berna,Bern
+Turkey,Ankara,Ankara,Ankara,Ankara,Ankara,Ankara,Анкара,Ankara,Ankara,Ancara,安卡拉(Ankara),安卡拉 (Ankara),Ankara,Ankara,Ankara
+Ukraine,Kyiv,Kiew,Kiev,Kiev,Kiev,Kyjev,Киев,Kiev,Kiev,Quieve,基辅(Kyiv),基輔 (Kyiv),Kijów,Kiev,Kyiv
+Vatican City,Vatican City,Vatikanstadt,Ciudad del Vaticano,Vatican,Vatikanstaten,Vatikán,Ватикан,Vaticaanstad,Vatikanstaden,Vaticano,梵蒂冈城(Vatican City),梵蒂岡 (Vatican City),Watykan,Città del Vaticano,Vatikanstaten
+Armenia,Yerevan,Jerewan,Ereván,Erevan,Jerevan,Jerevan,Ереван,Jerevan,Jerevan,Erevã,埃里温(Yerevan),耶烈萬 (Yerevan),Erywań,Erevan,Jerevan
+Cyprus,Nicosia,Nikosia,Nicosia,Nicosie,Nikosia,Nikósie,Никосия,Nicosia,Nicosia,Nicósia,尼科西亚(Nicosia),尼克西亞 (Nicosia),Nikozja,Nicosia,Nicosia
+Kazakhstan,Astana,Astana,Astaná,Astana,Astana,Astana,Астана,Astana,Astana,Astana,阿斯塔纳(Astana),阿斯塔納 (Astana),Astana,Astana,Astana
+Egypt,Cairo,Kairo,El Cairo,Le Caire,Kairo,Káhira,Каир,Caïro,Kairo,Cairo,开罗(Cairo),開羅 (Cairo),Kair,Il Cairo,Cairo
+Algeria,Algiers,Algier,Argel,Alger,Alger,Alžír,Алжир,Algiers,Alger,Argel,阿尔及尔(Algiers),阿爾及爾 (Algiers),Algier,Algeri,Algier
+Angola,Luanda,Luanda,Luanda,Luanda,Luanda,Luanda,Луанда,Luanda,Luanda,Luanda,罗安达(Luanda),盧安達 (Luanda),Luanda,Luanda,Luanda
+Benin,Porto-Novo,Porto-Novo,Porto Novo,Porto-Novo,Porto-Novo,Porto Novo,Порто-Ново,Porto-Novo,Porto-Novo,Porto Novo,"波多诺伏(Porto-Novo, 也被称之为“新港”)",新港 (Porto-Novo),Porto-Novo,Porto-Novo,Porto Novo
+Botswana,Gaborone,Gaborone,Gaborone,Gaborone,Gaborone,Gaborone,Габороне,Gaborone,Gaborone,Gaborone,哈博罗内(Gaborone),嘉柏隆里 (Gaborone),Gaborone,Gaborone,Gaborone
+Burkina Faso,Ouagadougou,Ouagadougou,Uagadugú,Ouagadougou,Ouagadougou,Ouagadougou,Уагадугу,Ouagadougou,Ouagadougou,Uagadugu,瓦加杜古(Ouagadougou),瓦加杜古 (Ouagadougou),Wagadugu,Ouagadougou,Ouagadougou
+Cameroon,Yaoundé,Yaoundé,Yaundé,Yaoundé,Yaoundé,Yaoundé,Яунде,Yaoundé,Yaoundé,Iaundé,雅温得(Yaoundé),雅溫德 (Yaoundé),Jaunde,Yaoundé,Yaoundé
+Burundi,Gitega,Gitega,Guitega,Gitega,Gitega,Gitega,Гитега,Gitega,Gitega,Guitega,基特加(Gitega),吉特加 (Gitega),Gitega,Gitega,Gitega
+Cape Verde,Praia,Praia,Praia,Praia,Praia,Praia,Прая,Praia,Praia,Praia,普拉亚(Praia),培亞 (Praia),Praia,Praia,Praia
+São Tomé and Príncipe,São Tomé,São Tomé,Santo Tomé,São Tomé,São Tomé,São Tomé,Сан-Томе,Sao Tomé,São Tomé,São Tomé,圣多美(São Tomé),聖多美 (São Tomé),São Tomé,São Tomé,São Tomé
+Central African Republic,Bangui,Bangui,Bangui,Bangui,Bangui,Bangui,Банги,Bangui,Bangui,Bangui,班吉(Bangui),班基 (Bangui),Bangi,Bangui,Bangui
+Chad,N'Djamena,N’Djamena,Yamena,N'Djaména,Ndjamena,N'Djamena,Нджамена,Ndjamena,N'Djamena,Jamena,恩贾梅纳(N'Djamena),恩加美納 (N'Djamena),Ndżamena,N'Djamena,Ndjamena
+Equatorial Guinea,Malabo,Malabo,Malabo,Malabo,Malabo,Malabo,Малабо,Malabo,Malabo,Malabo,马拉博(Malabo),馬拉博 (Malabo),Malabo,Malabo,Malabo
+Kenya,Nairobi,Nairobi,Nairobi,Nairobi,Nairobi,Nairobi,Найроби,Nairobi,Nairobi,Nairóbi,内罗毕(Nairobi),奈洛比 (Nairobi),Nairobi,Nairobi,Nairobi
+Comoros,Moroni,Moroni,Moroni,Moroni,Moroni,Moroni,Морони,Moroni,Moroni,Moroni,莫罗尼(Moroni),莫洛尼 (Moroni),Moroni,Moroni,Moroni
+Ivory Coast,Yamoussoukro,Yamoussoukro,Yamusukro,Yamoussoukro,Yamoussoukro,Yamoussoukro,Ямусукро,Yamoussoukro,Yamoussoukro,Iamussucro,亚穆苏克罗(Yamoussoukro),雅穆索戈 (Yamoussoukro),Jamusukro,Yamoussoukro,Yamoussoukro
+Democratic Republic of the Congo,Kinshasa,Kinshasa,Kinsasa,Kinshasa,Kinshasa,Kinshasa,Киншаса,Kinshasa,Kinshasa,Quinxassa,金沙萨(Kinshasa),金夏沙 (Kinshasa),Kinszasa,Kinshasa,Kinshasa
+Djibouti,Djibouti,Dschibuti,Yibuti,Djibouti,Djibouti,Džibuti,Джибути,Djibouti,Djibouti,"Djibuti (BR), Jibuti (PT)",吉布提(Djibouti),吉布地 (Djibouti),Dżibuti,Gibuti,Djibouti
+Guinea-Bissau,Bissau,Bissau,Bisáu,Bissau,Bissau,Bissau,Бисау,Bissau,Bissau,Bissau,比绍(Bissau),比索 (Bissau),Bissau,Bissau,Bissau
+Eritrea,Asmara,Asmara,Asmara,Asmara,Asmara,Asmara,Асмэра,Asmara,Asmara,Asmara,阿斯马拉(Asmara),阿斯馬拉 (Asmara),Asmara,Asmara,Asmara
+Ethiopia,Addis Ababa,Addis Abeba,Adís Abeba,Addis-Abeba,Addis Abeba,Addis Abeba,Аддис-Абеба,Addis Abeba,Addis Abeba,Adis Abeba,亚的斯亚贝巴(Addis Ababa),阿迪斯阿貝巴 (Addis Ababa),Addis Abeba,Addis Abeba,Addis Abeba
+Gabon,Libreville,Libreville,Libreville,Libreville,Libreville,Libreville,Либревиль,Libreville,Libreville,Librevile,利伯维尔(Libreville),自由市 (Libreville),Libreville,Libreville,Libreville
+The Gambia,Banjul,Banjul,Banjul,Banjul,Banjul,Banjul,Банджул,Banjul,Banjul,Banjul,班珠尔(Banjul),班竹市 (Banjul),Bandżul,Banjul,Banjul
+Lesotho,Maseru,Maseru,Maseru,Maseru,Maseru,Maseru,Масеру,Maseru,Maseru,Maseru,马塞卢(Maseru),馬賽魯 (Maseru),Maseru,Maseru,Maseru
+Liberia,Monrovia,Monrovia,Monrovia,Monrovia,Monrovia,Monrovia,Монровия,Monrovia,Monrovia,Monróvia,蒙罗维亚(Monrovia),蒙羅維亞 (Monrovia),Monrovia,Monrovia,Monrovia
+Madagascar,Antananarivo,Antananarivo,Antananarivo,Antananarivo,Antananarivo,Antananarivo,Антананариву,Antananarivo,Antananarivo,Antananarivo,塔那那利佛(Antananarivo),安塔那那利弗 (Antananarivo),Antananarywa,Antananarivo,Antananarivo
+Malawi,Lilongwe,Lilongwe,Lilongüe,Lilongwe,Lilongwe,Lilongwe,Лилонгве,Lilongwe,Lilongwe,Lilongué,利隆圭(Lilongwe),里朗威 (Lilongwe),Lilongwe,Lilongwe,Lilongwe
+Mali,Bamako,Bamako,Bamako,Bamako,Bamako,Bamako,Бамако,Bamako,Bamako,Bamaco,巴马科(Bamako),巴馬科 (Bamako),Bamako,Bamako,Bamako
+Mauritania,Nouakchott,Nouakchott,Nuakchot,Nouakchott,Nouakchott,Nuakšott,Нуакшот,Nouakchott,Nouakchott,Nuaquexote,努瓦克肖特(Nouakchott),諾克少 (Nouakchott),Nawakszut,Nouakchott,Nouakchott
+Mauritius,Port Louis,Port Louis,Port Louis,Port-Louis,Port Louis,Port Louis,Порт-Луи,Port Louis,Port Louis,Porto Luís,路易港(Port Louis),路易士港 (Port Louis),Port Louis,Port Louis,Port Louis
+Morocco,Rabat,Rabat,Rabat,Rabat,Rabat,Rabat,Рабат,Rabat,Rabat,Rabate,拉巴特(Rabat),拉巴特 (Rabat),Rabat,Rabat,Rabat
+Mozambique,Maputo,Maputo,Maputo,Maputo,Maputo,Maputo,Мапуту,Maputo,Maputo,Maputo,马普托(Maputo),馬布多 (Maputo),Maputo,Maputo,Maputo
+Namibia,Windhoek,Windhoek,Windhoek,Windhoek,Windhoek,Windhoek,Виндхук,Windhoek,Windhoek,Vinduque,温得和克(Windhoek),溫荷克 (Windhoek),Windhuk,Windhoek,Windhoek
+Niger,Niamey,Niamey,Niamey,Niamey,Niamey,Niamey,Ниамей,Niamey,Niamey,Niamei,尼亚美(Niamey),尼阿美 (Niamey),Niamey,Niamey,Niamey
+Nigeria,Abuja,Abuja,Abuya,Abuja,Abuja,Abuja,Абуджа,Abuja,Abuja,Abuja,阿布贾(Abuja),阿布加 (Abuja),Abudża,Abuja,Abuja
+Republic of the Congo,Brazzaville,Brazzaville,Brazzaville,Brazzaville,Brazzaville,Brazzaville,Браззавиль,Brazzaville,Brazzaville,Brazavile,布拉柴维尔(Brazzaville),布拉薩 (Brazzaville),Brazzaville,Brazzaville,Brazzaville
+Rwanda,Kigali,Kigali,Kigali,Kigali,Kigali,Kigali,Кигали,Kigali,Kigali,Quigali,基加利(Kigali),吉佳利 (Kigali),Kigali,Kigali,Kigali
+Senegal,Dakar,Dakar,Dakar,Dakar,Dakar,Dakar,Дакар,Dakar,Dakar,Dacar,达喀尔(Dakar),達卡 (Dakar),Dakar,Dakar,Dakar
+Seychelles,Victoria,Victoria,Victoria,Victoria,Victoria,Victoria,Виктория,Victoria,Victoria,Vitória,维多利亚(Victoria),維多利亞 (Victoria),Victoria,Victoria,Victoria
+Sierra Leone,Freetown,Freetown,Freetown,Freetown,Freetown,Freetown,Фритаун,Freetown,Freetown,Freetown,弗里敦(Freetown),自由城 (Freetown),Freetown,Freetown,Freetown
+South Africa,"Pretoria, Cape Town, Bloemfontein","Pretoria, Kapstadt, Bloemfontein","Pretoria, Ciudad del Cabo, Bloemfontein","Pretoria, Le Cap, Bloemfontein","Pretoria, Cape Town, Bloemfontein","Pretorie, Kapské Město, Bloemfontein","Претория, Кейптаун, Блумфонтейн","Pretoria, Kaapstad, Bloemfontein","Pretoria, Kapstaden, Bloemfontein","Pretória, Cidade do Cabo, Blumefontaina",比勒陀利亚(Pretoria)、开普敦(Cape Town)、布隆方丹(Bloemfontein),"普利托利亞、開普敦、布隆泉 (Pretoria, Cape Town, Bloemfontein)","Pretoria, Kapsztad, Bloemfontein","Pretoria, Città del Capo, Bloemfontein","Pretoria, Cape Town, Bloemfontein"
+Sudan,Khartoum,Khartum,Jartum,Khartoum,Khartoum,Chartúm,Хартум,Khartoem,Khartoum,Cartum,喀土穆(Khartoum),喀土穆 (Khartoum),Chartum,Khartum,Khartoum
+Eswatini,Mbabane,Mbabane,Mbabane,Mbabane,Mbabane,Mbabane,Мбабане,Mbabane,Mbabane,Mebabane,姆巴巴内(Mbabane),姆巴巴內市 (Mbabane),Mbabane,Mbabane,Mbabane
+Tanzania,Dodoma,Dodoma,Dodoma,Dodoma,Dodoma,Dodoma,Додома,Dodoma,Dodoma,Dodoma,多多马(Dodoma),杜篤馬 (Dodoma),Dodoma,Dodoma,Dodoma
+Togo,Lomé,Lomé,Lomé,Lomé,Lomé,Lomé,Ломе,Lomé,Lomé,Lomé,洛美(Lomé),洛梅 (Lomé),Lomé,Lomé,Lomé
+Tunisia,Tunis,Tunis,Túnez,Tunis,Tunis,Tunis,Тунис,Tunis,Tunis,Tunes,突尼斯(Tunis),突尼斯 (Tunis),Tunis,Tunisi,Tunis
+Uganda,Kampala,Kampala,Kampala,Kampala,Kampala,Kampala,Кампала,Kampala,Kampala,Campala,坎帕拉(Kampala),坎帕拉 (Kampala),Kampala,Kampala,Kampala
+Sahrawi Arab Democratic Republic,Laayoune,El Aaiún,El Aaiún,Laâyoune,El Aaiún,Al-´Ajún,Эль-Аюн,al-Ajoen,al-Ayun,Laiune,阿尤恩(Laayoune),阿尤恩 (Laayoune),Al-Ujun,El Aaiún,El Aaiun
+Zambia,Lusaka,Lusaka,Lusaka,Lusaka,Lusaka,Lusaka,Лусака,Lusaka,Lusaka,Lusaca,卢萨卡(Lusaka),路沙卡 (Lusaka),Lusaka,Lusaka,Lusaka
+Zimbabwe,Harare,Harare,Harare,Harare,Harare,Harare,Хараре,Harare,Harare,Harare,哈拉雷(Harare),哈拉雷 (Harare),Harare,Harare,Harare
+Afghanistan,Kabul,Kabul,Kabul,Kaboul,Kabul,Kábul,Кабул,Kabul,Kabul,Cabul,喀布尔(Kabul),喀布爾 (Kabul),Kabul,Kabul,Kabul
+Bahrain,Manama,Manama,Manama,Manama,Manama,Manáma,Манама,Manama,Manama,Manama,麦纳麦(Manama),麥納瑪 (Manama),Manama,Manama,Manama
+Bangladesh,Dhaka,Dhaka,Daca,Dacca,Dhaka,Dháka,Дакка,Dhaka,Dhaka,Daca,达卡(Dhaka),達卡 (Dhaka),Dhaka,Dacca,Dhaka
+Bhutan,Thimphu,Thimphu,Timbu,Thimphou,Thimpu,Thimbú,Тхимпху,Thimphu,Thimphu,Timbu,廷布(Thimphu),辛布市 (Thimphu),Thimphu,Thimphu,Timphu
+Brunei,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan,Бандар-Сери-Бегаван,Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begauã,斯里巴加湾市(Bandar Seri Begawan),斯里巴加灣市 (Bandar Seri Begawan),Bandar Seri Begawan,Bandar Seri Begawan,Bandar Seri Begawan
+China,Beijing,Peking,Pekín,Pékin,Beijing,Peking,Пекин,Peking,Peking,Pequim,北京(Beijing),北京 (Beijing),Pekin,Pechino,Beijing
+Cambodia,Phnom Penh,Phnom Penh,Nom Pen,Phnom Penh,Phnom Penh,Phnompenh,Пномпень,Phnom Penh,Phnom Penh,Penome Pene,金边(Phnom Penh),金邊 (Phnom Penh),Phnom Penh,Phnom Penh,Phnom Penh
+Indonesia,Jakarta,Jakarta,Yakarta,Jakarta,Jakarta,Jakarta,Джакарта,Jakarta,Jakarta,Jacarta,雅加达(Jakarta),雅加達 (Jakarta),Dżakarta,Giacarta,Djakarta
+India,New Delhi,Neu-Delhi,Nueva Delhi,New Delhi,New Delhi,Nové Dillí,Нью-Дели,New Delhi,New Delhi,Nova Deli,新德里(New Delhi),新德里 (New Delhi),Nowe Delhi,Nuova Delhi,New Delhi
+Iran,Tehran,Teheran,Teherán,Téhéran,Teheran,Teherán,Тегеран,Teheran,Teheran,Teerão,德黑兰(Tehran),德黑蘭 (Tehran),Teheran,Teheran,Teheran
+Israel,Jerusalem,Jerusalem,Jerusalén,Jérusalem,Jerusalem,Jeruzalém,Иерусалим,Jeruzalem,Jerusalem,Jerusalém,耶路撒冷(Jerusalem),耶路撒冷 (Jerusalem),Jerozolima,Gerusalemme,Jerusalem
+Iraq,Baghdad,Bagdad,Bagdad,Bagdad,Bagdad,Bagdád,Багдад,Bagdad,Bagdad,"Bagdá (BR), Bagdade (PT)",巴格达(Baghdad),巴格達 (Baghdad),Bagdad,Baghdad,Bagdad
+South Korea,Seoul,Seoul,Seúl,Séoul,Seoul,Soul,Сеул,Seoel,Seoul,Seul,首尔(Seoul),首爾 (Seoul),Seul,Seul,Seoul
+North Korea,Pyongyang,Pjöngjang,Pionyang,Pyongyang,Pyongyang,Pchjongjang,Пхеньян,Pyongyang,Pyongyang,Pionguiangue,平壤(Pyongyang),平壤 (Pyongyang),Pjongjang,Pyongyang,Pyongyang
+Jordan,Amman,Amman,Amán,Amman,Amman,Ammán,Амман,Amman,Amman,Amã,安曼(Amman),安曼 (Amman),Amman,Amman,Amman
+Japan,Tokyo,Tokio,Tokio,Tokyo,Tokyo,Tokio,Токио,Tokio,Tokyo,Tóquio,东京(Tokyo),東京 (Tokyo),Tokio,Tokyo,Tokyo
+Lebanon,Beirut,Beirut,Beirut,Beyrouth,Beirut,Bejrút,Бейрут,Beiroet,Beirut,Beirute,贝鲁特(Beirut),貝魯特 (Beirut),Bejrut,Beirut,Beirut
+Laos,Vientiane,Vientiane,Vientián,Vientiane,Vientiane,Vientiane,Вьентьян,Vientiane,Vientiane,Vienciana,万象(Vientiane),永珍 (Vientiane),Wientian,Vientiane,Vientiane
+Kyrgyzstan,Bishkek,Bischkek,Biskek,Bichkek,Bisjkek,Biškek,Бишкек,Bisjkek,Bisjkek,Bisqueque,比什凯克(Bishkek),比斯凱克 (Bishkek),Biszkek,Biškek,Bisjkek
+Kuwait,Kuwait City,Kuwait-Stadt,Kuwait,Koweït,Kuwait by,Kuvajt,Эль-Кувейт,Koeweit,Kuwait,Kuwait,科威特城(Kuwait City),科威特市 (Kuwait City),Kuwejt,Al Kuwait,Kuwait
+Myanmar,Naypyidaw,Naypyidaw,Naipyidó,Naypyidaw,Naypyidaw,Neipyijto,Нейпьидо,Naypyidaw,Naypyidaw,Nepiedó,内比都(Naypyidaw),奈比都 (Naypyidaw),Naypyidaw,Naypyidaw,Naypyidaw
+Mongolia,Ulaanbaatar,Ulaanbaatar,Ulán Bator,Oulan-Bator,Ulaanbaatar,Ulánbátar,Улан-Батор,Ulaanbaatar,Ulan Bator,Ulã Bator,乌兰巴托(Ulaanbaatar),烏蘭巴托 (Ulaanbaatar),Ułan Bator,Ulan Bator,Ulan Bator
+Maldives,Malé,Malé,Malé,Malé,Malé,Male,Мале,Malé,Malé,Malé,马累(Malé),馬列市 (Malé),Male,Malé,Malé
+Malaysia,Kuala Lumpur,Kuala Lumpur,Kuala Lumpur,Kuala Lumpur,Kuala Lumpur,Kuala Lumpur,Куала-Лумпур,Kuala Lumpur,Kuala Lumpur,Quala Lumpur,吉隆坡(Kuala Lumpur),吉隆坡 (Kuala Lumpur),Kuala Lumpur,Kuala Lumpur,Kuala Lumpur
+Oman,Muscat,Maskat,Mascate,Mascate,Muscat,Maskat,Маскат,Masqat,Muskat,Mascate,马斯喀特(Muscat),馬斯開特 (Muscat),Muskat,Mascate,Muscat
+Nepal,Kathmandu,Kathmandu,Katmandú,Katmandou,Katmandu,Káthmándú,Катманду,Kathmandu,Katmandu,Catmandu,加德满都(Kathmandu),加德滿都 (Kathmandu),Katmandu,Katmandu,Katmandu
+Palestine,Jerusalem,Jerusalem,Jerusalén,Jérusalem,Jerusalem,Jeruzalém,Иерусалим,Jeruzalem,Jerusalem,Jerusalém,耶路撒冷(Jerusalem),耶路撒冷 (Jerusalem),Jerozolima,Gerusalemme,Jerusalem
+Pakistan,Islamabad,Islamabad,Islamabad,Islamabad,Islamabad,Islámábád,Исламабад,Islamabad,Islamabad,Islamabade,伊斯兰堡(Islamabad),伊斯蘭馬巴德 (Islamabad),Islamabad,Islamabad,Islamabad
+Qatar,Doha,Doha,Doha,Doha,Doha,Dauhá,Доха,Doha,Doha,Doa,多哈(Doha),杜哈 (Doha),Doha,Doha,Doha
+Saudi Arabia,Riyadh,Riad,Riad,Riyad,Riyadh,Rijád,Эр-Рияд,Riyad,Riyadh,Riade,利雅得(Riyadh),利雅德 (Riyadh),Rijad,Riad,Riyadh
+Singapore,Singapore,Singapur,Singapur,Singapour,Singapore,Singapur,Сингапур,Singapore,Singapore,Singapura,新加坡(Singapore),新加坡 (Singapore),Singapur,Singapore,Singapore
+Syria,Damascus,Damaskus,Damasco,Damas,Damaskus,Damašek,Дамаск,Damascus,Damaskus,Damasco,大马士革(Damascus),大馬士革 (Damascus),Damaszek,Damasco,Damaskus
+Taiwan,Taipei,Taipeh,Taipéi,Taipei,Taipei,Tchaj-pej,Тайбэй,Taipei,Taipei,Taipé,台北(Taipei),台北 (Taipei),Tajpej,Taipei,Taipei
+Sri Lanka,Sri Jayawardenepura Kotte,Sri Jayewardenepura Kotte,Sri Jayawardenapura Kotte,Sri Jayawardenapura Kotte,Colombo,Šrí Džajavardanapura Kotte,Шри-Джаяварденепура-Котте,Sri Jayewardenapura Kotte,Sri Jayawardenapura,Seri Jaiavardenapura-Cota,斯里贾亚瓦德纳普拉科特(Sri Jayawardenepura Kotte)，亦称科特,可倫坡、 斯里賈亞瓦德納普拉科特 (Sri Jayawardenepura Kotte),Sri Dźajawardanapura Kotte,Sri Jayawardenapura Kotte,Sri Jayawardenapura Kotte
+Tajikistan,Dushanbe,Duschanbe,Dusambé,Douchanbé,Dusjanbe,Dušanbe,Душанбе,Doesjanbe,Dusjanbe,Duxambé,杜尚别(Dushanbe),杜尚貝 (Dushanbe),Duszanbe,Dušanbe,Dusjanbe
+Thailand,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Бангкок,Bangkok,Bangkok,"Bancoque (BR), Banguecoque (PT)",曼谷(Bangkok),曼谷 (Bangkok),Bangkok,Bangkok,Bangkok
+East Timor,Dili,Dili,Dili,Dili,Dili,Dili,Дили,Dili,Dili,Díli,帝力(Dili),帝利 (Dili),Dili,Dili,Dili
+United Arab Emirates,Abu Dhabi,Abu Dhabi,Abu Dabi,Abou Dabi,Abu Dhabi,Abú Zabí,Абу-Даби,Abu Dhabi,Abu Dhabi,Abu Dabi,阿布扎比(Abu Dhabi),阿布達比 (Abu Dhabi),Abu Zabi,Abu Dhabi,Abu Dhabi
+Turkmenistan,Ashgabat,Aşgabat,Asjabad,Achgabat,Asjkhabad,Ašchabad,Ашхабад,Asjchabad,Asjchabad,Asgabate,阿什哈巴德(Ashgabat),阿什哈巴特 (Ashgabat),Aszchabad,Aşgabat,Asjkhabad
+Yemen,Sana'a,Sanaa,Saná,Sanaa,Sana,San'á,Сана,Sanaa,Sanaa,Saná,萨那(Sana'a),沙那 (Sana'a),Sana,Sana'a,Sana
+Vietnam,Hanoi,Hanoi,Hanói,Hanoï,Hanoi,Hanoj,Ханой,Hanoi,Hanoi,Hanói,河内(Hanoi),河內 (Hanoi),Hanoi,Hanoi,Hanoi
+Uzbekistan,Tashkent,Taschkent,Taskent,Tachkent,Tasjkent,Taškent,Ташкент,Tasjkent,Tasjkent,Tasquente,塔什干(Tashkent),塔什干 (Tashkent),Taszkent,Tashkent,Tasjkent
+Fiji,Suva,Suva,Suva,Suva,Suva,Suva,Сува,Suva,Suva,Suva,苏瓦(Suva),蘇瓦 (Suva),Suva,Suva,Suva
+Papua New Guinea,Port Moresby,Port Moresby,Puerto Moresby,Port Moresby,Port Moresby,Port Moresby,Порт-Морсби,Port Moresby,Port Moresby,Porto Moresby,莫尔兹比港(Port Moresby),莫士比港 (Port Moresby),Port Moresby,Port Moresby,Port Moresby
+Australia,Canberra,Canberra,Canberra,Canberra,Canberra,Canberra,Канберра,Canberra,Canberra,Camberra,堪培拉(Canberra),坎培拉 (Canberra),Canberra,Canberra,Canberra
+Solomon Islands,Honiara,Honiara,Honiara,Honiara,Honiara,Honiara,Хониара,Honiara,Honiara,Honiara,霍尼亚拉(Honiara),荷尼阿拉 (Honiara),Honiara,Honiara,Honiara
+Argentina,Buenos Aires,Buenos Aires,Buenos Aires,Buenos Aires,Buenos Aires,Buenos Aires,Буэнос-Айрес,Buenos Aires,Buenos Aires,Buenos Aires,布宜诺斯艾利斯(Buenos Aires),布宜諾斯艾利斯 (Buenos Aires),Buenos Aires,Buenos Aires,Buenos Aires
+Bolivia,Sucre,Sucre,Sucre,Sucre,Sucre,Sucre,Сукре,Sucre,Sucre,Sucre,苏克雷(Sucre),蘇克瑞 (Sucre),Sucre,Sucre,Sucre
+Brazil,Brasília,Brasília,Brasilia,Brasilia,Brasilia,Brasília,Бразилиа,Brasilia,Brasília,Brasília,巴西利亚(Brasília),巴西利亞 (Brasília),Brasilia,Brasilia,Brasilia
+Chile,Santiago,Santiago de Chile,Santiago de Chile,Santiago,Santiago de Chile,Santiago de Chile,Сантьяго,Santiago,Santiago de Chile,Santiago,圣地亚哥(Santiago),聖地牙哥 (Santiago),Santiago,Santiago del Cile,Santiago
+Colombia,Bogotá,Bogotá,Bogotá,Bogota,Bogotá,Bogotá,Богота,Bogota,Bogotá,Bogotá,波哥大(Bogotá),波哥大 (Bogotá),Bogota,Bogotà,Bogotá
+Ecuador,Quito,Quito,Quito,Quito,Quito,Quito,Кито,Quito,Quito,Quito,基多(Quito),基多市 (Quito),Quito,Quito,Quito
+Guyana,Georgetown,Georgetown,Georgetown,Georgetown,Georgetown,Georgetown,Джорджтаун,Georgetown,Georgetown,Georgetown,乔治敦(Georgetown),喬治城 (Georgetown),Georgetown,Georgetown,Georgetown
+Paraguay,Asunción,Asunción,Asunción,Asuncion,Asunción,Asunción,Асунсьон,Asunción,Asunción,Assunção,亚松森(Asunción),亞松森 (Asunción),Asunción,Asunción,Asunción
+Peru,Lima,Lima,Lima,Lima,Lima,Lima,Лима,Lima,Lima,Lima,利马(Lima),利馬 (Lima),Lima,Lima,Lima
+Suriname,Paramaribo,Paramaribo,Paramaribo,Paramaribo,Paramaribo,Paramaribo,Парамарибо,Paramaribo,Paramaribo,Paramaribo,帕拉马里博(Paramaribo),巴拉馬利波 (Paramaribo),Paramaribo,Paramaribo,Paramaribo
+Uruguay,Montevideo,Montevideo,Montevideo,Montevideo,Montevideo,Montevideo,Монтевидео,Montevideo,Montevideo,"Montevidéu (BR), Montevideu (PT)",蒙得维的亚(Montevideo),蒙特維多市 (Montevideo),Montevideo,Montevideo,Montevideo
+Venezuela,Caracas,Caracas,Caracas,Caracas,Caracas,Caracas,Каракас,Caracas,Caracas,Caracas,加拉加斯(Caracas),卡拉卡斯 (Caracas),Caracas,Caracas,Caracas
+Cook Islands,Avarua,Avarua,Avarua,Avarua,Avarua,Avarua,Аваруа,Avarua,Avarua,Avarua,阿瓦鲁阿(Avarua),阿瓦魯阿 (Avarua),Avarua,Avarua,Avarua
+Federated States of Micronesia,Palikir,Palikir,Palikir,Palikir,Palikir,Palikir,Паликир,Palikir,Palikir,Paliquir,帕利基尔(Palikir),帕里克爾 (Palikir),Palikir,Palikir,Palikir
+Guam,Hagåtña,Hagåtña,Agaña,Hagåtña,Hagåtña,Hagåtña,Хагатна,Hagåtña,Hagåtña,Aganha,哈加特纳(Hagåtña),亞加納 (Hagåtña),Hagåtña,Hagåtña,Agana
+Vanuatu,Port Vila,Port Vila,Port Vila,Port-Vila,Vila,Port Vila,Порт-Вила,Port Vila,Port Vila,Porto Vila,维拉港(Port Vila),維拉港 (Port Vila),Port Vila,Port Vila,Port Vila
+Canada,Ottawa,Ottawa,Ottawa,Ottawa,Ottawa,Ottawa,Оттава,Ottawa,Ottawa,Otava,渥太华(Ottawa),渥太華 (Ottawa),Ottawa,Ottawa,Ottawa
+United States of America,"Washington, D.C.","Washington, D.C.",Washington D. C.,Washington,"Washington, D.C.","Washington, D.C.","Вашингтон, округ Колумбия",Washington D.C.,"Washington, D.C.","Washington, D.C.","华盛顿特区(Washington, D.C.)","華盛頓DC (Washington, D.C.)",Waszyngton,Washington,Washington
+Mexico,Mexico City,Mexiko-Stadt,Ciudad de México,Mexico,Mexico by,Ciudad de México,Мехико,Mexico-Stad,Mexico City,Cidade do México,墨西哥城(Mexico City),墨西哥城 (Mexico City),Meksyk,Città del Messico,Mexico City
+Puerto Rico,San Juan,San Juan,San Juan,San Juan,San Juan,San Juan,Сан-Хуан,San Juan,San Juan,São João,圣胡安(San Juan),聖胡安 (San Juan),San Juan,San Juan,San Juan
+Cuba,Havana,Havanna,La Habana,La Havane,Havanna,Havana,Гавана,Havana,Havanna,Havana,哈瓦那(Havana),哈瓦那 (Havana),Hawana,L'Avana,Havanna
+Dominican Republic,Santo Domingo,Santo Domingo,Santo Domingo,Saint-Domingue,Santo Domingo,Santo Domingo,Санто-Доминго,Santo Domingo,Santo Domingo,São Domingos,圣多明各(Santo Domingo),聖多明哥 (Santo Domingo),Santo Domingo,Santo Domingo,Santo Domingo
+Haiti,Port-au-Prince,Port-au-Prince,Puerto Príncipe,Port-au-Prince,Port-au-Prince,Port-au-Prince,Порт-о-Пренс,Port-au-Prince,Port-au-Prince,Porto Príncipe,太子港(Port-au-Prince),太子港 (Port-au-Prince),Port-au-Prince,Port-au-Prince,Port-au-Prince
+Jamaica,Kingston,Kingston,Kingston,Kingston,Kingston,Kingston,Кингстон,Kingston,Kingston,Kingston,金斯敦(Kingston),京斯敦 (Kingston),Kingston,Kingston,Kingston
+Trinidad and Tobago,Port of Spain,Port of Spain,Puerto España,Port-d'Espagne,Port of Spain,Port of Spain,Порт-оф-Спейн,Port of Spain,Port of Spain,Porto da Espanha,西班牙港(Port of Spain),西班牙港 (Port of Spain),Port-of-Spain,Port of Spain,Port of Spain
+The Bahamas,Nassau,Nassau,Nasáu,Nassau,Nassau,Nassau,Нассау,Nassau,Nassau,Nassau,拿骚(Nassau),拿騷 (Nassau),Nassau,Nassau,Nassau
+Barbados,Bridgetown,Bridgetown,Bridgetown,Bridgetown,Bridgetown,Bridgetown,Бриджтаун,Bridgetown,Bridgetown,Bridgetown,布里奇敦(Bridgetown),橋鎮 (Bridgetown),Bridgetown,Bridgetown,Bridgetown
+Belize,Belmopan,Belmopan,Belmopán,Belmopan,Belmopan,Belmopan,Бельмопан,Belmopan,Belmopan,Belmopã,贝尔莫潘(Belmopan),貝爾墨邦 (Belmopan),Belmopan,Belmopan,Belmopan
+Costa Rica,San José,San José,San José,San José,San José,San José,Сан-Хосе,San José,San José,São José,圣何塞(San José),聖荷西 (San José),San José,San José,San José
+El Salvador,San Salvador,San Salvador,San Salvador,San Salvador,San Salvador,San Salvador,Сан-Сальвадор,San Salvador,San Salvador,São Salvador,圣萨尔瓦多(San Salvador),聖薩爾瓦多 (San Salvador),San Salvador,San Salvador,San Salvador
+Guatemala,Guatemala City,Guatemala-Stadt,Ciudad de Guatemala,Guatemala,Guatemala by,Ciudad de Guatemala,Гватемала,Guatemala-Stad,Guatemala City,Cidade da Guatemala,危地马拉市(Guatemala City),瓜地馬拉市 (Guatemala City),Gwatemala,Città del Guatemala,Guatemala City
+Honduras,Tegucigalpa,Tegucigalpa,Tegucigalpa,Tegucigalpa,Tegucigalpa,Tegucigalpa,Тегусигальпа,Tegucigalpa,Tegucigalpa,Tegucigalpa,特古西加尔巴(Tegucigalpa),德古西加巴 (Tegucigalpa),Tegucigalpa,Tegucigalpa,Tegucigalpa
+Nicaragua,Managua,Managua,Managua,Managua,Managua,Managua,Манагуа,Managua,Managua,Manágua,马那瓜(Managua),馬納瓜 (Managua),Managua,Managua,Managua
+Panama,Panama City,Panama-Stadt,Ciudad de Panamá,Panama,Panama by,Panamá,Панама-Сити,Panama-stad,Panama City,Cidade do Panamá,巴拿马城(Panama City),巴拿馬城 (Panama City),Panama,Panama,Panama City
+Antigua and Barbuda,St. John's,Saint John’s,Saint John,Saint John's,Saint John’s,Saint John's,Сент-Джонс,Saint John's,Saint John's,São João,圣约翰(St. John's),聖約翰 (St. John's),Saint John’s,Saint John's,St. John’s
+Dominica,Roseau,Roseau,Roseau,Roseau,Roseau,Roseau,Розо,Roseau,Roseau,Roseau,罗索(Roseau),羅索 (Roseau),Roseau,Roseau,Roseau
+Saint Vincent and the Grenadines,Kingstown,Kingstown,Kingstown,Kingstown,Kingstown,Kingstown,Кингстаун,Kingstown,Kingstown,Kingstown,金斯敦(Kingstown),金石城 (Kingstown),Kingstown,Kingstown,Kingstown
+Somalia,Mogadishu,Mogadischu,Mogadiscio,Mogadiscio,Mogadishu,Mogadišo,Могадишо,Mogadishu,Mogadishu,Mogadíscio,摩加迪沙(Mogadishu),摩加迪休 (Mogadishu),Mogadiszu,Mogadiscio,Mogadishu
+Ghana,Accra,Accra,Acra,Accra,Accra,Accra,Аккра,Accra,Accra,Acra,阿克拉(Accra),阿克拉 (Accra),Akra,Accra,Accra
+Guinea,Conakry,Conakry,Conakri,Conakry,Conakry,Conakry,Конакри,Conakry,Conakry,Conacri,科纳克里(Conakry),柯那克里 (Conakry),Konakry,Conakry,Conakry
+New Zealand,Wellington,Wellington,Wellington,Wellington,Wellington,Wellington,Веллингтон,Wellington,Wellington,Wellington,惠灵顿(Wellington),威靈頓 (Wellington),Wellington,Wellington,Wellington
+French Polynesia,Papeete,Papeete,Papeete,Papeete,Papeete,Papeete,Папеэте,Papeete,Papeete,Papete,帕皮提(Papeete),帕皮提 (Papeete),Papeete,Papeete,Papeete
+Philippines,Manila,Manila,Manila,Manille,Manila,Manila,Манила,Manilla,Manila,Manila,马尼拉(Manila),馬尼拉 (Manila),Manila,Manila,Manila
+Kosovo,Pristina,Pristina,Pristina,Pristina,Pristina,Priština,Приштина,Pristina,Pristina,Pristina,普里什蒂纳(Pristina),普里斯提納 (Pristina),Prisztina,Pristina,Pristina
+Libya,Tripoli,Tripolis,Trípoli,Tripoli,Tripoli,Tripolis,Триполи,Tripoli,Tripoli,Trípoli,的黎波里(Tripoli),的黎波里 (Tripoli),Trypolis,Tripoli,Tripoli
+Palau,Ngerulmud,Ngerulmud,Ngerulmud,Ngerulmud,Ngerulmud,Ngerulmud,Нгерулмуд,Ngerulmud,Ngerulmud,Ngerulmud,恩格鲁穆德(Ngerulmud),恩吉魯穆德 (Ngerulmud),Ngerulmud,Ngerulmud,Ngerulmud
+Saint Lucia,Castries,Castries,Castries,Castries,Castries,Castries,Кастри,Castries,Castries,Castries,卡斯特里(Castries),卡斯翠 (Castries),Castries,Castries,Castries
+Grenada,St. George's,St. George's,Saint George,Saint-Georges,St. George's,Saint George's,Сент-Джорджес,Saint George's,Saint George's,São Jorge,圣乔治(St. George's),聖喬治市 (St. George's),Saint George’s,Saint George's,St. George’s
+Curaçao,Willemstad,Willemstad,Willemstad,Willemstad,Willemstad,Willemstad,Виллемстад,Willemstad,Willemstad,Willemstad,威廉斯塔德(Willemstad),威廉城 (Willemstad),Willemstad,Willemstad,Willemstad
+Kiribati,South Tarawa,South Tarawa,Tarawa Sur,Tarawa-Sud,South Tarawa,Jižní Tarawa,Южная Тарава,Zuid-Tarawa,South Tarawa,Taraua do Sul,南塔拉瓦(South Tarawa),南塔拉瓦 (South Tarawa),South Tarawa,Tarawa Sud,Sydtarawa
+Marshall Islands,Majuro,Majuro,Majuro,Majuro,Majuro,Majuro,Маджуро,Majuro,Majuro,Majuro,马朱罗(Majuro),馬久羅 (Majuro),Majuro,Majuro,Majuro
+Nauru,Yaren,Yaren,Yaren,Yaren,Yaren,Yaren,Ярен,Yaren,Yaren,Iarém,亚伦(Yaren),雅連 (Yaren),Yaren,Yaren,Yaren
+New Caledonia,Nouméa,Nouméa,Numea,Nouméa,Nouméa,Nouméa,Нумеа,Nouméa,Nouméa,Numeá,努美阿(Nouméa),努美阿 (Nouméa),Numea,Numea,Nouméa
+Niue,Alofi,Alofi,Alofi,Alofi,Alofi,Alofi,Алофи,Alofi,Alofi,Alofi,阿洛菲(Alofi),阿洛非 (Alofi),Alofi,Alofi,Alofi
+Northern Cyprus,North Nicosia,Nord-Nikosia,Nicosia del Norte,Nicosie-Nord,Nord-Nikosia,Severní Nikósie,Северная Никосия,Noord-Nicosia,Norra Nicosia,Nicósia do Norte,北尼科西亚(North Nicosia),尼古西亞市 (North Nicosia),Nikozja Północna,Nicosia Nord,Nordnicosia
+Saint Kitts and Nevis,Basseterre,Basseterre,Basseterre,Basseterre,Basseterre,Basseterre,Бастер,Basseterre,Basseterre,Basseterre,巴斯特尔(Basseterre),巴士底 (Basseterre),Basseterre,Basseterre,Basseterre
+Samoa,Apia,Apia,Apia,Apia,Apia,Apia,Апиа,Apia,Apia,Apia,阿皮亚(Apia),阿庇亞 (Apia),Apia,Apia,Apia
+Somaliland,Hargeisa,Hargeysa,Hargeisa,Hargeisa,Hargeisa,Hargeysa,Харгейса,Hargeisa,Hargeisa,Hargeisa,哈尔格萨(Hargeisa),哈爾格薩 (Hargeisa),Hargejsa,Hargheisa,Hargeisa
+South Sudan,Juba,Juba,Yuba,Djouba,Juba,Džuba,Джуба,Djoeba,Juba,Juba,朱巴(Juba),朱巴 (Juba),Dżuba,Giuba,Juba
+Tuvalu,Funafuti,Funafuti,Funafuti,Funafuti,Funafuti,Funafuti,Фунафути,Funafuti,Funafuti,Funafuti,富纳富提(Funafuti),富那富提 (Funafuti),Funafuti,Funafuti,Funafuti
+United States Virgin Islands,Charlotte Amalie,Charlotte Amalie,Charlotte Amalie,Charlotte-Amélie,Charlotte Amalie,Charlotte Amalie,Шарлотта-Амалия,Charlotte Amalie,Charlotte Amalie,Carlota Amália,夏洛特阿马利亚(Charlotte Amalie),夏洛特阿馬利亞 (Charlotte Amalie),Charlotte Amalie,Charlotte Amalie,Charlotte Amalie
+Åland Islands,Mariehamn,Mariehamn,Mariehamn,Mariehamn,Mariehamn,Mariehamn,Мариехамн,Mariehamn,Mariehamn,Marianhamina,玛丽港(Mariehamn),瑪麗港 (Mariehamn),Maarianhamina,Mariehamn,Mariehamn
+South Ossetia,Tskhinvali,Zchinwali,Tsjinval,Tskhinvali,Tskhinvali,Cchinvali,Цхинвал,Tschinvali,Tschinvali,Tsequinváli,茨欣瓦利(Tskhinvali),茲辛瓦利 (Tskhinvali),Cchinwali,Tskhinvali,Tskhinvali
+Aruba,Oranjestad,Oranjestad,Oranjestad,Oranjestad,Oranjestad,Oranjestad,Ораньестад,Oranjestad,Oranjestad,Oranjestade,奥拉涅斯塔德(Oranjestad),奧拉涅斯塔德 (Oranjestad),Oranjestad,Oranjestad,Oranjestad
+Abkhazia,Sukhumi,Sochumi,Sujumi,Soukhoumi,Sukhumi,Suchumi,Сухуми,Soechoemi,Suchumi,Sucumi,苏呼米(Sukhumi),蘇呼米 (Sukhumi),Suchumi,Sukhumi,Sukhumi
+Tonga,Nukuʻalofa,Nukuʻalofa,Nukualofa,Nukuʻalofa,Nukualofa,Nukuʻalofa,Нукуалофа,Nukuʻalofa,Nuku'alofa,Nucualofa,努库阿洛法(Nukuʻalofa),努瓜婁發 (Nukuʻalofa),Nukuʻalofa,Nukuʻalofa,Nukualofa
+Transnistria,Tiraspol,Tiraspol,Tiráspol,Tiraspol,Tiraspol,Tiraspol,Тирасполь,Tiraspol,Tiraspol,Tiráspol,蒂拉斯波尔(Tiraspol),基希涅夫 (Tiraspol),Tyraspol,Tiraspol,Tiraspol
