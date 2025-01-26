@@ -9,7 +9,7 @@ verify_ssl = true
 brain-brew = "==0.3.11"
 
 [requires]
-python_version = "3.7"
+python_version = "3.11"
 
 [scripts]
 build = "brain_brew run recipes/source_to_anki.yaml"
