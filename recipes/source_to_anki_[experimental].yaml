@@ -12,6 +12,7 @@
       - guid:sv
       - guid:pt
       - guid:zh
+      - guid:zh-tw
       - guid:pl
       - guid:it
       - guid:da
@@ -46,6 +47,12 @@
           deck_description_html_file: src/headers/desc_zh.html
           crowdanki_uuid: 6c995ee1-4b62-4019-a033-de0ef8651c83
           name: Ultimate Geography [ZH]
+      - part_id: default header:zh-tw
+        file: src/headers/default.yaml
+        override:
+          deck_description_html_file: src/headers/desc_zh-tw.html
+          crowdanki_uuid: 3d365148-83a7-4b53-8dbc-e3b183524025
+          name: Ultimate Geography [ZH-TW]
 
   - media_group_from_folder:
       - part_id: maps
@@ -292,6 +299,26 @@
       file_mappings: *file_mappings
 
   - notes_from_csvs:
+      part_id: chinese taiwanese
+
+      note_model_mappings:
+        - note_models: *note_models_in_mapping
+          columns_to_fields:
+            <<: *default_columns_to_fields
+
+            guid:zh-tw             : guid
+            country:zh-tw          : Country
+            country info:zh-tw     : Country info
+            capital:zh-tw          : Capital
+            capital info:zh-tw     : Capital info
+            capital hint:zh-tw     : Capital hint
+            flag similarity:zh-tw  : Flag similarity
+
+          personal_fields: [ ]
+
+      file_mappings: *file_mappings
+
+  - notes_from_csvs:
       part_id: polish
 
       note_model_mappings:
@@ -416,6 +443,12 @@
     folder: build/Ultimate Geography [ZH] [Experimental]
     notes:
       part_id: chinese
+- generate_crowd_anki:
+    <<: *extended_deck
+    headers: default header:zh-tw
+    folder: build/Ultimate Geography [ZH-TW] [Experimental]
+    notes:
+      part_id: chinese taiwanese
 - generate_crowd_anki:
     <<: *extended_deck
     folder: build/Ultimate Geography [PL] [Experimental]
