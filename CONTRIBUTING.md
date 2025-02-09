@@ -86,11 +86,17 @@ On first run, this recipe generates all the missing files and folders in the `bu
 pipenv run brain_brew run recipes/anki_to_source.yaml
 ```
 
-This recipe allows editing the English standard or extended deck in Anki, and then pulling the changes into the CSVs. Other languages are currently not supported. It also does not support editing the note model, card templates, deck description, etc. -- only the content of the notes.
+or
+
+```bash
+pipenv run brain_brew run recipes/anki_to_source_[extended].yaml
+```
+
+These recipes allows editing the English standard or extended deck in Anki, and then pulling the changes into the CSVs. Other languages are currently not supported. It also does not support editing the note model, card templates, deck description, etc. -- only the content of the notes.
 
 1. Make your edits in Anki.
-1. Export the deck with CrowdAnki into the `build/Ultimate Geography [EN]` folder (even if you've edited the extended deck).
-1. Run `pipenv run brain_brew run recipes/anki_to_source.yaml`.
+1. Export the deck with CrowdAnki into the `build/Ultimate Geography [EN]` or `build/Ultimate Geography [EN] [Extended]` folders for the standard and extended decks respectively.
+1. Run `pipenv run brain_brew run recipes/anki_to_source.yaml` or `pipenv run brain_brew run recipes/anki_to_source_[extended].yaml`.
 1. Any new media will be placed at the top level of the `src/media` folder and will need to be moved into the appropriate sub-folder.
 
 ### How-to's
