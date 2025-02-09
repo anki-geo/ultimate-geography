@@ -50,6 +50,12 @@
           deck_description_html_file: src/headers/desc_zh.html
           crowdanki_uuid: 6c995ee1-4b62-4019-a033-de0ef8651c83
           name: Ultimate Geography [ZH]
+      - part_id: default header:zh-tw
+        file: src/headers/default.yaml
+        override:
+          deck_description_html_file: src/headers/desc_zh-tw.html
+          crowdanki_uuid: 3d365148-83a7-4b53-8dbc-e3b183524025
+          name: Ultimate Geography [ZH-TW]
 
   - media_group_from_folder:
       - part_id: maps
@@ -449,6 +455,7 @@
       part_id: chinese
 - generate_crowd_anki:
     <<: *default_crowd_anki_gen
+    headers: default header:zh-tw
     folder: build/Ultimate Geography [ZH-TW]
     notes:
       part_id: chinese taiwanese
@@ -548,6 +555,7 @@
       <<: *override_nm
 - generate_crowd_anki:
     <<: *extended_deck
+    headers: default header:zh-tw
     folder: build/Ultimate Geography [ZH-TW] [Extended]
     notes:
       part_id: chinese taiwanese
