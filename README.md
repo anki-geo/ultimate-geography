@@ -8,7 +8,7 @@
 - **7 continents** (7 cards, maps only)
 - for a total of **319 unique notes**, **978 cards**, **221 flags** and **319 maps**.
 
-The deck is available in **English**, **German**, **Spanish**, **French**, **Norwegian Bokmål**, **Czech**, **Russian**, **Dutch**, **Swedish**, **Portuguese**, **Chinese**, **Polish**, **Italian** and **Danish**.
+The deck is available in **English**, **German**, **Spanish**, **French**, **Norwegian Bokmål**, **Czech**, **Russian**, **Dutch**, **Swedish**, **Portuguese**, **Chinese** (simplified and traditional), **Polish**, **Italian** and **Danish**.
 
 ---
 
