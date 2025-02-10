@@ -230,7 +230,7 @@ To help with memorisation and provide context while learning, this field may con
 
 - governance information - e.g. _Overseas territory of the United Kingdom_ (Cayman Islands)
 - statehood information - e.g. _Independent state claimed by Moldova_ (Transnistria)
-- alternative and former country names - e.g. _Also known as Timor-Leste_ (East Timor)
+- alternative and former country names - e.g. _Also known as East Timor_ (Timor-Leste)
 - in rare cases only, general knowledge information - see Melanesia for an example
 
 The content of this field should be concise and consistent across notes. It may differ between languages, notably when dealing with alternative names.
