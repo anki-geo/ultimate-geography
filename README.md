@@ -21,7 +21,7 @@ The deck is available in **English**, **German**, **Spanish**, **French**, **Nor
 - [**Upgrading**](#upgrading)
   - [First upgrade after APKG import](#first-upgrade-after-apkg-import)
   - [Keeping deck customisations](#keeping-deck-customisations)
-  - [Levelling up from standard to extended](#levelling-up-from-standard-to-extended)
+  - [Levelling up from standard to extended (or to experimental)](#levelling-up-from-standard-to-extended-or-to-experimental)
   - [Major version](#major-version)
 - [**Deck structure**](#deck-structure)
 - [**Customising the deck**](#customising-the-deck)
