@@ -230,7 +230,7 @@ To help with memorisation and provide context while learning, this field may con
 
 - governance information - e.g. _Overseas territory of the United Kingdom_ (Cayman Islands)
 - statehood information - e.g. _Independent state claimed by Moldova_ (Transnistria)
-- alternative and former country names - e.g. _Also known as Timor-Leste_ (East Timor)
+- alternative and former country names - e.g. _Also known as East Timor_ (Timor-Leste)
 - in rare cases only, general knowledge information - see Melanesia for an example
 
 The content of this field should be concise and consistent across notes. It may differ between languages, notably when dealing with alternative names.
@@ -253,7 +253,7 @@ If multiple capitals are listed in a country's infobox, the following guidelines
 
 As explained in the previous section, this field is typically used for countries with multiple capitals, to clarify the role and/or status of each capital, or to explain succinctly why the country has multiple capitals. In such case, the content of the field should be consistent across languages.
 
-This field may also be used to provide alternative capital names and spellings, which may be language-specific.
+This field may also be used to provide alternative capital names and spellings, which may be language-specific.  Minor spelling differences should usually be ignored, unless the main spelling was explicitly changed, on Wikipedia (for instance Kiev to Kyiv or Sana'a to Sanaa). In these cases, the old spelling is included mainly to avoid confusion for previous users of the deck. See [#672][ref672] and [#381][ref381].
 
 ### _Capital hint_ field
 
@@ -420,7 +420,9 @@ Content changes, such as adding a note, replacing an image, or translating the d
 [ref345]: https://github.com/anki-geo/ultimate-geography/pull/345
 [ref346]: https://github.com/anki-geo/ultimate-geography/pull/346
 [ref361]: https://github.com/anki-geo/ultimate-geography/pull/361
+[ref381]: https://github.com/anki-geo/ultimate-geography/issues/381
 [ref383]: https://github.com/anki-geo/ultimate-geography/issues/383
 [ref416]: https://github.com/anki-geo/ultimate-geography/issues/416#issuecomment-821864712
 [ref587]: https://github.com/anki-geo/ultimate-geography/pull/587#issuecomment-1357163000
+[ref672]: https://github.com/anki-geo/ultimate-geography/issues/672#issuecomment-2631222673
 [Brain Brew]: https://github.com/ohare93/brain-brew
