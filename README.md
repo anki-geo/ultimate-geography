@@ -90,6 +90,8 @@ Anki's [search feature](https://docs.ankiweb.net/searching), coupled with the de
 - `(card:"Country - Capital" or card:"Capital - Country") tag:UG::Sovereign_State` to learn the capitals of the world's sovereign states;
 - `tag:UG::North_America -tag:UG::Caribbean` to focus on the countries in North America, but not in the Caribbean (i.e. those in Northern and Central America).
 
+Alternatively, instead of moving your desired subset of cards into a filtered deck, you can suspend the remaining cards.  In this case, you need to search for the inverse of your desired subset and [suspend](https://docs.ankiweb.net/browsing.html?highlight=suspend#cards) the cards found by that search.  For instance, to learn flags and nothing else (taking the first example above), you would search for `deck:"Ultimate Geography" -card:"Flag - Country"`.  (You need the first term to search only within the UG deck, and `-` for the inverse.)  The advantage of suspending cards is that filtered decks don't have an easy way of configuring daily new card limits.  The disadvantage is that it can be slightly more fiddly, especially if you plan to later study the remaining cards (you need to suspend and unsuspend cards).
+
 ## Getting started
 
 First-time here? Welcome! 👋
