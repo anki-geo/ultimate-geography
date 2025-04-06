@@ -41,6 +41,7 @@ Seen something outdated or plain wrong? Spotted a typo somewhere? Think somethin
 - [**Maintainer's guide**](#maintainers-guide)
   - [Versioning](#versioning)
   - [Release process](#release-process)
+  - [Release notes](#release-notes)
 
 
 ## Contributor's guide
@@ -408,6 +409,56 @@ Content changes, such as adding a note, replacing an image, or translating the d
 1. Update the version number in the title and, if needed, update the description with the content of `desc.html`.
 1. Tick the _Copyright_ box and click _Share_.
 1. Announce the release [on Reddit](https://www.reddit.com/r/Anki/search?q=ultimate%20geography&restrict_sr=1), with links to the release notes, to the upgrade instructions, and to the _Discussions_ and _Issues_ pages.
+
+### Release notes
+
+The purpose of release notes is to give existing users:
+
+- an overview of what's changed in the deck from one version to the next;
+- specific instructions on how to upgrade, if any;
+- news on the project, future developments, etc.
+
+The goal is to avoid users: feeling confused when discovering content changes as they review; missing some subtle changes (e.g. spelling, new supplementary information, etc.); or not finding out about changes for a long time because they happened in cards that they won't see again for a while.
+
+We also don't want users who are interested in staying up to date with changes to have to subscribe to PRs or hunt for changes in git diffs.
+
+With these goals in mind, it's important to write release notes that are **concise** yet **precise**, **well structured**, and **easy to read**. Keeping the structure, wording, emojis, etc. **consistent** across releases is also important and can be achieved by looking at and getting inspiration from past release notes.
+
+The recommended structure, which can of course be tweaked and expanded as needed, is as follows:
+
+1. Short introduction to summarise the most significant changes and/or give updates on the projet _(optional)_.
+2. Concise upgrade instructions, typically pointing to detailled procedures in the README and wiki.
+3. New translations, if any (including language code).
+4. New notes, if any, with links to Wikipedia and optionally justification on why those notes were added (e.g. new/changed inclusion criteria)
+5. Changes to country names, capitals and supplementary info.
+6. Changes to maps and flags.
+7. Other changes, for instance to the structure of the deck (tags, description, etc.), the documentation (when significant), or the BrainBrew recipes and development tool chain (if relevant to power users).
+8. Contributors (at least new contributors) _(optional)_
+
+Here are som additional guidelines:
+
+- If the upgrade is non-trivial, make sure to grab users' attention with bold text, emojis, etc. at the top of the release notes.
+- Don't write release notes from a contributor's point of view (i.e. one bullet point per pull request/commit/issue), but from a user's point of view (i.e. one bullet point per meaningful change). Indeed, it's common for one change to span multiple pull requests (e.g. new translation followed by various corrections), and it sometimes happens that multiple changes are done with a single pull request.
+- Be as specific as possible, for instance by mentioning the country name of the affected note, except when a lot of notes are affected by similar minor changes (like when a lot of typos/mistranslations are fixed in a specific language).
+- Always link to relevant issues and pull requests with the `#` syntax.
+- Mention contributors for new translations and other major changes.
+- Specify language code(s) for changes that concern only few translations of the deck — e.g. [EN]; [DE, ES, FR]
+- Add emojis but only for _notable_ changes, typically:
+  - 🎉 for new translations,
+  - 🗑️ for content removals
+  - 👉 for factual changes (e.g. official change of flag, new alternative name, more detailed supplementary info, etc.)
+  - ⛑️ for significant corrections (typos, unclear wording, mistranslations, wrong supplementary info, etc.)
+  - ✨, 🌟, or any other emoji as needed.
+- Within each section, respect the following order:
+  1. Notable changes first (i.e. those with emojis)
+  2. Then by type, in this order: highlights 🎉, removals 🗑️, factual changes 👉, corrections ⛑️
+  3. Then by number of translations impacted (i.e. no language code first, then by decreasing number of language codes)
+  4. Then by significance.
+- Use bold, notably to emphasize country and capitals names.
+  - In the case of a correction or change of spelling, emphasize only the new name.
+  - When a change concerns a capital, emphasize only the capital name, not the country name.
+- When a country/capital name changes in a translated deck, specify the English name in parens.
+- Add links to documentation, Wikipedia, etc. where relevant.
 
 [ref129]: https://github.com/anki-geo/ultimate-geography/issues/129
 [ref137]: https://github.com/anki-geo/ultimate-geography/issues/137
