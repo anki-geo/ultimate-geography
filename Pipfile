@@ -14,3 +14,4 @@ python_version = "3.11"
 [scripts]
 build = "brain_brew run recipes/source_to_anki.yaml"
 build_experimental = "brain_brew run recipes/source_to_anki_[experimental].yaml"
+zip = "python utils/zip_decks.py"
