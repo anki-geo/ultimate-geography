@@ -392,11 +392,12 @@ Content changes, such as adding a note, replacing an image, or translating the d
 1. Run `pipenv run build`.
 1. In Anki, synchronise all your devices then upgrade the standard English deck by following the recommended procedure, which was agreed upon in the discussion thread. Synchronise all your devices again once the upgrade is complete.
 1. With the help of the Anki card browser, update the notes/cards stats in both `desc.html` and `README.md`, and commit the changes (including the version bump).
-1. Run `pipenv run build` again.
+1. Run `pipenv run build` again. If there is an experimental deck to be released, also run `pipenv run build_experimental`.
 1. Reimport the standard English deck in Anki and synchronise with AnkiWeb.
 1. Add each folder in the `build` directory to a separate ZIP archive named as follows:
    - `Ultimate Geography [EN]` ==> `Ultimate_Geography_v[x.y]_EN.zip`.
    - `Ultimate Geography [EN] [Extended]` ==> `Ultimate_Geography_v[x.y]_EN_EXTENDED.zip`.
+   This can be done with `pipenv run zip`.
 1. On GitHub, create a new **release** named after the version number.
 1. Draft the release notes, making sure to add a link to the upgrade steps in the `README` and/or [in the wiki](https://github.com/anki-geo/ultimate-geography/wiki/Upgrade-instructions).
 1. Attach all the ZIP files and save the draft release notes.
