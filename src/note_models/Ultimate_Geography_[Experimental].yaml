@@ -1,6 +1,6 @@
 name: Ultimate Geography [Experimental]
 id: 2e98b530-7583-5551-1fd7-51e6969d58ed
-css_file: src/note_models/style.css
+css_file: src/note_models/style_[Experimental].css
 fields:
   - name: Country
     font: Arial
