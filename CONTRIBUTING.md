@@ -278,7 +278,7 @@ The flag's source URL and licence must be documented in `sources.csv`.
 
 The following guidelines apply to flag images:
 
-- The `viewBox`, `width` and `height` attributes are required.
+- The `viewBox`, `width` and `height` attributes are required.  (If the `viewBox` is originally missing, its value should usually be `viewBox="0 0 {width} {height}`, where `width` and `height` are the original values of these attributes.)
 - The height must be set to 250 px (`height="250"`) and the width adjusted proportionally.
 - Each flag must be optimised with [SVGO](https://jakearchibald.github.io/svgomg/).
 
