@@ -145,8 +145,19 @@ Importing an extended deck on top of a standard deck is tricky and needs care. Y
 If you'd rather keep your progress, proceed as follows:
 
 1. Perform the _Getting started_ steps exactly.
-1. Instead of a dialog box confirming that the import was successful, you'll see another dialog box titled _Change Note Type_. In the _Cards_ section, set _Change Flag - Country to:_ to "Flag - Country" (instead of "Country - Flag"), and set _Change Map - Country to:_ to "Map - Country" (instead of "Flag - Country").
+1. Instead of a dialog box confirming that the import was successful, you'll see another dialog box titled _Change Note Type_. In the _Cards_ section, set _Change Flag - Country to:_ to "Flag - Country" (instead of "Country - Flag"), and set _Change Map - Country to:_ to "Map - Country" (instead of "Flag - Country").  (See below, in the expandable section, for screenshots.)
 1. Check that the other cards and fields map correctly and click on _OK_ to start the import.
+
+<details>
+<summary>Screenshots of the "Change Note Type" dialog</summary>
+
+<img src="doc/change_note_type_dialog_undesired.png" width="400"/>
+
+should be changed to:
+
+<img src="doc/change_note_type_dialog_desired.png" width="400"/>
+
+</details>
 
 The "mappings" for switching from standard to extended, as well as for all currently possible deck type changes are shown in tabular format [here](https://github.com/anki-geo/ultimate-geography/wiki/Switching-deck-type#specific-guides).
 
