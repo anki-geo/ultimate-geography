@@ -21,8 +21,10 @@ The deck is available in **English**, **German**, **Spanish**, **French**, **Nor
 - [**Upgrading**](#upgrading)
   - [First upgrade after APKG import](#first-upgrade-after-apkg-import)
   - [Keeping deck customisations](#keeping-deck-customisations)
-  - [Levelling up from standard to extended (or to experimental)](#levelling-up-from-standard-to-extended-or-to-experimental)
   - [Major version](#major-version)
+- [**How to**](#how-to)
+  - [Level up from standard to extended (or to experimental)](#level-up-from-standard-to-extended-or-to-experimental)
+  - [Install two languages in parallel](#install-two-languages-in-parallel)
 - [**Deck structure**](#deck-structure)
 - [**Customising the deck**](#customising-the-deck)
   - [Changes that are or can be preserved](#changes-that-are-or-can-be-preserved-)
@@ -135,11 +137,26 @@ If you're upgrading from v3.3 or earlier, then you may want to additionally foll
 
 If you've made, or are thinking of making, any changes to your _Ultimate Geography_ deck, check the [_Customising the deck_](#customising-the-deck) section below to see what will happen to them the next time you upgrade, and whether you need to take any steps to preserve them.
 
-### Levelling up from standard to extended (or to experimental)
+### Major version
+
+Major versions (e.g. `v3.0`) typically indicate that upgrading ["the normal way"](#upgrading) may lead to a significant loss of progress, or to the loss of [some of the customisations](#customising-the-deck) you may have made to the deck that would normally be preserved. This can occur, for instance, when [significant changes](https://github.com/anki-geo/ultimate-geography/releases/tag/v3.0) are made to the structure of the deck.
+
+The [release notes](https://github.com/anki-geo/ultimate-geography/releases) and [upgrade instructions](https://github.com/anki-geo/ultimate-geography/wiki/Upgrade-instructions) on the wiki will typically provide you with a way to upgrade to the major version _without_ losing your progress. However, in some cases, the process can be daunting. 😰 If keeping your progress isn't worth the effort, or if you just feel like starting the deck again from scratch, then we recommend you perform a "clean import" as follows:
+
+1. Open Anki and make sure your devices are all synchronised.
+1. Delete the `Ultimate Geography` deck.
+1. In the _Tools_ menu, select _Manage Note Types_, then delete the `Ultimate Geography` note type.
+1. In the _Tools_ menu, select _Check Database_.
+1. Sync the changes with AnkiWeb and with all your devices.
+1. You can now follow the steps of the [_Getting started_](#getting-started) section to install the major version.
+
+## How to
+
+### Level up from standard to extended (or to experimental)
 
 Importing an extended deck on top of a standard deck is tricky and needs care. You may instead consider learning the extended deck from scratch. To do so, either:
 
-- remove the standard deck first by following the instructions in the [_Major version_](#major-version) section below, or
+- remove the standard deck first by following the instructions in the [_Major version_](#major-version) section above, or
 - import the extended deck in a separate Anki profile.
 
 If you'd rather keep your progress, proceed as follows:
@@ -161,18 +178,24 @@ should be changed to:
 
 The "mappings" for switching from standard to extended, as well as for all currently possible deck type changes are shown in tabular format [here](https://github.com/anki-geo/ultimate-geography/wiki/Switching-deck-type#specific-guides).
 
-### Major version
+### Install two languages in parallel
 
-Major versions (e.g. `v3.0`) typically indicate that upgrading ["the normal way"](#upgrading) may lead to a significant loss of progress, or to the loss of [some of the customisations](#customising-the-deck) you may have made to the deck that would normally be preserved. This can occur, for instance, when [significant changes](https://github.com/anki-geo/ultimate-geography/releases/tag/v3.0) are made to the structure of the deck.
+Installing two (or more) different language versions (for example English and German) in parallel is possible, but depending on how you want the cards organised it can be slightly tricky.
 
-The [release notes](https://github.com/anki-geo/ultimate-geography/releases) and [upgrade instructions](https://github.com/anki-geo/ultimate-geography/wiki/Upgrade-instructions) on the wiki will typically provide you with a way to upgrade to the major version _without_ losing your progress. However, in some cases, the process can be daunting. 😰 If keeping your progress isn't worth the effort, or if you just feel like starting the deck again from scratch, then we recommend you perform a "clean import" as follows:
+If you don't mind having all the cards (from all languages) combined in a single deck, then you can simply import all the language versions one after the other using CrowdAnki (as described in the [_Getting started_](#getting-started) section).
 
-1. Open Anki and make sure your devices are all synchronised.
-1. Delete the `Ultimate Geography` deck.
-1. In the _Tools_ menu, select _Manage Note Types_, then delete the `Ultimate Geography` note type.
-1. In the _Tools_ menu, select _Check Database_.
-1. Sync the changes with AnkiWeb and with all your devices.
-1. You can now follow the steps of the [_Getting started_](#getting-started) section to install the major version.
+If, however, you prefer having the different language versions as separate Anki decks, the following steps are needed:
+
+(As an example, we're assuming that you already have the English Extended deck installed, and want to install the German Extended deck.)
+
+1. Create a new deck (say "Ultimate Geography EN").
+2. In the browse window (<kbd>b</kbd>), search for the cards in the pre-existing deck (using `"deck:Ultimate Geography"`), select all of them (<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>a</kbd>) and move them to the newly created deck (<kbd>Ctrl</kbd>+<kbd>d</kbd> and choose the new "Ultimate Geography EN" deck).
+3. Import the German Extended deck.  (The German notes should end up in the old "Ultimate Geography" deck.)
+4. Rename the "Ultimate Geography" deck (to, say, "Ultimate Geography DE").
+
+(Note that just renaming your existing deck "Ultimate Geography" deck to "Ultimate Geography EN" (instead of steps **1** and **2**) wouldn't help here.)
+
+For adding any further language versions, you need to move the cards out from the last created deck ("Ultimate Geography DE" in the above example) into a new deck and then import the next language version.
 
 ## Deck structure
 
