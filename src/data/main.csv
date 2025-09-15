@@ -236,7 +236,7 @@ American Samoa,,"<img src=""ug-map-american_samoa.png"" />",AS,UG::Oceania
 Northern Mariana Islands,,"<img src=""ug-map-northern_mariana_islands.png"" />",MP,UG::Oceania
 Aruba,"<img src=""ug-flag-aruba.svg"" />","<img src=""ug-map-aruba.png"" />",AW,"UG::Caribbean, UG::North_America"
 Abkhazia,"<img src=""ug-flag-abkhazia.svg"" />","<img src=""ug-map-abkhazia.png"" />",,"UG::Europe, UG::Sovereign_State"
-Sint Maarten,,"<img src=""ug-map-sint_maarten.png"" />",,"UG::Caribbean, UG::North_America"
+Sint Maarten,,"<img src=""ug-map-sint_maarten.png"" />",SX,"UG::Caribbean, UG::North_America"
 Tonga,"<img src=""ug-flag-tonga.svg"" />","<img src=""ug-map-tonga.png"" />",TO,"UG::Oceania, UG::Sovereign_State"
 Transnistria,"<img src=""ug-flag-transnistria.svg"" />","<img src=""ug-map-transnistria.png"" />",,"UG::Europe, UG::Sovereign_State"
 Sardinia,,"<img src=""ug-map-sardinia.png"" />",,UG::Europe
@@ -301,7 +301,7 @@ Asia,,"<img src=""ug-map-asia-nobox.png"" />",,UG::Continents
 Africa,,"<img src=""ug-map-africa-nobox.png"" />",,UG::Continents
 Oceania,,"<img src=""ug-map-oceania-nobox.png"" />",,UG::Continents
 Antarctica,,"<img src=""ug-map-antarctica-nobox.png"" />",AQ,UG::Continents
-Saint Martin,,"<img src=""ug-map-saint_martin.png"" />",,"UG::Caribbean, UG::North_America"
+Saint Martin,,"<img src=""ug-map-saint_martin.png"" />",MF,"UG::Caribbean, UG::North_America"
 Wallis and Futuna,,"<img src=""ug-map-wallis_and_futuna.png"" />",WF,UG::Oceania
 Akrotiri and Dhekelia,,"<img src=""ug-map-akrotiri_and_dhekelia.png"" />",,"UG::Asia, UG::Mediterranean, UG::Middle_East"
 Svalbard,,"<img src=""ug-map-svalbard.png"" />",SJ,UG::Europe
