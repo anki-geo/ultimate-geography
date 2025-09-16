@@ -396,43 +396,44 @@ def compare_flag_colours(
     flag2_categories = set(flag2.keys())
 
     if not flag1_categories == flag2_categories:
+        logger.warning(f"{country_name_1} and {country_name_2} have non-identical colour categories!")
         logger.warning(f"{country_name_1} has colours {flag1_categories}.")
-        logger.warning(f"{country_name_2} has colours {flag2_categories}.")
+        logger.warning(f"{country_name_2} has colours {flag2_categories}.\n")
 
     flag1_ignored_categories = flag1_categories - flag2_categories
     flag2_ignored_categories = flag2_categories - flag1_categories
 
     if flag1_ignored_categories:
-        logger.warning(f"{country_name_1}: ignoring colours {flag1_ignored_categories}")
+        logger.warning(f"{country_name_1}: ignoring colours {flag1_ignored_categories}\n")
     if flag2_ignored_categories:
-        logger.warning(f"{country_name_2}: ignoring colours {flag2_ignored_categories}")
+        logger.warning(f"{country_name_2}: ignoring colours {flag2_ignored_categories}\n")
 
     common_categories = flag1_categories & flag2_categories
 
+    multiple_category_colours = False
     for category in common_categories:
         if len(flag1[category]) > 1:
-            raise ValueError(f"{country_name_1} has more than one {category} colour: {flag1[category]}!")
+            logger.warning(f"{country_name_1} has more than one {category} colour: {flag1[category]}!")
+            multiple_category_colours = True
         if len(flag2[category]) > 1:
-            raise ValueError(f"{country_name_2} has more than one {category} colour: {flag2[category]}!")
-        # TODO Allow picking/ignoring "extra" colours.  This is
-        # trickier than ignoring categories, since how would the
-        # script or even the user know which is the "main" colour?
-        # Or maybe just process all pairs?
+            logger.warning(f"{country_name_2} has more than one {category} colour: {flag2[category]}!")
+            multiple_category_colours = True
+    if multiple_category_colours:
+        logger.warning("Will consider all possible colour pairs!\n")
 
     print(f"\t{country_name_1[0:7]}\t{country_name_2[0:7]}\t")
     for category in common_categories:
-        c1 = flag1[category][0]
-        c2 = flag2[category][0]
-
-        difference = delta_e_star_from_hex(c1, c2)
-        if colour:
-            print(
-                f"{category}\t{format_colour(c1)}\t{format_colour(c2)}\t{difference:.2f}"
-            )
-        else:
-            print(
-                f"{category}\t{c1}\t{c2}\t{difference:.2f}"
-            )
+        for c1 in flag1[category]:
+            for c2 in flag2[category]:
+                difference = delta_e_star_from_hex(c1, c2)
+                if colour:
+                    print(
+                        f"{category}\t{format_colour(c1)}\t{format_colour(c2)}\t{difference:.2f}"
+                    )
+                else:
+                    print(
+                        f"{category}\t{c1}\t{c2}\t{difference:.2f}"
+                    )
 
 ## Proportions
 
