@@ -306,9 +306,34 @@ HTML_COLOURS = {
 def extract_flag_colours(filename: str) -> list[str]:
     """Extract the colours in a flag.
 
-    This currently only looks at the `fill` attribute.
+    This currently only looks at the `fill` attribute and the value of
+    `fill` in the `style` attribute.
 
     """
+    def parse_css_declaration(declaration: str) -> tuple[str, str]:
+        """Parse a single CSS declaration obtaining the key and value."""
+        l = declaration.split(":")
+        if not len(l) == 2:
+            raise ValueError(f"CSS declaration {declaration} is invalid!")
+
+        return (l[0], l[1])
+
+    def append_colour(colours: list[str], colour: str):
+        """Append colour to existing colours list.
+
+        Mutates existing colours list.
+
+        """
+        if colour == "none":
+            return
+
+        if not colour[0] == "#":
+            if not colour in HTML_COLOURS:
+                raise ValueError(f"Invalid colour {colour}!")
+            colour = HTML_COLOURS[colour]
+        if colour not in colours:
+            colours.append(colour)
+
     t = ET.parse(filename)
     root = t.getroot()
 
@@ -317,12 +342,18 @@ def extract_flag_colours(filename: str) -> list[str]:
     for el in root.iter():
         if "fill" in el.attrib:
             colour = el.attrib["fill"]
-            if not colour[0] == "#":
-                if not colour in HTML_COLOURS:
-                    raise ValueError(f"Invalid colour {colour}!")
-                colour = HTML_COLOURS[colour]
-            if colour not in colours:
-                colours.append(colour)
+            append_colour(colours, colour)
+        elif "style" in el.attrib:
+            # This is rudimentary
+            style = el.attrib["style"]
+            # Avoid this rigmarole if we don't have "fill" in the style
+            if style.find("fill") >= 0:
+                style_list = style.split(";")
+                style_attribs = dict(parse_css_declaration(s) for s in style_list)
+                if "fill" in style_attribs:
+                    colour = style_attribs["fill"]
+                    append_colour(colours, colour)
+
     return colours
 
 def extract_categorised_flag_colours(filename: str) -> dict[str, list[str]]:
@@ -380,12 +411,13 @@ def compare_flag_colours(
 
     for category in common_categories:
         if len(flag1[category]) > 1:
-            raise ValueError(f"{country_name_1} has more than one {category} colour!")
+            raise ValueError(f"{country_name_1} has more than one {category} colour: {flag1[category]}!")
         if len(flag2[category]) > 1:
-            raise ValueError(f"{country_name_2} has more than one {category} colour!")
+            raise ValueError(f"{country_name_2} has more than one {category} colour: {flag2[category]}!")
         # TODO Allow picking/ignoring "extra" colours.  This is
         # trickier than ignoring categories, since how would the
         # script or even the user know which is the "main" colour?
+        # Or maybe just process all pairs?
 
     print(f"\t{country_name_1[0:7]}\t{country_name_2[0:7]}\t")
     for category in common_categories:
