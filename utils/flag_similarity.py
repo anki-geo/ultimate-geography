@@ -326,6 +326,9 @@ def extract_flag_colours(filename: str) -> list[str]:
         """
         if colour == "none":
             return
+        if colour.find("url") == 0:
+            logger.warning("Ignoring url() colour! (Likely an irrelevant gradient!)")
+            return
 
         if not colour[0] == "#":
             if not colour in HTML_COLOURS:
