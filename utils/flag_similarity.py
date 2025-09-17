@@ -250,6 +250,24 @@ def format_colour(hex_str: str) -> str:
     b = round(255 * srgb.B)
     return f"\033[48;2;{r};{g};{b}m{hex_str}\033[0m"
 
+def compare_colours(
+    colour_1: str,
+    colour_2: str,
+    use_colour: bool = True,
+) -> None:
+    """Compare the two hex-string colours."""
+    difference = delta_e_star_from_hex(colour_1, colour_2)
+
+    if use_colour:
+        print(
+            f"{format_colour(colour_1)}\t{format_colour(colour_2)}\t{difference:.2f}"
+        )
+    else:
+        print(
+            f"{colour_1}\t{colour_2}\t{difference:.2f}"
+        )
+
+
 # NB HTML green is #008000!  We're using #0f0, because we're
 # interested in which colour "group" (red-ish, green-ish etc.) we're
 # in.
@@ -340,7 +358,7 @@ def extract_flag_colours(filename: str) -> list[str]:
     t = ET.parse(filename)
     root = t.getroot()
 
-    colours = []
+    colours: list[str] = []
 
     for el in root.iter():
         if "fill" in el.attrib:
@@ -381,11 +399,11 @@ def extract_categorised_flag_colours(filename: str) -> dict[str, list[str]]:
 def compare_flag_colours(
     country_name_1: str,
     country_name_2: str,
-    colour: bool = True,
+    use_colour: bool = True,
 ) -> None:
     """Compare the "matching" colours of the flags of two countries.
 
-    If colour=True show the colours in the background when printing
+    If use_colour=True show the colours in the background when printing
  the relevant hex-strings.
 
     """
@@ -399,7 +417,9 @@ def compare_flag_colours(
     flag2_categories = set(flag2.keys())
 
     if not flag1_categories == flag2_categories:
-        logger.warning(f"{country_name_1} and {country_name_2} have non-identical colour categories!")
+        logger.warning(
+            f"{country_name_1} and {country_name_2} have non-identical colour categories!"
+        )
         logger.warning(f"{country_name_1} has colours {flag1_categories}.")
         logger.warning(f"{country_name_2} has colours {flag2_categories}.\n")
 
@@ -416,10 +436,14 @@ def compare_flag_colours(
     multiple_category_colours = False
     for category in common_categories:
         if len(flag1[category]) > 1:
-            logger.warning(f"{country_name_1} has more than one {category} colour: {flag1[category]}!")
+            logger.warning(
+                f"{country_name_1} has more than one {category} colour: {flag1[category]}!"
+            )
             multiple_category_colours = True
         if len(flag2[category]) > 1:
-            logger.warning(f"{country_name_2} has more than one {category} colour: {flag2[category]}!")
+            logger.warning(
+                f"{country_name_2} has more than one {category} colour: {flag2[category]}!"
+            )
             multiple_category_colours = True
     if multiple_category_colours:
         logger.warning("Will consider all possible colour pairs!\n")
@@ -429,7 +453,7 @@ def compare_flag_colours(
         for c1 in flag1[category]:
             for c2 in flag2[category]:
                 difference = delta_e_star_from_hex(c1, c2)
-                if colour:
+                if use_colour:
                     print(
                         f"{category}\t{format_colour(c1)}\t{format_colour(c2)}\t{difference:.2f}"
                     )
@@ -500,9 +524,26 @@ def parse_args() -> argparse.Namespace:
 
     return args
 
+def is_argument_colour(arg_1: str, arg_2: str) -> bool:
+    """Determine if the arguments are colours or countries.
+
+    Checks based on whether the first char is `#`.
+
+    """
+    if arg_1[0] == "#":
+        if arg_2[0] == "#":
+            return True
+        raise ValueError("Either zero or both arguments have to be colours!")
+    return False
+
+
 
 if __name__ == "__main__":
     args = parse_args()
-    compare_flag_colours(args.countries[0], args.countries[1], colour=args.colour)
-    print()
-    compare_flag_proportions(args.countries[0], args.countries[1])
+    comparing_colours = is_argument_colour(*args.countries)
+    if comparing_colours:
+        compare_colours(args.countries[0], args.countries[1], use_colour=args.colour)
+    else:
+        compare_flag_colours(args.countries[0], args.countries[1], use_colour=args.colour)
+        print()
+        compare_flag_proportions(args.countries[0], args.countries[1])
