@@ -365,6 +365,9 @@ def extract_flag_colours(filename: str) -> list[str]:
             logger.warning("Ignoring url() colour! (Likely an irrelevant gradient!)")
             return
 
+        # Normalise.  Lowercase is personal preference.
+        colour = colour.lower()
+
         if not colour[0] == "#":
             if not colour in HTML_COLOURS:
                 raise ValueError(f"Invalid colour {colour}!")
@@ -410,6 +413,10 @@ def extract_categorised_flag_colours(filename: str) -> dict[str, list[str]]:
             categorised_colours[category].append(c)
         else:
             categorised_colours[category] = [c]
+
+    for category in categorised_colours:
+        # For better viewing in comparison table.
+        categorised_colours[category].sort()
 
     return categorised_colours
 
