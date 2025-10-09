@@ -282,12 +282,14 @@ The changes listed below will be lost the next time you upgrade and there's no o
 
   If you remove a template, you will see the same dialog box when you upgrade. The template and its associated cards will then be recreated. You can easily remove the template again after the upgrade, if you so wish.
 
-### Changes that prevent upgrading ⛔
-
 - **Adding a new field (population, currency, etc.)**
 
-  Adding a new field to the _Ultimate Geography_ note type will prevent you from upgrading the deck entirely. When you'll try to import it again, Anki will likely error and you'll risk losing your entire progress. Hopefully Anki, CrowdAnki, Brain Brew, and UG will [one day](https://github.com/ohare93/brain-brew/issues/4#issuecomment-644975261) find a way to make this possible.
+  If you add a new field to the _Ultimate Geography_ note type, you will lose both the change to the note type and any contents in the new field.
 
-  Note that the technique of cloning the note type explained under _Customising the templates and styles_ will not work here. If you've added a new field and are wanting to upgrade, you have no choice but to first **remove the field** from the note type.
+  Note that the technique of cloning the note type explained under _Customising the templates and styles_ will not work here.  If you follow it, you may be able to keep the change to the note type (the addition of the new field), but not any contents of the field.
+
+  We strongly recommend backing up your deck before upgrading in this case — in some very old Anki versions, importing after having added a new field may cause an error and you risk losing your entire progress.
+
+  Hopefully Anki, CrowdAnki, Brain Brew, and UG will [one day](https://github.com/ohare93/brain-brew/issues/4#issuecomment-644975261) find a way to make this easily possible.
 
   > If you really know what you're doing, you could try exporting your deck with CrowdAnki, carefully merging the JSON file of the new version of the deck into your exported deck's JSON file, and then importing your deck back into Anki ... but if you're capable of this, your skills would be put to much better use contributing to [CrowdAnki](https://github.com/Stvad/CrowdAnki) and [Brain Brew](https://github.com/ohare93/brain-brew/)! 😁
