@@ -293,3 +293,9 @@ The changes listed below will be lost the next time you upgrade and there's no o
   Hopefully Anki, CrowdAnki, Brain Brew, and UG will [one day](https://github.com/ohare93/brain-brew/issues/4#issuecomment-644975261) find a way to make this easily possible.
 
   > If you really know what you're doing, you could try exporting your deck with CrowdAnki, carefully merging the JSON file of the new version of the deck into your exported deck's JSON file, and then importing your deck back into Anki ... but if you're capable of this, your skills would be put to much better use contributing to [CrowdAnki](https://github.com/Stvad/CrowdAnki) and [Brain Brew](https://github.com/ohare93/brain-brew/)! 😁
+
+### Sources of customisation ⛲
+
+We have a [Wiki page](https://github.com/anki-geo/ultimate-geography/wiki/Note-type-customisation) with note type customisations from other users. Feel free to also add your own! Note that none of them are officially supported, but provided you take care as described under _Customising the templates and styles_, using them should not lead to data loss when upgrading.
+
+You may also find interesting customisations in our [`sandbox`](github.com/anki-geo/sandbox/) repo.
