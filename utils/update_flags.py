@@ -254,7 +254,6 @@ def main():
     with tempfile.TemporaryDirectory(dir=".") as temp_dir_:
         temp_dir = Path(temp_dir_)
         for local_filename, wikimedia_filename in list_flags_with_sources():
-            print(local_filename)
             update_flag(local_filename, wikimedia_filename, temp_dir)
 
 if __name__ == "__main__":
