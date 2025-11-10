@@ -4,6 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+requests = "*"
 
 [packages]
 brain-brew = "==0.3.11"
@@ -16,3 +17,4 @@ build = "brain_brew run recipes/source_to_anki.yaml"
 build_experimental = "brain_brew run recipes/source_to_anki_[experimental].yaml"
 zip = "python utils/zip_decks.py"
 flag_similarity = "python utils/flag_similarity.py"
+update_flags = "python utils/update_flags.py"
