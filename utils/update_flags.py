@@ -28,6 +28,8 @@ import tempfile
 import re
 import shutil
 import subprocess
+import webbrowser
+import sys
 
 from dataclasses import dataclass
 from pathlib import Path
@@ -230,7 +232,7 @@ def update_flag(
 def list_flags_with_sources() -> list[tuple[str, str]]:
     """Create a tuple of local and wikimedia filenames of flags."""
 
-    flags = []
+    flags = {}
 
     with open("sources.csv") as f:
         reader = csv.DictReader(f)
@@ -246,15 +248,50 @@ def list_flags_with_sources() -> list[tuple[str, str]]:
                     raise ValueError(f"Non-wikimedia source: {wikimedia_source}!")
                 wikimedia_filename = wikimedia_source.removeprefix(WIKIMEDIA_DESCRIPTION_PAGE_PREFIX)
 
-                flags.append((local_filename, wikimedia_filename))
+                flags[local_filename] = wikimedia_filename
 
     return flags
+
+def browse_wikimedia_source():
+    """Open in browser the sources for the first changed flag.
+
+    We open the Wikimedia page for the relevant file and the Wikipedia
+    article for the flag.
+
+    """
+    result = subprocess.run(
+        ["git", "diff", "--name-only"],
+        capture_output=True,
+        check=True,
+        text=True,
+    )
+    first_changed_flag = [
+        s.removeprefix("src/media/flags/") for s in result.stdout.split("\n") if
+        s.startswith("src/media/flags/")
+    ][0]
+
+    wikimedia_filename = list_flags_with_sources()[first_changed_flag]
+
+    wikimedia_url = "https://commons.wikimedia.org/w/index.php?title=File:" + wikimedia_filename + "&limit=100#filehistory"
+    country_name = first_changed_flag.removeprefix("ug-flag-").removesuffix(".svg")
+    wikipedia_url = "https://en.wikipedia.org/w/index.php?search=flag of " + country_name + "&title=Special%3ASearch"
+
+    webbrowser.open(wikimedia_url)
+    webbrowser.open(wikipedia_url)
 
 def main():
     with tempfile.TemporaryDirectory(dir=".") as temp_dir_:
         temp_dir = Path(temp_dir_)
-        for local_filename, wikimedia_filename in list_flags_with_sources():
+        for local_filename, wikimedia_filename in list_flags_with_sources().items():
             update_flag(local_filename, wikimedia_filename, temp_dir)
 
+
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) == 1:
+        main()
+    elif (len(sys.argv) == 2) and (sys.argv[1] == "--source"):
+        browse_wikimedia_source()
+    else:
+        raise ValueError("Unknown arguments.")
+
+
