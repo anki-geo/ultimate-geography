@@ -199,14 +199,23 @@ def update_geometry(wikimedia_fetch: Path):
 #         default_namespace="",
 #     )
 
-def run_svgo(wikimedia_fetch) -> None:
+def run_svgo(wikimedia_fetch) -> Path:
     """Run svgo.
 
     Currently, doesn't handle svgo errors, at all, but they should be
     visible in the terminal.
 
     """
-    subprocess.run(["svgo", str(wikimedia_fetch)])
+    # svgo sometimes makes SVGs larger.  It happily reports that it's
+    # making it larger, but still outputs the new, inflated version
+    # (!).  Hence, we need to wrap around it.
+    svgo_attempt = wikimedia_fetch.with_suffix(".svg.2")
+    subprocess.run(["svgo", "-i", str(wikimedia_fetch), "-o", str(svgo_attempt)])
+
+    if svgo_attempt.stat().st_size < wikimedia_fetch.stat().st_size:
+        return svgo_attempt.move(wikimedia_fetch)
+    else:
+        return wikimedia_fetch
 
 def move_svg_to_media_dir(wikimedia_fetch: Path) -> None:
     """Move the generated SVG to src/media/flags/"""
@@ -226,7 +235,7 @@ def update_flag(
         temp_dir,
     )
     update_geometry(wikimedia_fetch)
-    run_svgo(wikimedia_fetch)
+    wikimedia_fetch = run_svgo(wikimedia_fetch)
     move_svg_to_media_dir(wikimedia_fetch)
 
 def list_flags_with_sources() -> list[tuple[str, str]]:
