@@ -1,5 +1,5 @@
 name: Ultimate Geography [ZH]
-id: 43e2586a-9a65-11e8-a777-a0481cc15658
+id: 30c7ff39-56b5-4693-8e16-aa862eb7a619
 css_file: src/note_models/style.css
 fields:
   - name: Country

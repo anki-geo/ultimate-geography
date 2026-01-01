@@ -1,5 +1,5 @@
 name: Ultimate Geography [ES]
-id: 43e2586a-9a65-11e8-a777-a0481cc15658
+id: 0bacddfd-1e81-4e62-9152-bdff33db0374
 css_file: src/note_models/style.css
 fields:
   - name: Country

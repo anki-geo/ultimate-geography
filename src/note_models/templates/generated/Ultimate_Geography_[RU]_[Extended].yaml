@@ -1,5 +1,5 @@
 name: Ultimate Geography [RU] [Extended]
-id: 0a39f994-daaf-11e8-b984-a0481cc15658
+id: 03edf31b-c8ef-4fdd-855a-25846f1e1c13
 css_file: src/note_models/style.css
 fields:
   - name: Country

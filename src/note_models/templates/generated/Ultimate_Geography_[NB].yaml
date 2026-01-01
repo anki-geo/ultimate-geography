@@ -1,5 +1,5 @@
 name: Ultimate Geography [NB]
-id: 43e2586a-9a65-11e8-a777-a0481cc15658
+id: 8ccdc1f6-b042-4d55-8fcd-9e08b5b71dc7
 css_file: src/note_models/style.css
 fields:
   - name: Country

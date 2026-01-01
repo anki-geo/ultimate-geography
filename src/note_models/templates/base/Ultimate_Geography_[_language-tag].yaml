@@ -1,5 +1,5 @@
 name: Ultimate Geography [_language-tag]
-id: 43e2586a-9a65-11e8-a777-a0481cc15658
+id: _deck_id
 css_file: src/note_models/style.css
 fields:
   - name: Country
