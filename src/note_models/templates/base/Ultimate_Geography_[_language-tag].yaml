@@ -1,4 +1,4 @@
-name: Ultimate Geography
+name: Ultimate Geography [_language-tag]
 id: 43e2586a-9a65-11e8-a777-a0481cc15658
 css_file: src/note_models/style.css
 fields:
@@ -20,10 +20,10 @@ fields:
     font: Arial
 templates:
   - name: Country - Capital
-    html_file: src/note_models/templates/Country - Capital.html
+    html_file: src/note_models/templates/generated/Country - Capital [_language-tag].html
   - name: Capital - Country
-    html_file: src/note_models/templates/Capital - Country.html
+    html_file: src/note_models/templates/generated/Capital - Country [_language-tag].html
   - name: Flag - Country
-    html_file: src/note_models/templates/Flag - Country.html
+    html_file: src/note_models/templates/generated/Flag - Country [_language-tag].html
   - name: Map - Country
-    html_file: src/note_models/templates/Map - Country.html
+    html_file: src/note_models/templates/generated/Map - Country [_language-tag].html
