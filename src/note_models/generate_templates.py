@@ -10,12 +10,11 @@ def load_translations(csv_path):
 
         rows = []
         for row in reader:
-            normalized = {key: (value or "").strip() for key, value in row.items()}
             for key in reader.fieldnames:
-                if normalized[key] == "":
-                    language = normalized["_language-tag"]
+                if row[key] is None:
+                    language = row["_language-tag"]
                     raise SystemError(f"Missing value for {key} in {language}")
-            rows.append(normalized)
+            rows.append(row)
 
     if not rows:
         raise SystemError("translations.csv has no translation rows")
