@@ -1,16 +1,16 @@
-_language-tag,_capital_translation,_hint_translation,_flag_translation,_flag_similarity_translation,_location_translation,_deck_id,_deck_extended_id
-EN,Capital,Hint,Flag,Flag similar to,Location,43e2586a-9a65-11e8-a777-a0481cc15658,0a39f994-daaf-11e8-b984-a0481cc15658
-DE,Hauptstadt,Hinweis,Flagge,Flagge ähnlich wie,Lage,cb3de16f-7c9c-4944-994a-e17ec2018c28,dc6c1ca9-b55f-429e-99dc-c61c35a20209
-ES,Capital,Pista,Bandera,Bandera similar a,Ubicación,0bacddfd-1e81-4e62-9152-bdff33db0374,03766b2c-0925-41d0-9a14-9bca36a3b605
-FR,Capitale,Indice ,Drapeau,Drapeau similaire à :,Emplacement,fd72d808-58d4-43ea-97db-24196747f24c,d8f4db0e-310f-45d4-9143-a9c93dd658bb
-NB,Hovedstad,Hint,Flagg,Flagg som ligner på,Beliggenhet,8ccdc1f6-b042-4d55-8fcd-9e08b5b71dc7,a5caadfb-a5b4-41f2-a176-9e029e581368
-CS,Hlavní město,Náznak,Vlajka,Vlajka podobná jako,Poloha,47d13c81-b471-4471-8e87-ebad53fa7307,5ef3528d-e7c3-4d49-81e8-6c1c0a609a77
-RU,Столица,Подсказка,Флаг,Похожие флаги:,Местоположение,2aa62e36-601e-4e4c-a124-5a79b14f8697,03edf31b-c8ef-4fdd-855a-25846f1e1c13
-NL,Hoofdstad,Aanwijzing,Vlag,Vlag vergelijkbaar met,Ligging,8263244e-6f5e-457a-bb65-a836a6c058a3,666fd740-3670-4a45-98e5-dff3a7568ad5
-SV,Huvudstad,Ledtråd,Flagga,Flaggan liknar,Läge,3090ce89-5fd8-4107-86df-3e7a74ec288f,a8103c3e-f0a3-4943-98fc-492159b0944e
-PT,Capital,Dica,Bandeira,Bandeira parecida com:,Localização,3da2a851-258c-447f-9d16-91a663663675,9028894e-3885-495f-a608-1e4e8e2e70df
-ZH,首都,提示：,旗帜,旗帜类似于：,位置,30c7ff39-56b5-4693-8e16-aa862eb7a619,d1c5ee7f-4a7a-4cff-939f-a06f865d68d2
-ZH-TW,首都,提示：,旗幟,旗幟類似於：,位置,d75ad494-71f3-4909-beda-b80ec04c7a0d,4f11a863-ba7e-4c78-8426-9cd0f64a7b3a
-PL,Stolica,Wskazówka,Flaga,Podobne flagi:,Położenie,84786477-e28a-490e-958d-7b35946d7b11,d0fa593e-cf19-4ac9-a7f3-005ed6196957
-IT,Capitale,Suggerimento,Bandiera,Bandiera simile a:,Posizione,cd65a274-7341-4e72-8de5-5d3d83ea4537,996b5985-fb94-479f-a468-67284891fa5d
-DA,Hovedstad,Ledetråd,Flag,Flaget ligner,Placering,15daaec7-4097-4d97-ba94-9db44f8b8f51,412504c7-cde6-426d-8110-454bb2b711c7
+_language-tag,_capital_translation,_hint_translation,_flag_translation,_flag_similarity_translation,_location_translation,_full_stop_translation,_deck_id,_deck_extended_id
+EN,Capital,Hint: ,Flag,Flag similar to ,Location,.,43e2586a-9a65-11e8-a777-a0481cc15658,0a39f994-daaf-11e8-b984-a0481cc15658
+DE,Hauptstadt,Hinweis: ,Flagge,Flagge ähnlich wie ,Lage,.,cb3de16f-7c9c-4944-994a-e17ec2018c28,dc6c1ca9-b55f-429e-99dc-c61c35a20209
+ES,Capital,Pista: ,Bandera,Bandera similar a ,Ubicación,.,0bacddfd-1e81-4e62-9152-bdff33db0374,03766b2c-0925-41d0-9a14-9bca36a3b605
+FR,Capitale,Indice : ,Drapeau,Drapeau similaire à : ,Emplacement,.,fd72d808-58d4-43ea-97db-24196747f24c,d8f4db0e-310f-45d4-9143-a9c93dd658bb
+NB,Hovedstad,Hint: ,Flagg,Flagg som ligner på ,Beliggenhet,.,8ccdc1f6-b042-4d55-8fcd-9e08b5b71dc7,a5caadfb-a5b4-41f2-a176-9e029e581368
+CS,Hlavní město,Náznak: ,Vlajka,Vlajka podobná jako ,Poloha,.,47d13c81-b471-4471-8e87-ebad53fa7307,5ef3528d-e7c3-4d49-81e8-6c1c0a609a77
+RU,Столица,Подсказка: ,Флаг,Похожие флаги: ,Местоположение,.,2aa62e36-601e-4e4c-a124-5a79b14f8697,03edf31b-c8ef-4fdd-855a-25846f1e1c13
+NL,Hoofdstad,Aanwijzing: ,Vlag,Vlag vergelijkbaar met ,Ligging,.,8263244e-6f5e-457a-bb65-a836a6c058a3,666fd740-3670-4a45-98e5-dff3a7568ad5
+SV,Huvudstad,Ledtråd: ,Flagga,Flaggan liknar ,Läge,.,3090ce89-5fd8-4107-86df-3e7a74ec288f,a8103c3e-f0a3-4943-98fc-492159b0944e
+PT,Capital,Dica: ,Bandeira,Bandeira parecida com: ,Localização,.,3da2a851-258c-447f-9d16-91a663663675,9028894e-3885-495f-a608-1e4e8e2e70df
+ZH,首都,提示：,旗帜,旗帜类似于：,位置,。,30c7ff39-56b5-4693-8e16-aa862eb7a619,d1c5ee7f-4a7a-4cff-939f-a06f865d68d2
+ZH-TW,首都,提示：,旗幟,旗幟類似於：,位置,。,d75ad494-71f3-4909-beda-b80ec04c7a0d,4f11a863-ba7e-4c78-8426-9cd0f64a7b3a
+PL,Stolica,Wskazówka: ,Flaga,Podobne flagi: ,Położenie,.,84786477-e28a-490e-958d-7b35946d7b11,d0fa593e-cf19-4ac9-a7f3-005ed6196957
+IT,Capitale,Suggerimento: ,Bandiera,Bandiera simile a: ,Posizione,.,cd65a274-7341-4e72-8de5-5d3d83ea4537,996b5985-fb94-479f-a468-67284891fa5d
+DA,Hovedstad,Ledetråd: ,Flag,Flaget ligner ,Placering,.,15daaec7-4097-4d97-ba94-9db44f8b8f51,412504c7-cde6-426d-8110-454bb2b711c7
