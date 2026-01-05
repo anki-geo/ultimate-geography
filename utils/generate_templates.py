@@ -29,10 +29,10 @@ def apply_replacements(text, replacements):
 
 
 def main():
-    root = Path(__file__).resolve().parent
-    base_dir = root / "templates" / "base"
-    output_dir = root / "templates" / "generated"
-    translations_path = root / "translations.csv"
+    csv_root = Path(__file__).resolve().parent.parent / "src" / "note_models"
+    base_dir = csv_root / "templates" / "base"
+    output_dir = csv_root / "templates" / "generated"
+    translations_path = csv_root / "translations.csv"
 
     if not base_dir.is_dir():
         raise SystemError(f"Missing base templates directory at {base_dir}")
@@ -48,6 +48,9 @@ def main():
     ]
 
     for row in rows:
+        language = row["_language-tag"]
+        output_dir_folder = output_dir / language
+        output_dir_folder.mkdir(parents=True, exist_ok=True)
         replacements = [(name, row[name]) for name in fieldnames]
 
         for base_path in base_files:
@@ -56,7 +59,7 @@ def main():
             rendered = apply_replacements(rendered, english_base_case)
 
             output_name = apply_replacements(base_path.name, replacements)
-            output_path = output_dir / output_name
+            output_path = output_dir_folder / output_name
             output_path.write_text(rendered, encoding="utf-8")
 
     return 0

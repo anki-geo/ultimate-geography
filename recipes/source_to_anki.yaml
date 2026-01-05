@@ -20,94 +20,94 @@
 - build_parts:
   - note_model_from_yaml_part:
       part_id: Ultimate Geography
-      file: src/note_models/templates/generated/Ultimate_Geography_[EN].yaml
+      file: src/note_models/templates/generated/EN/Ultimate_Geography_[EN].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [Extended]
-      file: src/note_models/templates/generated/Ultimate_Geography_[EN]_[Extended].yaml
+      file: src/note_models/templates/generated/EN/Ultimate_Geography_[EN]_[Extended].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [DE]
-      file: src/note_models/templates/generated/Ultimate_Geography_[DE].yaml
+      file: src/note_models/templates/generated/DE/Ultimate_Geography_[DE].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [DE] [Extended]
-      file: src/note_models/templates/generated/Ultimate_Geography_[DE]_[Extended].yaml
+      file: src/note_models/templates/generated/DE/Ultimate_Geography_[DE]_[Extended].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [ES]
-      file: src/note_models/templates/generated/Ultimate_Geography_[ES].yaml
+      file: src/note_models/templates/generated/ES/Ultimate_Geography_[ES].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [ES] [Extended]
-      file: src/note_models/templates/generated/Ultimate_Geography_[ES]_[Extended].yaml
+      file: src/note_models/templates/generated/ES/Ultimate_Geography_[ES]_[Extended].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [FR]
-      file: src/note_models/templates/generated/Ultimate_Geography_[FR].yaml
+      file: src/note_models/templates/generated/FR/Ultimate_Geography_[FR].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [FR] [Extended]
-      file: src/note_models/templates/generated/Ultimate_Geography_[FR]_[Extended].yaml
+      file: src/note_models/templates/generated/FR/Ultimate_Geography_[FR]_[Extended].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [NB]
-      file: src/note_models/templates/generated/Ultimate_Geography_[NB].yaml
+      file: src/note_models/templates/generated/NB/Ultimate_Geography_[NB].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [NB] [Extended]
-      file: src/note_models/templates/generated/Ultimate_Geography_[NB]_[Extended].yaml
+      file: src/note_models/templates/generated/NB/Ultimate_Geography_[NB]_[Extended].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [CS]
-      file: src/note_models/templates/generated/Ultimate_Geography_[CS].yaml
+      file: src/note_models/templates/generated/CS/Ultimate_Geography_[CS].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [CS] [Extended]
-      file: src/note_models/templates/generated/Ultimate_Geography_[CS]_[Extended].yaml
+      file: src/note_models/templates/generated/CS/Ultimate_Geography_[CS]_[Extended].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [RU]
-      file: src/note_models/templates/generated/Ultimate_Geography_[RU].yaml
+      file: src/note_models/templates/generated/RU/Ultimate_Geography_[RU].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [RU] [Extended]
-      file: src/note_models/templates/generated/Ultimate_Geography_[RU]_[Extended].yaml
+      file: src/note_models/templates/generated/RU/Ultimate_Geography_[RU]_[Extended].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [NL]
-      file: src/note_models/templates/generated/Ultimate_Geography_[NL].yaml
+      file: src/note_models/templates/generated/NL/Ultimate_Geography_[NL].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [NL] [Extended]
-      file: src/note_models/templates/generated/Ultimate_Geography_[NL]_[Extended].yaml
+      file: src/note_models/templates/generated/NL/Ultimate_Geography_[NL]_[Extended].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [SV]
-      file: src/note_models/templates/generated/Ultimate_Geography_[SV].yaml
+      file: src/note_models/templates/generated/SV/Ultimate_Geography_[SV].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [SV] [Extended]
-      file: src/note_models/templates/generated/Ultimate_Geography_[SV]_[Extended].yaml
+      file: src/note_models/templates/generated/SV/Ultimate_Geography_[SV]_[Extended].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [PT]
-      file: src/note_models/templates/generated/Ultimate_Geography_[PT].yaml
+      file: src/note_models/templates/generated/PT/Ultimate_Geography_[PT].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [PT] [Extended]
-      file: src/note_models/templates/generated/Ultimate_Geography_[PT]_[Extended].yaml
+      file: src/note_models/templates/generated/PT/Ultimate_Geography_[PT]_[Extended].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [ZH]
-      file: src/note_models/templates/generated/Ultimate_Geography_[ZH].yaml
+      file: src/note_models/templates/generated/ZH/Ultimate_Geography_[ZH].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [ZH] [Extended]
-      file: src/note_models/templates/generated/Ultimate_Geography_[ZH]_[Extended].yaml
+      file: src/note_models/templates/generated/ZH/Ultimate_Geography_[ZH]_[Extended].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [ZH-TW]
-      file: src/note_models/templates/generated/Ultimate_Geography_[ZH-TW].yaml
+      file: src/note_models/templates/generated/ZH-TW/Ultimate_Geography_[ZH-TW].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [ZH-TW] [Extended]
-      file: src/note_models/templates/generated/Ultimate_Geography_[ZH-TW]_[Extended].yaml
+      file: src/note_models/templates/generated/ZH-TW/Ultimate_Geography_[ZH-TW]_[Extended].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [PL]
-      file: src/note_models/templates/generated/Ultimate_Geography_[PL].yaml
+      file: src/note_models/templates/generated/PL/Ultimate_Geography_[PL].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [PL] [Extended]
-      file: src/note_models/templates/generated/Ultimate_Geography_[PL]_[Extended].yaml
+      file: src/note_models/templates/generated/PL/Ultimate_Geography_[PL]_[Extended].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [IT]
-      file: src/note_models/templates/generated/Ultimate_Geography_[IT].yaml
+      file: src/note_models/templates/generated/IT/Ultimate_Geography_[IT].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [IT] [Extended]
-      file: src/note_models/templates/generated/Ultimate_Geography_[IT]_[Extended].yaml
+      file: src/note_models/templates/generated/IT/Ultimate_Geography_[IT]_[Extended].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [DA]
-      file: src/note_models/templates/generated/Ultimate_Geography_[DA].yaml
+      file: src/note_models/templates/generated/DA/Ultimate_Geography_[DA].yaml
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [DA] [Extended]
-      file: src/note_models/templates/generated/Ultimate_Geography_[DA]_[Extended].yaml
+      file: src/note_models/templates/generated/DA/Ultimate_Geography_[DA]_[Extended].yaml
 
   - headers_from_yaml_part:
       - part_id: default header

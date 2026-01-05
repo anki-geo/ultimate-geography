@@ -20,10 +20,10 @@ fields:
     font: Arial
 templates:
   - name: Country - Capital
-    html_file: src/note_models/templates/generated/Country - Capital [_language-tag].html
+    html_file: src/note_models/templates/generated/_language-tag/Country - Capital [_language-tag].html
   - name: Capital - Country
-    html_file: src/note_models/templates/generated/Capital - Country [_language-tag].html
+    html_file: src/note_models/templates/generated/_language-tag/Capital - Country [_language-tag].html
   - name: Flag - Country
-    html_file: src/note_models/templates/generated/Flag - Country [_language-tag].html
+    html_file: src/note_models/templates/generated/_language-tag/Flag - Country [_language-tag].html
   - name: Map - Country
-    html_file: src/note_models/templates/generated/Map - Country [_language-tag].html
+    html_file: src/note_models/templates/generated/_language-tag/Map - Country [_language-tag].html
