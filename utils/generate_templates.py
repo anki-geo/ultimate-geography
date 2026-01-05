@@ -2,18 +2,28 @@ import csv
 from pathlib import Path
 
 
+def validate_subtokens(tokens):
+    toks = sorted(tokens)
+
+    for a, b in zip(toks, toks[1:]):
+        if b.startswith(a):
+            raise ValueError(f"Token collision: '{a}' is a prefix of '{b}'")
+
+
 def load_translations(csv_path):
     with csv_path.open(newline="", encoding="utf-8") as handle:
         reader = csv.DictReader(handle)
         if not reader.fieldnames:
             raise SystemError("translations.csv has no headers")
 
+        validate_subtokens(reader.fieldnames)
+
         rows = []
         for row in reader:
             for key in reader.fieldnames:
                 if not row[key]:
                     language = row["_language-tag"]
-                    raise ValueError(f"Missing value for {key} in {language}")
+                    raise ValueError(f"Missing value for '{key}' in {language}")
             rows.append(row)
 
     if not rows:
