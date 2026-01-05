@@ -11,9 +11,9 @@ def load_translations(csv_path):
         rows = []
         for row in reader:
             for key in reader.fieldnames:
-                if row[key] is None:
+                if not row[key]:
                     language = row["_language-tag"]
-                    raise SystemError(f"Missing value for {key} in {language}")
+                    raise ValueError(f"Missing value for {key} in {language}")
             rows.append(row)
 
     if not rows:
