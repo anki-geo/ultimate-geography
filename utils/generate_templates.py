@@ -3,11 +3,12 @@ from pathlib import Path
 
 
 def validate_subtokens(tokens):
-    toks = sorted(tokens)
+    toks = sorted(tokens, key=len)
 
-    for a, b in zip(toks, toks[1:]):
-        if b.startswith(a):
-            raise ValueError(f"Token collision: '{a}' is a prefix of '{b}'")
+    for i, a in enumerate(toks):
+        for b in toks[i + 1:]:
+            if a in b:
+                raise ValueError(f"Translation key '{a}' is a subset of key '{b}'")
 
 
 def load_translations(csv_path):
