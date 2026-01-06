@@ -1,0 +1,33 @@
+name: Ultimate Geography [__LANGUAGE_CODE__] [Extended]
+id: __DECK_EXTENDED_ID__
+css_file: src/note_models/style.css
+fields:
+  - name: Country
+    font: Arial
+  - name: Country info
+    font: Arial
+  - name: Capital
+    font: Arial
+  - name: Capital info
+    font: Arial
+  - name: Capital hint
+    font: Arial
+  - name: Flag
+    font: Arial
+  - name: Flag similarity
+    font: Arial
+  - name: Map
+    font: Arial
+templates:
+  - name: Country - Capital
+    html_file: src/note_models/templates/generated/__LANGUAGE_CODE__/Country - Capital [__LANGUAGE_CODE__].html
+  - name: Capital - Country
+    html_file: src/note_models/templates/generated/__LANGUAGE_CODE__/Capital - Country [__LANGUAGE_CODE__].html
+  - name: Country - Flag
+    html_file: src/note_models/templates/generated/__LANGUAGE_CODE__/Country - Flag [__LANGUAGE_CODE__].html
+  - name: Flag - Country
+    html_file: src/note_models/templates/generated/__LANGUAGE_CODE__/Flag - Country [__LANGUAGE_CODE__].html
+  - name: Country - Map
+    html_file: src/note_models/templates/generated/__LANGUAGE_CODE__/Country - Map [__LANGUAGE_CODE__].html
+  - name: Map - Country
+    html_file: src/note_models/templates/generated/__LANGUAGE_CODE__/Map - Country [__LANGUAGE_CODE__].html

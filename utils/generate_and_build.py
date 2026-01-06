@@ -24,7 +24,7 @@ def load_translations(csv_path):
         for row in reader:
             for key in reader.fieldnames:
                 if not row[key]:
-                    language = row["_language-tag"]
+                    language = row["__LANGUAGE_CODE__"]
                     raise ValueError(f"Missing value for '{key}' in {language}")
             rows.append(row)
 
@@ -60,7 +60,7 @@ def generate_templates():
     ]
 
     for row in rows:
-        language = row["_language-tag"]
+        language = row["__LANGUAGE_CODE__"]
         output_dir_folder = output_dir / language
         output_dir_folder.mkdir(parents=True, exist_ok=True)
         replacements = [(name, row[name]) for name in fieldnames]
