@@ -12,8 +12,8 @@ brain-brew = "==0.3.11"
 python_version = "3.11"
 
 [scripts]
-build = "brain_brew run recipes/source_to_anki.yaml"
-build_experimental = "brain_brew run recipes/source_to_anki_[experimental].yaml"
+build = "python utils/generate_and_build.py recipes/source_to_anki.yaml"
+build_experimental = "python utils/generate_and_build.py recipes/source_to_anki_[experimental].yaml"
+generate_templates = "python utils/generate_and_build.py"
 zip = "python utils/zip_decks.py"
 flag_similarity = "python utils/flag_similarity.py"
-generate_templates = "python utils/generate_templates.py"

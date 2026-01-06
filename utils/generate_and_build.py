@@ -1,10 +1,11 @@
+import argparse
 import csv
+import subprocess
 from pathlib import Path
 
 
 def validate_subtokens(tokens):
     toks = sorted(tokens, key=len)
-
     for i, a in enumerate(toks):
         for b in toks[i + 1:]:
             if a in b:
@@ -39,7 +40,7 @@ def apply_replacements(text, replacements):
     return text
 
 
-def main():
+def generate_templates():
     csv_root = Path(__file__).resolve().parent.parent / "src" / "note_models"
     base_dir = csv_root / "templates" / "base"
     output_dir = csv_root / "templates" / "generated"
@@ -72,6 +73,36 @@ def main():
             output_name = apply_replacements(base_path.name, replacements)
             output_path = output_dir_folder / output_name
             output_path.write_text(rendered, encoding="utf-8")
+
+    return 0
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Generate templates and optionally run a brain_brew recipe."
+    )
+    parser.add_argument(
+        "recipe_path",
+        nargs="?",
+        help="If provided, run 'brain_brew run <recipe_path>' after generating templates.",
+    )
+    return parser.parse_args()
+
+
+def run_brain_brew(recipe_path):
+    result = subprocess.run(["brain_brew", "run", recipe_path])
+    return result.returncode
+
+
+def main():
+    args = parse_args()
+    generate_templates()
+    print("Successfully generated template files.")
+    if args.recipe_path:
+        build_result = run_brain_brew(args.recipe_path)
+        if build_result == 0:
+            print("Successfully built deck.")
+        return build_result
 
     return 0
 
