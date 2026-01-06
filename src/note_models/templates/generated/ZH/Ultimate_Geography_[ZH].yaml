@@ -1,0 +1,29 @@
+name: Ultimate Geography [ZH]
+id: 30c7ff39-56b5-4693-8e16-aa862eb7a619
+css_file: src/note_models/style.css
+fields:
+  - name: Country
+    font: Arial
+  - name: Country info
+    font: Arial
+  - name: Capital
+    font: Arial
+  - name: Capital info
+    font: Arial
+  - name: Capital hint
+    font: Arial
+  - name: Flag
+    font: Arial
+  - name: Flag similarity
+    font: Arial
+  - name: Map
+    font: Arial
+templates:
+  - name: Country - Capital
+    html_file: src/note_models/templates/generated/ZH/Country - Capital [ZH].html
+  - name: Capital - Country
+    html_file: src/note_models/templates/generated/ZH/Capital - Country [ZH].html
+  - name: Flag - Country
+    html_file: src/note_models/templates/generated/ZH/Flag - Country [ZH].html
+  - name: Map - Country
+    html_file: src/note_models/templates/generated/ZH/Map - Country [ZH].html

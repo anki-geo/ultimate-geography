@@ -1,0 +1,33 @@
+name: Ultimate Geography [NL] [Extended]
+id: 666fd740-3670-4a45-98e5-dff3a7568ad5
+css_file: src/note_models/style.css
+fields:
+  - name: Country
+    font: Arial
+  - name: Country info
+    font: Arial
+  - name: Capital
+    font: Arial
+  - name: Capital info
+    font: Arial
+  - name: Capital hint
+    font: Arial
+  - name: Flag
+    font: Arial
+  - name: Flag similarity
+    font: Arial
+  - name: Map
+    font: Arial
+templates:
+  - name: Country - Capital
+    html_file: src/note_models/templates/generated/NL/Country - Capital [NL].html
+  - name: Capital - Country
+    html_file: src/note_models/templates/generated/NL/Capital - Country [NL].html
+  - name: Country - Flag
+    html_file: src/note_models/templates/generated/NL/Country - Flag [NL].html
+  - name: Flag - Country
+    html_file: src/note_models/templates/generated/NL/Flag - Country [NL].html
+  - name: Country - Map
+    html_file: src/note_models/templates/generated/NL/Country - Map [NL].html
+  - name: Map - Country
+    html_file: src/note_models/templates/generated/NL/Map - Country [NL].html
