@@ -58,6 +58,8 @@ The content of the deck is stored in multiple CSV files under `src/data`. The ma
 
 Translated fields, such as _Country_ or _Capital info_, have their own CSV files called _derivatives_, in which each column corresponds to one language. The _Country_ field is used to map rows in the derivatives with notes in `main.csv`. The mapping is not necessarily one to one: if a note has no capital (e.g. because it's a water body), then it must not appear in `capital.csv`.
 
+The note model templates are generated from the base templates in `src/note_models/templates/base` and the per-language substitutions in `src/note_models/translations.csv`. The rendered templates live in `src/note_models/templates/generated` and should not be edited directly. Regenerate them with `pipenv run generate_templates` (or `pipenv run build`, which calls `utils/generate_and_build.py`).
+
 ### Getting started
 
 1. Fork and clone this repository on your machine.
@@ -66,8 +68,9 @@ Translated fields, such as _Country_ or _Capital info_, have their own CSV files
 1. Install Pipenv with `pip install pipenv`.
    - If the `pip` executable is not available, try `pip3 install pipenv` instead.
 1. In the root directory of your fork, run `pipenv install` to install Brain Brew and its dependencies in a new virtual environment.
+1. Generate note model templates with `pipenv run generate_templates`.
 1. You can now run this deck's Brain Brew recipes with `pipenv run brain_brew run recipes/<filename>.yaml`.
-   - Alternatively, run `pipenv run build` to build the deck for Anki with the `source_to_anki.yaml` recipe.
+   - Alternatively, run `pipenv run build` to both generate the templates and build the deck for Anki with the `source_to_anki.yaml` recipe.
 
 ### Brain Brew recipes
 
@@ -80,6 +83,8 @@ pipenv run brain_brew run recipes/source_to_anki.yaml
 This recipe builds the deck from source in a format that can be imported into Anki with the CrowdAnki add-on. More precisely, it generates every possible version of the deck (i.e. standard + extended, in every language) into sub-folders inside the `build` folder. Each of these sub-folders includes a CrowdAnki JSON file and all of the deck's images.
 
 On first run, this recipe generates all the missing files and folders in the `build` folder, logging warnings in the output. Upon subsequent runs, the warnings disappear.
+
+If you update `src/note_models/templates/base` or `src/note_models/translations.csv`, run `pipenv run generate_templates` (or just use `pipenv run build`) before running Brain Brew directly.
 
 #### Anki to Source
 
@@ -104,7 +109,7 @@ These recipes allows editing the English standard or extended deck in Anki, and 
 
 - To **add a new note** to the deck, add one row to `main.csv`, `guid.csv`, and any of the derivative CSVs as needed. Don't fill in any of the GUIDs in `guid.csv` -- they will be generated automatically by the `source_to_anki.yaml` recipe.
 - To **change the _Country_ field** of a note, change it in `main.csv`, `guid.csv`, `country.csv`, and any other derivative CSV in which the note appears.
-- To **add a new translation**, add a new column to each of the CSV files and name them as follows: `[field name]:[language code]` (e.g. `country info:fr`, all lowercase). In most cases, the language code should match the Wikipedia subdomain for that language (e.g. https://fr.wikipedia.org/).
+- To **add a new translation**, add a new column to each of the CSV files and name them as follows: `[field name]:[language code]` (e.g. `country info:fr`, all lowercase). In most cases, the language code should match the Wikipedia subdomain for that language (e.g. https://fr.wikipedia.org/). Then add a row in `src/note_models/translations.csv` with the language code and translations for the template strings used in the Anki notes.
 
 When editing `guid.csv` please try to avoid using a spreadsheet, if possible, and instead use a text editor (e.g. notepad) since spreadsheets mangle some of the GUIDs that start with `=` signs.
 
