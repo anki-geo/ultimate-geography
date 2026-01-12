@@ -1,16 +1,16 @@
-__LANGUAGE_CODE__,__DECK_ID__,__DECK_EXTENDED_ID__,__CAPITAL_TRANSLATION__,__LOCATION_TRANSLATION__,__HINT_TRANSLATION__,__FLAG_TRANSLATION__,__FLAG_SIMILARITY_TRANSLATION__
-EN,43e2586a-9a65-11e8-a777-a0481cc15658,0a39f994-daaf-11e8-b984-a0481cc15658,Capital,Location,Hint: ,Flag,Flag similar to {{Flag similarity}}.
-DE,cb3de16f-7c9c-4944-994a-e17ec2018c28,dc6c1ca9-b55f-429e-99dc-c61c35a20209,Hauptstadt,Lage,Hinweis: ,Flagge,Flagge ähnlich wie {{Flag similarity}}.
-ES,0bacddfd-1e81-4e62-9152-bdff33db0374,03766b2c-0925-41d0-9a14-9bca36a3b605,Capital,Ubicación,Pista: ,Bandera,Bandera similar a {{Flag similarity}}.
-FR,fd72d808-58d4-43ea-97db-24196747f24c,d8f4db0e-310f-45d4-9143-a9c93dd658bb,Capitale,Emplacement,Indice : ,Drapeau,Drapeau similaire à : {{Flag similarity}}.
-NB,8ccdc1f6-b042-4d55-8fcd-9e08b5b71dc7,a5caadfb-a5b4-41f2-a176-9e029e581368,Hovedstad,Beliggenhet,Hint: ,Flagg,Flagg som ligner på {{Flag similarity}}.
-CS,47d13c81-b471-4471-8e87-ebad53fa7307,5ef3528d-e7c3-4d49-81e8-6c1c0a609a77,Hlavní město,Poloha,Náznak: ,Vlajka,Vlajka podobná jako {{Flag similarity}}.
-RU,2aa62e36-601e-4e4c-a124-5a79b14f8697,03edf31b-c8ef-4fdd-855a-25846f1e1c13,Столица,Местоположение,Подсказка: ,Флаг,Похожие флаги: {{Flag similarity}}.
-NL,8263244e-6f5e-457a-bb65-a836a6c058a3,666fd740-3670-4a45-98e5-dff3a7568ad5,Hoofdstad,Ligging,Aanwijzing: ,Vlag,Vlag vergelijkbaar met {{Flag similarity}}.
-SV,3090ce89-5fd8-4107-86df-3e7a74ec288f,a8103c3e-f0a3-4943-98fc-492159b0944e,Huvudstad,Läge,Ledtråd: ,Flagga,Flaggan liknar {{Flag similarity}}.
-PT,3da2a851-258c-447f-9d16-91a663663675,9028894e-3885-495f-a608-1e4e8e2e70df,Capital,Localização,Dica: ,Bandeira,Bandeira parecida com: {{Flag similarity}}.
-ZH,30c7ff39-56b5-4693-8e16-aa862eb7a619,d1c5ee7f-4a7a-4cff-939f-a06f865d68d2,首都,位置,提示：,旗帜,旗帜类似于：{{Flag similarity}}。
-ZH-TW,d75ad494-71f3-4909-beda-b80ec04c7a0d,4f11a863-ba7e-4c78-8426-9cd0f64a7b3a,首都,位置,提示：,旗幟,旗幟類似於：{{Flag similarity}}。
-PL,84786477-e28a-490e-958d-7b35946d7b11,d0fa593e-cf19-4ac9-a7f3-005ed6196957,Stolica,Położenie,Wskazówka: ,Flaga,Podobne flagi: {{Flag similarity}}.
-IT,cd65a274-7341-4e72-8de5-5d3d83ea4537,996b5985-fb94-479f-a468-67284891fa5d,Capitale,Posizione,Suggerimento: ,Bandiera,Bandiera simile a: {{Flag similarity}}.
-DA,15daaec7-4097-4d97-ba94-9db44f8b8f51,412504c7-cde6-426d-8110-454bb2b711c7,Hovedstad,Placering,Ledetråd: ,Flag,Flaget ligner {{Flag similarity}}.
+__LANGUAGE_CODE__,__DECK_ID__,__DECK_EXTENDED_ID__,__DECK_EXPERIMENTAL_ID__,__CAPITAL_TRANSLATION__,__LOCATION_TRANSLATION__,__HINT_TRANSLATION__,__FLAG_TRANSLATION__,__FLAG_SIMILARITY_TRANSLATION__
+EN,43e2586a-9a65-11e8-a777-a0481cc15658,0a39f994-daaf-11e8-b984-a0481cc15658,2e98b530-7583-5551-1fd7-51e6969d58ed,Capital,Location,Hint: ,Flag,Flag similar to {{Flag similarity}}.
+DE,cb3de16f-7c9c-4944-994a-e17ec2018c28,dc6c1ca9-b55f-429e-99dc-c61c35a20209,98c67202-2209-48c1-b3de-475fa58372af,Hauptstadt,Lage,Hinweis: ,Flagge,Flagge ähnlich wie {{Flag similarity}}.
+ES,0bacddfd-1e81-4e62-9152-bdff33db0374,03766b2c-0925-41d0-9a14-9bca36a3b605,b7610e2c-c28f-402a-b86a-57a44fdf11f7,Capital,Ubicación,Pista: ,Bandera,Bandera similar a {{Flag similarity}}.
+FR,fd72d808-58d4-43ea-97db-24196747f24c,d8f4db0e-310f-45d4-9143-a9c93dd658bb,15113ac3-6e6b-4ad3-9dca-e963ce4d0cf4,Capitale,Emplacement,Indice : ,Drapeau,Drapeau similaire à : {{Flag similarity}}.
+NB,8ccdc1f6-b042-4d55-8fcd-9e08b5b71dc7,a5caadfb-a5b4-41f2-a176-9e029e581368,f5b475fc-3c81-4644-b17f-500d1cf755d9,Hovedstad,Beliggenhet,Hint: ,Flagg,Flagg som ligner på {{Flag similarity}}.
+CS,47d13c81-b471-4471-8e87-ebad53fa7307,5ef3528d-e7c3-4d49-81e8-6c1c0a609a77,d7743e0d-0979-493a-83fa-67172ea63c07,Hlavní město,Poloha,Náznak: ,Vlajka,Vlajka podobná jako {{Flag similarity}}.
+RU,2aa62e36-601e-4e4c-a124-5a79b14f8697,03edf31b-c8ef-4fdd-855a-25846f1e1c13,1511e9fe-58e6-4d9a-89b2-1423b87c44b8,Столица,Местоположение,Подсказка: ,Флаг,Похожие флаги: {{Flag similarity}}.
+NL,8263244e-6f5e-457a-bb65-a836a6c058a3,666fd740-3670-4a45-98e5-dff3a7568ad5,6bce5589-39ce-496d-86e2-1148d9b19405,Hoofdstad,Ligging,Aanwijzing: ,Vlag,Vlag vergelijkbaar met {{Flag similarity}}.
+SV,3090ce89-5fd8-4107-86df-3e7a74ec288f,a8103c3e-f0a3-4943-98fc-492159b0944e,ce42a853-79d7-4b8f-85cc-61963effdb9c,Huvudstad,Läge,Ledtråd: ,Flagga,Flaggan liknar {{Flag similarity}}.
+PT,3da2a851-258c-447f-9d16-91a663663675,9028894e-3885-495f-a608-1e4e8e2e70df,6a7fe240-f6fb-4571-9f2a-fd30a9cf7709,Capital,Localização,Dica: ,Bandeira,Bandeira parecida com: {{Flag similarity}}.
+ZH,30c7ff39-56b5-4693-8e16-aa862eb7a619,d1c5ee7f-4a7a-4cff-939f-a06f865d68d2,10ca3bef-1f66-445c-adf2-fd0f55bf0762,首都,位置,提示：,旗帜,旗帜类似于：{{Flag similarity}}。
+ZH-TW,d75ad494-71f3-4909-beda-b80ec04c7a0d,4f11a863-ba7e-4c78-8426-9cd0f64a7b3a,4697c375-ef04-467a-8838-edecadd201d1,首都,位置,提示：,旗幟,旗幟類似於：{{Flag similarity}}。
+PL,84786477-e28a-490e-958d-7b35946d7b11,d0fa593e-cf19-4ac9-a7f3-005ed6196957,7ce20479-556c-4ef2-a1d4-9573a00a70fc,Stolica,Położenie,Wskazówka: ,Flaga,Podobne flagi: {{Flag similarity}}.
+IT,cd65a274-7341-4e72-8de5-5d3d83ea4537,996b5985-fb94-479f-a468-67284891fa5d,cf4488cc-2747-4b48-86a5-fa86ef99ab53,Capitale,Posizione,Suggerimento: ,Bandiera,Bandiera simile a: {{Flag similarity}}.
+DA,15daaec7-4097-4d97-ba94-9db44f8b8f51,412504c7-cde6-426d-8110-454bb2b711c7,85d39aa7-cfd5-41aa-8575-f39d3d5cd55b,Hovedstad,Placering,Ledetråd: ,Flag,Flaget ligner {{Flag similarity}}.
