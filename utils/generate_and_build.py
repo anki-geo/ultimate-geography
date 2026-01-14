@@ -55,8 +55,7 @@ def generate_templates():
     base_files = [path for path in base_dir.iterdir()]
     output_dir.mkdir(parents=True, exist_ok=True)
     english_base_case = [
-        ('name: Ultimate Geography [EN]', 'name: Ultimate Geography'),
-        ('name: Ultimate Geography [EN] [Extended]', 'name: Ultimate Geography [Extended]')
+        ('name: Ultimate Geography [EN]', 'name: Ultimate Geography')
     ]
 
     for row in rows:
