@@ -284,7 +284,7 @@ The flag's source URL and licence must be documented in `sources.csv`.
 The following guidelines apply to flag images:
 
 - The `viewBox`, `width` and `height` attributes are required.  (If the `viewBox` is originally missing, its value should usually be `viewBox="0 0 {width} {height}`, where `width` and `height` are the original values of these attributes.)
-- The height must be set to 250 px (`height="250"`) and the width adjusted proportionally.
+- The height must be set to 250 px (`height="250"`) and the width adjusted proportionally, rounded to the nearest integer.
 - Each flag must be optimised with [SVGO](https://jakearchibald.github.io/svgomg/).
 
 If the name of a country appears clearly on a flag, a second version of that flag may also be provided, with the name of the country blurred out. The name should be blurred using [Inkscape](https://inkscape.org/)'s Gaussian blur effect as explained in [587#issuecomment-1357163000][ref587]. The blurred flag must be named `ug-flag-<country_name>-blur.svg` and placed in the `media` folder. A second HTML element must then be added to the _Flag_ field _before_ the existing HTML element. This allows the blurred flag to appear on the front of the country's _Flag - Country_ card.
