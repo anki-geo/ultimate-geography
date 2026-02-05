@@ -285,10 +285,14 @@ def browse_wikimedia_source():
         check=True,
         text=True,
     )
-    first_changed_flag = [
+    changed_flags = [
         s.removeprefix("src/media/flags/") for s in result.stdout.split("\n") if
         s.startswith("src/media/flags/")
-    ][0]
+    ]
+    if len(changed_flags) == 0:
+        print("No changed flags!")
+        return
+    first_changed_flag = changed_flags[0]
 
     wikimedia_filename = list_flags_with_sources()[first_changed_flag]
 
