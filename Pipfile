@@ -18,4 +18,4 @@ build_experimental = "python utils/generate_and_build.py recipes/source_to_anki_
 generate_templates = "python utils/generate_and_build.py"
 zip = "python utils/zip_decks.py"
 flag_similarity = "python utils/flag_similarity.py"
-update_flags = "python utils/update_flags.py"
+update_flags = "python utils/update_flags.py fetch"
