@@ -34,6 +34,7 @@ RGB distance)
 as the `git-difftool-img` executable works well.
 
 """
+import argparse
 import csv
 import tempfile
 import re
@@ -303,6 +304,20 @@ def browse_wikimedia_source():
     webbrowser.open(wikimedia_url)
     webbrowser.open(wikipedia_url)
 
+def parse_args():
+    parser = argparse.ArgumentParser()
+    subparser = parser.add_subparsers(dest='subparser_name')
+
+    parser_source = subparser.add_parser("source", help="open Wikipedia and Wikimedia for the first changed flag.")
+    parser_fetch = subparser.add_parser("fetch", help="update all flags, fetching from Wikimedia.")
+
+    # parser_fetch.add_argument("--check-pixel-diff", action="store_true", help="use imagemagick to check pixel diff and discard changes with no diff")
+
+    args = parser.parse_args()
+
+    return args
+
+
 def main():
     with tempfile.TemporaryDirectory(dir=".") as temp_dir_:
         temp_dir = Path(temp_dir_)
@@ -311,9 +326,10 @@ def main():
 
 
 if __name__ == "__main__":
-    if len(sys.argv) == 1:
+    args = parse_args()
+    if args.subparser_name == "fetch":
         main()
-    elif (len(sys.argv) == 2) and (sys.argv[1] == "--source"):
+    elif args.subparser_name == "source":
         browse_wikimedia_source()
     else:
         raise ValueError("Unknown arguments.")
