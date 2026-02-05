@@ -20,6 +20,17 @@ git-difftool-img` with:
 compare -compose src "$1" "$2" png:- | montage -geometry 400x+2+2 "$1" "$2" png:- png:- | display -
 ```
 
+(for marking up any changed pixels)
+
+or
+
+```
+convert "$1" "$2" -fx "1 - sqrt(pow(u.r-v.r,2) + pow(u.g-v.g,2) + pow(u.b-v.b,2))" -normalize png:- | montage -geometry 400x+2+2 "$1" "$2" png:- png:- | display -
+```
+
+(for displaying the magnitude of the changes using a naive Euclidean
+RGB distance)
+
 as the `git-difftool-img` executable works well.
 
 """
