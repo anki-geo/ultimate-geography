@@ -41,7 +41,6 @@ import re
 import shutil
 import subprocess
 import webbrowser
-import sys
 
 from dataclasses import dataclass
 from pathlib import Path
@@ -191,7 +190,7 @@ def update_geometry(wikimedia_fetch: Path):
 #         initial_width_str = root.attrib["width"]
 #     else:
 #         raise ValueError("Missing width!")
-    
+
 #     if not "viewBox" in root.attrib:
 #         root.attrib["viewBox"] = f"0 0 {initial_width_str} {initial_height_str}"
 
@@ -226,8 +225,8 @@ def run_svgo(wikimedia_fetch) -> Path:
 
     if svgo_attempt.stat().st_size < wikimedia_fetch.stat().st_size:
         return svgo_attempt.move(wikimedia_fetch)
-    else:
-        return wikimedia_fetch
+
+    return wikimedia_fetch
 
 def move_svg_to_media_dir(wikimedia_fetch: Path) -> None:
     """Move the generated SVG to src/media/flags/"""
@@ -240,7 +239,7 @@ def update_flag(
     wikimedia_filename: str,
     temp_dir: Path,
 ) -> None:
-    """"""
+    """Fetch and update given flag."""
     wikimedia_fetch = fetch_flag_from_wikimedia(
         local_filename,
         wikimedia_filename,
@@ -255,11 +254,11 @@ def list_flags_with_sources() -> list[tuple[str, str]]:
 
     flags = {}
 
-    with open("sources.csv") as f:
+    with open("sources.csv", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
             mediatype = row["File"].split("-")[1]
-            is_blurred = (row["File"].split("-")[-1] == "blur.svg")
+            is_blurred = row["File"].split("-")[-1] == "blur.svg"
             if (mediatype == "flag") and (not is_blurred):
                 local_filename = row["File"]
                 # country = aug_map_country_dict[filename]
@@ -267,7 +266,9 @@ def list_flags_with_sources() -> list[tuple[str, str]]:
                 WIKIMEDIA_DESCRIPTION_PAGE_PREFIX = "https://commons.wikimedia.org/wiki/File:"
                 if not wikimedia_source.startswith(WIKIMEDIA_DESCRIPTION_PAGE_PREFIX):
                     raise ValueError(f"Non-wikimedia source: {wikimedia_source}!")
-                wikimedia_filename = wikimedia_source.removeprefix(WIKIMEDIA_DESCRIPTION_PAGE_PREFIX)
+                wikimedia_filename = wikimedia_source.removeprefix(
+                    WIKIMEDIA_DESCRIPTION_PAGE_PREFIX
+                )
 
                 flags[local_filename] = wikimedia_filename
 
@@ -297,18 +298,24 @@ def browse_wikimedia_source():
 
     wikimedia_filename = list_flags_with_sources()[first_changed_flag]
 
-    wikimedia_url = "https://commons.wikimedia.org/w/index.php?title=File:" + wikimedia_filename + "&limit=100#filehistory"
+    wikimedia_url = "https://commons.wikimedia.org/w/index.php?title=File:" + \
+        wikimedia_filename + "&limit=100#filehistory"
     country_name = first_changed_flag.removeprefix("ug-flag-").removesuffix(".svg")
-    wikipedia_url = "https://en.wikipedia.org/w/index.php?search=flag of " + country_name + "&title=Special%3ASearch"
+    wikipedia_url = "https://en.wikipedia.org/w/index.php?search=flag of " + \
+        country_name + "&title=Special%3ASearch"
 
     webbrowser.open(wikimedia_url)
     webbrowser.open(wikipedia_url)
 
 def parse_args():
+    """Parse CLI arguments."""
     parser = argparse.ArgumentParser()
     subparser = parser.add_subparsers(dest='subparser_name')
 
-    parser_source = subparser.add_parser("source", help="open Wikipedia and Wikimedia for the first changed flag.")
+    subparser.add_parser(
+        "source",
+        help="open Wikipedia and Wikimedia for the first changed flag."
+    )
     parser_fetch = subparser.add_parser("fetch", help="update all flags, fetching from Wikimedia.")
 
     # parser_fetch.add_argument("--check-pixel-diff", action="store_true", help="use imagemagick to check pixel diff and discard changes with no diff")
@@ -333,5 +340,3 @@ if __name__ == "__main__":
         browse_wikimedia_source()
     else:
         raise ValueError("Unknown arguments.")
-
-
