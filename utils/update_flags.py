@@ -150,11 +150,11 @@ def update_geometry(wikimedia_fetch: Path):
     view_box_a = Attrib.extract("viewBox", svg_text, svg_start, svg_end)
 
     if (width_a is None) and (height_a is None):
-        view_box_str = re.split(" |,", view_box_a.value)
-        if not len(view_box_str) == 4:
-            raise ValueError(f"viewBox has incorrect length {len(view_box_str)}!")
+        view_box_str_l = re.split(" |,", view_box_a.value)
+        if not len(view_box_str_l) == 4:
+            raise ValueError(f"viewBox has incorrect length {len(view_box_str_l)}!")
 
-        dimensions = [float(x) for x in view_box_str[2:4]]
+        dimensions = [float(x) for x in view_box_str_l[2:4]]
         new_width = round(dimensions[0] * (250/dimensions[1]))
         new_height = 250
 
@@ -309,7 +309,7 @@ def update_flag(
     if replace_current_version:
         move_svg_to_media_dir(wikimedia_fetch)
 
-def list_flags_with_sources() -> list[tuple[str, str]]:
+def list_flags_with_sources() -> dict[str, str]:
     """Create a tuple of local and wikimedia filenames of flags."""
 
     flags = {}
