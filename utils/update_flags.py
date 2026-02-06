@@ -36,10 +36,11 @@ as the `git-difftool-img` executable works well.
 """
 import argparse
 import csv
-import tempfile
+import os
 import re
 import shutil
 import subprocess
+import tempfile
 import webbrowser
 
 from dataclasses import dataclass
@@ -227,7 +228,8 @@ def run_svgo(wikimedia_fetch) -> Path:
     subprocess.run(["svgo", "-i", str(wikimedia_fetch), "-o", str(svgo_attempt)])
 
     if svgo_attempt.stat().st_size < wikimedia_fetch.stat().st_size:
-        return svgo_attempt.move(wikimedia_fetch)
+        #svgo_attempt.move(wikimedia_fetch)
+        os.replace(svgo_attempt, wikimedia_fetch)
 
     return wikimedia_fetch
 
