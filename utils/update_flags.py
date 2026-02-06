@@ -368,13 +368,22 @@ def browse_wikimedia_source():
 def parse_args():
     """Parse CLI arguments."""
     parser = argparse.ArgumentParser()
-    subparser = parser.add_subparsers(dest='subparser_name')
+    subparser = parser.add_subparsers(
+        dest='subparser_name',
+        required=True,
+    )
 
     subparser.add_parser(
         "source",
         help="open Wikipedia and Wikimedia for the first changed flag."
     )
     parser_fetch = subparser.add_parser("fetch", help="update all flags, fetching from Wikimedia.")
+
+    parser_fetch.add_argument(
+        "country_flags",
+        nargs="*",
+        help="list of flag svg files to be updated.  e.g. ug-flag-andorra.svg.  if empty update all.",
+    )
 
     parser_fetch.add_argument(
         "--check-pixel-diff",
@@ -385,11 +394,24 @@ def parse_args():
     return parser.parse_args()
 
 
-def main(check_pixel_diff: bool = False):
+def main(
+    country_flags: list[str] | None = None,
+    check_pixel_diff: bool = False
+):
     """Run fetch/update for all flags."""
     with tempfile.TemporaryDirectory(dir=".") as temp_dir_:
         temp_dir = Path(temp_dir_)
-        for local_filename, wikimedia_filename in list_flags_with_sources().items():
+        flag_lookup_full = list_flags_with_sources()
+        if country_flags:
+            flag_lookup_subset = {}
+            for local_filename in country_flags:
+                if local_filename in flag_lookup_full:
+                    flag_lookup_subset[local_filename] = flag_lookup_full[local_filename]
+                else:
+                    raise ValueError(f"Flag filename '{local_filename}' is not present in sources.csv!")
+        else:
+            flag_lookup_subset = flag_lookup_full
+        for local_filename, wikimedia_filename in flag_lookup_subset.items():
             update_flag(
                 local_filename, wikimedia_filename, temp_dir, check_pixel_diff=check_pixel_diff
             )
@@ -398,7 +420,7 @@ def main(check_pixel_diff: bool = False):
 if __name__ == "__main__":
     args = parse_args()
     if args.subparser_name == "fetch":
-        main(args.check_pixel_diff)
+        main(args.country_flags, args.check_pixel_diff)
     elif args.subparser_name == "source":
         browse_wikimedia_source()
     else:
