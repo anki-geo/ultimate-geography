@@ -47,6 +47,9 @@ from pathlib import Path
 
 import requests
 
+FLAG_MEDIA_DIR = Path(".") / "src" / "media" / "flags"
+
+
 def fetch_flag_from_wikimedia(
     local_filename: str,
     wikimedia_filename: str,
@@ -230,14 +233,64 @@ def run_svgo(wikimedia_fetch) -> Path:
 
 def move_svg_to_media_dir(wikimedia_fetch: Path) -> None:
     """Move the generated SVG to src/media/flags/"""
-    target_dir = Path(".") / "src" / "media" / "flags"
-    target_file = target_dir / wikimedia_fetch.name
+    target_file = FLAG_MEDIA_DIR / wikimedia_fetch.name
     shutil.move(wikimedia_fetch, target_file)
+
+def files_differ_pixel_wise(wikimedia_fetch: Path) -> bool:
+    """Check if the current/new images differ pixel-wise.
+
+    Return True if files differ.
+
+    This is to decide if we want to replace the file or not.
+
+    We currently check if there is no pixel difference (a difference
+    of 0 pixels).
+
+    This is unfortunately necessary, since svgo sometimes changes the
+    order of attributes.  We could try to normalise the SVG/XML files,
+    but this feels simpler and more flexible (if we decide to, we
+    could also deal with cases where the current and new images differ
+    by a couple of pixels.)
+
+    This compares the two images pixel-by-pixel according to the SVGs'
+    nominal size.  (Technically, given that we're comparing vector
+    images, this means that if there is a difference in the fine
+    detail at the "sub-pixel" level that happens to round to the same
+    colour value for that pixel, the tool can falsely mark two files
+    as identical, when they're not.)
+
+    """
+    current_file = FLAG_MEDIA_DIR / wikimedia_fetch.name
+    if not(current_file.is_file()):
+        # Should we maybe just warn, and abort comparison, instead?
+        raise FileNotFoundError(f"File {str(current_file)} does not exist!")
+
+    # compare -metric AE -channel rgba +fuzz "$1" "$2"  null:
+    out = subprocess.run(
+        [
+            "compare",
+            "-metric",
+            "AE",
+            "-channel",
+            "rgba",
+            "+fuzz",
+            str(wikimedia_fetch),
+            str(current_file),
+            "null:",
+        ],
+        check=False,
+        capture_output=True,
+    )
+
+    pixel_difference = int(out.stderr.decode("utf-8"))
+
+    return pixel_difference > 0
 
 def update_flag(
     local_filename: str,
     wikimedia_filename: str,
     temp_dir: Path,
+    check_pixel_diff: bool = False,
 ) -> None:
     """Fetch and update given flag."""
     wikimedia_fetch = fetch_flag_from_wikimedia(
@@ -247,7 +300,12 @@ def update_flag(
     )
     update_geometry(wikimedia_fetch)
     wikimedia_fetch = run_svgo(wikimedia_fetch)
-    move_svg_to_media_dir(wikimedia_fetch)
+    replace_current_version = True
+    if check_pixel_diff:
+        replace_current_version = files_differ_pixel_wise(wikimedia_fetch)
+
+    if replace_current_version:
+        move_svg_to_media_dir(wikimedia_fetch)
 
 def list_flags_with_sources() -> list[tuple[str, str]]:
     """Create a tuple of local and wikimedia filenames of flags."""
@@ -318,24 +376,29 @@ def parse_args():
     )
     parser_fetch = subparser.add_parser("fetch", help="update all flags, fetching from Wikimedia.")
 
-    # parser_fetch.add_argument("--check-pixel-diff", action="store_true", help="use imagemagick to check pixel diff and discard changes with no diff")
+    parser_fetch.add_argument(
+        "--check-pixel-diff",
+        action="store_true",
+        help="use imagemagick to check pixel diff and discard changes with no diff",
+    )
 
-    args = parser.parse_args()
-
-    return args
+    return parser.parse_args()
 
 
-def main():
+def main(check_pixel_diff: bool = False):
+    """Run fetch/update for all flags."""
     with tempfile.TemporaryDirectory(dir=".") as temp_dir_:
         temp_dir = Path(temp_dir_)
         for local_filename, wikimedia_filename in list_flags_with_sources().items():
-            update_flag(local_filename, wikimedia_filename, temp_dir)
+            update_flag(
+                local_filename, wikimedia_filename, temp_dir, check_pixel_diff=check_pixel_diff
+            )
 
 
 if __name__ == "__main__":
     args = parse_args()
     if args.subparser_name == "fetch":
-        main()
+        main(args.check_pixel_diff)
     elif args.subparser_name == "source":
         browse_wikimedia_source()
     else:
