@@ -19,6 +19,7 @@ function getMapConfig() {
     questionCardSideName: "question",
     answerCardSideName: "answer",
     selectedRegionSessionKey: "selectedRegion",
+    viewStateSessionKey: "mapViewState",
     mapSvgId: "world"
   }
   configObj.commonColors = {
@@ -43,6 +44,11 @@ function getMapConfig() {
     map: configObj.commonConfig.mapSvgId,
     zoomButtons: false,
     zoomMax: 25,
+    // jsVectorMap's built-in wheel handler bit-shifts deltaY (>> 10) and applies
+    // a 1.4x/0.71x multiplier per event, which compounds across the many events
+    // a trackpad fires per flick and snaps to zoomMin/zoomMax. We disable it
+    // and attach a delta-normalized handler in init.js (attachSmoothZoom).
+    zoomOnScroll: false,
     backgroundColor: configObj.commonColors.background,
     regionStyle: {
       initial: {
