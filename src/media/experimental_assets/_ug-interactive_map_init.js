@@ -268,9 +268,7 @@
    * by the user on question side region is correct
    */
   function getRegionColor() {
-    const expected = (commonConfig.regionCode || "").trim().toUpperCase();
-    const actual = (sessionStorage.getItem(commonConfig.selectedRegionSessionKey) || "").trim().toUpperCase();
-    return expected && expected === actual
+    return commonConfig.regionCode === sessionStorage.getItem(commonConfig.selectedRegionSessionKey)
       ? commonColors.correctRegionHighlight
       : commonColors.incorrectRegionHighlight;
   }
