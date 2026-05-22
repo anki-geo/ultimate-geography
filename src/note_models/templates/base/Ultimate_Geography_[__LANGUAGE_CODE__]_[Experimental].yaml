@@ -4,18 +4,24 @@ css_file: src/note_models/style_[Experimental].css
 fields:
   - name: Country
     font: Arial
+    is_right_to_left: __IS_RIGHT_TO_LEFT__
   - name: Country info
     font: Arial
+    is_right_to_left: __IS_RIGHT_TO_LEFT__
   - name: Capital
     font: Arial
+    is_right_to_left: __IS_RIGHT_TO_LEFT__
   - name: Capital info
     font: Arial
+    is_right_to_left: __IS_RIGHT_TO_LEFT__
   - name: Capital hint
     font: Arial
+    is_right_to_left: __IS_RIGHT_TO_LEFT__
   - name: Flag
     font: Arial
   - name: Flag similarity
     font: Arial
+    is_right_to_left: __IS_RIGHT_TO_LEFT__
   - name: Map
     font: Arial
   - name: Region code
