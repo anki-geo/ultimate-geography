@@ -1,0 +1,79 @@
+id: overlay.translation.hardcore.nb
+kind: translation
+translations:
+  changes:
+    Autonomous city of Spain:
+      notes.note.melilla.fields.field.country-info: 'Spansk by og enklave på Marokkos middelhavskyst.'
+    Autonomous city of Spain.:
+      notes.note.ceuta.fields.field.country-info: Selvstyrt by i Spania.
+    Autonomous orthodox monastic state in northeastern Greece, also known as the Holy Mountain.:
+      notes.note.mount-athos.fields.field.country-info: 'Autonom munkerepublikk i Nord-Hellas. Også kalt Det hellige berget.'
+    British Indian Ocean Territory:
+      notes.note.british-indian-ocean-territory.fields.field.country: Det britiske territoriet i Indiahavet
+    Christmas Island:
+      notes.note.christmas-island.fields.field.country: 'Christmasøya'
+    'Cocos (Keeling) Islands':
+      notes.note.cocos-keeling-islands.fields.field.country: 'Kokosøyene'
+    'Dependent territory of New Zealand. Tokelau has no official capital; the meeting place of the Tokelau Council rotates annually.':
+      notes.note.tokelau.fields.field.country-info: Newzealandsk territorium.
+    Easter Island:
+      notes.note.easter-island.fields.field.country: 'Påskeøya'
+    Eruptions in 1997 destroyed the capital city of Plymouth, making Brades the de facto capital.:
+      notes.note.montserrat.fields.field.capital-info: 'Vulkanutbrudd i 1997 ødela hovedstaden Plymouth, og Brades ble de facto hovedstad.'
+    External territory of Australia.:
+      notes.note.christmas-island.fields.field.country-info: 'Australsk territorium. '
+      notes.note.cocos-keeling-islands.fields.field.country-info: Australsk territorium.
+      notes.note.norfolk-island.fields.field.country-info: Selvstyrt australsk territorium.
+    'Galápagos Islands':
+      notes.note.gal-pagos-islands.fields.field.country: 'Galápagosøyene'
+    Mount Athos:
+      notes.note.mount-athos.fields.field.country: Athos
+    Norfolk Island:
+      notes.note.norfolk-island.fields.field.country: 'Norfolkøya'
+    Not a sovereign country:
+      notes.note.norfolk-island.fields.field.capital-hint: Ikke selvstendig land
+    Overseas territory of France.:
+      notes.note.saint-barth-lemy.fields.field.country-info: 'Fransk oversjøisk land.'
+    Overseas territory of the United Kingdom.:
+      notes.note.british-indian-ocean-territory.fields.field.country-info: Britisk besittelse.
+      notes.note.montserrat.fields.field.country-info: 'Britisk oversjøisk territorium i Karibia.'
+      notes.note.pitcairn-islands.fields.field.country-info: 'Oversjøisk britisk territorium.'
+    Part of Saint Helena, Ascension and Tristan da Cunha, an overseas territory of the United Kingdom.:
+      notes.note.saint-helena.fields.field.country-info: 'Del av det britiske oversjøiske territoriet Sankt Helena, Ascencion og Tristan da Cunha.'
+    Pitcairn Islands:
+      notes.note.pitcairn-islands.fields.field.country: 'Pitcairnøyene'
+    Polynesian island and special territory of Chile.:
+      notes.note.easter-island.fields.field.country-info: Territorium i Chile.
+    Province of Ecuador.:
+      notes.note.gal-pagos-islands.fields.field.country-info: Region i Ecuador.
+    'Saint Barthélemy':
+      notes.note.saint-barth-lemy.fields.field.country: 'Saint-Barthélemy'
+    Saint Helena:
+      notes.note.saint-helena.fields.field.country: Sankt Helena
+    'Sierra Leone (slightly lighter blue)':
+      notes.note.gal-pagos-islands.fields.field.flag-similarity: 'Sierra Leone (noe lysere blå)'
+    Special municipality:
+      notes.note.sint-eustatius.fields.field.capital-hint: 'Kommune med særstatus'
+    Special municipality of the Netherlands.:
+      notes.note.bonaire.fields.field.country-info: Kommune med spesiell status i Nederland.
+      notes.note.saba.fields.field.country-info: 'Kommune med særstatus i Nederland. Øy i Karibia.'
+      notes.note.sint-eustatius.fields.field.country-info: 'Kommune med særstatus i Nederland.'
+  adapter_ids:
+    crowdanki:guid:
+      'ArmciP%a;a': 'MbG/JnL:&+'
+      'd~3m`ihA*b': 'r7?UN(TOGN'
+      'ga97y4Zy0{': 'P`s}X]%%n.'
+      'i;=jdbhl(w': 'jIz>`|hUIr'
+      'iq7o#n0juD': 'DW#h,Zuo@q'
+      'j=,1:f39$]': 'zi5;ldYAqH'
+      'k3]]2^DP1R': EnAv,,VVPR
+      'khTp#J9C!!': 'plI1yB<kX('
+      'mCh>s18~IX': 'v<aG9C*T)T'
+      mvNnHkGnVl: 'j!<I^LCcV7'
+      'nN<IGBxnX.': 'pXa@D`R4/-'
+      'nipI.lOoC;': 'mmyl~NieUk'
+      'qAsU}ONgC#': 'K`qJAIkCz8'
+      'r3?J{NB0J3': dPRe6jU4Xj
+      'rHh8*,y.yc': 'h.6pb4:Q?D'
+      'rNv|0qxR]K': yAT,9Ztyyn
+      '~)7-62ytBX': 'B?Tc@+MK0s'

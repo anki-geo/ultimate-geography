@@ -5,6 +5,38 @@ package:
     - '>=0.1,<0.2'
 base: deck.yaml
 overlays:
+  overlay.extension.hardcore:
+    file: overlays/extensions/hardcore.yaml
+    kind: extension
+  overlay.extension.hardcore.field-fills:
+    file: overlays/extensions/hardcore/field-fills.yaml
+    kind: extension
+    depends_on:
+      - overlay.extension.hardcore
+  overlay.extension.hardcore.field-fills.de:
+    file: overlays/extensions/hardcore/field-fills/de.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.hardcore.de
+      - overlay.extension.hardcore.field-fills
+  overlay.extension.hardcore.field-fills.es:
+    file: overlays/extensions/hardcore/field-fills/es.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.hardcore.es
+      - overlay.extension.hardcore.field-fills
+  overlay.extension.hardcore.field-fills.fr:
+    file: overlays/extensions/hardcore/field-fills/fr.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.hardcore.fr
+      - overlay.extension.hardcore.field-fills
+  overlay.extension.hardcore.field-fills.nb:
+    file: overlays/extensions/hardcore/field-fills/nb.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.hardcore.nb
+      - overlay.extension.hardcore.field-fills
   overlay.translation.cs:
     file: overlays/languages/cs.yaml
     kind: translation
@@ -20,6 +52,78 @@ overlays:
   overlay.translation.fr:
     file: overlays/languages/fr.yaml
     kind: translation
+  overlay.translation.hardcore.cs:
+    file: overlays/extensions/hardcore/translations/cs.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.cs
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.de:
+    file: overlays/extensions/hardcore/translations/de.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.de
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.es:
+    file: overlays/extensions/hardcore/translations/es.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.es
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.fr:
+    file: overlays/extensions/hardcore/translations/fr.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.fr
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.it:
+    file: overlays/extensions/hardcore/translations/it.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.it
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.nb:
+    file: overlays/extensions/hardcore/translations/nb.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.nb
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.nl:
+    file: overlays/extensions/hardcore/translations/nl.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.nl
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.pl:
+    file: overlays/extensions/hardcore/translations/pl.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.pl
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.pt:
+    file: overlays/extensions/hardcore/translations/pt.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.pt
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.ru:
+    file: overlays/extensions/hardcore/translations/ru.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.ru
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.sv:
+    file: overlays/extensions/hardcore/translations/sv.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.sv
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.zh:
+    file: overlays/extensions/hardcore/translations/zh.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.zh
+      - overlay.extension.hardcore
   overlay.translation.it:
     file: overlays/languages/it.yaml
     kind: translation
@@ -240,6 +344,15 @@ targets:
   cs-extended:
     overlays:
       - overlay.variant.extended.cs
+  cs-hardcore-extended:
+    overlays:
+      - overlay.variant.extended.cs
+      - overlay.translation.hardcore.cs
+      - overlay.extension.hardcore.field-fills
+  cs-hardcore-standard:
+    overlays:
+      - overlay.translation.hardcore.cs
+      - overlay.extension.hardcore.field-fills
   cs-standard:
     overlays:
       - overlay.translation.cs
@@ -258,6 +371,13 @@ targets:
   de-extended:
     overlays:
       - overlay.variant.extended.de
+  de-hardcore-extended:
+    overlays:
+      - overlay.variant.extended.de
+      - overlay.extension.hardcore.field-fills.de
+  de-hardcore-standard:
+    overlays:
+      - overlay.extension.hardcore.field-fills.de
   de-standard:
     overlays:
       - overlay.translation.de
@@ -267,6 +387,13 @@ targets:
   en-extended:
     overlays:
       - overlay.variant.extended.en
+  en-hardcore-extended:
+    overlays:
+      - overlay.variant.extended.en
+      - overlay.extension.hardcore.field-fills
+  en-hardcore-standard:
+    overlays:
+      - overlay.extension.hardcore.field-fills
   en-standard:
     overlays: []
   es-experimental:
@@ -275,6 +402,13 @@ targets:
   es-extended:
     overlays:
       - overlay.variant.extended.es
+  es-hardcore-extended:
+    overlays:
+      - overlay.variant.extended.es
+      - overlay.extension.hardcore.field-fills.es
+  es-hardcore-standard:
+    overlays:
+      - overlay.extension.hardcore.field-fills.es
   es-standard:
     overlays:
       - overlay.translation.es
@@ -284,6 +418,13 @@ targets:
   fr-extended:
     overlays:
       - overlay.variant.extended.fr
+  fr-hardcore-extended:
+    overlays:
+      - overlay.variant.extended.fr
+      - overlay.extension.hardcore.field-fills.fr
+  fr-hardcore-standard:
+    overlays:
+      - overlay.extension.hardcore.field-fills.fr
   fr-standard:
     overlays:
       - overlay.translation.fr
@@ -293,6 +434,15 @@ targets:
   it-extended:
     overlays:
       - overlay.variant.extended.it
+  it-hardcore-extended:
+    overlays:
+      - overlay.variant.extended.it
+      - overlay.translation.hardcore.it
+      - overlay.extension.hardcore.field-fills
+  it-hardcore-standard:
+    overlays:
+      - overlay.translation.hardcore.it
+      - overlay.extension.hardcore.field-fills
   it-standard:
     overlays:
       - overlay.translation.it
@@ -302,6 +452,13 @@ targets:
   nb-extended:
     overlays:
       - overlay.variant.extended.nb
+  nb-hardcore-extended:
+    overlays:
+      - overlay.variant.extended.nb
+      - overlay.extension.hardcore.field-fills.nb
+  nb-hardcore-standard:
+    overlays:
+      - overlay.extension.hardcore.field-fills.nb
   nb-standard:
     overlays:
       - overlay.translation.nb
@@ -311,6 +468,15 @@ targets:
   nl-extended:
     overlays:
       - overlay.variant.extended.nl
+  nl-hardcore-extended:
+    overlays:
+      - overlay.variant.extended.nl
+      - overlay.translation.hardcore.nl
+      - overlay.extension.hardcore.field-fills
+  nl-hardcore-standard:
+    overlays:
+      - overlay.translation.hardcore.nl
+      - overlay.extension.hardcore.field-fills
   nl-standard:
     overlays:
       - overlay.translation.nl
@@ -320,6 +486,15 @@ targets:
   pl-extended:
     overlays:
       - overlay.variant.extended.pl
+  pl-hardcore-extended:
+    overlays:
+      - overlay.variant.extended.pl
+      - overlay.translation.hardcore.pl
+      - overlay.extension.hardcore.field-fills
+  pl-hardcore-standard:
+    overlays:
+      - overlay.translation.hardcore.pl
+      - overlay.extension.hardcore.field-fills
   pl-standard:
     overlays:
       - overlay.translation.pl
@@ -329,6 +504,15 @@ targets:
   pt-extended:
     overlays:
       - overlay.variant.extended.pt
+  pt-hardcore-extended:
+    overlays:
+      - overlay.variant.extended.pt
+      - overlay.translation.hardcore.pt
+      - overlay.extension.hardcore.field-fills
+  pt-hardcore-standard:
+    overlays:
+      - overlay.translation.hardcore.pt
+      - overlay.extension.hardcore.field-fills
   pt-standard:
     overlays:
       - overlay.translation.pt
@@ -338,6 +522,15 @@ targets:
   ru-extended:
     overlays:
       - overlay.variant.extended.ru
+  ru-hardcore-extended:
+    overlays:
+      - overlay.variant.extended.ru
+      - overlay.translation.hardcore.ru
+      - overlay.extension.hardcore.field-fills
+  ru-hardcore-standard:
+    overlays:
+      - overlay.translation.hardcore.ru
+      - overlay.extension.hardcore.field-fills
   ru-standard:
     overlays:
       - overlay.translation.ru
@@ -347,6 +540,15 @@ targets:
   sv-extended:
     overlays:
       - overlay.variant.extended.sv
+  sv-hardcore-extended:
+    overlays:
+      - overlay.variant.extended.sv
+      - overlay.translation.hardcore.sv
+      - overlay.extension.hardcore.field-fills
+  sv-hardcore-standard:
+    overlays:
+      - overlay.translation.hardcore.sv
+      - overlay.extension.hardcore.field-fills
   sv-standard:
     overlays:
       - overlay.translation.sv
@@ -356,6 +558,15 @@ targets:
   zh-extended:
     overlays:
       - overlay.variant.extended.zh
+  zh-hardcore-extended:
+    overlays:
+      - overlay.variant.extended.zh
+      - overlay.translation.hardcore.zh
+      - overlay.extension.hardcore.field-fills
+  zh-hardcore-standard:
+    overlays:
+      - overlay.translation.hardcore.zh
+      - overlay.extension.hardcore.field-fills
   zh-standard:
     overlays:
       - overlay.translation.zh

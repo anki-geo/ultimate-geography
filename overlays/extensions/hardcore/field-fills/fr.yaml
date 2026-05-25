@@ -1,0 +1,64 @@
+id: overlay.extension.hardcore.field-fills.fr
+kind: extension
+notes:
+  note.canary-islands:
+    intent: merge
+    fields:
+      field.capital:
+        intent: override
+        value: Santa Cruz de Tenerife, Las Palmas de Grande Canarie
+        expected_base:
+          value: Santa Cruz de Tenerife, Las Palmas
+      field.capital-info:
+        intent: override
+        value: 'Le statut de capitale est partagé entre les villes de Santa Cruz et Las Palmas.'
+        expected_base:
+          value: The capital is shared between the two cities of Santa Cruz de Tenerife and Las Palmas.
+  note.cayman-islands:
+    intent: merge
+    fields:
+      field.capital-hint:
+        intent: override
+        value: Pas une nation souveraine
+        expected_base:
+          value: Not a sovereign country
+  note.guadeloupe:
+    intent: merge
+    fields:
+      field.capital-hint:
+        intent: override
+        value: Pas une nation souveraine
+        expected_base:
+          value: Not a sovereign country
+  note.guernsey:
+    intent: merge
+    fields:
+      field.capital:
+        intent: override
+        value: Saint-Pierre-Port
+        expected_base:
+          value: St. Peter Port
+  note.jersey:
+    intent: merge
+    fields:
+      field.capital:
+        intent: override
+        value: 'Saint-Hélier'
+        expected_base:
+          value: Saint Helier
+  note.sicily:
+    intent: merge
+    fields:
+      field.capital:
+        intent: override
+        value: Palerme
+        expected_base:
+          value: Palermo
+  note.zanzibar:
+    intent: merge
+    fields:
+      field.capital:
+        intent: override
+        value: Zanzibar
+        expected_base:
+          value: Zanzibar City

@@ -1,0 +1,48 @@
+id: overlay.extension.hardcore.field-fills.nb
+kind: extension
+notes:
+  note.canary-islands:
+    intent: merge
+    fields:
+      field.capital:
+        intent: override
+        value: 'Santa Cruz på Tenerife, Las Palmas på Gran Canaria'
+        expected_base:
+          value: Santa Cruz de Tenerife, Las Palmas
+      field.capital-info:
+        intent: override
+        value: 'De to byene Santa Cruz på Tenerife og Las Palmas på Gran Canaria deler hovedstadsstatusen.'
+        expected_base:
+          value: The capital is shared between the two cities of Santa Cruz de Tenerife and Las Palmas.
+  note.cayman-islands:
+    intent: merge
+    fields:
+      field.capital-hint:
+        intent: override
+        value: Ikke selvstendig land
+        expected_base:
+          value: Not a sovereign country
+  note.corsica:
+    intent: merge
+    fields:
+      field.capital:
+        intent: override
+        value: Bastia i Haute-Corse og Ajaccio i Corse-du-Sud
+        expected_base:
+          value: Ajaccio
+  note.guadeloupe:
+    intent: merge
+    fields:
+      field.capital-hint:
+        intent: override
+        value: Ikke selvstendig land
+        expected_base:
+          value: Not a sovereign country
+  note.zanzibar:
+    intent: merge
+    fields:
+      field.capital:
+        intent: override
+        value: Zanzibar by
+        expected_base:
+          value: Zanzibar City
