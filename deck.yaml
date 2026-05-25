@@ -32,6 +32,7 @@ note_types:
       label.location: Location
       note-type.name: Ultimate Geography
       sentence.flag-similar: 'Flag similar to {{Flag similarity}}.'
+      text.direction: ltr
       variant.name-suffix: ''
     field_order:
       - field.country
@@ -156,6 +157,7 @@ note_types:
         padding: 1em 0;
         background-color: white;
         color: black;
+        direction: ${text.direction};
         font-family: Verdana;
         font-size: 16px;
         text-align: center;

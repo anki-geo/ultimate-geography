@@ -124,6 +124,9 @@ overlays:
     depends_on:
       - overlay.translation.zh
       - overlay.extension.hardcore
+  overlay.translation.he:
+    file: overlays/languages/he.yaml
+    kind: translation
   overlay.translation.it:
     file: overlays/languages/it.yaml
     kind: translation
@@ -190,6 +193,12 @@ overlays:
     kind: extension
     depends_on:
       - overlay.translation.fr
+      - overlay.variant.experimental
+  overlay.variant.experimental.he:
+    file: overlays/variants/experimental/he.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.he
       - overlay.variant.experimental
   overlay.variant.experimental.it:
     file: overlays/variants/experimental/it.yaml
@@ -282,6 +291,12 @@ overlays:
     kind: extension
     depends_on:
       - overlay.translation.fr
+      - overlay.variant.extended
+  overlay.variant.extended.he:
+    file: overlays/variants/extended/he.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.he
       - overlay.variant.extended
   overlay.variant.extended.it:
     file: overlays/variants/extended/it.yaml
@@ -428,6 +443,15 @@ targets:
   fr-standard:
     overlays:
       - overlay.translation.fr
+  he-experimental:
+    overlays:
+      - overlay.variant.experimental.he
+  he-extended:
+    overlays:
+      - overlay.variant.extended.he
+  he-standard:
+    overlays:
+      - overlay.translation.he
   it-experimental:
     overlays:
       - overlay.variant.experimental.it
