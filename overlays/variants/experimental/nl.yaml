@@ -1,0 +1,11 @@
+id: overlay.variant.experimental.nl
+kind: extension
+note_types:
+  note-type.ultimate-geography:
+    intent: merge
+    adapter_ids:
+      crowdanki:uuid:
+        intent: override
+        value: 6bce5589-39ce-496d-86e2-1148d9b19405
+        expected_base:
+          value: 8263244e-6f5e-457a-bb65-a836a6c058a3

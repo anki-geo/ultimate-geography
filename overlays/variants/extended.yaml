@@ -1,0 +1,80 @@
+id: overlay.variant.extended
+kind: extension
+note_types:
+  note-type.ultimate-geography:
+    intent: merge
+    variables:
+      variant.name-suffix:
+        intent: replace
+        value: ' [Extended]'
+        expected_base:
+          value: ''
+    card_templates:
+      template.country-flag:
+        intent: add
+        insert_after: template.capital-country
+        template:
+          name: Country - Flag
+          question_format: |-
+            {{#Flag}}
+              <div class="value value--top">{{Country}}</div>
+              {{#Country info}}<div class="info">{{Country info}}</div>{{/Country info}}
+            
+              <hr>
+            
+              <div class="type">${label.flag}</div>
+              <div class="value value--image">
+                <svg
+                  class="placeholder"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="417"
+                  height="250"
+                  viewBox="0 0 417 250"
+                >
+                  <path d="m2 26s45-24 129-24c86 0 146 25 210 25 64 0 74-10 74-10v218s-25 13-83 13-146-25-206-25c-60 0-123 19-123 19z" />
+                </svg>
+              </div>
+            {{/Flag}}
+          answer_format: |
+            <div class="value value--top">{{Country}}</div>
+            {{#Country info}}<div class="info">{{Country info}}</div>{{/Country info}}
+            
+            <hr id=answer>
+            
+            <div class="type">${label.flag}</div>
+            <div class="value value--image value--back">{{Flag}}</div>
+            {{#Flag similarity}}<div class="info">${sentence.flag-similar}</div>{{/Flag similarity}}
+          adapter_ids: {}
+      template.country-map:
+        intent: add
+        insert_after: template.flag-country
+        template:
+          name: Country - Map
+          question_format: |-
+            {{#Map}}
+              <div class="value value--top">{{Country}}</div>
+            
+              <hr>
+            
+              <div class="type">${label.location}</div>
+              <div class="value value--image">
+                <svg
+                  class="placeholder"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="500"
+                  height="308"
+                  viewBox="0 0 500 308"
+                >
+                  <path d="m154 2s-151 44-152 152c-1 108 152 152 152 152h193s151-44 151-152c1-107-151-152-151-152z" />
+                </svg>
+              </div>
+            {{/Map}}
+          answer_format: |
+            <div class="value value--top">{{Country}}</div>
+            {{#Country info}}<div class="info">{{Country info}}</div>{{/Country info}}
+            
+            <hr id=answer>
+            
+            <div class="type">${label.location}</div>
+            <div class="value value--image">{{Map}}</div>
+          adapter_ids: {}

@@ -1,0 +1,872 @@
+id: overlay.translation.pt
+kind: translation
+translations:
+  changes:
+    'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.': 'Existe uma disputa de nomenclatura entre os países limítrofes do mar, com a Coreia do Sul apoiando notavelmente o nome Mar do Leste.'
+    Abkhazia: 'Abecásia'
+    Abu Dhabi: Abu Dabi
+    Accra: Acra
+    Addis Ababa: Adis Abeba
+    Adriatic Sea: 'Mar Adriático'
+    Aegean Sea: Mar Egeu
+    Afghanistan: 'Afeganistão'
+    Africa: 'África'
+    Akrotiri and Dhekelia: 'Acrotíri e Deceleia'
+    Alaska: Alasca
+    Albania: 'Albânia'
+    Algeria: 'Argélia'
+    Algiers: Argel
+    Also known as Burma.: ''
+    Also known as Cabo Verde.: ''
+    Also known as Czechia.: ''
+    Also known as East Timor.: ''
+    Also known as Kiev.: ''
+    'Also known as Türkiye': ''
+    Also known as the Gulf of Siam.: ''
+    Also known as the Sea of Cortez.: 'Também conhecido como Mar de Cortez.'
+    'Also spelled as Sana''a.': ''
+    American Samoa: Samoa Americana
+    Amman: 'Amã'
+    Amsterdam: 'Amsterdã (BR), Amsterdão (PT)'
+    'Andorra (narrower, coat of arms with motto)': 'Andorra (mais estreita, brasão com lema)'
+    Andorra la Vella: Andorra-a-Velha
+    Anguilla: Anguila
+    Ankara: Ancara
+    Antarctica: 'Antártica'
+    Antigua and Barbuda: 'Antígua e Barbuda'
+    Arabian Sea: 'Mar Arábico'
+    Aral Sea: Mar de Aral
+    Arctic Ocean: 'Oceano Ártico'
+    Armenia: 'Armênia (BR), Arménia (PT)'
+    Ashgabat: Asgabate
+    Asia: 'Ásia'
+    'Asunción': 'Assunção'
+    Athens: Atenas
+    Atlantic Ocean: 'Oceano Atlântico'
+    Australia: 'Austrália'
+    'Australia (white stars, two more stars)': 'Austrália (estrelas brancas, duas estrelas a mais)'
+    Austria: 'Áustria'
+    'Austria (brighter red, wider white band)': 'Áustria (vermelho mais brilhante, faixa branca mais larga)'
+    Autonomous community of Spain.: 'Comunidade autônoma da Espanha.'
+    Autonomous province of South Korea.: 'Província autônoma da Coreia do Sul.'
+    Autonomous region of Finland.: 'Região autônoma da Finlândia.'
+    Autonomous region of Italy.: 'Região autônoma da Itália.'
+    Autonomous region of Papua New Guinea.: 'Região autônoma de Papua-Nova Guiné.'
+    Autonomous region of Portugal.:
+      notes.note.azores.fields.field.country-info: 'Região autônoma de Portugal.'
+      notes.note.madeira.fields.field.country-info: 'Região Autônoma de Portugal.'
+    Azerbaijan: 'Azerbaijão'
+    Azores: 'Açores'
+    Baghdad: 'Bagdá (BR), Bagdade (PT)'
+    Bahrain: 'Barém'
+    'Bahrain (narrower, fewer serrated edges, red)': 'Barém (mais estreita, menos bordas serrilhadas, vermelha)'
+    Baku: Bacu
+    Balkan Peninsula: 'Bálcãs'
+    Baltic Sea: 'Mar Báltico'
+    Bamako: Bamaco
+    Banda Sea: Mar de Banda
+    Bandar Seri Begawan: 'Bandar Seri Begauã'
+    Bangkok: 'Bancoque (BR), Banguecoque (PT)'
+    Bangladesh: Bangladexe
+    Barents Sea: Mar de Barents
+    Bay of Bengal: 'Baía de Bengala'
+    Bay of Biscay: Golfo da Biscaia
+    Beijing: Pequim
+    Beirut: Beirute
+    Belarus: 'Bielorrúsia'
+    Belfast: Belfaste
+    Belgium: 'Bélgica'
+    Belgrade: Belgrado
+    Belmopan: 'Belmopã'
+    Benin: Benim
+    Bering Strait: Estreito de Bering
+    Berlin: Berlim
+    Bermuda: Bermudas
+    Bern: Berna
+    Bhutan: 'Butão'
+    Bishkek: Bisqueque
+    Black Sea: Mar Negro
+    Bolivia: 'Bolívia'
+    'Bolivia (coat of arms instead of star)': ' Bolívia (brasão de armas em vez de estrela)'
+    Bosnia and Herzegovina: 'Bósnia e Herzegovina'
+    Botswana: Botsuana
+    Brazil: Brasil
+    Brazzaville: Brazavile
+    British Virgin Islands: 'Ilhas Virgens Britânicas'
+    Brussels: Bruxelas
+    Bucharest: Bucareste
+    Budapest: Budapeste
+    Bulgaria: 'Bulgária'
+    Burkina Faso: Burquina Fasso
+    Cambodia: Camboja
+    Cameroon: 'Camarões'
+    'Cameroon (green/red/yellow, yellow star)': 'Camarões (verde/vermelho/amarelo, estrela amarela)'
+    Canada: 'Canadá'
+    Canary Islands: 'Ilhas Canárias'
+    Canberra: Camberra
+    Cape Verde: Cabo Verde
+    Cardiff: Cardife
+    Caribbean Sea: 'Mar das Caraíbas'
+    Caspian Sea: 'Mar Cáspio'
+    Cayman Islands: 'Ilhas Caimã'
+    Celebes Sea: Mar de Celebes
+    Celtic Sea: Mar Celta
+    Central African Republic: 'República Centro-Africana'
+    Cetinje is an honorary capital.: 'Cetinje é uma capital honorária.'
+    Chad: Chade
+    'Chad (slightly darker blue)': 'Chade (azul ligeiramente mais escuro)'
+    Charlotte Amalie: 'Carlota Amália'
+    'Chișinău': Quixinau
+    City of San Marino: 'São Marinho'
+    Ciudad de la Paz: Cidade da Paz
+    Claimed and controlled: Reivindicado e controlado
+    Claimed but not controlled: 'Reivindicada, mas não controlada'
+    Colombia: 'Colômbia'
+    'Colombia (no coat of arms)': 'Colômbia (sem brasão)'
+    Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.: 'Colombo é muitas vezes referido como a capital, mas Seri Jaiavardenapura-Cota, um subúrbio de Colombo, é a capital legislativa oficial.'
+    Comoros: Comores
+    Conakry: Conacri
+    Constituent country in the Kingdom of Denmark.: 'País constituinte do Reino da Dinamarca.'
+    Constituent country of the Kingdom of the Netherlands.: 'País constituinte do Reino dos Países Baixos.'
+    Constituent country of the United Kingdom.: 'País constituinte do Reino Unido.'
+    Cook Islands: Ilhas Cook
+    Copenhagen: 'Copenhague (BR), Copenhaga (PT)'
+    Coral Sea: Mar de Coral
+    Corsica: 'Córsega'
+    Croatia: 'Croácia'
+    Crown dependency of the United Kingdom.:
+      notes.note.guernsey.fields.field.country-info: 'Dependência da coroa do Reino Unido.'
+      notes.note.isle-of-man.fields.field.country-info: Ilha de Man
+      notes.note.jersey.fields.field.country-info: 'Dependência da coroa do Reino Unido.'
+    'Cuba (red triangle, blue stripes)': 'Cuba (triângulo vermelho, listras azuis)'
+    'Curaçao (two stars in top-left corner)': 'Curaçao (duas estrelas no canto superior esquerdo)'
+    Cyprus: Chipre
+    Czech Republic: 'Tchéquia (BR), Chéquia (PT)'
+    Dakar: Dacar
+    Damascus: Damasco
+    Dead Sea: Mar Morto
+    Democratic Republic of the Congo: 'República Democrática do Congo'
+    Denmark: Dinamarca
+    Denmark Strait: Estreito da Dinamarca
+    Dhaka: Daca
+    Dili: 'Díli'
+    'Disputed; claimed by Israel; Ramallah is the administrative centre.': 'Disputada; reivindicada por Israel; Ramala é o centro administrativo.'
+    'Disputed; claimed by Palestine.': 'Disputado; reivindicado pela Palestina.'
+    Djibouti: 'Djibuti (BR), Jibuti (PT)'
+    Doha: Doa
+    Dominican Republic: 'República Dominicana'
+    Dublin: Dublim
+    Dushanbe: 'Duxambé'
+    East China Sea: Mar da China Oriental
+    East Siberian Sea: Mar Siberiano Oriental
+    Ecuador: Equador
+    'Ecuador (with coat of arms)': 'Equador (com brasão)'
+    Edinburgh: Edimburgo
+    Egypt: 'Egito (BR), Egipto (PT)'
+    'Egypt (emblem instead of text), Yemen (no text)': 'Egito (emblema em vez de texto) e Iêmen (sem texto)'
+    'Egypt (with emblem), Iraq (with text)': 'Egito (com emblema), e Iraque (com texto)'
+    'El Salvador (different coat of arms, slightly darker blue)': 'El Salvador (brasão diferente, azul ligeiramente mais escuro)'
+    England: Inglaterra
+    English Channel: Canal da Mancha
+    Equatorial Guinea: 'Guiné Equatorial'
+    Eritrea: Eritreia
+    Estonia: 'Estônia (BR), Estónia (PT)'
+    Eswatini: 'Essuatíni'
+    Ethiopia: 'Etiópia'
+    Europe: Europa
+    European Union: 'União Europeia'
+    Falkland Islands: Ilhas Malvinas
+    Faroe Islands: 'Ilhas Faroé'
+    Federated States of Micronesia: 'Estados Federados da Micronésia'
+    Finland: 'Finlândia'
+    Formerly Zaire.: ''
+    Formerly known as Macedonia.: 'Anteriormente conhecida como Macedônia.'
+    France: 'França'
+    French Guiana: Guiana Francesa
+    French Polynesia: 'Polinésia Francesa'
+    Gabon: 'Gabão'
+    Georgia: 'Geórgia'
+    Germany: Alemanha
+    Ghana: Gana
+    'Ghana (star instead of coat of arms)': 'Gana (estrela em vez de brasão)'
+    Gitega: Guitega
+    Greece: 'Grécia'
+    Greenland: 'Groenlândia'
+    Grenada: Granada
+    Guadeloupe: Guadalupe
+    Guatemala City: Cidade da Guatemala
+    Guernsey: Guernesei
+    Guinea: 'Guiné'
+    'Guinea (green and red flipped, slightly darker green)': 'Guiné (verde e vermelho invertidos, verde ligeiramente mais escuro)'
+    Guinea-Bissau: 'Guiné-Bissau'
+    Gulf of Alaska: Golfo do Alasca
+    Gulf of California: 'Golfo da Califórnia'
+    Gulf of Carpentaria: 'Golfo de Carpentária'
+    Gulf of Guinea: 'Golfo da Guiné'
+    Gulf of Mexico: 'Golfo do México'
+    Gulf of Thailand: 'Golfo da Tailândia'
+    Guyana: Guiana
+    'Hagåtña': Aganha
+    Hanoi: 'Hanói'
+    Hawaii: 'Havaí'
+    Helsinki: 'Helsinque (BR), Helsínquia (PT)'
+    Historical and cultural region in Northern Europe, which includes the countries of Denmark, Norway and Sweden, and sometimes Finland and Iceland.: 'Região histórica e cultural do norte da Europa, que inclui os países da Dinamarca, Noruega e Suécia, e às vezes Finlândia e Islândia.'
+    Hudson Bay: 'Baía de Hudson'
+    Hungary: Hungria
+    Iceland: 'Islândia'
+    'Iceland (blue background, red and white cross), Norway (red background, blue and white cross)': 'Islândia (fundo azul, cruz vermelha e branca) e Noruega (fundo vermelho, cruz azul e branca)'
+    'Iceland (blue background, red cross), Faroe Islands (white background, red and blue cross)': 'Islândia (fundo azul, cruz vermelha) e Ilhas Faroé (fundo branco, cruz vermelha e azul)'
+    Independent state claimed by Georgia.: 'Estado independente reivindicado pela Geórgia.'
+    Independent state claimed by Moldova.: 'Estado independente reivindicado pela Moldávia.'
+    Independent state claimed by Somalia.: 'Estado independente reivindicado pela Somália.'
+    India: 'Índia'
+    Indian Ocean: 'Oceano Índico'
+    Indonesia: 'Indonésia'
+    'Indonesia (white and red flipped, brighter red), Monaco (white and red flipped, narrower)': 'Indonésia (branco e vermelho invertidos, vermelho mais brilhante) e Mônaco (branco e vermelho invertidos, mais estreita)'
+    'Indonesia (wider, brighter red), Poland (red and white flipped, wider)': 'Indonésia (mais larga, vermelho mais brilhante) e Polônia (mais larga, vermelho e branco invertidos)'
+    Iran: 'Irã (BR), Irão (PT)'
+    Iraq: Iraque
+    'Iraq (text instead of emblem), Yemen (no emblem)': 'Iraque (texto em vez de emblema) e Iêmen (sem emblema)'
+    Ireland: Irlanda
+    'Ireland (orange and green flipped, wider)': 'Irlanda (laranja e verde invertidos, mais larga)'
+    Islamabad: Islamabade
+    Island of Indonesia.: 'Ilha da Indonésia.'
+    Isle of Man: Ilha de Man
+    Italy: 'Itália'
+    Ivory Coast: Costa do Marfim
+    'Ivory Coast (green and orange flipped, narrower)': 'Costa do Marfim (verde e laranja invertidos, mais estreita)'
+    Jakarta: Jacarta
+    Japan: 'Japão'
+    Jersey: 'Jérsia'
+    Jerusalem: 'Jerusalém'
+    Jordan: 'Jordânia'
+    Kabul: Cabul
+    Kaliningrad Oblast: Caliningrado
+    Kampala: Campala
+    Kathmandu: Catmandu
+    Kazakhstan: 'Cazaquistão'
+    Kenya: 'Quênia (BR), Quénia (PT)'
+    Khartoum: Cartum
+    Kigali: Quigali
+    Kinshasa: Quinxassa
+    Kiribati: Quiribati
+    Known as Nur-Sultan between 2019 and 2022: 'Conhecida como Nur-Sultã entre 2019 e 2022'
+    Known as Swaziland until 2018.: 'Conhecido como Suazilândia até 2018.'
+    Kuala Lumpur: Quala Lumpur
+    Kuwait City: Kuwait
+    Kyiv: Quieve
+    Kyrgyzstan: 'Quirguistão'
+    Laayoune: Laiune
+    Labrador Sea: Mar de Labrador
+    Latvia: 'Letônia (BR), Letónia (PT)'
+    'Latvia (darker red, narrower white band)': 'Letônia (vermelho mais escuro, faixa branca mais estreita)'
+    Lebanon: 'Líbano'
+    Lesotho: Lesoto
+    Liberia: 'Libéria'
+    Libreville: Librevile
+    Libya: 'Líbia'
+    Lilongwe: 'Lilongué'
+    Lisbon: Lisboa
+    Lithuania: 'Lituânia'
+    Ljubljana: Liubliana
+    London: Londres
+    Lusaka: Lusaca
+    Luxembourg: Luxemburgo
+    'Luxembourg (lighter blue)': 'do Luxemburgo (azul mais claro)'
+    Luxembourg City: Luxemburgo
+    Madrid: 'Madri (BR), Madrid (PT)'
+    Malawi: 'Maláui'
+    Malaysia: 'Malásia'
+    Maldives: Maldivas
+    'Mali (red and green flipped, slightly brighter green)': 'Mali (vermelho e verde invertidos, verde ligeiramente mais brilhante)'
+    Managua: 'Manágua'
+    Mariehamn: Marianhamina
+    Marshall Islands: Ilhas Marshall
+    Martinique: Martinica
+    Mauritania: 'Mauritânia'
+    Mauritius: 'Maurício (BR), Maurícia (PT)'
+    Mayotte: Maiote
+    Mbabane: Mebabane
+    Mediterranean Sea: 'Mar Mediterrâneo'
+    Melanesia: 'Melanésia'
+    Mexico: 'México'
+    Mexico City: 'Cidade do México'
+    Micronesia: 'Micronésia'
+    Minsk: Minsque
+    Mogadishu: 'Mogadíscio'
+    Moldova: 'Moldávia'
+    'Moldova (wider, coat of arms with eagle)': 'Moldávia (mais larga, brasão com águia)'
+    Monaco: 'Mônaco (BR), Mónaco (PT)'
+    'Monaco (narrower, darker red), Poland (red and white flipped, darker red)': 'Mônaco (mais estreita, vermelho mais escuro) e Polônia (vermelho e branco invertidos, vermelho mais escuro)'
+    Mongolia: 'Mongólia'
+    Monrovia: 'Monróvia'
+    Montevideo: 'Montevidéu (BR), Montevideu (PT)'
+    Morocco: Marrocos
+    Moscow: 'Moscou (BR), Moscovo (PT)'
+    Mozambique: 'Moçambique'
+    Muscat: Mascate
+    Myanmar: Mianmar
+    'N''Djamena': Jamena
+    Nairobi: 'Nairóbi'
+    Namibia: 'Namíbia'
+    'Nauru (single star below yellow band)': 'Nauru (estrela única abaixo da faixa amarela)'
+    'Nauru has no official capital; the Yaren District is the de facto capital.': 'Nauru não tem capital oficial; o distrito de Iarém é apenas considerada a capital.'
+    Naypyidaw: 'Nepiedó'
+    Netherlands: 'Países Baixos'
+    'Netherlands (darker blue)': 'Países Baixos (azul mais escuro)'
+    New Caledonia: 'Nova Caledônia'
+    New Delhi: Nova Deli
+    New Zealand: 'Nova Zelândia'
+    'New Zealand (red stars, two fewer stars)': 'Nova Zelândia (estrelas vermelhas, duas estrelas a menos)'
+    Niamey: Niamei
+    Nicaragua: 'Nicarágua'
+    'Nicaragua (different coat of arms, slightly lighter blue)': 'Nicarágua (brasão diferente, azul ligeiramente mais claro)'
+    Nicosia: 'Nicósia'
+    Niger: 'Níger'
+    Nigeria: 'Nigéria'
+    Niue: 'Niuê'
+    North America: 'América do Norte'
+    North Korea: Coreia do Norte
+    North Macedonia: 'Macedônia do Norte (BR), Macedónia do Norte (PT)'
+    North Nicosia: 'Nicósia do Norte'
+    North Sea: Mar do Norte
+    Northern Cyprus: Chipre do Norte
+    Northern Ireland: Irlanda do Norte
+    Northern Mariana Islands: Ilhas Marianas do Norte
+    Norway: Noruega
+    'Norway (red background, blue cross), Faroe Islands (white background, red and blue cross)': 'Noruega (fundo vermelho, cruz azul) e Ilhas Faroé (fundo branco, cruz vermelha e azul)'
+    Norwegian Sea: Mar da Noruega
+    Not a sovereign country: 'Não é um Estado soberano'
+    Nouakchott: Nuaquexote
+    'Nouméa': 'Numeá'
+    'Nukuʻalofa': Nucualofa
+    Nuuk: Nuque
+    'Oblast (administrative region) of the Russian Federation.': 'Oblast (região administrativa) da Federação Russa.'
+    Official capital was moved from Bujumbura to Gitega in 2019.: A capital oficial foi transferida de Bujumbura para Guitega em 2019.
+    Official capital was moved from Malabo to Ciudad de la Paz in 2026.: A capital oficial foi transferida de Malabo para Cidade da Paz em 2026.
+    'Officially Côte d''Ivoire.': 'Oficialmente Côte d''Ivoire.'
+    Officially Luxembourg.: ''
+    Oman: 'Omã (BR), Omão (PT)'
+    Oranjestad: Oranjestade
+    Ottawa: Otava
+    Ouagadougou: Uagadugu
+    Overseas department of France.: 'Departamento ultramarino da França.'
+    Overseas territory of France.:
+      notes.note.french-polynesia.fields.field.country-info: 'Território ultramarino da França.'
+      notes.note.new-caledonia.fields.field.country-info: 'Território ultramarino da França.'
+      notes.note.saint-martin.fields.field.country-info: 'País constituinte do Reino dos Países Baixos.'
+      notes.note.wallis-and-futuna.fields.field.country-info: 'Território ultramarino da França.'
+    Overseas territory of the United Kingdom.: 'Território ultramarino do Reino Unido.'
+    Pacific Ocean: 'Oceano Pacífico'
+    Pakistan: 'Paquistão'
+    Palestine: Palestina
+    'Palestine (black/white/green, red arrow)': 'Palestina (preto/branco/verde, seta vermelha)'
+    'Palestine (no symbol)': 'Palestina (sem símbolo)'
+    Palikir: Paliquir
+    Panama: 'Panamá'
+    Panama City: 'Cidade do Panamá'
+    Papeete: Papete
+    Papua New Guinea: 'Papua-Nova Guiné'
+    Paraguay: Paraguai
+    Partially recognised state claimed by China.: Estado parcialmente reconhecido reivindicado pela China.
+    Partially recognised state claimed by Morocco. Also known as Western Sahara.: Estado parcialmente reconhecido reivindicado por Marrocos.
+    Partially recognised state claimed by Serbia.: 'Estado parcialmente reconhecido reivindicado pela Sérvia.'
+    Persian Gulf: 'Golfo Pérsico'
+    Philippine Sea: Mar das Filipinas
+    Philippines: Filipinas
+    Phnom Penh: Penome Pene
+    Poland: 'Polônia (BR), Polónia (PT)'
+    Polynesia: 'Polinésia'
+    Port Louis: 'Porto Luís'
+    Port Moresby: Porto Moresby
+    Port Vila: Porto Vila
+    Port of Spain: Porto da Espanha
+    Port-au-Prince: 'Porto Príncipe'
+    Porto-Novo: Porto Novo
+    Prague: Praga
+    Pretoria, Cape Town, Bloemfontein: 'Pretória, Cidade do Cabo, Blumefontaina'
+    Puerto Rico: Porto Rico
+    'Puerto Rico (blue triangle, red stripes)': 'Porto Rico (triângulo azul, listras vermelhas)'
+    Pyongyang: Pionguiangue
+    Qatar: Catar
+    'Qatar (wider, more serrated edges, maroon)': 'Catar (mais larga, bordas serrilhadas, marrom)'
+    Rabat: Rabate
+    Red Sea: Mar Vermelho
+    Region of France.: 'Região da França.'
+    Republic of the Congo: Congo
+    'Reykjavík': Reiquiavique
+    Riyadh: Riade
+    Romania: 'Romênia (BR), Roménia (PT)'
+    'Romania (slightly lighter blue)': 'Romênia (azul ligeiramente mais claro)'
+    Rome: Roma
+    Russia: 'Rússia'
+    'Russia (no coat of arms), Slovenia (wider, smaller coat of arms)': 'Rússia (sem brasão) e Eslovênia (brasão mais largo e menor)'
+    Rwanda: Ruanda
+    'Réunion': 'Reunião'
+    Sahrawi Arab Democratic Republic: 'República Árabe Saaraui Democrática (RASD)'
+    Saint Kitts and Nevis: 'São Cristóvão e Névis'
+    Saint Lucia: 'Santa Lúcia'
+    Saint Martin: 'São Martinho (França)'
+    Saint Vincent and the Grenadines: 'São Vicente e Granadinas'
+    'San José': 'São José'
+    San Juan: 'São João'
+    San Marino: 'São Marinho'
+    San Salvador: 'São Salvador'
+    Sanaa: 'Saná'
+    Santo Domingo: 'São Domingos'
+    Sardinia: Sardenha
+    Saudi Arabia: 'Arábia Saudita'
+    Scandinavia: 'Escandinávia'
+    Scotland: 'Escócia'
+    Sea of Galilee: Mar da Galileia
+    Sea of Japan: 'Mar do Japão'
+    Sea of Okhotsk: Mar de Okhotsk
+    Semi-autonomous region of Tanzania.: 'Região semi-autônoma da Tanzânia.'
+    'Senegal (green/yellow/red, green star)': 'Senegal (verde/amarelo/vermelho, estrela verde)'
+    Seoul: Seul
+    Serbia: 'Sérvia'
+    Seychelles: Seicheles
+    Sicily: 'Sicília'
+    Sierra Leone: Serra Leoa
+    Singapore: Singapura
+    Sint Maarten: 'São Martinho (Países Baixos)'
+    Skopje: 'Escópia'
+    Slovakia: 'Eslováquia'
+    'Slovakia (narrower, bigger coat of arms)': 'Eslováquia (mais estreita, brasão maior)'
+    'Slovakia (with coat of arms)': 'Eslováquia (com brasão)'
+    Slovenia: 'Eslovênia (BR), Eslovénia (PT)'
+    Sofia: 'Sófia'
+    Solomon Islands: 'Ilhas Salomão'
+    Somalia: 'Somália'
+    Somaliland: 'Somalilândia'
+    South Africa: 'África do Sul'
+    'South Africa has no legally defined capital: the branches of government are split over three cities: Pretoria (executive), Cape Town (legislative) and Bloemfontein (judicial).': 'A África do Sul não tem capital legalmente definida: os ramos do governo estão divididos em três cidades: Pretória (executivo), Cidade do Cabo (legislativo) e Blumefontaina (judicial).'
+    South America: 'América do Sul'
+    South China Sea: Mar da China Meridional
+    South Korea: Coreia do Sul
+    South Ossetia: 'Ossétia do Sul'
+    South Sudan: 'Sudão do Sul'
+    South Tarawa: Taraua do Sul
+    Southern Ocean: 'Oceano Antártico'
+    Sovereign country: Estado soberano
+    Spain: Espanha
+    Special Administrative Region of China.: 'Região Administrativa Especial da China.'
+    Sri Jayawardenepura Kotte: Seri Jaiavardenapura-Cota
+    'St. George''s': 'São Jorge'
+    'St. John''s': 'São João'
+    State of the United States.: Estado dos Estados Unidos.
+    State recognised only by Turkey and claimed by Cyprus.: Estado reconhecido apenas pela Turquia e reivindicado por Chipre.
+    Stockholm: Estocolmo
+    Subregion of Oceania comprising thousands of small islands in the central and southern Pacific Ocean.: 'Sub-região da Oceania que compreende milhares de pequenas ilhas no Oceano Pacífico central e meridional.'
+    Subregion of Oceania comprising thousands of small islands in the western Pacific Ocean.: 'Sub-região da Oceania que compreende milhares de pequenas ilhas no oeste do Oceano Pacífico.'
+    Subregion of Oceania, which includes Vanuatu, the Solomon Islands, Fiji, and Papua New Guinea.: 'Sub-região da Oceania que inclui Vanuatu, Ilhas Salomão, Fiji e Papua-Nova Guiné.'
+    Sudan: 'Sudão'
+    'Sudan (red/white/black, green arrow), Sahrawi Arab Democratic Republic (with star and crescent)': 'Sudão (vermelho/branco/preto, seta verde) e República Árabe Saaraui Democrática (com estrela e crescente)'
+    Sukhumi: Sucumi
+    Svalbard: Esvalbarda
+    Sweden: 'Suécia'
+    Switzerland: 'Suíca'
+    'Switzerland has no official capital; Bern is the de facto capital.': 'A Suíça não tem capital oficial; Berna é apenas considerada a capital.'
+    Syria: 'Síria'
+    'São Tomé and Príncipe': 'São Tomé e Príncipe'
+    Taipei: 'Taipé'
+    Tajikistan: 'Tajiquistão'
+    Tallinn: Talim
+    Tanzania: 'Tanzânia'
+    Tashkent: Tasquente
+    Tasman Sea: Mar de Tasman
+    Tbilisi: Tiblissi
+    Tehran: 'Teerão'
+    Thailand: 'Tailândia'
+    The Bahamas: Bahamas
+    The Gambia: 'Gâmbia'
+    Thimphu: Timbu
+    Timor Sea: Mar de Timor
+    Tiraspol: 'Tiráspol'
+    Tokyo: 'Tóquio'
+    Transnistria: 'Transnístria'
+    Trinidad and Tobago: Trindade e Tobago
+    Tripoli: 'Trípoli'
+    Tskhinvali: 'Tsequinváli'
+    Tunis: Tunes
+    Tunisia: 'Tunísia'
+    Turkey: Turquia
+    Turkmenistan: 'Turcomenistão'
+    Turks and Caicos Islands: Turcas e Caicos
+    Ukraine: 'Ucrânia'
+    Ulaanbaatar: 'Ulã Bator'
+    Unincorporated internal area of Norway.: 'Área interna não incorporada da Noruega.'
+    Unincorporated territory of the United States.: 'Território não incorporado dos Estados Unidos.'
+    United Arab Emirates: 'Emirados Árabes Unidos'
+    United Kingdom: Reino Unido
+    United States Virgin Islands: Ilhas Virgens Americanas
+    United States of America: Estados Unidos
+    Uruguay: Uruguai
+    Uzbekistan: 'Uzbequistão'
+    Valletta: Valeta
+    Vatican City: Vaticano
+    Victoria: 'Vitória'
+    Vienna: Viena
+    Vientiane: Vienciana
+    Vietnam: 'Vietnã (BR), Vietname (PT)'
+    Wales: 'País de Gales'
+    Wallis and Futuna: Wallis e Futuna
+    Warsaw: 'Varsóvia'
+    While Amsterdam is the official capital, The Hague is the seat of the executive and legislative branches.: 'Embora Amsterdã seja a capital oficial, Haia é a sede dos ramos executivo e legislativo.'
+    While Dodoma is the official capital, Dar es Salaam is the de facto seat of government.: 'Embora Dodoma seja a capital oficial, Dar es Salã é a sede do governo.'
+    'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.': 'Embora Laiune, também conhecida como El Aiune, seja a capital declarada, Tifariti é a sede do governo.'
+    While Mbabane is the official, executive capital, Lobamba is the traditional, spiritual and legislative capital.: 'Embora Mebabane seja a capital oficial e executiva, Lobamba é a capital tradicional, espiritual e legislativa.'
+    While Porto-Novo is the official capital, Cotonou is the de facto seat of government.: 'Embora Porto Novo seja capital oficial, Cotonu é a sede do governo.'
+    While Sucre is the constitutional capital, La Paz is the seat of government.: 'Embora Sucre seja a capital constitucional, La Paz é a sede do governo.'
+    While Yamoussoukro is the official capital, Abidjan is the de facto seat of government.: 'Embora Iamussucro seja a capital oficial, Abidjã é a sede do governo.'
+    White Sea: Mar Branco
+    Windhoek: Vinduque
+    World region covering the Australian continent and most of the islands in the Pacific Ocean.: ''
+    Yamoussoukro: Iamussucro
+    'Yaoundé': 'Iaundé'
+    Yaren: 'Iarém'
+    Yellow Sea: Mar Amarelo
+    Yemen: 'Iêmen (BR), Iémen (PT)'
+    Yerevan: 'Erevã'
+    Zagreb: Zagrebe
+    Zambia: 'Zâmbia'
+    Zimbabwe: 'Zimbábue'
+    'Åland Islands': Alanda
+  additions:
+    notes.note.antigua-and-barbuda.fields.field.capital-hint: Estado soberano
+    notes.note.netherlands.fields.field.country-info: Conhecidos informalmente como Holanda.
+    notes.note.puerto-rico.fields.field.capital-hint: 'Não é um Estado soberano'
+  variables:
+    label.capital-hint.answer:
+      'Hint: {{Capital hint}}': 'Dica: {{Capital hint}}'
+    label.flag:
+      Flag: Bandeira
+    label.location:
+      Location: 'Localização'
+    note-type.name:
+      Ultimate Geography: 'Ultimate Geography [PT]'
+    sentence.flag-similar:
+      'Flag similar to {{Flag similarity}}.': 'Bandeira parecida com: {{Flag similarity}}.'
+  adapter_ids:
+    crowdanki:guid:
+      ')Y}Qy.3GK': 'tEG*ja>]Nv'
+      '5JJ2]i)p4': 'C]<u7;BN.m'
+      '5S(f7%O-$': 'K!n@~ay/du'
+      '?n!)c/h=Q': 'kX4<H^@qRr'
+      'AES],s:8=': 'yv4SxGLP&,'
+      'B:x<p&Q=t)': 'AF)CrV]`OA'
+      'BJ,,^wMC%N': 'f)@hpqBJK?'
+      Bszsaz0Iuo: 'j)QbJ69Vad'
+      'Cf2@;p<aL': 'd}/izW7q$h'
+      'E3u*2.<9#`': 'csHk9=FjrN'
+      'EWXNc<g5)': 'g%>:=;Tc=R'
+      'G/^_##fcPN': 'z!(JMxmH=r'
+      'Gn;q2Y)Xe4': 'v]Gu}_Sgmm'
+      'H*c[ML+`s=': 'H|DRE(4*?I'
+      'He!e=h?_2V': 'L~fP+M7<pi'
+      'J%,fuysl*&': 'PW&nJyIgfN'
+      'JOT:U4ayh@': 'L.bEhS#[bm'
+      'K*b}<I3(~': 'EUa!tJ$q~<'
+      'L5M1*yG7eH': 'jeR</Vr#^>'
+      LPF4AfaHKR: 'b#XvD_w?e<'
+      'Lol+XIvY21': 'L0+1:;EPg/'
+      'M$bc0[jYf0': 'k[}Db7_UdK'
+      'O~pXkAbd3': 'w@=dG}+guF'
+      'QSq%~rFaP-': 'FNcuka+yo('
+      'Qlib4)q2Hk': 'Q0g%)%UY`W'
+      'SlOEXfq#|': 'B|Vp[->]3b'
+      'W5?6yQZD2': bm_rpQxEpV
+      '_]DH+g9!$': 'OJ4}BH2QfK'
+      'b@M[XTc?}5': 'ef`]u!|V{`'
+      'bD?R}i8_[c': 'zCAd}@3:9U'
+      'bW)ch:vs1P': 'O0hlf9Z-!z'
+      'b[(2`4t&?J': 'leBrcK+h^'
+      'b^Try&me1A': M4ikwvZDb7
+      'b`5Q_Z=HQT': 'odvY;N=cs5'
+      'bd~Ght5tLR': 'fV^xZWq#U8'
+      'bk2ByZIeU+': 'v%N%D<K[gS'
+      'bnEK#)[;qT': 'k]EOmk4}A?'
+      'c(,2{yXI#E': 'lj6RZd*;o!'
+      'c,5(mUGzYT': 'z{%WvW,O^e'
+      'cAlyc~G.y%': 'j,S/:GbM;^'
+      'cEO^y)Md[G': 'dAn9Lu_CJ^'
+      'cL?8!xP#Wj': 'Nfur#3pX!%'
+      'cPO|Cru8n<': 'qRhw-3oO|0'
+      'cV4idO^r8W': '^eu[i$#E%'
+      'cYKvF#ptF7': 'jFu+)N8B>b'
+      'c^,~EC6Pb2': 'Gjci[`.B}='
+      'ck!6;xK$/^': 'p4FOjAZZk@'
+      'cv+Nq9:a<P': 'rJMplZ%}9O'
+      'd-q4J~CNW_': 'A?qpd&5PT&'
+      'd3c`&/1Y^D': 'I{3qN!QnX}'
+      'd5m8%D6,;u': GxAVE4X5.9
+      'dC:e5G4J/p': 'G#>XV1}xL2'
+      'dUZ^=SE5BG': pZ,nCA,.0R
+      'dWA49p}F{k': 'c+r?+))vw9'
+      'dY96`C-f(_': 'wDA~K0^p(*'
+      'd``B*6:eCx': 'i@oGe!DhQ3'
+      'dbP/Cj}sB+': 'JZR=,>T#/~'
+      'de=9c:,@j9': 'e_W9-v{whs'
+      'dlU7VG|3Gd': 'Oz!#K-Ae}V'
+      'd}R:qHj1,7': 'iS2|sUiSh`'
+      'e!KSebP}pt': 'C@O711uUdL'
+      'e+/O]%*qfk': 'O>f7b9D1hF'
+      'e.t$Vi5,>f': 'c#3w!!.a^C'
+      'e42BpV,P}C': 'jJMevp,*!q'
+      'e5P*D#I{m{': 'fXz}(XSfFj'
+      'e<X;[vACXC': 'n9+C*4}y8Y'
+      'e=.VHQ9E+M': 'k<mp?aNi<n'
+      'e?Xq9gy=@[': 'hPMh5n}qbU'
+      'e?gIaPc$Ox': 'pb(wj%}GZv'
+      'e?h=Xhs+K&': 'i52amy!D0$'
+      'eALZe^HCHq': 'EjR]<Vp9Z{'
+      'eHJ?)TAdTo': 'MCvO(+y^XJ'
+      'eN#^kPGv*L': 'r[yPN|H[T}'
+      'eT<gzg?q,r': 'h@yv7?b9!l'
+      'e_;dzXj8de': 'nkl5f<lZZR'
+      'epvt3>HH?U': 'E_&3V&K[)_'
+      'euW0jm=wfR': 'h+>APLLb!{'
+      'e{e8vi@^PY': 'I1w1@S?{u2'
+      'f#4-L[mp5*': 'sktKlO<#lL'
+      'f*2@qiHh_1': 'Bmj!9P&|{='
+      'f*LO~>!0PN': 'kG0ycx1-&@'
+      'f21=-A~W;~': 'F9/|i`ALwZ'
+      'f>c7x2E]Q6': 'w:J$-ahRdF'
+      'fRSM{K+;[w': 'c_|S!EHTyr'
+      'fT!w8R#>dg': 'M.$!dle5NI'
+      'fV`&p81%d(': 'i,9aCetA#N'
+      fkq7lhLkdH: 'lwH=^9v6=A'
+      'fxAN),FAc$': 'hD@WEVZn_<'
+      'g-]bb&[.E!': 'sf|,28pc/9'
+      'g9v~y/;=z(': 'o{L!(ulPuC'
+      'g<[f89~U)A': 'Db5g|/x_nA'
+      'gBCR?!O*;E': 'bS{]Ow*V`E'
+      'gB|K:+r?1V': EsE.-qmRj
+      'gDsLPj(9S#': 'I7oz98q8(-'
+      'gFOojQO(MH': 'w=(azb)1FN'
+      'gG6SWfM>H0': 'rJI8->gW%l'
+      'gRVZ]qJ#>O': 'N*r4!:+/}l'
+      'gYIoR`|AxW': 'ctod6{!$KH'
+      'gePC:Xt_nW': 'GUDe$&2Ul)'
+      'gp[h@]y13l': 'GmXe5(x+Sd'
+      'gsS{jR,]|Q': 'hK{#z+aR76'
+      'gx:;za!?C9': 'KOyffK#a5H'
+      'gz9${p}er*': 'h{SZE<_@pF'
+      'g~%pF`(x{u': 'hl9LK`>En1'
+      'h&`>n98~V1': 'lj(hdT=ie~'
+      'h9Jr(H[=1~': 'msxAK,LCh{'
+      'h?a*UKfT_M': 'j?GNhOWK$8'
+      'hE5j*e,Q?[': 'Hdh?z^QMqR'
+      'hNE9}>;Q&-': 'KgOKBn.!r{'
+      'hXNTVF<:SH': 'Dc^-[NKeM9'
+      'hZ/V/D&rO`': 'wXo*CTq<vz'
+      'h_9=mkZXAH': 'y[NG^n3YP9'
+      hoHandbYAy: 'jdd5B*m>02'
+      'hrI_uiW>E]': 'e;|GubFA|k'
+      'h}lnSN_f$_': 'NGbgN#o/Ie'
+      'h~5xz+=ke~': 'x1O4C)?pj1'
+      'i)]+09JUR&': 'm~e0bQg80^'
+      'i2]v|D3@:j': 'w@c5memCCS'
+      'iB-8Br~onq': 'HJN6(i^z~8'
+      'iIS#Nw]tr]': 'i]HndhS#jS'
+      'iR;U<J:CJJ': 'iFefV_U<5d'
+      'iW>m(L/~c=': 'Qm#z-X2)Eh'
+      'i^J8&$(1]|': 'phTnzN7*fo'
+      'ia8as9sCY|': 'ryXF~Goixn'
+      'igiK,ff[eO': 'AySdJa*$Gr'
+      'ijP>aJBT!9': 'tf~~,M|yc&'
+      'ilGtw#=asM': 'MGy&<;.7Fv'
+      'j%*8gN)q>d': 'Q-U(os@S&S'
+      'j)i)pB*HJ,': 'lBV|L_Y=Rb'
+      'j2IQ=f=w3@': 'H^&r5vlQP5'
+      j7eEZkzsCZ: 'Pvf0f_)tm@'
+      'j9:K,~DQ2v': 'DuTF$#n0`&'
+      'j<egqG@)EL': 'M||-.i#[l)'
+      'j=L,YBvsBk': 'Gs)`C+V}D+'
+      'jBd@A?>g|}': 'rt/cNV?%Os'
+      'jCd]`-=k,:': 'qb(2zU!2v_'
+      'jDA-V?/hVj': 'sSCPjs@7rI'
+      jI9P-f6r3M: 'vP%fqrhm.3'
+      'jKIDq|}J&c': 'D9X*P<0(5R'
+      'jKO,9y0M;#': 'EIju~|9Wsy'
+      'jN^Vc%9OQ5': 'ld@6qzuh4:'
+      'jN|NAUP*h}': 'Bs.>u/)4+/'
+      'jTNoKo}Bu+': 'iM3lUK!|>*'
+      'jX=#G8wu#(': 'u3Kaf5B|v`'
+      'jYz[ibrr9m': JQ.625BEIH
+      'jcu!gLw/&r': 'wk!g#_2-WE'
+      'jrM28*HbyG': 't%glMxI7,6'
+      'j|z@PMgdx,': 'Ooz-xs3u9<'
+      'k$1_yaF?9#': 'hdIq-F%tt3'
+      'k/u1:B%DJH': 'db,aa$e4w1'
+      'k0{O[6l]bH': 'KsSd*uaf=t'
+      'k1]FH+s8j@': 'tI[-w:S[nz'
+      'k9E.p^<u$,': 'NQY/-?zn+<'
+      'kE!iKHLN_g': 'wNjlEuB#7E'
+      'kQ:NIhJy~E': 'I^7LI/]z58'
+      'kS)hDm%w}R': 'y+Y77T.gg&'
+      'kX]hN=_.c-': 'BiJoHsq#gs'
+      'kZ52zV#[Iv': 'GI5y>iv~[H'
+      'k[)#L4.[v3': 'gaM:=v}hwy'
+      'khB~(m^@Z5': 'AofLiY]`Ti'
+      'kkbYQXw5b;': 'DK#M)PH#C['
+      'koI(}OyJ:@': 'L`GYI/ekhp'
+      'kopwzzB``A': 'oxXKJj(4f:'
+      'k}4/oj#$~s': 'hq<./^6hM?'
+      'k}A9]O:0xw': 'f*6$32AnHC'
+      'l$2O|9w`F~': 'B|UQP+^>3F'
+      'l$zM~ihPFE': 'LtQnEnv]mQ'
+      'l&#7I)Ah/E': 'w?EtZ3tDY9'
+      'l*j*EE:!Y?': 'ndPX6tuc3['
+      'l+>Ki!j#v+': 'Q9>YoEa|XH'
+      'l3Ly8PBxt(': 'd2v?T?w[3T'
+      'lAxH.CfJB@': 'yOTi(~YAk6'
+      'lH^2D]w;[H': p1SyIlllJ
+      'lU@C3<C8Wk': 'eyZ[vXX1Y&'
+      'leh^fmrt*#': 'mBqT]p_`hn'
+      'lhWI;$JC9(': 't|nO-D<u)D'
+      libliptkB4: 'n~]=K*@H_e'
+      'lmRujD!(A7': 'B/@.]cvXSU'
+      'ln^3p)j3b.': ggAWcodmSr
+      'lp@e##m.!+': 'bQ.I*Gfr5}'
+      'lpbD0St&OU': 'kujN}`[*;M'
+      'lq`T^ZBF2Y': 'i1N+^dagz@'
+      'l}[BG9.nQS': yeX,UZ1JrP
+      'm)WUtJS`H&': 'OO%Kq^F$Z`'
+      'm*#%sE.`.;': 'BYSXQQPC^Z'
+      'm*PYE=#wr^': 'B8PvZsL%=,'
+      'm2F|cUkKhv': 'uLT/@mIHyE'
+      'm5j,b/y<EE': 'GvA01=D7>z'
+      'm?}%V6s8]*': 'zclXW*ihxo'
+      mJH4kwPF.-: 'IJ3K*pLd9J'
+      'm[96fa+HDS': 'ly9aPK_@5B'
+      mbGXc0y3Pe: 'ly*3s`V(Xf'
+      'mbz=7n[0v9': 'O:=Be<m;jh'
+      'mcc&0Kq^xE': 'p38Y/C3r?j'
+      'mi+kf0LTW.': 'JtIxz8?/O!'
+      'mk1VltJl<]': 'u,;q[t6_@V'
+      'mk20`,N=`=': 'J]]?!DDjUQ'
+      'mkgcU7[bA%': 'I=PnRY[6IS'
+      'mq)8`hi{hb': 'F)w6t`GX4('
+      'mtd;>7T|g>': 'k$9ns[=Fo{'
+      'mz[>>AxIr4': 'cIm?2955ae'
+      'm{noqE29%I': 'su=H/7(%]k'
+      'm{oM,jr>C#': 'Kry$&wZmW`'
+      'n&>e`2FO/S': 'B[J}Z4r84@'
+      'n+t>2`:;P/': 'BhD{XddD~W'
+      'n:7&>YT5A=': 'i6aNJwa%b_'
+      'nIfRn<aY:N': 'eE8!1jmWPI'
+      'niJUFZF$Y:': 'dDu`aH[7Od'
+      'nsS59c`VL,': 'Efj[#`oxYU'
+      'nuU8A_$i2M': 'w5X%!:NGm:'
+      'n{{o2K1:dw': 'mY!C2YP~(S'
+      'o#&RMA_REo': 'px9xQ@Ka`i'
+      'o3VS!KWb/@': 'e@O&4[m@W1'
+      'o9{x<AyA]B': 't+E0yUq~3C'
+      'o=,%hU&yX%': 'qMY9o*hf**'
+      'oNpApS<AoJ': 'y}L.*_s{2c'
+      oV/JG7fwZq: 'PVnr|TgMw7'
+      'o``:?0>/yz': 'dH*XdVw~QD'
+      'oa87&PB&Bm': 'e(pOqB.N-d'
+      'onMKID2d;D': 'w/S^-U}^gl'
+      'o~}KVA:VbI': p.bqdPDaHE
+      'p#R$-mG/L': 'HhAt<K@[Kw'
+      'p.yv>BQ470': 'Gj;ANGAUma'
+      'p:SPZ:e/*[': 'b,`C.1o0K]'
+      'pD<Pd$Ag@J': Fd74/NPKj
+      'pQpX%(EVOH': 'lwRG[9-e^s'
+      'pS>DrFhd%u': 'Q{)8B-]wUq'
+      'pYRw[=6;JI': 'v)_Oh`bF,*'
+      'p]t8:Tka7q': ',yh{iX8m{'
+      pkj3RPBUrF: 's@13Ith.ZH'
+      'pwwZu{7f~(': 'd}3y)SgyoJ'
+      'pz(G*<F93/': 'eNR2Z!EX8I'
+      'p}Qa|!7PpR': Iy_EqYuh9C
+      'q1Q3Do8S>g': 'C]:V&kby#o'
+      'q2#Yv[O0:|': 'JIBC<y/Yvk'
+      'q7do-wLx%E': 'I5siG$Ea{.'
+      'q8][)Ri}=q': 'E)^;rOW-vz'
+      'q8fF$4,c6_': 'd#EjdF.*f6'
+      'q:XyGf#>Wg': 'Lrgy`zP-}Q'
+      'q=w[<m2Bk&': 'k-UG}XV}RQ'
+      'qFuGdDx^Yv': 'mc/k|TM}m*'
+      'qVi;t%/`F|': 'h^$-C4XKc}'
+      'q[S4`,F0D=': 'p@{qCWlnXH'
+      'q[}7hk(+=e': 'gqj^s3}^Y6'
+      'qiv/4tOlf=': 'N4Q0mRJom{'
+      qvITjNxkLN: 'kwjZ:hu+^b'
+      'qx%>fB$d+$': 'N]c2]O;WnL'
+      'r(h9&#wc~B': 'A}C>b%U#S}'
+      'r/B|ra%L,.': 'ODBApmZ]n:'
+      'r5C646H*+*': 'nzv6%{z8e8'
+      'r6BV%|..*5': 'Q%iy;<@JH&'
+      'r<N4LAAnnB': 'PE#<DzLTO8'
+      'r>aI-$$|wT': 'I|&C8!2</#'
+      'r>g<|,FWi%': 'BvP+F:QCTH'
+      'r?E$4f-d0/': 'Lkpnrm+}N*'
+      'rPekx@n9:L': 't]9y*|+tZ'
+      'rSneU!3}bn': 'eprA@[$2!T'
+      'r]*Ioa%$bK': 'CMz9QB%2X^'
+      's#:aIK$9^x': 'L+`m,K,TjN'
+      's4E?ZF[E<>': 'M@Uja@7DwC'
+      's9-GL*@AXD': 'oV{vjm9,oV'
+      's<_WLSB3I/': 'b#,3j{C;Ii'
+      's>f40rn,O]': 't1Nxa2/6]g'
+      'sB7rZQsR<l': 'JWO]%|yV%9'
+      sM0GPt1HS1: 'k@SZ]//WP;'
+      'sRw-ik:I$v': 'BZ|D48kZ6%'
+      'sSW/?WMy17': 'y&&oj#+jmF'
+      'sT5=H|@KU|': 'p%]qRYCgpv'
+      sXzvT.g31p: 'dniv8r!ci3'
+      'sY>@9w~i^p': 'f*5blT|2d0'
+      'skOM(?n$GG': 'zph}.HR/d/'
+      spKoFRM4if: 'B`AJ:-Smw.'
+      'ssbyA9}]QP': 'B|dJ6T]U$e'
+      'stRa/S(0$F': 'gm+.@W/3UE'
+      'sxOMs+bE8@': 'p<FKrHg99Q'
+      'sx|l+io`B@': 'd*Y)3qd@/C'
+      's|K&2S,UP|': 'oiene4;[Kl'
+      't$y1C2R-Av': 's&^*ax7mk5'
+      't+v9b--,qs': 'e<+G+n.W89'
+      't-0>F]bu>P': 'w|**t4}*5:'
+      't2&ri|[Un:': 't|n7?F8IO|'
+      t3aZXtpNyi: 'voNLUF#rIP'
+      't50y/[AEhF': 'H>U*FzuU!q'
+      'tMMtBUpb$&': 'G%yn8F/|RL'
+      'tTnCoO/*tk': 'KIg(;uu).*'
+      't_h*fbN#:(': 'I[EaKvyq9C'
+      't`cagaWApo': 'y#6U?b$7aD'
+      'tcneuK7v%`': 'hsYz#zh=Oy'
+      tfCY4j6KEZ: 'FZZeug$TYn'
+      'tj&bK}%P!F': 'IGD[r5m}DP'
+      'twrhzJ[k:Z': 'pa6]%Am.&V'
+      't|h3|;E4g{': 's1i:%+hNpC'
+      'u-`cspdp)D': 'c!=R$K79Ci'
+      'u4^lH.xem5': 'cSW!~j9W8E'
+      'u;|vR#mVMW': 'qw`r9pt!l-'
+      'uH*Q(mcRt5': 'DEMGqHWrE%'
+      'uRo^w#p5Be': 'Nj!o5F[Y={'
+      'uc61ToT%gt': 'L>wqh,KqZ.'
+      'ui3>b-?a@m': 'yC[`HZT>8~'
+      upiX0g1quR: PiHl6BLN4X
+      'uv1fGXHN@)': 'tU-h*1<Z9g'
+      'u|I}oElaH)': 'vmRU)X?30m'
+      'vE[T$`n9T)': 'KsV`wSHfP8'
+      'vKx<0Qa!aP': 'f=?%:&eo,J'
+      'vNiD6A.v#s': 'KxV>K,YQ3`'
+      'va/ky=f5pK': 'yS!)#wTR3,'
+      'vf)G?[_?Pf': 'nhJb958%1'
+      'vgdj#X?8dB': 'uDFLbP[Qng'
+      'vpOTK6tMr@': r79P4ThUyr
+      'vppEA|$@~g': 'M2F[Y-o77g'
+      'vrn%j%6{nu': 'K]w/Sxim{^'
+      'vwc3}.=Z#&': 'fLt!@-+AbO'
+      'wa>{k!2cXc': 'PdPaEws@.2'
+      x2d4n4ADcP: 'm4fmq/A-=@'
+      'xb&P*pH(Q': 'fAFgA,TS$w'
+      'xqrJ^d[.(O': 'O]6^$Y;9N'
+      'yX:tmrd5;]': 'k.<MjI(i0l'
+      'z:*d{z(~V2': 'g<j_zQ:^mn'
+      'zSc]-^U=0=': 'A#xTVpn3Ks'
+    crowdanki:uuid:
+      43e2586a-9a65-11e8-a777-a0481cc15658: 3da2a851-258c-447f-9d16-91a663663675

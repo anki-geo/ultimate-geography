@@ -1,0 +1,772 @@
+id: overlay.translation.sv
+kind: translation
+translations:
+  changes:
+    'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.': 'Sydkorea förespråkar namnet Östhavet, Nordkorea Ostkoreanska havet.'
+    Abkhazia: Abchazien
+    Addis Ababa: Addis Abeba
+    Adriatic Sea: Adriatiska havet
+    Aegean Sea: Egeiska havet
+    Africa: Afrika
+    Akrotiri and Dhekelia: Akrotiri och Dhekelia
+    Albania: Albanien
+    Algeria: Algeriet
+    Algiers: Alger
+    Also known as Burma.: 'Även känt som Burma.'
+    Also known as Cabo Verde.: ''
+    Also known as Czechia.: ''
+    Also known as East Timor.: 'Även känt som Timor-Leste.'
+    Also known as Kiev.: ''
+    'Also known as Türkiye': ''
+    Also known as the Gulf of Siam.: 'Även känd som Siambukten.'
+    Also known as the Sea of Cortez.: 'Även känt som Cortez hav.'
+    'Also spelled as Sana''a.': ''
+    American Samoa: Amerikanska Samoa
+    'Andorra (narrower, coat of arms with motto)': 'Andorra (smalare, vapensköld med valspråk)'
+    Antarctica: Antarktis
+    Antigua and Barbuda: Antigua och Barbuda
+    Arabian Sea: Arabiska havet
+    Aral Sea: 'Aralsjön'
+    Arctic Ocean: Norra ishavet
+    Armenia: Armenien
+    Ashgabat: Asjchabad
+    Asia: Asien
+    Athens: Aten
+    Atlantic Ocean: Atlanten
+    Australia: Australien
+    'Australia (white stars, two more stars)': 'Australien (vita stjärnor, två fler stjärnor)'
+    Austria: 'Österrike'
+    'Austria (brighter red, wider white band)': 'Österrike (ljusare röd, bredare vitt band)'
+    Autonomous community of Spain.: Spansk autonom region.
+    Autonomous province of South Korea.: 'Autonom region i Sydkorea; tidigare känd som Quelpart.'
+    Autonomous region of Finland.: 'Självstyrande del av Finland.'
+    Autonomous region of Italy.: Italiensk autonom region.
+    Autonomous region of Papua New Guinea.: Autonom region i Papua Nya Guinea.
+    Autonomous region of Portugal.:
+      notes.note.azores.fields.field.country-info: 'Portugisisk autonom ögrupp.'
+      notes.note.madeira.fields.field.country-info: Portugisisk autonom region.
+    Azerbaijan: Azerbajdzjan
+    Azores: Azorerna
+    Baghdad: Bagdad
+    'Bahrain (narrower, fewer serrated edges, red)': 'Bahrain (smalare, färre tänder, röd)'
+    Balkan Peninsula: 'Balkanhalvön'
+    Baltic Sea: 'Östersjön'
+    Banda Sea: 'Bandasjön'
+    Barents Sea: Barents hav
+    Bay of Bengal: Bengaliska viken
+    Bay of Biscay: Biscayabukten
+    Beijing: Peking
+    Belgium: Belgien
+    Belgrade: Belgrad
+    Bering Strait: Berings sund
+    Bishkek: Bisjkek
+    Black Sea: Svarta havet
+    'Bolivia (coat of arms instead of star)': 'Bolivia (vapensköld istället för stjärna)'
+    Bosnia and Herzegovina: Bosnien och Hercegovina
+    Brazil: Brasilien
+    British Virgin Islands: 'Brittiska Jungfruöarna'
+    Brussels: Bryssel
+    Bucharest: Bukarest
+    Bulgaria: Bulgarien
+    Cairo: Kairo
+    Cambodia: Kambodja
+    Cameroon: Kamerun
+    'Cameroon (green/red/yellow, yellow star)': 'Kamerun (grön/röd/gul, gul stjärna)'
+    Canada: Kanada
+    Canary Islands: 'Kanarieöarna'
+    Cape Verde: Kap Verde
+    Caribbean Sea: Karibiska havet
+    Caspian Sea: Kaspiska havet
+    Cayman Islands: 'Caymanöarna'
+    Celebes Sea: 'Sulawesisjön'
+    Celtic Sea: Keltiska havet
+    Central African Republic: Centralafrikanska republiken
+    Cetinje is an honorary capital.: 'Cetinje är hedershuvudstad.'
+    Chad: Tchad
+    'Chad (slightly darker blue)': 'Tchad (aningen mörkare blå)'
+    China: Kina
+    City of San Marino: San Marino
+    Claimed and controlled: 'Hävdas och kontrolleras'
+    Claimed but not controlled: 'Påstått men inte kontrollerat'
+    'Colombia (no coat of arms)': 'Colombia (ingen vapensköld)'
+    Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.: 'Kallas även Kotte eller Sri Jayawardenapura Kotte; Colombo refereras ofta till som huvudstad, men förorten Sri Jayawardenapura är officiell huvudstad.'
+    Comoros: Komorerna
+    Constituent country in the Kingdom of Denmark.: Riksdel av Danmark.
+    Constituent country of the Kingdom of the Netherlands.: 'Ett av fyra länder som utgör staten Nederländerna.'
+    Constituent country of the United Kingdom.: Riksdel av Storbritannien.
+    Cook Islands: 'Cooköarna'
+    Copenhagen: 'Köpenhamn'
+    Coral Sea: Korallhavet
+    Corsica: Korsika
+    Croatia: Kroatien
+    Crown dependency of the United Kingdom.: Brittisk kronbesittning.
+    Cuba: Kuba
+    'Cuba (red triangle, blue stripes)': 'Kuba (röd triangel, blå ränder)'
+    'Curaçao (two stars in top-left corner)': 'Curaçao (två stjärnor i övre vänstra hörnet)'
+    Cyprus: Cypern
+    Czech Republic: Tjeckien
+    Damascus: Damaskus
+    Dead Sea: 'Döda havet'
+    Democratic Republic of the Congo: Kongo-Kinshasa
+    Denmark: Danmark
+    Denmark Strait: Danmarksundet
+    'Disputed; claimed by Israel; Ramallah is the administrative centre.': 'Omstridd; hävdas av Israel; Ramallah är det administrativa centrumet.'
+    'Disputed; claimed by Palestine.': 'Omstridd; hävdas av Palestina.'
+    Dominican Republic: Dominikanska republiken
+    Dushanbe: Dusjanbe
+    East China Sea: 'Östkinesiska havet'
+    East Siberian Sea: 'Östsibiriska havet'
+    'Ecuador (with coat of arms)': 'Ecuador (med vapensköld)'
+    Egypt: Egypten
+    'Egypt (emblem instead of text), Yemen (no text)': 'Egypten (statsvapen istället för text), Jemen (ingen text)'
+    'Egypt (with emblem), Iraq (with text)': 'Egypten (med emblem), Irak (med text)'
+    'El Salvador (different coat of arms, slightly darker blue)': 'El Salvador (annan vapensköld, aningen mörkare blå)'
+    English Channel: Engelska kanalen
+    Equatorial Guinea: Ekvatorialguinea
+    Estonia: Estland
+    Eswatini: Swaziland
+    Ethiopia: Etiopien
+    Europe: Europa
+    European Union: Europeiska unionen
+    Falkland Islands: 'Falklandsöarna'
+    Faroe Islands: 'Färöarna'
+    Federated States of Micronesia: Mikronesiens federerade stater
+    Formerly Zaire.: Formellt Demokratiska republiken Kongo.
+    Formerly known as Macedonia.: 'Tidigare känt som Makedonien.'
+    France: Frankrike
+    French Guiana: Franska Guyana
+    French Polynesia: Franska Polynesien
+    Georgia: Georgien
+    Germany: Tyskland
+    'Ghana (star instead of coat of arms)': 'Ghana (stjärnor istället för vapensköld)'
+    Greece: Grekland
+    Greenland: 'Grönland'
+    'Guinea (green and red flipped, slightly darker green)': 'Guinea (grön och röd växlade, aningen mörkare grön)'
+    Gulf of Alaska: Alaskagolfen
+    Gulf of California: Californiaviken
+    Gulf of Carpentaria: Carpentariaviken
+    Gulf of Guinea: Guineabukten
+    Gulf of Mexico: Mexikanska golfen
+    Gulf of Thailand: Thailandviken
+    Havana: Havanna
+    Helsinki: Helsingfors
+    Historical and cultural region in Northern Europe, which includes the countries of Denmark, Norway and Sweden, and sometimes Finland and Iceland.: 'Skandinavien består av Sverige, Norge och Danmark. Norden inkluderar även Finland och Island, och utomskandinaviska områden som Svalbard och Grönland. '
+    Hong Kong: Hongkong
+    Hungary: Ungern
+    Iceland: Island
+    'Iceland (blue background, red and white cross), Norway (red background, blue and white cross)': 'Island (blå bakgrund, rött och vitt kors), Norge (röd bakgrund, blått och vitt kors)'
+    'Iceland (blue background, red cross), Faroe Islands (white background, red and blue cross)': 'Island (blå bakgrund, rött kors), Färöarna (vit bakgrund, rött och blått kors)'
+    Independent state claimed by Georgia.: 'Delvis erkänd stat, görs anspråk på av Georgien.'
+    Independent state claimed by Moldova.: 'Självutropad stat, görs anspråk på av Moldavien.'
+    Independent state claimed by Somalia.: 'Självutropad stat, görs anspråk på av Somalien.'
+    India: Indien
+    Indian Ocean: Indiska oceanen
+    Indonesia: Indonesien
+    'Indonesia (white and red flipped, brighter red), Monaco (white and red flipped, narrower)': 'Indonesien (vit och röd växlade, ljusare röd), Monaco (vit och röd växlade, smalare)'
+    'Indonesia (wider, brighter red), Poland (red and white flipped, wider)': 'Indonesien (bredare, ljusare röd), Polen (röd och vit växlade, bredare)'
+    Iraq: Irak
+    'Iraq (text instead of emblem), Yemen (no emblem)': 'Irak (text istället för statsvapen), Jemen (inget statsvapen)'
+    Ireland: Irland
+    'Ireland (orange and green flipped, wider)': 'Irland (orange och grön växlade, bredare)'
+    Island of Indonesia.: 'Ö i Indonesien.'
+    Italy: Italien
+    Ivory Coast: Elfenbenskusten
+    'Ivory Coast (green and orange flipped, narrower)': 'Elfenbenskusten (grön och orange växlade, smalare)'
+    Jordan: Jordanien
+    Kaliningrad Oblast: Kaliningrad oblast
+    Kathmandu: Katmandu
+    Kazakhstan: Kazakstan
+    Known as Nur-Sultan between 2019 and 2022: Hette Nur-Sultan mellan 2019 och 2022
+    Known as Swaziland until 2018.: 'Även känt som Eswatini.'
+    Kuwait City: Kuwait
+    Kyiv: Kiev
+    Kyrgyzstan: Kirgizistan
+    Laayoune: al-Ayun
+    Labrador Sea: Labradorhavet
+    Latvia: Lettland
+    'Latvia (darker red, narrower white band)': 'Lettland (mörkare röd, smalare vitt band)'
+    Lebanon: Libanon
+    Libya: Libyen
+    Lisbon: Lissabon
+    Lithuania: Litauen
+    Luxembourg: Luxemburg
+    'Luxembourg (lighter blue)': 'Luxemburg (ljusare blå)'
+    Luxembourg City: Luxemburg
+    Macau: Macao
+    Madagascar: Madagaskar
+    Maldives: Maldiverna
+    'Mali (red and green flipped, slightly brighter green)': 'Mali (röd och grön växlade, aningen ljusare grön)'
+    Marshall Islands: 'Marshallöarna'
+    Mauritania: Mauretanien
+    Mediterranean Sea: Medelhavet
+    Melanesia: Melanesien
+    Mexico: Mexiko
+    Micronesia: Mikronesien
+    Moldova: Moldavien
+    'Moldova (wider, coat of arms with eagle)': 'Moldavien (bredare, vapensköld med örn)'
+    'Monaco (narrower, darker red), Poland (red and white flipped, darker red)': 'Monaco (smalare, mörkare röd), Polen (röd och vit växlade, mörkare röd)'
+    Mongolia: Mongoliet
+    Morocco: Marocko
+    Moscow: Moskva
+    Mozambique: 'Moçambique'
+    Muscat: Muskat
+    'Nauru (single star below yellow band)': 'Nauru (ensam stjärna under den gula randen)'
+    'Nauru has no official capital; the Yaren District is the de facto capital.': 'Nauru saknar städer, Yaren är de facto huvudort.'
+    Netherlands: 'Nederländerna'
+    'Netherlands (darker blue)': 'Nederländerna (mörkare blå)'
+    New Caledonia: Nya Kaledonien
+    New Zealand: Nya Zeeland
+    'New Zealand (red stars, two fewer stars)': 'Nya Zeeland (röda stjärnor, två färre stjärnor)'
+    'Nicaragua (different coat of arms, slightly lighter blue)': 'Nicaragua (annan vapensköld, aningen ljusare blå)'
+    North America: Nordamerika
+    North Korea: Nordkorea
+    North Macedonia: Nordmakedonien
+    North Nicosia: Norra Nicosia
+    North Sea: 'Nordsjön'
+    Northern Cyprus: Nordcypern
+    Northern Ireland: Nordirland
+    Northern Mariana Islands: Nordmarianerna
+    Norway: Norge
+    'Norway (red background, blue cross), Faroe Islands (white background, red and blue cross)': 'Norge (röd bakgrund, blått kors), Färöarna (vit bakgrund, rött och blått kors)'
+    Norwegian Sea: Norska havet
+    Not a sovereign country: 'Ej suverän stat'
+    'Nukuʻalofa': 'Nuku''alofa'
+    'Oblast (administrative region) of the Russian Federation.': 'Även känt som Ryska Östpreussen.'
+    Oceania: Oceanien
+    Official capital was moved from Bujumbura to Gitega in 2019.: 'Tidigare känt som Kitega; flyttat från Bujumbura i slutet av 2018.'
+    Official capital was moved from Malabo to Ciudad de la Paz in 2026.: 'Flyttat från Malabo i 2026.'
+    'Officially Côte d''Ivoire.': ''
+    Officially Luxembourg.: ''
+    Overseas department of France.:
+      notes.note.french-guiana.fields.field.country-info: Franskt utomeuropeiskt departement.
+      notes.note.guadeloupe.fields.field.country-info: Utomeuropeiskt franskt departement.
+      notes.note.martinique.fields.field.country-info: Franskt utomeuropeiskt departement.
+      notes.note.mayotte.fields.field.country-info: Franskt utomeuropeiskt departement.
+      notes.note.r-union.fields.field.country-info: Franskt utomeuropeiskt departement.
+    Overseas territory of France.:
+      notes.note.french-polynesia.fields.field.country-info: 'Franskt utomeuropeiskt förvaltningsområde.'
+      notes.note.new-caledonia.fields.field.country-info: Franskt utomeuropeiskt territorium.
+      notes.note.saint-martin.fields.field.country-info: 'Franskt utomeuropeiskt område.'
+      notes.note.wallis-and-futuna.fields.field.country-info: 'Franskt utomeuropeiskt område.'
+    Overseas territory of the United Kingdom.:
+      notes.note.akrotiri-and-dhekelia.fields.field.country-info: 'Brittiska “suveräna basområden”.'
+      notes.note.anguilla.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
+      notes.note.bermuda.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
+      notes.note.british-virgin-islands.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
+      notes.note.cayman-islands.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
+      notes.note.falkland-islands.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
+      notes.note.gibraltar.fields.field.country-info: Brittiskt  territorium.
+      notes.note.turks-and-caicos-islands.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
+    Pacific Ocean: Stilla havet
+    Palestine: Palestina
+    'Palestine (black/white/green, red arrow)': 'Palestina (svart/vit/grön, röd triangel)'
+    'Palestine (no symbol)': 'Palestina (ingen symbol)'
+    Papua New Guinea: Papua Nya Guinea
+    Partially recognised state claimed by China.: 'Delvis erkänd stat, görs anspråk på av Kina.'
+    Partially recognised state claimed by Morocco. Also known as Western Sahara.: 'Även känt som Västsahariska republiken.'
+    Partially recognised state claimed by Serbia.: 'Delvis erkänd stat, görs anspråk på av Serbien.'
+    Persian Gulf: Persiska viken
+    Philippine Sea: 'Filippinska sjön'
+    Philippines: Filippinerna
+    Poland: Polen
+    Polynesia: Polynesien
+    Prague: Prag
+    Pretoria, Cape Town, Bloemfontein: Pretoria, Kapstaden, Bloemfontein
+    'Puerto Rico (blue triangle, red stripes)': 'Puerto Rico (blå triangel, röda ränder)'
+    'Qatar (wider, more serrated edges, maroon)': 'Qatar (bredare, fler tänder, rödbrun)'
+    Red Sea: 'Röda havet'
+    Region of France.: Fransk region.
+    Republic of the Congo: Kongo-Brazzaville
+    'Reykjavík': Reykjavik
+    Romania: 'Rumänien'
+    'Romania (slightly lighter blue)': 'Rumänien (aningen ljusare blå)'
+    Rome: Rom
+    Russia: Ryssland
+    'Russia (no coat of arms), Slovenia (wider, smaller coat of arms)': 'Ryssland (ingen vapensköld), Slovenien (bredare, mindre vapensköld)'
+    Sahrawi Arab Democratic Republic: Sahariska arabiska demokratiska republiken
+    Saint Kitts and Nevis: Saint Kitts och Nevis
+    Saint Vincent and the Grenadines: Saint Vincent och Grenadinerna
+    Santiago: Santiago de Chile
+    Sardinia: Sardinien
+    Saudi Arabia: Saudiarabien
+    Scandinavia: Skandinavien
+    Scotland: Skottland
+    Sea of Galilee: 'Gennesaretsjön'
+    Sea of Japan: Japanska havet
+    Sea of Okhotsk: Ochotska havet
+    Semi-autonomous region of Tanzania.: 'Delvis självstyrande örike i union med Tanzania.'
+    'Senegal (green/yellow/red, green star)': 'Senegal (grön/gul/röd, grön stjärna)'
+    Serbia: Serbien
+    Seychelles: Seychellerna
+    Sicily: Sicilien
+    Slovakia: Slovakien
+    'Slovakia (narrower, bigger coat of arms)': 'Slovakien (smalare, större vapensköld)'
+    'Slovakia (with coat of arms)': 'Slovakien (med vapensköld)'
+    Slovenia: Slovenien
+    Solomon Islands: 'Salomonöarna'
+    South Africa: Sydafrika
+    'South Africa has no legally defined capital: the branches of government are split over three cities: Pretoria (executive), Cape Town (legislative) and Bloemfontein (judicial).': 'Sydafrika har ingen lagstadgad huvudstad, regeringen är delad över tre städer: Pretoria (administrativ), Kapstaden (legislativ), Bloemfontein (juridisk).'
+    South America: Sydamerika
+    South China Sea: Sydkinesiska havet
+    South Korea: Sydkorea
+    South Ossetia: Sydossetien
+    South Sudan: Sydsudan
+    Southern Ocean: Antarktiska oceanen
+    Sovereign country: 'Suverän stat'
+    Spain: Spanien
+    Special Administrative Region of China.:
+      notes.note.hong-kong.fields.field.country-info: 'Särskild administrativ region i Kina.'
+      notes.note.macau.fields.field.country-info: 'Särskild administrativ region i Kina, stavas alternativt Macau.'
+    Sri Jayawardenepura Kotte: Sri Jayawardenapura
+    'St. George''s': 'Saint George''s'
+    'St. John''s': 'Saint John''s'
+    State of the United States.: Amerikansk delstat.
+    State recognised only by Turkey and claimed by Cyprus.: 'Enbart erkänd av Turkiet, görs anspråk på av Cypern.'
+    Subregion of Oceania comprising thousands of small islands in the central and southern Pacific Ocean.: 'Delregion av Oceanien bestående av tusentals småöar i centrala och södra Stilla havet.'
+    Subregion of Oceania comprising thousands of small islands in the western Pacific Ocean.: 'Delregion av Oceanien bestående av tusentals småöar i västra Stilla havet.'
+    Subregion of Oceania, which includes Vanuatu, the Solomon Islands, Fiji, and Papua New Guinea.: 'Delregion av Oceanien bestående av bland andra Vanuatu, Salomonöarna, Fiji och Papua Nya Guinea.'
+    'Sudan (red/white/black, green arrow), Sahrawi Arab Democratic Republic (with star and crescent)': 'Sudan (röd/vit/svart, grön triangel), Sahariska arabiska demokratiska republiken (med stjärna och halvmåne)'
+    Sukhumi: Suchumi
+    Suriname: Surinam
+    Sweden: Sverige
+    Switzerland: Schweiz
+    'Switzerland has no official capital; Bern is the de facto capital.': 'Schweiz har ingen officiell huvudstad; Bern är de facto huvudstad.'
+    Syria: Syrien
+    'São Tomé and Príncipe': 'São Tomé och Príncipe'
+    Tajikistan: Tadzjikistan
+    Tashkent: Tasjkent
+    Tasman Sea: Tasmanhavet
+    Tehran: Teheran
+    The Bahamas: Bahamas
+    The Gambia: Gambia
+    Timor Sea: 'Timorsjön'
+    Timor-Leste: 'Östtimor'
+    Transnistria: Transnistrien
+    Trinidad and Tobago: Trinidad och Tobago
+    Tskhinvali: Tschinvali
+    Tunisia: Tunisien
+    Turkey: Turkiet
+    Turks and Caicos Islands: 'Turks- och Caicosöarna'
+    Ukraine: Ukraina
+    Ulaanbaatar: Ulan Bator
+    Unincorporated internal area of Norway.: 'Norsk ögrupp.'
+    Unincorporated territory of the United States.: 'Amerikanskt icke-inkorporerat område.'
+    United Arab Emirates: 'Förenade Arabemiraten'
+    United Kingdom: Storbritannien
+    United States Virgin Islands: 'Amerikanska Jungfruöarna'
+    United States of America: USA
+    Vatican City:
+      notes.note.vatican-city.fields.field.capital: Vatikanstaden
+      notes.note.vatican-city.fields.field.country: Vatikanstaten
+    Vienna: Wien
+    Wallis and Futuna: 'Wallis- och Futunaöarna'
+    Warsaw: Warszawa
+    While Amsterdam is the official capital, The Hague is the seat of the executive and legislative branches.: 'Haag är administrativ huvudstad.'
+    While Dodoma is the official capital, Dar es Salaam is the de facto seat of government.: 'Dar es-Salaam är de facto administrativ huvudstad.'
+    'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.': 'Stavas även al-''Ayun, El Aaiún; Tifariti är de facto säte för parlamentet.'
+    While Mbabane is the official, executive capital, Lobamba is the traditional, spiritual and legislative capital.: 'Lobamba är traditionell och lagstiftande huvudstad.'
+    While Porto-Novo is the official capital, Cotonou is the de facto seat of government.: 'Cotonou är administrativ huvudstad.'
+    While Sucre is the constitutional capital, La Paz is the seat of government.: 'La Paz är säte för regeringen.'
+    While Yamoussoukro is the official capital, Abidjan is the de facto seat of government.: 'Stavas även Yamassoukro; Abidjan är de facto administrativ huvudstad.'
+    White Sea: Vita havet
+    World region covering the Australian continent and most of the islands in the Pacific Ocean.: 'Världsdel bestående av Australien och majoriteten av öarna och ögrupperna i Stilla havet.'
+    Yellow Sea: Gula havet
+    Yemen: Jemen
+    Yerevan: Jerevan
+    'Åland Islands': 'Åland'
+  additions:
+    notes.note.arabian-sea.fields.field.country-info: 'Även känt som Arabiska sjön.'
+    notes.note.bahrain.fields.field.country-info: Stavas alternativt Bahrein.
+    notes.note.balkan-peninsula.fields.field.country-info: 'Även känt som Balkan.'
+    notes.note.belarus.fields.field.country-info: 'Även känt som Vitryssland.'
+    notes.note.federated-states-of-micronesia.fields.field.country-info: 'Även känt som Mikronesiska federationen.'
+    notes.note.mongolia.fields.field.capital-info: 'Stavas även Ulaanbaatar.'
+    notes.note.myanmar.fields.field.capital-info: 'Stavas även Nay Pyi Taw.'
+    notes.note.persian-gulf.fields.field.country-info: 'Även känd som Iranska viken.'
+    notes.note.qatar.fields.field.country-info: Stavas alternativt Katar.
+    notes.note.republic-of-the-congo.fields.field.country-info: Formellt Republiken Kongo.
+    notes.note.sea-of-galilee.fields.field.country-info: 'Även känd som Galileiska sjön och Tiberiassjön.'
+    notes.note.united-kingdom.fields.field.country-info: 'Formellt Förenade kungariket.'
+    notes.note.united-states-of-america.fields.field.country-info: 'Formellt Amerikas förenta stater, även känt som Förenta staterna.'
+    notes.note.yellow-sea.fields.field.country-info: 'Kallas Västhavet i Nord- och Sydkorea.'
+    notes.note.yemen.fields.field.country-info: Stavas alternativt Yemen.
+  variables:
+    label.capital:
+      Capital: Huvudstad
+    label.capital-hint.answer:
+      'Hint: {{Capital hint}}': 'Ledtråd: {{Capital hint}}'
+    label.flag:
+      Flag: Flagga
+    label.location:
+      Location: 'Läge'
+    note-type.name:
+      Ultimate Geography: 'Ultimate Geography [SV]'
+    sentence.flag-similar:
+      'Flag similar to {{Flag similarity}}.': 'Flaggan liknar {{Flag similarity}}.'
+  adapter_ids:
+    crowdanki:guid:
+      ')Y}Qy.3GK': 'HU{V)h>->1'
+      '5JJ2]i)p4': 'ch9]RU,k}a'
+      '5S(f7%O-$': 'u<w5s|M#Ds'
+      '?n!)c/h=Q': 'ljuf!A77m!'
+      'AES],s:8=': 'w2^A.*A;0^'
+      'B:x<p&Q=t)': 'gn,]{C-kDK'
+      'BJ,,^wMC%N': 'bb3ZLS``;e'
+      Bszsaz0Iuo: 'Cj.2Qz[,?;'
+      'Cf2@;p<aL': 'DRY)+ITFX-'
+      'E3u*2.<9#`': 'QQ+*SW>?NN'
+      'EWXNc<g5)': 'B7hcD[}|,:'
+      'G/^_##fcPN': 'wN+#PV27nX'
+      'Gn;q2Y)Xe4': 'ngPe&f4ARW'
+      'H*c[ML+`s=': 'gx#n~i)Kft'
+      'He!e=h?_2V': 'Qqzh;Z,9&o'
+      'J%,fuysl*&': 'uxU}LMXAY+'
+      'JOT:U4ayh@': 'mjltS8qw#I'
+      'K*b}<I3(~': 'fwm<gn03ey'
+      'L5M1*yG7eH': 'iw)&(><6ju'
+      LPF4AfaHKR: 'DMw7[z1|/f'
+      'Lol+XIvY21': 'AUQ5QqT7N~'
+      'M$bc0[jYf0': 'B4o4Qgpxa='
+      'O~pXkAbd3': 'u._5@pRbGb'
+      'QSq%~rFaP-': 'A`,,|zaW//'
+      'Qlib4)q2Hk': 'Lg|45@I{1+'
+      'SlOEXfq#|': 'u>bFUX4,^('
+      'W5?6yQZD2': 'Bp:8AxZIJ*'
+      '_]DH+g9!$': 'g*C+;[^vP9'
+      'b@M[XTc?}5': 'OzZ|9/zKGy'
+      'bD?R}i8_[c': 'B0j5`h}ycY'
+      'bW)ch:vs1P': 'hWSXAL,1[1'
+      'b[(2`4t&?J': 'P$;>yK&Bb#'
+      'b^Try&me1A': 'N@2CXFim}.'
+      'b`5Q_Z=HQT': 'MPv~EB{R-o'
+      'bd~Ght5tLR': 'FBWKraq$]`'
+      'bk2ByZIeU+': 'GO8K><b?f2'
+      'bnEK#)[;qT': 'Ar:~TK>ugF'
+      'c(,2{yXI#E': '(;;{-bktU'
+      'c,5(mUGzYT': 'b.K2|uT9#&'
+      'cAlyc~G.y%': 'p){pPjR5:$'
+      'cEO^y)Md[G': 'ite]=1-[IW'
+      'cL?8!xP#Wj': 'ya#p*nPn}U'
+      'cPO|Cru8n<': 'b4O.fdq=&&'
+      'cV4idO^r8W': 'f&H7U0-[5}'
+      'cYKvF#ptF7': 'P;wx%Rx}g%'
+      'c^,~EC6Pb2': 'KG~t}M~,_o'
+      'ck!6;xK$/^': 'vHOU`CM:P+'
+      'cv+Nq9:a<P': 'e7aUv]y3NG'
+      'd-q4J~CNW_': 'f?dUt&>$PS'
+      'd3c`&/1Y^D': 'y!.rR1N]Q%'
+      'd5m8%D6,;u': 't!YaMvtxM)'
+      'dC:e5G4J/p': 'iZ`BoOu7TH'
+      'dUZ^=SE5BG': '^(x:orV#n'
+      'dWA49p}F{k': 'O%#xYWz^#M'
+      'dY96`C-f(_': KUSv4_ZftC
+      'd``B*6:eCx': 'eItZ|YXm$3'
+      'dbP/Cj}sB+': yychoEU/n9
+      'de=9c:,@j9': 'o6f7z~ZCr6'
+      'dlU7VG|3Gd': 'f*A:Z4bkRD'
+      'd}R:qHj1,7': 'pG~&s-.Pv='
+      'e!KSebP}pt': 'EnHK+Ktzh+'
+      'e+/O]%*qfk': 'M@9EfpNi;z'
+      'e.t$Vi5,>f': 'eqi30~lJCU'
+      'e42BpV,P}C': 'o@l9/@&CEQ'
+      'e5P*D#I{m{': 'p;W>c.=a5.'
+      'e<X;[vACXC': zz4Ej5gtx6
+      'e=.VHQ9E+M': 'i?;Nx?in:X'
+      'e?Xq9gy=@[': 'F+l?rc6nr?'
+      'e?gIaPc$Ox': 'fk0sh|Ih~P'
+      'e?h=Xhs+K&': 'HzN{~)3NGK'
+      'eALZe^HCHq': 'D^z&W{[{ng'
+      'eHJ?)TAdTo': 'd/vX5sh?Z9'
+      'eN#^kPGv*L': 'sE1}%6$3D9'
+      'eT<gzg?q,r': 'gum46?fIJ@'
+      'e_;dzXj8de': 'sB,_Fhn5&I'
+      'epvt3>HH?U': 'iWh/XzA:Fx'
+      'euW0jm=wfR': 'F5Fbm]10e3'
+      'e{e8vi@^PY': 'O8La>q*+=D'
+      'f#4-L[mp5*': 'nh!${YsPie'
+      'f*2@qiHh_1': 'fL<u4=Axl['
+      'f*LO~>!0PN': 't1sE<.qtO/'
+      'f21=-A~W;~': 'qv@;*gj=VH'
+      'f>c7x2E]Q6': 'O|!r8pZc_@'
+      'fRSM{K+;[w': 'x2Ho#9JF2&'
+      'fT!w8R#>dg': 'taGg_[({a>'
+      'fV`&p81%d(': 'N&=0FE?0K3'
+      fkq7lhLkdH: 'x}$b4LJvm3'
+      'fxAN),FAc$': 'QyZ%*OdzFY'
+      'g-]bb&[.E!': 'H/1j+}vOwc'
+      'g9v~y/;=z(': caoMw/l6Qq
+      'g<[f89~U)A': 'eRztGZ?5gt'
+      'gBCR?!O*;E': 'wY{he1D;Tc'
+      'gB|K:+r?1V': 'ncoVNK:5c/'
+      'gDsLPj(9S#': 'EykZ%2$zVY'
+      'gFOojQO(MH': 'n$t4JTV.L['
+      'gG6SWfM>H0': 'c3_S$ge,H%'
+      'gRVZ]qJ#>O': 'ywSb;Oor?l'
+      'gYIoR`|AxW': 'm9{}Vj*h)B'
+      'gePC:Xt_nW': 'we!,qZc~VX'
+      'gp[h@]y13l': 'o6Q=4QRc:P'
+      'gsS{jR,]|Q': 'DnUNQy>V@c'
+      'gx:;za!?C9': 'O6XK(yEdjN'
+      'gz9${p}er*': 'O:){fAE+[h'
+      'g~%pF`(x{u': 'qvU`=w(275'
+      'h&`>n98~V1': i7sQICmsKP
+      'h9Jr(H[=1~': 'lg>S)d~UyQ'
+      'h?a*UKfT_M': 'uU![?ri)d_'
+      'hE5j*e,Q?[': 'oVtF.y]H)M'
+      'hNE9}>;Q&-': 'Ae@YR@cdSW'
+      'hXNTVF<:SH': 'FO/D@z0E%#'
+      'hZ/V/D&rO`': 'k^PtQpRdLQ'
+      'h_9=mkZXAH': 'q*^h!N31k*'
+      hoHandbYAy: 'heo$u3%xYs'
+      'hrI_uiW>E]': 'L3Z}n~/Szn'
+      'h}lnSN_f$_': 'yp(op%kwx]'
+      'h~5xz+=ke~': 'Gpeah<lh@u'
+      'i)]+09JUR&': 'c#-~c^hZ8~'
+      'i2]v|D3@:j': 'oU<~4jjCyP'
+      'iB-8Br~onq': 'xV<kEl1ZJ$'
+      'iIS#Nw]tr]': 'mmXmH,@{!K'
+      'iR;U<J:CJJ': 'dJX+VxBemo'
+      'iW>m(L/~c=': 'c=F0q+d|m#'
+      'i^J8&$(1]|': 'ugyWN%[pXR'
+      'ia8as9sCY|': 'b2;iz|xg^@'
+      'igiK,ff[eO': 'N`e</}tgwr'
+      'ijP>aJBT!9': 'LH]h^.GA_i'
+      'ilGtw#=asM': 'Qi.AoC*UvT'
+      'j%*8gN)q>d': 'uVs:]g8l.&'
+      'j)i)pB*HJ,': 'OlYF5,:|Q3'
+      'j2IQ=f=w3@': 'B;S:<cu0^C'
+      j7eEZkzsCZ: 'C[bMs5PN|d'
+      'j9:K,~DQ2v': 't%PfM!!RPu'
+      'j<egqG@)EL': hB_EsBpVEy
+      'j=L,YBvsBk': 'BJvzz<mQn/'
+      'jBd@A?>g|}': 'rJG$qf|FO4'
+      'jCd]`-=k,:': 'QO[lJt~Q]N'
+      'jDA-V?/hVj': 'GilXrl.A_%'
+      jI9P-f6r3M: 'z}n.If4:?)'
+      'jKIDq|}J&c': 'qW1*i(&R3$'
+      'jKO,9y0M;#': 'p02Yuw`G)/'
+      'jN^Vc%9OQ5': 'B`1@FnD9*.'
+      'jN|NAUP*h}': 'h>OmJ~oZ~|'
+      'jTNoKo}Bu+': 'rF%zt5M&?-'
+      'jX=#G8wu#(': 'ki}T;HSiij'
+      'jYz[ibrr9m': 'D.R!j]):&%'
+      'jcu!gLw/&r': 'j(X|k-_Sv|'
+      'jrM28*HbyG': OgRSGzP9iU
+      'j|z@PMgdx,': 'gM+}.:OZH]'
+      'k$1_yaF?9#': 'gM!|AcSE~W'
+      'k/u1:B%DJH': 'yJ+?5Bb~=:'
+      'k0{O[6l]bH': 'Pc}I71FH$K'
+      'k1]FH+s8j@': 'A`?%3b$nUX'
+      'k9E.p^<u$,': 'x]u},H#?K~'
+      'kE!iKHLN_g': 'jX.V=Tm<P3'
+      'kQ:NIhJy~E': 'vl*,GQz^vQ'
+      'kS)hDm%w}R': 'wh@G!lN$Q|'
+      'kX]hN=_.c-': 'M1DF:M)y_T'
+      'kZ52zV#[Iv': 'ODx_iYAqK('
+      'k[)#L4.[v3': 'ca`<lL]SBn'
+      'khB~(m^@Z5': 'LCs2:t<[-X'
+      'kkbYQXw5b;': 'FOI,VR<;HS'
+      'koI(}OyJ:@': 'DOTLV^*F{H'
+      'kopwzzB``A': 'GSMkD<+Cko'
+      'k}4/oj#$~s': 'P?8;T>jkXg'
+      'k}A9]O:0xw': 'lsc1G{vU4.'
+      'l$2O|9w`F~': 'x^M8w2)s#:'
+      'l$zM~ihPFE': 'B,[GBme-:n'
+      'l&#7I)Ah/E': ':+A,]QJt-'
+      'l*j*EE:!Y?': 'EKcj[W^+w]'
+      'l+>Ki!j#v+': 'sj6y@z=dRP'
+      'l3Ly8PBxt(': 'n$0d;K4M?l'
+      'lAxH.CfJB@': 'r#k4%<ieJ;'
+      'lH^2D]w;[H': '|:r0wYpo+'
+      'lU@C3<C8Wk': 's=)J}uTu.N'
+      'leh^fmrt*#': 'hq?[{n24G;'
+      'lhWI;$JC9(': 'B*Q><ygyqQ'
+      libliptkB4: 'N={U.qMDd5'
+      'lmRujD!(A7': 'Q8=#jf;Izu'
+      'ln^3p)j3b.': 'dYQH;whZ9c'
+      'lp@e##m.!+': 'li{q-g0Ru|'
+      'lpbD0St&OU': 'cBQpjb$FFF'
+      'lq`T^ZBF2Y': 'HX#;I12-Gu'
+      'l}[BG9.nQS': 'if5[hu6l7g'
+      'm)WUtJS`H&': i3-W.8A8pC
+      'm*#%sE.`.;': 'pk+~~g89%y'
+      'm*PYE=#wr^': 'MD>R`2$IfI'
+      'm2F|cUkKhv': 'qvhov1fh!t'
+      'm5j,b/y<EE': 'ubj(k(`p0:'
+      'm?}%V6s8]*': 'JO{1$2yxOD'
+      mJH4kwPF.-: '8CAB|Q`3c'
+      'm[96fa+HDS': 'hqHjJQR@ve'
+      mbGXc0y3Pe: 'JA;WxR7VVZ'
+      'mbz=7n[0v9': 'GV|.:pW~=#'
+      'mcc&0Kq^xE': 'j^H$O[w*tW'
+      'mi+kf0LTW.': 'qjZDlzf]=l'
+      'mk1VltJl<]': 'xc^[E/Z[$R'
+      'mk20`,N=`=': 'g^MDw[q&`K'
+      'mkgcU7[bA%': 'p(q*slFP*F'
+      'mq)8`hi{hb': 'kp&`?`CDeL'
+      'mtd;>7T|g>': 'eDx9dZ&k(k'
+      'mz[>>AxIr4': 'z9T_hmmT*f'
+      'm{noqE29%I': 'w3V@j|Foq~'
+      'm{oM,jr>C#': 'rVhH@X0hOr'
+      'n&>e`2FO/S': 'l{J_M.Vp>X'
+      'n+t>2`:;P/': 'wH[5PSfX;K'
+      'n:7&>YT5A=': 'J.*@Nk4>0*'
+      'nIfRn<aY:N': 'dnY]_1$e<W'
+      'niJUFZF$Y:': fsloLaTPf8
+      'nsS59c`VL,': 'KWY%fKd5dT'
+      'nuU8A_$i2M': j65XMZPPCl
+      'n{{o2K1:dw': 'bM>er*)`9o'
+      'o#&RMA_REo': 'w7J5,@!ZO`'
+      'o3VS!KWb/@': 'Nky*kq6)GC'
+      'o9{x<AyA]B': 'fl~nzy1ZAc'
+      'o=,%hU&yX%': 'I}xtas*<<='
+      'oNpApS<AoJ': 'bkjWZ<Vg]U'
+      oV/JG7fwZq: 'dBTCh;2%Xv'
+      'o``:?0>/yz': 'jZpi[+b>`2'
+      'oa87&PB&Bm': 'GH~LmtD8o#'
+      'onMKID2d;D': 'F[Hq;*V/7K'
+      'o~}KVA:VbI': 'njbrSU^agd'
+      'p#R$-mG/L': 'xA+]rlW|<7'
+      'p.yv>BQ470': 'FGu[yfPiJ7'
+      'p:SPZ:e/*[': 'Op1]SnugtV'
+      'pD<Pd$Ag@J': 'I4?0i2<YxI'
+      'pQpX%(EVOH': 'G&{G$z2N`]'
+      'pS>DrFhd%u': 'w5=:(t5%R6'
+      'pYRw[=6;JI': 'FoXsg8;#yi'
+      'p]t8:Tka7q': 'f*vz&Ph[bR'
+      pkj3RPBUrF: 'o%$r]1QH{t'
+      'pwwZu{7f~(': CpZYay1jbg
+      'pz(G*<F93/': 'LvKjC9)Jop'
+      'p}Qa|!7PpR': 'ga-I(hwLN)'
+      'q1Q3Do8S>g': 'J{(N4{^e:N'
+      'q2#Yv[O0:|': 'tJ&;D}C]UV'
+      'q7do-wLx%E': 'v?vAk$tZAa'
+      'q8][)Ri}=q': 'N@bHVDe+Kb'
+      'q8fF$4,c6_': '[&[K^KiK8'
+      'q:XyGf#>Wg': 'O>(c0%czoO'
+      'q=w[<m2Bk&': 'iKL]@oe;,B'
+      'qFuGdDx^Yv': 'omFN1!]szI'
+      'qVi;t%/`F|': 'd&Z;v4SLqS'
+      'q[S4`,F0D=': 'c0X`Rdpvdg'
+      'q[}7hk(+=e': 't|}7%V0{4w'
+      'qiv/4tOlf=': 'cd@bD^dpRt'
+      qvITjNxkLN: 'NJhO,P|nW`'
+      'qx%>fB$d+$': 'M<c,]nB<a~'
+      'r(h9&#wc~B': 'z;zuT%S.hs'
+      'r/B|ra%L,.': 'H!Ms:!^6Ka'
+      'r5C646H*+*': 'A&@FdL>j&h'
+      'r6BV%|..*5': 'Qmb.+7huoY'
+      'r<N4LAAnnB': 'Q5Si^%B~:x'
+      'r>aI-$$|wT': 'f`?#zj#)DE'
+      'r>g<|,FWi%': 'Ko1^yAR.yn'
+      'r?E$4f-d0/': 'gux9;qM)nK'
+      'rPekx@n9:L': 'kjo~PAZ.,y'
+      'rSneU!3}bn': 'myDYy<t!DY'
+      'r]*Ioa%$bK': 'Q!&RwY_+~G'
+      's#:aIK$9^x': 'm%N$gpC+n]'
+      's4E?ZF[E<>': 'Q@3rl@WPXz'
+      's9-GL*@AXD': 'nN,;(#X}Wt'
+      's<_WLSB3I/': 'DVc[0B1#@*'
+      's>f40rn,O]': 'J]3b`qj!hC'
+      'sB7rZQsR<l': 'P~zp{JVRjt'
+      sM0GPt1HS1: 'mVqJCtNO^w'
+      'sRw-ik:I$v': 'w`;zj+qi],'
+      'sSW/?WMy17': 'pD{#)wT+1u'
+      'sT5=H|@KU|': 'IlH%F{np<['
+      sXzvT.g31p: 'kA<Bx%0-hP'
+      'sY>@9w~i^p': 'H_pUK6Xu]`'
+      'skOM(?n$GG': 'hj]p(iMKl7'
+      spKoFRM4if: 'c@58oWbN3U'
+      'ssbyA9}]QP': 'D((j`lUo!d'
+      'stRa/S(0$F': 'KHEo&Oa7_F'
+      'sxOMs+bE8@': 'J+O2qUIUz|'
+      'sx|l+io`B@': 'p?*+RZ<OgX'
+      's|K&2S,UP|': 'HeX)uooi/y'
+      't$y1C2R-Av': 'x*o*2(qrzU'
+      't+v9b--,qs': 'z8UXM/Z23%'
+      't-0>F]bu>P': 'y=oLcr9$cQ'
+      't2&ri|[Un:': 'c7[u_eSWiy'
+      t3aZXtpNyi: OX,mUDIStL
+      't50y/[AEhF': 'I=mZ*3?!_l'
+      'tMMtBUpb$&': '|*Z`50Bgs'
+      'tTnCoO/*tk': 'Qg3C+rbaa*'
+      't_h*fbN#:(': 'Leo~hD<WPr'
+      't`cagaWApo': 'k$T,&qpZ_E'
+      'tcneuK7v%`': 'd&bsqV:N$w'
+      tfCY4j6KEZ: 'er#*rcW/fO'
+      'tj&bK}%P!F': 'O-wR/1*Y6i'
+      'twrhzJ[k:Z': 'wR=%k%E3:i'
+      't|h3|;E4g{': 'E[0uav)J05'
+      'u-`cspdp)D': 'uRPZ]lF~NL'
+      'u4^lH.xem5': 'v3/LK?TI+'
+      'u;|vR#mVMW': 'B=^Q!Oy7dx'
+      'uH*Q(mcRt5': 'ELV(4@XqZt'
+      'uRo^w#p5Be': 'l*S7j866t<'
+      'uc61ToT%gt': 't&Ov:{KJHy'
+      'ui3>b-?a@m': 'A:WhEL~x!A'
+      upiX0g1quR: 'mSow!CwtLI'
+      'uv1fGXHN@)': AUgq3IkilN
+      'u|I}oElaH)': 'lNTL4T}K1)'
+      'vE[T$`n9T)': 'nB97`B-u)'
+      'vKx<0Qa!aP': 'fyeM9@jJW0'
+      'vNiD6A.v#s': 'P.ls/JP5<}'
+      'va/ky=f5pK': fGB0mK7OmU
+      'vf)G?[_?Pf': 'u3u7Z|VQV`'
+      'vgdj#X?8dB': 'b^b:}HG<(/'
+      'vpOTK6tMr@': 'QIn7X6P~>i'
+      'vppEA|$@~g': 'koAN*cMu(A'
+      'vrn%j%6{nu': 'F%kRV:W:T$'
+      'vwc3}.=Z#&': 'l,[F>UJ/PN'
+      'wa>{k!2cXc': 'x=Gm50ksY@'
+      x2d4n4ADcP: 'p6lxT;d^Pq'
+      'xb&P*pH(Q': 'P)2eJ7Sr]e'
+      'xqrJ^d[.(O': 'g67ir]U+=9'
+      'yX:tmrd5;]': 'GZ2yh|R:fR'
+      'z:*d{z(~V2': 'x-s/YndH;0'
+      'zSc]-^U=0=': lGG8WbUQzc
+    crowdanki:uuid:
+      43c5ba66-9a65-11e8-90c9-a0481cc15658: 75bfcdb5-0ff3-4038-83cb-3e6ed974f439
+      43e2586a-9a65-11e8-a777-a0481cc15658: 3090ce89-5fd8-4107-86df-3e7a74ec288f
+deck:
+  name:
+    intent: replace
+    value: 'Ultimate Geography [SV]'
+    expected_base:
+      value: Ultimate Geography
+  description:
+    intent: replace
+    value: |
+      <a href="https://github.com/anki-geo/ultimate-geography/"><b>FULLSTÄNDIG BESKRIVNING</b></a> | <a href="https://github.com/anki-geo/ultimate-geography/releases"><b>UTGIVNINGSANMÄRKNINGAR</b></a> | <a href="https://github.com/anki-geo/ultimate-geography/blob/master/CONTRIBUTING.md"><b>BIDRA</b></a>
+      
+      <b>Ultimate Geography v5.3</b> innehåller:
+      
+      - världens <a href="https://en.wikipedia.org/wiki/List_of_sovereign_states"><b>205 självständiga stater</b></a> (820 kort)
+      - <b>59 territorum, världsregioner och andra enheter</b> (103 kort)
+      - <b>48 sjöar och hav</b> (48 kort, enbart kartor)
+      - <b>7 kontinenter</b> (7 kort, enbart kartor)
+      - sammanlagt <b>319 unika noter</b>, <b>978 kort</b>, <b>221 flaggor</b> och <b>319 kartor</b>.
+      
+      Kortleken finns tillgänglig på fjorton olika språk: <b>engelska</b>, <b>tyska</b>, <b>spanska</b>, <b>franska</b>, <b>norska</b>, <b>tjeckiska</b>, <b>ryska</b>, <b>nederländska</b>, <b>svenska</b>, <b>portugisiska</b>, <b>kinesiska</b>, <b>polska</b>, <b>italienska</b> och <b>danska</b>. För vardera språk finns dessutom en <a href="https://github.com/anki-geo/ultimate-geography#features"><b>utökad version</b></a>.
+      
+      För att underlätta inlärningen så har vissa kort en extra informationsrad, med exempelvis information om att flaggan på kortet liknar en annan flagga, politisk styrelse eller ett alternativt namn på ett land.
+      
+      Du kan skapa en <a href="https://github.com/anki-geo/ultimate-geography#custom-study">filtrerad kortlek</a> om du vill fokusera på specifika delar av kortleken. Till exempel kan du på så sätt välja att enbart studera suveräna stater, endast en specifik korttyp (såsom "karta → land") eller en specifik världsdel (till exempel Europa).
+      
+      Den här kortleken <a href="https://github.com/anki-geo/ultimate-geography"><b>administreras på GitHub</b></a>. Om du upptäcker ett fel, har förslag eller vill hjälpa till, tveka inte att <a href="https://github.com/anki-geo/ultimate-geography/issues">öppna ett ärende</a>. Vill du bli informerad om uppdateringar av kortleken? Bevaka källlkodskatalogen på GitHub eller prenumerera på <a href="https://github.com/anki-geo/ultimate-geography/releases.atom">feeden för utgåvor</a>!
+    expected_base:
+      value: |
+        <a href="https://github.com/anki-geo/ultimate-geography/"><b>FULL DESCRIPTION</b></a> | <a href="https://github.com/anki-geo/ultimate-geography/releases"><b>RELEASE NOTES</b></a> | <a href="https://github.com/anki-geo/ultimate-geography/blob/master/CONTRIBUTING.md"><b>CONTRIBUTING</b></a>
+        
+        <b>Ultimate Geography v5.3</b> features:
+        
+        - the world's <a href="https://en.wikipedia.org/wiki/List_of_sovereign_states"><b>205 sovereign states</b></a> (820 cards)
+        - <b>59 territories, world regions, and other entities</b> (103 cards)
+        - <b>48 oceans and seas</b> (48 cards, maps only)
+        - <b>7 continents</b> (7 cards, maps only)
+        - for a total of <b>319 unique notes</b>, <b>978 cards</b>, <b>221 flags</b> and <b>319 maps</b>.
+        
+        The deck is <a href="https://github.com/anki-geo/ultimate-geography#other-languages-and-versions">available</a> in <b>English</b>, <b>German</b>, <b>Spanish</b>, <b>French</b>, <b>Norwegian</b>, <b>Czech</b>, <b>Russian</b>, <b>Dutch</b>, <b>Swedish</b>, <b>Portuguese</b>, <b>Chinese</b> (simplified and traditional), <b>Polish</b>, <b>Italian</b> and <b>Danish</b>. An <a href="https://github.com/anki-geo/ultimate-geography#other-languages-and-versions"><b>extended version</b></a> is also available in each language. To help with memorisation and provide context while learning, some notes include extra information such as similar flags, governance information, alternative country names, etc.
+        
+        You can use Anki's <a href="https://github.com/anki-geo/ultimate-geography#custom-study">filtered deck feature</a> to focus your study on a subset of the deck, such as sovereign states, a single note template (e.g. map to country), or a specific continent (e.g. Europe).
+        
+        This deck is <a href="https://github.com/anki-geo/ultimate-geography"><b>maintained on GitHub</b></a>. If you spot a mistake, have a suggestion or want to help, please don't hesitate to <a href="https://github.com/anki-geo/ultimate-geography/issues">open an issue</a>. Want to <b>stay informed of new releases</b>? Watch the GitHub repository or subscribe to the <a href="https://github.com/anki-geo/ultimate-geography/releases.atom">releases feed</a>!
