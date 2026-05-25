@@ -1,0 +1,11 @@
+id: overlay.variant.extended.da
+kind: extension
+note_types:
+  note-type.ultimate-geography:
+    intent: merge
+    adapter_ids:
+      crowdanki:uuid:
+        intent: override
+        value: 412504c7-cde6-426d-8110-454bb2b711c7
+        expected_base:
+          value: 15daaec7-4097-4d97-ba94-9db44f8b8f51

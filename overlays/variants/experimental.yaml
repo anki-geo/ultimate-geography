@@ -1,0 +1,745 @@
+id: overlay.variant.experimental
+kind: extension
+field_additions:
+  note-type.ultimate-geography:
+    fields:
+      field.region-code: Region code
+    values:
+      note.abkhazia:
+        field.region-code: ''
+      note.adriatic-sea:
+        field.region-code: ''
+      note.aegean-sea:
+        field.region-code: ''
+      note.afghanistan:
+        field.region-code: AF
+      note.africa:
+        field.region-code: ''
+      note.akrotiri-and-dhekelia:
+        field.region-code: ''
+      note.alaska:
+        field.region-code: ''
+      note.albania:
+        field.region-code: AL
+      note.algeria:
+        field.region-code: DZ
+      note.american-samoa:
+        field.region-code: ''
+      note.andorra:
+        field.region-code: AD
+      note.angola:
+        field.region-code: AO
+      note.anguilla:
+        field.region-code: ''
+      note.antarctica:
+        field.region-code: ''
+      note.antigua-and-barbuda:
+        field.region-code: AG
+      note.arabian-sea:
+        field.region-code: ''
+      note.aral-sea:
+        field.region-code: ''
+      note.arctic-ocean:
+        field.region-code: ''
+      note.argentina:
+        field.region-code: AR
+      note.armenia:
+        field.region-code: AM
+      note.aruba:
+        field.region-code: ''
+      note.asia:
+        field.region-code: ''
+      note.atlantic-ocean:
+        field.region-code: ''
+      note.australia:
+        field.region-code: AU
+      note.austria:
+        field.region-code: AT
+      note.azerbaijan:
+        field.region-code: AZ
+      note.azores:
+        field.region-code: ''
+      note.bahrain:
+        field.region-code: BH
+      note.bali:
+        field.region-code: ''
+      note.balkan-peninsula:
+        field.region-code: ''
+      note.baltic-sea:
+        field.region-code: ''
+      note.banda-sea:
+        field.region-code: ''
+      note.bangladesh:
+        field.region-code: BD
+      note.barbados:
+        field.region-code: BB
+      note.barents-sea:
+        field.region-code: ''
+      note.bay-of-bengal:
+        field.region-code: ''
+      note.bay-of-biscay:
+        field.region-code: ''
+      note.belarus:
+        field.region-code: BY
+      note.belgium:
+        field.region-code: BE
+      note.belize:
+        field.region-code: BZ
+      note.benin:
+        field.region-code: BJ
+      note.bering-strait:
+        field.region-code: ''
+      note.bermuda:
+        field.region-code: ''
+      note.bhutan:
+        field.region-code: BT
+      note.black-sea:
+        field.region-code: ''
+      note.bolivia:
+        field.region-code: BO
+      note.bosnia-and-herzegovina:
+        field.region-code: BA
+      note.botswana:
+        field.region-code: BW
+      note.bougainville:
+        field.region-code: ''
+      note.brazil:
+        field.region-code: BR
+      note.british-virgin-islands:
+        field.region-code: ''
+      note.brunei:
+        field.region-code: BN
+      note.bulgaria:
+        field.region-code: BG
+      note.burkina-faso:
+        field.region-code: BF
+      note.burundi:
+        field.region-code: BI
+      note.cambodia:
+        field.region-code: KH
+      note.cameroon:
+        field.region-code: CM
+      note.canada:
+        field.region-code: CA
+      note.canary-islands:
+        field.region-code: ''
+      note.cape-verde:
+        field.region-code: CV
+      note.caribbean-sea:
+        field.region-code: ''
+      note.caspian-sea:
+        field.region-code: ''
+      note.cayman-islands:
+        field.region-code: ''
+      note.celebes-sea:
+        field.region-code: ''
+      note.celtic-sea:
+        field.region-code: ''
+      note.central-african-republic:
+        field.region-code: CF
+      note.chad:
+        field.region-code: TD
+      note.chile:
+        field.region-code: CL
+      note.china:
+        field.region-code: CN
+      note.colombia:
+        field.region-code: CO
+      note.comoros:
+        field.region-code: KM
+      note.cook-islands:
+        field.region-code: ''
+      note.coral-sea:
+        field.region-code: ''
+      note.corsica:
+        field.region-code: ''
+      note.costa-rica:
+        field.region-code: CR
+      note.croatia:
+        field.region-code: HR
+      note.cuba:
+        field.region-code: CU
+      note.cura-ao:
+        field.region-code: ''
+      note.cyprus:
+        field.region-code: CY
+      note.czech-republic:
+        field.region-code: CZ
+      note.dead-sea:
+        field.region-code: ''
+      note.democratic-republic-of-the-congo:
+        field.region-code: CD
+      note.denmark:
+        field.region-code: DK
+      note.denmark-strait:
+        field.region-code: ''
+      note.djibouti:
+        field.region-code: DJ
+      note.dominica:
+        field.region-code: DM
+      note.dominican-republic:
+        field.region-code: DO
+      note.east-china-sea:
+        field.region-code: ''
+      note.east-siberian-sea:
+        field.region-code: ''
+      note.ecuador:
+        field.region-code: EC
+      note.egypt:
+        field.region-code: EG
+      note.el-salvador:
+        field.region-code: SV
+      note.england:
+        field.region-code: ''
+      note.english-channel:
+        field.region-code: ''
+      note.equatorial-guinea:
+        field.region-code: GQ
+      note.eritrea:
+        field.region-code: ER
+      note.estonia:
+        field.region-code: EE
+      note.eswatini:
+        field.region-code: SZ
+      note.ethiopia:
+        field.region-code: ET
+      note.europe:
+        field.region-code: ''
+      note.european-union:
+        field.region-code: ''
+      note.falkland-islands:
+        field.region-code: FK
+      note.faroe-islands:
+        field.region-code: FO
+      note.federated-states-of-micronesia:
+        field.region-code: ''
+      note.fiji:
+        field.region-code: FJ
+      note.finland:
+        field.region-code: FI
+      note.france:
+        field.region-code: FR
+      note.french-guiana:
+        field.region-code: GF
+      note.french-polynesia:
+        field.region-code: ''
+      note.gabon:
+        field.region-code: GA
+      note.georgia:
+        field.region-code: GE
+      note.germany:
+        field.region-code: DE
+      note.ghana:
+        field.region-code: GH
+      note.gibraltar:
+        field.region-code: ''
+      note.greece:
+        field.region-code: GR
+      note.greenland:
+        field.region-code: GL
+      note.grenada:
+        field.region-code: ''
+      note.guadeloupe:
+        field.region-code: GP
+      note.guam:
+        field.region-code: ''
+      note.guatemala:
+        field.region-code: GT
+      note.guernsey:
+        field.region-code: ''
+      note.guinea:
+        field.region-code: GN
+      note.guinea-bissau:
+        field.region-code: GW
+      note.gulf-of-alaska:
+        field.region-code: ''
+      note.gulf-of-california:
+        field.region-code: ''
+      note.gulf-of-carpentaria:
+        field.region-code: ''
+      note.gulf-of-guinea:
+        field.region-code: ''
+      note.gulf-of-mexico:
+        field.region-code: ''
+      note.gulf-of-thailand:
+        field.region-code: ''
+      note.guyana:
+        field.region-code: GY
+      note.haiti:
+        field.region-code: HT
+      note.hawaii:
+        field.region-code: ''
+      note.honduras:
+        field.region-code: HN
+      note.hong-kong:
+        field.region-code: HK
+      note.hudson-bay:
+        field.region-code: ''
+      note.hungary:
+        field.region-code: HU
+      note.iceland:
+        field.region-code: IS
+      note.india:
+        field.region-code: IN
+      note.indian-ocean:
+        field.region-code: ''
+      note.indonesia:
+        field.region-code: ID
+      note.iran:
+        field.region-code: IR
+      note.iraq:
+        field.region-code: IQ
+      note.ireland:
+        field.region-code: IE
+      note.isle-of-man:
+        field.region-code: IM
+      note.israel:
+        field.region-code: IL
+      note.italy:
+        field.region-code: IT
+      note.ivory-coast:
+        field.region-code: CI
+      note.jamaica:
+        field.region-code: JM
+      note.japan:
+        field.region-code: JP
+      note.java:
+        field.region-code: ''
+      note.jeju:
+        field.region-code: ''
+      note.jersey:
+        field.region-code: ''
+      note.jordan:
+        field.region-code: JO
+      note.kaliningrad-oblast:
+        field.region-code: ''
+      note.kazakhstan:
+        field.region-code: KZ
+      note.kenya:
+        field.region-code: KE
+      note.kiribati:
+        field.region-code: ''
+      note.kosovo:
+        field.region-code: ''
+      note.kuwait:
+        field.region-code: KW
+      note.kyrgyzstan:
+        field.region-code: KG
+      note.labrador-sea:
+        field.region-code: ''
+      note.land-islands:
+        field.region-code: AX
+      note.laos:
+        field.region-code: LA
+      note.latvia:
+        field.region-code: LV
+      note.lebanon:
+        field.region-code: LB
+      note.lesotho:
+        field.region-code: LS
+      note.liberia:
+        field.region-code: LR
+      note.libya:
+        field.region-code: LY
+      note.liechtenstein:
+        field.region-code: ''
+      note.lithuania:
+        field.region-code: LT
+      note.luxembourg:
+        field.region-code: LU
+      note.macau:
+        field.region-code: ''
+      note.madagascar:
+        field.region-code: MG
+      note.madeira:
+        field.region-code: ''
+      note.malawi:
+        field.region-code: MW
+      note.malaysia:
+        field.region-code: MY
+      note.maldives:
+        field.region-code: ''
+      note.mali:
+        field.region-code: ML
+      note.malta:
+        field.region-code: ''
+      note.marshall-islands:
+        field.region-code: ''
+      note.martinique:
+        field.region-code: MQ
+      note.mauritania:
+        field.region-code: MR
+      note.mauritius:
+        field.region-code: MU
+      note.mayotte:
+        field.region-code: YT
+      note.mediterranean-sea:
+        field.region-code: ''
+      note.melanesia:
+        field.region-code: ''
+      note.mexico:
+        field.region-code: MX
+      note.micronesia:
+        field.region-code: ''
+      note.moldova:
+        field.region-code: MD
+      note.monaco:
+        field.region-code: ''
+      note.mongolia:
+        field.region-code: MN
+      note.montenegro:
+        field.region-code: ME
+      note.morocco:
+        field.region-code: MA
+      note.mozambique:
+        field.region-code: MZ
+      note.myanmar:
+        field.region-code: MM
+      note.namibia:
+        field.region-code: NA
+      note.nauru:
+        field.region-code: ''
+      note.nepal:
+        field.region-code: NP
+      note.netherlands:
+        field.region-code: NL
+      note.new-caledonia:
+        field.region-code: NC
+      note.new-zealand:
+        field.region-code: NZ
+      note.nicaragua:
+        field.region-code: NI
+      note.niger:
+        field.region-code: NE
+      note.nigeria:
+        field.region-code: NG
+      note.niue:
+        field.region-code: ''
+      note.north-america:
+        field.region-code: ''
+      note.north-korea:
+        field.region-code: KP
+      note.north-macedonia:
+        field.region-code: MK
+      note.north-sea:
+        field.region-code: ''
+      note.northern-cyprus:
+        field.region-code: ''
+      note.northern-ireland:
+        field.region-code: ''
+      note.northern-mariana-islands:
+        field.region-code: ''
+      note.norway:
+        field.region-code: NO
+      note.norwegian-sea:
+        field.region-code: ''
+      note.oceania:
+        field.region-code: ''
+      note.oman:
+        field.region-code: OM
+      note.pacific-ocean:
+        field.region-code: ''
+      note.pakistan:
+        field.region-code: PK
+      note.palau:
+        field.region-code: ''
+      note.palestine:
+        field.region-code: PS
+      note.panama:
+        field.region-code: PA
+      note.papua-new-guinea:
+        field.region-code: PG
+      note.paraguay:
+        field.region-code: PY
+      note.persian-gulf:
+        field.region-code: ''
+      note.peru:
+        field.region-code: PE
+      note.philippine-sea:
+        field.region-code: ''
+      note.philippines:
+        field.region-code: PH
+      note.poland:
+        field.region-code: PL
+      note.polynesia:
+        field.region-code: ''
+      note.portugal:
+        field.region-code: PT
+      note.puerto-rico:
+        field.region-code: PR
+      note.qatar:
+        field.region-code: QA
+      note.r-union:
+        field.region-code: RE
+      note.red-sea:
+        field.region-code: ''
+      note.republic-of-the-congo:
+        field.region-code: CG
+      note.romania:
+        field.region-code: RO
+      note.russia:
+        field.region-code: RU
+      note.rwanda:
+        field.region-code: RW
+      note.s-o-tom-and-pr-ncipe:
+        field.region-code: ST
+      note.sahrawi-arab-democratic-republic:
+        field.region-code: ''
+      note.saint-kitts-and-nevis:
+        field.region-code: ''
+      note.saint-lucia:
+        field.region-code: ''
+      note.saint-martin:
+        field.region-code: ''
+      note.saint-vincent-and-the-grenadines:
+        field.region-code: ''
+      note.samoa:
+        field.region-code: ''
+      note.san-marino:
+        field.region-code: ''
+      note.sardinia:
+        field.region-code: ''
+      note.saudi-arabia:
+        field.region-code: SA
+      note.scandinavia:
+        field.region-code: ''
+      note.scotland:
+        field.region-code: ''
+      note.sea-of-galilee:
+        field.region-code: ''
+      note.sea-of-japan:
+        field.region-code: ''
+      note.sea-of-okhotsk:
+        field.region-code: ''
+      note.senegal:
+        field.region-code: SN
+      note.serbia:
+        field.region-code: RS
+      note.seychelles:
+        field.region-code: ''
+      note.sicily:
+        field.region-code: ''
+      note.sierra-leone:
+        field.region-code: SL
+      note.singapore:
+        field.region-code: SG
+      note.sint-maarten:
+        field.region-code: ''
+      note.slovakia:
+        field.region-code: SK
+      note.slovenia:
+        field.region-code: SI
+      note.solomon-islands:
+        field.region-code: SB
+      note.somalia:
+        field.region-code: SO
+      note.somaliland:
+        field.region-code: ''
+      note.south-africa:
+        field.region-code: ZA
+      note.south-america:
+        field.region-code: ''
+      note.south-china-sea:
+        field.region-code: ''
+      note.south-korea:
+        field.region-code: KR
+      note.south-ossetia:
+        field.region-code: ''
+      note.south-sudan:
+        field.region-code: SS
+      note.southern-ocean:
+        field.region-code: ''
+      note.spain:
+        field.region-code: ES
+      note.sri-lanka:
+        field.region-code: LK
+      note.sudan:
+        field.region-code: SD
+      note.sumatra:
+        field.region-code: ''
+      note.suriname:
+        field.region-code: SR
+      note.svalbard:
+        field.region-code: SJ
+      note.sweden:
+        field.region-code: SE
+      note.switzerland:
+        field.region-code: CH
+      note.syria:
+        field.region-code: SY
+      note.taiwan:
+        field.region-code: TW
+      note.tajikistan:
+        field.region-code: TJ
+      note.tanzania:
+        field.region-code: TZ
+      note.tasman-sea:
+        field.region-code: ''
+      note.thailand:
+        field.region-code: TH
+      note.the-bahamas:
+        field.region-code: BS
+      note.the-gambia:
+        field.region-code: GM
+      note.timor-leste:
+        field.region-code: TL
+      note.timor-sea:
+        field.region-code: ''
+      note.togo:
+        field.region-code: TG
+      note.tonga:
+        field.region-code: ''
+      note.transnistria:
+        field.region-code: ''
+      note.trinidad-and-tobago:
+        field.region-code: TT
+      note.tunisia:
+        field.region-code: TN
+      note.turkey:
+        field.region-code: TR
+      note.turkmenistan:
+        field.region-code: TM
+      note.turks-and-caicos-islands:
+        field.region-code: ''
+      note.tuvalu:
+        field.region-code: ''
+      note.uganda:
+        field.region-code: UG
+      note.ukraine:
+        field.region-code: UA
+      note.united-arab-emirates:
+        field.region-code: AE
+      note.united-kingdom:
+        field.region-code: GB
+      note.united-states-of-america:
+        field.region-code: US
+      note.united-states-virgin-islands:
+        field.region-code: ''
+      note.uruguay:
+        field.region-code: UY
+      note.uzbekistan:
+        field.region-code: UZ
+      note.vanuatu:
+        field.region-code: VU
+      note.vatican-city:
+        field.region-code: ''
+      note.venezuela:
+        field.region-code: VE
+      note.vietnam:
+        field.region-code: VN
+      note.wales:
+        field.region-code: ''
+      note.wallis-and-futuna:
+        field.region-code: ''
+      note.white-sea:
+        field.region-code: ''
+      note.yellow-sea:
+        field.region-code: ''
+      note.yemen:
+        field.region-code: YE
+      note.zambia:
+        field.region-code: ZM
+      note.zanzibar:
+        field.region-code: ''
+      note.zimbabwe:
+        field.region-code: ZW
+note_types:
+  note-type.ultimate-geography:
+    intent: merge
+    variables:
+      variant.name-suffix:
+        intent: override
+        value: ' [Experimental]'
+        expected_base:
+          value: ' [Extended]'
+    card_templates:
+      template.country-map:
+        intent: merge
+        question_format:
+          intent: merge
+          value: |-
+            <link rel="stylesheet" href="_ug-jsvectormap.min.css" data-nn-media-src="_ug-jsvectormap.min.css">
+            <script>
+              sessionStorage.setItem("userConfig",
+                JSON.stringify({
+                  commonFeatures: {
+                    interactiveEnabled: "true",
+                    interactiveMobileEnabled: "true",
+                    autoAnswerEnabled: "true",
+                    toolTipEnabled: "false",
+                  },
+                  commonColors: {
+                    region: "#fdfbe5",
+                    selectedRegion: "#e7f3ea",
+                    incorrectRegionHighlight: "#c02637",
+                    correctRegionHighlight: "#329446",
+                    background: "#b3dff5",
+                    border: "#757674",
+                    tooltipBackground: "#fdfbe5",
+                    tooltipText: "#000000"
+                  }
+                }));
+            </script>
+            <div class="value value--top">{{Country}}</div>
+            <hr>
+            
+            <div class="type">${label.location}</div>
+            <div id="map" class="value value--map" style="display: none"></div>
+            <div class="value value--image">
+              <svg
+                class="placeholder"
+                xmlns="http://www.w3.org/2000/svg"
+                width="500"
+                height="308"
+                viewBox="0 0 500 308"
+              >
+                <path d="m154 2s-151 44-152 152c-1 108 152 152 152 152h193s151-44 151-152c1-107-151-152-151-152z"></path>
+              </svg>
+            </div>
+            
+            <textarea id="typeans" style="display: none;"></textarea>
+            
+            <script src="_ug-jsvectormap.js"></script>
+            <script src="_ug-world.js"></script>
+            <script src="_ug-interactive_map_config.js"></script>
+            <script src="_ug-interactive_map_init.js"
+                    data-card-side="question" data-region-code="{{Region code}}"></script>
+        answer_format:
+          intent: merge
+          value: |
+            <link rel="stylesheet" href="_ug-jsvectormap.min.css" data-nn-media-src="_ug-jsvectormap.min.css">
+            <div class="value value--top">{{Country}}</div>
+            {{#Country info}}<div class="info">{{Country info}}</div>{{/Country info}}
+            
+            <hr id=answer>
+            
+            <div class="type">${label.location}</div>
+            <div id="map" class="value value--map" style="display: none"></div>
+            <div class="value value--image">{{Map}}</div>
+            
+            <script src="_ug-jsvectormap.js"></script>
+            <script src="_ug-world.js"></script>
+            <script src="_ug-interactive_map_config.js"></script>
+            <script src="_ug-interactive_map_init.js"
+                    data-card-side="answer" data-region-code="{{Region code}}"></script>
+media:
+  media.interactive-map-config-js:
+    intent: add
+    path: _ug-interactive_map_config.js
+    sha256: ''
+  media.interactive-map-init-js:
+    intent: add
+    path: _ug-interactive_map_init.js
+    sha256: ''
+  media.jsvectormap-css:
+    intent: add
+    path: _ug-jsvectormap.min.css
+    sha256: ''
+  media.jsvectormap-js:
+    intent: add
+    path: _ug-jsvectormap.js
+    sha256: ''
+  media.world-js:
+    intent: add
+    path: _ug-world.js
+    sha256: ''

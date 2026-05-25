@@ -1,0 +1,370 @@
+package:
+  id: anki-geo.ultimate-geography
+  version: 0.1.0
+  compatible_base_versions:
+    - '>=0.1,<0.2'
+base: deck.yaml
+overlays:
+  overlay.translation.cs:
+    file: overlays/languages/cs.yaml
+    kind: translation
+  overlay.translation.da:
+    file: overlays/languages/da.yaml
+    kind: translation
+  overlay.translation.de:
+    file: overlays/languages/de.yaml
+    kind: translation
+  overlay.translation.es:
+    file: overlays/languages/es.yaml
+    kind: translation
+  overlay.translation.fr:
+    file: overlays/languages/fr.yaml
+    kind: translation
+  overlay.translation.it:
+    file: overlays/languages/it.yaml
+    kind: translation
+  overlay.translation.nb:
+    file: overlays/languages/nb.yaml
+    kind: translation
+  overlay.translation.nl:
+    file: overlays/languages/nl.yaml
+    kind: translation
+  overlay.translation.pl:
+    file: overlays/languages/pl.yaml
+    kind: translation
+  overlay.translation.pt:
+    file: overlays/languages/pt.yaml
+    kind: translation
+  overlay.translation.ru:
+    file: overlays/languages/ru.yaml
+    kind: translation
+  overlay.translation.sv:
+    file: overlays/languages/sv.yaml
+    kind: translation
+  overlay.translation.zh:
+    file: overlays/languages/zh.yaml
+    kind: translation
+  overlay.translation.zh-tw:
+    file: overlays/languages/zh-tw.yaml
+    kind: translation
+  overlay.variant.experimental:
+    file: overlays/variants/experimental.yaml
+    kind: extension
+    depends_on:
+      - overlay.variant.extended
+  overlay.variant.experimental.cs:
+    file: overlays/variants/experimental/cs.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.cs
+      - overlay.variant.experimental
+  overlay.variant.experimental.da:
+    file: overlays/variants/experimental/da.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.da
+      - overlay.variant.experimental
+  overlay.variant.experimental.de:
+    file: overlays/variants/experimental/de.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.de
+      - overlay.variant.experimental
+  overlay.variant.experimental.en:
+    file: overlays/variants/experimental/en.yaml
+    kind: extension
+    depends_on:
+      - overlay.variant.experimental
+  overlay.variant.experimental.es:
+    file: overlays/variants/experimental/es.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.es
+      - overlay.variant.experimental
+  overlay.variant.experimental.fr:
+    file: overlays/variants/experimental/fr.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.fr
+      - overlay.variant.experimental
+  overlay.variant.experimental.it:
+    file: overlays/variants/experimental/it.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.it
+      - overlay.variant.experimental
+  overlay.variant.experimental.nb:
+    file: overlays/variants/experimental/nb.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.nb
+      - overlay.variant.experimental
+  overlay.variant.experimental.nl:
+    file: overlays/variants/experimental/nl.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.nl
+      - overlay.variant.experimental
+  overlay.variant.experimental.pl:
+    file: overlays/variants/experimental/pl.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.pl
+      - overlay.variant.experimental
+  overlay.variant.experimental.pt:
+    file: overlays/variants/experimental/pt.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.pt
+      - overlay.variant.experimental
+  overlay.variant.experimental.ru:
+    file: overlays/variants/experimental/ru.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.ru
+      - overlay.variant.experimental
+  overlay.variant.experimental.sv:
+    file: overlays/variants/experimental/sv.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.sv
+      - overlay.variant.experimental
+  overlay.variant.experimental.zh:
+    file: overlays/variants/experimental/zh.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.zh
+      - overlay.variant.experimental
+  overlay.variant.experimental.zh-tw:
+    file: overlays/variants/experimental/zh-tw.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.zh-tw
+      - overlay.variant.experimental
+  overlay.variant.extended:
+    file: overlays/variants/extended.yaml
+    kind: extension
+  overlay.variant.extended.cs:
+    file: overlays/variants/extended/cs.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.cs
+      - overlay.variant.extended
+  overlay.variant.extended.da:
+    file: overlays/variants/extended/da.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.da
+      - overlay.variant.extended
+  overlay.variant.extended.de:
+    file: overlays/variants/extended/de.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.de
+      - overlay.variant.extended
+  overlay.variant.extended.en:
+    file: overlays/variants/extended/en.yaml
+    kind: extension
+    depends_on:
+      - overlay.variant.extended
+  overlay.variant.extended.es:
+    file: overlays/variants/extended/es.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.es
+      - overlay.variant.extended
+  overlay.variant.extended.fr:
+    file: overlays/variants/extended/fr.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.fr
+      - overlay.variant.extended
+  overlay.variant.extended.it:
+    file: overlays/variants/extended/it.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.it
+      - overlay.variant.extended
+  overlay.variant.extended.nb:
+    file: overlays/variants/extended/nb.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.nb
+      - overlay.variant.extended
+  overlay.variant.extended.nl:
+    file: overlays/variants/extended/nl.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.nl
+      - overlay.variant.extended
+  overlay.variant.extended.pl:
+    file: overlays/variants/extended/pl.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.pl
+      - overlay.variant.extended
+  overlay.variant.extended.pt:
+    file: overlays/variants/extended/pt.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.pt
+      - overlay.variant.extended
+  overlay.variant.extended.ru:
+    file: overlays/variants/extended/ru.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.ru
+      - overlay.variant.extended
+  overlay.variant.extended.sv:
+    file: overlays/variants/extended/sv.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.sv
+      - overlay.variant.extended
+  overlay.variant.extended.zh:
+    file: overlays/variants/extended/zh.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.zh
+      - overlay.variant.extended
+  overlay.variant.extended.zh-tw:
+    file: overlays/variants/extended/zh-tw.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.zh-tw
+      - overlay.variant.extended
+targets:
+  cs-experimental:
+    overlays:
+      - overlay.variant.experimental.cs
+  cs-extended:
+    overlays:
+      - overlay.variant.extended.cs
+  cs-standard:
+    overlays:
+      - overlay.translation.cs
+  da-experimental:
+    overlays:
+      - overlay.variant.experimental.da
+  da-extended:
+    overlays:
+      - overlay.variant.extended.da
+  da-standard:
+    overlays:
+      - overlay.translation.da
+  de-experimental:
+    overlays:
+      - overlay.variant.experimental.de
+  de-extended:
+    overlays:
+      - overlay.variant.extended.de
+  de-standard:
+    overlays:
+      - overlay.translation.de
+  en-experimental:
+    overlays:
+      - overlay.variant.experimental.en
+  en-extended:
+    overlays:
+      - overlay.variant.extended.en
+  en-standard:
+    overlays: []
+  es-experimental:
+    overlays:
+      - overlay.variant.experimental.es
+  es-extended:
+    overlays:
+      - overlay.variant.extended.es
+  es-standard:
+    overlays:
+      - overlay.translation.es
+  fr-experimental:
+    overlays:
+      - overlay.variant.experimental.fr
+  fr-extended:
+    overlays:
+      - overlay.variant.extended.fr
+  fr-standard:
+    overlays:
+      - overlay.translation.fr
+  it-experimental:
+    overlays:
+      - overlay.variant.experimental.it
+  it-extended:
+    overlays:
+      - overlay.variant.extended.it
+  it-standard:
+    overlays:
+      - overlay.translation.it
+  nb-experimental:
+    overlays:
+      - overlay.variant.experimental.nb
+  nb-extended:
+    overlays:
+      - overlay.variant.extended.nb
+  nb-standard:
+    overlays:
+      - overlay.translation.nb
+  nl-experimental:
+    overlays:
+      - overlay.variant.experimental.nl
+  nl-extended:
+    overlays:
+      - overlay.variant.extended.nl
+  nl-standard:
+    overlays:
+      - overlay.translation.nl
+  pl-experimental:
+    overlays:
+      - overlay.variant.experimental.pl
+  pl-extended:
+    overlays:
+      - overlay.variant.extended.pl
+  pl-standard:
+    overlays:
+      - overlay.translation.pl
+  pt-experimental:
+    overlays:
+      - overlay.variant.experimental.pt
+  pt-extended:
+    overlays:
+      - overlay.variant.extended.pt
+  pt-standard:
+    overlays:
+      - overlay.translation.pt
+  ru-experimental:
+    overlays:
+      - overlay.variant.experimental.ru
+  ru-extended:
+    overlays:
+      - overlay.variant.extended.ru
+  ru-standard:
+    overlays:
+      - overlay.translation.ru
+  sv-experimental:
+    overlays:
+      - overlay.variant.experimental.sv
+  sv-extended:
+    overlays:
+      - overlay.variant.extended.sv
+  sv-standard:
+    overlays:
+      - overlay.translation.sv
+  zh-experimental:
+    overlays:
+      - overlay.variant.experimental.zh
+  zh-extended:
+    overlays:
+      - overlay.variant.extended.zh
+  zh-standard:
+    overlays:
+      - overlay.translation.zh
+  zh-tw-experimental:
+    overlays:
+      - overlay.variant.experimental.zh-tw
+  zh-tw-extended:
+    overlays:
+      - overlay.variant.extended.zh-tw
+  zh-tw-standard:
+    overlays:
+      - overlay.translation.zh-tw
