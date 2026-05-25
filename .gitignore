@@ -1,9 +1,8 @@
-archiver/
 build/
-vendor/
-src/note_models/templates/generated/
+.cache/
+result
 
 .DS_Store
 Thumbs.db
 ~$*
-.idea
+.idea/
