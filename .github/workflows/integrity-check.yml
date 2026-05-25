@@ -1,31 +1,37 @@
-name: Integrity check
+name: Brain Brew check
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
 
 jobs:
-
-  build:
+  verify:
     runs-on: ubuntu-latest
-
+    env:
+      BRAINBREW_FLAKE: github:jeprecated/brain-brew/rust-brainbrew
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-    - name: Set up Python 3.11
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.11
+      - name: Install Nix
+        uses: cachix/install-nix-action@v31
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
 
-    - name: Install dependencies
-      run: |
-        python3 -m pip install --upgrade pipenv
-        pipenv install
+      - name: Verify Brain Brew workspace
+        run: |
+          nix run "$BRAINBREW_FLAKE" -- verify --manifest brainbrew.yaml --all-targets --media-root media
 
-    - name: Validate regular & extended decks
-      run: |
-        pipenv run build
-
-    - name: Validate experimental deck
-      run: |
-        pipenv run build_experimental
-
-      # TODO: Validate the csv file structure
+      - name: Export all CrowdAnki targets
+        run: |
+          set -euo pipefail
+          nix run "$BRAINBREW_FLAKE" -- targets --manifest brainbrew.yaml | while read -r target; do
+            out="build/crowdanki/$target"
+            nix run "$BRAINBREW_FLAKE" -- export crowdanki --manifest brainbrew.yaml --target "$target" --out "$out"
+            test -f "$out/deck.json"
+            mkdir -p "$out/media"
+            cp media/* "$out/media/"
+          done
