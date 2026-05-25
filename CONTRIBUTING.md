@@ -2,118 +2,82 @@
 
 :wave: Hello there! :tada: Thanks for taking the time to contribute!
 
-Seen something outdated or plain wrong? Spotted a typo somewhere? Think something could be better translated, or want to translate the whole deck into a new language? Awesome! :100: Let us know right away by [opening a new issue](https://github.com/anki-geo/ultimate-geography/issues).
-
-#### Table of contents
-
-- [**Contributor's guide**](#contributors-guide)
-  - [Getting started](#getting-started)
-  - [Brain Brew recipes](#brain-brew-recipes)
-    - [Source to Anki](#source-to-anki)
-    - [Anki to Source](#anki-to-source)
-  - [How-to's](#how-tos)
-- [**Content inclusion rules**](#content-inclusion-rules)
-  - [Political geography](#political-geography)
-    - [Sovereign states](#sovereign-states)
-    - [Dependent territories](#dependent-territories)
-    - [Autonomous islands](#autonomous-islands)
-    - [Transcontinental overseas territories](#transcontinental-overseas-territories)
-    - [Enclaves and exclaves](#enclaves-and-exclaves)
-  - [Physical geography](#physical-geography)
-    - [Continents](#continents)
-    - [Oceans](#oceans)
-    - [Marginal seas](#marginal-seas)
-    - [Straits](#straits)
-    - [Channels and passages](#channels-and-passages)
-    - [Other water bodies](#other-water-bodies)
-- [**Content guidelines**](#content-guidelines)
-  - [_Country_ field](#country-field)
-  - [_Country info_ field](#country-info-field)
-  - [_Capital_ field](#capital-field)
-  - [_Capital info_ field](#capital-info-field)
-  - [_Capital hint_ field](#capital-hint-field)
-  - [_Flag_ field](#flag-field)
-  - [_Flag similarity_ field](#flag-similarity-field)
-  - [_Map_ field](#map-field)
-  - [Writing style](#writing-style)
-- [**Translation sources**](#translation-sources)
-  - [Norwegian Bokmål](#norwegian-bokmål)
-- [**Maintainer's guide**](#maintainers-guide)
-  - [Versioning](#versioning)
-  - [Release process](#release-process)
-  - [Release notes](#release-notes)
-
+Seen something outdated or plain wrong? Spotted a typo somewhere? Think something could be better translated, or want to translate the whole deck into a new language? Please [open an issue](https://github.com/anki-geo/ultimate-geography/issues) before doing large edits so maintainers can help coordinate the work.
 
 ## Contributor's guide
 
-Ready to start working on an issue? Here is what you need to know.
+Ultimate Geography is still maintained with [Brain Brew](https://github.com/jeprecated/brain-brew), now using the new Rust-based Brain Brew federation workflow instead of the legacy Python recipe pipeline.
 
-> If you're new to contributing on GitHub, [read this guide](https://guides.github.com/activities/contributing-to-open-source/) first.
+The source of truth is:
 
-The deck is managed with [Brain Brew][Brain Brew], a deck manager that allows transforming _Ultimate Geography_ back and forth between its CrowdAnki JSON representation and a format that is easy for humans to read, modify and version-control (currently CSV). This means that one can edit this deck either here, in this repository, or in Anki itself.
-
-Brain Brew and its dependencies are managed with [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/basics.html). Running Brain Brew inside a virtual environment guarantees that is not hampered by individual setups.
-
-The content of the deck is stored in multiple CSV files under `src/data`. The main file is `main.csv`. Each row corresponds to a note and each column to a field.
-
-Translated fields, such as _Country_ or _Capital info_, have their own CSV files called _derivatives_, in which each column corresponds to one language. The _Country_ field is used to map rows in the derivatives with notes in `main.csv`. The mapping is not necessarily one to one: if a note has no capital (e.g. because it's a water body), then it must not appear in `capital.csv`.
-
-The note model templates are generated from the base templates in `src/note_models/templates/base` and the per-language substitutions in `src/note_models/translations.csv`. The rendered templates live in `src/note_models/templates/generated` and should not be edited directly. Regenerate them with `pipenv run generate_templates` (or `pipenv run build`, which calls `utils/generate_and_build.py`).
+- `deck.yaml` — the English standard Canonical Deck.
+- `overlays/languages/*.yaml` — translation overlays.
+- `overlays/variants/extended*.yaml` and `overlays/variants/experimental*.yaml` — extended and experimental variant overlays.
+- `brainbrew.yaml` — the manifest defining all standard, extended, experimental, and Hardcore targets.
+- `media/` — the flat media root used by CrowdAnki exports.
 
 ### Getting started
 
-1. Fork and clone this repository on your machine.
-1. [Install Python 3.7](https://www.python.org/downloads/release/python-379/)
-   - During the installation, make sure to install `pip` (it's optional) and to tick _Add Python 3.7 to PATH_.
-1. Install Pipenv with `pip install pipenv`.
-   - If the `pip` executable is not available, try `pip3 install pipenv` instead.
-1. In the root directory of your fork, run `pipenv install` to install Brain Brew and its dependencies in a new virtual environment.
-1. Generate note model templates with `pipenv run generate_templates`.
-1. You can now run this deck's Brain Brew recipes with `pipenv run brain_brew run recipes/<filename>.yaml`.
-   - Alternatively, run `pipenv run build` to both generate the templates and build the deck for Anki with the `source_to_anki.yaml` recipe.
+You need Nix to run the Rust-based Brain Brew CLI from its flake.
 
-### Brain Brew recipes
-
-#### Source to Anki
+List the available targets:
 
 ```bash
-pipenv run brain_brew run recipes/source_to_anki.yaml
+nix run github:jeprecated/brain-brew/rust-brainbrew -- targets --manifest brainbrew.yaml
 ```
 
-This recipe builds the deck from source in a format that can be imported into Anki with the CrowdAnki add-on. More precisely, it generates every possible version of the deck (i.e. standard + extended, in every language) into sub-folders inside the `build` folder. Each of these sub-folders includes a CrowdAnki JSON file and all of the deck's images.
-
-On first run, this recipe generates all the missing files and folders in the `build` folder, logging warnings in the output. Upon subsequent runs, the warnings disappear.
-
-If you update `src/note_models/templates/base` or `src/note_models/translations.csv`, run `pipenv run generate_templates` (or just use `pipenv run build`) before running Brain Brew directly.
-
-#### Anki to Source
+Verify the whole workspace, including media references:
 
 ```bash
-pipenv run brain_brew run recipes/anki_to_source.yaml
+nix run github:jeprecated/brain-brew/rust-brainbrew -- verify --manifest brainbrew.yaml --all-targets --media-root media
 ```
 
-or
+Export one target with media:
 
 ```bash
-pipenv run brain_brew run recipes/anki_to_source_[extended].yaml
+rm -rf build/crowdanki/en-standard
+nix run github:jeprecated/brain-brew/rust-brainbrew -- export crowdanki \
+  --manifest brainbrew.yaml \
+  --target en-standard \
+  --out build/crowdanki/en-standard
+mkdir -p build/crowdanki/en-standard/media
+cp media/* build/crowdanki/en-standard/media/
 ```
 
-These recipes allows editing the English standard or extended deck in Anki, and then pulling the changes into the CSVs. Other languages are currently not supported. It also does not support editing the note model, card templates, deck description, etc. -- only the content of the notes.
+Export every configured target for a release or CI smoke test:
 
-1. Make your edits in Anki.
-1. Export the deck with CrowdAnki into the `build/Ultimate Geography [EN]` or `build/Ultimate Geography [EN] [Extended]` folders for the standard and extended decks respectively.
-1. Run `pipenv run brain_brew run recipes/anki_to_source.yaml` or `pipenv run brain_brew run recipes/anki_to_source_[extended].yaml`.
-1. Any new media will be placed at the top level of the `src/media` folder and will need to be moved into the appropriate sub-folder.
+```bash
+nix run github:jeprecated/brain-brew/rust-brainbrew -- targets --manifest brainbrew.yaml | while read -r target; do
+  out="build/crowdanki/$target"
+  nix run github:jeprecated/brain-brew/rust-brainbrew -- export crowdanki \
+    --manifest brainbrew.yaml \
+    --target "$target" \
+    --out "$out"
+  mkdir -p "$out/media"
+  cp media/* "$out/media/"
+done
+```
 
-### How-to's
+The full `verify` command above validates that every referenced media file exists in the source `media/` root.
 
-- To **add a new note** to the deck, add one row to `main.csv`, `guid.csv`, and any of the derivative CSVs as needed. Don't fill in any of the GUIDs in `guid.csv` -- they will be generated automatically by the `source_to_anki.yaml` recipe.
-- To **change the _Country_ field** of a note, change it in `main.csv`, `guid.csv`, `country.csv`, and any other derivative CSV in which the note appears.
-- To **add a new translation**, add a new column to each of the CSV files and name them as follows: `[field name]:[language code]` (e.g. `country info:fr`, all lowercase). In most cases, the language code should match the Wikipedia subdomain for that language (e.g. https://fr.wikipedia.org/). Then add a row in `src/note_models/translations.csv` with the language code and translations for the template strings used in the Anki notes.
+Compose one target to inspect the resolved Canonical Deck YAML:
 
-When editing `guid.csv` please try to avoid using a spreadsheet, if possible, and instead use a text editor (e.g. notepad) since spreadsheets mangle some of the GUIDs that start with `=` signs.
+```bash
+nix run github:jeprecated/brain-brew/rust-brainbrew -- compose \
+  --manifest brainbrew.yaml \
+  --target de-extended \
+  --out /tmp/de-extended.yaml
+```
 
-> Adding new fields (e.g. population, currency, etc.), the most heavily requested change to the deck, will soon™ be solved using [Brain Brew][Brain Brew], by combining separate repositories. Stay tuned.
+### Common edits
+
+- **Edit English content:** update the relevant note in `deck.yaml`.
+- **Edit a translation:** update the language overlay under `overlays/languages/`.
+- **Edit extended or experimental templates:** update the shared overlay in `overlays/variants/extended.yaml` or `overlays/variants/experimental.yaml`; language-specific files under those directories should stay limited to adapter identity or true language exceptions.
+- **Edit Hardcore Geography fills:** put language-neutral/default blank-field fills in `overlays/extensions/hardcore/field-fills.yaml`; use `overlays/extensions/hardcore/field-fills/<lang>.yaml` only for localized overrides that differ from the default.
+- **Replace or add media:** put the file directly in `media/`, reference the same filename from the note field HTML, and keep `sources.csv` up to date.
+
+After any edit, run the full `verify` command above. If you change generated deck output intentionally, inspect an exported target before opening a pull request.
 
 ## Content inclusion rules
 
@@ -273,7 +237,7 @@ convey as little information as possible to not give away the answers.
 
 ### _Flag_ field
 
-This field must contain a single HTML image element pointing to the SVG image of a flag - e.g. `<img src="ug-flag-seychelles.svg" />`. The image must be placed in the ` media` folder and named `ug-flag-<country_name>.svg`.
+This field must contain a single HTML image element pointing to the SVG image of a flag - e.g. `<img src="ug-flag-seychelles.svg" />`. The image must be placed in the `media/` folder and named `ug-flag-<country_name>.svg`.
 
 SVG flags are sourced from [Wikimedia](https://commons.wikimedia.org/). We consider two possible sources for the flag: (1) the flag presented in the [infobox](https://en.wikipedia.org/wiki/Template:Infobox_country#Examples) of the English Wikipedia article for the country and (2) the primary flag presented in the English Wikipedia article for the country's flag. When both sources agree, we use the common flag; when they differ, we default to the state flag. We try to stay a few months behind edits in an attempt to avoid quick back-and-forth changes; in case of repeated back-and-forth changes, investigate reasons for the edit war, make a decision, document the decision in this document; review these decisions from time to time.
 
@@ -287,7 +251,7 @@ The following guidelines apply to flag images:
 - The height must be set to 250 px (`height="250"`) and the width adjusted proportionally, rounded to the nearest integer.
 - Each flag must be optimised with [SVGO](https://jakearchibald.github.io/svgomg/).
 
-If the name of a country appears clearly on a flag, a second version of that flag may also be provided, with the name of the country blurred out. The name should be blurred using [Inkscape](https://inkscape.org/)'s Gaussian blur effect as explained in [587#issuecomment-1357163000][ref587]. The blurred flag must be named `ug-flag-<country_name>-blur.svg` and placed in the `media` folder. A second HTML element must then be added to the _Flag_ field _before_ the existing HTML element. This allows the blurred flag to appear on the front of the country's _Flag - Country_ card.
+If the name of a country appears clearly on a flag, a second version of that flag may also be provided, with the name of the country blurred out. The name should be blurred using [Inkscape](https://inkscape.org/)'s Gaussian blur effect as explained in [587#issuecomment-1357163000][ref587]. The blurred flag must be named `ug-flag-<country_name>-blur.svg` and placed in the `media/` folder. A second HTML element must then be added to the _Flag_ field _before_ the existing HTML element. This allows the blurred flag to appear on the front of the country's _Flag - Country_ card.
 
 ### _Flag similarity_ field
 
@@ -329,7 +293,7 @@ Critical, major, and minor differences should be listed in the _Flag similarity_
 
 ### _Map_ field
 
-This field must contain a single HTML image element pointing to the PNG image of a map - e.g. `<img src="ug-map-seychelles.png" />`. The image must be placed in the ` media` folder and named `ug-map-<country_name>.png`. PNG is the preferred format.
+This field must contain a single HTML image element pointing to the PNG image of a map - e.g. `<img src="ug-map-seychelles.png" />`. The image must be placed in the `media/` folder and named `ug-map-<country_name>.png`. PNG is the preferred format.
 
 The source SVG maps come, or are inspired, from the [SVG locator maps](https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_countries_(16:9_regional_location_map_scheme)) project on Wikimedia. The maps' source URLs and licences must be documented in `sources.csv`.
 
@@ -396,81 +360,28 @@ Content changes, such as adding a note, replacing an image, or translating the d
 
 ### Release process
 
-1. Open a discussion thread named _Prepare for v[x.y]_ a few weeks ahead of the release to coordinate any remaining work.
-1. When ready to release, bump the version number in `src/headers/desc.html`.
-1. Run `pipenv run build`.
-1. In Anki, synchronise all your devices then upgrade the standard English deck by following the recommended procedure, which was agreed upon in the discussion thread. Synchronise all your devices again once the upgrade is complete.
-1. With the help of the Anki card browser, update the notes/cards stats in both `desc.html` and `README.md`, and commit the changes (including the version bump).
-1. Run `pipenv run build` again. If there is an experimental deck to be released, also run `pipenv run build_experimental`.
-1. Reimport the standard English deck in Anki and synchronise with AnkiWeb.
-1. Add each folder in the `build` directory to a separate ZIP archive named as follows:
-   - `Ultimate Geography [EN]` ==> `Ultimate_Geography_v[x.y]_EN.zip`.
-   - `Ultimate Geography [EN] [Extended]` ==> `Ultimate_Geography_v[x.y]_EN_EXTENDED.zip`.
-   This can be done with `pipenv run zip`.
-1. On GitHub, create a new **release** named after the version number.
-1. Draft the release notes, making sure to add a link to the upgrade steps in the `README` and/or [in the wiki](https://github.com/anki-geo/ultimate-geography/wiki/Upgrade-instructions).
-1. Attach all the ZIP files and save the draft release notes.
-1. Post a link to the draft release notes on the _Prepare for v[x.y]_ discussion thread and wait for feedback.
-1. Once maintainers have reviewed the release notes and the upgrade process, open the draft release notes, and publish the release.
-1. Open a discussion thread to announce the release, with links to the release notes and upgrade instructions.
-1. Close the milestone and create a new one for the next minor version.
-1. Go to [AnkiWeb](https://ankiweb.net/decks/).
-1. Find the _Ultimate Geography_ deck and select _Actions_ > _Share_
-1. Update the version number in the title and, if needed, update the description with the content of `desc.html`.
-1. Tick the _Copyright_ box and click _Share_.
-1. Announce the release [on Reddit](https://www.reddit.com/r/Anki/search?q=ultimate%20geography&restrict_sr=1), with links to the release notes, to the upgrade instructions, and to the _Discussions_ and _Issues_ pages.
+1. Open a discussion thread named _Prepare for v[x.y]_ to coordinate remaining work.
+1. Update the version string and release-facing description in `deck.yaml` and `README.md`.
+1. Run `nix run github:jeprecated/brain-brew/rust-brainbrew -- verify --manifest brainbrew.yaml --all-targets --media-root media`.
+1. Export every release target with the target loop in the contributor guide above, keeping `--media-root media` so each CrowdAnki folder receives the required media files.
+1. Smoke-test at least the English standard export in Anki via CrowdAnki import.
+1. Zip each exported CrowdAnki folder using the existing release naming convention, for example `Ultimate_Geography_v[x.y]_EN.zip` and `Ultimate_Geography_v[x.y]_EN_EXTENDED.zip`.
+1. Draft a GitHub release, attach the ZIP files, and share the draft for maintainer review.
+1. Publish the release, announce it, close the milestone, and create the next milestone.
+1. Update the AnkiWeb shared deck entry if needed.
 
 ### Release notes
 
-The purpose of release notes is to give existing users:
+Release notes should be written for users rather than as a commit log. Include:
 
-- an overview of what's changed in the deck from one version to the next;
-- specific instructions on how to upgrade, if any;
-- news on the project, future developments, etc.
+1. A short summary of the most significant changes.
+1. Upgrade instructions, especially for major versions.
+1. New translations, notes, removals, and significant factual corrections.
+1. Changes to maps, flags, tags, note templates, or release packaging.
+1. Contributors, especially first-time contributors and translators.
 
-The goal is to avoid users: feeling confused when discovering content changes as they review; missing some subtle changes (e.g. spelling, new supplementary information, etc.); or not finding out about changes for a long time because they happened in cards that they won't see again for a while.
+Be concise but specific: name affected countries/capitals, include language codes where relevant, and link to issues or pull requests.
 
-We also don't want users who are interested in staying up to date with changes to have to subscribe to PRs or hunt for changes in git diffs.
-
-With these goals in mind, it's important to write release notes that are **concise** yet **precise**, **well structured**, and **easy to read**. Keeping the structure, wording, emojis, etc. **consistent** across releases is also important and can be achieved by looking at and getting inspiration from past release notes.
-
-The recommended structure, which can of course be tweaked and expanded as needed, is as follows:
-
-1. Short introduction to summarise the most significant changes and/or give updates on the projet _(optional)_.
-2. Concise upgrade instructions, typically pointing to detailled procedures in the README and wiki.
-3. New translations, if any (including language code).
-4. New notes, if any, with links to Wikipedia and optionally justification on why those notes were added (e.g. new/changed inclusion criteria)
-5. Changes to country names, capitals and supplementary info.
-6. Changes to maps and flags.
-7. Other changes, for instance to the structure of the deck (tags, description, etc.), the documentation (when significant), or the BrainBrew recipes and development tool chain (if relevant to power users).
-8. Contributors (at least new contributors) _(optional)_
-
-Here are som additional guidelines:
-
-- If the upgrade is non-trivial, make sure to grab users' attention with bold text, emojis, etc. at the top of the release notes.
-- Don't write release notes from a contributor's point of view (i.e. one bullet point per pull request/commit/issue), but from a user's point of view (i.e. one bullet point per meaningful change). Indeed, it's common for one change to span multiple pull requests (e.g. new translation followed by various corrections), and it sometimes happens that multiple changes are done with a single pull request.
-- Be as specific as possible, for instance by mentioning the country name of the affected note, except when a lot of notes are affected by similar minor changes (like when a lot of typos/mistranslations are fixed in a specific language).
-- Always link to relevant issues and pull requests with the `#` syntax.
-- Mention contributors for new translations and other major changes.
-- Specify language code(s) for changes that concern only few translations of the deck — e.g. [EN]; [DE, ES, FR]
-- Add emojis but only for _notable_ changes, typically:
-  - 🎉 for new translations,
-  - 🗑️ for content removals
-  - 👉 for factual changes (e.g. official change of flag, new alternative name, more detailed supplementary info, etc.)
-  - ⛑️ for significant corrections (typos, unclear wording, mistranslations, wrong supplementary info, etc.)
-  - ✨, 🌟, or any other emoji as needed.
-- Within each section, respect the following order:
-  1. Notable changes first (i.e. those with emojis)
-  2. Then by type, in this order: highlights 🎉, removals 🗑️, factual changes 👉, corrections ⛑️
-  3. Then by number of translations impacted (i.e. no language code first, then by decreasing number of language codes)
-  4. Then by significance.
-- Use bold, notably to emphasize country and capitals names.
-  - In the case of a correction or change of spelling, emphasize only the new name.
-  - When a change concerns a capital, emphasize only the capital name, not the country name.
-- When a country/capital name changes in a translated deck, specify the English name in parens.
-- Add links to documentation, Wikipedia, etc. where relevant.
-
-[ref129]: https://github.com/anki-geo/ultimate-geography/issues/129
 [ref137]: https://github.com/anki-geo/ultimate-geography/issues/137
 [ref157]: https://github.com/anki-geo/ultimate-geography/pull/157#issuecomment-549143860
 [ref181]: https://github.com/anki-geo/ultimate-geography/issues/181
@@ -486,4 +397,4 @@ Here are som additional guidelines:
 [ref416]: https://github.com/anki-geo/ultimate-geography/issues/416#issuecomment-821864712
 [ref587]: https://github.com/anki-geo/ultimate-geography/pull/587#issuecomment-1357163000
 [ref672]: https://github.com/anki-geo/ultimate-geography/issues/672#issuecomment-2631222673
-[Brain Brew]: https://github.com/ohare93/brain-brew
+
