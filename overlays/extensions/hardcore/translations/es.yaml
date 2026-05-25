@@ -1,0 +1,81 @@
+id: overlay.translation.hardcore.es
+kind: translation
+translations:
+  changes:
+    Autonomous city of Spain:
+      notes.note.melilla.fields.field.country-info: 'Ciudad autónoma de España.'
+    Autonomous city of Spain.:
+      notes.note.ceuta.fields.field.country-info: 'Ciudad autónoma de España.'
+    Autonomous orthodox monastic state in northeastern Greece, also known as the Holy Mountain.:
+      notes.note.mount-athos.fields.field.country-info: 'Estado monástico ortodoxo autónomo en la parte noreste de Grecia, también conocido como la Montaña Sagrada.'
+    British Indian Ocean Territory:
+      notes.note.british-indian-ocean-territory.fields.field.country: 'Territorio Británico del Océano Índico'
+    Christmas Island:
+      notes.note.christmas-island.fields.field.country: Isla de Navidad
+    'Cocos (Keeling) Islands':
+      notes.note.cocos-keeling-islands.fields.field.country: Islas Cocos
+    'Dependent territory of New Zealand. Tokelau has no official capital; the meeting place of the Tokelau Council rotates annually.':
+      notes.note.tokelau.fields.field.country-info: 'Territorio dependiente de Nueva Zelanda. Tokelau no tiene capital oficial; el sitio de encuentro del Consejo de Tokelau rota anualmente.'
+    Easter Island:
+      notes.note.easter-island.fields.field.country: Isla de Pascua
+    Eruptions in 1997 destroyed the capital city of Plymouth, making Brades the de facto capital.:
+      notes.note.montserrat.fields.field.capital-info: Las erupciones de 1997 destruyeron la capital de Plymouth, haciendo Brades la capital de facto.
+    External territory of Australia.:
+      notes.note.christmas-island.fields.field.country-info: Territorio externo de Australia.
+      notes.note.cocos-keeling-islands.fields.field.country-info: Territorio externo de Australia.
+      notes.note.norfolk-island.fields.field.country-info: Territorio externo de Australia.
+    'Galápagos Islands':
+      notes.note.gal-pagos-islands.fields.field.country: 'Islas Galápagos'
+    Mount Athos:
+      notes.note.mount-athos.fields.field.country: Monte Athos
+    Norfolk Island:
+      notes.note.norfolk-island.fields.field.country: Isla Norfolk
+    Not a sovereign country:
+      notes.note.norfolk-island.fields.field.capital-hint: 'No es un país soberano'
+    Overseas territory of France.:
+      notes.note.saint-barth-lemy.fields.field.country-info: Territorio de ultramar de Francia.
+    Overseas territory of the United Kingdom.:
+      notes.note.british-indian-ocean-territory.fields.field.country-info: Territorio de ultramar del Reino Unido.
+      notes.note.montserrat.fields.field.country-info: Territorio de ultramar del Reino Unido.
+      notes.note.pitcairn-islands.fields.field.country-info: Territorio de ultramar del Reino Unido.
+    Part of Saint Helena, Ascension and Tristan da Cunha, an overseas territory of the United Kingdom.:
+      notes.note.saint-helena.fields.field.country-info: 'Parte de Santa Elena, Ascensión y Tristán de Acuña, un territorio de ultramar del Reino Unido.'
+    Pitcairn Islands:
+      notes.note.pitcairn-islands.fields.field.country: Islas Pitcairn
+    Polynesian island and special territory of Chile.:
+      notes.note.easter-island.fields.field.country-info: Isla de la Polinesia y territorio especial de Chile.
+    Province of Ecuador.:
+      notes.note.gal-pagos-islands.fields.field.country-info: Provincia de Ecuador.
+    'Saint Barthélemy':
+      notes.note.saint-barth-lemy.fields.field.country: 'San Bartolomé'
+    Saint Helena:
+      notes.note.saint-helena.fields.field.country: Santa Helena
+    'Sierra Leone (slightly lighter blue)':
+      notes.note.gal-pagos-islands.fields.field.flag-similarity: 'Sierra Leona (azul ligeramente más claro)'
+    Sint Eustatius:
+      notes.note.sint-eustatius.fields.field.country: San Eustaquio
+    Special municipality:
+      notes.note.sint-eustatius.fields.field.capital-hint: Es un municipio especial
+    Special municipality of the Netherlands.:
+      notes.note.bonaire.fields.field.country-info: 'Municipio especial de los Países Bajos.'
+      notes.note.saba.fields.field.country-info: 'Municipio especial de los Países Bajos.'
+      notes.note.sint-eustatius.fields.field.country-info: 'Municipio especial de los Países Bajos.'
+  adapter_ids:
+    crowdanki:guid:
+      'ArmciP%a;a': 'k?SUMTaEzl'
+      'd~3m`ihA*b': 'zN<)OWkrGG'
+      'ga97y4Zy0{': 'N32K/E2ME^'
+      'i;=jdbhl(w': 'JqG7,i}^M#'
+      'iq7o#n0juD': 'Ed[OQ]II[]'
+      'j=,1:f39$]': 'rKe&a,vxE:'
+      'k3]]2^DP1R': 'zgEsqA)/M?'
+      'khTp#J9C!!': 'n:Y4?FV.r9'
+      'mCh>s18~IX': 'K/neGJj;{X'
+      mvNnHkGnVl: 'lcrrXX*L,['
+      'nN<IGBxnX.': 'hv;R0#!(;3'
+      'nipI.lOoC;': 'E=&%k7tD]x'
+      'qAsU}ONgC#': 'PlxaMt8f{O'
+      'r3?J{NB0J3': 'j2b>9VSV0}'
+      'rHh8*,y.yc': 'MvAmJR.a*H'
+      'rNv|0qxR]K': 'iVZ:94)BH<'
+      '~)7-62ytBX': 'p{AX:uXi_<'
