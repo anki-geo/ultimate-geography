@@ -16,6 +16,7 @@
       - guid:pl
       - guid:it
       - guid:da
+      - guid:he
 
 - build_parts:
   - note_model_from_yaml_part:
@@ -108,6 +109,12 @@
   - note_model_from_yaml_part:
       part_id: Ultimate Geography [DA] [Extended]
       file: src/note_models/templates/generated/DA/Ultimate_Geography_[DA]_[Extended].yaml
+  - note_model_from_yaml_part:
+      part_id: Ultimate Geography [HE]
+      file: src/note_models/templates/generated/HE/Ultimate_Geography_[HE].yaml
+  - note_model_from_yaml_part:
+      part_id: Ultimate Geography [HE] [Extended]
+      file: src/note_models/templates/generated/HE/Ultimate_Geography_[HE]_[Extended].yaml
 
   - headers_from_yaml_part:
       - part_id: default header
@@ -140,6 +147,12 @@
           deck_description_html_file: src/headers/desc_zh-tw.html
           crowdanki_uuid: 3d365148-83a7-4b53-8dbc-e3b183524025
           name: Ultimate Geography [ZH-TW]
+      - part_id: default header:he
+        file: src/headers/default.yaml
+        override:
+          deck_description_html_file: src/headers/desc_he.html
+          crowdanki_uuid: 35307c16-cdbf-4c06-b3e3-61a654abc1c6
+          name: Ultimate Geography [HE]
 
   - media_group_from_folder:
       - part_id: maps
@@ -515,6 +528,29 @@
         - <<: *file_mappings
           note_model: Ultimate Geography [DA]
 
+  - notes_from_csvs:
+      part_id: hebrew
+
+      note_model_mappings:
+        - note_models:
+            - Ultimate Geography [HE]
+          columns_to_fields:
+            <<: *default_columns_to_fields
+
+            guid:he             : guid
+            country:he          : Country
+            country info:he     : Country info
+            capital:he          : Capital
+            capital info:he     : Capital info
+            capital hint:he     : Capital hint
+            flag similarity:he  : Flag similarity
+
+          personal_fields: [ ]
+
+      file_mappings:
+        - <<: *file_mappings
+          note_model: Ultimate Geography [HE]
+
 - generate_crowd_anki:
     <<: &default_crowd_anki_gen
       headers: default header
@@ -645,6 +681,15 @@
         - part_id: Ultimate Geography [DA]
     notes:
       part_id: danish
+- generate_crowd_anki:
+    <<: *default_crowd_anki_gen
+    headers: default header:he
+    folder: build/Ultimate Geography [HE]
+    note_models:
+      parts:
+        - part_id: Ultimate Geography [HE]
+    notes:
+      part_id: hebrew
 
 
 - generate_crowd_anki:
@@ -804,3 +849,14 @@
       part_id: danish
       override:
         note_model: Ultimate Geography [DA] [Extended]
+- generate_crowd_anki:
+    <<: *extended_deck
+    headers: default header:he
+    folder: build/Ultimate Geography [HE] [Extended]
+    note_models:
+      parts:
+        - part_id: Ultimate Geography [HE] [Extended]
+    notes:
+      part_id: hebrew
+      override:
+        note_model: Ultimate Geography [HE] [Extended]

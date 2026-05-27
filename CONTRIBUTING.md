@@ -379,6 +379,10 @@ English deck), listed in order of priority:
 - **[Den Store Danske](https://denstoredanske.lex.dk/)** - Denmarks national encyclopedia.
 - **[Wikipedia in Danish](https://da.wikipedia.org)** - Used when neither of the above sources where enough to verify spelling.
 
+### Hebrew
+
+The Hebrew translation follows the general rule of using Hebrew Wikipedia article titles for country, territory, capital, and geography names. When the established Hebrew title differs materially from the English source name, the alternative name may be noted in the relevant info field, such as `ים סוף` with `הים האדום`.
+
 ## Maintainer's guide
 
 ### Versioning
