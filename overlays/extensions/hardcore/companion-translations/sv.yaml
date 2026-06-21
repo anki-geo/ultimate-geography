@@ -1,0 +1,73 @@
+id: overlay.translation.hardcore.companion.sv
+kind: translation
+translations:
+  changes:
+    American Samoa:
+      notes.note.hardcore-american-samoa.fields.field.country: Amerikanska Samoa
+    Autonomous community of Spain.:
+      notes.note.hardcore-canary-islands.fields.field.country-info: Spansk autonom region.
+    Autonomous region of Italy.:
+      notes.note.hardcore-sardinia.fields.field.country-info: Italiensk autonom region.
+      notes.note.hardcore-sicily.fields.field.country-info: Italiensk autonom region.
+    Autonomous region of Portugal.:
+      notes.note.hardcore-azores.fields.field.country-info: 'Portugisisk autonom ögrupp.'
+      notes.note.hardcore-madeira.fields.field.country-info: Portugisisk autonom region.
+    Azores:
+      notes.note.hardcore-azores.fields.field.country: Azorerna
+    British Virgin Islands:
+      notes.note.hardcore-british-virgin-islands.fields.field.country: 'Brittiska Jungfruöarna'
+    Canary Islands:
+      notes.note.hardcore-canary-islands.fields.field.country: 'Kanarieöarna'
+    Cayman Islands:
+      notes.note.hardcore-cayman-islands.fields.field.country: 'Caymanöarna'
+    Constituent country of the Kingdom of the Netherlands.:
+      notes.note.hardcore-sint-maarten.fields.field.country-info: 'Ett av fyra länder som utgör staten Nederländerna.'
+    Corsica:
+      notes.note.hardcore-corsica.fields.field.country: Korsika
+    Crown dependency of the United Kingdom.:
+      notes.note.hardcore-guernsey.fields.field.country-info: Brittisk kronbesittning.
+      notes.note.hardcore-isle-of-man.fields.field.country-info: Brittisk kronbesittning.
+      notes.note.hardcore-jersey.fields.field.country-info: Brittisk kronbesittning.
+    Falkland Islands:
+      notes.note.hardcore-falkland-islands.fields.field.country: 'Falklandsöarna'
+    French Guiana:
+      notes.note.hardcore-french-guiana.fields.field.country: Franska Guyana
+    Island of Indonesia.:
+      notes.note.hardcore-bali.fields.field.country-info: 'Ö i Indonesien.'
+    Kaliningrad Oblast:
+      notes.note.hardcore-kaliningrad-oblast.fields.field.country: Kaliningrad oblast
+    Northern Mariana Islands:
+      notes.note.hardcore-northern-mariana-islands.fields.field.country: Nordmarianerna
+    Not a sovereign country:
+      notes.note.norfolk-island.fields.field.capital-hint: 'Ej suverän stat'
+    'Oblast (administrative region) of the Russian Federation.':
+      notes.note.hardcore-kaliningrad-oblast.fields.field.country-info: 'Även känt som Ryska Östpreussen.'
+    Overseas department of France.:
+      notes.note.hardcore-french-guiana.fields.field.country-info: Franskt utomeuropeiskt departement.
+      notes.note.hardcore-guadeloupe.fields.field.country-info: Utomeuropeiskt franskt departement.
+      notes.note.hardcore-martinique.fields.field.country-info: Franskt utomeuropeiskt departement.
+      notes.note.hardcore-mayotte.fields.field.country-info: Franskt utomeuropeiskt departement.
+      notes.note.hardcore-r-union.fields.field.country-info: Franskt utomeuropeiskt departement.
+    Overseas territory of France.:
+      notes.note.hardcore-saint-martin.fields.field.country-info: 'Franskt utomeuropeiskt område.'
+    Overseas territory of the United Kingdom.:
+      notes.note.hardcore-anguilla.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
+      notes.note.hardcore-bermuda.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
+      notes.note.hardcore-british-virgin-islands.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
+      notes.note.hardcore-cayman-islands.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
+      notes.note.hardcore-falkland-islands.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
+      notes.note.hardcore-gibraltar.fields.field.country-info: Brittiskt  territorium.
+      notes.note.hardcore-turks-and-caicos-islands.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
+    Region of France.:
+      notes.note.hardcore-corsica.fields.field.country-info: Fransk region.
+    Sardinia:
+      notes.note.hardcore-sardinia.fields.field.country: Sardinien
+    Semi-autonomous region of Tanzania.:
+      notes.note.hardcore-zanzibar.fields.field.country-info: 'Delvis självstyrande örike i union med Tanzania.'
+    Sicily:
+      notes.note.hardcore-sicily.fields.field.country: Sicilien
+    Turks and Caicos Islands:
+      notes.note.hardcore-turks-and-caicos-islands.fields.field.country: 'Turks- och Caicosöarna'
+    Unincorporated territory of the United States.:
+      notes.note.hardcore-american-samoa.fields.field.country-info: 'Amerikanskt icke-inkorporerat område.'
+      notes.note.hardcore-northern-mariana-islands.fields.field.country-info: 'Amerikanskt icke-inkorporerat område.'

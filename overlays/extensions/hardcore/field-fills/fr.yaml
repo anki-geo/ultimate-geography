@@ -1,7 +1,7 @@
 id: overlay.extension.hardcore.field-fills.fr
 kind: extension
 notes:
-  note.canary-islands:
+  note.hardcore-canary-islands:
     intent: merge
     fields:
       field.capital:
@@ -14,7 +14,7 @@ notes:
         value: 'Le statut de capitale est partagé entre les villes de Santa Cruz et Las Palmas.'
         expected_base:
           value: The capital is shared between the two cities of Santa Cruz de Tenerife and Las Palmas.
-  note.cayman-islands:
+  note.hardcore-cayman-islands:
     intent: merge
     fields:
       field.capital-hint:
@@ -22,7 +22,7 @@ notes:
         value: Pas une nation souveraine
         expected_base:
           value: Not a sovereign country
-  note.guadeloupe:
+  note.hardcore-guadeloupe:
     intent: merge
     fields:
       field.capital-hint:
@@ -30,7 +30,7 @@ notes:
         value: Pas une nation souveraine
         expected_base:
           value: Not a sovereign country
-  note.guernsey:
+  note.hardcore-guernsey:
     intent: merge
     fields:
       field.capital:
@@ -38,7 +38,7 @@ notes:
         value: Saint-Pierre-Port
         expected_base:
           value: St. Peter Port
-  note.jersey:
+  note.hardcore-jersey:
     intent: merge
     fields:
       field.capital:
@@ -46,7 +46,7 @@ notes:
         value: 'Saint-Hélier'
         expected_base:
           value: Saint Helier
-  note.sicily:
+  note.hardcore-sicily:
     intent: merge
     fields:
       field.capital:
@@ -54,7 +54,7 @@ notes:
         value: Palerme
         expected_base:
           value: Palermo
-  note.zanzibar:
+  note.hardcore-zanzibar:
     intent: merge
     fields:
       field.capital:

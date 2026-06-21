@@ -1,84 +1,84 @@
 id: overlay.extension.hardcore.field-fills
 kind: extension
 field_fills:
-  note.american-samoa:
+  note.hardcore-american-samoa:
     field.capital: Pago Pago
     field.flag: '<img src="ug-flag-american_samoa.svg" />'
-  note.anguilla:
+  note.hardcore-anguilla:
     field.capital: The Valley
     field.flag: '<img src="ug-flag-anguilla.svg" />'
-  note.azores:
+  note.hardcore-azores:
     field.capital: Ponta Delgada
     field.flag: '<img src="ug-flag-azores.svg" />'
-  note.bali:
+  note.hardcore-bali:
     field.capital: Denpasar
     field.flag: '<img src="ug-flag-bali-blur.png" /><img src="ug-flag-bali.png" />'
-  note.bermuda:
+  note.hardcore-bermuda:
     field.capital: Hamilton
     field.flag: '<img src="ug-flag-bermuda.svg" />'
-  note.british-virgin-islands:
+  note.hardcore-british-virgin-islands:
     field.capital: Road Town
     field.flag: '<img src="ug-flag-british_virgin_islands.svg" />'
-  note.canary-islands:
+  note.hardcore-canary-islands:
     field.capital: Santa Cruz de Tenerife, Las Palmas
     field.capital-info: The capital is shared between the two cities of Santa Cruz de Tenerife and Las Palmas.
     field.flag: '<img src="ug-flag-canary_islands.svg" />'
-  note.cayman-islands:
+  note.hardcore-cayman-islands:
     field.capital: George Town
     field.capital-hint: Not a sovereign country
     field.flag: '<img src="ug-flag-cayman_islands.svg" />'
-  note.corsica:
+  note.hardcore-corsica:
     field.capital: Ajaccio
     field.flag: '<img src="ug-flag-corsica.svg" />'
-  note.falkland-islands:
+  note.hardcore-falkland-islands:
     field.capital: Stanley
     field.flag: '<img src="ug-flag-falkland_islands.svg" />'
-  note.french-guiana:
+  note.hardcore-french-guiana:
     field.capital: Cayenne
-  note.gibraltar:
+  note.hardcore-gibraltar:
     field.capital: Gibraltar
     field.flag: '<img src="ug-flag-gibraltar.svg" />'
-  note.guadeloupe:
+  note.hardcore-guadeloupe:
     field.capital: Basse-Terre
     field.capital-hint: Not a sovereign country
-  note.guernsey:
+  note.hardcore-guernsey:
     field.capital: St. Peter Port
     field.flag: '<img src="ug-flag-guernsey.svg" />'
-  note.isle-of-man:
+  note.hardcore-isle-of-man:
     field.capital: Douglas
     field.flag: '<img src="ug-flag-isle_of_man.svg" />'
-  note.jersey:
+  note.hardcore-jersey:
     field.capital: Saint Helier
     field.flag: '<img src="ug-flag-jersey.svg" />'
-  note.kaliningrad-oblast:
+  note.hardcore-kaliningrad-oblast:
     field.capital: Kaliningrad
     field.flag: '<img src="ug-flag-kaliningrad_oblast.svg" />'
-  note.madeira:
+  note.hardcore-madeira:
     field.capital: Funchal
     field.flag: '<img src="ug-flag-madeira.svg" />'
-  note.martinique:
+  note.hardcore-martinique:
     field.capital: Fort-de-France
-  note.mayotte:
+  note.hardcore-mayotte:
     field.capital: Mamoudzou
-  note.northern-mariana-islands:
+  note.hardcore-northern-mariana-islands:
     field.capital: Saipan
     field.flag: '<img src="ug-flag-northern_mariana_islands.png" />'
-  note.r-union:
+  note.hardcore-r-union:
     field.capital: Saint-Denis
-  note.saint-martin:
+  note.hardcore-saint-martin:
     field.capital: Marigot
-  note.sardinia:
+  note.hardcore-sardinia:
     field.capital: Cagliari
     field.flag: '<img src="ug-flag-sardinia.svg" />'
-  note.sicily:
+  note.hardcore-sicily:
     field.capital: Palermo
     field.flag: '<img src="ug-flag-sicily.svg" />'
-  note.sint-maarten:
+  note.hardcore-sint-maarten:
     field.capital: Philipsburg
     field.flag: '<img src="ug-flag-sint_maarten.svg" />'
-  note.turks-and-caicos-islands:
+  note.hardcore-turks-and-caicos-islands:
     field.capital: Cockburn Town
     field.flag: '<img src="ug-flag-turks_and_caicos_islands.svg" />'
-  note.zanzibar:
+  note.hardcore-zanzibar:
     field.capital: Zanzibar City
     field.flag: '<img src="ug-flag-zanzibar.svg" />'

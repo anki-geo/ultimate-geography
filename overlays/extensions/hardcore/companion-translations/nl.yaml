@@ -1,0 +1,81 @@
+id: overlay.translation.hardcore.companion.nl
+kind: translation
+translations:
+  changes:
+    American Samoa:
+      notes.note.hardcore-american-samoa.fields.field.country: Amerikaans Samoa
+    Autonomous community of Spain.:
+      notes.note.hardcore-canary-islands.fields.field.country-info: Autonome gemeenschap in Spanje.
+    Autonomous region of Italy.:
+      notes.note.hardcore-sardinia.fields.field.country-info: 'Autonome regio van Italië.'
+      notes.note.hardcore-sicily.fields.field.country-info: 'Autonome regio van Italië.'
+    Autonomous region of Portugal.:
+      notes.note.hardcore-azores.fields.field.country-info: Autonome regio van Portugal.
+      notes.note.hardcore-madeira.fields.field.country-info: Autonome regio van Portugal.
+    Azores:
+      notes.note.hardcore-azores.fields.field.country: Azoren
+    British Virgin Islands:
+      notes.note.hardcore-british-virgin-islands.fields.field.country: Britse Maagdeneilanden
+    Canary Islands:
+      notes.note.hardcore-canary-islands.fields.field.country: Canarische Eilanden
+    Cayman Islands:
+      notes.note.hardcore-cayman-islands.fields.field.country: Kaaimaneilanden
+    Constituent country of the Kingdom of the Netherlands.:
+      notes.note.hardcore-sint-maarten.fields.field.country-info: Autonoom gebied binnen het Koninkrijk der Nederlanden.
+    Crown dependency of the United Kingdom.:
+      notes.note.hardcore-guernsey.fields.field.country-info: Brits Kroonbezit.
+      notes.note.hardcore-isle-of-man.fields.field.country-info: Brits Kroonbezit.
+      notes.note.hardcore-jersey.fields.field.country-info: Brits Kroonbezit.
+    Falkland Islands:
+      notes.note.hardcore-falkland-islands.fields.field.country: Falklandeilanden
+    French Guiana:
+      notes.note.hardcore-french-guiana.fields.field.country: Frans-Guyana
+    Island of Indonesia.:
+      notes.note.hardcore-bali.fields.field.country-info: 'Eiland van Indonesië.'
+    Isle of Man:
+      notes.note.hardcore-isle-of-man.fields.field.country: Man
+    Kaliningrad Oblast:
+      notes.note.hardcore-kaliningrad-oblast.fields.field.country: Oblast Kaliningrad
+    Northern Mariana Islands:
+      notes.note.hardcore-northern-mariana-islands.fields.field.country: Noordelijke Marianen
+    Not a sovereign country:
+      notes.note.norfolk-island.fields.field.capital-hint: Geen soevereine staat
+    'Oblast (administrative region) of the Russian Federation.':
+      notes.note.hardcore-kaliningrad-oblast.fields.field.country-info: 'Oblast (administratieve regio) van de Russische Federatie.'
+    Overseas department of France.:
+      notes.note.hardcore-french-guiana.fields.field.country-info: Overzees departement van Frankrijk.
+      notes.note.hardcore-guadeloupe.fields.field.country-info: Overzees departement van Frankrijk.
+      notes.note.hardcore-martinique.fields.field.country-info: Overzees departement van Frankrijk.
+      notes.note.hardcore-mayotte.fields.field.country-info: Overzees departement van Frankrijk.
+      notes.note.hardcore-r-union.fields.field.country-info: Overzees departement van Frankrijk.
+    Overseas territory of France.:
+      notes.note.hardcore-saint-martin.fields.field.country-info: Overzees land van Frankrijk.
+      notes.note.saint-barth-lemy.fields.field.country-info: Overzees land van Frankrijk.
+    Overseas territory of the United Kingdom.:
+      notes.note.british-indian-ocean-territory.fields.field.country-info: Overzees land van het Verenigd Koninkrijk.
+      notes.note.hardcore-anguilla.fields.field.country-info: Overzees land van het Verenigd Koninkrijk.
+      notes.note.hardcore-bermuda.fields.field.country-info: Overzees land van het Verenigd Koninkrijk.
+      notes.note.hardcore-british-virgin-islands.fields.field.country-info: Overzees land van het Verenigd Koninkrijk.
+      notes.note.hardcore-cayman-islands.fields.field.country-info: Overzees land van het Verenigd Koninkrijk.
+      notes.note.hardcore-falkland-islands.fields.field.country-info: Overzees land van het Verenigd Koninkrijk.
+      notes.note.hardcore-gibraltar.fields.field.country-info: Overzees land van het Verenigd Koninkrijk.
+      notes.note.hardcore-turks-and-caicos-islands.fields.field.country-info: Overzees land van het Verenigd Koninkrijk.
+      notes.note.montserrat.fields.field.country-info: Overzees land van het Verenigd Koninkrijk.
+      notes.note.pitcairn-islands.fields.field.country-info: Overzees land van het Verenigd Koninkrijk.
+    Region of France.:
+      notes.note.hardcore-corsica.fields.field.country-info: Franse regio.
+    Saint Martin:
+      notes.note.hardcore-saint-martin.fields.field.country: 'Sint-Maarten (Franse Antillen)'
+    Sardinia:
+      notes.note.hardcore-sardinia.fields.field.country: 'Sardinië'
+    Semi-autonomous region of Tanzania.:
+      notes.note.hardcore-zanzibar.fields.field.country-info: Half-autonome regio van Tanzania.
+    Sicily:
+      notes.note.hardcore-sicily.fields.field.country: 'Sicilië'
+    Sint Maarten:
+      notes.note.hardcore-sint-maarten.fields.field.country: 'Sint Maarten (Koninkrijk der Nederlanden)'
+    Turks and Caicos Islands:
+      notes.note.hardcore-turks-and-caicos-islands.fields.field.country: Turks- en Caicoseilanden
+    Unincorporated territory of the United States.:
+      notes.note.hardcore-american-samoa.fields.field.country-info: Gebied zonder rechtspersoonlijkheid van de Verenigde Staten.
+      notes.note.hardcore-northern-mariana-islands.fields.field.country-info: Gebied zonder rechtspersoonlijkheid van de Verenigde Staten.

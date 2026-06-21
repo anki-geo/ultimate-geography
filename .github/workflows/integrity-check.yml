@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BRAINBREW_FLAKE: github:jeprecated/brain-brew/rust-brainbrew
+      BRAINBREW_MANIFESTS: brainbrew.yaml brainbrew-hardcore.yaml
     steps:
       - uses: actions/checkout@v4
 
@@ -23,15 +24,20 @@ jobs:
 
       - name: Verify Brain Brew workspace
         run: |
-          nix run "$BRAINBREW_FLAKE" -- verify --manifest brainbrew.yaml --all-targets --media-root media
+          set -euo pipefail
+          for manifest in $BRAINBREW_MANIFESTS; do
+            nix run "$BRAINBREW_FLAKE" -- verify --manifest "$manifest" --all-targets --media-root media
+          done
 
       - name: Export all CrowdAnki targets
         run: |
           set -euo pipefail
-          nix run "$BRAINBREW_FLAKE" -- targets --manifest brainbrew.yaml | while read -r target; do
-            out="build/crowdanki/$target"
-            nix run "$BRAINBREW_FLAKE" -- export crowdanki --manifest brainbrew.yaml --target "$target" --out "$out"
-            test -f "$out/deck.json"
-            mkdir -p "$out/media"
-            cp media/* "$out/media/"
+          for manifest in $BRAINBREW_MANIFESTS; do
+            nix run "$BRAINBREW_FLAKE" -- targets --manifest "$manifest" | while read -r target; do
+              out="build/crowdanki/$target"
+              nix run "$BRAINBREW_FLAKE" -- export crowdanki --manifest "$manifest" --target "$target" --out "$out" --media-root media
+              test -f "$out/deck.json"
+              mkdir -p "$out/media"
+              cp media/* "$out/media/"
+            done
           done

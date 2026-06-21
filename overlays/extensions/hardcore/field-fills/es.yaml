@@ -1,7 +1,7 @@
 id: overlay.extension.hardcore.field-fills.es
 kind: extension
 notes:
-  note.anguilla:
+  note.hardcore-anguilla:
     intent: merge
     fields:
       field.capital:
@@ -9,7 +9,7 @@ notes:
         value: El Valle
         expected_base:
           value: The Valley
-  note.canary-islands:
+  note.hardcore-canary-islands:
     intent: merge
     fields:
       field.capital:
@@ -22,7 +22,7 @@ notes:
         value: La capitalidad es compartida entre las dos ciudades de Santa Cruz de Tenerife y Las Palmas de Gran Canaria.
         expected_base:
           value: The capital is shared between the two cities of Santa Cruz de Tenerife and Las Palmas.
-  note.cayman-islands:
+  note.hardcore-cayman-islands:
     intent: merge
     fields:
       field.capital-hint:
@@ -30,7 +30,7 @@ notes:
         value: 'No es un país soberano'
         expected_base:
           value: Not a sovereign country
-  note.falkland-islands:
+  note.hardcore-falkland-islands:
     intent: merge
     fields:
       field.capital:
@@ -38,7 +38,7 @@ notes:
         value: Puerto Argentino/Stanley
         expected_base:
           value: Stanley
-  note.french-guiana:
+  note.hardcore-french-guiana:
     intent: merge
     fields:
       field.capital:
@@ -46,7 +46,7 @@ notes:
         value: Cayena
         expected_base:
           value: Cayenne
-  note.guadeloupe:
+  note.hardcore-guadeloupe:
     intent: merge
     fields:
       field.capital-hint:
@@ -54,7 +54,7 @@ notes:
         value: 'No es un país soberano'
         expected_base:
           value: Not a sovereign country
-  note.guernsey:
+  note.hardcore-guernsey:
     intent: merge
     fields:
       field.capital:
@@ -62,7 +62,7 @@ notes:
         value: Saint Peter Port
         expected_base:
           value: St. Peter Port
-  note.kaliningrad-oblast:
+  note.hardcore-kaliningrad-oblast:
     intent: merge
     fields:
       field.capital:
@@ -70,7 +70,7 @@ notes:
         value: Kaliningrado
         expected_base:
           value: Kaliningrad
-  note.northern-mariana-islands:
+  note.hardcore-northern-mariana-islands:
     intent: merge
     fields:
       field.capital:
@@ -78,7 +78,7 @@ notes:
         value: 'Saipán'
         expected_base:
           value: Saipan
-  note.zanzibar:
+  note.hardcore-zanzibar:
     intent: merge
     fields:
       field.capital:

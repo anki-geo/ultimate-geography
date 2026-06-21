@@ -1,7 +1,7 @@
 id: overlay.extension.hardcore.field-fills.de
 kind: extension
 notes:
-  note.canary-islands:
+  note.hardcore-canary-islands:
     intent: merge
     fields:
       field.capital:
@@ -14,7 +14,7 @@ notes:
         value: 'Die zwei Städte Santa Cruz de Tenerife und Las Palmas de Gran Canaria sind zusammen Hauptstädte der Autonomen Gemeinschaft der Kanaren.'
         expected_base:
           value: The capital is shared between the two cities of Santa Cruz de Tenerife and Las Palmas.
-  note.cayman-islands:
+  note.hardcore-cayman-islands:
     intent: merge
     fields:
       field.capital-hint:
@@ -22,7 +22,7 @@ notes:
         value: 'Kein souveräner Staat'
         expected_base:
           value: Not a sovereign country
-  note.guadeloupe:
+  note.hardcore-guadeloupe:
     intent: merge
     fields:
       field.capital-hint:
@@ -30,7 +30,7 @@ notes:
         value: 'Kein souveräner Staat'
         expected_base:
           value: Not a sovereign country
-  note.zanzibar:
+  note.hardcore-zanzibar:
     intent: merge
     fields:
       field.capital:

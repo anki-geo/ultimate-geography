@@ -1,31 +1,6 @@
 id: overlay.extension.hardcore
 kind: extension
 notes:
-  note.american-samoa:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.anguilla:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.azores:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.bali:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.bermuda:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
   note.bonaire:
     intent: add
     note:
@@ -61,21 +36,6 @@ notes:
         - 'UG::Africa'
       adapter_ids:
         crowdanki:guid: 'ArmciP%a;a'
-  note.british-virgin-islands:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.canary-islands:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.cayman-islands:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
   note.ceuta:
     intent: add
     note:
@@ -129,11 +89,6 @@ notes:
         - 'UG::Southeast_Asia'
       adapter_ids:
         crowdanki:guid: mvNnHkGnVl
-  note.corsica:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
   note.easter-island:
     intent: add
     note:
@@ -151,16 +106,6 @@ notes:
         - 'UG::Oceania'
       adapter_ids:
         crowdanki:guid: 'rNv|0qxR]K'
-  note.falkland-islands:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.french-guiana:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
   note.gal-pagos-islands:
     intent: add
     note:
@@ -178,51 +123,522 @@ notes:
         - 'UG::South_America'
       adapter_ids:
         crowdanki:guid: 'j=,1:f39$]'
-  note.gibraltar:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.guadeloupe:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.guernsey:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.isle-of-man:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.jersey:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.kaliningrad-oblast:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.madeira:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.martinique:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.mayotte:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
+  note.hardcore-american-samoa:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: American Samoa
+        field.country-info: Unincorporated territory of the United States.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Oceania'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'lU*>%[&e|.'
+  note.hardcore-anguilla:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Anguilla
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Caribbean'
+        - 'UG::North_America'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'cy]sz097{A'
+  note.hardcore-azores:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Azores
+        field.country-info: Autonomous region of Portugal.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Europe'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'hz,n^64X%i'
+  note.hardcore-bali:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Bali
+        field.country-info: Island of Indonesia.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Asia'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: ',LnVW8IL`'
+  note.hardcore-bermuda:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Bermuda
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Caribbean'
+        - 'UG::North_America'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'e%!;xc:jxC'
+  note.hardcore-british-virgin-islands:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: British Virgin Islands
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Caribbean'
+        - 'UG::North_America'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: oDGbPPlkzc
+  note.hardcore-canary-islands:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Canary Islands
+        field.country-info: Autonomous community of Spain.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Africa'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'cB]XeL7sC?'
+  note.hardcore-cayman-islands:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Cayman Islands
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Caribbean'
+        - 'UG::North_America'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 't8K|Gnw[k$'
+  note.hardcore-corsica:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Corsica
+        field.country-info: Region of France.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Europe'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: '2N$NqX&k.'
+  note.hardcore-falkland-islands:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Falkland Islands
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Overlapping'
+        - 'UG::South_America'
+      adapter_ids:
+        crowdanki:guid: 'UkP!tU%r)'
+  note.hardcore-french-guiana:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: French Guiana
+        field.country-info: Overseas department of France.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Overlapping'
+        - 'UG::South_America'
+      adapter_ids:
+        crowdanki:guid: '~F>Y6gVJay'
+  note.hardcore-gibraltar:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Gibraltar
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Europe'
+        - 'UG::Mediterranean'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'mHDrx]xo!x'
+  note.hardcore-guadeloupe:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Guadeloupe
+        field.country-info: Overseas department of France.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Caribbean'
+        - 'UG::North_America'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'r]V9W,sj5i'
+  note.hardcore-guernsey:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Guernsey
+        field.country-info: Crown dependency of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Europe'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'n#k%mr&bc-'
+  note.hardcore-isle-of-man:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Isle of Man
+        field.country-info: Crown dependency of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Europe'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'a_~PL,CWhU'
+  note.hardcore-jersey:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Jersey
+        field.country-info: Crown dependency of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Europe'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'kq:]$sh13['
+  note.hardcore-kaliningrad-oblast:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Kaliningrad Oblast
+        field.country-info: 'Oblast (administrative region) of the Russian Federation.'
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Europe'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'b&sLa#a&vn'
+  note.hardcore-madeira:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Madeira
+        field.country-info: Autonomous region of Portugal.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Europe'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'fKTU=+DKl]'
+  note.hardcore-martinique:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Martinique
+        field.country-info: Overseas department of France.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Caribbean'
+        - 'UG::North_America'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'sxF2<dV=;U'
+  note.hardcore-mayotte:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Mayotte
+        field.country-info: Overseas department of France.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Africa'
+        - 'UG::East_Africa'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'v2Z)BIAnoM'
+  note.hardcore-northern-mariana-islands:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Northern Mariana Islands
+        field.country-info: Unincorporated territory of the United States.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Oceania'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'nK;HFcd-1P'
+  note.hardcore-r-union:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: 'Réunion'
+        field.country-info: Overseas department of France.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Africa'
+        - 'UG::East_Africa'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: t3VhRfcBZs
+  note.hardcore-saint-martin:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Saint Martin
+        field.country-info: Overseas territory of France.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Caribbean'
+        - 'UG::North_America'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'rbjYQCA<Z.'
+  note.hardcore-sardinia:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Sardinia
+        field.country-info: Autonomous region of Italy.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Europe'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'h/)!YCH&na'
+  note.hardcore-sicily:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Sicily
+        field.country-info: Autonomous region of Italy.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Europe'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'lIEV|(|pPu'
+  note.hardcore-sint-maarten:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Sint Maarten
+        field.country-info: Constituent country of the Kingdom of the Netherlands.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Caribbean'
+        - 'UG::North_America'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: '~Z$*giAq2R'
+  note.hardcore-turks-and-caicos-islands:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Turks and Caicos Islands
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Caribbean'
+        - 'UG::North_America'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: ogLVp1-2mC
+  note.hardcore-zanzibar:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Zanzibar
+        field.country-info: Semi-autonomous region of Tanzania.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - 'UG::Africa'
+        - 'UG::Overlapping'
+      adapter_ids:
+        crowdanki:guid: 'e1zOyx7^cj'
   note.melilla:
     intent: add
     note:
@@ -292,11 +708,6 @@ notes:
         - 'UG::Oceania'
       adapter_ids:
         crowdanki:guid: 'nipI.lOoC;'
-  note.northern-mariana-islands:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
   note.pitcairn-islands:
     intent: add
     note:
@@ -314,11 +725,6 @@ notes:
         - 'UG::Oceania'
       adapter_ids:
         crowdanki:guid: 'mCh>s18~IX'
-  note.r-union:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
   note.saba:
     intent: add
     note:
@@ -373,21 +779,6 @@ notes:
         - 'UG::West_Africa'
       adapter_ids:
         crowdanki:guid: 'khTp#J9C!!'
-  note.saint-martin:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.sardinia:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.sicily:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
   note.sint-eustatius:
     intent: add
     note:
@@ -406,11 +797,6 @@ notes:
         - 'UG::North_America'
       adapter_ids:
         crowdanki:guid: 'r3?J{NB0J3'
-  note.sint-maarten:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
   note.tokelau:
     intent: add
     note:
@@ -428,16 +814,6 @@ notes:
         - 'UG::Oceania'
       adapter_ids:
         crowdanki:guid: 'nN<IGBxnX.'
-  note.turks-and-caicos-islands:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
-  note.zanzibar:
-    intent: merge
-    tags:
-      'UG::Overlapping':
-        intent: add
 media:
   media.ug-flag-american-samoa-svg:
     intent: add

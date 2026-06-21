@@ -1,0 +1,79 @@
+id: overlay.translation.hardcore.companion.de
+kind: translation
+translations:
+  changes:
+    American Samoa:
+      notes.note.hardcore-american-samoa.fields.field.country: Amerikanisch-Samoa
+    Autonomous community of Spain.:
+      notes.note.hardcore-canary-islands.fields.field.country-info: Autonome Gemeinschaft Spaniens.
+    Autonomous region of Italy.:
+      notes.note.hardcore-sardinia.fields.field.country-info: Autonome Region Italiens.
+      notes.note.hardcore-sicily.fields.field.country-info: Autonome Region Italiens.
+    Autonomous region of Portugal.:
+      notes.note.hardcore-azores.fields.field.country-info: Autonome Region Portugals.
+      notes.note.hardcore-madeira.fields.field.country-info: Autonome Region Portugals.
+    Azores:
+      notes.note.hardcore-azores.fields.field.country: 'Azoren (Habichtsinseln)'
+    British Virgin Islands:
+      notes.note.hardcore-british-virgin-islands.fields.field.country: Britische Jungferninseln
+    Canary Islands:
+      notes.note.hardcore-canary-islands.fields.field.country: Kanarische Inseln
+    Cayman Islands:
+      notes.note.hardcore-cayman-islands.fields.field.country: 'Cayman Islands (Kaimaninseln)'
+    Constituent country of the Kingdom of the Netherlands.:
+      notes.note.hardcore-sint-maarten.fields.field.country-info: 'Autonomes Land innerhalb des Königreichs der Niederlande.'
+    Corsica:
+      notes.note.hardcore-corsica.fields.field.country: Korsika
+    Crown dependency of the United Kingdom.:
+      notes.note.hardcore-guernsey.fields.field.country-info: Kronbesitz der britischen Krone.
+      notes.note.hardcore-isle-of-man.fields.field.country-info: Kronbesitz der britischen Krone.
+      notes.note.hardcore-jersey.fields.field.country-info: Kronbesitz der britischen Krone.
+    Falkland Islands:
+      notes.note.hardcore-falkland-islands.fields.field.country: Falklandinseln
+    French Guiana:
+      notes.note.hardcore-french-guiana.fields.field.country: 'Französisch-Guayana'
+    Island of Indonesia.:
+      notes.note.hardcore-bali.fields.field.country-info: Insel von Indonesien.
+    Kaliningrad Oblast:
+      notes.note.hardcore-kaliningrad-oblast.fields.field.country: Oblast Kaliningrad
+    Madeira:
+      notes.note.hardcore-madeira.fields.field.country: Autonome Region Madeira
+    Northern Mariana Islands:
+      notes.note.hardcore-northern-mariana-islands.fields.field.country: 'Nördliche Marianen'
+    'Oblast (administrative region) of the Russian Federation.':
+      notes.note.hardcore-kaliningrad-oblast.fields.field.country-info: 'Oblast (administratives Gebiet) der Russischen Föderation.'
+    Overseas department of France.:
+      notes.note.hardcore-french-guiana.fields.field.country-info: 'Übersee-Département Frankreichs.'
+      notes.note.hardcore-guadeloupe.fields.field.country-info: 'Übersee-Département Frankreichs.'
+      notes.note.hardcore-martinique.fields.field.country-info: 'Übersee-Département Frankreichs.'
+      notes.note.hardcore-mayotte.fields.field.country-info: 'Übersee-Département Frankreichs.'
+      notes.note.hardcore-r-union.fields.field.country-info: 'Übersee-Département Frankreichs.'
+    Overseas territory of France.:
+      notes.note.hardcore-saint-martin.fields.field.country-info: 'Französisches Überseegebiet.'
+    Overseas territory of the United Kingdom.:
+      notes.note.hardcore-anguilla.fields.field.country-info: 'Britisches Überseegebiet.'
+      notes.note.hardcore-bermuda.fields.field.country-info: 'Britisches Überseegebiet.'
+      notes.note.hardcore-british-virgin-islands.fields.field.country-info: 'Britisches Überseegebiet.'
+      notes.note.hardcore-cayman-islands.fields.field.country-info: 'Britisches Überseegebiet.'
+      notes.note.hardcore-falkland-islands.fields.field.country-info: 'Britisches Überseegebiet.'
+      notes.note.hardcore-gibraltar.fields.field.country-info: 'Britisches Überseegebiet.'
+      notes.note.hardcore-turks-and-caicos-islands.fields.field.country-info: 'Auch Turks &amp; Caicos. Britisches Überseegebiet.'
+    Region of France.:
+      notes.note.hardcore-corsica.fields.field.country-info: 'Gebietskörperschaft Frankreichs.'
+    'Réunion':
+      notes.note.hardcore-r-union.fields.field.country: 'La Réunion'
+    Saint Martin:
+      notes.note.hardcore-saint-martin.fields.field.country: Saint-Martin
+    Sardinia:
+      notes.note.hardcore-sardinia.fields.field.country: Sardinien
+    Semi-autonomous region of Tanzania.:
+      notes.note.hardcore-zanzibar.fields.field.country-info: Halbautonomer Teilstaat Tansanias.
+    Sicily:
+      notes.note.hardcore-sicily.fields.field.country: Sizilien
+    Turks and Caicos Islands:
+      notes.note.hardcore-turks-and-caicos-islands.fields.field.country: Turks- und Caicosinseln
+    Unincorporated territory of the United States.:
+      notes.note.hardcore-american-samoa.fields.field.country-info: 'Nichtinkorporiertes US-amerikanisches Außengebiet.'
+      notes.note.hardcore-northern-mariana-islands.fields.field.country-info: 'Nichtinkorporiertes US-amerikanisches Außengebiet.'
+    Zanzibar:
+      notes.note.hardcore-zanzibar.fields.field.country: Sansibar

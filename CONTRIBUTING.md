@@ -11,25 +11,30 @@ Ultimate Geography is still maintained with [Brain Brew](https://github.com/jepr
 The source of truth is:
 
 - `deck.yaml` — the English standard Canonical Deck.
+- `deck-hardcore.yaml` — the minimal Hardcore Geography companion shell; it contains deck identity and UG-compatible note types, but no ordinary UG notes.
 - `overlays/languages/*.yaml` — translation overlays.
 - `overlays/variants/extended*.yaml` and `overlays/variants/experimental*.yaml` — extended and experimental variant overlays.
-- `brainbrew.yaml` — the manifest defining all standard, extended, experimental, and Hardcore targets.
+- `brainbrew.yaml` — the manifest defining standard, extended, experimental, and standalone Hardcore targets.
+- `brainbrew-hardcore.yaml` — the manifest defining companion/add-on Hardcore targets from the minimal shell and shared Hardcore overlays.
 - `media/` — the flat media root used by CrowdAnki exports.
 
 ### Getting started
 
-You need Nix to run the Rust-based Brain Brew CLI from its flake.
+The examples below use Nix to run the Rust-based Brain Brew CLI from its flake. If you already have `brainbrew` installed, you can replace `nix run github:jeprecated/brain-brew/rust-brainbrew --` with `brainbrew`.
 
 List the available targets:
 
 ```bash
 nix run github:jeprecated/brain-brew/rust-brainbrew -- targets --manifest brainbrew.yaml
+nix run github:jeprecated/brain-brew/rust-brainbrew -- targets --manifest brainbrew-hardcore.yaml
 ```
 
 Verify the whole workspace, including media references:
 
 ```bash
-nix run github:jeprecated/brain-brew/rust-brainbrew -- verify --manifest brainbrew.yaml --all-targets --media-root media
+for manifest in brainbrew.yaml brainbrew-hardcore.yaml; do
+  nix run github:jeprecated/brain-brew/rust-brainbrew -- verify --manifest "$manifest" --all-targets --media-root media
+done
 ```
 
 Export one target with media:
@@ -47,14 +52,17 @@ cp media/* build/crowdanki/en-standard/media/
 Export every configured target for a release or CI smoke test:
 
 ```bash
-nix run github:jeprecated/brain-brew/rust-brainbrew -- targets --manifest brainbrew.yaml | while read -r target; do
-  out="build/crowdanki/$target"
-  nix run github:jeprecated/brain-brew/rust-brainbrew -- export crowdanki \
-    --manifest brainbrew.yaml \
-    --target "$target" \
-    --out "$out"
-  mkdir -p "$out/media"
-  cp media/* "$out/media/"
+for manifest in brainbrew.yaml brainbrew-hardcore.yaml; do
+  nix run github:jeprecated/brain-brew/rust-brainbrew -- targets --manifest "$manifest" | while read -r target; do
+    out="build/crowdanki/$target"
+    nix run github:jeprecated/brain-brew/rust-brainbrew -- export crowdanki \
+      --manifest "$manifest" \
+      --target "$target" \
+      --out "$out" \
+      --media-root media
+    mkdir -p "$out/media"
+    cp media/* "$out/media/"
+  done
 done
 ```
 
@@ -74,6 +82,7 @@ nix run github:jeprecated/brain-brew/rust-brainbrew -- compose \
 - **Edit English content:** update the relevant note in `deck.yaml`.
 - **Edit a translation:** update the language overlay under `overlays/languages/`.
 - **Edit extended or experimental templates:** update the shared overlay in `overlays/variants/extended.yaml` or `overlays/variants/experimental.yaml`; language-specific files under those directories should stay limited to adapter identity or true language exceptions.
+- **Edit Hardcore Geography content:** update the shared Hardcore overlays under `overlays/extensions/hardcore/`; standalone Hardcore targets and companion/add-on targets reuse the same note definitions.
 - **Edit Hardcore Geography fills:** put language-neutral/default blank-field fills in `overlays/extensions/hardcore/field-fills.yaml`; use `overlays/extensions/hardcore/field-fills/<lang>.yaml` only for localized overrides that differ from the default.
 - **Replace or add media:** put the file directly in `media/`, reference the same filename from the note field HTML, and keep `sources.csv` up to date.
 
@@ -362,7 +371,7 @@ Content changes, such as adding a note, replacing an image, or translating the d
 
 1. Open a discussion thread named _Prepare for v[x.y]_ to coordinate remaining work.
 1. Update the version string and release-facing description in `deck.yaml` and `README.md`.
-1. Run `nix run github:jeprecated/brain-brew/rust-brainbrew -- verify --manifest brainbrew.yaml --all-targets --media-root media`.
+1. Run the two-manifest `verify` loop from the contributor guide above.
 1. Export every release target with the target loop in the contributor guide above, keeping `--media-root media` so each CrowdAnki folder receives the required media files.
 1. Smoke-test at least the English standard export in Anki via CrowdAnki import.
 1. Zip each exported CrowdAnki folder using the existing release naming convention, for example `Ultimate_Geography_v[x.y]_EN.zip` and `Ultimate_Geography_v[x.y]_EN_EXTENDED.zip`.

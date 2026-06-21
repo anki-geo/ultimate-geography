@@ -1,0 +1,100 @@
+id: overlay.translation.hardcore.companion.pt
+kind: translation
+translations:
+  changes:
+    American Samoa:
+      notes.note.hardcore-american-samoa.fields.field.country: Samoa Americana
+    Anguilla:
+      notes.note.hardcore-anguilla.fields.field.country: Anguila
+    Autonomous community of Spain.:
+      notes.note.hardcore-canary-islands.fields.field.country-info: 'Comunidade autônoma da Espanha.'
+    Autonomous region of Italy.:
+      notes.note.hardcore-sardinia.fields.field.country-info: 'Região autônoma da Itália.'
+      notes.note.hardcore-sicily.fields.field.country-info: 'Região autônoma da Itália.'
+    Autonomous region of Portugal.:
+      notes.note.hardcore-azores.fields.field.country-info: 'Região autônoma de Portugal.'
+      notes.note.hardcore-madeira.fields.field.country-info: 'Região Autônoma de Portugal.'
+    Azores:
+      notes.note.hardcore-azores.fields.field.country: 'Açores'
+    Bermuda:
+      notes.note.hardcore-bermuda.fields.field.country: Bermudas
+    British Virgin Islands:
+      notes.note.hardcore-british-virgin-islands.fields.field.country: 'Ilhas Virgens Britânicas'
+    Canary Islands:
+      notes.note.hardcore-canary-islands.fields.field.country: 'Ilhas Canárias'
+    Cayman Islands:
+      notes.note.hardcore-cayman-islands.fields.field.country: 'Ilhas Caimã'
+    Constituent country of the Kingdom of the Netherlands.:
+      notes.note.hardcore-sint-maarten.fields.field.country-info: 'País constituinte do Reino dos Países Baixos.'
+    Corsica:
+      notes.note.hardcore-corsica.fields.field.country: 'Córsega'
+    Crown dependency of the United Kingdom.:
+      notes.note.hardcore-guernsey.fields.field.country-info: 'Dependência da coroa do Reino Unido.'
+      notes.note.hardcore-isle-of-man.fields.field.country-info: Ilha de Man
+      notes.note.hardcore-jersey.fields.field.country-info: 'Dependência da coroa do Reino Unido.'
+    Falkland Islands:
+      notes.note.hardcore-falkland-islands.fields.field.country: Ilhas Malvinas
+    French Guiana:
+      notes.note.hardcore-french-guiana.fields.field.country: Guiana Francesa
+    Guadeloupe:
+      notes.note.hardcore-guadeloupe.fields.field.country: Guadalupe
+    Guernsey:
+      notes.note.hardcore-guernsey.fields.field.country: Guernesei
+    Island of Indonesia.:
+      notes.note.hardcore-bali.fields.field.country-info: 'Ilha da Indonésia.'
+    Isle of Man:
+      notes.note.hardcore-isle-of-man.fields.field.country: Ilha de Man
+    Jersey:
+      notes.note.hardcore-jersey.fields.field.country: 'Jérsia'
+    Kaliningrad Oblast:
+      notes.note.hardcore-kaliningrad-oblast.fields.field.country: Caliningrado
+    Martinique:
+      notes.note.hardcore-martinique.fields.field.country: Martinica
+    Mayotte:
+      notes.note.hardcore-mayotte.fields.field.country: Maiote
+    Northern Mariana Islands:
+      notes.note.hardcore-northern-mariana-islands.fields.field.country: Ilhas Marianas do Norte
+    Not a sovereign country:
+      notes.note.norfolk-island.fields.field.capital-hint: 'Não é um Estado soberano'
+    'Oblast (administrative region) of the Russian Federation.':
+      notes.note.hardcore-kaliningrad-oblast.fields.field.country-info: 'Oblast (região administrativa) da Federação Russa.'
+    Oranjestad:
+      notes.note.sint-eustatius.fields.field.capital: Oranjestade
+    Overseas department of France.:
+      notes.note.hardcore-french-guiana.fields.field.country-info: 'Departamento ultramarino da França.'
+      notes.note.hardcore-guadeloupe.fields.field.country-info: 'Departamento ultramarino da França.'
+      notes.note.hardcore-martinique.fields.field.country-info: 'Departamento ultramarino da França.'
+      notes.note.hardcore-mayotte.fields.field.country-info: 'Departamento ultramarino da França.'
+      notes.note.hardcore-r-union.fields.field.country-info: 'Departamento ultramarino da França.'
+    Overseas territory of France.:
+      notes.note.hardcore-saint-martin.fields.field.country-info: 'País constituinte do Reino dos Países Baixos.'
+    Overseas territory of the United Kingdom.:
+      notes.note.british-indian-ocean-territory.fields.field.country-info: 'Território ultramarino do Reino Unido.'
+      notes.note.hardcore-anguilla.fields.field.country-info: 'Território ultramarino do Reino Unido.'
+      notes.note.hardcore-bermuda.fields.field.country-info: 'Território ultramarino do Reino Unido.'
+      notes.note.hardcore-british-virgin-islands.fields.field.country-info: 'Território ultramarino do Reino Unido.'
+      notes.note.hardcore-cayman-islands.fields.field.country-info: 'Território ultramarino do Reino Unido.'
+      notes.note.hardcore-falkland-islands.fields.field.country-info: 'Território ultramarino do Reino Unido.'
+      notes.note.hardcore-gibraltar.fields.field.country-info: 'Território ultramarino do Reino Unido.'
+      notes.note.hardcore-turks-and-caicos-islands.fields.field.country-info: 'Território ultramarino do Reino Unido.'
+      notes.note.montserrat.fields.field.country-info: 'Território ultramarino do Reino Unido.'
+      notes.note.pitcairn-islands.fields.field.country-info: 'Território ultramarino do Reino Unido.'
+    Region of France.:
+      notes.note.hardcore-corsica.fields.field.country-info: 'Região da França.'
+    'Réunion':
+      notes.note.hardcore-r-union.fields.field.country: 'Reunião'
+    Saint Martin:
+      notes.note.hardcore-saint-martin.fields.field.country: 'São Martinho (França)'
+    Sardinia:
+      notes.note.hardcore-sardinia.fields.field.country: Sardenha
+    Semi-autonomous region of Tanzania.:
+      notes.note.hardcore-zanzibar.fields.field.country-info: 'Região semi-autônoma da Tanzânia.'
+    Sicily:
+      notes.note.hardcore-sicily.fields.field.country: 'Sicília'
+    Sint Maarten:
+      notes.note.hardcore-sint-maarten.fields.field.country: 'São Martinho (Países Baixos)'
+    Turks and Caicos Islands:
+      notes.note.hardcore-turks-and-caicos-islands.fields.field.country: Turcas e Caicos
+    Unincorporated territory of the United States.:
+      notes.note.hardcore-american-samoa.fields.field.country-info: 'Território não incorporado dos Estados Unidos.'
+      notes.note.hardcore-northern-mariana-islands.fields.field.country-info: 'Território não incorporado dos Estados Unidos.'

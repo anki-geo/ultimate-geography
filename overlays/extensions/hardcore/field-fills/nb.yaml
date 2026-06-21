@@ -1,7 +1,7 @@
 id: overlay.extension.hardcore.field-fills.nb
 kind: extension
 notes:
-  note.canary-islands:
+  note.hardcore-canary-islands:
     intent: merge
     fields:
       field.capital:
@@ -14,7 +14,7 @@ notes:
         value: 'De to byene Santa Cruz på Tenerife og Las Palmas på Gran Canaria deler hovedstadsstatusen.'
         expected_base:
           value: The capital is shared between the two cities of Santa Cruz de Tenerife and Las Palmas.
-  note.cayman-islands:
+  note.hardcore-cayman-islands:
     intent: merge
     fields:
       field.capital-hint:
@@ -22,7 +22,7 @@ notes:
         value: Ikke selvstendig land
         expected_base:
           value: Not a sovereign country
-  note.corsica:
+  note.hardcore-corsica:
     intent: merge
     fields:
       field.capital:
@@ -30,7 +30,7 @@ notes:
         value: Bastia i Haute-Corse og Ajaccio i Corse-du-Sud
         expected_base:
           value: Ajaccio
-  note.guadeloupe:
+  note.hardcore-guadeloupe:
     intent: merge
     fields:
       field.capital-hint:
@@ -38,7 +38,7 @@ notes:
         value: Ikke selvstendig land
         expected_base:
           value: Not a sovereign country
-  note.zanzibar:
+  note.hardcore-zanzibar:
     intent: merge
     fields:
       field.capital:

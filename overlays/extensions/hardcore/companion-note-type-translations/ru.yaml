@@ -1,0 +1,19 @@
+id: overlay.translation.hardcore.companion-note-type.ru
+kind: translation
+translations:
+  variables:
+    label.capital:
+      Capital: 'Столица'
+    label.capital-hint.answer:
+      'Hint: {{Capital hint}}': 'Подсказка: {{Capital hint}}'
+    label.flag:
+      Flag: 'Флаг'
+    label.location:
+      Location: 'Местоположение'
+    note-type.name:
+      Ultimate Geography: 'Ultimate Geography [RU]'
+    sentence.flag-similar:
+      'Flag similar to {{Flag similarity}}.': 'Похожие флаги: {{Flag similarity}}.'
+  adapter_ids:
+    crowdanki:uuid:
+      43e2586a-9a65-11e8-a777-a0481cc15658: 2aa62e36-601e-4e4c-a124-5a79b14f8697

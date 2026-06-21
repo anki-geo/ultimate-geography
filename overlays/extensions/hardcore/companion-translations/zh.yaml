@@ -1,0 +1,111 @@
+id: overlay.translation.hardcore.companion.zh
+kind: translation
+translations:
+  changes:
+    American Samoa:
+      notes.note.hardcore-american-samoa.fields.field.country: '美属萨摩亚(American Samoa)'
+    Anguilla:
+      notes.note.hardcore-anguilla.fields.field.country: '安圭拉(Anguilla)'
+    Autonomous community of Spain.:
+      notes.note.hardcore-canary-islands.fields.field.country-info: '西班牙(Spain)自治区。'
+    Autonomous region of Italy.:
+      notes.note.hardcore-sardinia.fields.field.country-info: '意大利(Italy)自治区。'
+      notes.note.hardcore-sicily.fields.field.country-info: '意大利(Italy)自治区。'
+    Autonomous region of Portugal.:
+      notes.note.hardcore-azores.fields.field.country-info: '葡萄牙(Portugal)自治区。'
+      notes.note.hardcore-madeira.fields.field.country-info: '葡萄牙(Portugal)自治区。'
+    Azores:
+      notes.note.hardcore-azores.fields.field.country: '亚速尔群岛(Azores)'
+    Bali:
+      notes.note.hardcore-bali.fields.field.country: '巴厘岛(Bali)'
+    Bermuda:
+      notes.note.hardcore-bermuda.fields.field.country: '百慕大(Bermuda)'
+    British Virgin Islands:
+      notes.note.hardcore-british-virgin-islands.fields.field.country: '英属维尔京群岛(British Virgin Islands)'
+    Canary Islands:
+      notes.note.hardcore-canary-islands.fields.field.country: '加那利群岛(Canary Islands)'
+    Cayman Islands:
+      notes.note.hardcore-cayman-islands.fields.field.country: '开曼群岛(Cayman Islands)'
+    Constituent country of the Kingdom of the Netherlands.:
+      notes.note.hardcore-sint-maarten.fields.field.country-info: '荷兰(Netherlands)的一部分。'
+    Corsica:
+      notes.note.hardcore-corsica.fields.field.country: '科西嘉岛(Corsica)'
+    Crown dependency of the United Kingdom.:
+      notes.note.hardcore-guernsey.fields.field.country-info: '英国(U.K.)的皇家属地。'
+      notes.note.hardcore-isle-of-man.fields.field.country-info: '英国(U.K.)的皇家属地。'
+      notes.note.hardcore-jersey.fields.field.country-info: '英国(U.K.)的皇家属地。'
+    Falkland Islands:
+      notes.note.hardcore-falkland-islands.fields.field.country: '福克兰群岛(Falkland Islands)'
+    French Guiana:
+      notes.note.hardcore-french-guiana.fields.field.country: '法属圭亚那(French Guiana)'
+    Gibraltar:
+      notes.note.hardcore-gibraltar.fields.field.country: '直布罗陀(Gibraltar)'
+    Guadeloupe:
+      notes.note.hardcore-guadeloupe.fields.field.country: '瓜德罗普岛(Guadeloupe)'
+    Guernsey:
+      notes.note.hardcore-guernsey.fields.field.country: '根西岛(Guernsey)'
+    Island of Indonesia.:
+      notes.note.hardcore-bali.fields.field.country-info: '印度尼西亚(Indonesia)的岛屿之一。'
+    Isle of Man:
+      notes.note.hardcore-isle-of-man.fields.field.country: '马恩岛(Isle of Man)'
+    Jersey:
+      notes.note.hardcore-jersey.fields.field.country: '泽西岛(Jersey)'
+    Kaliningrad Oblast:
+      notes.note.hardcore-kaliningrad-oblast.fields.field.country: '加里宁格勒州(Kaliningrad Oblast)'
+    Kingston:
+      notes.note.norfolk-island.fields.field.capital: '金斯敦(Kingston)'
+    Madeira:
+      notes.note.hardcore-madeira.fields.field.country: '马德拉(Madeira)'
+    Martinique:
+      notes.note.hardcore-martinique.fields.field.country: '马提尼克(Martinique)'
+    Mayotte:
+      notes.note.hardcore-mayotte.fields.field.country: '马约特岛(Mayotte)'
+    Northern Mariana Islands:
+      notes.note.hardcore-northern-mariana-islands.fields.field.country: '北马里亚纳群岛(Northern Mariana Islands)'
+    Not a sovereign country:
+      notes.note.norfolk-island.fields.field.capital-hint: '不是主权国家'
+    'Oblast (administrative region) of the Russian Federation.':
+      notes.note.hardcore-kaliningrad-oblast.fields.field.country-info: '俄罗斯(Russia)联邦州(行政区)。'
+    Oranjestad:
+      notes.note.sint-eustatius.fields.field.capital: '奥拉涅斯塔德(Oranjestad)'
+    Overseas department of France.:
+      notes.note.hardcore-french-guiana.fields.field.country-info: '法国(France)的海外省份。'
+      notes.note.hardcore-guadeloupe.fields.field.country-info: '法国(France)的海外省份。'
+      notes.note.hardcore-martinique.fields.field.country-info: '法国(France)的海外省份。'
+      notes.note.hardcore-mayotte.fields.field.country-info: '法国(France)的海外省份。'
+      notes.note.hardcore-r-union.fields.field.country-info: '法国(France)的海外省份。'
+    Overseas territory of France.:
+      notes.note.hardcore-saint-martin.fields.field.country-info: '法国(France)的海外领土。'
+      notes.note.saint-barth-lemy.fields.field.country-info: '法国(France)的海外领土。'
+    Overseas territory of the United Kingdom.:
+      notes.note.british-indian-ocean-territory.fields.field.country-info: '英国(U.K.)的海外领土。'
+      notes.note.hardcore-anguilla.fields.field.country-info: '英国(U.K.)的海外领土。'
+      notes.note.hardcore-bermuda.fields.field.country-info: '英国(U.K.)的海外领土。'
+      notes.note.hardcore-british-virgin-islands.fields.field.country-info: '英国(U.K.)的海外领土。'
+      notes.note.hardcore-cayman-islands.fields.field.country-info: '英国(U.K.)的海外领土。'
+      notes.note.hardcore-falkland-islands.fields.field.country-info: '英国(U.K.)的海外领土。'
+      notes.note.hardcore-gibraltar.fields.field.country-info: '英国(U.K.)的海外领土。'
+      notes.note.hardcore-turks-and-caicos-islands.fields.field.country-info: '英国(U.K.)的海外领土。'
+      notes.note.montserrat.fields.field.country-info: '英国(U.K.)的海外领土。'
+      notes.note.pitcairn-islands.fields.field.country-info: '英国(U.K.)的海外领土。'
+    Region of France.:
+      notes.note.hardcore-corsica.fields.field.country-info: '法国(France)地区。'
+    'Réunion':
+      notes.note.hardcore-r-union.fields.field.country: '留尼汪岛(Réunion)'
+    Saint Martin:
+      notes.note.hardcore-saint-martin.fields.field.country: '圣马丁(Saint Martin)'
+    Sardinia:
+      notes.note.hardcore-sardinia.fields.field.country: '撒丁岛(Sardinia)'
+    Semi-autonomous region of Tanzania.:
+      notes.note.hardcore-zanzibar.fields.field.country-info: '坦桑尼亚(Tanzania)的半自治区。'
+    Sicily:
+      notes.note.hardcore-sicily.fields.field.country: '西西里岛(Sicily)'
+    Sint Maarten:
+      notes.note.hardcore-sint-maarten.fields.field.country: '圣马丁岛(Sint Maarten)'
+    Turks and Caicos Islands:
+      notes.note.hardcore-turks-and-caicos-islands.fields.field.country: '特克斯和凯科斯群岛(Turks and Caicos Islands)'
+    Unincorporated territory of the United States.:
+      notes.note.hardcore-american-samoa.fields.field.country-info: '美国(U.S.)无建制属地。'
+      notes.note.hardcore-northern-mariana-islands.fields.field.country-info: '美国(U.S.)无建制属地。'
+    Zanzibar:
+      notes.note.hardcore-zanzibar.fields.field.country: '桑给巴尔(Zanzibar)'
