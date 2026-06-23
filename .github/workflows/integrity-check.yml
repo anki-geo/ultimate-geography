@@ -22,6 +22,9 @@ jobs:
           extra_nix_config: |
             experimental-features = nix-command flakes
 
+      - name: Check external template and style sources
+        run: python scripts/check-source-content.py
+
       - name: Verify Brain Brew workspace
         run: |
           set -euo pipefail

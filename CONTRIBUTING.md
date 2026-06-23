@@ -14,6 +14,9 @@ The source of truth is:
 - `deck-hardcore.yaml` — the minimal Hardcore Geography companion shell; it contains deck identity and UG-compatible note types, but no ordinary UG notes.
 - `overlays/languages/*.yaml` — translation overlays.
 - `overlays/variants/extended*.yaml` and `overlays/variants/experimental*.yaml` — extended and experimental variant overlays.
+- `descriptions/` — deck description HTML fragments included from deck YAML and translation overlays.
+- `templates/ultimate-geography/` — card question/answer HTML fragments included from deck YAML and variant overlays.
+- `styles/ultimate-geography/card.css` — shared card styling included by the UG and Hardcore deck shells.
 - `brainbrew.yaml` — the manifest defining standard, extended, experimental, and standalone Hardcore targets.
 - `brainbrew-hardcore.yaml` — the manifest defining companion/add-on Hardcore targets from the minimal shell and shared Hardcore overlays.
 - `media/` — the flat media root used by CrowdAnki exports.
@@ -29,9 +32,10 @@ nix run github:jeprecated/brain-brew/rust-brainbrew -- targets --manifest brainb
 nix run github:jeprecated/brain-brew/rust-brainbrew -- targets --manifest brainbrew-hardcore.yaml
 ```
 
-Verify the whole workspace, including media references:
+Verify the whole workspace, including media references and external HTML/CSS source checks:
 
 ```bash
+python scripts/check-source-content.py
 for manifest in brainbrew.yaml brainbrew-hardcore.yaml; do
   nix run github:jeprecated/brain-brew/rust-brainbrew -- verify --manifest "$manifest" --all-targets --media-root media
 done
@@ -81,7 +85,10 @@ nix run github:jeprecated/brain-brew/rust-brainbrew -- compose \
 
 - **Edit English content:** update the relevant note in `deck.yaml`.
 - **Edit a translation:** update the language overlay under `overlays/languages/`.
-- **Edit extended or experimental templates:** update the shared overlay in `overlays/variants/extended.yaml` or `overlays/variants/experimental.yaml`; language-specific files under those directories should stay limited to adapter identity or true language exceptions.
+- **Edit deck descriptions:** update the relevant HTML fragment under `descriptions/ultimate-geography/` or `descriptions/hardcore-geography/`; the YAML files reference those fragments with `!include`.
+- **Edit standard card templates:** update the question/answer HTML fragments under `templates/ultimate-geography/<template-name>/`.
+- **Edit card styling:** update `styles/ultimate-geography/card.css`; both the normal UG deck shell and the Hardcore companion shell include this file.
+- **Edit extended or experimental templates:** update the shared overlay YAML in `overlays/variants/extended.yaml` or `overlays/variants/experimental.yaml`, and put larger HTML changes in the included files under `templates/ultimate-geography/`; language-specific files under those directories should stay limited to adapter identity or true language exceptions.
 - **Edit Hardcore Geography content:** update the shared Hardcore overlays under `overlays/extensions/hardcore/`; standalone Hardcore targets and companion/add-on targets reuse the same note definitions.
 - **Edit Hardcore Geography fills:** put language-neutral/default blank-field fills in `overlays/extensions/hardcore/field-fills.yaml`; use `overlays/extensions/hardcore/field-fills/<lang>.yaml` only for localized overrides that differ from the default.
 - **Replace or add media:** put the file directly in `media/`, reference the same filename from the note field HTML, and keep `sources.csv` up to date.
