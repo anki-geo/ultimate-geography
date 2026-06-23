@@ -117,7 +117,13 @@ notes:
         field.country: 'Galápagos Islands'
         field.country-info: Province of Ecuador.
         field.flag: '<img src="ug-flag-galapagos_islands.svg" />'
-        field.flag-similarity: 'Sierra Leone (slightly lighter blue)'
+        field.flag-similarity:
+          format: '{country_1} ({description_1})'
+          variables:
+            country_1:
+              text: Sierra Leone
+            description_1:
+              text: slightly lighter blue
         field.map: '<img src="ug-map-galapagos_islands.png" />'
       tags:
         - 'UG::South_America'

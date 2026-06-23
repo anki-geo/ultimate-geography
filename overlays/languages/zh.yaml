@@ -1,7 +1,7 @@
 id: overlay.translation.zh
 kind: translation
 translations:
-  changes:
+  direct:
     'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.': '日本海(Sea of Japan)的周边国家之间存在命名争议，韩国(South Korea)尤其支持东海(East Sea)的名称，中国在元朝及明朝初时期称“鲸海”。'
     Abkhazia: '阿布哈兹(Abkhazia)'
     Abu Dhabi: '阿布扎比(Abu Dhabi)'
@@ -31,7 +31,6 @@ translations:
     Amman: '安曼(Amman)'
     Amsterdam: '阿姆斯特丹(Amsterdam)'
     Andorra: '安道尔(Andorra)'
-    'Andorra (narrower, coat of arms with motto)': '安道尔(更窄，带有座右铭的纹章)'
     Andorra la Vella: '安道尔城(Andorra la Vella)'
     Angola: '安哥拉(Angola)'
     Anguilla: '安圭拉(Anguilla)'
@@ -54,9 +53,7 @@ translations:
     Athens: '雅典(Athens)'
     Atlantic Ocean: '大西洋(Atlantic Ocean)'
     Australia: '澳大利亚(Australia)'
-    'Australia (white stars, two more stars)': '澳大利亚(白星，多两颗星)'
     Austria: '奥地利(Austria)'
-    'Austria (brighter red, wider white band)': '奥地利(更亮的红色，更宽的白色带)'
     Autonomous community of Spain.: '西班牙(Spain)自治区。'
     Autonomous province of South Korea.: '韩国(South Korea)自治省。'
     Autonomous region of Finland.: '芬兰(Finland)自治区。'
@@ -68,7 +65,6 @@ translations:
     Azores: '亚速尔群岛(Azores)'
     Baghdad: '巴格达(Baghdad)'
     Bahrain: '巴林(Bahrain)'
-    'Bahrain (narrower, fewer serrated edges, red)': '巴林(更窄，锯齿边缘更少，红色)'
     Baku: '巴库(Baku)'
     Bali: '巴厘岛(Bali)'
     Balkan Peninsula: '巴尔干半岛(Balkan Peninsula)'
@@ -104,7 +100,6 @@ translations:
     Black Sea: '黑海(Black Sea)'
     'Bogotá': '波哥大(Bogotá)'
     Bolivia: '玻利维亚(Bolivia)'
-    'Bolivia (coat of arms instead of star)': '玻利维亚(徽章而不是星形)'
     Bosnia and Herzegovina: '波斯尼亚和黑塞哥维那(Bosnia and Herzegovina)，简称“波黑”'
     Botswana: '博茨瓦纳(Botswana)'
     Bougainville: '布干维尔(Bougainville)'
@@ -125,7 +120,6 @@ translations:
     Cairo: '开罗(Cairo)'
     Cambodia: '柬埔寨(Cambodia)'
     Cameroon: '喀麦隆(Cameroon)'
-    'Cameroon (green/red/yellow, yellow star)': '喀麦隆(绿/红/黄，黄星)'
     Canada: '加拿大(Canada)'
     Canary Islands: '加那利群岛(Canary Islands)'
     Canberra: '堪培拉(Canberra)'
@@ -141,7 +135,6 @@ translations:
     Central African Republic: '中非共和国(Central African Republic)'
     Cetinje is an honorary capital.: '采蒂涅(Cetinje)，黑山古都和宗教、历史中心。'
     Chad: '乍得(Chad)'
-    'Chad (slightly darker blue)': '乍得(略深蓝色)'
     Charlotte Amalie: '夏洛特阿马利亚(Charlotte Amalie)'
     Chile: '智利(Chile)'
     China: '中国(China)'
@@ -151,7 +144,6 @@ translations:
     Claimed and controlled: '声称对其拥有主权并拥有实际控制权'
     Claimed but not controlled: '声称对其拥有主权但没有实际控制权'
     Colombia: '哥伦比亚(Colombia)'
-    'Colombia (no coat of arms)': '哥伦比亚(无国徽)'
     Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.: '科伦坡(Colombo)通常被称为首都，但科伦坡郊区的斯里贾亚瓦德纳普拉科特(Sri Jayawardenepura Kotte)是官方的立法首都。'
     Comoros: '科摩罗(Comoros)'
     Conakry: '科纳克里(Conakry)'
@@ -166,9 +158,7 @@ translations:
     Croatia: '克罗地亚(Croatia)'
     Crown dependency of the United Kingdom.: '英国(U.K.)的皇家属地。'
     Cuba: '古巴(Cuba)'
-    'Cuba (red triangle, blue stripes)': '古巴(红三角，蓝条纹)'
     'Curaçao': '库拉索(Curaçao)'
-    'Curaçao (two stars in top-left corner)': '库拉索岛(左上角的两颗星)'
     Cyprus: '塞浦路斯(Cyprus)'
     Czech Republic: '捷克共和国(Czech Republic)'
     Dakar: '达喀尔(Dakar)'
@@ -191,13 +181,9 @@ translations:
     East China Sea: '东海(East China Sea)'
     East Siberian Sea: '东西伯利亚海(East Siberian Sea)'
     Ecuador: '厄瓜多尔(Ecuador)'
-    'Ecuador (with coat of arms)': '厄瓜多尔(有国徽)'
     Edinburgh: '爱丁堡(Edinburgh)'
     Egypt: '埃及(Egypt)'
-    'Egypt (emblem instead of text), Yemen (no text)': '埃及(标志代替文字)、也门(无文字)'
-    'Egypt (with emblem), Iraq (with text)': '埃及(带徽章)、伊拉克(带文字)'
     El Salvador: '萨尔瓦多(El Salvador)'
-    'El Salvador (different coat of arms, slightly darker blue)': '萨尔瓦多(不同的纹章，略深的蓝色)'
     England: '英格兰(England)'
     English Channel: '英吉利海峡(English Channel)'
     Equatorial Guinea: '赤道几内亚(Equatorial Guinea)'
@@ -225,7 +211,6 @@ translations:
     Georgia: '格鲁吉亚(Georgia)'
     Germany: '德国(Germany)'
     Ghana: '加纳(Ghana)'
-    'Ghana (star instead of coat of arms)': '加纳(星而不是国徽)'
     Gibraltar: '直布罗陀(Gibraltar)'
     Gitega: '基特加(Gitega)'
     Greece: '希腊(Greece)'
@@ -237,7 +222,6 @@ translations:
     Guatemala City: '危地马拉市(Guatemala City)'
     Guernsey: '根西岛(Guernsey)'
     Guinea: '几内亚(Guinea)'
-    'Guinea (green and red flipped, slightly darker green)': '几内亚(绿色和红色翻转，绿色略深)'
     Guinea-Bissau: '几内亚比绍(Guinea-Bissau)'
     Gulf of Alaska: '阿拉斯加湾(Gulf of Alaska)'
     Gulf of California: '加利福尼亚湾(Gulf of California)'
@@ -261,28 +245,21 @@ translations:
     Hudson Bay: '哈德逊湾(Hudson Bay)'
     Hungary: '匈牙利(Hungary)'
     Iceland: '冰岛(Iceland)'
-    'Iceland (blue background, red and white cross), Norway (red background, blue and white cross)': '冰岛(蓝底，红白交叉)，挪威(红底，蓝白交叉)'
-    'Iceland (blue background, red cross), Faroe Islands (white background, red and blue cross)': '冰岛(蓝底，红十字)，法罗群岛(白底，红蓝交叉)'
     Independent state claimed by Georgia.: '格鲁吉亚(Georgia)宣称拥有主权的独立国家。'
     Independent state claimed by Moldova.: '摩尔多瓦(Moldova)宣称拥有主权的独立国家。'
     Independent state claimed by Somalia.: '索马里(Somalia)宣称拥有主权的独立国家。'
     India: '印度(India)'
     Indian Ocean: '印度洋(Indian Ocean)'
     Indonesia: '印度尼西亚(Indonesia)'
-    'Indonesia (white and red flipped, brighter red), Monaco (white and red flipped, narrower)': '印度尼西亚(白色和红色翻转，红色更亮)，摩纳哥(白色和红色翻转，更窄)'
-    'Indonesia (wider, brighter red), Poland (red and white flipped, wider)': '印度尼西亚(更宽，红色更亮)，波兰(红色和白色翻转，更宽)'
     Iran: '伊朗(Iran)'
     Iraq: '伊拉克(Iraq)'
-    'Iraq (text instead of emblem), Yemen (no emblem)': '伊拉克(文字代替徽记)、也门(无徽记)'
     Ireland: '爱尔兰(Ireland)'
-    'Ireland (orange and green flipped, wider)': '爱尔兰(橙色和绿色翻转，更宽)'
     Islamabad: '伊斯兰堡(Islamabad)'
     Island of Indonesia.: '印度尼西亚(Indonesia)的岛屿之一。'
     Isle of Man: '马恩岛(Isle of Man)'
     Israel: '以色列(Israel)'
     Italy: '意大利(Italy)'
     Ivory Coast: '科特迪瓦(Ivory Coast)'
-    'Ivory Coast (green and orange flipped, narrower)': '科特迪瓦(绿色和橙色翻转，更窄)'
     Jakarta: '雅加达(Jakarta)'
     Jamaica: '牙买加(Jamaica)'
     Japan: '日本(Japan)'
@@ -316,7 +293,6 @@ translations:
     Labrador Sea: '拉布拉多海(Labrador Sea)'
     Laos: '老挝(Laos)'
     Latvia: '拉脱维亚(Latvia)'
-    'Latvia (darker red, narrower white band)': '拉脱维亚(较深的红色，较窄的白色带)'
     Lebanon: '黎巴嫩(Lebanon)'
     Lesotho: '莱索托(Lesotho)'
     Liberia: '利比里亚(Liberia)'
@@ -333,7 +309,6 @@ translations:
     Luanda: '罗安达(Luanda)'
     Lusaka: '卢萨卡(Lusaka)'
     Luxembourg: '卢森堡(Luxembourg)'
-    'Luxembourg (lighter blue)': '卢森堡(浅蓝色)'
     Luxembourg City: '卢森堡市(Luxembourg City)'
     Macau: '澳门(Macau)'
     Madagascar: '马达加斯加(Madagascar)'
@@ -344,7 +319,6 @@ translations:
     Malaysia: '马来西亚(Malaysia)'
     Maldives: '马尔代夫(Maldives)'
     Mali: '马里(Mali)'
-    'Mali (red and green flipped, slightly brighter green)': '马里(红绿翻转，绿色略亮)'
     Malta: '马耳他(Malta)'
     'Malé': '马累(Malé)'
     Managua: '马那瓜(Managua)'
@@ -367,9 +341,7 @@ translations:
     Minsk: '明斯克(Minsk)'
     Mogadishu: '摩加迪沙(Mogadishu)'
     Moldova: '摩尔多瓦(Moldova)'
-    'Moldova (wider, coat of arms with eagle)': '摩尔多瓦(更宽，鹰纹)'
     Monaco: '摩纳哥(Monaco)'
-    'Monaco (narrower, darker red), Poland (red and white flipped, darker red)': '摩纳哥(更窄，红色更深)，波兰(红白翻转，红色更深)'
     Mongolia: '蒙古(Mongolia)'
     Monrovia: '蒙罗维亚(Monrovia)'
     Montenegro: '黑山(Montenegro)'
@@ -385,20 +357,16 @@ translations:
     Namibia: '纳米比亚(Namibia)'
     Nassau: '拿骚(Nassau)'
     Nauru: '瑙鲁(Nauru)'
-    'Nauru (single star below yellow band)': '瑙鲁(黄带下方的单星)'
     'Nauru has no official capital; the Yaren District is the de facto capital.': '瑙鲁(Nauru)无正式首都，政府机关设在亚伦区(the Yaren District)。'
     Naypyidaw: '内比都(Naypyidaw)'
     Nepal: '尼泊尔(Nepal)'
     Netherlands: '荷兰(Netherlands)'
-    'Netherlands (darker blue)': '荷兰(深蓝色)'
     New Caledonia: '新喀里多尼亚(New Caledonia)'
     New Delhi: '新德里(New Delhi)'
     New Zealand: '新西兰(New Zealand)'
-    'New Zealand (red stars, two fewer stars)': '新西兰(红星，少两颗星)'
     Ngerulmud: '恩格鲁穆德(Ngerulmud)'
     Niamey: '尼亚美(Niamey)'
     Nicaragua: '尼加拉瓜(Nicaragua)'
-    'Nicaragua (different coat of arms, slightly lighter blue)': '尼加拉瓜(不同的纹章，略浅的蓝色)'
     Nicosia: '尼科西亚(Nicosia)'
     Niger: '尼日尔(Niger)'
     Nigeria: '尼日利亚(Nigeria)'
@@ -412,7 +380,6 @@ translations:
     Northern Ireland: '北爱尔兰(Northern Ireland)'
     Northern Mariana Islands: '北马里亚纳群岛(Northern Mariana Islands)'
     Norway: '挪威(Norway)'
-    'Norway (red background, blue cross), Faroe Islands (white background, red and blue cross)': '挪威(红底蓝十字)、法罗群岛(白底红蓝十字)'
     Norwegian Sea: '挪威海(Norwegian Sea)'
     Not a sovereign country: '不是主权国家'
     Nouakchott: '努瓦克肖特(Nouakchott)'
@@ -437,8 +404,6 @@ translations:
     Pakistan: '巴基斯坦(Pakistan)'
     Palau: '帕劳(Palau)'
     Palestine: '巴勒斯坦(Palestine)'
-    'Palestine (black/white/green, red arrow)': '巴勒斯坦(黑/白/绿，红色箭头)'
-    'Palestine (no symbol)': '巴勒斯坦(无符号)'
     Palikir: '帕利基尔(Palikir)'
     Panama: '巴拿马(Panama)'
     Panama City: '巴拿马城(Panama City)'
@@ -470,10 +435,8 @@ translations:
     Pretoria, Cape Town, Bloemfontein: '比勒陀利亚(Pretoria)、开普敦(Cape Town)、布隆方丹(Bloemfontein)'
     Pristina: '普里什蒂纳(Pristina)'
     Puerto Rico: '波多黎各(Puerto Rico)'
-    'Puerto Rico (blue triangle, red stripes)': '波多黎各(蓝色三角形，红色条纹)'
     Pyongyang: '平壤(Pyongyang)'
     Qatar: '卡塔尔(Qatar)'
-    'Qatar (wider, more serrated edges, maroon)': '卡塔尔(更宽，锯齿状边缘，栗色)'
     Quito: '基多(Quito)'
     Rabat: '拉巴特(Rabat)'
     Red Sea: '红海(Red Sea)'
@@ -483,11 +446,9 @@ translations:
     Riga: '里加(Riga)'
     Riyadh: '利雅得(Riyadh)'
     Romania: '罗马尼亚(Romania)'
-    'Romania (slightly lighter blue)': '罗马尼亚(略浅蓝色)'
     Rome: '罗马(Rome)'
     Roseau: '罗索(Roseau)'
     Russia: '俄罗斯(Russia)'
-    'Russia (no coat of arms), Slovenia (wider, smaller coat of arms)': '俄罗斯(无国徽)、斯洛文尼亚(更宽、更小的国徽)'
     Rwanda: '卢旺达(Rwanda)'
     'Réunion': '留尼汪岛(Réunion)'
     Sahrawi Arab Democratic Republic: '阿拉伯撒哈拉民主共和国(Sahrawi Arab Democratic Republic)'
@@ -513,7 +474,6 @@ translations:
     Sea of Okhotsk: '鄂霍次克海(Sea of Okhotsk)'
     Semi-autonomous region of Tanzania.: '坦桑尼亚(Tanzania)的半自治区。'
     Senegal: '塞内加尔(Senegal)'
-    'Senegal (green/yellow/red, green star)': '塞内加尔(绿/黄/红，绿星)'
     Seoul: '首尔(Seoul)'
     Serbia: '塞尔维亚(Serbia)'
     Seychelles: '塞舌尔(Seychelles)'
@@ -523,8 +483,6 @@ translations:
     Sint Maarten: '圣马丁岛(Sint Maarten)'
     Skopje: '斯科普里(Skopje)'
     Slovakia: '斯洛伐克(Slovakia)'
-    'Slovakia (narrower, bigger coat of arms)': '斯洛伐克(更窄、更大的国徽)'
-    'Slovakia (with coat of arms)': '斯洛伐克(有国徽)'
     Slovenia: '斯洛文尼亚(Slovenia)'
     Sofia: '索菲亚(Sofia)'
     Solomon Islands: '所罗门群岛(Solomon Islands)'
@@ -554,7 +512,6 @@ translations:
     Subregion of Oceania, which includes Vanuatu, the Solomon Islands, Fiji, and Papua New Guinea.: '大洋洲(Oceania)的一个区域，包括瓦努阿图(Vanuatu)、所罗门群岛(Solomon Islands)、斐济(Fiji)和巴布亚新几内亚(Papua New Guinea)。'
     Sucre: '苏克雷(Sucre)'
     Sudan: '苏丹(Sudan)'
-    'Sudan (red/white/black, green arrow), Sahrawi Arab Democratic Republic (with star and crescent)': '苏丹(红/白/黑、绿箭头)、阿拉伯撒哈拉民主共和国(有星形和新月形)'
     Sukhumi: '苏呼米(Sukhumi)'
     Sumatra: '苏门答腊岛(Sumatra)'
     Suriname: '苏里南(Suriname)'
@@ -612,9 +569,6 @@ translations:
     Vaduz: '瓦杜兹(Vaduz)'
     Valletta: '瓦莱塔(Valletta)'
     Vanuatu: '瓦努阿图(Vanuatu)'
-    Vatican City:
-      notes.note.vatican-city.fields.field.capital: '梵蒂冈城(Vatican City)'
-      notes.note.vatican-city.fields.field.country: '梵蒂冈(Vatican City)'
     Venezuela: '委内瑞拉(Venezuela)'
     Victoria: '维多利亚(Victoria)'
     Vienna: '维也纳(Vienna)'
@@ -647,8 +601,187 @@ translations:
     Zambia: '赞比亚(Zambia)'
     Zanzibar: '桑给巴尔(Zanzibar)'
     Zimbabwe: '津巴布韦(Zimbabwe)'
+    black/white/green, red arrow: '黑/白/绿，红色箭头'
+    blue background, red and white cross: '蓝底，红白交叉'
+    blue background, red cross: '蓝底，红十字'
+    blue triangle, red stripes: '蓝色三角形，红色条纹'
+    brighter red, wider white band: '更亮的红色，更宽的白色带'
+    coat of arms instead of star: '徽章而不是星形'
+    darker blue: '深蓝色'
+    darker red, narrower white band: '较深的红色，较窄的白色带'
+    different coat of arms, slightly darker blue: '不同的纹章，略深的蓝色'
+    different coat of arms, slightly lighter blue: '不同的纹章，略浅的蓝色'
+    emblem instead of text: '标志代替文字'
+    green and orange flipped, narrower: '绿色和橙色翻转，更窄'
+    green and red flipped, slightly darker green: '绿色和红色翻转，绿色略深'
+    green/red/yellow, yellow star: '绿/红/黄，黄星'
+    green/yellow/red, green star: '绿/黄/红，绿星'
+    lighter blue: '浅蓝色'
+    narrower, bigger coat of arms: '更窄、更大的国徽'
+    narrower, coat of arms with motto: '更窄，带有座右铭的纹章'
+    narrower, darker red: '更窄，红色更深'
+    narrower, fewer serrated edges, red: '更窄，锯齿边缘更少，红色'
+    no coat of arms: '无国徽'
+    no emblem: '无徽记'
+    no symbol: '无符号'
+    no text: '无文字'
+    orange and green flipped, wider: '橙色和绿色翻转，更宽'
+    red and green flipped, slightly brighter green: '红绿翻转，绿色略亮'
+    red and white flipped, darker red: '红白翻转，红色更深'
+    red and white flipped, wider: '红色和白色翻转，更宽'
+    red background, blue and white cross: '红底，蓝白交叉'
+    red background, blue cross: '红底蓝十字'
+    red stars, two fewer stars: '红星，少两颗星'
+    red triangle, blue stripes: '红三角，蓝条纹'
+    red/white/black, green arrow: '红/白/黑、绿箭头'
+    single star below yellow band: '黄带下方的单星'
+    slightly darker blue: '略深蓝色'
+    slightly lighter blue: '略浅蓝色'
+    star instead of coat of arms: '星而不是国徽'
+    text instead of emblem: '文字代替徽记'
+    two stars in top-left corner: '左上角的两颗星'
+    white and red flipped, brighter red: '白色和红色翻转，红色更亮'
+    white and red flipped, narrower: '白色和红色翻转，更窄'
+    white background, red and blue cross: '白底，红蓝交叉'
+    white stars, two more stars: '白星，多两颗星'
+    wider, brighter red: '更宽，红色更亮'
+    wider, coat of arms with eagle: '更宽，鹰纹'
+    wider, more serrated edges, maroon: '更宽，锯齿状边缘，栗色'
+    wider, smaller coat of arms: '更宽、更小的国徽'
+    with coat of arms: '有国徽'
+    with emblem: '带徽章'
+    with star and crescent: '有星形和新月形'
+    with text: '带文字'
+    '{country_1} ({description_1})': '{country_1}({description_1})'
+    '{country_1} ({description_1}), {country_2} ({description_2})': '{country_1}({description_1})、{country_2}({description_2})'
     'Åland Islands': '奥兰群岛(Åland Islands)'
-  additions:
+  contextual:
+    notes.note:
+      andorra.fields.field.flag-similarity.message.variables.country_1:
+        Moldova: '摩尔多瓦'
+      australia.fields.field.flag-similarity.message.variables.country_1:
+        New Zealand: '新西兰'
+      austria.fields.field.flag-similarity.message.variables.country_1:
+        Latvia: '拉脱维亚'
+      bahrain.fields.field.flag-similarity.message.variables.country_1:
+        Qatar: '卡塔尔'
+      bolivia.fields.field.flag-similarity.message.variables.country_1:
+        Ghana: '加纳'
+      cameroon.fields.field.flag-similarity.message.variables.country_1:
+        Senegal: '塞内加尔'
+      chad.fields.field.flag-similarity.message.variables.country_1:
+        Romania: '罗马尼亚'
+      colombia.fields.field.flag-similarity.message.variables.country_1:
+        Ecuador: '厄瓜多尔'
+      cuba.fields.field.flag-similarity.message.variables.country_1:
+        Puerto Rico: '波多黎各'
+      cura-ao.fields.field.flag-similarity.message.variables.country_1:
+        Nauru: '瑙鲁'
+      ecuador.fields.field.flag-similarity.message.variables.country_1:
+        Colombia: '哥伦比亚'
+      egypt.fields.field.flag-similarity.message.variables.country_1:
+        Iraq: '伊拉克'
+      egypt.fields.field.flag-similarity.message.variables.country_2:
+        Yemen: '也门'
+      el-salvador.fields.field.flag-similarity.message.variables.country_1:
+        Nicaragua: '尼加拉瓜'
+      faroe-islands.fields.field.flag-similarity.message.format:
+        '{country_1} ({description_1}), {country_2} ({description_2})': '{country_1}({description_1})，{country_2}({description_2})'
+      faroe-islands.fields.field.flag-similarity.message.variables.country_1:
+        Iceland: '冰岛'
+      faroe-islands.fields.field.flag-similarity.message.variables.country_2:
+        Norway: '挪威'
+      ghana.fields.field.flag-similarity.message.variables.country_1:
+        Bolivia: '玻利维亚'
+      guinea.fields.field.flag-similarity.message.variables.country_1:
+        Mali: '马里'
+      iceland.fields.field.flag-similarity.message.variables.country_1:
+        Norway: '挪威'
+      iceland.fields.field.flag-similarity.message.variables.country_2:
+        Faroe Islands: '法罗群岛'
+      iceland.fields.field.flag-similarity.message.variables.description_2:
+        white background, red and blue cross: '白底红蓝十字'
+      indonesia.fields.field.flag-similarity.message.format:
+        '{country_1} ({description_1}), {country_2} ({description_2})': '{country_1}({description_1})，{country_2}({description_2})'
+      indonesia.fields.field.flag-similarity.message.variables.country_1:
+        Monaco: '摩纳哥'
+      indonesia.fields.field.flag-similarity.message.variables.country_2:
+        Poland: '波兰'
+      iraq.fields.field.flag-similarity.message.variables.country_1:
+        Egypt: '埃及'
+      iraq.fields.field.flag-similarity.message.variables.country_2:
+        Yemen: '也门'
+      ireland.fields.field.flag-similarity.message.variables.country_1:
+        Ivory Coast: '科特迪瓦'
+      ivory-coast.fields.field.flag-similarity.message.variables.country_1:
+        Ireland: '爱尔兰'
+      latvia.fields.field.flag-similarity.message.variables.country_1:
+        Austria: '奥地利'
+      luxembourg.fields.field.flag-similarity.message.variables.country_1:
+        Netherlands: '荷兰'
+      mali.fields.field.flag-similarity.message.variables.country_1:
+        Guinea: '几内亚'
+      moldova.fields.field.flag-similarity.message.variables.country_1:
+        Andorra: '安道尔'
+      monaco.fields.field.flag-similarity.message.format:
+        '{country_1} ({description_1}), {country_2} ({description_2})': '{country_1}({description_1})，{country_2}({description_2})'
+      monaco.fields.field.flag-similarity.message.variables.country_1:
+        Indonesia: '印度尼西亚'
+      monaco.fields.field.flag-similarity.message.variables.country_2:
+        Poland: '波兰'
+      nauru.fields.field.flag-similarity.message.variables.country_1:
+        'Curaçao': '库拉索岛'
+      netherlands.fields.field.flag-similarity.message.variables.country_1:
+        Luxembourg: '卢森堡'
+      new-zealand.fields.field.flag-similarity.message.variables.country_1:
+        Australia: '澳大利亚'
+      nicaragua.fields.field.flag-similarity.message.variables.country_1:
+        El Salvador: '萨尔瓦多'
+      norway.fields.field.flag-similarity.message.format:
+        '{country_1} ({description_1}), {country_2} ({description_2})': '{country_1}({description_1})，{country_2}({description_2})'
+      norway.fields.field.flag-similarity.message.variables.country_1:
+        Iceland: '冰岛'
+      norway.fields.field.flag-similarity.message.variables.country_2:
+        Faroe Islands: '法罗群岛'
+      palestine.fields.field.flag-similarity.message.variables.country_1:
+        Sudan: '苏丹'
+      palestine.fields.field.flag-similarity.message.variables.country_2:
+        Sahrawi Arab Democratic Republic: '阿拉伯撒哈拉民主共和国'
+      poland.fields.field.flag-similarity.message.format:
+        '{country_1} ({description_1}), {country_2} ({description_2})': '{country_1}({description_1})，{country_2}({description_2})'
+      poland.fields.field.flag-similarity.message.variables.country_1:
+        Indonesia: '印度尼西亚'
+      poland.fields.field.flag-similarity.message.variables.country_2:
+        Monaco: '摩纳哥'
+      puerto-rico.fields.field.flag-similarity.message.variables.country_1:
+        Cuba: '古巴'
+      qatar.fields.field.flag-similarity.message.variables.country_1:
+        Bahrain: '巴林'
+      romania.fields.field.flag-similarity.message.variables.country_1:
+        Chad: '乍得'
+      russia.fields.field.flag-similarity.message.variables.country_1:
+        Slovakia: '斯洛伐克'
+      sahrawi-arab-democratic-republic.fields.field.flag-similarity.message.variables.country_1:
+        Palestine: '巴勒斯坦'
+      senegal.fields.field.flag-similarity.message.variables.country_1:
+        Cameroon: '喀麦隆'
+      slovakia.fields.field.flag-similarity.message.variables.country_1:
+        Russia: '俄罗斯'
+      slovakia.fields.field.flag-similarity.message.variables.country_2:
+        Slovenia: '斯洛文尼亚'
+      slovenia.fields.field.flag-similarity.message.variables.country_1:
+        Slovakia: '斯洛伐克'
+      sudan.fields.field.flag-similarity.message.variables.country_1:
+        Palestine: '巴勒斯坦'
+      vatican-city:
+        Vatican City: '梵蒂冈(Vatican City)'
+      vatican-city.fields.field.capital:
+        Vatican City: '梵蒂冈城(Vatican City)'
+      yemen.fields.field.flag-similarity.message.variables.country_1:
+        Egypt: '埃及'
+      yemen.fields.field.flag-similarity.message.variables.country_2:
+        Iraq: '伊拉克'
+  target_additions:
     notes.note.myanmar.fields.field.capital-info: '缅甸于2005年11月6日首都从仰光(Yangon)迁往内比都(Naypyidaw)。'
     notes.note.netherlands.fields.field.country-info: '现名尼德兰(Netherlands)，中文通译为荷兰(Holanda)'
     notes.note.yellow-sea.fields.field.country-info: '虽然国际上普遍认为黄海(Yellow Sea)包含了渤海(Bohai Sea)，但在中国(China)，它们通常被视为两个独立的海域。'

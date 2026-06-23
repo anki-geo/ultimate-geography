@@ -1,7 +1,7 @@
 id: overlay.translation.pl
 kind: translation
 translations:
-  changes:
+  direct:
     'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.': 'Pomiędzy państwami graniczącymi z tym morzem toczy się spór o jego nazwę, przy czym Korea Południowa opowiada się za nazwą Morze Wschodnie. KSNG opowiedziała się za nazwą Morze Japońskie.'
     Abkhazia: Abchazja
     Abu Dhabi: Abu Zabi
@@ -26,7 +26,6 @@ translations:
     'Also spelled as Sana''a.': ''
     American Samoa: 'Samoa Amerykańskie'
     Andorra: Andora
-    'Andorra (narrower, coat of arms with motto)': 'Andora (węższa, godło z dewizą)'
     Andorra la Vella: Andora
     Antananarivo: Antananarywa
     Antarctica: Antarktyda
@@ -39,8 +38,6 @@ translations:
     Asia: Azja
     Athens: Ateny
     Atlantic Ocean: Ocean Atlantycki
-    'Australia (white stars, two more stars)': 'Australia (białe gwiazdy, o dwie gwiazdy więcej)'
-    'Austria (brighter red, wider white band)': 'Austria (jaśniejsza czerwień, szerszy biały pas)'
     Autonomous community of Spain.: 'Wspólnota autonomiczna Hiszpanii.'
     Autonomous province of South Korea.: 'Terytorium autonomiczne Korei Południowej, znane także jako Cheju lub Jeju.'
     Autonomous region of Finland.: Terytorium autonomiczne Finlandii.
@@ -51,7 +48,6 @@ translations:
     Azores: Azory
     Baghdad: Bagdad
     Bahrain: Bahrajn
-    'Bahrain (narrower, fewer serrated edges, red)': 'Bahrajn (węższa, mniej klinów, czerwona)'
     Balkan Peninsula: 'Półwysep Bałkański'
     Baltic Sea: 'Morze Bałtyckie'
     Banda Sea: Morze Banda
@@ -73,7 +69,6 @@ translations:
     Black Sea: Morze Czarne
     'Bogotá': Bogota
     Bolivia: Boliwia
-    'Bolivia (coat of arms instead of star)': 'Boliwia (godło zamiast gwiazd)'
     Bosnia and Herzegovina: 'Bośnia i Hercegowina'
     'Brasília': Brasilia
     Bratislava: 'Bratysława'
@@ -86,7 +81,6 @@ translations:
     Cairo: Kair
     Cambodia: 'Kambodża'
     Cameroon: Kamerun
-    'Cameroon (green/red/yellow, yellow star)': 'Kamerun (zielono-czerwono-żółta, żółta gwiazda)'
     Canada: Kanada
     Canary Islands: Wyspy Kanaryjskie
     Cape Verde: 'Republika Zielonego Przylądka'
@@ -98,14 +92,12 @@ translations:
     Central African Republic: 'Republika Środkowoafrykańska'
     Cetinje is an honorary capital.: 'Honorową stolicą jest Cetynia.'
     Chad: Czad
-    'Chad (slightly darker blue)': 'Czad (lekko ciemniejszy niebieski)'
     China: Chiny
     'Chișinău': 'Kiszyniów'
     City of San Marino: San Marino
     Claimed and controlled: 'Terytorium sporne, nad którym sprawuje on władzę'
     Claimed but not controlled: 'Terytorium sporne, nad którym nie sprawuje ona władzy'
     Colombia: Kolumbia
-    'Colombia (no coat of arms)': 'Kolumbia (brak godła)'
     Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.: 'Kolombo często nazywane jest stolicą, ale Sri Dźajawardanapura Kotte, przedmieście Kolombo, jest oficjalną stolicą ustawodawczą.'
     Comoros: Komory
     Conakry: Konakry
@@ -120,8 +112,6 @@ translations:
     Croatia: Chorwacja
     Crown dependency of the United Kingdom.: Dependencja korony brytyjskiej.
     Cuba: Kuba
-    'Cuba (red triangle, blue stripes)': 'Kuba (czerwony trójkąt, niebieskie pasy)'
-    'Curaçao (two stars in top-left corner)': 'Curaçao (dwie gwiazdy w lewym górnym rogu)'
     Cyprus: Cypr
     Czech Republic: Czechy
     Damascus: Damaszek
@@ -138,13 +128,9 @@ translations:
     East China Sea: 'Morze Wschodniochińskie'
     East Siberian Sea: Morze Wschodniosyberyjskie
     Ecuador: Ekwador
-    'Ecuador (with coat of arms)': 'Ekwador (godło)'
     Edinburgh: Edynburg
     Egypt: Egipt
-    'Egypt (emblem instead of text), Yemen (no text)': 'Egipt (godło zamiast napisu), Jemen (brak napisu)'
-    'Egypt (with emblem), Iraq (with text)': 'Egipt (godło), Irak (napis)'
     El Salvador: Salwador
-    'El Salvador (different coat of arms, slightly darker blue)': 'Salwador (inne godło, lekko ciemniejszy niebieski)'
     England: Anglia
     English Channel: La Manche
     Equatorial Guinea: 'Gwinea Równikowa'
@@ -164,14 +150,12 @@ translations:
     French Polynesia: Polinezja Francuska
     Georgia: Gruzja
     Germany: Niemcy
-    'Ghana (star instead of coat of arms)': 'Ghana (gwiazdy zamiast godła)'
     Greece: Grecja
     Greenland: Grenlandia
     Guadeloupe: Gwadelupa
     Guatemala: Gwatemala
     Guatemala City: Gwatemala
     Guinea: Gwinea
-    'Guinea (green and red flipped, slightly darker green)': 'Gwinea (zamieniona zieleń i czerwień, lekko ciemniejsza zieleń)'
     Guinea-Bissau: Gwinea Bissau
     Gulf of Alaska: Zatoka Alaska
     Gulf of California: Zatoka Kalifornijska
@@ -188,26 +172,19 @@ translations:
     Hudson Bay: Zatoka Hudsona
     Hungary: 'Węgry'
     Iceland: Islandia
-    'Iceland (blue background, red and white cross), Norway (red background, blue and white cross)': 'Islandia (niebieskie tło, czerwono-biały krzyż), Norwegia (czerwone tło, niebiesko-biały krzyż)'
-    'Iceland (blue background, red cross), Faroe Islands (white background, red and blue cross)': 'Islandia (niebieskie tło, czerwony krzyż), Wyspy Owcze (białe tło, czerwono-niebieski krzyż)'
     Independent state claimed by Georgia.: 'Państwo nieuznawane, terytorium sporne z Gruzją.'
     Independent state claimed by Moldova.: 'Państwo nieuznawane, terytorium sporne z Mołdawią.'
     Independent state claimed by Somalia.: 'Państwo nieuznawane, terytorium sporne z Somalią.'
     India: Indie
     Indian Ocean: Ocean Indyjski
     Indonesia: Indonezja
-    'Indonesia (white and red flipped, brighter red), Monaco (white and red flipped, narrower)': 'Indonezja (zamieniona biel i czerwień, jaśniejsza czerwień), Monako (zamieniona biel i czerwień, węższa)'
-    'Indonesia (wider, brighter red), Poland (red and white flipped, wider)': 'Indonezja (szersza, jaśniejsza czerwień), Polska (zamieniona czerwień i biel, szersza)'
     Iraq: Irak
-    'Iraq (text instead of emblem), Yemen (no emblem)': 'Irak (napis zamiast godła), Jemen (brak godła)'
     Ireland: Irlandia
-    'Ireland (orange and green flipped, wider)': 'Irlandia (zamieniona pomarańcz i zieleń, szersza)'
     Island of Indonesia.: Wyspa w Indonezji.
     Isle of Man: Wyspa Man
     Israel: Izrael
     Italy: 'Włochy'
     Ivory Coast: 'Wybrzeże Kości Słoniowej'
-    'Ivory Coast (green and orange flipped, narrower)': 'Wybrzeże Kości Słoniowej (zamieniona zieleń i pomarańcz, węższa)'
     Jakarta: 'Dżakarta'
     Jamaica: Jamajka
     Japan: Japonia
@@ -232,7 +209,6 @@ translations:
     Laayoune: Al-Ujun
     Labrador Sea: Morze Labradorskie
     Latvia: 'Łotwa'
-    'Latvia (darker red, narrower white band)': 'Łotwa (ciemniejsza czerwień, węższy biały pas)'
     Lebanon: Liban
     Libya: Libia
     Lisbon: Lizbona
@@ -240,7 +216,6 @@ translations:
     Ljubljana: Lublana
     London: Londyn
     Luxembourg: Luksemburg
-    'Luxembourg (lighter blue)': 'Luksemburg (jaśniejszy niebieski)'
     Luxembourg City: Luksemburg
     Macau: Makau
     Madagascar: Madagaskar
@@ -248,7 +223,6 @@ translations:
     Madrid: Madryt
     Malaysia: Malezja
     Maldives: Malediwy
-    'Mali (red and green flipped, slightly brighter green)': 'Mali (zamieniona czerwień i zieleń, lekko jaśniejsza zieleń)'
     'Malé': Male
     Mariehamn: Maarianhamina
     Marshall Islands: Wyspy Marshalla
@@ -263,9 +237,7 @@ translations:
     Minsk: 'Mińsk'
     Mogadishu: Mogadiszu
     Moldova: 'Mołdawia'
-    'Moldova (wider, coat of arms with eagle)': 'Mołdawia (szersza, godło z orłem)'
     Monaco: Monako
-    'Monaco (narrower, darker red), Poland (red and white flipped, darker red)': 'Monako (węższa, ciemniejsza czerwień), Polska (zamieniona czerwień i biel, ciemniejsza czerwień)'
     Montenegro: 'Czarnogóra'
     Morocco: Maroko
     Moscow: Moskwa
@@ -273,16 +245,12 @@ translations:
     Muscat: Muskat
     Myanmar: Mjanma
     'N''Djamena': 'Ndżamena'
-    'Nauru (single star below yellow band)': 'Nauru (jedna gwiazda pod żółtym pasem)'
     'Nauru has no official capital; the Yaren District is the de facto capital.': 'Nauru nie ma oficjalnej stolicy; de facto stolicą jest Yaren.'
     Netherlands: Holandia
-    'Netherlands (darker blue)': 'Holandia (ciemniejszy niebieski)'
     New Caledonia: Nowa Kaledonia
     New Delhi: Nowe Delhi
     New Zealand: Nowa Zelandia
-    'New Zealand (red stars, two fewer stars)': 'Nowa Zelandia (czerwone gwiazdy, o dwie gwiazdy mniej)'
     Nicaragua: Nikaragua
-    'Nicaragua (different coat of arms, slightly lighter blue)': 'Nikaragua (inne godło, lekko jaśniejszy niebieski)'
     Nicosia: Nikozja
     North America: 'Ameryka Północna'
     North Korea: 'Korea Północna'
@@ -293,7 +261,6 @@ translations:
     Northern Ireland: 'Irlandia Północna'
     Northern Mariana Islands: 'Mariany Północne'
     Norway: Norwegia
-    'Norway (red background, blue cross), Faroe Islands (white background, red and blue cross)': 'Norwegia (czerwone tło, niebieski krzyż), Wyspy Owcze (białe tło, czerwono-niebieski krzyż)'
     Norwegian Sea: Morze Norweskie
     Not a sovereign country: 'Nie jest suwerennym państwem'
     Nouakchott: Nawakszut
@@ -309,8 +276,6 @@ translations:
     Overseas territory of the United Kingdom.: Terytorium zamorskie Wielkiej Brytanii.
     Pacific Ocean: Ocean Spokojny
     Palestine: Palestyna
-    'Palestine (black/white/green, red arrow)': 'Palestyna (czarno-biało-zielona, czerwony trójkąt)'
-    'Palestine (no symbol)': 'Palestyna (brak symbolu)'
     Panama City: Panama
     Papua New Guinea: Papua-Nowa Gwinea
     Paraguay: Paragwaj
@@ -329,20 +294,16 @@ translations:
     Pretoria, Cape Town, Bloemfontein: Pretoria, Kapsztad, Bloemfontein
     Pristina: Prisztina
     Puerto Rico: Portoryko
-    'Puerto Rico (blue triangle, red stripes)': 'Portoryko (niebieski trójkąt, czerwone pasy)'
     Pyongyang: Pjongjang
     Qatar: Katar
-    'Qatar (wider, more serrated edges, maroon)': 'Katar (szersza, więcej klinów, koloru bordowego)'
     Red Sea: Morze Czerwone
     Region of France.: Region Francji.
     Republic of the Congo: Kongo
     Riga: Ryga
     Riyadh: Rijad
     Romania: Rumunia
-    'Romania (slightly lighter blue)': 'Rumunia (lekko jaśniejszy niebieski)'
     Rome: Rzym
     Russia: Rosja
-    'Russia (no coat of arms), Slovenia (wider, smaller coat of arms)': 'Rosja (brak godła), Słowenia (szersza, mniejsze godło)'
     'Réunion': Reunion
     Sahrawi Arab Democratic Republic: Sahara Zachodnia
     Saint Kitts and Nevis: Saint Kitts i Nevis
@@ -358,14 +319,11 @@ translations:
     Sea of Japan: 'Morze Japońskie'
     Sea of Okhotsk: Morze Ochockie
     Semi-autonomous region of Tanzania.: 'Częściowo autonomiczna część Tanzanii.'
-    'Senegal (green/yellow/red, green star)': 'Senegal (zielono-żółto-czerwona, zielona gwiazda)'
     Seoul: Seul
     Seychelles: Seszele
     Sicily: Sycylia
     Singapore: Singapur
     Slovakia: 'Słowacja'
-    'Slovakia (narrower, bigger coat of arms)': 'Słowacja (węższa, większe godło)'
-    'Slovakia (with coat of arms)': 'Słowacja (godło)'
     Slovenia: 'Słowenia'
     Solomon Islands: Wyspy Salomona
     South Africa: 'Południowa Afryka'
@@ -388,7 +346,6 @@ translations:
     Subregion of Oceania comprising thousands of small islands in the central and southern Pacific Ocean.: 'Region Oceanii obejmujący tysiące małych wysp w środkowej i południowej części Oceanu Spokojnego.'
     Subregion of Oceania comprising thousands of small islands in the western Pacific Ocean.: 'Region Oceanii obejmujący tysiące małych wysp w zachodniej części Oceanu Spokojnego.'
     Subregion of Oceania, which includes Vanuatu, the Solomon Islands, Fiji, and Papua New Guinea.: 'Region Oceanii obejmujący Vanuatu, Wyspy Salomona, Fidżi, oraz Papuę-Nową Gwineę.'
-    'Sudan (red/white/black, green arrow), Sahrawi Arab Democratic Republic (with star and crescent)': 'Sudan (czerwono-biało-czarna, zielony trójkąt), Sahara Zachodnia (z gwiazdą i półksiężycem)'
     Sukhumi: Suchumi
     Suriname: Surinam
     Sweden: Szwecja
@@ -451,8 +408,254 @@ translations:
     Yemen: Jemen
     Yerevan: 'Erywań'
     Zagreb: Zagrzeb
+    black/white/green, red arrow: 'czarno-biało-zielona, czerwony trójkąt'
+    blue background, red and white cross: 'niebieskie tło, czerwono-biały krzyż'
+    blue background, red cross: 'niebieskie tło, czerwony krzyż'
+    blue triangle, red stripes: 'niebieski trójkąt, czerwone pasy'
+    brighter red, wider white band: 'jaśniejsza czerwień, szerszy biały pas'
+    coat of arms instead of star: 'godło zamiast gwiazd'
+    darker blue: ciemniejszy niebieski
+    darker red, narrower white band: 'ciemniejsza czerwień, węższy biały pas'
+    different coat of arms, slightly darker blue: 'inne godło, lekko ciemniejszy niebieski'
+    different coat of arms, slightly lighter blue: 'inne godło, lekko jaśniejszy niebieski'
+    emblem instead of text: 'godło zamiast napisu'
+    green and orange flipped, narrower: 'zamieniona zieleń i pomarańcz, węższa'
+    green and red flipped, slightly darker green: 'zamieniona zieleń i czerwień, lekko ciemniejsza zieleń'
+    green/red/yellow, yellow star: 'zielono-czerwono-żółta, żółta gwiazda'
+    green/yellow/red, green star: 'zielono-żółto-czerwona, zielona gwiazda'
+    lighter blue: 'jaśniejszy niebieski'
+    narrower, bigger coat of arms: 'węższa, większe godło'
+    narrower, coat of arms with motto: 'węższa, godło z dewizą'
+    narrower, darker red: 'węższa, ciemniejsza czerwień'
+    narrower, fewer serrated edges, red: 'węższa, mniej klinów, czerwona'
+    no coat of arms: 'brak godła'
+    no emblem: 'brak godła'
+    no symbol: brak symbolu
+    no text: brak napisu
+    orange and green flipped, wider: 'zamieniona pomarańcz i zieleń, szersza'
+    red and green flipped, slightly brighter green: 'zamieniona czerwień i zieleń, lekko jaśniejsza zieleń'
+    red and white flipped, darker red: 'zamieniona czerwień i biel, ciemniejsza czerwień'
+    red and white flipped, wider: 'zamieniona czerwień i biel, szersza'
+    red background, blue and white cross: 'czerwone tło, niebiesko-biały krzyż'
+    red background, blue cross: 'czerwone tło, niebieski krzyż'
+    red stars, two fewer stars: czerwone gwiazdy, o dwie gwiazdy mniej
+    red triangle, blue stripes: 'czerwony trójkąt, niebieskie pasy'
+    red/white/black, green arrow: 'czerwono-biało-czarna, zielony trójkąt'
+    single star below yellow band: 'jedna gwiazda pod żółtym pasem'
+    slightly darker blue: lekko ciemniejszy niebieski
+    slightly lighter blue: 'lekko jaśniejszy niebieski'
+    star instead of coat of arms: 'gwiazdy zamiast godła'
+    text instead of emblem: 'napis zamiast godła'
+    two stars in top-left corner: 'dwie gwiazdy w lewym górnym rogu'
+    white and red flipped, brighter red: 'zamieniona biel i czerwień, jaśniejsza czerwień'
+    white and red flipped, narrower: 'zamieniona biel i czerwień, węższa'
+    white background, red and blue cross: 'białe tło, czerwono-niebieski krzyż'
+    white stars, two more stars: 'białe gwiazdy, o dwie gwiazdy więcej'
+    wider, brighter red: 'szersza, jaśniejsza czerwień'
+    wider, coat of arms with eagle: 'szersza, godło z orłem'
+    wider, more serrated edges, maroon: 'szersza, więcej klinów, koloru bordowego'
+    wider, smaller coat of arms: 'szersza, mniejsze godło'
+    with coat of arms: 'godło'
+    with emblem: 'godło'
+    with star and crescent: 'z gwiazdą i półksiężycem'
+    with text: napis
     'Åland Islands': Wyspy Alandzkie
-  additions:
+  no_change:
+    - Alaska
+    - Albania
+    - Alofi
+    - Amman
+    - Amsterdam
+    - Angola
+    - Anguilla
+    - Ankara
+    - Apia
+    - Armenia
+    - Aruba
+    - Asmara
+    - Astana
+    - 'Asunción'
+    - Australia
+    - Austria
+    - Avarua
+    - Baku
+    - Bali
+    - Bamako
+    - Bandar Seri Begawan
+    - Bangkok
+    - Barbados
+    - Basseterre
+    - Belfast
+    - Belize
+    - Belmopan
+    - Benin
+    - Berlin
+    - Bhutan
+    - Bissau
+    - Botswana
+    - Bougainville
+    - Brazzaville
+    - Bridgetown
+    - Brunei
+    - Buenos Aires
+    - Burkina Faso
+    - Burundi
+    - Canberra
+    - Caracas
+    - Cardiff
+    - Castries
+    - Charlotte Amalie
+    - Chile
+    - Ciudad de la Paz
+    - 'Curaçao'
+    - Dakar
+    - Dhaka
+    - Dili
+    - Dodoma
+    - Doha
+    - Dublin
+    - Estonia
+    - Eswatini
+    - Freetown
+    - Funafuti
+    - Gabon
+    - Gaborone
+    - Georgetown
+    - Ghana
+    - Gibraltar
+    - Gitega
+    - Grenada
+    - Guam
+    - Guernsey
+    - 'Hagåtña'
+    - Haiti
+    - Hanoi
+    - Harare
+    - Helsinki
+    - Honduras
+    - Honiara
+    - Iran
+    - Islamabad
+    - Jersey
+    - Kabul
+    - Kampala
+    - Kigali
+    - Kingston
+    - Kingstown
+    - Kiribati
+    - Kuala Lumpur
+    - Laos
+    - Lesotho
+    - Liberia
+    - Libreville
+    - Liechtenstein
+    - Lilongwe
+    - Lima
+    - 'Lomé'
+    - Luanda
+    - Lusaka
+    - Majuro
+    - Malawi
+    - Mali
+    - Malta
+    - Managua
+    - Manama
+    - Manila
+    - Maputo
+    - Maseru
+    - Mauritius
+    - Mbabane
+    - Mongolia
+    - Monrovia
+    - Montevideo
+    - Moroni
+    - Nairobi
+    - Namibia
+    - Nassau
+    - Nauru
+    - Naypyidaw
+    - Nepal
+    - Ngerulmud
+    - Niamey
+    - Niger
+    - Nigeria
+    - Niue
+    - 'Nukuʻalofa'
+    - Nuuk
+    - Oceania
+    - Oman
+    - Oranjestad
+    - Oslo
+    - Ottawa
+    - Pakistan
+    - Palau
+    - Palikir
+    - Panama
+    - Papeete
+    - Paramaribo
+    - Peru
+    - Phnom Penh
+    - Podgorica
+    - Port Louis
+    - Port Moresby
+    - Port Vila
+    - Port-au-Prince
+    - Porto-Novo
+    - Praia
+    - Quito
+    - Rabat
+    - 'Reykjavík'
+    - Roseau
+    - Rwanda
+    - Saint Lucia
+    - Samoa
+    - 'San José'
+    - San Juan
+    - San Marino
+    - San Salvador
+    - Santiago
+    - Santo Domingo
+    - Senegal
+    - Serbia
+    - Sierra Leone
+    - Sint Maarten
+    - Skopje
+    - Sofia
+    - Somalia
+    - Somaliland
+    - South Tarawa
+    - Sri Lanka
+    - Sucre
+    - Sudan
+    - Sumatra
+    - Suva
+    - Svalbard
+    - Syria
+    - 'São Tomé'
+    - Tallinn
+    - Tanzania
+    - Tbilisi
+    - Tegucigalpa
+    - Thimphu
+    - Tirana
+    - Togo
+    - Tonga
+    - Tunis
+    - Turkmenistan
+    - Tuvalu
+    - Uganda
+    - Uzbekistan
+    - Vaduz
+    - Valletta
+    - Vanuatu
+    - Victoria
+    - Wellington
+    - Willemstad
+    - Yaren
+    - Zambia
+    - Zanzibar
+    - Zimbabwe
+  target_additions:
     notes.note.arctic-ocean.fields.field.country-info: 'Znany także jako Ocean Północny lub Morze Arktyczne.'
     notes.note.netherlands.fields.field.country-info: 'Znana także jako Niderlandy.'
     notes.note.pacific-ocean.fields.field.country-info: 'Znany także jako Pacyfik.'

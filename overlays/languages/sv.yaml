@@ -1,7 +1,7 @@
 id: overlay.translation.sv
 kind: translation
 translations:
-  changes:
+  direct:
     'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.': 'Sydkorea förespråkar namnet Östhavet, Nordkorea Ostkoreanska havet.'
     Abkhazia: Abchazien
     Addis Ababa: Addis Abeba
@@ -22,7 +22,6 @@ translations:
     Also known as the Sea of Cortez.: 'Även känt som Cortez hav.'
     'Also spelled as Sana''a.': ''
     American Samoa: Amerikanska Samoa
-    'Andorra (narrower, coat of arms with motto)': 'Andorra (smalare, vapensköld med valspråk)'
     Antarctica: Antarktis
     Antigua and Barbuda: Antigua och Barbuda
     Arabian Sea: Arabiska havet
@@ -34,21 +33,15 @@ translations:
     Athens: Aten
     Atlantic Ocean: Atlanten
     Australia: Australien
-    'Australia (white stars, two more stars)': 'Australien (vita stjärnor, två fler stjärnor)'
     Austria: 'Österrike'
-    'Austria (brighter red, wider white band)': 'Österrike (ljusare röd, bredare vitt band)'
     Autonomous community of Spain.: Spansk autonom region.
     Autonomous province of South Korea.: 'Autonom region i Sydkorea; tidigare känd som Quelpart.'
     Autonomous region of Finland.: 'Självstyrande del av Finland.'
     Autonomous region of Italy.: Italiensk autonom region.
     Autonomous region of Papua New Guinea.: Autonom region i Papua Nya Guinea.
-    Autonomous region of Portugal.:
-      notes.note.azores.fields.field.country-info: 'Portugisisk autonom ögrupp.'
-      notes.note.madeira.fields.field.country-info: Portugisisk autonom region.
     Azerbaijan: Azerbajdzjan
     Azores: Azorerna
     Baghdad: Bagdad
-    'Bahrain (narrower, fewer serrated edges, red)': 'Bahrain (smalare, färre tänder, röd)'
     Balkan Peninsula: 'Balkanhalvön'
     Baltic Sea: 'Östersjön'
     Banda Sea: 'Bandasjön'
@@ -61,7 +54,6 @@ translations:
     Bering Strait: Berings sund
     Bishkek: Bisjkek
     Black Sea: Svarta havet
-    'Bolivia (coat of arms instead of star)': 'Bolivia (vapensköld istället för stjärna)'
     Bosnia and Herzegovina: Bosnien och Hercegovina
     Brazil: Brasilien
     British Virgin Islands: 'Brittiska Jungfruöarna'
@@ -71,7 +63,6 @@ translations:
     Cairo: Kairo
     Cambodia: Kambodja
     Cameroon: Kamerun
-    'Cameroon (green/red/yellow, yellow star)': 'Kamerun (grön/röd/gul, gul stjärna)'
     Canada: Kanada
     Canary Islands: 'Kanarieöarna'
     Cape Verde: Kap Verde
@@ -83,12 +74,10 @@ translations:
     Central African Republic: Centralafrikanska republiken
     Cetinje is an honorary capital.: 'Cetinje är hedershuvudstad.'
     Chad: Tchad
-    'Chad (slightly darker blue)': 'Tchad (aningen mörkare blå)'
     China: Kina
     City of San Marino: San Marino
     Claimed and controlled: 'Hävdas och kontrolleras'
     Claimed but not controlled: 'Påstått men inte kontrollerat'
-    'Colombia (no coat of arms)': 'Colombia (ingen vapensköld)'
     Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.: 'Kallas även Kotte eller Sri Jayawardenapura Kotte; Colombo refereras ofta till som huvudstad, men förorten Sri Jayawardenapura är officiell huvudstad.'
     Comoros: Komorerna
     Constituent country in the Kingdom of Denmark.: Riksdel av Danmark.
@@ -101,8 +90,6 @@ translations:
     Croatia: Kroatien
     Crown dependency of the United Kingdom.: Brittisk kronbesittning.
     Cuba: Kuba
-    'Cuba (red triangle, blue stripes)': 'Kuba (röd triangel, blå ränder)'
-    'Curaçao (two stars in top-left corner)': 'Curaçao (två stjärnor i övre vänstra hörnet)'
     Cyprus: Cypern
     Czech Republic: Tjeckien
     Damascus: Damaskus
@@ -116,11 +103,7 @@ translations:
     Dushanbe: Dusjanbe
     East China Sea: 'Östkinesiska havet'
     East Siberian Sea: 'Östsibiriska havet'
-    'Ecuador (with coat of arms)': 'Ecuador (med vapensköld)'
     Egypt: Egypten
-    'Egypt (emblem instead of text), Yemen (no text)': 'Egypten (statsvapen istället för text), Jemen (ingen text)'
-    'Egypt (with emblem), Iraq (with text)': 'Egypten (med emblem), Irak (med text)'
-    'El Salvador (different coat of arms, slightly darker blue)': 'El Salvador (annan vapensköld, aningen mörkare blå)'
     English Channel: Engelska kanalen
     Equatorial Guinea: Ekvatorialguinea
     Estonia: Estland
@@ -138,10 +121,8 @@ translations:
     French Polynesia: Franska Polynesien
     Georgia: Georgien
     Germany: Tyskland
-    'Ghana (star instead of coat of arms)': 'Ghana (stjärnor istället för vapensköld)'
     Greece: Grekland
     Greenland: 'Grönland'
-    'Guinea (green and red flipped, slightly darker green)': 'Guinea (grön och röd växlade, aningen mörkare grön)'
     Gulf of Alaska: Alaskagolfen
     Gulf of California: Californiaviken
     Gulf of Carpentaria: Carpentariaviken
@@ -154,24 +135,17 @@ translations:
     Hong Kong: Hongkong
     Hungary: Ungern
     Iceland: Island
-    'Iceland (blue background, red and white cross), Norway (red background, blue and white cross)': 'Island (blå bakgrund, rött och vitt kors), Norge (röd bakgrund, blått och vitt kors)'
-    'Iceland (blue background, red cross), Faroe Islands (white background, red and blue cross)': 'Island (blå bakgrund, rött kors), Färöarna (vit bakgrund, rött och blått kors)'
     Independent state claimed by Georgia.: 'Delvis erkänd stat, görs anspråk på av Georgien.'
     Independent state claimed by Moldova.: 'Självutropad stat, görs anspråk på av Moldavien.'
     Independent state claimed by Somalia.: 'Självutropad stat, görs anspråk på av Somalien.'
     India: Indien
     Indian Ocean: Indiska oceanen
     Indonesia: Indonesien
-    'Indonesia (white and red flipped, brighter red), Monaco (white and red flipped, narrower)': 'Indonesien (vit och röd växlade, ljusare röd), Monaco (vit och röd växlade, smalare)'
-    'Indonesia (wider, brighter red), Poland (red and white flipped, wider)': 'Indonesien (bredare, ljusare röd), Polen (röd och vit växlade, bredare)'
     Iraq: Irak
-    'Iraq (text instead of emblem), Yemen (no emblem)': 'Irak (text istället för statsvapen), Jemen (inget statsvapen)'
     Ireland: Irland
-    'Ireland (orange and green flipped, wider)': 'Irland (orange och grön växlade, bredare)'
     Island of Indonesia.: 'Ö i Indonesien.'
     Italy: Italien
     Ivory Coast: Elfenbenskusten
-    'Ivory Coast (green and orange flipped, narrower)': 'Elfenbenskusten (grön och orange växlade, smalare)'
     Jordan: Jordanien
     Kaliningrad Oblast: Kaliningrad oblast
     Kathmandu: Katmandu
@@ -184,18 +158,15 @@ translations:
     Laayoune: al-Ayun
     Labrador Sea: Labradorhavet
     Latvia: Lettland
-    'Latvia (darker red, narrower white band)': 'Lettland (mörkare röd, smalare vitt band)'
     Lebanon: Libanon
     Libya: Libyen
     Lisbon: Lissabon
     Lithuania: Litauen
     Luxembourg: Luxemburg
-    'Luxembourg (lighter blue)': 'Luxemburg (ljusare blå)'
     Luxembourg City: Luxemburg
     Macau: Macao
     Madagascar: Madagaskar
     Maldives: Maldiverna
-    'Mali (red and green flipped, slightly brighter green)': 'Mali (röd och grön växlade, aningen ljusare grön)'
     Marshall Islands: 'Marshallöarna'
     Mauritania: Mauretanien
     Mediterranean Sea: Medelhavet
@@ -203,21 +174,15 @@ translations:
     Mexico: Mexiko
     Micronesia: Mikronesien
     Moldova: Moldavien
-    'Moldova (wider, coat of arms with eagle)': 'Moldavien (bredare, vapensköld med örn)'
-    'Monaco (narrower, darker red), Poland (red and white flipped, darker red)': 'Monaco (smalare, mörkare röd), Polen (röd och vit växlade, mörkare röd)'
     Mongolia: Mongoliet
     Morocco: Marocko
     Moscow: Moskva
     Mozambique: 'Moçambique'
     Muscat: Muskat
-    'Nauru (single star below yellow band)': 'Nauru (ensam stjärna under den gula randen)'
     'Nauru has no official capital; the Yaren District is the de facto capital.': 'Nauru saknar städer, Yaren är de facto huvudort.'
     Netherlands: 'Nederländerna'
-    'Netherlands (darker blue)': 'Nederländerna (mörkare blå)'
     New Caledonia: Nya Kaledonien
     New Zealand: Nya Zeeland
-    'New Zealand (red stars, two fewer stars)': 'Nya Zeeland (röda stjärnor, två färre stjärnor)'
-    'Nicaragua (different coat of arms, slightly lighter blue)': 'Nicaragua (annan vapensköld, aningen ljusare blå)'
     North America: Nordamerika
     North Korea: Nordkorea
     North Macedonia: Nordmakedonien
@@ -227,7 +192,6 @@ translations:
     Northern Ireland: Nordirland
     Northern Mariana Islands: Nordmarianerna
     Norway: Norge
-    'Norway (red background, blue cross), Faroe Islands (white background, red and blue cross)': 'Norge (röd bakgrund, blått kors), Färöarna (vit bakgrund, rött och blått kors)'
     Norwegian Sea: Norska havet
     Not a sovereign country: 'Ej suverän stat'
     'Nukuʻalofa': 'Nuku''alofa'
@@ -237,30 +201,8 @@ translations:
     Official capital was moved from Malabo to Ciudad de la Paz in 2026.: 'Flyttat från Malabo i 2026.'
     'Officially Côte d''Ivoire.': ''
     Officially Luxembourg.: ''
-    Overseas department of France.:
-      notes.note.french-guiana.fields.field.country-info: Franskt utomeuropeiskt departement.
-      notes.note.guadeloupe.fields.field.country-info: Utomeuropeiskt franskt departement.
-      notes.note.martinique.fields.field.country-info: Franskt utomeuropeiskt departement.
-      notes.note.mayotte.fields.field.country-info: Franskt utomeuropeiskt departement.
-      notes.note.r-union.fields.field.country-info: Franskt utomeuropeiskt departement.
-    Overseas territory of France.:
-      notes.note.french-polynesia.fields.field.country-info: 'Franskt utomeuropeiskt förvaltningsområde.'
-      notes.note.new-caledonia.fields.field.country-info: Franskt utomeuropeiskt territorium.
-      notes.note.saint-martin.fields.field.country-info: 'Franskt utomeuropeiskt område.'
-      notes.note.wallis-and-futuna.fields.field.country-info: 'Franskt utomeuropeiskt område.'
-    Overseas territory of the United Kingdom.:
-      notes.note.akrotiri-and-dhekelia.fields.field.country-info: 'Brittiska “suveräna basområden”.'
-      notes.note.anguilla.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
-      notes.note.bermuda.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
-      notes.note.british-virgin-islands.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
-      notes.note.cayman-islands.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
-      notes.note.falkland-islands.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
-      notes.note.gibraltar.fields.field.country-info: Brittiskt  territorium.
-      notes.note.turks-and-caicos-islands.fields.field.country-info: Brittiskt utomeuropeiskt territorium.
     Pacific Ocean: Stilla havet
     Palestine: Palestina
-    'Palestine (black/white/green, red arrow)': 'Palestina (svart/vit/grön, röd triangel)'
-    'Palestine (no symbol)': 'Palestina (ingen symbol)'
     Papua New Guinea: Papua Nya Guinea
     Partially recognised state claimed by China.: 'Delvis erkänd stat, görs anspråk på av Kina.'
     Partially recognised state claimed by Morocco. Also known as Western Sahara.: 'Även känt som Västsahariska republiken.'
@@ -272,17 +214,13 @@ translations:
     Polynesia: Polynesien
     Prague: Prag
     Pretoria, Cape Town, Bloemfontein: Pretoria, Kapstaden, Bloemfontein
-    'Puerto Rico (blue triangle, red stripes)': 'Puerto Rico (blå triangel, röda ränder)'
-    'Qatar (wider, more serrated edges, maroon)': 'Qatar (bredare, fler tänder, rödbrun)'
     Red Sea: 'Röda havet'
     Region of France.: Fransk region.
     Republic of the Congo: Kongo-Brazzaville
     'Reykjavík': Reykjavik
     Romania: 'Rumänien'
-    'Romania (slightly lighter blue)': 'Rumänien (aningen ljusare blå)'
     Rome: Rom
     Russia: Ryssland
-    'Russia (no coat of arms), Slovenia (wider, smaller coat of arms)': 'Ryssland (ingen vapensköld), Slovenien (bredare, mindre vapensköld)'
     Sahrawi Arab Democratic Republic: Sahariska arabiska demokratiska republiken
     Saint Kitts and Nevis: Saint Kitts och Nevis
     Saint Vincent and the Grenadines: Saint Vincent och Grenadinerna
@@ -295,13 +233,10 @@ translations:
     Sea of Japan: Japanska havet
     Sea of Okhotsk: Ochotska havet
     Semi-autonomous region of Tanzania.: 'Delvis självstyrande örike i union med Tanzania.'
-    'Senegal (green/yellow/red, green star)': 'Senegal (grön/gul/röd, grön stjärna)'
     Serbia: Serbien
     Seychelles: Seychellerna
     Sicily: Sicilien
     Slovakia: Slovakien
-    'Slovakia (narrower, bigger coat of arms)': 'Slovakien (smalare, större vapensköld)'
-    'Slovakia (with coat of arms)': 'Slovakien (med vapensköld)'
     Slovenia: Slovenien
     Solomon Islands: 'Salomonöarna'
     South Africa: Sydafrika
@@ -314,9 +249,6 @@ translations:
     Southern Ocean: Antarktiska oceanen
     Sovereign country: 'Suverän stat'
     Spain: Spanien
-    Special Administrative Region of China.:
-      notes.note.hong-kong.fields.field.country-info: 'Särskild administrativ region i Kina.'
-      notes.note.macau.fields.field.country-info: 'Särskild administrativ region i Kina, stavas alternativt Macau.'
     Sri Jayawardenepura Kotte: Sri Jayawardenapura
     'St. George''s': 'Saint George''s'
     'St. John''s': 'Saint John''s'
@@ -325,7 +257,6 @@ translations:
     Subregion of Oceania comprising thousands of small islands in the central and southern Pacific Ocean.: 'Delregion av Oceanien bestående av tusentals småöar i centrala och södra Stilla havet.'
     Subregion of Oceania comprising thousands of small islands in the western Pacific Ocean.: 'Delregion av Oceanien bestående av tusentals småöar i västra Stilla havet.'
     Subregion of Oceania, which includes Vanuatu, the Solomon Islands, Fiji, and Papua New Guinea.: 'Delregion av Oceanien bestående av bland andra Vanuatu, Salomonöarna, Fiji och Papua Nya Guinea.'
-    'Sudan (red/white/black, green arrow), Sahrawi Arab Democratic Republic (with star and crescent)': 'Sudan (röd/vit/svart, grön triangel), Sahariska arabiska demokratiska republiken (med stjärna och halvmåne)'
     Sukhumi: Suchumi
     Suriname: Surinam
     Sweden: Sverige
@@ -355,9 +286,6 @@ translations:
     United Kingdom: Storbritannien
     United States Virgin Islands: 'Amerikanska Jungfruöarna'
     United States of America: USA
-    Vatican City:
-      notes.note.vatican-city.fields.field.capital: Vatikanstaden
-      notes.note.vatican-city.fields.field.country: Vatikanstaten
     Vienna: Wien
     Wallis and Futuna: 'Wallis- och Futunaöarna'
     Warsaw: Warszawa
@@ -373,8 +301,403 @@ translations:
     Yellow Sea: Gula havet
     Yemen: Jemen
     Yerevan: Jerevan
+    black/white/green, red arrow: 'svart/vit/grön, röd triangel'
+    blue background, red and white cross: 'blå bakgrund, rött och vitt kors'
+    blue background, red cross: 'blå bakgrund, rött kors'
+    blue triangle, red stripes: 'blå triangel, röda ränder'
+    brighter red, wider white band: 'ljusare röd, bredare vitt band'
+    coat of arms instead of star: 'vapensköld istället för stjärna'
+    darker blue: 'mörkare blå'
+    darker red, narrower white band: 'mörkare röd, smalare vitt band'
+    different coat of arms, slightly darker blue: 'annan vapensköld, aningen mörkare blå'
+    different coat of arms, slightly lighter blue: 'annan vapensköld, aningen ljusare blå'
+    emblem instead of text: 'statsvapen istället för text'
+    green and orange flipped, narrower: 'grön och orange växlade, smalare'
+    green and red flipped, slightly darker green: 'grön och röd växlade, aningen mörkare grön'
+    green/red/yellow, yellow star: 'grön/röd/gul, gul stjärna'
+    green/yellow/red, green star: 'grön/gul/röd, grön stjärna'
+    lighter blue: 'ljusare blå'
+    narrower, bigger coat of arms: 'smalare, större vapensköld'
+    narrower, coat of arms with motto: 'smalare, vapensköld med valspråk'
+    narrower, darker red: 'smalare, mörkare röd'
+    narrower, fewer serrated edges, red: 'smalare, färre tänder, röd'
+    no coat of arms: 'ingen vapensköld'
+    no emblem: inget statsvapen
+    no symbol: ingen symbol
+    no text: ingen text
+    orange and green flipped, wider: 'orange och grön växlade, bredare'
+    red and green flipped, slightly brighter green: 'röd och grön växlade, aningen ljusare grön'
+    red and white flipped, darker red: 'röd och vit växlade, mörkare röd'
+    red and white flipped, wider: 'röd och vit växlade, bredare'
+    red background, blue and white cross: 'röd bakgrund, blått och vitt kors'
+    red background, blue cross: 'röd bakgrund, blått kors'
+    red stars, two fewer stars: 'röda stjärnor, två färre stjärnor'
+    red triangle, blue stripes: 'röd triangel, blå ränder'
+    red/white/black, green arrow: 'röd/vit/svart, grön triangel'
+    single star below yellow band: 'ensam stjärna under den gula randen'
+    slightly darker blue: 'aningen mörkare blå'
+    slightly lighter blue: 'aningen ljusare blå'
+    star instead of coat of arms: 'stjärnor istället för vapensköld'
+    text instead of emblem: 'text istället för statsvapen'
+    two stars in top-left corner: 'två stjärnor i övre vänstra hörnet'
+    white and red flipped, brighter red: 'vit och röd växlade, ljusare röd'
+    white and red flipped, narrower: 'vit och röd växlade, smalare'
+    white background, red and blue cross: 'vit bakgrund, rött och blått kors'
+    white stars, two more stars: 'vita stjärnor, två fler stjärnor'
+    wider, brighter red: 'bredare, ljusare röd'
+    wider, coat of arms with eagle: 'bredare, vapensköld med örn'
+    wider, more serrated edges, maroon: 'bredare, fler tänder, rödbrun'
+    wider, smaller coat of arms: 'bredare, mindre vapensköld'
+    with coat of arms: 'med vapensköld'
+    with emblem: med emblem
+    with star and crescent: 'med stjärna och halvmåne'
+    with text: med text
     'Åland Islands': 'Åland'
-  additions:
+  contextual:
+    notes.note:
+      akrotiri-and-dhekelia:
+        Overseas territory of the United Kingdom.: 'Brittiska “suveräna basområden”.'
+      anguilla:
+        Overseas territory of the United Kingdom.: Brittiskt utomeuropeiskt territorium.
+      azores:
+        Autonomous region of Portugal.: 'Portugisisk autonom ögrupp.'
+      bermuda:
+        Overseas territory of the United Kingdom.: Brittiskt utomeuropeiskt territorium.
+      british-virgin-islands:
+        Overseas territory of the United Kingdom.: Brittiskt utomeuropeiskt territorium.
+      cayman-islands:
+        Overseas territory of the United Kingdom.: Brittiskt utomeuropeiskt territorium.
+      falkland-islands:
+        Overseas territory of the United Kingdom.: Brittiskt utomeuropeiskt territorium.
+      french-guiana:
+        Overseas department of France.: Franskt utomeuropeiskt departement.
+      french-polynesia:
+        Overseas territory of France.: 'Franskt utomeuropeiskt förvaltningsområde.'
+      gibraltar:
+        Overseas territory of the United Kingdom.: Brittiskt  territorium.
+      guadeloupe:
+        Overseas department of France.: Utomeuropeiskt franskt departement.
+      hong-kong:
+        Special Administrative Region of China.: 'Särskild administrativ region i Kina.'
+      macau:
+        Special Administrative Region of China.: 'Särskild administrativ region i Kina, stavas alternativt Macau.'
+      madeira:
+        Autonomous region of Portugal.: Portugisisk autonom region.
+      martinique:
+        Overseas department of France.: Franskt utomeuropeiskt departement.
+      mayotte:
+        Overseas department of France.: Franskt utomeuropeiskt departement.
+      new-caledonia:
+        Overseas territory of France.: Franskt utomeuropeiskt territorium.
+      r-union:
+        Overseas department of France.: Franskt utomeuropeiskt departement.
+      saint-martin:
+        Overseas territory of France.: 'Franskt utomeuropeiskt område.'
+      turks-and-caicos-islands:
+        Overseas territory of the United Kingdom.: Brittiskt utomeuropeiskt territorium.
+      vatican-city:
+        Vatican City: Vatikanstaten
+      vatican-city.fields.field.capital:
+        Vatican City: Vatikanstaden
+      wallis-and-futuna:
+        Overseas territory of France.: 'Franskt utomeuropeiskt område.'
+  no_change:
+    - Abu Dhabi
+    - Abuja
+    - Accra
+    - Afghanistan
+    - Alaska
+    - Alofi
+    - Amman
+    - Amsterdam
+    - Andorra
+    - Andorra la Vella
+    - Angola
+    - Anguilla
+    - Ankara
+    - Antananarivo
+    - Apia
+    - Argentina
+    - Aruba
+    - Asmara
+    - Astana
+    - 'Asunción'
+    - Avarua
+    - Bahrain
+    - Baku
+    - Bali
+    - Bamako
+    - Bandar Seri Begawan
+    - Bangkok
+    - Bangladesh
+    - Bangui
+    - Banjul
+    - Barbados
+    - Basseterre
+    - Beirut
+    - Belarus
+    - Belfast
+    - Belize
+    - Belmopan
+    - Benin
+    - Berlin
+    - Bermuda
+    - Bern
+    - Bhutan
+    - Bissau
+    - 'Bogotá'
+    - Bolivia
+    - Botswana
+    - Bougainville
+    - 'Brasília'
+    - Bratislava
+    - Brazzaville
+    - Bridgetown
+    - Brunei
+    - Budapest
+    - Buenos Aires
+    - Burkina Faso
+    - Burundi
+    - Canberra
+    - Caracas
+    - Cardiff
+    - Castries
+    - Charlotte Amalie
+    - Chile
+    - 'Chișinău'
+    - Ciudad de la Paz
+    - Colombia
+    - Conakry
+    - Costa Rica
+    - 'Curaçao'
+    - Dakar
+    - Dhaka
+    - Dili
+    - Djibouti
+    - Dodoma
+    - Doha
+    - Dominica
+    - Dublin
+    - Ecuador
+    - Edinburgh
+    - El Salvador
+    - England
+    - Eritrea
+    - Fiji
+    - Finland
+    - Freetown
+    - Funafuti
+    - Gabon
+    - Gaborone
+    - Georgetown
+    - Ghana
+    - Gibraltar
+    - Gitega
+    - Grenada
+    - Guadeloupe
+    - Guam
+    - Guatemala
+    - Guatemala City
+    - Guernsey
+    - Guinea
+    - Guinea-Bissau
+    - Guyana
+    - 'Hagåtña'
+    - Haiti
+    - Hanoi
+    - Harare
+    - Hargeisa
+    - Hawaii
+    - Honduras
+    - Honiara
+    - Hudson Bay
+    - Iran
+    - Islamabad
+    - Isle of Man
+    - Israel
+    - Jakarta
+    - Jamaica
+    - Japan
+    - Java
+    - Jeju
+    - Jersey
+    - Jerusalem
+    - Juba
+    - Kabul
+    - Kampala
+    - Kenya
+    - Khartoum
+    - Kigali
+    - Kingston
+    - Kingstown
+    - Kinshasa
+    - Kiribati
+    - Kosovo
+    - Kuala Lumpur
+    - Kuwait
+    - Laos
+    - Lesotho
+    - Liberia
+    - Libreville
+    - Liechtenstein
+    - Lilongwe
+    - Lima
+    - Ljubljana
+    - 'Lomé'
+    - London
+    - Luanda
+    - Lusaka
+    - Madeira
+    - Madrid
+    - Majuro
+    - Malawi
+    - Malaysia
+    - Mali
+    - Malta
+    - 'Malé'
+    - Managua
+    - Manama
+    - Manila
+    - Maputo
+    - Mariehamn
+    - Martinique
+    - Maseru
+    - Mauritius
+    - Mayotte
+    - Mbabane
+    - Mexico City
+    - Minsk
+    - Mogadishu
+    - Monaco
+    - Monrovia
+    - Montenegro
+    - Montevideo
+    - Moroni
+    - Myanmar
+    - 'N''Djamena'
+    - Nairobi
+    - Namibia
+    - Nassau
+    - Nauru
+    - Naypyidaw
+    - Nepal
+    - New Delhi
+    - Ngerulmud
+    - Niamey
+    - Nicaragua
+    - Nicosia
+    - Niger
+    - Nigeria
+    - Niue
+    - Nouakchott
+    - 'Nouméa'
+    - Nuuk
+    - Oman
+    - Oranjestad
+    - Oslo
+    - Ottawa
+    - Ouagadougou
+    - Pakistan
+    - Palau
+    - Palikir
+    - Panama
+    - Panama City
+    - Papeete
+    - Paraguay
+    - Paramaribo
+    - Paris
+    - Peru
+    - Phnom Penh
+    - Podgorica
+    - Port Louis
+    - Port Moresby
+    - Port Vila
+    - Port of Spain
+    - Port-au-Prince
+    - Porto-Novo
+    - Portugal
+    - Praia
+    - Pristina
+    - Puerto Rico
+    - Pyongyang
+    - Qatar
+    - Quito
+    - Rabat
+    - Riga
+    - Riyadh
+    - Roseau
+    - Rwanda
+    - 'Réunion'
+    - Saint Lucia
+    - Saint Martin
+    - Samoa
+    - 'San José'
+    - San Juan
+    - San Marino
+    - San Salvador
+    - Sanaa
+    - Santo Domingo
+    - Sarajevo
+    - Senegal
+    - Seoul
+    - Sierra Leone
+    - Singapore
+    - Sint Maarten
+    - Skopje
+    - Sofia
+    - Somalia
+    - Somaliland
+    - South Tarawa
+    - Sri Lanka
+    - Stockholm
+    - Sucre
+    - Sudan
+    - Sumatra
+    - Suva
+    - Svalbard
+    - 'São Tomé'
+    - Taipei
+    - Taiwan
+    - Tallinn
+    - Tanzania
+    - Tbilisi
+    - Tegucigalpa
+    - Thailand
+    - Thimphu
+    - Tirana
+    - Tiraspol
+    - Togo
+    - Tokyo
+    - Tonga
+    - Tripoli
+    - Tunis
+    - Turkmenistan
+    - Tuvalu
+    - 'Tórshavn'
+    - Uganda
+    - Uruguay
+    - Uzbekistan
+    - Vaduz
+    - Valletta
+    - Vanuatu
+    - Venezuela
+    - Victoria
+    - Vientiane
+    - Vietnam
+    - Vilnius
+    - Wales
+    - Washington, D.C.
+    - Wellington
+    - Willemstad
+    - Windhoek
+    - Yamoussoukro
+    - 'Yaoundé'
+    - Yaren
+    - Zagreb
+    - Zambia
+    - Zanzibar
+    - Zimbabwe
+  target_additions:
     notes.note.arabian-sea.fields.field.country-info: 'Även känt som Arabiska sjön.'
     notes.note.bahrain.fields.field.country-info: Stavas alternativt Bahrein.
     notes.note.balkan-peninsula.fields.field.country-info: 'Även känt som Balkan.'

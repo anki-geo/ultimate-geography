@@ -1,63 +1,57 @@
 id: overlay.translation.hardcore.de
 kind: translation
 translations:
-  changes:
-    Autonomous city of Spain:
-      notes.note.melilla.fields.field.country-info: Autonome spanische Stadt.
-    Autonomous city of Spain.:
-      notes.note.ceuta.fields.field.country-info: Autonome spanische Stadt.
-    Autonomous orthodox monastic state in northeastern Greece, also known as the Holy Mountain.:
-      notes.note.mount-athos.fields.field.country-info: 'Autonomer orthodoxer Klosterstaat im Nordosten Griechenlands, auch bekannt als „Heilige Berg“.'
-    British Indian Ocean Territory:
-      notes.note.british-indian-ocean-territory.fields.field.country: Britisches Territorium im Indischen Ozean
-    Christmas Island:
-      notes.note.christmas-island.fields.field.country: Weihnachtsinsel
-    'Cocos (Keeling) Islands':
-      notes.note.cocos-keeling-islands.fields.field.country: Kokosinseln
-    'Dependent territory of New Zealand. Tokelau has no official capital; the meeting place of the Tokelau Council rotates annually.':
-      notes.note.tokelau.fields.field.country-info: 'Von Neuseeland abhängiges Gebiet. Tokelau hat keine offizielle Hauptstadt; der Treffpunkt des Tokelauer Rates wechselt jährlich.'
-    Easter Island:
-      notes.note.easter-island.fields.field.country: Osterinsel
-    Eruptions in 1997 destroyed the capital city of Plymouth, making Brades the de facto capital.:
-      notes.note.montserrat.fields.field.capital-info: 'Nach einer Reihe von Vulkanausbrüchen wurde die eigentliche Hauptstadt Plymouth 1997 aufgegeben und Brades zur de-facto-Hauptstadt.'
-    External territory of Australia.:
-      notes.note.christmas-island.fields.field.country-info: 'Australisches Außengebiet.'
-      notes.note.cocos-keeling-islands.fields.field.country-info: 'Australisches Außengebiet.'
-      notes.note.norfolk-island.fields.field.country-info: 'Außengebiet von Australien.'
-    'Galápagos Islands':
-      notes.note.gal-pagos-islands.fields.field.country: Galapagosinseln
-    Mount Athos:
-      notes.note.mount-athos.fields.field.country: Athos
-    Norfolk Island:
-      notes.note.norfolk-island.fields.field.country: Norfolkinsel
-    Not a sovereign country:
-      notes.note.norfolk-island.fields.field.capital-hint: 'Kein souveräner Staat'
-    Overseas territory of France.:
-      notes.note.saint-barth-lemy.fields.field.country-info: 'Französisches Überseegebiet.'
-    Overseas territory of the United Kingdom.:
-      notes.note.british-indian-ocean-territory.fields.field.country-info: 'Britisches Überseegebiet.'
-      notes.note.montserrat.fields.field.country-info: 'Überseegebiet des Vereinigten Königreichs.'
-      notes.note.pitcairn-islands.fields.field.country-info: 'Britisches Überseegebiet.'
-    Part of Saint Helena, Ascension and Tristan da Cunha, an overseas territory of the United Kingdom.:
-      notes.note.saint-helena.fields.field.country-info: 'Teil von St. Helena, Ascension und Tristan da Cunha, einem Überseegebiet des Vereinigten Königreichs.'
-    Pitcairn Islands:
-      notes.note.pitcairn-islands.fields.field.country: Pitcairninseln
-    Polynesian island and special territory of Chile.:
-      notes.note.easter-island.fields.field.country-info: Polynesische Insel unter Chilenischer Regierung.
-    Province of Ecuador.:
-      notes.note.gal-pagos-islands.fields.field.country-info: Ecuadorianische Provinz.
-    'Saint Barthélemy':
-      notes.note.saint-barth-lemy.fields.field.country: 'Saint-Barthélemy'
-    Saint Helena:
-      notes.note.saint-helena.fields.field.country: St. Helena
-    'Sierra Leone (slightly lighter blue)':
-      notes.note.gal-pagos-islands.fields.field.flag-similarity: 'Sierra Leone (etwas helleres Blau)'
-    Special municipality:
-      notes.note.sint-eustatius.fields.field.capital-hint: Besondere Gemeinde
-    Special municipality of the Netherlands.:
-      notes.note.bonaire.fields.field.country-info: Besondere Gemeinde der Niederlande.
-      notes.note.saba.fields.field.country-info: Besondere Gemeinde der Niederlande.
-      notes.note.sint-eustatius.fields.field.country-info: Besondere Gemeinde der Niederlande.
+  direct:
+    slightly lighter blue: etwas helleres Blau
+  contextual:
+    notes.note:
+      bonaire:
+        Special municipality of the Netherlands.: Besondere Gemeinde der Niederlande.
+      british-indian-ocean-territory:
+        British Indian Ocean Territory: Britisches Territorium im Indischen Ozean
+        Overseas territory of the United Kingdom.: 'Britisches Überseegebiet.'
+      ceuta:
+        Autonomous city of Spain.: Autonome spanische Stadt.
+      christmas-island:
+        Christmas Island: Weihnachtsinsel
+        External territory of Australia.: 'Australisches Außengebiet.'
+      cocos-keeling-islands:
+        'Cocos (Keeling) Islands': Kokosinseln
+        External territory of Australia.: 'Australisches Außengebiet.'
+      easter-island:
+        Easter Island: Osterinsel
+        Polynesian island and special territory of Chile.: Polynesische Insel unter Chilenischer Regierung.
+      gal-pagos-islands:
+        'Galápagos Islands': Galapagosinseln
+        Province of Ecuador.: Ecuadorianische Provinz.
+      melilla:
+        Autonomous city of Spain: Autonome spanische Stadt.
+      montserrat:
+        Eruptions in 1997 destroyed the capital city of Plymouth, making Brades the de facto capital.: 'Nach einer Reihe von Vulkanausbrüchen wurde die eigentliche Hauptstadt Plymouth 1997 aufgegeben und Brades zur de-facto-Hauptstadt.'
+        Overseas territory of the United Kingdom.: 'Überseegebiet des Vereinigten Königreichs.'
+      mount-athos:
+        Autonomous orthodox monastic state in northeastern Greece, also known as the Holy Mountain.: 'Autonomer orthodoxer Klosterstaat im Nordosten Griechenlands, auch bekannt als „Heilige Berg“.'
+        Mount Athos: Athos
+      norfolk-island:
+        External territory of Australia.: 'Außengebiet von Australien.'
+        Norfolk Island: Norfolkinsel
+        Not a sovereign country: 'Kein souveräner Staat'
+      pitcairn-islands:
+        Overseas territory of the United Kingdom.: 'Britisches Überseegebiet.'
+        Pitcairn Islands: Pitcairninseln
+      saba:
+        Special municipality of the Netherlands.: Besondere Gemeinde der Niederlande.
+      saint-barth-lemy:
+        Overseas territory of France.: 'Französisches Überseegebiet.'
+        'Saint Barthélemy': 'Saint-Barthélemy'
+      saint-helena:
+        Part of Saint Helena, Ascension and Tristan da Cunha, an overseas territory of the United Kingdom.: 'Teil von St. Helena, Ascension und Tristan da Cunha, einem Überseegebiet des Vereinigten Königreichs.'
+        Saint Helena: St. Helena
+      sint-eustatius:
+        Special municipality: Besondere Gemeinde
+        Special municipality of the Netherlands.: Besondere Gemeinde der Niederlande.
+      tokelau:
+        'Dependent territory of New Zealand. Tokelau has no official capital; the meeting place of the Tokelau Council rotates annually.': 'Von Neuseeland abhängiges Gebiet. Tokelau hat keine offizielle Hauptstadt; der Treffpunkt des Tokelauer Rates wechselt jährlich.'
   adapter_ids:
     crowdanki:guid:
       ',LnVW8IL`': 'w4Uw*3mvbq'

@@ -1,89 +1,91 @@
 id: overlay.translation.hardcore.companion.it
 kind: translation
 translations:
-  changes:
-    American Samoa:
-      notes.note.hardcore-american-samoa.fields.field.country: Samoa Americane
-    Autonomous community of Spain.:
-      notes.note.hardcore-canary-islands.fields.field.country-info: 'Comunità autonoma della Spagna.'
-    Autonomous region of Italy.:
-      notes.note.hardcore-sardinia.fields.field.country-info: Regione italiana a statuto speciale.
-      notes.note.hardcore-sicily.fields.field.country-info: Regione italiana a statuto speciale.
-    Autonomous region of Portugal.:
-      notes.note.hardcore-azores.fields.field.country-info: Regione autonoma del Portogallo.
-      notes.note.hardcore-madeira.fields.field.country-info: Regione autonoma del Portogallo.
-    Azores:
-      notes.note.hardcore-azores.fields.field.country: Azzorre
-    British Virgin Islands:
-      notes.note.hardcore-british-virgin-islands.fields.field.country: Isole Vergini britanniche
-    Canary Islands:
-      notes.note.hardcore-canary-islands.fields.field.country: Isole Canarie
-    Cayman Islands:
-      notes.note.hardcore-cayman-islands.fields.field.country: Isole Cayman
-    Constituent country of the Kingdom of the Netherlands.:
-      notes.note.hardcore-sint-maarten.fields.field.country-info: Nazione costitutiva del Regno dei Paesi Bassi.
-    Crown dependency of the United Kingdom.:
-      notes.note.hardcore-guernsey.fields.field.country-info: Dipendenza della Corona britannica.
-      notes.note.hardcore-isle-of-man.fields.field.country-info: Dipendenza della Corona britannica.
-      notes.note.hardcore-jersey.fields.field.country-info: Dipendenza della Corona britannica.
-    Falkland Islands:
-      notes.note.hardcore-falkland-islands.fields.field.country: Isole Falkland
-    French Guiana:
-      notes.note.hardcore-french-guiana.fields.field.country: Guyana francese
-    Gibraltar:
-      notes.note.hardcore-gibraltar.fields.field.country: Gibilterra
-    Guadeloupe:
-      notes.note.hardcore-guadeloupe.fields.field.country: Guadalupa
-    Island of Indonesia.:
-      notes.note.hardcore-bali.fields.field.country-info: 'Isola dell''Indonesia.'
-    Isle of Man:
-      notes.note.hardcore-isle-of-man.fields.field.country: Isola di Man
-    Kaliningrad Oblast:
-      notes.note.hardcore-kaliningrad-oblast.fields.field.country: 'Oblast'' di Kaliningrad'
-    Madeira:
-      notes.note.hardcore-madeira.fields.field.country: Madera
-    Martinique:
-      notes.note.hardcore-martinique.fields.field.country: Martinica
-    Northern Mariana Islands:
-      notes.note.hardcore-northern-mariana-islands.fields.field.country: Isole Marianne Settentrionali
-    Not a sovereign country:
-      notes.note.norfolk-island.fields.field.capital-hint: 'Non è uno Stato sovrano'
-    'Oblast (administrative region) of the Russian Federation.':
-      notes.note.hardcore-kaliningrad-oblast.fields.field.country-info: 'Oblast'' (regione amministrativa) della Federazione Russa.'
-    Overseas department of France.:
-      notes.note.hardcore-french-guiana.fields.field.country-info: 'Dipartimento d''oltremare della Francia.'
-      notes.note.hardcore-guadeloupe.fields.field.country-info: 'Dipartimento d''oltremare della Francia.'
-      notes.note.hardcore-martinique.fields.field.country-info: 'Dipartimento d''oltremare della Francia.'
-      notes.note.hardcore-mayotte.fields.field.country-info: 'Dipartimento d''oltremare della Francia.'
-      notes.note.hardcore-r-union.fields.field.country-info: 'Dipartimento d''oltremare della Francia.'
-    Overseas territory of France.:
-      notes.note.hardcore-saint-martin.fields.field.country-info: 'Territorio d''oltremare della Francia.'
-      notes.note.saint-barth-lemy.fields.field.country-info: 'Territorio d''oltremare della Francia.'
-    Overseas territory of the United Kingdom.:
-      notes.note.british-indian-ocean-territory.fields.field.country-info: 'Territorio d''oltremare del Regno Unito.'
-      notes.note.hardcore-anguilla.fields.field.country-info: 'Territorio d''oltremare del Regno Unito.'
-      notes.note.hardcore-bermuda.fields.field.country-info: 'Territorio d''oltremare del Regno Unito.'
-      notes.note.hardcore-british-virgin-islands.fields.field.country-info: 'Territorio d''oltremare del Regno Unito.'
-      notes.note.hardcore-cayman-islands.fields.field.country-info: 'Territorio d''oltremare del Regno Unito.'
-      notes.note.hardcore-falkland-islands.fields.field.country-info: 'Territorio d''oltremare del Regno Unito.'
-      notes.note.hardcore-gibraltar.fields.field.country-info: 'Territorio d''oltremare del Regno Unito.'
-      notes.note.hardcore-turks-and-caicos-islands.fields.field.country-info: 'Territorio d''oltremare del Regno Unito.'
-      notes.note.montserrat.fields.field.country-info: 'Territorio d''oltremare del Regno Unito.'
-      notes.note.pitcairn-islands.fields.field.country-info: 'Territorio d''oltremare del Regno Unito.'
-    Region of France.:
-      notes.note.hardcore-corsica.fields.field.country-info: Regione francese.
-    'Réunion':
-      notes.note.hardcore-r-union.fields.field.country: La Riunione
-    Saint Martin:
-      notes.note.hardcore-saint-martin.fields.field.country: Saint-Martin
-    Sardinia:
-      notes.note.hardcore-sardinia.fields.field.country: Sardegna
-    Semi-autonomous region of Tanzania.:
-      notes.note.hardcore-zanzibar.fields.field.country-info: Regione semi-autonoma della Tanzania.
-    Sicily:
-      notes.note.hardcore-sicily.fields.field.country: Sicilia
-    Turks and Caicos Islands:
-      notes.note.hardcore-turks-and-caicos-islands.fields.field.country: Turks e Caicos
-    Unincorporated territory of the United States.:
-      notes.note.hardcore-american-samoa.fields.field.country-info: Territorio non incorporato degli Stati Uniti.
-      notes.note.hardcore-northern-mariana-islands.fields.field.country-info: Territorio non incorporato degli Stati Uniti.
+  contextual:
+    notes.note:
+      british-indian-ocean-territory:
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      hardcore-american-samoa:
+        American Samoa: Samoa Americane
+        Unincorporated territory of the United States.: Territorio non incorporato degli Stati Uniti.
+      hardcore-anguilla:
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      hardcore-azores:
+        Autonomous region of Portugal.: Regione autonoma del Portogallo.
+        Azores: Azzorre
+      hardcore-bali:
+        Island of Indonesia.: 'Isola dell''Indonesia.'
+      hardcore-bermuda:
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      hardcore-british-virgin-islands:
+        British Virgin Islands: Isole Vergini britanniche
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      hardcore-canary-islands:
+        Autonomous community of Spain.: 'Comunità autonoma della Spagna.'
+        Canary Islands: Isole Canarie
+      hardcore-cayman-islands:
+        Cayman Islands: Isole Cayman
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      hardcore-corsica:
+        Region of France.: Regione francese.
+      hardcore-falkland-islands:
+        Falkland Islands: Isole Falkland
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      hardcore-french-guiana:
+        French Guiana: Guyana francese
+        Overseas department of France.: 'Dipartimento d''oltremare della Francia.'
+      hardcore-gibraltar:
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      hardcore-gibraltar.fields.field.country:
+        Gibraltar: Gibilterra
+      hardcore-guadeloupe:
+        Guadeloupe: Guadalupa
+        Overseas department of France.: 'Dipartimento d''oltremare della Francia.'
+      hardcore-guernsey:
+        Crown dependency of the United Kingdom.: Dipendenza della Corona britannica.
+      hardcore-isle-of-man:
+        Crown dependency of the United Kingdom.: Dipendenza della Corona britannica.
+        Isle of Man: Isola di Man
+      hardcore-jersey:
+        Crown dependency of the United Kingdom.: Dipendenza della Corona britannica.
+      hardcore-kaliningrad-oblast:
+        Kaliningrad Oblast: 'Oblast'' di Kaliningrad'
+        'Oblast (administrative region) of the Russian Federation.': 'Oblast'' (regione amministrativa) della Federazione Russa.'
+      hardcore-madeira:
+        Autonomous region of Portugal.: Regione autonoma del Portogallo.
+        Madeira: Madera
+      hardcore-martinique:
+        Martinique: Martinica
+        Overseas department of France.: 'Dipartimento d''oltremare della Francia.'
+      hardcore-mayotte:
+        Overseas department of France.: 'Dipartimento d''oltremare della Francia.'
+      hardcore-northern-mariana-islands:
+        Northern Mariana Islands: Isole Marianne Settentrionali
+        Unincorporated territory of the United States.: Territorio non incorporato degli Stati Uniti.
+      hardcore-r-union:
+        Overseas department of France.: 'Dipartimento d''oltremare della Francia.'
+        'Réunion': La Riunione
+      hardcore-saint-martin:
+        Overseas territory of France.: 'Territorio d''oltremare della Francia.'
+        Saint Martin: Saint-Martin
+      hardcore-sardinia:
+        Autonomous region of Italy.: Regione italiana a statuto speciale.
+        Sardinia: Sardegna
+      hardcore-sicily:
+        Autonomous region of Italy.: Regione italiana a statuto speciale.
+        Sicily: Sicilia
+      hardcore-sint-maarten:
+        Constituent country of the Kingdom of the Netherlands.: Nazione costitutiva del Regno dei Paesi Bassi.
+      hardcore-turks-and-caicos-islands:
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+        Turks and Caicos Islands: Turks e Caicos
+      hardcore-zanzibar:
+        Semi-autonomous region of Tanzania.: Regione semi-autonoma della Tanzania.
+      montserrat:
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      norfolk-island:
+        Not a sovereign country: 'Non è uno Stato sovrano'
+      pitcairn-islands:
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      saint-barth-lemy:
+        Overseas territory of France.: 'Territorio d''oltremare della Francia.'

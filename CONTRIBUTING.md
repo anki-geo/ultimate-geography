@@ -23,13 +23,32 @@ The source of truth is:
 
 ### Getting started
 
-The examples below use Nix to run the Rust-based Brain Brew CLI from its flake. If you already have `brainbrew` installed, you can replace `nix run github:jeprecated/brain-brew/rust-brainbrew --` with `brainbrew`.
+Install the Rust-based Brain Brew CLI as a normal `brainbrew` command. Nix is useful for reproducible CI and for maintainers who prefer flakes, but it is not required for ordinary UG editing once `brainbrew` is installed.
+
+Recommended install paths for the current Brain Brew preview:
+
+```bash
+# Rust users
+cargo install brainbrew --version 1.0.0-alpha.1 --locked
+
+# macOS/Linux prebuilt release installer
+curl --proto '=https' --tlsv1.2 -LsSf \
+  https://github.com/jeprecated/brain-brew/releases/download/v1.0.0-alpha.1/brainbrew-installer.sh \
+  | sh
+
+# Homebrew users, once the preview release is published to the tap
+brew install jeprecated/tap/brainbrew
+
+brainbrew --version
+```
+
+If you intentionally want the deterministic Nix path, use the same commands below with `nix run github:jeprecated/brain-brew/rust-brainbrew --` in place of `brainbrew`.
 
 List the available targets:
 
 ```bash
-nix run github:jeprecated/brain-brew/rust-brainbrew -- targets --manifest brainbrew.yaml
-nix run github:jeprecated/brain-brew/rust-brainbrew -- targets --manifest brainbrew-hardcore.yaml
+brainbrew targets --manifest brainbrew.yaml
+brainbrew targets --manifest brainbrew-hardcore.yaml
 ```
 
 Verify the whole workspace, including media references and external HTML/CSS source checks:
@@ -37,7 +56,7 @@ Verify the whole workspace, including media references and external HTML/CSS sou
 ```bash
 python scripts/check-source-content.py
 for manifest in brainbrew.yaml brainbrew-hardcore.yaml; do
-  nix run github:jeprecated/brain-brew/rust-brainbrew -- verify --manifest "$manifest" --all-targets --media-root media
+  brainbrew verify --manifest "$manifest" --all-targets --media-root media
 done
 ```
 
@@ -45,10 +64,11 @@ Export one target with media:
 
 ```bash
 rm -rf build/crowdanki/en-standard
-nix run github:jeprecated/brain-brew/rust-brainbrew -- export crowdanki \
+brainbrew export crowdanki \
   --manifest brainbrew.yaml \
   --target en-standard \
-  --out build/crowdanki/en-standard
+  --out build/crowdanki/en-standard \
+  --media-root media
 mkdir -p build/crowdanki/en-standard/media
 cp media/* build/crowdanki/en-standard/media/
 ```
@@ -57,9 +77,9 @@ Export every configured target for a release or CI smoke test:
 
 ```bash
 for manifest in brainbrew.yaml brainbrew-hardcore.yaml; do
-  nix run github:jeprecated/brain-brew/rust-brainbrew -- targets --manifest "$manifest" | while read -r target; do
+  brainbrew targets --manifest "$manifest" | while read -r target; do
     out="build/crowdanki/$target"
-    nix run github:jeprecated/brain-brew/rust-brainbrew -- export crowdanki \
+    brainbrew export crowdanki \
       --manifest "$manifest" \
       --target "$target" \
       --out "$out" \
@@ -70,12 +90,12 @@ for manifest in brainbrew.yaml brainbrew-hardcore.yaml; do
 done
 ```
 
-The full `verify` command above validates that every referenced media file exists in the source `media/` root.
+The full `verify` command above validates that every target composes, every referenced media file exists in the source `media/` root, and stale translation keys are rejected.
 
 Compose one target to inspect the resolved Canonical Deck YAML:
 
 ```bash
-nix run github:jeprecated/brain-brew/rust-brainbrew -- compose \
+brainbrew compose \
   --manifest brainbrew.yaml \
   --target de-extended \
   --out /tmp/de-extended.yaml
@@ -84,7 +104,7 @@ nix run github:jeprecated/brain-brew/rust-brainbrew -- compose \
 ### Common edits
 
 - **Edit English content:** update the relevant note in `deck.yaml`.
-- **Edit a translation:** update the language overlay under `overlays/languages/`.
+- **Edit a translation:** use the `brainbrew translations` workflow below, then update the language overlay under `overlays/languages/` or the relevant Hardcore translation overlay.
 - **Edit deck descriptions:** update the relevant HTML fragment under `descriptions/ultimate-geography/` or `descriptions/hardcore-geography/`; the YAML files reference those fragments with `!include`.
 - **Edit standard card templates:** update the question/answer HTML fragments under `templates/ultimate-geography/<template-name>/`.
 - **Edit card styling:** update `styles/ultimate-geography/card.css`; both the normal UG deck shell and the Hardcore companion shell include this file.
@@ -94,6 +114,97 @@ nix run github:jeprecated/brain-brew/rust-brainbrew -- compose \
 - **Replace or add media:** put the file directly in `media/`, reference the same filename from the note field HTML, and keep `sources.csv` up to date.
 
 After any edit, run the full `verify` command above. If you change generated deck output intentionally, inspect an exported target before opening a pull request.
+
+### Brain Brew source model
+
+YAML is the canonical storage format, but translators do not need to browse it blindly. Brain Brew reports, context views, and the local workbench are views over the canonical YAML files.
+
+Stable ids such as `note.finland`, `field.country`, `field.flag-similarity`, and paths like `notes.note.finland.fields.field.country` are internal identities. They are intentionally not translated and are distinct from display names such as `Country`, card labels such as `${label.location}`, and translated field contents such as `Finland` → `Finlândia`. Keep stable ids stable unless you are deliberately migrating identity; changing a display name or translation should happen in note-type variables, field names, or translation dictionaries, not by renaming `field.X`/`note.X` ids.
+
+Translation overlays use four separate dictionaries:
+
+```yaml
+translations:
+  direct:
+    Germany: Deutschland
+    wider, coat of arms with eagle: breiter, Wappen mit Adler
+  contextual:
+    notes.note.azores:
+      Autonomous region of Portugal.: 'Autonomní území Portugalska.'
+  no_change:
+    - Andorra
+  target_additions:
+    notes.note.pacific-ocean.fields.field.country-info: 'Známý též jako Pacifik.'
+```
+
+Use `translations.direct` for reusable translations of exact non-empty source text. Use `translations.contextual` when the same source needs a path-specific translation or when a translation should only apply under one note/field. Use `translations.no_change` for translator-reviewed text that intentionally remains identical to English; this is different from an unreviewed missing translation. Use `translations.target_additions` only when the source field is intentionally blank but the translated target should add text.
+
+Brain Brew checks these keys against the current source. If English changes from `Autonomous region of Portugal.` to a different sentence, the stale contextual key fails verification instead of silently applying the old translation to new text.
+
+Structured flag-similarity fields break long composite strings into reusable pieces. For example, `deck.yaml` stores Andorra's similarity as a message rather than one English key:
+
+```yaml
+field.flag-similarity:
+  format: '{country_1} ({description_1})'
+  variables:
+    country_1:
+      ref: notes.note.moldova.fields.field.country
+    description_1:
+      text: wider, coat of arms with eagle
+```
+
+`ref` variables reuse another note field's translation, usually a country name. `text` variables are the small qualifier fragments translators edit, such as `wider, coat of arms with eagle`. If a language needs different glue or ordering, translate the message `format` or use a contextual message-variable translation instead of reintroducing one long `Moldova (...)` key. CrowdAnki exports still receive a plain resolved string such as `Moldavsko (širší, erb s orlem)`.
+
+The standalone Hardcore overlay uses the same message shape, but its Galápagos/Sierra Leone field uses `text: Sierra Leone` because `deck-hardcore.yaml` is a minimal shell and does not contain the full UG Sierra Leone note to reference. The main UG deck uses `ref` wherever the referenced country note exists.
+
+### Translation workflow
+
+Report mode is safe and does not edit files:
+
+```bash
+brainbrew translations --manifest brainbrew.yaml --target de-standard
+brainbrew translations --manifest brainbrew.yaml --all-targets --summary
+brainbrew translations --manifest brainbrew-hardcore.yaml --all-targets --summary
+```
+
+Use context mode when reviewing or editing translations. It shows source text, target text, note id, field id/name, card templates, duplicate-source groups, and structured-message components:
+
+```bash
+brainbrew translations --manifest brainbrew.yaml --target cs-standard --context --field field.flag-similarity --duplicates
+brainbrew translations --manifest brainbrew.yaml --target de-standard --context --source Georgia
+brainbrew translations --manifest brainbrew.yaml --target da-standard --context --status missing
+```
+
+Use `--apply` only when you explicitly want Brain Brew to edit overlay YAML. Non-interactive apply inserts deterministic `source: source` stubs for missing text in scope; interactive apply lets you choose actions such as direct stub, contextual stub, reviewed `no_change`, or ignored path:
+
+```bash
+brainbrew translations --manifest brainbrew.yaml --target da-standard --apply
+brainbrew translations --manifest brainbrew.yaml --target da-standard --context --status missing --apply --interactive
+```
+
+For a browser-based local UI, current Brain Brew preview builds expose the Deck Workbench server:
+
+```bash
+brainbrew workbench serve --manifest brainbrew.yaml
+brainbrew workbench serve --manifest brainbrew.yaml --port 0 --no-open
+```
+
+This launches a local `127.0.0.1` server with the embedded Iced/WASM workbench assets. Older planning notes may mention a static editor flow like this:
+
+```bash
+brainbrew translations --manifest brainbrew.yaml --target de-standard --web-editor --out build/translator-editor.html
+brainbrew translations --manifest brainbrew.yaml --target de-standard --apply-editor-edits build/translator-editor.edits.json
+```
+
+Do not assume those flags exist in the current preview; use `brainbrew workbench serve` and the terminal `translations` workflow above unless your `brainbrew translations --help` explicitly lists `--web-editor` and `--apply-editor-edits`.
+
+UG keeps translation coverage lenient for now because several language and Hardcore targets intentionally have missing/raw fallback text while translation work continues. `brainbrew verify` still rejects stale keys, invalid target additions, broken contextual paths, and media/reference errors. For a fully completed release target, maintainers can opt into strict checks with target metadata or a one-off command:
+
+```bash
+brainbrew verify --manifest brainbrew.yaml --target de-standard --translation-coverage strict --media-root media
+```
+
+The new workflow gives maintainers stronger checks than the legacy recipe pipeline: duplicate-source summaries help translators choose between direct and contextual translations, structured messages make flag-similarity fragments reusable, `field_fills` isolates Hardcore-specific blank-field content, and `verify --all-targets` proves every standard, extended, experimental, standalone Hardcore, and Hardcore companion target still composes.
 
 ## Content inclusion rules
 
@@ -275,7 +386,7 @@ This field is used in the _Flag - Country_ template.
 
 In Anki, when you keep on confusing two flags, you can't put them side by side to learn their visual differences. The _Flag similarity_ field works around this limitation by providing a concise description of the differences a flag has with another. It allows users to more easily learn to distinguish pairs of similar flags and perhaps come up with mnemonics to remember their respective countries.
 
-A note's _Flag similarity_ field contains a list of countries, each followed by a list of differences. For instance, the flag similarities for Iceland are written as follows: _Norway (red background, blue cross), Faroe Islands (white background, red and blue cross)_. The list of differences must be **precise**, **clear**, and **concise**. Advanced [vexillological](https://en.wikipedia.org/wiki/Vexillology) terms should be avoided.
+A note's _Flag similarity_ field contains a list of countries, each followed by a list of differences. In exported Anki decks, the flag similarities for Iceland are rendered as follows: _Norway (red background, blue cross), Faroe Islands (white background, red and blue cross)_. In source YAML, maintain these as structured Brain Brew messages with country `ref` variables and small qualifier `text` variables, as described in the contributor guide above. The list of differences must be **precise**, **clear**, and **concise**. Advanced [vexillological](https://en.wikipedia.org/wiki/Vexillology) terms should be avoided.
 
 Flag similarities are always **mutual**: if flag A is similar to flag B, then flag B is similar to flag A. To determine whether two flags are similar enough to warrant mutual _Flag similarity_ information, their differences must first be **identified** and **classified**. The following classification applies:
 

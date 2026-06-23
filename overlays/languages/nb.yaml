@@ -1,7 +1,7 @@
 id: overlay.translation.nb
 kind: translation
 translations:
-  changes:
+  direct:
     'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.': ''
     Abkhazia: Abkhasia
     Addis Ababa: Addis Abeba
@@ -21,7 +21,6 @@ translations:
     Also known as the Sea of Cortez.: ''
     'Also spelled as Sana''a.': ''
     American Samoa: Amerikansk Samoa
-    'Andorra (narrower, coat of arms with motto)': 'Andorra (smalere, våpen med valgspråk)'
     Antarctica: Antarktis
     Antigua and Barbuda: Antigua og Barbuda
     Arabian Sea: Det arabiske hav
@@ -30,9 +29,7 @@ translations:
     Ashgabat: Asjkhabad
     Athens: Aten
     Atlantic Ocean: Atlanterhavet
-    'Australia (white stars, two more stars)': 'Australia (hvite stjerner og to ekstra stjerner)'
     Austria: 'Østerrike'
-    'Austria (brighter red, wider white band)': 'Østerrike (lysere rød, brede hvit stripe)'
     Autonomous community of Spain.: 'Selvstyrt område i Spania.'
     Autonomous province of South Korea.: 'Selvstyrt provins i Sør-Korea.'
     Autonomous region of Finland.: 'Selvstyrt og delimilitarisert øygruppe og landskap i Finland.'
@@ -42,7 +39,6 @@ translations:
     Azerbaijan: Aserbajdsjan
     Azores: Asorene
     Baghdad: Bagdad
-    'Bahrain (narrower, fewer serrated edges, red)': 'Bahrain (smalere, færre tagger, rødt)'
     Balkan Peninsula: Balkan
     Baltic Sea: 'Østersjøen'
     Banda Sea: 'Bandasjøen'
@@ -54,7 +50,6 @@ translations:
     Bering Strait: Beringstredet
     Bishkek: Bisjkek
     Black Sea: Svartehavet
-    'Bolivia (coat of arms instead of star)': 'Bolivia (våpenskjold i stedet for stjerne)'
     Bosnia and Herzegovina: Bosnia-Hercegovina
     'Brasília': Brasilia
     Brazil: Brasil
@@ -64,7 +59,6 @@ translations:
     Cairo: Kairo
     Cambodia: Kambodsja
     Cameroon: Kamerun
-    'Cameroon (green/red/yellow, yellow star)': 'Kamerun (grønn/rød/gul, gul stjerne)'
     Canary Islands: 'Kanariøyene'
     Cape Verde: Kapp Verde
     Caribbean Sea: Det karibiske hav
@@ -75,31 +69,19 @@ translations:
     Central African Republic: Den sentralafrikanske republikk
     Cetinje is an honorary capital.: Administrativ hovedstad. Cetinje er historisk hovedstad og presidentens tilholdssted.
     Chad: Tsjad
-    'Chad (slightly darker blue)': 'Tsjad (noe mørkere blå)'
     China: Kina
     City of San Marino: San Marino by
     Claimed and controlled: Krevd og kontrollert
     Claimed but not controlled: Krevd, men ikke kontrollert
-    'Colombia (no coat of arms)': 'Colombia (uten våpenskjold)'
     Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.: 'Regjeringen har sete i Colombo. Sri Jayawardenepura Kotte (kalt Kotte) er en forstad til Colombo der nasjonalforsamlingen har sete. Kotte er altså lovgivende hovedstad.'
     Comoros: Komorene
     Constituent country in the Kingdom of Denmark.: 'Land som utgjør en del av kongeriket Danmark.'
-    Constituent country of the Kingdom of the Netherlands.:
-      notes.note.aruba.fields.field.country-info: '«Land» som sammen med Nederland, Curaçao og Sint Maarten utgjør føderasjonen Kongeriket Nederlandene.'
-      notes.note.cura-ao.fields.field.country-info: '«Land» som sammen med Nederland, Aruba og Sint Maarten utgjør føderasjonen Kongeriket Nederlandene.'
-      notes.note.sint-maarten.fields.field.country-info: '«Land» som sammen med Nederland, Curaçao og Aruba utgjør føderasjonen Kongeriket Nederlandene.'
     Constituent country of the United Kingdom.: 'Land som utgjør en del av Storbritannia.'
     Cook Islands: 'Cookøyene'
     Copenhagen: 'København'
     Coral Sea: Korallhavet
     Corsica: Korsika
     Croatia: Kroatia
-    Crown dependency of the United Kingdom.:
-      notes.note.guernsey.fields.field.country-info: 'Kanaløy underlagt britisk kronbesittelse.'
-      notes.note.isle-of-man.fields.field.country-info: 'Også kalt Isle of Man. Kanaløy underlagt britisk kronbesittelse. Hverken del av Storbritannia eller EU.'
-      notes.note.jersey.fields.field.country-info: 'Kanaløy underlagt britisk kronbesittelse.'
-    'Cuba (red triangle, blue stripes)': 'Cuba (rød trekant, blå striper)'
-    'Curaçao (two stars in top-left corner)': 'Curaçao (to stjerner i øverste venstre hjørne)'
     Cyprus: Kypros
     Czech Republic: Tsjekkia
     Damascus: Damaskus
@@ -113,10 +95,6 @@ translations:
     Dushanbe: Dusjanbe
     East China Sea: 'Øst-Kina-havet'
     East Siberian Sea: 'Øst-Sibirhavet'
-    'Ecuador (with coat of arms)': 'Ecuador (med våpenskjold)'
-    'Egypt (emblem instead of text), Yemen (no text)': 'Jemen (blank midstripe), Egypt (emblem)'
-    'Egypt (with emblem), Iraq (with text)': 'Egypt (emblem), Irak (tekst)'
-    'El Salvador (different coat of arms, slightly darker blue)': 'El Salvador (annerledes våpenskjold, noe mørkere blå)'
     English Channel: Den engelske kanal
     Equatorial Guinea: Ekvatorial-Guinea
     Estonia: Estland
@@ -132,11 +110,9 @@ translations:
     French Guiana: Fransk Guyana
     French Polynesia: Fransk Polynesia
     Germany: Tyskland
-    'Ghana (star instead of coat of arms)': 'Ghana (stjerne i stedet for våpenskjold)'
     Greece: Hellas
     Greenland: 'Grønland'
     Guatemala City: Guatemala by
-    'Guinea (green and red flipped, slightly darker green)': 'Guinea (byttet plass på grønt og rødt, noe mørkere grønnfarge)'
     Gulf of Alaska: Alaskabukta
     Gulf of California: Californiabukta
     Gulf of Carpentaria: Carpentariabukta
@@ -150,23 +126,16 @@ translations:
     Hudson Bay: Hudsonbukta
     Hungary: Ungarn
     Iceland: Island
-    'Iceland (blue background, red and white cross), Norway (red background, blue and white cross)': 'Island (blå bakgrunn, rødt og hvitt kors), Norge (rød bakgrunn, blått og hvitt kors)'
-    'Iceland (blue background, red cross), Faroe Islands (white background, red and blue cross)': 'Island (blå bakgrunn, rødt kors), Færøyene (hvit bakgrunn, rødt og blått kors)'
     Independent state claimed by Georgia.: Utbryterstat i Georgia.
     Independent state claimed by Moldova.: 'Region i Moldova som er en selverklært, men ikke internasjonalt anerkjent, stat.'
     Independent state claimed by Somalia.: Utbryterrepublikk i Somalia. Fungerer som selvstendig stat, men ikke anerkjent av andre.
     Indian Ocean: Det indiske hav
-    'Indonesia (white and red flipped, brighter red), Monaco (white and red flipped, narrower)': 'Indonesia (rødt og hvitt byttet, lysere rød), Monaco (rødt og hvitt byttet, smalere)'
-    'Indonesia (wider, brighter red), Poland (red and white flipped, wider)': 'Indonesia (bredere, lysere rød), Polen (rødt og hvitt byttet, bredere)'
     Iraq: Irak
-    'Iraq (text instead of emblem), Yemen (no emblem)': 'Jemen (blank midstripe), Irak (tekst)'
     Ireland: Irland
-    'Ireland (orange and green flipped, wider)': 'Ireland (byttet plass på oransje og grønt, bredere)'
     Island of Indonesia.: 'Øy i Indonesia.'
     Isle of Man: Man
     Italy: Italia
     Ivory Coast: Elfenbenskysten
-    'Ivory Coast (green and orange flipped, narrower)': 'Elfenbenskysten (grønn og oransj har byttet plass, smalere)'
     Kaliningrad Oblast: Kaliningrad oblast
     Kathmandu: Katmandu
     Kazakhstan: Kasakhstan
@@ -177,33 +146,24 @@ translations:
     Kyrgyzstan: Kirgisistan
     Laayoune: 'El Aaiún'
     Labrador Sea: 'Labradorsjøen'
-    'Latvia (darker red, narrower white band)': 'Latvia (mørkere rød, smalere hvitt bånd)'
     Lebanon: Libanon
     Lisbon: Lisboa
     Lithuania: Litauen
-    'Luxembourg (lighter blue)': 'Luxembourg (lysere blå)'
     Luxembourg City: Luxembourg
     Macau: Macao
     Madagascar: Madagaskar
     Maldives: Maldivene
-    'Mali (red and green flipped, slightly brighter green)': 'Mali (byttet plass på rødt og grønt; noe lysere grønn)'
     Marshall Islands: 'Marshalløyene'
     Mediterranean Sea: Middelhavet
     Mexico City: Mexico by
     Micronesia: Mikronesia
-    'Moldova (wider, coat of arms with eagle)': 'Moldova (bredere, våpenskjold med ørn)'
-    'Monaco (narrower, darker red), Poland (red and white flipped, darker red)': 'Monaco (smalere, mørkere rød), Polen (rødt og hvitt byttet, mørkere rød)'
     Morocco: Marokko
     Moscow: Moskva
     Mozambique: Mosambik
     'N''Djamena': Ndjamena
-    'Nauru (single star below yellow band)': 'Nauru (en enkelt stjerne under et gult bånd)'
     'Nauru has no official capital; the Yaren District is the de facto capital.': 'Nauru har ingen offisiell hovedstad; Yaren er regjeringssete.'
     Netherlands: Nederland
-    'Netherlands (darker blue)': 'Nederland (mørkere blå)'
     New Caledonia: Ny-Caledonia
-    'New Zealand (red stars, two fewer stars)': 'New Zealand (røde stjerner)'
-    'Nicaragua (different coat of arms, slightly lighter blue)': 'Nicaragua (annerledes våpenskjold, noe lysere blå)'
     Nicosia: Nikosia
     North America: Nord-Amerika
     North Korea: Nord-Korea
@@ -214,7 +174,6 @@ translations:
     Northern Ireland: Nord-Irland
     Northern Mariana Islands: Nord-Marianene
     Norway: Norge
-    'Norway (red background, blue cross), Faroe Islands (white background, red and blue cross)': 'Norge (rød bakgrunn, blått kors), Færøyene (hvit bakgrunn, rødt og blått kors)'
     Norwegian Sea: Norskehavet
     Not a sovereign country: Ikke selvstendig land
     'Nukuʻalofa': Nukualofa
@@ -224,30 +183,8 @@ translations:
     Official capital was moved from Malabo to Ciudad de la Paz in 2026.: Hovedstad flyttet til Ciudad de la Paz fra Malabo i 2026.
     'Officially Côte d''Ivoire.': ''
     Officially Luxembourg.: ''
-    Overseas department of France.:
-      notes.note.french-guiana.fields.field.country-info: 'Fransk oversjøisk departement og del av EU.'
-      notes.note.guadeloupe.fields.field.country-info: 'Fransk oversjøisk departement.'
-      notes.note.martinique.fields.field.country-info: 'Fransk oversjøisk departement.'
-      notes.note.mayotte.fields.field.country-info: 'Fransk oversjøisk territorium.'
-      notes.note.r-union.fields.field.country-info: 'Fransk oversjøisk departement.'
-    Overseas territory of France.:
-      notes.note.french-polynesia.fields.field.country-info: 'Fransk oversjøisk land.'
-      notes.note.new-caledonia.fields.field.country-info: 'Fransk oversjøisk territorium i det sørvestlige Stillehavet.'
-      notes.note.saint-martin.fields.field.country-info: 'Fransk oversjøisk land.'
-      notes.note.wallis-and-futuna.fields.field.country-info: 'Fransk oversjøisk land.'
-    Overseas territory of the United Kingdom.:
-      notes.note.akrotiri-and-dhekelia.fields.field.country-info: 'Britisk oversjøisk territorium.'
-      notes.note.anguilla.fields.field.country-info: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
-      notes.note.bermuda.fields.field.country-info: 'Selvstyrt britisk oversjøisk territorium.'
-      notes.note.british-virgin-islands.fields.field.country-info: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
-      notes.note.cayman-islands.fields.field.country-info: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
-      notes.note.falkland-islands.fields.field.country-info: 'Britisk øygruppe.'
-      notes.note.gibraltar.fields.field.country-info: Britisk kronkoloni.
-      notes.note.turks-and-caicos-islands.fields.field.country-info: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
     Pacific Ocean: Stillehavet
     Palestine: Palestina
-    'Palestine (black/white/green, red arrow)': 'Palestina (svart/hvit/grønn, rød trekant)'
-    'Palestine (no symbol)': 'Palestina (uten symbol)'
     Panama City: Panama by
     Papua New Guinea: Papua Ny-Guinea
     Partially recognised state claimed by China.: 'Offisielt Republikken Kina. Folkerepublikken Kina gjør også krav på områdene.'
@@ -259,15 +196,11 @@ translations:
     Poland: Polen
     Port Vila: Vila
     Prague: Praha
-    'Puerto Rico (blue triangle, red stripes)': 'Puerto Rico (blå trekant, røde striper)'
-    'Qatar (wider, more serrated edges, maroon)': 'Qatar (bredere, flere tagger og jordbrun farge)'
     Red Sea: 'Rødehavet'
     Region of France.: Fransk region.
     Republic of the Congo: Kongo-Brazzaville
-    'Romania (slightly lighter blue)': 'Romania (noe lysere blå)'
     Rome: Roma
     Russia: Russland
-    'Russia (no coat of arms), Slovenia (wider, smaller coat of arms)': 'Russland (uten våpenskjold), Slovenia (bredere, mindre våpenskjold)'
     Sahrawi Arab Democratic Republic: Vest-Sahara
     Saint Kitts and Nevis: Saint Kitts og Nevis
     Saint Martin: Saint-Martin
@@ -281,11 +214,8 @@ translations:
     Sea of Japan: Japanhavet
     Sea of Okhotsk: Okhotskhavet
     Semi-autonomous region of Tanzania.: Delvis selvstendig stat i Tanzania.
-    'Senegal (green/yellow/red, green star)': 'Senegal (grønn/gul/rød, grønn stjerne)'
     Seychelles: Seychellene
     Sicily: Sicilia
-    'Slovakia (narrower, bigger coat of arms)': 'Slovakia (smalere, større våpenskjold)'
-    'Slovakia (with coat of arms)': 'Slovakia (med våpenskjold)'
     Solomon Islands: 'Salomonøyene'
     South Africa: 'Sør-Afrika'
     'South Africa has no legally defined capital: the branches of government are split over three cities: Pretoria (executive), Cape Town (legislative) and Bloemfontein (judicial).': 'Sør-Afrika har ingen fastsatt hovedstad; makten er fordelt på tre byer: Pretoria (utøvende), Cape Town (lovgivende) og Bloemfontein (dømmende).'
@@ -297,9 +227,6 @@ translations:
     Southern Ocean: 'Sørishavet'
     Sovereign country: Selvstendig land
     Spain: Spania
-    Special Administrative Region of China.:
-      notes.note.hong-kong.fields.field.country-info: 'Også kjent som Hong Kong. Spesiell administrativ region i Kina.'
-      notes.note.macau.fields.field.country-info: 'Også kalt Macau. Spesiell administrativ region i Kina.'
     Sri Jayawardenepura Kotte: Colombo
     'St. John''s': 'Saint John’s'
     State of the United States.: USAs delstat.
@@ -307,7 +234,6 @@ translations:
     Subregion of Oceania comprising thousands of small islands in the central and southern Pacific Ocean.: 'Område i det sentrale og sydlige Stillehavet som inneholder tusener av små øyer.'
     Subregion of Oceania comprising thousands of small islands in the western Pacific Ocean.: 'Område i det vestlige Stillehavet som inneholder tusenvis av små øyer.'
     Subregion of Oceania, which includes Vanuatu, the Solomon Islands, Fiji, and Papua New Guinea.: 'Område i Stillehavet. Inneholder Vanuatu, Salomonøyene, Fiji og Papua Ny-Guinea.'
-    'Sudan (red/white/black, green arrow), Sahrawi Arab Democratic Republic (with star and crescent)': 'Sudan (rød/hvit/svart, grønn trekant), Vest-Sahara (med stjerne og halvmåne)'
     Suriname: Surinam
     Sweden: Sverige
     Switzerland: Sveits
@@ -349,8 +275,443 @@ translations:
     Yellow Sea: Gulehavet
     Yemen: Jemen
     Yerevan: Jerevan
+    black/white/green, red arrow: 'svart/hvit/grønn, rød trekant'
+    blue background, red and white cross: 'blå bakgrunn, rødt og hvitt kors'
+    blue background, red cross: 'blå bakgrunn, rødt kors'
+    blue triangle, red stripes: 'blå trekant, røde striper'
+    brighter red, wider white band: 'lysere rød, brede hvit stripe'
+    coat of arms instead of star: 'våpenskjold i stedet for stjerne'
+    darker blue: 'mørkere blå'
+    darker red, narrower white band: 'mørkere rød, smalere hvitt bånd'
+    different coat of arms, slightly darker blue: 'annerledes våpenskjold, noe mørkere blå'
+    different coat of arms, slightly lighter blue: 'annerledes våpenskjold, noe lysere blå'
+    emblem instead of text: blank midstripe
+    green and orange flipped, narrower: 'grønn og oransj har byttet plass, smalere'
+    green and red flipped, slightly darker green: 'byttet plass på grønt og rødt, noe mørkere grønnfarge'
+    green/red/yellow, yellow star: 'grønn/rød/gul, gul stjerne'
+    green/yellow/red, green star: 'grønn/gul/rød, grønn stjerne'
+    lighter blue: 'lysere blå'
+    narrower, bigger coat of arms: 'smalere, større våpenskjold'
+    narrower, coat of arms with motto: 'smalere, våpen med valgspråk'
+    narrower, darker red: 'smalere, mørkere rød'
+    narrower, fewer serrated edges, red: 'smalere, færre tagger, rødt'
+    no coat of arms: 'uten våpenskjold'
+    no emblem: tekst
+    no symbol: uten symbol
+    no text: emblem
+    orange and green flipped, wider: 'byttet plass på oransje og grønt, bredere'
+    red and green flipped, slightly brighter green: 'byttet plass på rødt og grønt; noe lysere grønn'
+    red and white flipped, darker red: 'rødt og hvitt byttet, mørkere rød'
+    red and white flipped, wider: 'rødt og hvitt byttet, bredere'
+    red background, blue and white cross: 'rød bakgrunn, blått og hvitt kors'
+    red background, blue cross: 'rød bakgrunn, blått kors'
+    red stars, two fewer stars: 'røde stjerner'
+    red triangle, blue stripes: 'rød trekant, blå striper'
+    red/white/black, green arrow: 'rød/hvit/svart, grønn trekant'
+    single star below yellow band: 'en enkelt stjerne under et gult bånd'
+    slightly darker blue: 'noe mørkere blå'
+    slightly lighter blue: 'noe lysere blå'
+    star instead of coat of arms: 'stjerne i stedet for våpenskjold'
+    text instead of emblem: blank midstripe
+    two stars in top-left corner: 'to stjerner i øverste venstre hjørne'
+    white and red flipped, brighter red: 'rødt og hvitt byttet, lysere rød'
+    white and red flipped, narrower: 'rødt og hvitt byttet, smalere'
+    white background, red and blue cross: 'hvit bakgrunn, rødt og blått kors'
+    white stars, two more stars: hvite stjerner og to ekstra stjerner
+    wider, brighter red: 'bredere, lysere rød'
+    wider, coat of arms with eagle: 'bredere, våpenskjold med ørn'
+    wider, more serrated edges, maroon: bredere, flere tagger og jordbrun farge
+    wider, smaller coat of arms: 'bredere, mindre våpenskjold'
+    with coat of arms: 'med våpenskjold'
+    with emblem: emblem
+    with star and crescent: 'med stjerne og halvmåne'
+    with text: tekst
     'Åland Islands': 'Åland'
-  additions:
+  contextual:
+    notes.note:
+      akrotiri-and-dhekelia:
+        Overseas territory of the United Kingdom.: 'Britisk oversjøisk territorium.'
+      anguilla:
+        Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
+      aruba:
+        Constituent country of the Kingdom of the Netherlands.: '«Land» som sammen med Nederland, Curaçao og Sint Maarten utgjør føderasjonen Kongeriket Nederlandene.'
+      bermuda:
+        Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium.'
+      british-virgin-islands:
+        Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
+      cayman-islands:
+        Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
+      cura-ao:
+        Constituent country of the Kingdom of the Netherlands.: '«Land» som sammen med Nederland, Aruba og Sint Maarten utgjør føderasjonen Kongeriket Nederlandene.'
+      egypt.fields.field.flag-similarity.message.variables.country_1:
+        Iraq: Jemen
+      egypt.fields.field.flag-similarity.message.variables.country_2:
+        Yemen: Irak
+      falkland-islands:
+        Overseas territory of the United Kingdom.: 'Britisk øygruppe.'
+      french-guiana:
+        Overseas department of France.: 'Fransk oversjøisk departement og del av EU.'
+      french-polynesia:
+        Overseas territory of France.: 'Fransk oversjøisk land.'
+      gibraltar:
+        Overseas territory of the United Kingdom.: Britisk kronkoloni.
+      guadeloupe:
+        Overseas department of France.: 'Fransk oversjøisk departement.'
+      guernsey:
+        Crown dependency of the United Kingdom.: 'Kanaløy underlagt britisk kronbesittelse.'
+      hong-kong:
+        Special Administrative Region of China.: 'Også kjent som Hong Kong. Spesiell administrativ region i Kina.'
+      iraq.fields.field.flag-similarity.message.variables.country_1:
+        Egypt: Jemen
+      iraq.fields.field.flag-similarity.message.variables.country_2:
+        Yemen: Egypt
+      isle-of-man:
+        Crown dependency of the United Kingdom.: 'Også kalt Isle of Man. Kanaløy underlagt britisk kronbesittelse. Hverken del av Storbritannia eller EU.'
+      ivory-coast.fields.field.flag-similarity.message.variables.country_1:
+        Ireland: Ireland
+      jersey:
+        Crown dependency of the United Kingdom.: 'Kanaløy underlagt britisk kronbesittelse.'
+      macau:
+        Special Administrative Region of China.: 'Også kalt Macau. Spesiell administrativ region i Kina.'
+      martinique:
+        Overseas department of France.: 'Fransk oversjøisk departement.'
+      mayotte:
+        Overseas department of France.: 'Fransk oversjøisk territorium.'
+      new-caledonia:
+        Overseas territory of France.: 'Fransk oversjøisk territorium i det sørvestlige Stillehavet.'
+      r-union:
+        Overseas department of France.: 'Fransk oversjøisk departement.'
+      saint-martin:
+        Overseas territory of France.: 'Fransk oversjøisk land.'
+      sint-maarten:
+        Constituent country of the Kingdom of the Netherlands.: '«Land» som sammen med Nederland, Curaçao og Aruba utgjør føderasjonen Kongeriket Nederlandene.'
+      turks-and-caicos-islands:
+        Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
+      wallis-and-futuna:
+        Overseas territory of France.: 'Fransk oversjøisk land.'
+  no_change:
+    - Abu Dhabi
+    - Abuja
+    - Accra
+    - Afghanistan
+    - Alaska
+    - Albania
+    - Alofi
+    - Amman
+    - Amsterdam
+    - Andorra
+    - Andorra la Vella
+    - Angola
+    - Anguilla
+    - Ankara
+    - Antananarivo
+    - Apia
+    - Argentina
+    - Armenia
+    - Aruba
+    - Asia
+    - Asmara
+    - Astana
+    - 'Asunción'
+    - Australia
+    - Avarua
+    - Bahrain
+    - Baku
+    - Bali
+    - Bamako
+    - Bandar Seri Begawan
+    - Bangkok
+    - Bangladesh
+    - Bangui
+    - Banjul
+    - Barbados
+    - Basseterre
+    - Beijing
+    - Beirut
+    - Belarus
+    - Belfast
+    - Belize
+    - Belmopan
+    - Benin
+    - Berlin
+    - Bermuda
+    - Bern
+    - Bhutan
+    - Bissau
+    - 'Bogotá'
+    - Bolivia
+    - Botswana
+    - Bougainville
+    - Bratislava
+    - Brazzaville
+    - Bridgetown
+    - Brunei
+    - Budapest
+    - Buenos Aires
+    - Bulgaria
+    - Burkina Faso
+    - Burundi
+    - Canada
+    - Canberra
+    - Caracas
+    - Cardiff
+    - Castries
+    - Charlotte Amalie
+    - Chile
+    - 'Chișinău'
+    - Ciudad de la Paz
+    - Colombia
+    - Conakry
+    - Costa Rica
+    - Cuba
+    - 'Curaçao'
+    - Dakar
+    - Dhaka
+    - Dili
+    - Djibouti
+    - Dodoma
+    - Doha
+    - Dominica
+    - Dublin
+    - Ecuador
+    - Edinburgh
+    - Egypt
+    - El Salvador
+    - England
+    - Eritrea
+    - Eswatini
+    - Fiji
+    - Finland
+    - Freetown
+    - Funafuti
+    - Gabon
+    - Gaborone
+    - Georgetown
+    - Georgia
+    - Ghana
+    - Gibraltar
+    - Gitega
+    - Grenada
+    - Guadeloupe
+    - Guam
+    - Guatemala
+    - Guernsey
+    - Guinea
+    - Guinea-Bissau
+    - Guyana
+    - 'Hagåtña'
+    - Haiti
+    - Hanoi
+    - Harare
+    - Hargeisa
+    - Hawaii
+    - Honduras
+    - Honiara
+    - India
+    - Indonesia
+    - Iran
+    - Islamabad
+    - Israel
+    - Jakarta
+    - Jamaica
+    - Japan
+    - Java
+    - Jeju
+    - Jersey
+    - Jerusalem
+    - Jordan
+    - Juba
+    - Kabul
+    - Kampala
+    - Kenya
+    - Khartoum
+    - Kigali
+    - Kingston
+    - Kingstown
+    - Kinshasa
+    - Kiribati
+    - Kosovo
+    - Kuala Lumpur
+    - Kuwait
+    - Laos
+    - Latvia
+    - Lesotho
+    - Liberia
+    - Libreville
+    - Libya
+    - Liechtenstein
+    - Lilongwe
+    - Lima
+    - Ljubljana
+    - 'Lomé'
+    - London
+    - Luanda
+    - Lusaka
+    - Luxembourg
+    - Madeira
+    - Madrid
+    - Majuro
+    - Malawi
+    - Malaysia
+    - Mali
+    - Malta
+    - 'Malé'
+    - Managua
+    - Manama
+    - Manila
+    - Maputo
+    - Mariehamn
+    - Martinique
+    - Maseru
+    - Mauritania
+    - Mauritius
+    - Mayotte
+    - Mbabane
+    - Melanesia
+    - Mexico
+    - Minsk
+    - Mogadishu
+    - Moldova
+    - Monaco
+    - Mongolia
+    - Monrovia
+    - Montenegro
+    - Montevideo
+    - Moroni
+    - Muscat
+    - Myanmar
+    - Nairobi
+    - Namibia
+    - Nassau
+    - Nauru
+    - Naypyidaw
+    - Nepal
+    - New Delhi
+    - New Zealand
+    - Ngerulmud
+    - Niamey
+    - Nicaragua
+    - Niger
+    - Nigeria
+    - Niue
+    - Nouakchott
+    - 'Nouméa'
+    - Nuuk
+    - Oman
+    - Oranjestad
+    - Oslo
+    - Ottawa
+    - Ouagadougou
+    - Pakistan
+    - Palau
+    - Palikir
+    - Panama
+    - Papeete
+    - Paraguay
+    - Paramaribo
+    - Paris
+    - Peru
+    - Phnom Penh
+    - Podgorica
+    - Polynesia
+    - Port Louis
+    - Port Moresby
+    - Port of Spain
+    - Port-au-Prince
+    - Porto-Novo
+    - Portugal
+    - Praia
+    - Pretoria, Cape Town, Bloemfontein
+    - Pristina
+    - Puerto Rico
+    - Pyongyang
+    - Qatar
+    - Quito
+    - Rabat
+    - 'Reykjavík'
+    - Riga
+    - Riyadh
+    - Romania
+    - Roseau
+    - Rwanda
+    - 'Réunion'
+    - Saint Lucia
+    - Samoa
+    - 'San José'
+    - San Juan
+    - San Marino
+    - San Salvador
+    - Santo Domingo
+    - Sarajevo
+    - Sardinia
+    - Senegal
+    - Seoul
+    - Serbia
+    - Sierra Leone
+    - Singapore
+    - Sint Maarten
+    - Skopje
+    - Slovakia
+    - Slovenia
+    - Sofia
+    - Somalia
+    - Somaliland
+    - South Tarawa
+    - Sri Lanka
+    - 'St. George''s'
+    - Stockholm
+    - Sucre
+    - Sudan
+    - Sukhumi
+    - Sumatra
+    - Suva
+    - Svalbard
+    - Syria
+    - 'São Tomé'
+    - Taipei
+    - Taiwan
+    - Tallinn
+    - Tanzania
+    - Tbilisi
+    - Tegucigalpa
+    - Thailand
+    - Tirana
+    - Tiraspol
+    - Togo
+    - Tokyo
+    - Tonga
+    - Transnistria
+    - Tripoli
+    - Tskhinvali
+    - Tunis
+    - Tunisia
+    - Turkmenistan
+    - Tuvalu
+    - 'Tórshavn'
+    - Uganda
+    - Ulaanbaatar
+    - Uruguay
+    - Vaduz
+    - Valletta
+    - Vanuatu
+    - Venezuela
+    - Victoria
+    - Vientiane
+    - Vietnam
+    - Vilnius
+    - Wales
+    - Washington, D.C.
+    - Wellington
+    - Willemstad
+    - Windhoek
+    - Yamoussoukro
+    - 'Yaoundé'
+    - Yaren
+    - Zagreb
+    - Zambia
+    - Zanzibar
+    - Zimbabwe
+  target_additions:
     notes.note.arabian-sea.fields.field.country-info: 'Også kalt Arabiahavet.'
     notes.note.balkan-peninsula.fields.field.country-info: 'Også kalt Balkanhalvøya.'
     notes.note.baltic-sea.fields.field.country-info: 'Også kalt Det baltiske hav.'

@@ -1,7 +1,7 @@
 id: overlay.translation.cs
 kind: translation
 translations:
-  changes:
+  direct:
     'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.': 'Existuje spor o názvu mezi hraničními zeměmi, zejména Jižní Korea podporuje název Východní moře.'
     Abkhazia: 'Abcházie'
     Abu Dhabi: 'Abú Zabí'
@@ -26,7 +26,6 @@ translations:
     'Also spelled as Sana''a.': 'Také psáno jako San''á.'
     American Samoa: 'Americká Samoa'
     Amman: 'Ammán'
-    'Andorra (narrower, coat of arms with motto)': 'Andorra (užší, erb s mottem)'
     Antarctica: Antarktida
     Antigua and Barbuda: Antigua a Barbuda
     Arabian Sea: 'Arabské moře'
@@ -38,22 +37,16 @@ translations:
     Athens: 'Athény'
     Atlantic Ocean: 'Atlantský oceán'
     Australia: 'Austrálie'
-    'Australia (white stars, two more stars)': 'Austrálie (bílé hvězdy, o dvě hvězdy více)'
     Austria: Rakousko
-    'Austria (brighter red, wider white band)': 'Rakousko (světlejší červená, širší bílý pruh)'
     Autonomous community of Spain.: 'Autonomní společenství Španělska.'
     Autonomous province of South Korea.: 'Autonomní provincie Jižní Koreji.'
     Autonomous region of Finland.: 'Autonomní region Finska.'
     Autonomous region of Italy.: 'Autonomní region Itálie.'
     Autonomous region of Papua New Guinea.: 'Autonomní území státu Papua Nová Guinea.'
-    Autonomous region of Portugal.:
-      notes.note.azores.fields.field.country-info: 'Autonomní území Portugalska.'
-      notes.note.madeira.fields.field.country-info: 'Autonomní region Portugalska.'
     Azerbaijan: 'Ázerbájdžán'
     Azores: Azory
     Baghdad: 'Bagdád'
     Bahrain: Bahrajn
-    'Bahrain (narrower, fewer serrated edges, red)': 'Bahrajn (užší, méně zoubků, červená)'
     Balkan Peninsula: 'Balkán'
     Baltic Sea: 'Baltské moře'
     Banda Sea: 'Bandské moře'
@@ -72,7 +65,6 @@ translations:
     Bishkek: 'Biškek'
     Black Sea: 'Černé moře'
     Bolivia: 'Bolívie'
-    'Bolivia (coat of arms instead of star)': 'Bolívie (erb místo hvězdy)'
     Bosnia and Herzegovina: Bosna a Hercegovina
     Brazil: 'Brazílie'
     British Virgin Islands: 'Britské Panenské ostrovy'
@@ -84,7 +76,6 @@ translations:
     Cairo: 'Káhira'
     Cambodia: 'Kambodža'
     Cameroon: Kamerun
-    'Cameroon (green/red/yellow, yellow star)': 'Kamerun (zelená/červená/žlutá, žlutá hvězda)'
     Canada: Kanada
     Canary Islands: 'Kanárské ostrovy'
     Cape Verde: Kapverdy
@@ -96,19 +87,14 @@ translations:
     Central African Republic: 'Středoafrická republika'
     Cetinje is an honorary capital.: 'Cetinje je historicky hlavní město.'
     Chad: 'Čad'
-    'Chad (slightly darker blue)': 'Čad (mírně tmavší modrá)'
     China: 'Čína'
     'Chișinău': 'Kišiněv'
     City of San Marino: San Marino
     Claimed and controlled: 'Nárokované a kontrolované'
     Claimed but not controlled: 'Nárokováno, ale nekontrolováno'
     Colombia: Kolumbie
-    'Colombia (no coat of arms)': 'Kolumbie (bez erbu)'
     Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.: 'Kolombo bývá označováno jako hlavní město, ale Šrí Džajavardanapura Kotte, předměstí Kolomba, je oficiální a legislativní hlavní město.'
     Comoros: Komory
-    Constituent country in the Kingdom of Denmark.:
-      notes.note.faroe-islands.fields.field.country-info: 'Konstituční země Dánského království.'
-      notes.note.greenland.fields.field.country-info: 'Autonomní součást Dánského království.'
     Constituent country of the Kingdom of the Netherlands.: 'Konstituční země Nizozemského království.'
     Constituent country of the United Kingdom.: 'Konstituční země Velké Británie.'
     Cook Islands: Cookovy ostrovy
@@ -119,8 +105,6 @@ translations:
     Croatia: Chorvatsko
     Crown dependency of the United Kingdom.: 'Britské korunní závislé území.'
     Cuba: Kuba
-    'Cuba (red triangle, blue stripes)': 'Kuba (červená šipka, modré pruhy)'
-    'Curaçao (two stars in top-left corner)': 'Curaçao (dvě hvězdy v levém horním rohu)'
     Cyprus: Kypr
     Czech Republic: 'Česko'
     Damascus: 'Damašek'
@@ -131,9 +115,6 @@ translations:
     Dhaka: 'Dháka'
     'Disputed; claimed by Israel; Ramallah is the administrative centre.': 'Sporný; nárokováno Izraelem; Ramalláh je správním centrem.'
     'Disputed; claimed by Palestine.': 'Sporný; tvrdí Palestina.'
-    Djibouti:
-      notes.note.djibouti.fields.field.capital: 'Džibuti'
-      notes.note.djibouti.fields.field.country: 'Džibutsko'
     Doha: 'Dauhá'
     Dominica: Dominika
     Dominican Republic: 'Dominikánská republika'
@@ -141,11 +122,7 @@ translations:
     East China Sea: 'Východočínské moře'
     East Siberian Sea: 'Východosibiřské moře'
     Ecuador: 'Ekvádor'
-    'Ecuador (with coat of arms)': 'Ekvádor (s erbem)'
-    'Egypt (emblem instead of text), Yemen (no text)': 'Egypt (emblém místo textu), Yemen (bez textu)'
-    'Egypt (with emblem), Iraq (with text)': 'Egypt (má emblém), Irák (má text)'
     El Salvador: Salvador
-    'El Salvador (different coat of arms, slightly darker blue)': 'Salvador (jiný erb, mírně tmavší modrá)'
     England: Anglie
     English Channel: 'Lamanšský průliv'
     Equatorial Guinea: 'Rovníková Guinea'
@@ -166,11 +143,9 @@ translations:
     French Polynesia: 'Francouzská Polynésie'
     Georgia: Gruzie
     Germany: 'Německo'
-    'Ghana (star instead of coat of arms)': 'Ghana (hvězda místo erbu)'
     Greece: 'Řecko'
     Greenland: 'Grónsko'
     Guatemala City: Ciudad de Guatemala
-    'Guinea (green and red flipped, slightly darker green)': 'Guinea (prohozená zelená a červená, mírně tmavší zelená)'
     Gulf of Alaska: 'Aljašský záliv'
     Gulf of California: 'Kalifornský záliv'
     Gulf of Carpentaria: 'Carpentarský záliv'
@@ -186,33 +161,19 @@ translations:
     Hudson Bay: 'Hudsonův záliv'
     Hungary: 'Maďarsko'
     Iceland: Island
-    'Iceland (blue background, red and white cross), Norway (red background, blue and white cross)': 'Island (modré pozadí, červený a bílý kříž), Norsko (červené pozadí, modrý a bílý kříž)'
-    'Iceland (blue background, red cross), Faroe Islands (white background, red and blue cross)': 'Island (modré pozadí, červený kříž), Faerské ostrovy (bílé pozadí, červený a modrý kříž)'
-    Independent state claimed by Georgia.:
-      notes.note.abkhazia.fields.field.country-info: 'Nezávislý stát nárokováný Gruzií.'
-      notes.note.south-ossetia.fields.field.country-info: 'Nezávislý stát nárokovaný Gruzií.'
     Independent state claimed by Moldova.: 'Nezávislý stát nárokovaný Moldavskem.'
     Independent state claimed by Somalia.: 'Vzácně označovaný jako Somálijsko, nezávislý stát nárokovaný Somálskem.'
     India: Indie
     Indian Ocean: 'Indický oceán'
     Indonesia: 'Indonésie'
-    'Indonesia (white and red flipped, brighter red), Monaco (white and red flipped, narrower)': 'Indonésie (prohozená bílá a červená), Monako (prohozená bílá a červená, užší)'
-    'Indonesia (wider, brighter red), Poland (red and white flipped, wider)': 'Indonésie (širší, světlejší červená), Polsko (prohozená červená a bílá, širší)'
     Iran: 'Írán'
     Iraq: 'Irák'
-    'Iraq (text instead of emblem), Yemen (no emblem)': 'Irák (text místo emblému), Jemen (bez emblému)'
     Ireland: Irsko
-    'Ireland (orange and green flipped, wider)': 'Irsko (prohozená oranžová a zelená, širší)'
     Islamabad: 'Islámábád'
-    Island of Indonesia.:
-      notes.note.bali.fields.field.country-info: 'Indonéský ostrov.'
-      notes.note.java.fields.field.country-info: 'Indonéský ostrov.'
-      notes.note.sumatra.fields.field.country-info: 'Ostrov Indonésie.'
     Isle of Man: Man
     Israel: Izrael
     Italy: 'Itálie'
     Ivory Coast: 'Pobřeží slonoviny'
-    'Ivory Coast (green and orange flipped, narrower)': 'Pobřeží slonoviny (prohozená zelená a oranžová, užší)'
     Jamaica: Jamajka
     Japan: Japonsko
     Java: 'Jáva'
@@ -235,7 +196,6 @@ translations:
     Laayoune: 'Al-´Ajún'
     Labrador Sea: 'Labradorské moře'
     Latvia: 'Lotyšsko'
-    'Latvia (darker red, narrower white band)': 'Lotyšsko (tmavší červená, užší bílý pruh)'
     Lebanon: Libanon
     Liberia: 'Libérie'
     Libya: Libye
@@ -245,12 +205,10 @@ translations:
     Ljubljana: 'Lublaň'
     London: 'Londýn'
     Luxembourg: Lucembursko
-    'Luxembourg (lighter blue)': 'Lucembursko (světlejší modrá)'
     Luxembourg City: Lucemburk
     Macau: Macao
     Malaysia: Malajsie
     Maldives: Maledivy
-    'Mali (red and green flipped, slightly brighter green)': 'Mali (prohozená červená a zelená, mírně světlejší zelená)'
     'Malé': Male
     Manama: 'Manáma'
     Marshall Islands: Marshallovy ostrov
@@ -264,11 +222,6 @@ translations:
     Micronesia: 'Mikronésie'
     Mogadishu: 'Mogadišo'
     Moldova: Moldavsko
-    'Moldova (wider, coat of arms with eagle)': 'Moldavsko (širší, erb s orlem)'
-    Monaco:
-      notes.note.monaco.fields.field.capital: Monaco-Ville
-      notes.note.monaco.fields.field.country: Monako
-    'Monaco (narrower, darker red), Poland (red and white flipped, darker red)': 'Monaco (užší, tmavší červená), Polsko (prohozená červená a bílá, tmavší červená)'
     Mongolia: Mongolsko
     Montenegro: 'Černá Hora'
     Morocco: Maroko
@@ -276,17 +229,13 @@ translations:
     Mozambique: Mosambik
     Muscat: Maskat
     Namibia: Namibie
-    'Nauru (single star below yellow band)': 'Nauru (jen jedna hvězda pod žlutým pruhem)'
     'Nauru has no official capital; the Yaren District is the de facto capital.': 'Nauru nemá žádné oficiální hlavní město, okres Yaren je de facto hlavní město.'
     Naypyidaw: Neipyijto
     Nepal: 'Nepál'
     Netherlands: Nizozemsko
-    'Netherlands (darker blue)': 'Nizozemsko (tmavší modrá)'
     New Caledonia: 'Nová Kaledonie'
     New Delhi: 'Nové Dillí'
     New Zealand: 'Nový Zéland'
-    'New Zealand (red stars, two fewer stars)': 'Nový Zéland (červené hvězdy, o dvě hvězdy méně)'
-    'Nicaragua (different coat of arms, slightly lighter blue)': 'Nicaragua (jiný erb, mírně světlejší modrá)'
     Nicosia: 'Nikósie'
     Nigeria: 'Nigérie'
     North America: 'Severní Amerika'
@@ -298,7 +247,6 @@ translations:
     Northern Ireland: 'Severní Irsko'
     Northern Mariana Islands: 'Severní Mariany'
     Norway: Norsko
-    'Norway (red background, blue cross), Faroe Islands (white background, red and blue cross)': 'Norsko (červené pozadí, modrý a bílý kříž), Faerské ostrovy (bílé pozadí, červený a modrý kříž)'
     Norwegian Sea: 'Norské moře'
     Not a sovereign country: 'Nejedná se o suverénní stát'
     Nouakchott: 'Nuakšott'
@@ -310,25 +258,9 @@ translations:
     Officially Luxembourg.: ''
     Oman: 'Omán'
     Overseas department of France.: 'Zámořský department Francie.'
-    Overseas territory of France.:
-      notes.note.french-polynesia.fields.field.country-info: 'Zámořské území Francie.'
-      notes.note.new-caledonia.fields.field.country-info: 'Zámořské území Francie.'
-      notes.note.saint-martin.fields.field.country-info: 'Konstituční země Francie.'
-      notes.note.wallis-and-futuna.fields.field.country-info: 'Zámořské území Francie.'
-    Overseas territory of the United Kingdom.:
-      notes.note.akrotiri-and-dhekelia.fields.field.country-info: 'Zámořské území Velké Británie.'
-      notes.note.anguilla.fields.field.country-info: 'Zámořské území Velké Británie s autonomní správou.'
-      notes.note.bermuda.fields.field.country-info: 'Zámořské území Velké Británie.'
-      notes.note.british-virgin-islands.fields.field.country-info: 'Zámořské území Velké Británie.'
-      notes.note.cayman-islands.fields.field.country-info: 'Zámořské území Velké Británie.'
-      notes.note.falkland-islands.fields.field.country-info: 'Zámořské území Velké Británie.'
-      notes.note.gibraltar.fields.field.country-info: 'Zámořské území Velké Británie.'
-      notes.note.turks-and-caicos-islands.fields.field.country-info: 'Zámořské území Velké Británie.'
     Pacific Ocean: 'Tichý oceán'
     Pakistan: 'Pákistán'
     Palestine: 'Stát Palestina'
-    'Palestine (black/white/green, red arrow)': 'Stát Palestina (černá/bílá/zelená, červená šipka)'
-    'Palestine (no symbol)': 'Stát Palestina (bez symbol)'
     Panama City: 'Panamá'
     Papua New Guinea: 'Papua Nová Guinea'
     Paris: 'Paříž'
@@ -347,19 +279,15 @@ translations:
     Pretoria, Cape Town, Bloemfontein: 'Pretorie, Kapské Město, Bloemfontein'
     Pristina: 'Priština'
     Puerto Rico: Portoriko
-    'Puerto Rico (blue triangle, red stripes)': 'Puerto Rico (modrá šipka, červené pruhy)'
     Pyongyang: Pchjongjang
     Qatar: Katar
-    'Qatar (wider, more serrated edges, maroon)': 'Katar (širší, větší počet zoubků, tmavší červená)'
     Red Sea: 'Rudé moře'
     Region of France.: Region Francie.
     Republic of the Congo: 'Konžská republika'
     Riyadh: 'Rijád'
     Romania: Rumunsko
-    'Romania (slightly lighter blue)': 'Rumunsko (mírně světlejší modrá)'
     Rome: 'Řím'
     Russia: Rusko
-    'Russia (no coat of arms), Slovenia (wider, smaller coat of arms)': 'Rusko (bez erbu), Slovinsko (širší, menší erb)'
     Sahrawi Arab Democratic Republic: 'Saharská arabská demokratická republika'
     Saint Kitts and Nevis: 'Svatý Kryštof a Nevis'
     Saint Lucia: 'Svatá Lucie'
@@ -375,7 +303,6 @@ translations:
     Sea of Japan: 'Japonské moře'
     Sea of Okhotsk: 'Ochotské moře'
     Semi-autonomous region of Tanzania.: 'Částečně autonomní region Tanzanie.'
-    'Senegal (green/yellow/red, green star)': 'Senegal (zelená/žlutá/červená, zelená hvězda)'
     Seoul: Soul
     Serbia: Srbsko
     Seychelles: Seychely
@@ -383,8 +310,6 @@ translations:
     Singapore: Singapur
     Sint Maarten: 'Svatý Martin (nizozemská část)'
     Slovakia: Slovensko
-    'Slovakia (narrower, bigger coat of arms)': 'Slovensko (užší, větší erb)'
-    'Slovakia (with coat of arms)': 'Slovensko (s erbem)'
     Slovenia: Slovinsko
     Sofia: Sofie
     Solomon Islands: 'Šalomounovy ostrovy'
@@ -411,7 +336,6 @@ translations:
     Subregion of Oceania comprising thousands of small islands in the western Pacific Ocean.: 'Subregion Oceánie zahrnjící tisíce malých ostrovů v západním Pacifiku.'
     Subregion of Oceania, which includes Vanuatu, the Solomon Islands, Fiji, and Papua New Guinea.: 'Subregion Oceánie zahrnující Vanuatu, Šalomounovy ostrovy, Fidži a Papua Novou Guineu.'
     Sudan: 'Súdán'
-    'Sudan (red/white/black, green arrow), Sahrawi Arab Democratic Republic (with star and crescent)': 'Súdán (červená/bílá/černá, zelená šipka), Saharská arabská demokratická republika (s hvězdou a půlměsícem)'
     Sukhumi: Suchumi
     Suriname: Surinam
     Svalbard: 'Špicberky'
@@ -469,8 +393,320 @@ translations:
     Yerevan: Jerevan
     Zagreb: 'Záhřeb'
     Zambia: Zambie
+    black/white/green, red arrow: 'černá/bílá/zelená, červená šipka'
+    blue background, red and white cross: 'modré pozadí, červený a bílý kříž'
+    blue background, red cross: 'modré pozadí, červený kříž'
+    blue triangle, red stripes: 'modrá šipka, červené pruhy'
+    brighter red, wider white band: 'světlejší červená, širší bílý pruh'
+    coat of arms instead of star: 'erb místo hvězdy'
+    darker blue: 'tmavší modrá'
+    darker red, narrower white band: 'tmavší červená, užší bílý pruh'
+    different coat of arms, slightly darker blue: 'jiný erb, mírně tmavší modrá'
+    different coat of arms, slightly lighter blue: 'jiný erb, mírně světlejší modrá'
+    emblem instead of text: 'emblém místo textu'
+    green and orange flipped, narrower: 'prohozená zelená a oranžová, užší'
+    green and red flipped, slightly darker green: 'prohozená zelená a červená, mírně tmavší zelená'
+    green/red/yellow, yellow star: 'zelená/červená/žlutá, žlutá hvězda'
+    green/yellow/red, green star: 'zelená/žlutá/červená, zelená hvězda'
+    lighter blue: 'světlejší modrá'
+    narrower, bigger coat of arms: 'užší, větší erb'
+    narrower, coat of arms with motto: 'užší, erb s mottem'
+    narrower, darker red: 'užší, tmavší červená'
+    narrower, fewer serrated edges, red: 'užší, méně zoubků, červená'
+    no coat of arms: bez erbu
+    no emblem: 'bez emblému'
+    no symbol: bez symbol
+    no text: bez textu
+    orange and green flipped, wider: 'prohozená oranžová a zelená, širší'
+    red and green flipped, slightly brighter green: 'prohozená červená a zelená, mírně světlejší zelená'
+    red and white flipped, darker red: 'prohozená červená a bílá, tmavší červená'
+    red and white flipped, wider: 'prohozená červená a bílá, širší'
+    red background, blue and white cross: 'červené pozadí, modrý a bílý kříž'
+    red background, blue cross: 'červené pozadí, modrý a bílý kříž'
+    red stars, two fewer stars: 'červené hvězdy, o dvě hvězdy méně'
+    red triangle, blue stripes: 'červená šipka, modré pruhy'
+    red/white/black, green arrow: 'červená/bílá/černá, zelená šipka'
+    single star below yellow band: 'jen jedna hvězda pod žlutým pruhem'
+    slightly darker blue: 'mírně tmavší modrá'
+    slightly lighter blue: 'mírně světlejší modrá'
+    star instead of coat of arms: 'hvězda místo erbu'
+    text instead of emblem: 'text místo emblému'
+    two stars in top-left corner: 'dvě hvězdy v levém horním rohu'
+    white and red flipped, brighter red: 'prohozená bílá a červená'
+    white and red flipped, narrower: 'prohozená bílá a červená, užší'
+    white background, red and blue cross: 'bílé pozadí, červený a modrý kříž'
+    white stars, two more stars: 'bílé hvězdy, o dvě hvězdy více'
+    wider, brighter red: 'širší, světlejší červená'
+    wider, coat of arms with eagle: 'širší, erb s orlem'
+    wider, more serrated edges, maroon: 'širší, větší počet zoubků, tmavší červená'
+    wider, smaller coat of arms: 'širší, menší erb'
+    with coat of arms: s erbem
+    with emblem: 'má emblém'
+    with star and crescent: 's hvězdou a půlměsícem'
+    with text: 'má text'
     'Åland Islands': Alandy
-  additions:
+  contextual:
+    notes.note:
+      abkhazia:
+        Independent state claimed by Georgia.: 'Nezávislý stát nárokováný Gruzií.'
+      akrotiri-and-dhekelia:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      anguilla:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie s autonomní správou.'
+      azores:
+        Autonomous region of Portugal.: 'Autonomní území Portugalska.'
+      bali:
+        Island of Indonesia.: 'Indonéský ostrov.'
+      bermuda:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      british-virgin-islands:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      cayman-islands:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      cuba.fields.field.flag-similarity.message.variables.country_1:
+        Puerto Rico: Puerto Rico
+      djibouti:
+        Djibouti: 'Džibutsko'
+      djibouti.fields.field.capital:
+        Djibouti: 'Džibuti'
+      falkland-islands:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      faroe-islands:
+        Constituent country in the Kingdom of Denmark.: 'Konstituční země Dánského království.'
+      french-polynesia:
+        Overseas territory of France.: 'Zámořské území Francie.'
+      gibraltar:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      greenland:
+        Constituent country in the Kingdom of Denmark.: 'Autonomní součást Dánského království.'
+      iraq.fields.field.flag-similarity.message.variables.country_2:
+        Yemen: Yemen
+      java:
+        Island of Indonesia.: 'Indonéský ostrov.'
+      madeira:
+        Autonomous region of Portugal.: 'Autonomní region Portugalska.'
+      monaco:
+        Monaco: Monako
+      monaco.fields.field.capital:
+        Monaco: Monaco-Ville
+      new-caledonia:
+        Overseas territory of France.: 'Zámořské území Francie.'
+      poland.fields.field.flag-similarity.message.variables.country_2:
+        Monaco: Monako
+      saint-martin:
+        Overseas territory of France.: 'Konstituční země Francie.'
+      south-ossetia:
+        Independent state claimed by Georgia.: 'Nezávislý stát nárokovaný Gruzií.'
+      sumatra:
+        Island of Indonesia.: 'Ostrov Indonésie.'
+      turks-and-caicos-islands:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      wallis-and-futuna:
+        Overseas territory of France.: 'Zámořské území Francie.'
+  no_change:
+    - Abuja
+    - Accra
+    - Alofi
+    - Amsterdam
+    - Andorra
+    - Andorra la Vella
+    - Angola
+    - Anguilla
+    - Ankara
+    - Antananarivo
+    - Apia
+    - Argentina
+    - Aruba
+    - Asmara
+    - Astana
+    - 'Asunción'
+    - Avarua
+    - Baku
+    - Bali
+    - Bamako
+    - Bandar Seri Begawan
+    - Bangkok
+    - Bangui
+    - Banjul
+    - Barbados
+    - Basseterre
+    - Belfast
+    - Belize
+    - Belmopan
+    - Benin
+    - Bermuda
+    - Bern
+    - Bissau
+    - 'Bogotá'
+    - Botswana
+    - Bougainville
+    - 'Brasília'
+    - Bratislava
+    - Brazzaville
+    - Bridgetown
+    - Buenos Aires
+    - Burkina Faso
+    - Burundi
+    - Canberra
+    - Caracas
+    - Cardiff
+    - Castries
+    - Charlotte Amalie
+    - Chile
+    - Ciudad de la Paz
+    - Conakry
+    - 'Curaçao'
+    - Dakar
+    - Dili
+    - Dodoma
+    - Dublin
+    - Edinburgh
+    - Egypt
+    - Eritrea
+    - Freetown
+    - Funafuti
+    - Gabon
+    - Gaborone
+    - Georgetown
+    - Ghana
+    - Gibraltar
+    - Gitega
+    - Grenada
+    - Guadeloupe
+    - Guam
+    - Guatemala
+    - Guernsey
+    - Guinea
+    - Guinea-Bissau
+    - Guyana
+    - 'Hagåtña'
+    - Haiti
+    - Harare
+    - Havana
+    - Honduras
+    - Honiara
+    - Jakarta
+    - Jersey
+    - Kampala
+    - Kigali
+    - Kingston
+    - Kingstown
+    - Kinshasa
+    - Kiribati
+    - Kosovo
+    - Kuala Lumpur
+    - Laos
+    - Lesotho
+    - Libreville
+    - Lilongwe
+    - Lima
+    - 'Lomé'
+    - Luanda
+    - Lusaka
+    - Madagascar
+    - Madeira
+    - Madrid
+    - Majuro
+    - Malawi
+    - Mali
+    - Malta
+    - Managua
+    - Manila
+    - Maputo
+    - Mariehamn
+    - Maseru
+    - Mayotte
+    - Mbabane
+    - Minsk
+    - Monaco
+    - Monrovia
+    - Montevideo
+    - Moroni
+    - Myanmar
+    - 'N''Djamena'
+    - Nairobi
+    - Nassau
+    - Nauru
+    - Ngerulmud
+    - Niamey
+    - Nicaragua
+    - Niger
+    - Niue
+    - 'Nouméa'
+    - 'Nukuʻalofa'
+    - Nuuk
+    - Oranjestad
+    - Oslo
+    - Ottawa
+    - Ouagadougou
+    - Palau
+    - Palikir
+    - Panama
+    - Papeete
+    - Paraguay
+    - Paramaribo
+    - Peru
+    - Podgorica
+    - Port Louis
+    - Port Moresby
+    - Port Vila
+    - Port of Spain
+    - Port-au-Prince
+    - Praia
+    - Quito
+    - Rabat
+    - 'Reykjavík'
+    - Riga
+    - Roseau
+    - Rwanda
+    - 'Réunion'
+    - Samoa
+    - 'San José'
+    - San Juan
+    - San Marino
+    - San Salvador
+    - Santo Domingo
+    - Sarajevo
+    - Senegal
+    - Sierra Leone
+    - Skopje
+    - Somaliland
+    - Stockholm
+    - Sucre
+    - Sumatra
+    - Suva
+    - 'São Tomé'
+    - Tallinn
+    - Tbilisi
+    - Tegucigalpa
+    - Tirana
+    - Tiraspol
+    - Togo
+    - Tonga
+    - Tunis
+    - Tuvalu
+    - 'Tórshavn'
+    - Uganda
+    - Uruguay
+    - Vaduz
+    - Valletta
+    - Vanuatu
+    - Venezuela
+    - Victoria
+    - Vientiane
+    - Vietnam
+    - Vilnius
+    - Wales
+    - Washington, D.C.
+    - Wellington
+    - Willemstad
+    - Windhoek
+    - Yamoussoukro
+    - 'Yaoundé'
+    - Yaren
+    - Zanzibar
+    - Zimbabwe
+  target_additions:
     notes.note.pacific-ocean.fields.field.country-info: 'Známý též jako Pacifik.'
     notes.note.united-kingdom.fields.field.country-info: 'Známé též jako Velká Británie.'
   variables:

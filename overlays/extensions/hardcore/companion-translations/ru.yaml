@@ -1,108 +1,97 @@
 id: overlay.translation.hardcore.companion.ru
 kind: translation
 translations:
-  changes:
-    American Samoa:
-      notes.note.hardcore-american-samoa.fields.field.country: 'Американское Самоа'
-    Anguilla:
-      notes.note.hardcore-anguilla.fields.field.country: 'Ангилья'
-    Autonomous community of Spain.:
-      notes.note.hardcore-canary-islands.fields.field.country-info: 'Автономная община Испании.'
-    Autonomous region of Italy.:
-      notes.note.hardcore-sardinia.fields.field.country-info: 'Автономная область Италии.'
-      notes.note.hardcore-sicily.fields.field.country-info: 'Автономный регион Италии.'
-    Autonomous region of Portugal.:
-      notes.note.hardcore-azores.fields.field.country-info: 'Автономная область Португалии.'
-      notes.note.hardcore-madeira.fields.field.country-info: 'Автономная область Португалии.'
-    Azores:
-      notes.note.hardcore-azores.fields.field.country: 'Азорские острова'
-    Bali:
-      notes.note.hardcore-bali.fields.field.country: 'Бали'
-    Bermuda:
-      notes.note.hardcore-bermuda.fields.field.country: 'Бермудские Острова'
-    British Virgin Islands:
-      notes.note.hardcore-british-virgin-islands.fields.field.country: 'Британские Виргинские Острова'
-    Canary Islands:
-      notes.note.hardcore-canary-islands.fields.field.country: 'Канарские Острова'
-    Cayman Islands:
-      notes.note.hardcore-cayman-islands.fields.field.country: 'Каймановы острова'
-    Constituent country of the Kingdom of the Netherlands.:
-      notes.note.hardcore-sint-maarten.fields.field.country-info: 'Страна, входящая в состав Королевства Нидерландов.'
-    Corsica:
-      notes.note.hardcore-corsica.fields.field.country: 'Корсика'
-    Crown dependency of the United Kingdom.:
-      notes.note.hardcore-guernsey.fields.field.country-info: 'Зависимость короны от Соединенного Королевства.'
-      notes.note.hardcore-isle-of-man.fields.field.country-info: 'Зависимость Соединенного Королевства от короны.'
-      notes.note.hardcore-jersey.fields.field.country-info: 'Зависимость Соединенного Королевства от короны.'
-    Falkland Islands:
-      notes.note.hardcore-falkland-islands.fields.field.country: 'Фолклендские острова'
-    French Guiana:
-      notes.note.hardcore-french-guiana.fields.field.country: 'Французская Гвиана'
-    Gibraltar:
-      notes.note.hardcore-gibraltar.fields.field.country: 'Гибралтар'
-    Guadeloupe:
-      notes.note.hardcore-guadeloupe.fields.field.country: 'Гваделупа'
-    Guernsey:
-      notes.note.hardcore-guernsey.fields.field.country: 'Гернси'
-    Island of Indonesia.:
-      notes.note.hardcore-bali.fields.field.country-info: 'Остров Индонезии.'
-    Isle of Man:
-      notes.note.hardcore-isle-of-man.fields.field.country: 'Остров Мэн'
-    Jersey:
-      notes.note.hardcore-jersey.fields.field.country: 'Джерси'
-    Kaliningrad Oblast:
-      notes.note.hardcore-kaliningrad-oblast.fields.field.country: 'Калининградская область'
-    Kingston:
-      notes.note.norfolk-island.fields.field.capital: 'Кингстон'
-    Madeira:
-      notes.note.hardcore-madeira.fields.field.country: 'Мадейра'
-    Martinique:
-      notes.note.hardcore-martinique.fields.field.country: 'Мартиника'
-    Mayotte:
-      notes.note.hardcore-mayotte.fields.field.country: 'Майотта'
-    Northern Mariana Islands:
-      notes.note.hardcore-northern-mariana-islands.fields.field.country: 'Северные Марианские Острова'
-    Not a sovereign country:
-      notes.note.norfolk-island.fields.field.capital-hint: 'Не суверенная страна'
-    'Oblast (administrative region) of the Russian Federation.':
-      notes.note.hardcore-kaliningrad-oblast.fields.field.country-info: 'Область (административный район) Российской Федерации.'
-    Oranjestad:
-      notes.note.sint-eustatius.fields.field.capital: 'Ораньестад'
-    Overseas department of France.:
-      notes.note.hardcore-french-guiana.fields.field.country-info: 'Заморский департамент Франции.'
-      notes.note.hardcore-guadeloupe.fields.field.country-info: 'Заморский департамент Франции.'
-      notes.note.hardcore-martinique.fields.field.country-info: 'Заморский департамент Франции.'
-      notes.note.hardcore-mayotte.fields.field.country-info: 'Заморский департамент Франции.'
-      notes.note.hardcore-r-union.fields.field.country-info: 'Заморский департамент Франции.'
-    Overseas territory of France.:
-      notes.note.hardcore-saint-martin.fields.field.country-info: 'Заморская территория Франции.'
-      notes.note.saint-barth-lemy.fields.field.country-info: 'Заморская территория Франции.'
-    Overseas territory of the United Kingdom.:
-      notes.note.hardcore-anguilla.fields.field.country-info: 'Заморская территория Соединенного Королевства.'
-      notes.note.hardcore-bermuda.fields.field.country-info: 'Заморская территория Соединенного Королевства.'
-      notes.note.hardcore-british-virgin-islands.fields.field.country-info: 'Заморская территория Великобритании.'
-      notes.note.hardcore-cayman-islands.fields.field.country-info: 'Заморская территория Соединенного Королевства.'
-      notes.note.hardcore-falkland-islands.fields.field.country-info: 'Зарубежная территория Великобритании.'
-      notes.note.hardcore-gibraltar.fields.field.country-info: 'Заморская территория Великобритании.'
-      notes.note.hardcore-turks-and-caicos-islands.fields.field.country-info: 'Заморская территория Соединенного Королевства.'
-    Region of France.:
-      notes.note.hardcore-corsica.fields.field.country-info: 'Область Франции.'
-    'Réunion':
-      notes.note.hardcore-r-union.fields.field.country: 'Реюньон'
-    Saint Martin:
-      notes.note.hardcore-saint-martin.fields.field.country: 'Сен-Мартен'
-    Sardinia:
-      notes.note.hardcore-sardinia.fields.field.country: 'Сардиния'
-    Semi-autonomous region of Tanzania.:
-      notes.note.hardcore-zanzibar.fields.field.country-info: 'Полуавтономный регион Танзании.'
-    Sicily:
-      notes.note.hardcore-sicily.fields.field.country: 'Сицилия'
-    Sint Maarten:
-      notes.note.hardcore-sint-maarten.fields.field.country: 'Синт-Мартен'
-    Turks and Caicos Islands:
-      notes.note.hardcore-turks-and-caicos-islands.fields.field.country: 'Острова Теркс и Кайкос'
-    Unincorporated territory of the United States.:
-      notes.note.hardcore-american-samoa.fields.field.country-info: 'Неинкорпорированная территория Соединенных Штатов.'
-      notes.note.hardcore-northern-mariana-islands.fields.field.country-info: 'Неинкорпорированная территория Соединенных Штатов.'
-    Zanzibar:
-      notes.note.hardcore-zanzibar.fields.field.country: 'Занзибар'
+  contextual:
+    notes.note:
+      hardcore-american-samoa:
+        American Samoa: 'Американское Самоа'
+        Unincorporated territory of the United States.: 'Неинкорпорированная территория Соединенных Штатов.'
+      hardcore-anguilla:
+        Anguilla: 'Ангилья'
+        Overseas territory of the United Kingdom.: 'Заморская территория Соединенного Королевства.'
+      hardcore-azores:
+        Autonomous region of Portugal.: 'Автономная область Португалии.'
+        Azores: 'Азорские острова'
+      hardcore-bali:
+        Bali: 'Бали'
+        Island of Indonesia.: 'Остров Индонезии.'
+      hardcore-bermuda:
+        Bermuda: 'Бермудские Острова'
+        Overseas territory of the United Kingdom.: 'Заморская территория Соединенного Королевства.'
+      hardcore-british-virgin-islands:
+        British Virgin Islands: 'Британские Виргинские Острова'
+        Overseas territory of the United Kingdom.: 'Заморская территория Великобритании.'
+      hardcore-canary-islands:
+        Autonomous community of Spain.: 'Автономная община Испании.'
+        Canary Islands: 'Канарские Острова'
+      hardcore-cayman-islands:
+        Cayman Islands: 'Каймановы острова'
+        Overseas territory of the United Kingdom.: 'Заморская территория Соединенного Королевства.'
+      hardcore-corsica:
+        Corsica: 'Корсика'
+        Region of France.: 'Область Франции.'
+      hardcore-falkland-islands:
+        Falkland Islands: 'Фолклендские острова'
+        Overseas territory of the United Kingdom.: 'Зарубежная территория Великобритании.'
+      hardcore-french-guiana:
+        French Guiana: 'Французская Гвиана'
+        Overseas department of France.: 'Заморский департамент Франции.'
+      hardcore-gibraltar:
+        Overseas territory of the United Kingdom.: 'Заморская территория Великобритании.'
+      hardcore-gibraltar.fields.field.country:
+        Gibraltar: 'Гибралтар'
+      hardcore-guadeloupe:
+        Guadeloupe: 'Гваделупа'
+        Overseas department of France.: 'Заморский департамент Франции.'
+      hardcore-guernsey:
+        Crown dependency of the United Kingdom.: 'Зависимость короны от Соединенного Королевства.'
+        Guernsey: 'Гернси'
+      hardcore-isle-of-man:
+        Crown dependency of the United Kingdom.: 'Зависимость Соединенного Королевства от короны.'
+        Isle of Man: 'Остров Мэн'
+      hardcore-jersey:
+        Crown dependency of the United Kingdom.: 'Зависимость Соединенного Королевства от короны.'
+        Jersey: 'Джерси'
+      hardcore-kaliningrad-oblast:
+        Kaliningrad Oblast: 'Калининградская область'
+        'Oblast (administrative region) of the Russian Federation.': 'Область (административный район) Российской Федерации.'
+      hardcore-madeira:
+        Autonomous region of Portugal.: 'Автономная область Португалии.'
+        Madeira: 'Мадейра'
+      hardcore-martinique:
+        Martinique: 'Мартиника'
+        Overseas department of France.: 'Заморский департамент Франции.'
+      hardcore-mayotte:
+        Mayotte: 'Майотта'
+        Overseas department of France.: 'Заморский департамент Франции.'
+      hardcore-northern-mariana-islands:
+        Northern Mariana Islands: 'Северные Марианские Острова'
+        Unincorporated territory of the United States.: 'Неинкорпорированная территория Соединенных Штатов.'
+      hardcore-r-union:
+        Overseas department of France.: 'Заморский департамент Франции.'
+        'Réunion': 'Реюньон'
+      hardcore-saint-martin:
+        Overseas territory of France.: 'Заморская территория Франции.'
+        Saint Martin: 'Сен-Мартен'
+      hardcore-sardinia:
+        Autonomous region of Italy.: 'Автономная область Италии.'
+        Sardinia: 'Сардиния'
+      hardcore-sicily:
+        Autonomous region of Italy.: 'Автономный регион Италии.'
+        Sicily: 'Сицилия'
+      hardcore-sint-maarten:
+        Constituent country of the Kingdom of the Netherlands.: 'Страна, входящая в состав Королевства Нидерландов.'
+        Sint Maarten: 'Синт-Мартен'
+      hardcore-turks-and-caicos-islands:
+        Overseas territory of the United Kingdom.: 'Заморская территория Соединенного Королевства.'
+        Turks and Caicos Islands: 'Острова Теркс и Кайкос'
+      hardcore-zanzibar:
+        Semi-autonomous region of Tanzania.: 'Полуавтономный регион Танзании.'
+        Zanzibar: 'Занзибар'
+      norfolk-island:
+        Kingston: 'Кингстон'
+        Not a sovereign country: 'Не суверенная страна'
+      saint-barth-lemy:
+        Overseas territory of France.: 'Заморская территория Франции.'
+      sint-eustatius:
+        Oranjestad: 'Ораньестад'

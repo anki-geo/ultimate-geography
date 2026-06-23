@@ -1,73 +1,75 @@
 id: overlay.translation.hardcore.companion.nb
 kind: translation
 translations:
-  changes:
-    American Samoa:
-      notes.note.hardcore-american-samoa.fields.field.country: Amerikansk Samoa
-    Autonomous community of Spain.:
-      notes.note.hardcore-canary-islands.fields.field.country-info: 'Selvstyrt område i Spania.'
-    Autonomous region of Italy.:
-      notes.note.hardcore-sardinia.fields.field.country-info: Delvis selvstyrt region i Italia.
-      notes.note.hardcore-sicily.fields.field.country-info: Delvis selvstyrt region i Italia.
-    Autonomous region of Portugal.:
-      notes.note.hardcore-azores.fields.field.country-info: Selvstyrt region i Portugal.
-      notes.note.hardcore-madeira.fields.field.country-info: Selvstyrt region i Portugal.
-    Azores:
-      notes.note.hardcore-azores.fields.field.country: Asorene
-    British Virgin Islands:
-      notes.note.hardcore-british-virgin-islands.fields.field.country: 'De britiske Jomfruøyer'
-    Canary Islands:
-      notes.note.hardcore-canary-islands.fields.field.country: 'Kanariøyene'
-    Cayman Islands:
-      notes.note.hardcore-cayman-islands.fields.field.country: 'Caymanøyene'
-    Constituent country of the Kingdom of the Netherlands.:
-      notes.note.hardcore-sint-maarten.fields.field.country-info: '«Land» som sammen med Nederland, Curaçao og Aruba utgjør føderasjonen Kongeriket Nederlandene.'
-    Corsica:
-      notes.note.hardcore-corsica.fields.field.country: Korsika
-    Crown dependency of the United Kingdom.:
-      notes.note.hardcore-guernsey.fields.field.country-info: 'Kanaløy underlagt britisk kronbesittelse.'
-      notes.note.hardcore-isle-of-man.fields.field.country-info: 'Også kalt Isle of Man. Kanaløy underlagt britisk kronbesittelse. Hverken del av Storbritannia eller EU.'
-      notes.note.hardcore-jersey.fields.field.country-info: 'Kanaløy underlagt britisk kronbesittelse.'
-    Falkland Islands:
-      notes.note.hardcore-falkland-islands.fields.field.country: 'Falklandsøyene'
-    French Guiana:
-      notes.note.hardcore-french-guiana.fields.field.country: Fransk Guyana
-    Island of Indonesia.:
-      notes.note.hardcore-bali.fields.field.country-info: 'Øy i Indonesia.'
-    Isle of Man:
-      notes.note.hardcore-isle-of-man.fields.field.country: Man
-    Kaliningrad Oblast:
-      notes.note.hardcore-kaliningrad-oblast.fields.field.country: Kaliningrad oblast
-    Northern Mariana Islands:
-      notes.note.hardcore-northern-mariana-islands.fields.field.country: Nord-Marianene
-    'Oblast (administrative region) of the Russian Federation.':
-      notes.note.hardcore-kaliningrad-oblast.fields.field.country-info: 'Oblast (administrativt distrikt) i Russland.'
-    Overseas department of France.:
-      notes.note.hardcore-french-guiana.fields.field.country-info: 'Fransk oversjøisk departement og del av EU.'
-      notes.note.hardcore-guadeloupe.fields.field.country-info: 'Fransk oversjøisk departement.'
-      notes.note.hardcore-martinique.fields.field.country-info: 'Fransk oversjøisk departement.'
-      notes.note.hardcore-mayotte.fields.field.country-info: 'Fransk oversjøisk territorium.'
-      notes.note.hardcore-r-union.fields.field.country-info: 'Fransk oversjøisk departement.'
-    Overseas territory of France.:
-      notes.note.hardcore-saint-martin.fields.field.country-info: 'Fransk oversjøisk land.'
-    Overseas territory of the United Kingdom.:
-      notes.note.hardcore-anguilla.fields.field.country-info: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
-      notes.note.hardcore-bermuda.fields.field.country-info: 'Selvstyrt britisk oversjøisk territorium.'
-      notes.note.hardcore-british-virgin-islands.fields.field.country-info: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
-      notes.note.hardcore-cayman-islands.fields.field.country-info: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
-      notes.note.hardcore-falkland-islands.fields.field.country-info: 'Britisk øygruppe.'
-      notes.note.hardcore-gibraltar.fields.field.country-info: Britisk kronkoloni.
-      notes.note.hardcore-turks-and-caicos-islands.fields.field.country-info: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
-    Region of France.:
-      notes.note.hardcore-corsica.fields.field.country-info: Fransk region.
-    Saint Martin:
-      notes.note.hardcore-saint-martin.fields.field.country: Saint-Martin
-    Semi-autonomous region of Tanzania.:
-      notes.note.hardcore-zanzibar.fields.field.country-info: Delvis selvstendig stat i Tanzania.
-    Sicily:
-      notes.note.hardcore-sicily.fields.field.country: Sicilia
-    Turks and Caicos Islands:
-      notes.note.hardcore-turks-and-caicos-islands.fields.field.country: 'Turks- og Caicosøyene'
-    Unincorporated territory of the United States.:
-      notes.note.hardcore-american-samoa.fields.field.country-info: Uinnlemmet territorium i USA.
-      notes.note.hardcore-northern-mariana-islands.fields.field.country-info: Uinnlemmet territorium i USA.
+  contextual:
+    notes.note:
+      hardcore-american-samoa:
+        American Samoa: Amerikansk Samoa
+        Unincorporated territory of the United States.: Uinnlemmet territorium i USA.
+      hardcore-anguilla:
+        Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
+      hardcore-azores:
+        Autonomous region of Portugal.: Selvstyrt region i Portugal.
+        Azores: Asorene
+      hardcore-bali:
+        Island of Indonesia.: 'Øy i Indonesia.'
+      hardcore-bermuda:
+        Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium.'
+      hardcore-british-virgin-islands:
+        British Virgin Islands: 'De britiske Jomfruøyer'
+        Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
+      hardcore-canary-islands:
+        Autonomous community of Spain.: 'Selvstyrt område i Spania.'
+        Canary Islands: 'Kanariøyene'
+      hardcore-cayman-islands:
+        Cayman Islands: 'Caymanøyene'
+        Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
+      hardcore-corsica:
+        Corsica: Korsika
+        Region of France.: Fransk region.
+      hardcore-falkland-islands:
+        Falkland Islands: 'Falklandsøyene'
+        Overseas territory of the United Kingdom.: 'Britisk øygruppe.'
+      hardcore-french-guiana:
+        French Guiana: Fransk Guyana
+        Overseas department of France.: 'Fransk oversjøisk departement og del av EU.'
+      hardcore-gibraltar:
+        Overseas territory of the United Kingdom.: Britisk kronkoloni.
+      hardcore-guadeloupe:
+        Overseas department of France.: 'Fransk oversjøisk departement.'
+      hardcore-guernsey:
+        Crown dependency of the United Kingdom.: 'Kanaløy underlagt britisk kronbesittelse.'
+      hardcore-isle-of-man:
+        Crown dependency of the United Kingdom.: 'Også kalt Isle of Man. Kanaløy underlagt britisk kronbesittelse. Hverken del av Storbritannia eller EU.'
+        Isle of Man: Man
+      hardcore-jersey:
+        Crown dependency of the United Kingdom.: 'Kanaløy underlagt britisk kronbesittelse.'
+      hardcore-kaliningrad-oblast:
+        Kaliningrad Oblast: Kaliningrad oblast
+        'Oblast (administrative region) of the Russian Federation.': 'Oblast (administrativt distrikt) i Russland.'
+      hardcore-madeira:
+        Autonomous region of Portugal.: Selvstyrt region i Portugal.
+      hardcore-martinique:
+        Overseas department of France.: 'Fransk oversjøisk departement.'
+      hardcore-mayotte:
+        Overseas department of France.: 'Fransk oversjøisk territorium.'
+      hardcore-northern-mariana-islands:
+        Northern Mariana Islands: Nord-Marianene
+        Unincorporated territory of the United States.: Uinnlemmet territorium i USA.
+      hardcore-r-union:
+        Overseas department of France.: 'Fransk oversjøisk departement.'
+      hardcore-saint-martin:
+        Overseas territory of France.: 'Fransk oversjøisk land.'
+        Saint Martin: Saint-Martin
+      hardcore-sardinia:
+        Autonomous region of Italy.: Delvis selvstyrt region i Italia.
+      hardcore-sicily:
+        Autonomous region of Italy.: Delvis selvstyrt region i Italia.
+        Sicily: Sicilia
+      hardcore-sint-maarten:
+        Constituent country of the Kingdom of the Netherlands.: '«Land» som sammen med Nederland, Curaçao og Aruba utgjør føderasjonen Kongeriket Nederlandene.'
+      hardcore-turks-and-caicos-islands:
+        Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
+        Turks and Caicos Islands: 'Turks- og Caicosøyene'
+      hardcore-zanzibar:
+        Semi-autonomous region of Tanzania.: Delvis selvstendig stat i Tanzania.

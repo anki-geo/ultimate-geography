@@ -1,7 +1,7 @@
 id: overlay.translation.nl
 kind: translation
 translations:
-  changes:
+  direct:
     'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.': Er bestaat een dispuut over de naam tussen de aangrenzende landen. In het Koreaans wordt de zee Oostzee genoemd.
     Abkhazia: 'Abchazië'
     Addis Ababa: Addis Abeba
@@ -21,7 +21,6 @@ translations:
     Also known as the Sea of Cortez.: 'Ook wel de Zee van Cortés genoemd.'
     'Also spelled as Sana''a.': ''
     American Samoa: Amerikaans Samoa
-    'Andorra (narrower, coat of arms with motto)': 'Andorra (smaller, wapen met het motto)'
     Antigua and Barbuda: Antigua en Barbuda
     Arabian Sea: Arabische Zee
     Aral Sea: Aralmeer
@@ -33,9 +32,7 @@ translations:
     Athens: Athene
     Atlantic Ocean: Atlantische Oceaan
     Australia: 'Australië'
-    'Australia (white stars, two more stars)': 'Australië (witte sterren, twee sterren meer)'
     Austria: Oostenrijk
-    'Austria (brighter red, wider white band)': 'Oostenrijk (helderder rood, bredere witte band)'
     Autonomous community of Spain.: Autonome gemeenschap in Spanje.
     Autonomous province of South Korea.: Autonome provincie van Zuid-Korea.
     Autonomous region of Finland.: Autonome regio van Finland.
@@ -46,7 +43,6 @@ translations:
     Azores: Azoren
     Baghdad: Bagdad
     Bahrain: Bahrein
-    'Bahrain (narrower, fewer serrated edges, red)': 'Bahrein (smaller, minder gekartelde randen, rood)'
     Baku: Bakoe
     Balkan Peninsula: Balkan
     Baltic Sea: Oostzee
@@ -64,7 +60,6 @@ translations:
     Bishkek: Bisjkek
     Black Sea: Zwarte Zee
     'Bogotá': Bogota
-    'Bolivia (coat of arms instead of star)': 'Bolivia (wapen in plaats van ster)'
     Bosnia and Herzegovina: 'Bosnië en Herzegovina'
     'Brasília': Brasilia
     Brazil: 'Brazilië'
@@ -76,7 +71,6 @@ translations:
     Cairo: 'Caïro'
     Cambodia: Cambodja
     Cameroon: Kameroen
-    'Cameroon (green/red/yellow, yellow star)': 'Kameroen (groen/rood/geel, gele ster)'
     Canary Islands: Canarische Eilanden
     Cape Verde: 'Kaapverdië'
     Caribbean Sea: Caribische Zee
@@ -87,12 +81,10 @@ translations:
     Central African Republic: Centraal-Afrikaanse Republiek
     Cetinje is an honorary capital.: Voormalige hoofdstad is Cetinje.
     Chad: Tsjaad
-    'Chad (slightly darker blue)': 'Tsjaad (donkerder blauw)'
     Chile: Chili
     City of San Marino: San Marino
     Claimed and controlled: Geclaimd en gecontroleerd
     Claimed but not controlled: Geclaimd maar niet gecontroleerd
-    'Colombia (no coat of arms)': 'Colombia (geen wapen)'
     Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.: 'Colombo wordt vaak de hoofdstad genoemd, maar Sri Jayawardenapura Kotte, een buitenwijk van Colombo, is de officiële, wetgevende hoofdstad.'
     Comoros: Comoren
     Constituent country in the Kingdom of Denmark.: Autonoom gebied binnen het Koninkrijk Denemarken.
@@ -103,8 +95,6 @@ translations:
     Coral Sea: Koraalzee
     Croatia: 'Kroatië'
     Crown dependency of the United Kingdom.: Brits Kroonbezit.
-    'Cuba (red triangle, blue stripes)': 'Cuba (rode driehoek, blauwe strepen)'
-    'Curaçao (two stars in top-left corner)': 'Curaçao (twee sterren in de linkerbovenhoek)'
     Czech Republic: 'Tsjechië'
     Dead Sea: Dode Zee
     Democratic Republic of the Congo: Democratische Republiek Congo
@@ -116,11 +106,7 @@ translations:
     Dushanbe: Doesjanbe
     East China Sea: Oost-Chinese Zee
     East Siberian Sea: Oost-Siberische Zee
-    'Ecuador (with coat of arms)': 'Ecuador (met wapen)'
     Egypt: Egypte
-    'Egypt (emblem instead of text), Yemen (no text)': 'Egypte (embleem in plaats van tekst), Jemen (geen tekst)'
-    'Egypt (with emblem), Iraq (with text)': 'Egypte (met embleem), Irak (met tekst)'
-    'El Salvador (different coat of arms, slightly darker blue)': 'El Salvador (ander wapen, donkerder blauw)'
     England: Engeland
     English Channel: Het Kanaal
     Equatorial Guinea: Equatoriaal-Guinea
@@ -138,12 +124,10 @@ translations:
     French Polynesia: 'Frans-Polynesië'
     Georgia: 'Georgië'
     Germany: Duitsland
-    'Ghana (star instead of coat of arms)': 'Ghana (ster in plaats van wapen)'
     Greece: Griekenland
     Greenland: Groenland
     Guatemala City: Guatemala-Stad
     Guinea: Guinee
-    'Guinea (green and red flipped, slightly darker green)': 'Guinee (groen en rood omgekeerd, donkerder groen)'
     Guinea-Bissau: Guinee-Bissau
     Gulf of Alaska: Golf van Alaska
     Gulf of California: 'Golf van Californië'
@@ -158,25 +142,18 @@ translations:
     Hudson Bay: Hudsonbaai
     Hungary: Hongarije
     Iceland: IJsland
-    'Iceland (blue background, red and white cross), Norway (red background, blue and white cross)': 'IJsland (blauwe achtergrond, rood met wit kruis), Noorwegen (rode achtergrond, blauw met wit kruis)'
-    'Iceland (blue background, red cross), Faroe Islands (white background, red and blue cross)': 'IJsland (blauwe achtergrond, rood met wit kruis), Faeröer (witte achtergrond, rood/blauw kruis)'
     Independent state claimed by Georgia.: 'Onafhankelijke staat opgeëist door Georgië.'
     Independent state claimed by Moldova.: 'Onafhankelijke staat opgeëist door Moldavië.'
     Independent state claimed by Somalia.: 'Onafhankelijke staat opgeëist door Somalië.'
     Indian Ocean: Indische Oceaan
     Indonesia: 'Indonesië'
-    'Indonesia (white and red flipped, brighter red), Monaco (white and red flipped, narrower)': 'Indonesië (breder, helderder rood), Monaco (wit en rood omgekeerd, smaller)'
-    'Indonesia (wider, brighter red), Poland (red and white flipped, wider)': 'Indonesië (breder, helderder rood), Polen (rood en wit omgekeerd, breder)'
     Iraq: Irak
-    'Iraq (text instead of emblem), Yemen (no emblem)': 'Irak (tekst in plaats van embleem), Jemen (geen embleem)'
     Ireland: Ierland
-    'Ireland (orange and green flipped, wider)': 'Ierland (oranje en groen omgekeerd, breder)'
     Island of Indonesia.: 'Eiland van Indonesië.'
     Isle of Man: Man
     Israel: 'Israël'
     Italy: 'Italië'
     Ivory Coast: Ivoorkust
-    'Ivory Coast (green and orange flipped, narrower)': 'Ivoorkust (groen en oranje omgekeerd, smaller)'
     Jerusalem: Jeruzalem
     Jordan: 'Jordanië'
     Juba: Djoeba
@@ -193,19 +170,16 @@ translations:
     Laayoune: al-Ajoen
     Labrador Sea: Labradorzee
     Latvia: Letland
-    'Latvia (darker red, narrower white band)': 'Letland (donkerder rood, smallere witte band)'
     Lebanon: Libanon
     Libya: 'Libië'
     Lisbon: Lissabon
     Lithuania: Litouwen
     London: Londen
     Luxembourg: Luxemburg
-    'Luxembourg (lighter blue)': 'Luxemburg (lichter blauw)'
     Luxembourg City: Luxemburg
     Madagascar: Madagaskar
     Malaysia: 'Maleisië'
     Maldives: Malediven
-    'Mali (red and green flipped, slightly brighter green)': 'Mali (rood en groen omgekeerd, helderder groen)'
     Manila: Manilla
     Marshall Islands: Marshalleilanden
     Mauritania: 'Mauritanië'
@@ -214,22 +188,16 @@ translations:
     Mexico City: Mexico-Stad
     Micronesia: 'Micronesië'
     Moldova: 'Moldavië'
-    'Moldova (wider, coat of arms with eagle)': 'Moldavië (breder, wapen met adelaar)'
-    'Monaco (narrower, darker red), Poland (red and white flipped, darker red)': 'Monaco (smaller, donkerder rood), Polen (rood en wit omgekeerd, donkerder rood)'
     Mongolia: 'Mongolië'
     Morocco: Marokko
     Moscow: Moskou
     Muscat: Masqat
     'N''Djamena': Ndjamena
     Namibia: 'Namibië'
-    'Nauru (single star below yellow band)': 'Nauru (enkele ster onder de gele band)'
     'Nauru has no official capital; the Yaren District is the de facto capital.': 'Nauru heeft geen officiële hoofdstad; het Yaren-district is de de facto hoofdstad.'
     Netherlands: Nederland
-    'Netherlands (darker blue)': 'Nederland (donkerder blauw)'
     New Caledonia: 'Nieuw-Caledonië'
     New Zealand: Nieuw-Zeeland
-    'New Zealand (red stars, two fewer stars)': 'Nieuw-Zeeland (rode sterren, twee sterren minder)'
-    'Nicaragua (different coat of arms, slightly lighter blue)': 'Nicaragua (ander wapen, lichter blauw)'
     North America: Noord-Amerika
     North Korea: Noord-Korea
     North Macedonia: 'Noord-Macedonië'
@@ -239,7 +207,6 @@ translations:
     Northern Ireland: Noord-Ierland
     Northern Mariana Islands: Noordelijke Marianen
     Norway: Noorwegen
-    'Norway (red background, blue cross), Faroe Islands (white background, red and blue cross)': 'Noorwegen (rode achtergrond, blauw kruis), Faeröer (witte achtergrond, rood/blauw kruis)'
     Norwegian Sea: Noorse Zee
     Not a sovereign country: Geen soevereine staat
     'Oblast (administrative region) of the Russian Federation.': 'Oblast (administratieve regio) van de Russische Federatie.'
@@ -253,8 +220,6 @@ translations:
     Overseas territory of the United Kingdom.: Overzees land van het Verenigd Koninkrijk.
     Pacific Ocean: Stille Oceaan
     Palestine: Palestina
-    'Palestine (black/white/green, red arrow)': 'Palestina (zwart/wit/groen, rode pijl)'
-    'Palestine (no symbol)': 'Palestina (geen symbool)'
     Panama City: Panama-stad
     Papua New Guinea: Papoea-Nieuw-Guinea
     Paris: Parijs
@@ -268,17 +233,13 @@ translations:
     Polynesia: 'Polynesië'
     Prague: Praag
     Pretoria, Cape Town, Bloemfontein: Pretoria, Kaapstad, Bloemfontein
-    'Puerto Rico (blue triangle, red stripes)': 'Puerto Rico (blauwe driehoek, rode strepen)'
-    'Qatar (wider, more serrated edges, maroon)': 'Qatar (breder, meer gekartelde randen, kastanjebruin)'
     Red Sea: Rode Zee
     Region of France.: Franse regio.
     Republic of the Congo: Congo
     'Reykjavík': Reykjavik
     Riyadh: Riyad
     Romania: 'Roemenië'
-    'Romania (slightly lighter blue)': 'Roemenië (lichter blauw)'
     Russia: Rusland
-    'Russia (no coat of arms), Slovenia (wider, smaller coat of arms)': 'Rusland (geen wapen), Slovenië (breder, kleiner wapen)'
     Sahrawi Arab Democratic Republic: Sahrawi Arabische Democratische Republiek
     Saint Kitts and Nevis: Saint Kitts en Nevis
     Saint Martin: 'Sint-Maarten (Franse Antillen)'
@@ -291,15 +252,12 @@ translations:
     Sea of Japan: Japanse Zee
     Sea of Okhotsk: Zee van Ochotsk
     Semi-autonomous region of Tanzania.: Half-autonome regio van Tanzania.
-    'Senegal (green/yellow/red, green star)': 'Senegal (groen/geel/rood, groene ster)'
     Seoul: Seoel
     Serbia: 'Servië'
     Seychelles: Seychellen
     Sicily: 'Sicilië'
     Sint Maarten: 'Sint Maarten (Koninkrijk der Nederlanden)'
     Slovakia: Slowakije
-    'Slovakia (narrower, bigger coat of arms)': 'Slowakije (smaller, groter wapen)'
-    'Slovakia (with coat of arms)': 'Slowakije (met wapen)'
     Slovenia: 'Slovenië'
     Solomon Islands: Salomonseilanden
     Somalia: 'Somalië'
@@ -324,7 +282,6 @@ translations:
     Subregion of Oceania comprising thousands of small islands in the western Pacific Ocean.: 'Subregio van Oceanië met duizenden kleine eilanden in de westerse Stille Oceaan.'
     Subregion of Oceania, which includes Vanuatu, the Solomon Islands, Fiji, and Papua New Guinea.: 'Subregio van Oceanië, waaronder Vanuatu, de Salomonseilanden, Fiji en Papoea-Nieuw-Guinea.'
     Sudan: Soedan
-    'Sudan (red/white/black, green arrow), Sahrawi Arab Democratic Republic (with star and crescent)': 'Soedan (rood/wit/zwart, groene pijl), Sahrawi Arabische Democratische Republiek (met wassende maan en ster)'
     Sukhumi: Soechoemi
     Svalbard: Spitsbergen
     Sweden: Zweden
@@ -374,8 +331,331 @@ translations:
     Yellow Sea: Gele Zee
     Yemen: Jemen
     Yerevan: Jerevan
+    black/white/green, red arrow: zwart/wit/groen, rode pijl
+    blue background, red and white cross: blauwe achtergrond, rood met wit kruis
+    blue background, red cross: blauwe achtergrond, rood met wit kruis
+    blue triangle, red stripes: blauwe driehoek, rode strepen
+    brighter red, wider white band: helderder rood, bredere witte band
+    coat of arms instead of star: wapen in plaats van ster
+    darker blue: donkerder blauw
+    darker red, narrower white band: donkerder rood, smallere witte band
+    different coat of arms, slightly darker blue: ander wapen, donkerder blauw
+    different coat of arms, slightly lighter blue: ander wapen, lichter blauw
+    emblem instead of text: embleem in plaats van tekst
+    green and orange flipped, narrower: groen en oranje omgekeerd, smaller
+    green and red flipped, slightly darker green: groen en rood omgekeerd, donkerder groen
+    green/red/yellow, yellow star: groen/rood/geel, gele ster
+    green/yellow/red, green star: groen/geel/rood, groene ster
+    lighter blue: lichter blauw
+    narrower, bigger coat of arms: smaller, groter wapen
+    narrower, coat of arms with motto: smaller, wapen met het motto
+    narrower, darker red: smaller, donkerder rood
+    narrower, fewer serrated edges, red: smaller, minder gekartelde randen, rood
+    no coat of arms: geen wapen
+    no emblem: geen embleem
+    no symbol: geen symbool
+    no text: geen tekst
+    orange and green flipped, wider: oranje en groen omgekeerd, breder
+    red and green flipped, slightly brighter green: rood en groen omgekeerd, helderder groen
+    red and white flipped, darker red: rood en wit omgekeerd, donkerder rood
+    red and white flipped, wider: rood en wit omgekeerd, breder
+    red background, blue and white cross: rode achtergrond, blauw met wit kruis
+    red background, blue cross: rode achtergrond, blauw kruis
+    red stars, two fewer stars: rode sterren, twee sterren minder
+    red triangle, blue stripes: rode driehoek, blauwe strepen
+    red/white/black, green arrow: rood/wit/zwart, groene pijl
+    single star below yellow band: enkele ster onder de gele band
+    slightly darker blue: donkerder blauw
+    slightly lighter blue: lichter blauw
+    star instead of coat of arms: ster in plaats van wapen
+    text instead of emblem: tekst in plaats van embleem
+    two stars in top-left corner: twee sterren in de linkerbovenhoek
+    white and red flipped, brighter red: breder, helderder rood
+    white and red flipped, narrower: wit en rood omgekeerd, smaller
+    white background, red and blue cross: witte achtergrond, rood/blauw kruis
+    white stars, two more stars: witte sterren, twee sterren meer
+    wider, brighter red: breder, helderder rood
+    wider, coat of arms with eagle: breder, wapen met adelaar
+    wider, more serrated edges, maroon: breder, meer gekartelde randen, kastanjebruin
+    wider, smaller coat of arms: breder, kleiner wapen
+    with coat of arms: met wapen
+    with emblem: met embleem
+    with star and crescent: met wassende maan en ster
+    with text: met tekst
     'Åland Islands': 'Åland'
-  additions:
+  no_change:
+    - Abu Dhabi
+    - Abuja
+    - Accra
+    - Afghanistan
+    - Alaska
+    - Algiers
+    - Alofi
+    - Amman
+    - Amsterdam
+    - Andorra
+    - Andorra la Vella
+    - Angola
+    - Anguilla
+    - Ankara
+    - Antananarivo
+    - Antarctica
+    - Apia
+    - Aruba
+    - Asmara
+    - Astana
+    - 'Asunción'
+    - Avarua
+    - Bali
+    - Bamako
+    - Bandar Seri Begawan
+    - Bangkok
+    - Bangladesh
+    - Bangui
+    - Banjul
+    - Barbados
+    - Basseterre
+    - Belfast
+    - Belize
+    - Belmopan
+    - Benin
+    - Bermuda
+    - Bern
+    - Bhutan
+    - Bissau
+    - Bolivia
+    - Botswana
+    - Bougainville
+    - Bratislava
+    - Brazzaville
+    - Bridgetown
+    - Brunei
+    - Buenos Aires
+    - Burkina Faso
+    - Burundi
+    - Canada
+    - Canberra
+    - Caracas
+    - Cardiff
+    - Castries
+    - Charlotte Amalie
+    - China
+    - 'Chișinău'
+    - Ciudad de la Paz
+    - Colombia
+    - Conakry
+    - Corsica
+    - Costa Rica
+    - Cuba
+    - 'Curaçao'
+    - Cyprus
+    - Dakar
+    - Damascus
+    - Dhaka
+    - Dili
+    - Djibouti
+    - Dodoma
+    - Doha
+    - Dominica
+    - Dublin
+    - Ecuador
+    - Edinburgh
+    - El Salvador
+    - Eritrea
+    - Eswatini
+    - Fiji
+    - Finland
+    - Freetown
+    - Funafuti
+    - Gabon
+    - Gaborone
+    - Georgetown
+    - Ghana
+    - Gibraltar
+    - Gitega
+    - Grenada
+    - Guadeloupe
+    - Guam
+    - Guatemala
+    - Guernsey
+    - Guyana
+    - 'Hagåtña'
+    - Hanoi
+    - Harare
+    - Hargeisa
+    - Havana
+    - Helsinki
+    - Honduras
+    - Honiara
+    - India
+    - Iran
+    - Islamabad
+    - Jakarta
+    - Jamaica
+    - Japan
+    - Java
+    - Jeju
+    - Jersey
+    - Kabul
+    - Kampala
+    - Kathmandu
+    - Kigali
+    - Kingston
+    - Kingstown
+    - Kinshasa
+    - Kiribati
+    - Kosovo
+    - Kuala Lumpur
+    - Laos
+    - Lesotho
+    - Liberia
+    - Libreville
+    - Liechtenstein
+    - Lilongwe
+    - Lima
+    - Ljubljana
+    - 'Lomé'
+    - Luanda
+    - Lusaka
+    - Macau
+    - Madeira
+    - Madrid
+    - Majuro
+    - Malawi
+    - Mali
+    - Malta
+    - 'Malé'
+    - Managua
+    - Manama
+    - Maputo
+    - Mariehamn
+    - Martinique
+    - Maseru
+    - Mauritius
+    - Mayotte
+    - Mbabane
+    - Mexico
+    - Minsk
+    - Mogadishu
+    - Monaco
+    - Monrovia
+    - Montenegro
+    - Montevideo
+    - Moroni
+    - Mozambique
+    - Myanmar
+    - Nairobi
+    - Nassau
+    - Nauru
+    - Naypyidaw
+    - Nepal
+    - New Delhi
+    - Ngerulmud
+    - Niamey
+    - Nicaragua
+    - Nicosia
+    - Niger
+    - Nigeria
+    - Niue
+    - Nouakchott
+    - 'Nouméa'
+    - 'Nukuʻalofa'
+    - Nuuk
+    - Oman
+    - Oranjestad
+    - Oslo
+    - Ottawa
+    - Ouagadougou
+    - Pakistan
+    - Palau
+    - Palikir
+    - Panama
+    - Papeete
+    - Paraguay
+    - Paramaribo
+    - Peru
+    - Phnom Penh
+    - Podgorica
+    - Port Louis
+    - Port Moresby
+    - Port Vila
+    - Port of Spain
+    - Port-au-Prince
+    - Porto-Novo
+    - Portugal
+    - Praia
+    - Pristina
+    - Puerto Rico
+    - Pyongyang
+    - Qatar
+    - Quito
+    - Rabat
+    - Riga
+    - Rome
+    - Roseau
+    - Rwanda
+    - 'Réunion'
+    - Saint Lucia
+    - Samoa
+    - 'San José'
+    - San Juan
+    - San Marino
+    - San Salvador
+    - Sanaa
+    - Santiago
+    - Santo Domingo
+    - Sarajevo
+    - Senegal
+    - Sierra Leone
+    - Singapore
+    - Skopje
+    - Sofia
+    - Somaliland
+    - Sri Lanka
+    - Stockholm
+    - Sucre
+    - Sumatra
+    - Suriname
+    - Suva
+    - Taipei
+    - Taiwan
+    - Tallinn
+    - Tanzania
+    - Tbilisi
+    - Tegucigalpa
+    - Thailand
+    - Thimphu
+    - Tirana
+    - Tiraspol
+    - Togo
+    - Tonga
+    - Tripoli
+    - Tunis
+    - Turkmenistan
+    - Tuvalu
+    - 'Tórshavn'
+    - Ulaanbaatar
+    - Uruguay
+    - Vaduz
+    - Valletta
+    - Vanuatu
+    - Venezuela
+    - Victoria
+    - Vientiane
+    - Vietnam
+    - Vilnius
+    - Wales
+    - Wellington
+    - Willemstad
+    - Windhoek
+    - Yamoussoukro
+    - 'Yaoundé'
+    - Yaren
+    - Zagreb
+    - Zambia
+    - Zanzibar
+    - Zimbabwe
+  target_additions:
     notes.note.baltic-sea.fields.field.country-info: Ook wel Baltische Zee.
     notes.note.belarus.fields.field.country-info: Ook bekend als Belarus.
     notes.note.china.fields.field.capital-info: Ook als Beijing bekend.
