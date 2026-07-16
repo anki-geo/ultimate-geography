@@ -22,8 +22,10 @@ jobs:
           extra_nix_config: |
             experimental-features = nix-command flakes
 
-      - name: Check external template and style sources
-        run: python scripts/check-source-content.py
+      - name: Check external template/style sources and translation profile consistency
+        run: |
+          python scripts/check-source-content.py
+          python scripts/check-translation-profile.py
 
       - name: Verify Brain Brew workspace
         run: |

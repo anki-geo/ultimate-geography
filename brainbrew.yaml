@@ -601,3 +601,252 @@ targets:
   zh-tw-standard:
     overlays:
       - overlay.translation.zh-tw
+languages:
+  cs:
+    display_name: Czech
+    translation_overlays:
+      base: overlay.translation.cs
+      hardcore: overlay.translation.hardcore.cs
+    primary_target: standard
+    targets:
+      experimental: cs-experimental
+      extended: cs-extended
+      hardcore-extended: cs-hardcore-extended
+      hardcore-standard: cs-hardcore-standard
+      standard: cs-standard
+  da:
+    display_name: Danish
+    translation_overlays:
+      base: overlay.translation.da
+    primary_target: standard
+    targets:
+      experimental: da-experimental
+      extended: da-extended
+      standard: da-standard
+  de:
+    display_name: German
+    translation_overlays:
+      base: overlay.translation.de
+      hardcore: overlay.translation.hardcore.de
+    primary_target: standard
+    targets:
+      experimental: de-experimental
+      extended: de-extended
+      hardcore-extended: de-hardcore-extended
+      hardcore-standard: de-hardcore-standard
+      standard: de-standard
+  en:
+    display_name: English
+    source: true
+    primary_target: standard
+    targets:
+      experimental: en-experimental
+      extended: en-extended
+      hardcore-extended: en-hardcore-extended
+      hardcore-standard: en-hardcore-standard
+      standard: en-standard
+  es:
+    display_name: Spanish
+    translation_overlays:
+      base: overlay.translation.es
+      hardcore: overlay.translation.hardcore.es
+    primary_target: standard
+    targets:
+      experimental: es-experimental
+      extended: es-extended
+      hardcore-extended: es-hardcore-extended
+      hardcore-standard: es-hardcore-standard
+      standard: es-standard
+  fr:
+    display_name: French
+    translation_overlays:
+      base: overlay.translation.fr
+      hardcore: overlay.translation.hardcore.fr
+    primary_target: standard
+    targets:
+      experimental: fr-experimental
+      extended: fr-extended
+      hardcore-extended: fr-hardcore-extended
+      hardcore-standard: fr-hardcore-standard
+      standard: fr-standard
+  he:
+    display_name: Hebrew
+    translation_overlays:
+      base: overlay.translation.he
+    primary_target: standard
+    targets:
+      experimental: he-experimental
+      extended: he-extended
+      standard: he-standard
+  it:
+    display_name: Italian
+    translation_overlays:
+      base: overlay.translation.it
+      hardcore: overlay.translation.hardcore.it
+    primary_target: standard
+    targets:
+      experimental: it-experimental
+      extended: it-extended
+      hardcore-extended: it-hardcore-extended
+      hardcore-standard: it-hardcore-standard
+      standard: it-standard
+  nb:
+    display_name: 'Norwegian Bokmål'
+    translation_overlays:
+      base: overlay.translation.nb
+      hardcore: overlay.translation.hardcore.nb
+    primary_target: standard
+    targets:
+      experimental: nb-experimental
+      extended: nb-extended
+      hardcore-extended: nb-hardcore-extended
+      hardcore-standard: nb-hardcore-standard
+      standard: nb-standard
+  nl:
+    display_name: Dutch
+    translation_overlays:
+      base: overlay.translation.nl
+      hardcore: overlay.translation.hardcore.nl
+    primary_target: standard
+    targets:
+      experimental: nl-experimental
+      extended: nl-extended
+      hardcore-extended: nl-hardcore-extended
+      hardcore-standard: nl-hardcore-standard
+      standard: nl-standard
+  pl:
+    display_name: Polish
+    translation_overlays:
+      base: overlay.translation.pl
+      hardcore: overlay.translation.hardcore.pl
+    primary_target: standard
+    targets:
+      experimental: pl-experimental
+      extended: pl-extended
+      hardcore-extended: pl-hardcore-extended
+      hardcore-standard: pl-hardcore-standard
+      standard: pl-standard
+  pt:
+    display_name: Portuguese
+    translation_overlays:
+      base: overlay.translation.pt
+      hardcore: overlay.translation.hardcore.pt
+    primary_target: standard
+    targets:
+      experimental: pt-experimental
+      extended: pt-extended
+      hardcore-extended: pt-hardcore-extended
+      hardcore-standard: pt-hardcore-standard
+      standard: pt-standard
+  ru:
+    display_name: Russian
+    translation_overlays:
+      base: overlay.translation.ru
+      hardcore: overlay.translation.hardcore.ru
+    primary_target: standard
+    targets:
+      experimental: ru-experimental
+      extended: ru-extended
+      hardcore-extended: ru-hardcore-extended
+      hardcore-standard: ru-hardcore-standard
+      standard: ru-standard
+  sv:
+    display_name: Swedish
+    translation_overlays:
+      base: overlay.translation.sv
+      hardcore: overlay.translation.hardcore.sv
+    primary_target: standard
+    targets:
+      experimental: sv-experimental
+      extended: sv-extended
+      hardcore-extended: sv-hardcore-extended
+      hardcore-standard: sv-hardcore-standard
+      standard: sv-standard
+  zh:
+    display_name: 'Chinese (Simplified)'
+    translation_overlays:
+      base: overlay.translation.zh
+      hardcore: overlay.translation.hardcore.zh
+    primary_target: standard
+    targets:
+      experimental: zh-experimental
+      extended: zh-extended
+      hardcore-extended: zh-hardcore-extended
+      hardcore-standard: zh-hardcore-standard
+      standard: zh-standard
+  zh-tw:
+    display_name: 'Chinese (Traditional)'
+    translation_overlays:
+      base: overlay.translation.zh-tw
+    primary_target: standard
+    targets:
+      experimental: zh-tw-experimental
+      extended: zh-tw-extended
+      standard: zh-tw-standard
+translation_profile:
+  structural_fields:
+    - field.flag
+    - field.map
+  metadata_categories:
+    - key: deck-variable
+      label: Deck variables
+      paths:
+        - 'deck.variables.*'
+    - key: deck-metadata
+      label: Deck metadata
+      paths:
+        - deck.name
+        - deck.description
+    - key: note-type-name
+      label: Note type names
+      paths:
+        - 'note_types.*.name'
+    - key: field-label
+      label: Field labels
+      paths:
+        - 'note_types.*.fields.*.name'
+    - key: card-template-name
+      label: Card template names
+      paths:
+        - 'note_types.*.card_templates.*.name'
+    - key: card-template-variable
+      label: Card template variables
+      paths:
+        - 'note_types.*.card_templates.*.variables.*'
+    - key: variable
+      label: Variables
+      paths:
+        - 'note_types.*.variables.*'
+        - 'notes.*.variables.*'
+    - key: structured-message-format
+      label: Structured message formats
+      paths:
+        - 'notes.*.fields.*.message.format'
+    - key: tag
+      label: Tags
+      paths:
+        - 'notes.*.tags.*'
+    - key: stale-translation
+      label: Stale translations
+      paths:
+        - 'stale_translations.*'
+  metadata_paths:
+    - 'deck.*'
+    - 'note_types.*'
+    - 'notes.*.tags.*'
+  metadata_exclude_paths:
+    - 'deck.adapter_ids.*'
+    - 'note_types.*.adapter_ids.*'
+    - 'note_types.*.card_templates.*.adapter_ids.*'
+    - 'notes.*.adapter_ids.*'
+  metadata_category_order:
+    - deck-metadata
+    - deck-variable
+    - note-type-name
+    - field-label
+    - card-template-name
+    - variable
+    - card-template-variable
+    - structured-message-format
+    - tag
+    - stale-translation

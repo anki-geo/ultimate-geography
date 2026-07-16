@@ -371,3 +371,174 @@ targets:
   zh-hardcore-companion-standard:
     overlays:
       - overlay.translation.hardcore.zh
+languages:
+  cs:
+    display_name: Czech
+    translation_overlays:
+      base: overlay.translation.hardcore.cs
+    primary_target: standard
+    targets:
+      extended: cs-hardcore-companion-extended
+      standard: cs-hardcore-companion-standard
+  de:
+    display_name: German
+    translation_overlays:
+      base: overlay.translation.hardcore.de
+    primary_target: standard
+    targets:
+      extended: de-hardcore-companion-extended
+      standard: de-hardcore-companion-standard
+  en:
+    display_name: English
+    source: true
+    primary_target: standard
+    targets:
+      extended: en-hardcore-companion-extended
+      standard: en-hardcore-companion-standard
+  es:
+    display_name: Spanish
+    translation_overlays:
+      base: overlay.translation.hardcore.es
+    primary_target: standard
+    targets:
+      extended: es-hardcore-companion-extended
+      standard: es-hardcore-companion-standard
+  fr:
+    display_name: French
+    translation_overlays:
+      base: overlay.translation.hardcore.fr
+    primary_target: standard
+    targets:
+      extended: fr-hardcore-companion-extended
+      standard: fr-hardcore-companion-standard
+  it:
+    display_name: Italian
+    translation_overlays:
+      base: overlay.translation.hardcore.it
+    primary_target: standard
+    targets:
+      extended: it-hardcore-companion-extended
+      standard: it-hardcore-companion-standard
+  nb:
+    display_name: 'Norwegian Bokmål'
+    translation_overlays:
+      base: overlay.translation.hardcore.nb
+    primary_target: standard
+    targets:
+      extended: nb-hardcore-companion-extended
+      standard: nb-hardcore-companion-standard
+  nl:
+    display_name: Dutch
+    translation_overlays:
+      base: overlay.translation.hardcore.nl
+    primary_target: standard
+    targets:
+      extended: nl-hardcore-companion-extended
+      standard: nl-hardcore-companion-standard
+  pl:
+    display_name: Polish
+    translation_overlays:
+      base: overlay.translation.hardcore.pl
+    primary_target: standard
+    targets:
+      extended: pl-hardcore-companion-extended
+      standard: pl-hardcore-companion-standard
+  pt:
+    display_name: Portuguese
+    translation_overlays:
+      base: overlay.translation.hardcore.pt
+    primary_target: standard
+    targets:
+      extended: pt-hardcore-companion-extended
+      standard: pt-hardcore-companion-standard
+  ru:
+    display_name: Russian
+    translation_overlays:
+      base: overlay.translation.hardcore.ru
+    primary_target: standard
+    targets:
+      extended: ru-hardcore-companion-extended
+      standard: ru-hardcore-companion-standard
+  sv:
+    display_name: Swedish
+    translation_overlays:
+      base: overlay.translation.hardcore.sv
+    primary_target: standard
+    targets:
+      extended: sv-hardcore-companion-extended
+      standard: sv-hardcore-companion-standard
+  zh:
+    display_name: 'Chinese (Simplified)'
+    translation_overlays:
+      base: overlay.translation.hardcore.zh
+    primary_target: standard
+    targets:
+      extended: zh-hardcore-companion-extended
+      standard: zh-hardcore-companion-standard
+translation_profile:
+  structural_fields:
+    - field.flag
+    - field.map
+  metadata_categories:
+    - key: deck-variable
+      label: Deck variables
+      paths:
+        - 'deck.variables.*'
+    - key: deck-metadata
+      label: Deck metadata
+      paths:
+        - deck.name
+        - deck.description
+    - key: note-type-name
+      label: Note type names
+      paths:
+        - 'note_types.*.name'
+    - key: field-label
+      label: Field labels
+      paths:
+        - 'note_types.*.fields.*.name'
+    - key: card-template-name
+      label: Card template names
+      paths:
+        - 'note_types.*.card_templates.*.name'
+    - key: card-template-variable
+      label: Card template variables
+      paths:
+        - 'note_types.*.card_templates.*.variables.*'
+    - key: variable
+      label: Variables
+      paths:
+        - 'note_types.*.variables.*'
+        - 'notes.*.variables.*'
+    - key: structured-message-format
+      label: Structured message formats
+      paths:
+        - 'notes.*.fields.*.message.format'
+    - key: tag
+      label: Tags
+      paths:
+        - 'notes.*.tags.*'
+    - key: stale-translation
+      label: Stale translations
+      paths:
+        - 'stale_translations.*'
+  metadata_paths:
+    - 'deck.*'
+    - 'note_types.*'
+    - 'notes.*.tags.*'
+  metadata_exclude_paths:
+    - 'deck.adapter_ids.*'
+    - 'note_types.*.adapter_ids.*'
+    - 'note_types.*.card_templates.*.adapter_ids.*'
+    - 'notes.*.adapter_ids.*'
+  metadata_category_order:
+    - deck-metadata
+    - deck-variable
+    - note-type-name
+    - field-label
+    - card-template-name
+    - variable
+    - card-template-variable
+    - structured-message-format
+    - tag
+    - stale-translation

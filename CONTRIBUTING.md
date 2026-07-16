@@ -174,21 +174,14 @@ brainbrew translations --manifest brainbrew.yaml --target da-standard --apply
 brainbrew translations --manifest brainbrew.yaml --target da-standard --context --status missing --apply --interactive
 ```
 
-For a browser-based local UI, current Brain Brew preview builds expose the Deck Workbench server:
+For a browser-based local UI, released Brain Brew builds expose the read-only Deck Workbench server:
 
 ```bash
 brainbrew workbench serve --manifest brainbrew.yaml
 brainbrew workbench serve --manifest brainbrew.yaml --port 0 --no-open
 ```
 
-This launches a local `127.0.0.1` server with the embedded Iced/WASM workbench assets. Older planning notes may mention a static editor flow like this:
-
-```bash
-brainbrew translations --manifest brainbrew.yaml --target de-standard --web-editor --out build/translator-editor.html
-brainbrew translations --manifest brainbrew.yaml --target de-standard --apply-editor-edits build/translator-editor.edits.json
-```
-
-Do not assume those flags exist in the current preview; use `brainbrew workbench serve` and the terminal `translations` workflow above unless your `brainbrew translations --help` explicitly lists `--web-editor` and `--apply-editor-edits`.
+This launches a local `127.0.0.1` server with embedded browser assets. Release builds do not mutate canonical source files: browsing, target and language selection, comparison panes, previews, and browser-local draft staging are available, while Apply and new-language source writes remain blocked. Use the terminal `translations` workflow above for intentional source edits.
 
 UG keeps translation coverage lenient for now because several language and Hardcore targets intentionally have missing/raw fallback text while translation work continues. `brainbrew verify` still rejects stale keys, invalid target additions, broken contextual paths, and media/reference errors. For a fully completed release target, maintainers can opt into strict checks with target metadata or a one-off command:
 
