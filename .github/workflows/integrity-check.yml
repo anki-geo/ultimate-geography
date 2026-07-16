@@ -40,7 +40,5 @@ jobs:
               out="build/crowdanki/$target"
               nix run "$BRAINBREW_FLAKE" -- export crowdanki --manifest "$manifest" --target "$target" --out "$out" --media-root media
               test -f "$out/deck.json"
-              mkdir -p "$out/media"
-              cp media/* "$out/media/"
             done
           done

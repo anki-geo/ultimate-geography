@@ -11,9 +11,9 @@ notes:
         field.capital-info: ''
         field.country: Bonaire
         field.country-info: Special municipality of the Netherlands.
-        field.flag: '<img src="ug-flag-bonaire.svg" />'
+        field.flag: !image media.ug-flag-bonaire-svg
         field.flag-similarity: ''
-        field.map: '<img src="ug-map-bonaire.png" />'
+        field.map: !image media.ug-map-bonaire-png
       tags:
         - UG::Caribbean
         - UG::North_America
@@ -29,9 +29,9 @@ notes:
         field.capital-info: ''
         field.country: British Indian Ocean Territory
         field.country-info: Overseas territory of the United Kingdom.
-        field.flag: '<img src="ug-flag-british_indian_ocean_territory.svg" />'
+        field.flag: !image media.ug-flag-british-indian-ocean-territory-svg
         field.flag-similarity: ''
-        field.map: '<img src="ug-map-british_indian_ocean_territory.png" />'
+        field.map: !image media.ug-map-british-indian-ocean-territory-png
       tags:
         - UG::Africa
       adapter_ids:
@@ -46,9 +46,9 @@ notes:
         field.capital-info: ''
         field.country: Ceuta
         field.country-info: Autonomous city of Spain.
-        field.flag: '<img src="ug-flag-ceuta.png" />'
+        field.flag: !image media.ug-flag-ceuta-png
         field.flag-similarity: ''
-        field.map: '<img src="ug-map-ceuta.png" />'
+        field.map: !image media.ug-map-ceuta-png
       tags:
         - UG::Europe
       adapter_ids:
@@ -63,9 +63,9 @@ notes:
         field.capital-info: ''
         field.country: Christmas Island
         field.country-info: External territory of Australia.
-        field.flag: '<img src="ug-flag-christmas_island.svg" />'
+        field.flag: !image media.ug-flag-christmas-island-svg
         field.flag-similarity: ''
-        field.map: '<img src="ug-map-christmas_island.png" />'
+        field.map: !image media.ug-map-christmas-island-png
       tags:
         - UG::Asia
         - UG::Southeast_Asia
@@ -81,9 +81,9 @@ notes:
         field.capital-info: ''
         field.country: 'Cocos (Keeling) Islands'
         field.country-info: External territory of Australia.
-        field.flag: '<img src="ug-flag-cocos_islands.svg" />'
+        field.flag: !image media.ug-flag-cocos-islands-svg
         field.flag-similarity: ''
-        field.map: '<img src="ug-map-cocos_islands.png" />'
+        field.map: !image media.ug-map-cocos-islands-png
       tags:
         - UG::Asia
         - UG::Southeast_Asia
@@ -99,9 +99,9 @@ notes:
         field.capital-info: ''
         field.country: Easter Island
         field.country-info: Polynesian island and special territory of Chile.
-        field.flag: '<img src="ug-flag-easter_island.svg" />'
+        field.flag: !image media.ug-flag-easter-island-svg
         field.flag-similarity: ''
-        field.map: '<img src="ug-map-easter_island.png" />'
+        field.map: !image media.ug-map-easter-island-png
       tags:
         - UG::Oceania
       adapter_ids:
@@ -116,7 +116,7 @@ notes:
         field.capital-info: ''
         field.country: 'Galápagos Islands'
         field.country-info: Province of Ecuador.
-        field.flag: '<img src="ug-flag-galapagos_islands.svg" />'
+        field.flag: !image media.ug-flag-galapagos-islands-svg
         field.flag-similarity:
           format: '{country_1} ({description_1})'
           variables:
@@ -124,7 +124,7 @@ notes:
               text: Sierra Leone
             description_1:
               text: slightly lighter blue
-        field.map: '<img src="ug-map-galapagos_islands.png" />'
+        field.map: !image media.ug-map-galapagos-islands-png
       tags:
         - UG::South_America
       adapter_ids:
@@ -655,9 +655,9 @@ notes:
         field.capital-info: ''
         field.country: Melilla
         field.country-info: Autonomous city of Spain
-        field.flag: '<img src="ug-flag-melilla.png" />'
+        field.flag: !image media.ug-flag-melilla-png
         field.flag-similarity: ''
-        field.map: '<img src="ug-map-melilla.png" />'
+        field.map: !image media.ug-map-melilla-png
       tags:
         - UG::Europe
       adapter_ids:
@@ -672,9 +672,9 @@ notes:
         field.capital-info: Eruptions in 1997 destroyed the capital city of Plymouth, making Brades the de facto capital.
         field.country: Montserrat
         field.country-info: Overseas territory of the United Kingdom.
-        field.flag: '<img src="ug-flag-montserrat.svg" />'
+        field.flag: !image media.ug-flag-montserrat-svg
         field.flag-similarity: ''
-        field.map: '<img src="ug-map-montserrat.png" />'
+        field.map: !image media.ug-map-montserrat-png
       tags:
         - UG::Caribbean
         - UG::North_America
@@ -690,9 +690,9 @@ notes:
         field.capital-info: ''
         field.country: Mount Athos
         field.country-info: Autonomous orthodox monastic state in northeastern Greece, also known as the Holy Mountain.
-        field.flag: '<img src="ug-flag-mount_athos.png" />'
+        field.flag: !image media.ug-flag-mount-athos-png
         field.flag-similarity: ''
-        field.map: '<img src="ug-map-mount_athos.png" />'
+        field.map: !image media.ug-map-mount-athos-png
       tags:
         - UG::Europe
       adapter_ids:
@@ -707,9 +707,9 @@ notes:
         field.capital-info: ''
         field.country: Norfolk Island
         field.country-info: External territory of Australia.
-        field.flag: '<img src="ug-flag-norfolk_island.svg" />'
+        field.flag: !image media.ug-flag-norfolk-island-svg
         field.flag-similarity: ''
-        field.map: '<img src="ug-map-norfolk_island.png" />'
+        field.map: !image media.ug-map-norfolk-island-png
       tags:
         - UG::Oceania
       adapter_ids:
@@ -724,9 +724,9 @@ notes:
         field.capital-info: ''
         field.country: Pitcairn Islands
         field.country-info: Overseas territory of the United Kingdom.
-        field.flag: '<img src="ug-flag-pitcairn_islands.svg" />'
+        field.flag: !image media.ug-flag-pitcairn-islands-svg
         field.flag-similarity: ''
-        field.map: '<img src="ug-map-pitcairn_islands.png" />'
+        field.map: !image media.ug-map-pitcairn-islands-png
       tags:
         - UG::Oceania
       adapter_ids:
@@ -741,9 +741,9 @@ notes:
         field.capital-info: ''
         field.country: Saba
         field.country-info: Special municipality of the Netherlands.
-        field.flag: '<img src="ug-flag-saba.svg" />'
+        field.flag: !image media.ug-flag-saba-svg
         field.flag-similarity: ''
-        field.map: '<img src="ug-map-saba.png" />'
+        field.map: !image media.ug-map-saba-png
       tags:
         - UG::Caribbean
         - UG::North_America
@@ -761,7 +761,7 @@ notes:
         field.country-info: Overseas territory of France.
         field.flag: ''
         field.flag-similarity: ''
-        field.map: '<img src="ug-map-saint_barthelemy.png" />'
+        field.map: !image media.ug-map-saint-barthelemy-png
       tags:
         - UG::Caribbean
         - UG::North_America
@@ -777,9 +777,9 @@ notes:
         field.capital-info: ''
         field.country: Saint Helena
         field.country-info: Part of Saint Helena, Ascension and Tristan da Cunha, an overseas territory of the United Kingdom.
-        field.flag: '<img src="ug-flag-saint_helena.png" />'
+        field.flag: !image media.ug-flag-saint-helena-png
         field.flag-similarity: ''
-        field.map: '<img src="ug-map-saint_helena.png" />'
+        field.map: !image media.ug-map-saint-helena-png
       tags:
         - UG::Africa
         - UG::West_Africa
@@ -795,9 +795,9 @@ notes:
         field.capital-info: ''
         field.country: Sint Eustatius
         field.country-info: Special municipality of the Netherlands.
-        field.flag: '<img src="ug-flag-sint_eustatius.svg" />'
+        field.flag: !image media.ug-flag-sint-eustatius-svg
         field.flag-similarity: ''
-        field.map: '<img src="ug-map-sint_eustatius.png" />'
+        field.map: !image media.ug-map-sint-eustatius-png
       tags:
         - UG::Caribbean
         - UG::North_America
@@ -813,9 +813,9 @@ notes:
         field.capital-info: ''
         field.country: Tokelau
         field.country-info: 'Dependent territory of New Zealand. Tokelau has no official capital; the meeting place of the Tokelau Council rotates annually.'
-        field.flag: '<img src="ug-flag-tokelau.svg" />'
+        field.flag: !image media.ug-flag-tokelau-svg
         field.flag-similarity: ''
-        field.map: '<img src="ug-map-tokelau.png" />'
+        field.map: !image media.ug-map-tokelau-png
       tags:
         - UG::Oceania
       adapter_ids:

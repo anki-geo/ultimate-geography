@@ -83,9 +83,9 @@ notes:
       field.capital-info: ''
       field.country: Abkhazia
       field.country-info: Independent state claimed by Georgia.
-      field.flag: '<img src="ug-flag-abkhazia.svg" />'
+      field.flag: !image media.ug-flag-abkhazia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-abkhazia.png" />'
+      field.map: !image media.ug-map-abkhazia-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -101,7 +101,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-adriatic_sea.png" />'
+      field.map: !image media.ug-map-adriatic-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -116,7 +116,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-aegean_sea.png" />'
+      field.map: !image media.ug-map-aegean-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -129,9 +129,9 @@ notes:
       field.capital-info: ''
       field.country: Afghanistan
       field.country-info: ''
-      field.flag: '<img src="ug-flag-afghanistan.svg" />'
+      field.flag: !image media.ug-flag-afghanistan-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-afghanistan.png" />'
+      field.map: !image media.ug-map-afghanistan-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -147,7 +147,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-africa-nobox.png" />'
+      field.map: !image media.ug-map-africa-nobox-png
     tags:
       - UG::Continents
     adapter_ids:
@@ -162,7 +162,7 @@ notes:
       field.country-info: Overseas territory of the United Kingdom.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-akrotiri_and_dhekelia.png" />'
+      field.map: !image media.ug-map-akrotiri-and-dhekelia-png
     tags:
       - UG::Asia
       - UG::Mediterranean
@@ -179,7 +179,7 @@ notes:
       field.country-info: State of the United States.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-alaska.png" />'
+      field.map: !image media.ug-map-alaska-png
     tags:
       - UG::North_America
     adapter_ids:
@@ -192,9 +192,9 @@ notes:
       field.capital-info: ''
       field.country: Albania
       field.country-info: ''
-      field.flag: '<img src="ug-flag-albania.svg" />'
+      field.flag: !image media.ug-flag-albania-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-albania.png" />'
+      field.map: !image media.ug-map-albania-png
     tags:
       - UG::Europe
       - UG::Mediterranean
@@ -209,9 +209,9 @@ notes:
       field.capital-info: ''
       field.country: Algeria
       field.country-info: ''
-      field.flag: '<img src="ug-flag-algeria.svg" />'
+      field.flag: !image media.ug-flag-algeria-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-algeria.png" />'
+      field.map: !image media.ug-map-algeria-png
     tags:
       - UG::Africa
       - UG::Mediterranean
@@ -228,7 +228,7 @@ notes:
       field.country-info: Unincorporated territory of the United States.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-american_samoa.png" />'
+      field.map: !image media.ug-map-american-samoa-png
     tags:
       - UG::Oceania
     adapter_ids:
@@ -241,7 +241,7 @@ notes:
       field.capital-info: ''
       field.country: Andorra
       field.country-info: ''
-      field.flag: '<img src="ug-flag-andorra.svg" />'
+      field.flag: !image media.ug-flag-andorra-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -249,7 +249,7 @@ notes:
             ref: notes.note.moldova.fields.field.country
           description_1:
             text: wider, coat of arms with eagle
-      field.map: '<img src="ug-map-andorra.png" />'
+      field.map: !image media.ug-map-andorra-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -263,9 +263,9 @@ notes:
       field.capital-info: ''
       field.country: Angola
       field.country-info: ''
-      field.flag: '<img src="ug-flag-angola.svg" />'
+      field.flag: !image media.ug-flag-angola-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-angola.png" />'
+      field.map: !image media.ug-map-angola-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -281,7 +281,7 @@ notes:
       field.country-info: Overseas territory of the United Kingdom.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-anguilla.png" />'
+      field.map: !image media.ug-map-anguilla-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -297,7 +297,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-antarctica-nobox.png" />'
+      field.map: !image media.ug-map-antarctica-nobox-png
     tags:
       - UG::Continents
     adapter_ids:
@@ -310,9 +310,9 @@ notes:
       field.capital-info: ''
       field.country: Antigua and Barbuda
       field.country-info: ''
-      field.flag: '<img src="ug-flag-antigua_and_barbuda.svg" />'
+      field.flag: !image media.ug-flag-antigua-and-barbuda-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-antigua_and_barbuda.png" />'
+      field.map: !image media.ug-map-antigua-and-barbuda-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -329,7 +329,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-arabian_sea.png" />'
+      field.map: !image media.ug-map-arabian-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -344,7 +344,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-aral_sea.png" />'
+      field.map: !image media.ug-map-aral-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -359,7 +359,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-arctic_ocean-nobox.png" />'
+      field.map: !image media.ug-map-arctic-ocean-nobox-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -372,9 +372,9 @@ notes:
       field.capital-info: ''
       field.country: Argentina
       field.country-info: ''
-      field.flag: '<img src="ug-flag-argentina.svg" />'
+      field.flag: !image media.ug-flag-argentina-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-argentina.png" />'
+      field.map: !image media.ug-map-argentina-png
     tags:
       - UG::South_America
       - UG::Sovereign_State
@@ -388,9 +388,9 @@ notes:
       field.capital-info: ''
       field.country: Armenia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-armenia.svg" />'
+      field.flag: !image media.ug-flag-armenia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-armenia.png" />'
+      field.map: !image media.ug-map-armenia-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -404,9 +404,9 @@ notes:
       field.capital-info: ''
       field.country: Aruba
       field.country-info: Constituent country of the Kingdom of the Netherlands.
-      field.flag: '<img src="ug-flag-aruba.svg" />'
+      field.flag: !image media.ug-flag-aruba-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-aruba.png" />'
+      field.map: !image media.ug-map-aruba-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -422,7 +422,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-asia-nobox.png" />'
+      field.map: !image media.ug-map-asia-nobox-png
     tags:
       - UG::Continents
     adapter_ids:
@@ -437,7 +437,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-atlantic_ocean-nobox.png" />'
+      field.map: !image media.ug-map-atlantic-ocean-nobox-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -450,7 +450,7 @@ notes:
       field.capital-info: ''
       field.country: Australia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-australia.svg" />'
+      field.flag: !image media.ug-flag-australia-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -458,7 +458,7 @@ notes:
             ref: notes.note.new-zealand.fields.field.country
           description_1:
             text: red stars, two fewer stars
-      field.map: '<img src="ug-map-australia.png" />'
+      field.map: !image media.ug-map-australia-png
     tags:
       - UG::Oceania
       - UG::Sovereign_State
@@ -472,7 +472,7 @@ notes:
       field.capital-info: ''
       field.country: Austria
       field.country-info: ''
-      field.flag: '<img src="ug-flag-austria.svg" />'
+      field.flag: !image media.ug-flag-austria-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -480,7 +480,7 @@ notes:
             ref: notes.note.latvia.fields.field.country
           description_1:
             text: darker red, narrower white band
-      field.map: '<img src="ug-map-austria.png" />'
+      field.map: !image media.ug-map-austria-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -495,9 +495,9 @@ notes:
       field.capital-info: ''
       field.country: Azerbaijan
       field.country-info: ''
-      field.flag: '<img src="ug-flag-azerbaijan.svg" />'
+      field.flag: !image media.ug-flag-azerbaijan-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-azerbaijan.png" />'
+      field.map: !image media.ug-map-azerbaijan-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -513,7 +513,7 @@ notes:
       field.country-info: Autonomous region of Portugal.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-azores.png" />'
+      field.map: !image media.ug-map-azores-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -526,7 +526,7 @@ notes:
       field.capital-info: ''
       field.country: Bahrain
       field.country-info: ''
-      field.flag: '<img src="ug-flag-bahrain.svg" />'
+      field.flag: !image media.ug-flag-bahrain-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -534,7 +534,7 @@ notes:
             ref: notes.note.qatar.fields.field.country
           description_1:
             text: wider, more serrated edges, maroon
-      field.map: '<img src="ug-map-bahrain.png" />'
+      field.map: !image media.ug-map-bahrain-png
     tags:
       - UG::Asia
       - UG::Middle_East
@@ -551,7 +551,7 @@ notes:
       field.country-info: Island of Indonesia.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-bali.png" />'
+      field.map: !image media.ug-map-bali-png
     tags:
       - UG::Asia
     adapter_ids:
@@ -566,7 +566,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-balkan_peninsula.png" />'
+      field.map: !image media.ug-map-balkan-peninsula-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -581,7 +581,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-baltic_sea.png" />'
+      field.map: !image media.ug-map-baltic-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -596,7 +596,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-banda_sea.png" />'
+      field.map: !image media.ug-map-banda-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -609,9 +609,9 @@ notes:
       field.capital-info: ''
       field.country: Bangladesh
       field.country-info: ''
-      field.flag: '<img src="ug-flag-bangladesh.svg" />'
+      field.flag: !image media.ug-flag-bangladesh-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-bangladesh.png" />'
+      field.map: !image media.ug-map-bangladesh-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -625,9 +625,9 @@ notes:
       field.capital-info: ''
       field.country: Barbados
       field.country-info: ''
-      field.flag: '<img src="ug-flag-barbados.svg" />'
+      field.flag: !image media.ug-flag-barbados-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-barbados.png" />'
+      field.map: !image media.ug-map-barbados-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -644,7 +644,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-barents_sea.png" />'
+      field.map: !image media.ug-map-barents-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -659,7 +659,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-bay_of_bengal.png" />'
+      field.map: !image media.ug-map-bay-of-bengal-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -674,7 +674,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-bay_of_biscay.png" />'
+      field.map: !image media.ug-map-bay-of-biscay-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -687,9 +687,9 @@ notes:
       field.capital-info: ''
       field.country: Belarus
       field.country-info: ''
-      field.flag: '<img src="ug-flag-belarus.svg" />'
+      field.flag: !image media.ug-flag-belarus-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-belarus.png" />'
+      field.map: !image media.ug-map-belarus-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -703,9 +703,9 @@ notes:
       field.capital-info: ''
       field.country: Belgium
       field.country-info: ''
-      field.flag: '<img src="ug-flag-belgium.svg" />'
+      field.flag: !image media.ug-flag-belgium-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-belgium.png" />'
+      field.map: !image media.ug-map-belgium-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -720,9 +720,9 @@ notes:
       field.capital-info: ''
       field.country: Belize
       field.country-info: ''
-      field.flag: '<img src="ug-flag-belize.svg" />'
+      field.flag: !image media.ug-flag-belize-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-belize.png" />'
+      field.map: !image media.ug-map-belize-png
     tags:
       - UG::North_America
       - UG::Sovereign_State
@@ -736,9 +736,9 @@ notes:
       field.capital-info: While Porto-Novo is the official capital, Cotonou is the de facto seat of government.
       field.country: Benin
       field.country-info: ''
-      field.flag: '<img src="ug-flag-benin.svg" />'
+      field.flag: !image media.ug-flag-benin-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-benin.png" />'
+      field.map: !image media.ug-map-benin-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -755,7 +755,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-bering_strait.png" />'
+      field.map: !image media.ug-map-bering-strait-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -770,7 +770,7 @@ notes:
       field.country-info: Overseas territory of the United Kingdom.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-bermuda.png" />'
+      field.map: !image media.ug-map-bermuda-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -784,9 +784,9 @@ notes:
       field.capital-info: ''
       field.country: Bhutan
       field.country-info: ''
-      field.flag: '<img src="ug-flag-bhutan.svg" />'
+      field.flag: !image media.ug-flag-bhutan-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-bhutan.png" />'
+      field.map: !image media.ug-map-bhutan-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -802,7 +802,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-black_sea.png" />'
+      field.map: !image media.ug-map-black-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -815,7 +815,9 @@ notes:
       field.capital-info: While Sucre is the constitutional capital, La Paz is the seat of government.
       field.country: Bolivia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-bolivia-blur.svg" /><img src="ug-flag-bolivia.svg" />'
+      field.flag:
+        - !image media.ug-flag-bolivia-blur-svg
+        - !image media.ug-flag-bolivia-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -823,7 +825,7 @@ notes:
             ref: notes.note.ghana.fields.field.country
           description_1:
             text: star instead of coat of arms
-      field.map: '<img src="ug-map-bolivia.png" />'
+      field.map: !image media.ug-map-bolivia-png
     tags:
       - UG::South_America
       - UG::Sovereign_State
@@ -837,9 +839,9 @@ notes:
       field.capital-info: ''
       field.country: Bosnia and Herzegovina
       field.country-info: ''
-      field.flag: '<img src="ug-flag-bosnia_and_herzegovina.svg" />'
+      field.flag: !image media.ug-flag-bosnia-and-herzegovina-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-bosnia_and_herzegovina.png" />'
+      field.map: !image media.ug-map-bosnia-and-herzegovina-png
     tags:
       - UG::Europe
       - UG::Mediterranean
@@ -854,9 +856,9 @@ notes:
       field.capital-info: ''
       field.country: Botswana
       field.country-info: ''
-      field.flag: '<img src="ug-flag-botswana.svg" />'
+      field.flag: !image media.ug-flag-botswana-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-botswana.png" />'
+      field.map: !image media.ug-map-botswana-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -872,7 +874,7 @@ notes:
       field.country-info: Autonomous region of Papua New Guinea.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-bougainville.png" />'
+      field.map: !image media.ug-map-bougainville-png
     tags:
       - UG::Oceania
     adapter_ids:
@@ -885,9 +887,9 @@ notes:
       field.capital-info: ''
       field.country: Brazil
       field.country-info: ''
-      field.flag: '<img src="ug-flag-brazil.svg" />'
+      field.flag: !image media.ug-flag-brazil-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-brazil.png" />'
+      field.map: !image media.ug-map-brazil-png
     tags:
       - UG::South_America
       - UG::Sovereign_State
@@ -903,7 +905,7 @@ notes:
       field.country-info: Overseas territory of the United Kingdom.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-british_virgin_islands.png" />'
+      field.map: !image media.ug-map-british-virgin-islands-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -917,9 +919,9 @@ notes:
       field.capital-info: ''
       field.country: Brunei
       field.country-info: ''
-      field.flag: '<img src="ug-flag-brunei.svg" />'
+      field.flag: !image media.ug-flag-brunei-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-brunei.png" />'
+      field.map: !image media.ug-map-brunei-png
     tags:
       - UG::Asia
       - UG::Southeast_Asia
@@ -934,9 +936,9 @@ notes:
       field.capital-info: ''
       field.country: Bulgaria
       field.country-info: ''
-      field.flag: '<img src="ug-flag-bulgaria.svg" />'
+      field.flag: !image media.ug-flag-bulgaria-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-bulgaria.png" />'
+      field.map: !image media.ug-map-bulgaria-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -951,9 +953,9 @@ notes:
       field.capital-info: ''
       field.country: Burkina Faso
       field.country-info: ''
-      field.flag: '<img src="ug-flag-burkina_faso.svg" />'
+      field.flag: !image media.ug-flag-burkina-faso-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-burkina_faso.png" />'
+      field.map: !image media.ug-map-burkina-faso-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -968,9 +970,9 @@ notes:
       field.capital-info: Official capital was moved from Bujumbura to Gitega in 2019.
       field.country: Burundi
       field.country-info: ''
-      field.flag: '<img src="ug-flag-burundi.svg" />'
+      field.flag: !image media.ug-flag-burundi-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-burundi.png" />'
+      field.map: !image media.ug-map-burundi-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -985,9 +987,9 @@ notes:
       field.capital-info: ''
       field.country: Cambodia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-cambodia.svg" />'
+      field.flag: !image media.ug-flag-cambodia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-cambodia.png" />'
+      field.map: !image media.ug-map-cambodia-png
     tags:
       - UG::Asia
       - UG::Southeast_Asia
@@ -1002,7 +1004,7 @@ notes:
       field.capital-info: ''
       field.country: Cameroon
       field.country-info: ''
-      field.flag: '<img src="ug-flag-cameroon.svg" />'
+      field.flag: !image media.ug-flag-cameroon-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -1010,7 +1012,7 @@ notes:
             ref: notes.note.senegal.fields.field.country
           description_1:
             text: green/yellow/red, green star
-      field.map: '<img src="ug-map-cameroon.png" />'
+      field.map: !image media.ug-map-cameroon-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -1024,9 +1026,9 @@ notes:
       field.capital-info: ''
       field.country: Canada
       field.country-info: ''
-      field.flag: '<img src="ug-flag-canada.svg" />'
+      field.flag: !image media.ug-flag-canada-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-canada.png" />'
+      field.map: !image media.ug-map-canada-png
     tags:
       - UG::North_America
       - UG::Sovereign_State
@@ -1042,7 +1044,7 @@ notes:
       field.country-info: Autonomous community of Spain.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-canary_islands.png" />'
+      field.map: !image media.ug-map-canary-islands-png
     tags:
       - UG::Africa
     adapter_ids:
@@ -1055,9 +1057,9 @@ notes:
       field.capital-info: ''
       field.country: Cape Verde
       field.country-info: Also known as Cabo Verde.
-      field.flag: '<img src="ug-flag-cape_verde.svg" />'
+      field.flag: !image media.ug-flag-cape-verde-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-cape_verde.png" />'
+      field.map: !image media.ug-map-cape-verde-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -1074,7 +1076,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-caribbean_sea.png" />'
+      field.map: !image media.ug-map-caribbean-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -1089,7 +1091,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-caspian_sea.png" />'
+      field.map: !image media.ug-map-caspian-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -1104,7 +1106,7 @@ notes:
       field.country-info: Overseas territory of the United Kingdom.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-cayman_islands.png" />'
+      field.map: !image media.ug-map-cayman-islands-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -1120,7 +1122,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-celebes_sea.png" />'
+      field.map: !image media.ug-map-celebes-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -1135,7 +1137,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-celtic_sea.png" />'
+      field.map: !image media.ug-map-celtic-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -1148,9 +1150,9 @@ notes:
       field.capital-info: ''
       field.country: Central African Republic
       field.country-info: ''
-      field.flag: '<img src="ug-flag-central_african_republic.svg" />'
+      field.flag: !image media.ug-flag-central-african-republic-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-central_african_republic.png" />'
+      field.map: !image media.ug-map-central-african-republic-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -1164,7 +1166,7 @@ notes:
       field.capital-info: ''
       field.country: Chad
       field.country-info: ''
-      field.flag: '<img src="ug-flag-chad.svg" />'
+      field.flag: !image media.ug-flag-chad-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -1172,7 +1174,7 @@ notes:
             ref: notes.note.romania.fields.field.country
           description_1:
             text: slightly lighter blue
-      field.map: '<img src="ug-map-chad.png" />'
+      field.map: !image media.ug-map-chad-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -1186,9 +1188,9 @@ notes:
       field.capital-info: ''
       field.country: Chile
       field.country-info: ''
-      field.flag: '<img src="ug-flag-chile.svg" />'
+      field.flag: !image media.ug-flag-chile-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-chile.png" />'
+      field.map: !image media.ug-map-chile-png
     tags:
       - UG::South_America
       - UG::Sovereign_State
@@ -1202,9 +1204,9 @@ notes:
       field.capital-info: ''
       field.country: China
       field.country-info: ''
-      field.flag: '<img src="ug-flag-china.svg" />'
+      field.flag: !image media.ug-flag-china-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-china.png" />'
+      field.map: !image media.ug-map-china-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -1218,7 +1220,7 @@ notes:
       field.capital-info: ''
       field.country: Colombia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-colombia.svg" />'
+      field.flag: !image media.ug-flag-colombia-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -1226,7 +1228,7 @@ notes:
             ref: notes.note.ecuador.fields.field.country
           description_1:
             text: with coat of arms
-      field.map: '<img src="ug-map-colombia.png" />'
+      field.map: !image media.ug-map-colombia-png
     tags:
       - UG::South_America
       - UG::Sovereign_State
@@ -1240,9 +1242,9 @@ notes:
       field.capital-info: ''
       field.country: Comoros
       field.country-info: ''
-      field.flag: '<img src="ug-flag-comoros.svg" />'
+      field.flag: !image media.ug-flag-comoros-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-comoros.png" />'
+      field.map: !image media.ug-map-comoros-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -1257,9 +1259,9 @@ notes:
       field.capital-info: ''
       field.country: Cook Islands
       field.country-info: ''
-      field.flag: '<img src="ug-flag-cook_islands.svg" />'
+      field.flag: !image media.ug-flag-cook-islands-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-cook_islands.png" />'
+      field.map: !image media.ug-map-cook-islands-png
     tags:
       - UG::Oceania
       - UG::Sovereign_State
@@ -1275,7 +1277,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-coral_sea.png" />'
+      field.map: !image media.ug-map-coral-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -1290,7 +1292,7 @@ notes:
       field.country-info: Region of France.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-corsica.png" />'
+      field.map: !image media.ug-map-corsica-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -1303,9 +1305,11 @@ notes:
       field.capital-info: ''
       field.country: Costa Rica
       field.country-info: ''
-      field.flag: '<img src="ug-flag-costa_rica-blur.svg" /><img src="ug-flag-costa_rica.svg" />'
+      field.flag:
+        - !image media.ug-flag-costa-rica-blur-svg
+        - !image media.ug-flag-costa-rica-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-costa_rica.png" />'
+      field.map: !image media.ug-map-costa-rica-png
     tags:
       - UG::North_America
       - UG::Sovereign_State
@@ -1319,9 +1323,9 @@ notes:
       field.capital-info: ''
       field.country: Croatia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-croatia.svg" />'
+      field.flag: !image media.ug-flag-croatia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-croatia.png" />'
+      field.map: !image media.ug-map-croatia-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -1337,7 +1341,7 @@ notes:
       field.capital-info: ''
       field.country: Cuba
       field.country-info: ''
-      field.flag: '<img src="ug-flag-cuba.svg" />'
+      field.flag: !image media.ug-flag-cuba-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -1345,7 +1349,7 @@ notes:
             ref: notes.note.puerto-rico.fields.field.country
           description_1:
             text: blue triangle, red stripes
-      field.map: '<img src="ug-map-cuba.png" />'
+      field.map: !image media.ug-map-cuba-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -1360,7 +1364,7 @@ notes:
       field.capital-info: ''
       field.country: 'Curaçao'
       field.country-info: Constituent country of the Kingdom of the Netherlands.
-      field.flag: '<img src="ug-flag-curacao.svg" />'
+      field.flag: !image media.ug-flag-curacao-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -1368,7 +1372,7 @@ notes:
             ref: notes.note.nauru.fields.field.country
           description_1:
             text: single star below yellow band
-      field.map: '<img src="ug-map-curacao.png" />'
+      field.map: !image media.ug-map-curacao-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -1382,9 +1386,9 @@ notes:
       field.capital-info: ''
       field.country: Cyprus
       field.country-info: ''
-      field.flag: '<img src="ug-flag-cyprus.svg" />'
+      field.flag: !image media.ug-flag-cyprus-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-cyprus.png" />'
+      field.map: !image media.ug-map-cyprus-png
     tags:
       - UG::Asia
       - UG::European_Union
@@ -1401,9 +1405,9 @@ notes:
       field.capital-info: ''
       field.country: Czech Republic
       field.country-info: Also known as Czechia.
-      field.flag: '<img src="ug-flag-czech_republic.svg" />'
+      field.flag: !image media.ug-flag-czech-republic-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-czech_republic.png" />'
+      field.map: !image media.ug-map-czech-republic-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -1420,7 +1424,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-dead_sea.png" />'
+      field.map: !image media.ug-map-dead-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -1433,9 +1437,9 @@ notes:
       field.capital-info: ''
       field.country: Democratic Republic of the Congo
       field.country-info: Formerly Zaire.
-      field.flag: '<img src="ug-flag-democratic_republic_of_the_congo.svg" />'
+      field.flag: !image media.ug-flag-democratic-republic-of-the-congo-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-democratic_republic_of_the_congo.png" />'
+      field.map: !image media.ug-map-democratic-republic-of-the-congo-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -1449,9 +1453,9 @@ notes:
       field.capital-info: ''
       field.country: Denmark
       field.country-info: ''
-      field.flag: '<img src="ug-flag-denmark.svg" />'
+      field.flag: !image media.ug-flag-denmark-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-denmark.png" />'
+      field.map: !image media.ug-map-denmark-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -1468,7 +1472,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-denmark_strait.png" />'
+      field.map: !image media.ug-map-denmark-strait-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -1481,9 +1485,9 @@ notes:
       field.capital-info: ''
       field.country: Djibouti
       field.country-info: ''
-      field.flag: '<img src="ug-flag-djibouti.svg" />'
+      field.flag: !image media.ug-flag-djibouti-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-djibouti.png" />'
+      field.map: !image media.ug-map-djibouti-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -1498,9 +1502,9 @@ notes:
       field.capital-info: ''
       field.country: Dominica
       field.country-info: ''
-      field.flag: '<img src="ug-flag-dominica.svg" />'
+      field.flag: !image media.ug-flag-dominica-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-dominica.png" />'
+      field.map: !image media.ug-map-dominica-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -1515,9 +1519,9 @@ notes:
       field.capital-info: ''
       field.country: Dominican Republic
       field.country-info: ''
-      field.flag: '<img src="ug-flag-dominican_republic.svg" />'
+      field.flag: !image media.ug-flag-dominican-republic-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-dominican_republic.png" />'
+      field.map: !image media.ug-map-dominican-republic-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -1534,7 +1538,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-east_china_sea.png" />'
+      field.map: !image media.ug-map-east-china-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -1549,7 +1553,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-east_siberian_sea.png" />'
+      field.map: !image media.ug-map-east-siberian-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -1562,7 +1566,7 @@ notes:
       field.capital-info: ''
       field.country: Ecuador
       field.country-info: ''
-      field.flag: '<img src="ug-flag-ecuador.svg" />'
+      field.flag: !image media.ug-flag-ecuador-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -1570,7 +1574,7 @@ notes:
             ref: notes.note.colombia.fields.field.country
           description_1:
             text: no coat of arms
-      field.map: '<img src="ug-map-ecuador.png" />'
+      field.map: !image media.ug-map-ecuador-png
     tags:
       - UG::South_America
       - UG::Sovereign_State
@@ -1584,7 +1588,7 @@ notes:
       field.capital-info: ''
       field.country: Egypt
       field.country-info: ''
-      field.flag: '<img src="ug-flag-egypt.svg" />'
+      field.flag: !image media.ug-flag-egypt-svg
       field.flag-similarity:
         format: '{country_1} ({description_1}), {country_2} ({description_2})'
         variables:
@@ -1596,7 +1600,7 @@ notes:
             text: text instead of emblem
           description_2:
             text: no emblem
-      field.map: '<img src="ug-map-egypt.png" />'
+      field.map: !image media.ug-map-egypt-png
     tags:
       - UG::Africa
       - UG::Mediterranean
@@ -1612,7 +1616,9 @@ notes:
       field.capital-info: ''
       field.country: El Salvador
       field.country-info: ''
-      field.flag: '<img src="ug-flag-el_salvador-blur.svg" /><img src="ug-flag-el_salvador.svg" />'
+      field.flag:
+        - !image media.ug-flag-el-salvador-blur-svg
+        - !image media.ug-flag-el-salvador-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -1620,7 +1626,7 @@ notes:
             ref: notes.note.nicaragua.fields.field.country
           description_1:
             text: different coat of arms, slightly lighter blue
-      field.map: '<img src="ug-map-el_salvador.png" />'
+      field.map: !image media.ug-map-el-salvador-png
     tags:
       - UG::North_America
       - UG::Sovereign_State
@@ -1634,9 +1640,9 @@ notes:
       field.capital-info: ''
       field.country: England
       field.country-info: Constituent country of the United Kingdom.
-      field.flag: '<img src="ug-flag-england.svg" />'
+      field.flag: !image media.ug-flag-england-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-england.png" />'
+      field.map: !image media.ug-map-england-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -1651,7 +1657,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-english_channel.png" />'
+      field.map: !image media.ug-map-english-channel-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -1664,9 +1670,9 @@ notes:
       field.capital-info: Official capital was moved from Malabo to Ciudad de la Paz in 2026.
       field.country: Equatorial Guinea
       field.country-info: ''
-      field.flag: '<img src="ug-flag-equatorial_guinea.svg" />'
+      field.flag: !image media.ug-flag-equatorial-guinea-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-equatorial_guinea.png" />'
+      field.map: !image media.ug-map-equatorial-guinea-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -1680,9 +1686,9 @@ notes:
       field.capital-info: ''
       field.country: Eritrea
       field.country-info: ''
-      field.flag: '<img src="ug-flag-eritrea.svg" />'
+      field.flag: !image media.ug-flag-eritrea-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-eritrea.png" />'
+      field.map: !image media.ug-map-eritrea-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -1697,9 +1703,9 @@ notes:
       field.capital-info: ''
       field.country: Estonia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-estonia.svg" />'
+      field.flag: !image media.ug-flag-estonia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-estonia.png" />'
+      field.map: !image media.ug-map-estonia-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -1714,9 +1720,9 @@ notes:
       field.capital-info: While Mbabane is the official, executive capital, Lobamba is the traditional, spiritual and legislative capital.
       field.country: Eswatini
       field.country-info: Known as Swaziland until 2018.
-      field.flag: '<img src="ug-flag-eswatini.svg" />'
+      field.flag: !image media.ug-flag-eswatini-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-eswatini.png" />'
+      field.map: !image media.ug-map-eswatini-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -1730,9 +1736,9 @@ notes:
       field.capital-info: ''
       field.country: Ethiopia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-ethiopia.svg" />'
+      field.flag: !image media.ug-flag-ethiopia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-ethiopia.png" />'
+      field.map: !image media.ug-map-ethiopia-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -1749,7 +1755,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-europe-nobox.png" />'
+      field.map: !image media.ug-map-europe-nobox-png
     tags:
       - UG::Continents
     adapter_ids:
@@ -1762,9 +1768,9 @@ notes:
       field.capital-info: ''
       field.country: European Union
       field.country-info: ''
-      field.flag: '<img src="ug-flag-european_union.svg" />'
+      field.flag: !image media.ug-flag-european-union-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-european_union.png" />'
+      field.map: !image media.ug-map-european-union-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -1779,7 +1785,7 @@ notes:
       field.country-info: Overseas territory of the United Kingdom.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-falkland_islands.png" />'
+      field.map: !image media.ug-map-falkland-islands-png
     tags:
       - UG::South_America
     adapter_ids:
@@ -1792,7 +1798,7 @@ notes:
       field.capital-info: ''
       field.country: Faroe Islands
       field.country-info: Constituent country in the Kingdom of Denmark.
-      field.flag: '<img src="ug-flag-faroe_islands.svg" />'
+      field.flag: !image media.ug-flag-faroe-islands-svg
       field.flag-similarity:
         format: '{country_1} ({description_1}), {country_2} ({description_2})'
         variables:
@@ -1804,7 +1810,7 @@ notes:
             text: blue background, red and white cross
           description_2:
             text: red background, blue and white cross
-      field.map: '<img src="ug-map-faroe_islands.png" />'
+      field.map: !image media.ug-map-faroe-islands-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -1817,9 +1823,9 @@ notes:
       field.capital-info: ''
       field.country: Federated States of Micronesia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-federated_states_of_micronesia.svg" />'
+      field.flag: !image media.ug-flag-federated-states-of-micronesia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-federated_states_of_micronesia.png" />'
+      field.map: !image media.ug-map-federated-states-of-micronesia-png
     tags:
       - UG::Oceania
       - UG::Sovereign_State
@@ -1833,9 +1839,9 @@ notes:
       field.capital-info: ''
       field.country: Fiji
       field.country-info: ''
-      field.flag: '<img src="ug-flag-fiji.svg" />'
+      field.flag: !image media.ug-flag-fiji-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-fiji.png" />'
+      field.map: !image media.ug-map-fiji-png
     tags:
       - UG::Oceania
       - UG::Sovereign_State
@@ -1849,9 +1855,9 @@ notes:
       field.capital-info: ''
       field.country: Finland
       field.country-info: ''
-      field.flag: '<img src="ug-flag-finland.svg" />'
+      field.flag: !image media.ug-flag-finland-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-finland.png" />'
+      field.map: !image media.ug-map-finland-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -1866,9 +1872,9 @@ notes:
       field.capital-info: ''
       field.country: France
       field.country-info: ''
-      field.flag: '<img src="ug-flag-france.svg" />'
+      field.flag: !image media.ug-flag-france-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-france.png" />'
+      field.map: !image media.ug-map-france-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -1886,7 +1892,7 @@ notes:
       field.country-info: Overseas department of France.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-french_guiana.png" />'
+      field.map: !image media.ug-map-french-guiana-png
     tags:
       - UG::South_America
     adapter_ids:
@@ -1899,9 +1905,9 @@ notes:
       field.capital-info: ''
       field.country: French Polynesia
       field.country-info: Overseas territory of France.
-      field.flag: '<img src="ug-flag-french_polynesia.svg" />'
+      field.flag: !image media.ug-flag-french-polynesia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-french_polynesia.png" />'
+      field.map: !image media.ug-map-french-polynesia-png
     tags:
       - UG::Oceania
     adapter_ids:
@@ -1914,9 +1920,9 @@ notes:
       field.capital-info: ''
       field.country: Gabon
       field.country-info: ''
-      field.flag: '<img src="ug-flag-gabon.svg" />'
+      field.flag: !image media.ug-flag-gabon-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-gabon.png" />'
+      field.map: !image media.ug-map-gabon-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -1930,9 +1936,9 @@ notes:
       field.capital-info: ''
       field.country: Georgia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-georgia.svg" />'
+      field.flag: !image media.ug-flag-georgia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-georgia.png" />'
+      field.map: !image media.ug-map-georgia-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -1946,9 +1952,9 @@ notes:
       field.capital-info: ''
       field.country: Germany
       field.country-info: ''
-      field.flag: '<img src="ug-flag-germany.svg" />'
+      field.flag: !image media.ug-flag-germany-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-germany.png" />'
+      field.map: !image media.ug-map-germany-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -1963,7 +1969,7 @@ notes:
       field.capital-info: ''
       field.country: Ghana
       field.country-info: ''
-      field.flag: '<img src="ug-flag-ghana.svg" />'
+      field.flag: !image media.ug-flag-ghana-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -1971,7 +1977,7 @@ notes:
             ref: notes.note.bolivia.fields.field.country
           description_1:
             text: coat of arms instead of star
-      field.map: '<img src="ug-map-ghana.png" />'
+      field.map: !image media.ug-map-ghana-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -1988,7 +1994,7 @@ notes:
       field.country-info: Overseas territory of the United Kingdom.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-gibraltar.png" />'
+      field.map: !image media.ug-map-gibraltar-png
     tags:
       - UG::Europe
       - UG::Mediterranean
@@ -2002,9 +2008,9 @@ notes:
       field.capital-info: ''
       field.country: Greece
       field.country-info: ''
-      field.flag: '<img src="ug-flag-greece.svg" />'
+      field.flag: !image media.ug-flag-greece-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-greece.png" />'
+      field.map: !image media.ug-map-greece-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -2020,9 +2026,9 @@ notes:
       field.capital-info: ''
       field.country: Greenland
       field.country-info: Constituent country in the Kingdom of Denmark.
-      field.flag: '<img src="ug-flag-greenland.svg" />'
+      field.flag: !image media.ug-flag-greenland-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-greenland.png" />'
+      field.map: !image media.ug-map-greenland-png
     tags:
       - UG::North_America
     adapter_ids:
@@ -2035,9 +2041,9 @@ notes:
       field.capital-info: ''
       field.country: Grenada
       field.country-info: ''
-      field.flag: '<img src="ug-flag-grenada.svg" />'
+      field.flag: !image media.ug-flag-grenada-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-grenada.png" />'
+      field.map: !image media.ug-map-grenada-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -2054,7 +2060,7 @@ notes:
       field.country-info: Overseas department of France.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-guadeloupe.png" />'
+      field.map: !image media.ug-map-guadeloupe-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -2068,9 +2074,11 @@ notes:
       field.capital-info: ''
       field.country: Guam
       field.country-info: Unincorporated territory of the United States.
-      field.flag: '<img src="ug-flag-guam-blur.svg" /><img src="ug-flag-guam.svg" />'
+      field.flag:
+        - !image media.ug-flag-guam-blur-svg
+        - !image media.ug-flag-guam-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-guam.png" />'
+      field.map: !image media.ug-map-guam-png
     tags:
       - UG::Oceania
     adapter_ids:
@@ -2083,9 +2091,9 @@ notes:
       field.capital-info: ''
       field.country: Guatemala
       field.country-info: ''
-      field.flag: '<img src="ug-flag-guatemala.svg" />'
+      field.flag: !image media.ug-flag-guatemala-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-guatemala.png" />'
+      field.map: !image media.ug-map-guatemala-png
     tags:
       - UG::North_America
       - UG::Sovereign_State
@@ -2101,7 +2109,7 @@ notes:
       field.country-info: Crown dependency of the United Kingdom.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-guernsey.png" />'
+      field.map: !image media.ug-map-guernsey-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -2114,7 +2122,7 @@ notes:
       field.capital-info: ''
       field.country: Guinea
       field.country-info: ''
-      field.flag: '<img src="ug-flag-guinea.svg" />'
+      field.flag: !image media.ug-flag-guinea-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -2122,7 +2130,7 @@ notes:
             ref: notes.note.mali.fields.field.country
           description_1:
             text: red and green flipped, slightly brighter green
-      field.map: '<img src="ug-map-guinea.png" />'
+      field.map: !image media.ug-map-guinea-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -2137,9 +2145,9 @@ notes:
       field.capital-info: ''
       field.country: Guinea-Bissau
       field.country-info: ''
-      field.flag: '<img src="ug-flag-guinea-bissau.svg" />'
+      field.flag: !image media.ug-flag-guinea-bissau-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-guinea-bissau.png" />'
+      field.map: !image media.ug-map-guinea-bissau-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -2156,7 +2164,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-gulf_of_alaska.png" />'
+      field.map: !image media.ug-map-gulf-of-alaska-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -2171,7 +2179,7 @@ notes:
       field.country-info: Also known as the Sea of Cortez.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-gulf_of_california.png" />'
+      field.map: !image media.ug-map-gulf-of-california-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -2186,7 +2194,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-gulf_of_carpentaria.png" />'
+      field.map: !image media.ug-map-gulf-of-carpentaria-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -2201,7 +2209,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-gulf_of_guinea.png" />'
+      field.map: !image media.ug-map-gulf-of-guinea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -2216,7 +2224,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-gulf_of_mexico.png" />'
+      field.map: !image media.ug-map-gulf-of-mexico-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -2231,7 +2239,7 @@ notes:
       field.country-info: Also known as the Gulf of Siam.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-gulf_of_thailand.png" />'
+      field.map: !image media.ug-map-gulf-of-thailand-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -2244,9 +2252,9 @@ notes:
       field.capital-info: ''
       field.country: Guyana
       field.country-info: ''
-      field.flag: '<img src="ug-flag-guyana.svg" />'
+      field.flag: !image media.ug-flag-guyana-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-guyana.png" />'
+      field.map: !image media.ug-map-guyana-png
     tags:
       - UG::South_America
       - UG::Sovereign_State
@@ -2260,9 +2268,9 @@ notes:
       field.capital-info: ''
       field.country: Haiti
       field.country-info: ''
-      field.flag: '<img src="ug-flag-haiti.svg" />'
+      field.flag: !image media.ug-flag-haiti-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-haiti.png" />'
+      field.map: !image media.ug-map-haiti-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -2279,7 +2287,7 @@ notes:
       field.country-info: State of the United States.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-hawaii.png" />'
+      field.map: !image media.ug-map-hawaii-png
     tags:
       - UG::Oceania
     adapter_ids:
@@ -2292,9 +2300,9 @@ notes:
       field.capital-info: ''
       field.country: Honduras
       field.country-info: ''
-      field.flag: '<img src="ug-flag-honduras.svg" />'
+      field.flag: !image media.ug-flag-honduras-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-honduras.png" />'
+      field.map: !image media.ug-map-honduras-png
     tags:
       - UG::North_America
       - UG::Sovereign_State
@@ -2308,9 +2316,9 @@ notes:
       field.capital-info: ''
       field.country: Hong Kong
       field.country-info: Special Administrative Region of China.
-      field.flag: '<img src="ug-flag-hong_kong.svg" />'
+      field.flag: !image media.ug-flag-hong-kong-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-hong_kong.png" />'
+      field.map: !image media.ug-map-hong-kong-png
     tags:
       - UG::Asia
     adapter_ids:
@@ -2325,7 +2333,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-hudson_bay.png" />'
+      field.map: !image media.ug-map-hudson-bay-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -2338,9 +2346,9 @@ notes:
       field.capital-info: ''
       field.country: Hungary
       field.country-info: ''
-      field.flag: '<img src="ug-flag-hungary.svg" />'
+      field.flag: !image media.ug-flag-hungary-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-hungary.png" />'
+      field.map: !image media.ug-map-hungary-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -2355,7 +2363,7 @@ notes:
       field.capital-info: ''
       field.country: Iceland
       field.country-info: ''
-      field.flag: '<img src="ug-flag-iceland.svg" />'
+      field.flag: !image media.ug-flag-iceland-svg
       field.flag-similarity:
         format: '{country_1} ({description_1}), {country_2} ({description_2})'
         variables:
@@ -2367,7 +2375,7 @@ notes:
             text: red background, blue cross
           description_2:
             text: white background, red and blue cross
-      field.map: '<img src="ug-map-iceland.png" />'
+      field.map: !image media.ug-map-iceland-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -2381,9 +2389,9 @@ notes:
       field.capital-info: ''
       field.country: India
       field.country-info: ''
-      field.flag: '<img src="ug-flag-india.svg" />'
+      field.flag: !image media.ug-flag-india-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-india.png" />'
+      field.map: !image media.ug-map-india-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -2399,7 +2407,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-indian_ocean-nobox.png" />'
+      field.map: !image media.ug-map-indian-ocean-nobox-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -2412,7 +2420,7 @@ notes:
       field.capital-info: ''
       field.country: Indonesia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-indonesia.svg" />'
+      field.flag: !image media.ug-flag-indonesia-svg
       field.flag-similarity:
         format: '{country_1} ({description_1}), {country_2} ({description_2})'
         variables:
@@ -2424,7 +2432,7 @@ notes:
             text: narrower, darker red
           description_2:
             text: red and white flipped, darker red
-      field.map: '<img src="ug-map-indonesia.png" />'
+      field.map: !image media.ug-map-indonesia-png
     tags:
       - UG::Asia
       - UG::Southeast_Asia
@@ -2439,9 +2447,9 @@ notes:
       field.capital-info: ''
       field.country: Iran
       field.country-info: ''
-      field.flag: '<img src="ug-flag-iran.svg" />'
+      field.flag: !image media.ug-flag-iran-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-iran.png" />'
+      field.map: !image media.ug-map-iran-png
     tags:
       - UG::Asia
       - UG::Middle_East
@@ -2456,7 +2464,7 @@ notes:
       field.capital-info: ''
       field.country: Iraq
       field.country-info: ''
-      field.flag: '<img src="ug-flag-iraq.svg" />'
+      field.flag: !image media.ug-flag-iraq-svg
       field.flag-similarity:
         format: '{country_1} ({description_1}), {country_2} ({description_2})'
         variables:
@@ -2468,7 +2476,7 @@ notes:
             text: emblem instead of text
           description_2:
             text: no text
-      field.map: '<img src="ug-map-iraq.png" />'
+      field.map: !image media.ug-map-iraq-png
     tags:
       - UG::Asia
       - UG::Middle_East
@@ -2483,7 +2491,7 @@ notes:
       field.capital-info: ''
       field.country: Ireland
       field.country-info: ''
-      field.flag: '<img src="ug-flag-ireland.svg" />'
+      field.flag: !image media.ug-flag-ireland-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -2491,7 +2499,7 @@ notes:
             ref: notes.note.ivory-coast.fields.field.country
           description_1:
             text: green and orange flipped, narrower
-      field.map: '<img src="ug-map-ireland.png" />'
+      field.map: !image media.ug-map-ireland-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -2508,7 +2516,7 @@ notes:
       field.country-info: Crown dependency of the United Kingdom.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-isle_of_man.png" />'
+      field.map: !image media.ug-map-isle-of-man-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -2521,9 +2529,9 @@ notes:
       field.capital-info: 'Disputed; claimed by Palestine.'
       field.country: Israel
       field.country-info: ''
-      field.flag: '<img src="ug-flag-israel.svg" />'
+      field.flag: !image media.ug-flag-israel-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-israel.png" />'
+      field.map: !image media.ug-map-israel-png
     tags:
       - UG::Asia
       - UG::Mediterranean
@@ -2539,9 +2547,9 @@ notes:
       field.capital-info: ''
       field.country: Italy
       field.country-info: ''
-      field.flag: '<img src="ug-flag-italy.svg" />'
+      field.flag: !image media.ug-flag-italy-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-italy.png" />'
+      field.map: !image media.ug-map-italy-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -2557,7 +2565,7 @@ notes:
       field.capital-info: While Yamoussoukro is the official capital, Abidjan is the de facto seat of government.
       field.country: Ivory Coast
       field.country-info: 'Officially Côte d''Ivoire.'
-      field.flag: '<img src="ug-flag-ivory_coast.svg" />'
+      field.flag: !image media.ug-flag-ivory-coast-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -2565,7 +2573,7 @@ notes:
             ref: notes.note.ireland.fields.field.country
           description_1:
             text: orange and green flipped, wider
-      field.map: '<img src="ug-map-ivory_coast.png" />'
+      field.map: !image media.ug-map-ivory-coast-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -2580,9 +2588,9 @@ notes:
       field.capital-info: ''
       field.country: Jamaica
       field.country-info: ''
-      field.flag: '<img src="ug-flag-jamaica.svg" />'
+      field.flag: !image media.ug-flag-jamaica-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-jamaica.png" />'
+      field.map: !image media.ug-map-jamaica-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -2597,9 +2605,9 @@ notes:
       field.capital-info: ''
       field.country: Japan
       field.country-info: ''
-      field.flag: '<img src="ug-flag-japan.svg" />'
+      field.flag: !image media.ug-flag-japan-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-japan.png" />'
+      field.map: !image media.ug-map-japan-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -2615,7 +2623,7 @@ notes:
       field.country-info: Island of Indonesia.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-java.png" />'
+      field.map: !image media.ug-map-java-png
     tags:
       - UG::Asia
     adapter_ids:
@@ -2630,7 +2638,7 @@ notes:
       field.country-info: Autonomous province of South Korea.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-jeju.png" />'
+      field.map: !image media.ug-map-jeju-png
     tags:
       - UG::Asia
     adapter_ids:
@@ -2645,7 +2653,7 @@ notes:
       field.country-info: Crown dependency of the United Kingdom.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-jersey.png" />'
+      field.map: !image media.ug-map-jersey-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -2658,9 +2666,9 @@ notes:
       field.capital-info: ''
       field.country: Jordan
       field.country-info: ''
-      field.flag: '<img src="ug-flag-jordan.svg" />'
+      field.flag: !image media.ug-flag-jordan-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-jordan.png" />'
+      field.map: !image media.ug-map-jordan-png
     tags:
       - UG::Asia
       - UG::Middle_East
@@ -2677,7 +2685,7 @@ notes:
       field.country-info: 'Oblast (administrative region) of the Russian Federation.'
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-kaliningrad_oblast.png" />'
+      field.map: !image media.ug-map-kaliningrad-oblast-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -2690,9 +2698,9 @@ notes:
       field.capital-info: Known as Nur-Sultan between 2019 and 2022
       field.country: Kazakhstan
       field.country-info: ''
-      field.flag: '<img src="ug-flag-kazakhstan.svg" />'
+      field.flag: !image media.ug-flag-kazakhstan-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-kazakhstan.png" />'
+      field.map: !image media.ug-map-kazakhstan-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -2706,9 +2714,9 @@ notes:
       field.capital-info: ''
       field.country: Kenya
       field.country-info: ''
-      field.flag: '<img src="ug-flag-kenya.svg" />'
+      field.flag: !image media.ug-flag-kenya-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-kenya.png" />'
+      field.map: !image media.ug-map-kenya-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -2723,9 +2731,9 @@ notes:
       field.capital-info: ''
       field.country: Kiribati
       field.country-info: ''
-      field.flag: '<img src="ug-flag-kiribati.svg" />'
+      field.flag: !image media.ug-flag-kiribati-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-kiribati.png" />'
+      field.map: !image media.ug-map-kiribati-png
     tags:
       - UG::Oceania
       - UG::Sovereign_State
@@ -2739,9 +2747,9 @@ notes:
       field.capital-info: ''
       field.country: Kosovo
       field.country-info: Partially recognised state claimed by Serbia.
-      field.flag: '<img src="ug-flag-kosovo.svg" />'
+      field.flag: !image media.ug-flag-kosovo-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-kosovo.png" />'
+      field.map: !image media.ug-map-kosovo-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -2755,9 +2763,9 @@ notes:
       field.capital-info: ''
       field.country: Kuwait
       field.country-info: ''
-      field.flag: '<img src="ug-flag-kuwait.svg" />'
+      field.flag: !image media.ug-flag-kuwait-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-kuwait.png" />'
+      field.map: !image media.ug-map-kuwait-png
     tags:
       - UG::Asia
       - UG::Middle_East
@@ -2772,9 +2780,9 @@ notes:
       field.capital-info: ''
       field.country: Kyrgyzstan
       field.country-info: ''
-      field.flag: '<img src="ug-flag-kyrgyzstan.svg" />'
+      field.flag: !image media.ug-flag-kyrgyzstan-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-kyrgyzstan.png" />'
+      field.map: !image media.ug-map-kyrgyzstan-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -2790,7 +2798,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-labrador_sea.png" />'
+      field.map: !image media.ug-map-labrador-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -2803,9 +2811,9 @@ notes:
       field.capital-info: ''
       field.country: 'Åland Islands'
       field.country-info: Autonomous region of Finland.
-      field.flag: '<img src="ug-flag-aland_islands.svg" />'
+      field.flag: !image media.ug-flag-aland-islands-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-aland_islands.png" />'
+      field.map: !image media.ug-map-aland-islands-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -2818,9 +2826,9 @@ notes:
       field.capital-info: ''
       field.country: Laos
       field.country-info: ''
-      field.flag: '<img src="ug-flag-laos.svg" />'
+      field.flag: !image media.ug-flag-laos-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-laos.png" />'
+      field.map: !image media.ug-map-laos-png
     tags:
       - UG::Asia
       - UG::Southeast_Asia
@@ -2835,7 +2843,7 @@ notes:
       field.capital-info: ''
       field.country: Latvia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-latvia.svg" />'
+      field.flag: !image media.ug-flag-latvia-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -2843,7 +2851,7 @@ notes:
             ref: notes.note.austria.fields.field.country
           description_1:
             text: brighter red, wider white band
-      field.map: '<img src="ug-map-latvia.png" />'
+      field.map: !image media.ug-map-latvia-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -2858,9 +2866,9 @@ notes:
       field.capital-info: ''
       field.country: Lebanon
       field.country-info: ''
-      field.flag: '<img src="ug-flag-lebanon.svg" />'
+      field.flag: !image media.ug-flag-lebanon-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-lebanon.png" />'
+      field.map: !image media.ug-map-lebanon-png
     tags:
       - UG::Asia
       - UG::Mediterranean
@@ -2876,9 +2884,9 @@ notes:
       field.capital-info: ''
       field.country: Lesotho
       field.country-info: ''
-      field.flag: '<img src="ug-flag-lesotho.svg" />'
+      field.flag: !image media.ug-flag-lesotho-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-lesotho.png" />'
+      field.map: !image media.ug-map-lesotho-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -2892,9 +2900,9 @@ notes:
       field.capital-info: ''
       field.country: Liberia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-liberia.svg" />'
+      field.flag: !image media.ug-flag-liberia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-liberia.png" />'
+      field.map: !image media.ug-map-liberia-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -2909,9 +2917,9 @@ notes:
       field.capital-info: ''
       field.country: Libya
       field.country-info: ''
-      field.flag: '<img src="ug-flag-libya.svg" />'
+      field.flag: !image media.ug-flag-libya-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-libya.png" />'
+      field.map: !image media.ug-map-libya-png
     tags:
       - UG::Africa
       - UG::Mediterranean
@@ -2926,9 +2934,9 @@ notes:
       field.capital-info: ''
       field.country: Liechtenstein
       field.country-info: ''
-      field.flag: '<img src="ug-flag-liechtenstein.svg" />'
+      field.flag: !image media.ug-flag-liechtenstein-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-liechtenstein.png" />'
+      field.map: !image media.ug-map-liechtenstein-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -2942,9 +2950,9 @@ notes:
       field.capital-info: ''
       field.country: Lithuania
       field.country-info: ''
-      field.flag: '<img src="ug-flag-lithuania.svg" />'
+      field.flag: !image media.ug-flag-lithuania-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-lithuania.png" />'
+      field.map: !image media.ug-map-lithuania-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -2959,7 +2967,7 @@ notes:
       field.capital-info: Officially Luxembourg.
       field.country: Luxembourg
       field.country-info: ''
-      field.flag: '<img src="ug-flag-luxembourg.svg" />'
+      field.flag: !image media.ug-flag-luxembourg-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -2967,7 +2975,7 @@ notes:
             ref: notes.note.netherlands.fields.field.country
           description_1:
             text: darker blue
-      field.map: '<img src="ug-map-luxembourg.png" />'
+      field.map: !image media.ug-map-luxembourg-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -2982,9 +2990,9 @@ notes:
       field.capital-info: ''
       field.country: Macau
       field.country-info: Special Administrative Region of China.
-      field.flag: '<img src="ug-flag-macau.svg" />'
+      field.flag: !image media.ug-flag-macau-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-macau.png" />'
+      field.map: !image media.ug-map-macau-png
     tags:
       - UG::Asia
     adapter_ids:
@@ -2997,9 +3005,9 @@ notes:
       field.capital-info: ''
       field.country: Madagascar
       field.country-info: ''
-      field.flag: '<img src="ug-flag-madagascar.svg" />'
+      field.flag: !image media.ug-flag-madagascar-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-madagascar.png" />'
+      field.map: !image media.ug-map-madagascar-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -3016,7 +3024,7 @@ notes:
       field.country-info: Autonomous region of Portugal.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-madeira.png" />'
+      field.map: !image media.ug-map-madeira-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -3029,9 +3037,9 @@ notes:
       field.capital-info: ''
       field.country: Malawi
       field.country-info: ''
-      field.flag: '<img src="ug-flag-malawi.svg" />'
+      field.flag: !image media.ug-flag-malawi-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-malawi.png" />'
+      field.map: !image media.ug-map-malawi-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -3046,9 +3054,9 @@ notes:
       field.capital-info: ''
       field.country: Malaysia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-malaysia.svg" />'
+      field.flag: !image media.ug-flag-malaysia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-malaysia.png" />'
+      field.map: !image media.ug-map-malaysia-png
     tags:
       - UG::Asia
       - UG::Southeast_Asia
@@ -3063,9 +3071,9 @@ notes:
       field.capital-info: ''
       field.country: Maldives
       field.country-info: ''
-      field.flag: '<img src="ug-flag-maldives.svg" />'
+      field.flag: !image media.ug-flag-maldives-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-maldives.png" />'
+      field.map: !image media.ug-map-maldives-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -3079,7 +3087,7 @@ notes:
       field.capital-info: ''
       field.country: Mali
       field.country-info: ''
-      field.flag: '<img src="ug-flag-mali.svg" />'
+      field.flag: !image media.ug-flag-mali-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -3087,7 +3095,7 @@ notes:
             ref: notes.note.guinea.fields.field.country
           description_1:
             text: green and red flipped, slightly darker green
-      field.map: '<img src="ug-map-mali.png" />'
+      field.map: !image media.ug-map-mali-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -3102,9 +3110,9 @@ notes:
       field.capital-info: ''
       field.country: Malta
       field.country-info: ''
-      field.flag: '<img src="ug-flag-malta.svg" />'
+      field.flag: !image media.ug-flag-malta-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-malta.png" />'
+      field.map: !image media.ug-map-malta-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -3120,9 +3128,9 @@ notes:
       field.capital-info: ''
       field.country: Marshall Islands
       field.country-info: ''
-      field.flag: '<img src="ug-flag-marshall_islands.svg" />'
+      field.flag: !image media.ug-flag-marshall-islands-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-marshall_islands.png" />'
+      field.map: !image media.ug-map-marshall-islands-png
     tags:
       - UG::Oceania
       - UG::Sovereign_State
@@ -3138,7 +3146,7 @@ notes:
       field.country-info: Overseas department of France.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-martinique.png" />'
+      field.map: !image media.ug-map-martinique-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -3152,9 +3160,9 @@ notes:
       field.capital-info: ''
       field.country: Mauritania
       field.country-info: ''
-      field.flag: '<img src="ug-flag-mauritania.svg" />'
+      field.flag: !image media.ug-flag-mauritania-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-mauritania.png" />'
+      field.map: !image media.ug-map-mauritania-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -3169,9 +3177,9 @@ notes:
       field.capital-info: ''
       field.country: Mauritius
       field.country-info: ''
-      field.flag: '<img src="ug-flag-mauritius.svg" />'
+      field.flag: !image media.ug-flag-mauritius-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-mauritius.png" />'
+      field.map: !image media.ug-map-mauritius-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -3188,7 +3196,7 @@ notes:
       field.country-info: Overseas department of France.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-mayotte.png" />'
+      field.map: !image media.ug-map-mayotte-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -3204,7 +3212,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-mediterranean_sea.png" />'
+      field.map: !image media.ug-map-mediterranean-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -3219,7 +3227,7 @@ notes:
       field.country-info: Subregion of Oceania, which includes Vanuatu, the Solomon Islands, Fiji, and Papua New Guinea.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-melanesia.png" />'
+      field.map: !image media.ug-map-melanesia-png
     tags:
       - UG::Oceania
     adapter_ids:
@@ -3232,9 +3240,9 @@ notes:
       field.capital-info: ''
       field.country: Mexico
       field.country-info: ''
-      field.flag: '<img src="ug-flag-mexico.svg" />'
+      field.flag: !image media.ug-flag-mexico-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-mexico.png" />'
+      field.map: !image media.ug-map-mexico-png
     tags:
       - UG::North_America
       - UG::Sovereign_State
@@ -3250,7 +3258,7 @@ notes:
       field.country-info: Subregion of Oceania comprising thousands of small islands in the western Pacific Ocean.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-micronesia.png" />'
+      field.map: !image media.ug-map-micronesia-png
     tags:
       - UG::Oceania
     adapter_ids:
@@ -3263,7 +3271,7 @@ notes:
       field.capital-info: ''
       field.country: Moldova
       field.country-info: ''
-      field.flag: '<img src="ug-flag-moldova.svg" />'
+      field.flag: !image media.ug-flag-moldova-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -3271,7 +3279,7 @@ notes:
             ref: notes.note.andorra.fields.field.country
           description_1:
             text: narrower, coat of arms with motto
-      field.map: '<img src="ug-map-moldova.png" />'
+      field.map: !image media.ug-map-moldova-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -3285,7 +3293,7 @@ notes:
       field.capital-info: ''
       field.country: Monaco
       field.country-info: ''
-      field.flag: '<img src="ug-flag-monaco.svg" />'
+      field.flag: !image media.ug-flag-monaco-svg
       field.flag-similarity:
         format: '{country_1} ({description_1}), {country_2} ({description_2})'
         variables:
@@ -3297,7 +3305,7 @@ notes:
             text: wider, brighter red
           description_2:
             text: red and white flipped, wider
-      field.map: '<img src="ug-map-monaco.png" />'
+      field.map: !image media.ug-map-monaco-png
     tags:
       - UG::Europe
       - UG::Mediterranean
@@ -3312,9 +3320,9 @@ notes:
       field.capital-info: ''
       field.country: Mongolia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-mongolia.svg" />'
+      field.flag: !image media.ug-flag-mongolia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-mongolia.png" />'
+      field.map: !image media.ug-map-mongolia-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -3328,9 +3336,9 @@ notes:
       field.capital-info: Cetinje is an honorary capital.
       field.country: Montenegro
       field.country-info: ''
-      field.flag: '<img src="ug-flag-montenegro.svg" />'
+      field.flag: !image media.ug-flag-montenegro-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-montenegro.png" />'
+      field.map: !image media.ug-map-montenegro-png
     tags:
       - UG::Europe
       - UG::Mediterranean
@@ -3345,9 +3353,9 @@ notes:
       field.capital-info: ''
       field.country: Morocco
       field.country-info: ''
-      field.flag: '<img src="ug-flag-morocco.svg" />'
+      field.flag: !image media.ug-flag-morocco-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-morocco.png" />'
+      field.map: !image media.ug-map-morocco-png
     tags:
       - UG::Africa
       - UG::Mediterranean
@@ -3362,9 +3370,9 @@ notes:
       field.capital-info: ''
       field.country: Mozambique
       field.country-info: ''
-      field.flag: '<img src="ug-flag-mozambique.svg" />'
+      field.flag: !image media.ug-flag-mozambique-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-mozambique.png" />'
+      field.map: !image media.ug-map-mozambique-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -3379,9 +3387,9 @@ notes:
       field.capital-info: ''
       field.country: Myanmar
       field.country-info: Also known as Burma.
-      field.flag: '<img src="ug-flag-myanmar.svg" />'
+      field.flag: !image media.ug-flag-myanmar-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-myanmar.png" />'
+      field.map: !image media.ug-map-myanmar-png
     tags:
       - UG::Asia
       - UG::Southeast_Asia
@@ -3396,9 +3404,9 @@ notes:
       field.capital-info: ''
       field.country: Namibia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-namibia.svg" />'
+      field.flag: !image media.ug-flag-namibia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-namibia.png" />'
+      field.map: !image media.ug-map-namibia-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -3412,7 +3420,7 @@ notes:
       field.capital-info: 'Nauru has no official capital; the Yaren District is the de facto capital.'
       field.country: Nauru
       field.country-info: ''
-      field.flag: '<img src="ug-flag-nauru.svg" />'
+      field.flag: !image media.ug-flag-nauru-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -3420,7 +3428,7 @@ notes:
             ref: notes.note.cura-ao.fields.field.country
           description_1:
             text: two stars in top-left corner
-      field.map: '<img src="ug-map-nauru.png" />'
+      field.map: !image media.ug-map-nauru-png
     tags:
       - UG::Oceania
       - UG::Sovereign_State
@@ -3434,9 +3442,9 @@ notes:
       field.capital-info: ''
       field.country: Nepal
       field.country-info: ''
-      field.flag: '<img src="ug-flag-nepal-nobox.svg" />'
+      field.flag: !image media.ug-flag-nepal-nobox-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-nepal.png" />'
+      field.map: !image media.ug-map-nepal-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -3450,7 +3458,7 @@ notes:
       field.capital-info: While Amsterdam is the official capital, The Hague is the seat of the executive and legislative branches.
       field.country: Netherlands
       field.country-info: ''
-      field.flag: '<img src="ug-flag-netherlands.svg" />'
+      field.flag: !image media.ug-flag-netherlands-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -3458,7 +3466,7 @@ notes:
             ref: notes.note.luxembourg.fields.field.country
           description_1:
             text: lighter blue
-      field.map: '<img src="ug-map-netherlands.png" />'
+      field.map: !image media.ug-map-netherlands-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -3473,9 +3481,9 @@ notes:
       field.capital-info: ''
       field.country: New Caledonia
       field.country-info: Overseas territory of France.
-      field.flag: '<img src="ug-flag-new_caledonia.svg" />'
+      field.flag: !image media.ug-flag-new-caledonia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-new_caledonia.png" />'
+      field.map: !image media.ug-map-new-caledonia-png
     tags:
       - UG::Oceania
     adapter_ids:
@@ -3488,7 +3496,7 @@ notes:
       field.capital-info: ''
       field.country: New Zealand
       field.country-info: ''
-      field.flag: '<img src="ug-flag-new_zealand.svg" />'
+      field.flag: !image media.ug-flag-new-zealand-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -3496,7 +3504,7 @@ notes:
             ref: notes.note.australia.fields.field.country
           description_1:
             text: white stars, two more stars
-      field.map: '<img src="ug-map-new_zealand.png" />'
+      field.map: !image media.ug-map-new-zealand-png
     tags:
       - UG::Oceania
       - UG::Sovereign_State
@@ -3510,7 +3518,9 @@ notes:
       field.capital-info: ''
       field.country: Nicaragua
       field.country-info: ''
-      field.flag: '<img src="ug-flag-nicaragua-blur.svg" /><img src="ug-flag-nicaragua.svg" />'
+      field.flag:
+        - !image media.ug-flag-nicaragua-blur-svg
+        - !image media.ug-flag-nicaragua-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -3518,7 +3528,7 @@ notes:
             ref: notes.note.el-salvador.fields.field.country
           description_1:
             text: different coat of arms, slightly darker blue
-      field.map: '<img src="ug-map-nicaragua.png" />'
+      field.map: !image media.ug-map-nicaragua-png
     tags:
       - UG::North_America
       - UG::Sovereign_State
@@ -3532,9 +3542,9 @@ notes:
       field.capital-info: ''
       field.country: Niger
       field.country-info: ''
-      field.flag: '<img src="ug-flag-niger.svg" />'
+      field.flag: !image media.ug-flag-niger-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-niger.png" />'
+      field.map: !image media.ug-map-niger-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -3549,9 +3559,9 @@ notes:
       field.capital-info: ''
       field.country: Nigeria
       field.country-info: ''
-      field.flag: '<img src="ug-flag-nigeria.svg" />'
+      field.flag: !image media.ug-flag-nigeria-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-nigeria.png" />'
+      field.map: !image media.ug-map-nigeria-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -3566,9 +3576,9 @@ notes:
       field.capital-info: ''
       field.country: Niue
       field.country-info: ''
-      field.flag: '<img src="ug-flag-niue.svg" />'
+      field.flag: !image media.ug-flag-niue-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-niue.png" />'
+      field.map: !image media.ug-map-niue-png
     tags:
       - UG::Oceania
       - UG::Sovereign_State
@@ -3584,7 +3594,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-north_america-nobox.png" />'
+      field.map: !image media.ug-map-north-america-nobox-png
     tags:
       - UG::Continents
     adapter_ids:
@@ -3597,9 +3607,9 @@ notes:
       field.capital-info: ''
       field.country: North Korea
       field.country-info: ''
-      field.flag: '<img src="ug-flag-north_korea.svg" />'
+      field.flag: !image media.ug-flag-north-korea-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-north_korea.png" />'
+      field.map: !image media.ug-map-north-korea-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -3613,9 +3623,9 @@ notes:
       field.capital-info: ''
       field.country: North Macedonia
       field.country-info: Formerly known as Macedonia.
-      field.flag: '<img src="ug-flag-north_macedonia.svg" />'
+      field.flag: !image media.ug-flag-north-macedonia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-north_macedonia.png" />'
+      field.map: !image media.ug-map-north-macedonia-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -3631,7 +3641,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-north_sea.png" />'
+      field.map: !image media.ug-map-north-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -3644,9 +3654,9 @@ notes:
       field.capital-info: ''
       field.country: Northern Cyprus
       field.country-info: State recognised only by Turkey and claimed by Cyprus.
-      field.flag: '<img src="ug-flag-northern_cyprus.svg" />'
+      field.flag: !image media.ug-flag-northern-cyprus-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-northern_cyprus.png" />'
+      field.map: !image media.ug-map-northern-cyprus-png
     tags:
       - UG::Asia
       - UG::Mediterranean
@@ -3664,7 +3674,7 @@ notes:
       field.country-info: Constituent country of the United Kingdom.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-northern_ireland.png" />'
+      field.map: !image media.ug-map-northern-ireland-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -3679,7 +3689,7 @@ notes:
       field.country-info: Unincorporated territory of the United States.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-northern_mariana_islands.png" />'
+      field.map: !image media.ug-map-northern-mariana-islands-png
     tags:
       - UG::Oceania
     adapter_ids:
@@ -3692,7 +3702,7 @@ notes:
       field.capital-info: ''
       field.country: Norway
       field.country-info: ''
-      field.flag: '<img src="ug-flag-norway.svg" />'
+      field.flag: !image media.ug-flag-norway-svg
       field.flag-similarity:
         format: '{country_1} ({description_1}), {country_2} ({description_2})'
         variables:
@@ -3704,7 +3714,7 @@ notes:
             text: blue background, red cross
           description_2:
             text: white background, red and blue cross
-      field.map: '<img src="ug-map-norway.png" />'
+      field.map: !image media.ug-map-norway-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -3720,7 +3730,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-norwegian_sea.png" />'
+      field.map: !image media.ug-map-norwegian-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -3735,7 +3745,7 @@ notes:
       field.country-info: World region covering the Australian continent and most of the islands in the Pacific Ocean.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-oceania-nobox.png" />'
+      field.map: !image media.ug-map-oceania-nobox-png
     tags:
       - UG::Continents
     adapter_ids:
@@ -3748,9 +3758,9 @@ notes:
       field.capital-info: ''
       field.country: Oman
       field.country-info: ''
-      field.flag: '<img src="ug-flag-oman.svg" />'
+      field.flag: !image media.ug-flag-oman-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-oman.png" />'
+      field.map: !image media.ug-map-oman-png
     tags:
       - UG::Asia
       - UG::Middle_East
@@ -3767,7 +3777,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-pacific_ocean-nobox.png" />'
+      field.map: !image media.ug-map-pacific-ocean-nobox-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -3780,9 +3790,9 @@ notes:
       field.capital-info: ''
       field.country: Pakistan
       field.country-info: ''
-      field.flag: '<img src="ug-flag-pakistan.svg" />'
+      field.flag: !image media.ug-flag-pakistan-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-pakistan.png" />'
+      field.map: !image media.ug-map-pakistan-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -3796,9 +3806,9 @@ notes:
       field.capital-info: ''
       field.country: Palau
       field.country-info: ''
-      field.flag: '<img src="ug-flag-palau.svg" />'
+      field.flag: !image media.ug-flag-palau-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-palau.png" />'
+      field.map: !image media.ug-map-palau-png
     tags:
       - UG::Oceania
       - UG::Sovereign_State
@@ -3812,7 +3822,7 @@ notes:
       field.capital-info: 'Disputed; claimed by Israel; Ramallah is the administrative centre.'
       field.country: Palestine
       field.country-info: ''
-      field.flag: '<img src="ug-flag-palestine.svg" />'
+      field.flag: !image media.ug-flag-palestine-svg
       field.flag-similarity:
         format: '{country_1} ({description_1}), {country_2} ({description_2})'
         variables:
@@ -3824,7 +3834,7 @@ notes:
             text: red/white/black, green arrow
           description_2:
             text: with star and crescent
-      field.map: '<img src="ug-map-palestine.png" />'
+      field.map: !image media.ug-map-palestine-png
     tags:
       - UG::Asia
       - UG::Mediterranean
@@ -3840,9 +3850,9 @@ notes:
       field.capital-info: ''
       field.country: Panama
       field.country-info: ''
-      field.flag: '<img src="ug-flag-panama.svg" />'
+      field.flag: !image media.ug-flag-panama-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-panama.png" />'
+      field.map: !image media.ug-map-panama-png
     tags:
       - UG::North_America
       - UG::Sovereign_State
@@ -3856,9 +3866,9 @@ notes:
       field.capital-info: ''
       field.country: Papua New Guinea
       field.country-info: ''
-      field.flag: '<img src="ug-flag-papua_new_guinea.svg" />'
+      field.flag: !image media.ug-flag-papua-new-guinea-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-papua_new_guinea.png" />'
+      field.map: !image media.ug-map-papua-new-guinea-png
     tags:
       - UG::Oceania
       - UG::Sovereign_State
@@ -3872,9 +3882,11 @@ notes:
       field.capital-info: ''
       field.country: Paraguay
       field.country-info: ''
-      field.flag: '<img src="ug-flag-paraguay-blur.svg" /><img src="ug-flag-paraguay.svg" />'
+      field.flag:
+        - !image media.ug-flag-paraguay-blur-svg
+        - !image media.ug-flag-paraguay-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-paraguay.png" />'
+      field.map: !image media.ug-map-paraguay-png
     tags:
       - UG::South_America
       - UG::Sovereign_State
@@ -3890,7 +3902,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-persian_gulf.png" />'
+      field.map: !image media.ug-map-persian-gulf-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -3903,9 +3915,9 @@ notes:
       field.capital-info: ''
       field.country: Peru
       field.country-info: ''
-      field.flag: '<img src="ug-flag-peru.svg" />'
+      field.flag: !image media.ug-flag-peru-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-peru.png" />'
+      field.map: !image media.ug-map-peru-png
     tags:
       - UG::South_America
       - UG::Sovereign_State
@@ -3921,7 +3933,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-philippine_sea.png" />'
+      field.map: !image media.ug-map-philippine-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -3934,9 +3946,9 @@ notes:
       field.capital-info: ''
       field.country: Philippines
       field.country-info: ''
-      field.flag: '<img src="ug-flag-philippines.svg" />'
+      field.flag: !image media.ug-flag-philippines-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-philippines.png" />'
+      field.map: !image media.ug-map-philippines-png
     tags:
       - UG::Asia
       - UG::Southeast_Asia
@@ -3951,7 +3963,7 @@ notes:
       field.capital-info: ''
       field.country: Poland
       field.country-info: ''
-      field.flag: '<img src="ug-flag-poland.svg" />'
+      field.flag: !image media.ug-flag-poland-svg
       field.flag-similarity:
         format: '{country_1} ({description_1}), {country_2} ({description_2})'
         variables:
@@ -3963,7 +3975,7 @@ notes:
             text: white and red flipped, brighter red
           description_2:
             text: white and red flipped, narrower
-      field.map: '<img src="ug-map-poland.png" />'
+      field.map: !image media.ug-map-poland-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -3980,7 +3992,7 @@ notes:
       field.country-info: Subregion of Oceania comprising thousands of small islands in the central and southern Pacific Ocean.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-polynesia.png" />'
+      field.map: !image media.ug-map-polynesia-png
     tags:
       - UG::Oceania
     adapter_ids:
@@ -3993,9 +4005,9 @@ notes:
       field.capital-info: ''
       field.country: Portugal
       field.country-info: ''
-      field.flag: '<img src="ug-flag-portugal.svg" />'
+      field.flag: !image media.ug-flag-portugal-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-portugal.png" />'
+      field.map: !image media.ug-map-portugal-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -4010,7 +4022,7 @@ notes:
       field.capital-info: ''
       field.country: Puerto Rico
       field.country-info: Unincorporated territory of the United States.
-      field.flag: '<img src="ug-flag-puerto_rico.svg" />'
+      field.flag: !image media.ug-flag-puerto-rico-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -4018,7 +4030,7 @@ notes:
             ref: notes.note.cuba.fields.field.country
           description_1:
             text: red triangle, blue stripes
-      field.map: '<img src="ug-map-puerto_rico.png" />'
+      field.map: !image media.ug-map-puerto-rico-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -4032,7 +4044,7 @@ notes:
       field.capital-info: ''
       field.country: Qatar
       field.country-info: ''
-      field.flag: '<img src="ug-flag-qatar.svg" />'
+      field.flag: !image media.ug-flag-qatar-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -4040,7 +4052,7 @@ notes:
             ref: notes.note.bahrain.fields.field.country
           description_1:
             text: narrower, fewer serrated edges, red
-      field.map: '<img src="ug-map-qatar.png" />'
+      field.map: !image media.ug-map-qatar-png
     tags:
       - UG::Asia
       - UG::Middle_East
@@ -4057,7 +4069,7 @@ notes:
       field.country-info: Overseas department of France.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-reunion.png" />'
+      field.map: !image media.ug-map-reunion-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -4073,7 +4085,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-red_sea.png" />'
+      field.map: !image media.ug-map-red-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -4086,9 +4098,9 @@ notes:
       field.capital-info: ''
       field.country: Republic of the Congo
       field.country-info: ''
-      field.flag: '<img src="ug-flag-republic_of_the_congo.svg" />'
+      field.flag: !image media.ug-flag-republic-of-the-congo-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-republic_of_the_congo.png" />'
+      field.map: !image media.ug-map-republic-of-the-congo-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -4102,7 +4114,7 @@ notes:
       field.capital-info: ''
       field.country: Romania
       field.country-info: ''
-      field.flag: '<img src="ug-flag-romania.svg" />'
+      field.flag: !image media.ug-flag-romania-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -4110,7 +4122,7 @@ notes:
             ref: notes.note.chad.fields.field.country
           description_1:
             text: slightly darker blue
-      field.map: '<img src="ug-map-romania.png" />'
+      field.map: !image media.ug-map-romania-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -4125,7 +4137,7 @@ notes:
       field.capital-info: ''
       field.country: Russia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-russia.svg" />'
+      field.flag: !image media.ug-flag-russia-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -4133,7 +4145,7 @@ notes:
             ref: notes.note.slovakia.fields.field.country
           description_1:
             text: with coat of arms
-      field.map: '<img src="ug-map-russia.png" />'
+      field.map: !image media.ug-map-russia-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -4147,9 +4159,9 @@ notes:
       field.capital-info: ''
       field.country: Rwanda
       field.country-info: ''
-      field.flag: '<img src="ug-flag-rwanda.svg" />'
+      field.flag: !image media.ug-flag-rwanda-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-rwanda.png" />'
+      field.map: !image media.ug-map-rwanda-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -4164,9 +4176,9 @@ notes:
       field.capital-info: ''
       field.country: 'São Tomé and Príncipe'
       field.country-info: ''
-      field.flag: '<img src="ug-flag-sao_tome_and_principe.svg" />'
+      field.flag: !image media.ug-flag-sao-tome-and-principe-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-sao_tome_and_principe.png" />'
+      field.map: !image media.ug-map-sao-tome-and-principe-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -4180,7 +4192,7 @@ notes:
       field.capital-info: 'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.'
       field.country: Sahrawi Arab Democratic Republic
       field.country-info: Partially recognised state claimed by Morocco. Also known as Western Sahara.
-      field.flag: '<img src="ug-flag-sahrawi_arab_democratic_republic.svg" />'
+      field.flag: !image media.ug-flag-sahrawi-arab-democratic-republic-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -4188,7 +4200,7 @@ notes:
             ref: notes.note.palestine.fields.field.country
           description_1:
             text: no symbol
-      field.map: '<img src="ug-map-sahrawi_arab_democratic_republic.png" />'
+      field.map: !image media.ug-map-sahrawi-arab-democratic-republic-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -4202,9 +4214,9 @@ notes:
       field.capital-info: ''
       field.country: Saint Kitts and Nevis
       field.country-info: ''
-      field.flag: '<img src="ug-flag-saint_kitts_and_nevis.svg" />'
+      field.flag: !image media.ug-flag-saint-kitts-and-nevis-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-saint_kitts_and_nevis.png" />'
+      field.map: !image media.ug-map-saint-kitts-and-nevis-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -4219,9 +4231,9 @@ notes:
       field.capital-info: ''
       field.country: Saint Lucia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-saint_lucia.svg" />'
+      field.flag: !image media.ug-flag-saint-lucia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-saint_lucia.png" />'
+      field.map: !image media.ug-map-saint-lucia-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -4238,7 +4250,7 @@ notes:
       field.country-info: Overseas territory of France.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-saint_martin.png" />'
+      field.map: !image media.ug-map-saint-martin-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -4252,9 +4264,9 @@ notes:
       field.capital-info: ''
       field.country: Saint Vincent and the Grenadines
       field.country-info: ''
-      field.flag: '<img src="ug-flag-saint_vincent_and_the_grenadines.svg" />'
+      field.flag: !image media.ug-flag-saint-vincent-and-the-grenadines-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-saint_vincent_and_the_grenadines.png" />'
+      field.map: !image media.ug-map-saint-vincent-and-the-grenadines-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -4269,9 +4281,9 @@ notes:
       field.capital-info: ''
       field.country: Samoa
       field.country-info: ''
-      field.flag: '<img src="ug-flag-samoa.svg" />'
+      field.flag: !image media.ug-flag-samoa-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-samoa.png" />'
+      field.map: !image media.ug-map-samoa-png
     tags:
       - UG::Oceania
       - UG::Sovereign_State
@@ -4285,9 +4297,9 @@ notes:
       field.capital-info: ''
       field.country: San Marino
       field.country-info: ''
-      field.flag: '<img src="ug-flag-san_marino.svg" />'
+      field.flag: !image media.ug-flag-san-marino-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-san_marino.png" />'
+      field.map: !image media.ug-map-san-marino-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -4303,7 +4315,7 @@ notes:
       field.country-info: Autonomous region of Italy.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-sardinia.png" />'
+      field.map: !image media.ug-map-sardinia-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -4316,9 +4328,9 @@ notes:
       field.capital-info: ''
       field.country: Saudi Arabia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-saudi_arabia.svg" />'
+      field.flag: !image media.ug-flag-saudi-arabia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-saudi_arabia.png" />'
+      field.map: !image media.ug-map-saudi-arabia-png
     tags:
       - UG::Asia
       - UG::Middle_East
@@ -4335,7 +4347,7 @@ notes:
       field.country-info: Historical and cultural region in Northern Europe, which includes the countries of Denmark, Norway and Sweden, and sometimes Finland and Iceland.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-scandinavia.png" />'
+      field.map: !image media.ug-map-scandinavia-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -4348,9 +4360,9 @@ notes:
       field.capital-info: ''
       field.country: Scotland
       field.country-info: Constituent country of the United Kingdom.
-      field.flag: '<img src="ug-flag-scotland.svg" />'
+      field.flag: !image media.ug-flag-scotland-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-scotland.png" />'
+      field.map: !image media.ug-map-scotland-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -4365,7 +4377,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-sea_of_galilee.png" />'
+      field.map: !image media.ug-map-sea-of-galilee-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -4380,7 +4392,7 @@ notes:
       field.country-info: 'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.'
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-sea_of_japan.png" />'
+      field.map: !image media.ug-map-sea-of-japan-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -4395,7 +4407,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-sea_of_okhotsk.png" />'
+      field.map: !image media.ug-map-sea-of-okhotsk-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -4408,7 +4420,7 @@ notes:
       field.capital-info: ''
       field.country: Senegal
       field.country-info: ''
-      field.flag: '<img src="ug-flag-senegal.svg" />'
+      field.flag: !image media.ug-flag-senegal-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -4416,7 +4428,7 @@ notes:
             ref: notes.note.cameroon.fields.field.country
           description_1:
             text: green/red/yellow, yellow star
-      field.map: '<img src="ug-map-senegal.png" />'
+      field.map: !image media.ug-map-senegal-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -4431,9 +4443,9 @@ notes:
       field.capital-info: ''
       field.country: Serbia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-serbia.svg" />'
+      field.flag: !image media.ug-flag-serbia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-serbia.png" />'
+      field.map: !image media.ug-map-serbia-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -4447,9 +4459,9 @@ notes:
       field.capital-info: ''
       field.country: Seychelles
       field.country-info: ''
-      field.flag: '<img src="ug-flag-seychelles.svg" />'
+      field.flag: !image media.ug-flag-seychelles-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-seychelles.png" />'
+      field.map: !image media.ug-map-seychelles-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -4466,7 +4478,7 @@ notes:
       field.country-info: Autonomous region of Italy.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-sicily.png" />'
+      field.map: !image media.ug-map-sicily-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -4479,9 +4491,9 @@ notes:
       field.capital-info: ''
       field.country: Sierra Leone
       field.country-info: ''
-      field.flag: '<img src="ug-flag-sierra_leone.svg" />'
+      field.flag: !image media.ug-flag-sierra-leone-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-sierra_leone.png" />'
+      field.map: !image media.ug-map-sierra-leone-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -4496,9 +4508,9 @@ notes:
       field.capital-info: ''
       field.country: Singapore
       field.country-info: ''
-      field.flag: '<img src="ug-flag-singapore.svg" />'
+      field.flag: !image media.ug-flag-singapore-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-singapore.png" />'
+      field.map: !image media.ug-map-singapore-png
     tags:
       - UG::Asia
       - UG::Southeast_Asia
@@ -4515,7 +4527,7 @@ notes:
       field.country-info: Constituent country of the Kingdom of the Netherlands.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-sint_maarten.png" />'
+      field.map: !image media.ug-map-sint-maarten-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -4529,7 +4541,7 @@ notes:
       field.capital-info: ''
       field.country: Slovakia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-slovakia.svg" />'
+      field.flag: !image media.ug-flag-slovakia-svg
       field.flag-similarity:
         format: '{country_1} ({description_1}), {country_2} ({description_2})'
         variables:
@@ -4541,7 +4553,7 @@ notes:
             text: no coat of arms
           description_2:
             text: wider, smaller coat of arms
-      field.map: '<img src="ug-map-slovakia.png" />'
+      field.map: !image media.ug-map-slovakia-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -4556,7 +4568,7 @@ notes:
       field.capital-info: ''
       field.country: Slovenia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-slovenia.svg" />'
+      field.flag: !image media.ug-flag-slovenia-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -4564,7 +4576,7 @@ notes:
             ref: notes.note.slovakia.fields.field.country
           description_1:
             text: narrower, bigger coat of arms
-      field.map: '<img src="ug-map-slovenia.png" />'
+      field.map: !image media.ug-map-slovenia-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -4580,9 +4592,9 @@ notes:
       field.capital-info: ''
       field.country: Solomon Islands
       field.country-info: ''
-      field.flag: '<img src="ug-flag-solomon_islands.svg" />'
+      field.flag: !image media.ug-flag-solomon-islands-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-solomon_islands.png" />'
+      field.map: !image media.ug-map-solomon-islands-png
     tags:
       - UG::Oceania
       - UG::Sovereign_State
@@ -4596,9 +4608,9 @@ notes:
       field.capital-info: ''
       field.country: Somalia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-somalia.svg" />'
+      field.flag: !image media.ug-flag-somalia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-somalia.png" />'
+      field.map: !image media.ug-map-somalia-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -4613,9 +4625,9 @@ notes:
       field.capital-info: ''
       field.country: Somaliland
       field.country-info: Independent state claimed by Somalia.
-      field.flag: '<img src="ug-flag-somaliland.svg" />'
+      field.flag: !image media.ug-flag-somaliland-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-somaliland.png" />'
+      field.map: !image media.ug-map-somaliland-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -4630,9 +4642,9 @@ notes:
       field.capital-info: 'South Africa has no legally defined capital: the branches of government are split over three cities: Pretoria (executive), Cape Town (legislative) and Bloemfontein (judicial).'
       field.country: South Africa
       field.country-info: ''
-      field.flag: '<img src="ug-flag-south_africa.svg" />'
+      field.flag: !image media.ug-flag-south-africa-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-south_africa.png" />'
+      field.map: !image media.ug-map-south-africa-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -4648,7 +4660,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-south_america-nobox.png" />'
+      field.map: !image media.ug-map-south-america-nobox-png
     tags:
       - UG::Continents
     adapter_ids:
@@ -4663,7 +4675,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-south_china_sea.png" />'
+      field.map: !image media.ug-map-south-china-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -4676,9 +4688,9 @@ notes:
       field.capital-info: ''
       field.country: South Korea
       field.country-info: ''
-      field.flag: '<img src="ug-flag-south_korea.svg" />'
+      field.flag: !image media.ug-flag-south-korea-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-south_korea.png" />'
+      field.map: !image media.ug-map-south-korea-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -4692,9 +4704,9 @@ notes:
       field.capital-info: ''
       field.country: South Ossetia
       field.country-info: Independent state claimed by Georgia.
-      field.flag: '<img src="ug-flag-south_ossetia.svg" />'
+      field.flag: !image media.ug-flag-south-ossetia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-south_ossetia.png" />'
+      field.map: !image media.ug-map-south-ossetia-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -4708,9 +4720,9 @@ notes:
       field.capital-info: ''
       field.country: South Sudan
       field.country-info: ''
-      field.flag: '<img src="ug-flag-south_sudan.svg" />'
+      field.flag: !image media.ug-flag-south-sudan-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-south_sudan.png" />'
+      field.map: !image media.ug-map-south-sudan-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -4727,7 +4739,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-southern_ocean-nobox.png" />'
+      field.map: !image media.ug-map-southern-ocean-nobox-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -4740,9 +4752,9 @@ notes:
       field.capital-info: ''
       field.country: Spain
       field.country-info: ''
-      field.flag: '<img src="ug-flag-spain.svg" />'
+      field.flag: !image media.ug-flag-spain-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-spain.png" />'
+      field.map: !image media.ug-map-spain-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -4758,9 +4770,9 @@ notes:
       field.capital-info: Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.
       field.country: Sri Lanka
       field.country-info: ''
-      field.flag: '<img src="ug-flag-sri_lanka.svg" />'
+      field.flag: !image media.ug-flag-sri-lanka-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-sri_lanka.png" />'
+      field.map: !image media.ug-map-sri-lanka-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -4774,7 +4786,7 @@ notes:
       field.capital-info: ''
       field.country: Sudan
       field.country-info: ''
-      field.flag: '<img src="ug-flag-sudan.svg" />'
+      field.flag: !image media.ug-flag-sudan-svg
       field.flag-similarity:
         format: '{country_1} ({description_1})'
         variables:
@@ -4782,7 +4794,7 @@ notes:
             ref: notes.note.palestine.fields.field.country
           description_1:
             text: black/white/green, red arrow
-      field.map: '<img src="ug-map-sudan.png" />'
+      field.map: !image media.ug-map-sudan-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -4798,7 +4810,7 @@ notes:
       field.country-info: Island of Indonesia.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-sumatra.png" />'
+      field.map: !image media.ug-map-sumatra-png
     tags:
       - UG::Asia
     adapter_ids:
@@ -4811,9 +4823,9 @@ notes:
       field.capital-info: ''
       field.country: Suriname
       field.country-info: ''
-      field.flag: '<img src="ug-flag-suriname.svg" />'
+      field.flag: !image media.ug-flag-suriname-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-suriname.png" />'
+      field.map: !image media.ug-map-suriname-png
     tags:
       - UG::South_America
       - UG::Sovereign_State
@@ -4829,7 +4841,7 @@ notes:
       field.country-info: Unincorporated internal area of Norway.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-svalbard.png" />'
+      field.map: !image media.ug-map-svalbard-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -4842,9 +4854,9 @@ notes:
       field.capital-info: ''
       field.country: Sweden
       field.country-info: ''
-      field.flag: '<img src="ug-flag-sweden.svg" />'
+      field.flag: !image media.ug-flag-sweden-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-sweden.png" />'
+      field.map: !image media.ug-map-sweden-png
     tags:
       - UG::Europe
       - UG::European_Union
@@ -4859,9 +4871,9 @@ notes:
       field.capital-info: 'Switzerland has no official capital; Bern is the de facto capital.'
       field.country: Switzerland
       field.country-info: ''
-      field.flag: '<img src="ug-flag-switzerland.svg" />'
+      field.flag: !image media.ug-flag-switzerland-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-switzerland.png" />'
+      field.map: !image media.ug-map-switzerland-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -4875,9 +4887,9 @@ notes:
       field.capital-info: ''
       field.country: Syria
       field.country-info: ''
-      field.flag: '<img src="ug-flag-syria.svg" />'
+      field.flag: !image media.ug-flag-syria-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-syria.png" />'
+      field.map: !image media.ug-map-syria-png
     tags:
       - UG::Asia
       - UG::Mediterranean
@@ -4893,9 +4905,9 @@ notes:
       field.capital-info: ''
       field.country: Taiwan
       field.country-info: Partially recognised state claimed by China.
-      field.flag: '<img src="ug-flag-taiwan.svg" />'
+      field.flag: !image media.ug-flag-taiwan-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-taiwan.png" />'
+      field.map: !image media.ug-map-taiwan-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -4909,9 +4921,9 @@ notes:
       field.capital-info: ''
       field.country: Tajikistan
       field.country-info: ''
-      field.flag: '<img src="ug-flag-tajikistan.svg" />'
+      field.flag: !image media.ug-flag-tajikistan-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-tajikistan.png" />'
+      field.map: !image media.ug-map-tajikistan-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -4925,9 +4937,9 @@ notes:
       field.capital-info: While Dodoma is the official capital, Dar es Salaam is the de facto seat of government.
       field.country: Tanzania
       field.country-info: ''
-      field.flag: '<img src="ug-flag-tanzania.svg" />'
+      field.flag: !image media.ug-flag-tanzania-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-tanzania.png" />'
+      field.map: !image media.ug-map-tanzania-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -4944,7 +4956,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-tasman_sea.png" />'
+      field.map: !image media.ug-map-tasman-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -4957,9 +4969,9 @@ notes:
       field.capital-info: ''
       field.country: Thailand
       field.country-info: ''
-      field.flag: '<img src="ug-flag-thailand.svg" />'
+      field.flag: !image media.ug-flag-thailand-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-thailand.png" />'
+      field.map: !image media.ug-map-thailand-png
     tags:
       - UG::Asia
       - UG::Southeast_Asia
@@ -4974,9 +4986,9 @@ notes:
       field.capital-info: ''
       field.country: The Bahamas
       field.country-info: ''
-      field.flag: '<img src="ug-flag-the_bahamas.svg" />'
+      field.flag: !image media.ug-flag-the-bahamas-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-the_bahamas.png" />'
+      field.map: !image media.ug-map-the-bahamas-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -4991,9 +5003,9 @@ notes:
       field.capital-info: ''
       field.country: The Gambia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-the_gambia.svg" />'
+      field.flag: !image media.ug-flag-the-gambia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-the_gambia.png" />'
+      field.map: !image media.ug-map-the-gambia-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -5008,9 +5020,9 @@ notes:
       field.capital-info: ''
       field.country: Timor-Leste
       field.country-info: Also known as East Timor.
-      field.flag: '<img src="ug-flag-timor-leste.svg" />'
+      field.flag: !image media.ug-flag-timor-leste-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-timor-leste.png" />'
+      field.map: !image media.ug-map-timor-leste-png
     tags:
       - UG::Asia
       - UG::Southeast_Asia
@@ -5027,7 +5039,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-timor_sea.png" />'
+      field.map: !image media.ug-map-timor-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -5040,9 +5052,9 @@ notes:
       field.capital-info: ''
       field.country: Togo
       field.country-info: ''
-      field.flag: '<img src="ug-flag-togo.svg" />'
+      field.flag: !image media.ug-flag-togo-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-togo.png" />'
+      field.map: !image media.ug-map-togo-png
     tags:
       - UG::Africa
       - UG::Sovereign_State
@@ -5057,9 +5069,9 @@ notes:
       field.capital-info: ''
       field.country: Tonga
       field.country-info: ''
-      field.flag: '<img src="ug-flag-tonga.svg" />'
+      field.flag: !image media.ug-flag-tonga-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-tonga.png" />'
+      field.map: !image media.ug-map-tonga-png
     tags:
       - UG::Oceania
       - UG::Sovereign_State
@@ -5073,9 +5085,9 @@ notes:
       field.capital-info: ''
       field.country: Transnistria
       field.country-info: Independent state claimed by Moldova.
-      field.flag: '<img src="ug-flag-transnistria.svg" />'
+      field.flag: !image media.ug-flag-transnistria-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-transnistria.png" />'
+      field.map: !image media.ug-map-transnistria-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -5089,9 +5101,9 @@ notes:
       field.capital-info: ''
       field.country: Trinidad and Tobago
       field.country-info: ''
-      field.flag: '<img src="ug-flag-trinidad_and_tobago.svg" />'
+      field.flag: !image media.ug-flag-trinidad-and-tobago-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-trinidad_and_tobago.png" />'
+      field.map: !image media.ug-map-trinidad-and-tobago-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -5106,9 +5118,9 @@ notes:
       field.capital-info: ''
       field.country: Tunisia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-tunisia.svg" />'
+      field.flag: !image media.ug-flag-tunisia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-tunisia.png" />'
+      field.map: !image media.ug-map-tunisia-png
     tags:
       - UG::Africa
       - UG::Mediterranean
@@ -5123,9 +5135,9 @@ notes:
       field.capital-info: ''
       field.country: Turkey
       field.country-info: 'Also known as Türkiye'
-      field.flag: '<img src="ug-flag-turkey.svg" />'
+      field.flag: !image media.ug-flag-turkey-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-turkey.png" />'
+      field.map: !image media.ug-map-turkey-png
     tags:
       - UG::Asia
       - UG::Mediterranean
@@ -5141,9 +5153,9 @@ notes:
       field.capital-info: ''
       field.country: Turkmenistan
       field.country-info: ''
-      field.flag: '<img src="ug-flag-turkmenistan.svg" />'
+      field.flag: !image media.ug-flag-turkmenistan-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-turkmenistan.png" />'
+      field.map: !image media.ug-map-turkmenistan-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -5159,7 +5171,7 @@ notes:
       field.country-info: Overseas territory of the United Kingdom.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-turks_and_caicos_islands.png" />'
+      field.map: !image media.ug-map-turks-and-caicos-islands-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -5173,9 +5185,9 @@ notes:
       field.capital-info: ''
       field.country: Tuvalu
       field.country-info: ''
-      field.flag: '<img src="ug-flag-tuvalu.svg" />'
+      field.flag: !image media.ug-flag-tuvalu-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-tuvalu.png" />'
+      field.map: !image media.ug-map-tuvalu-png
     tags:
       - UG::Oceania
       - UG::Sovereign_State
@@ -5189,9 +5201,9 @@ notes:
       field.capital-info: ''
       field.country: Uganda
       field.country-info: ''
-      field.flag: '<img src="ug-flag-uganda.svg" />'
+      field.flag: !image media.ug-flag-uganda-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-uganda.png" />'
+      field.map: !image media.ug-map-uganda-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -5206,9 +5218,9 @@ notes:
       field.capital-info: Also known as Kiev.
       field.country: Ukraine
       field.country-info: ''
-      field.flag: '<img src="ug-flag-ukraine.svg" />'
+      field.flag: !image media.ug-flag-ukraine-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-ukraine.png" />'
+      field.map: !image media.ug-map-ukraine-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -5222,9 +5234,9 @@ notes:
       field.capital-info: ''
       field.country: United Arab Emirates
       field.country-info: ''
-      field.flag: '<img src="ug-flag-united_arab_emirates.svg" />'
+      field.flag: !image media.ug-flag-united-arab-emirates-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-united_arab_emirates.png" />'
+      field.map: !image media.ug-map-united-arab-emirates-png
     tags:
       - UG::Asia
       - UG::Middle_East
@@ -5239,9 +5251,9 @@ notes:
       field.capital-info: ''
       field.country: United Kingdom
       field.country-info: ''
-      field.flag: '<img src="ug-flag-united_kingdom.svg" />'
+      field.flag: !image media.ug-flag-united-kingdom-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-united_kingdom.png" />'
+      field.map: !image media.ug-map-united-kingdom-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -5255,9 +5267,9 @@ notes:
       field.capital-info: ''
       field.country: United States of America
       field.country-info: ''
-      field.flag: '<img src="ug-flag-united_states_of_america.svg" />'
+      field.flag: !image media.ug-flag-united-states-of-america-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-united_states_of_america.png" />'
+      field.map: !image media.ug-map-united-states-of-america-png
     tags:
       - UG::North_America
       - UG::Sovereign_State
@@ -5271,9 +5283,9 @@ notes:
       field.capital-info: ''
       field.country: United States Virgin Islands
       field.country-info: Unincorporated territory of the United States.
-      field.flag: '<img src="ug-flag-united_states_virgin_islands.svg" />'
+      field.flag: !image media.ug-flag-united-states-virgin-islands-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-united_states_virgin_islands.png" />'
+      field.map: !image media.ug-map-united-states-virgin-islands-png
     tags:
       - UG::Caribbean
       - UG::North_America
@@ -5287,9 +5299,9 @@ notes:
       field.capital-info: ''
       field.country: Uruguay
       field.country-info: ''
-      field.flag: '<img src="ug-flag-uruguay.svg" />'
+      field.flag: !image media.ug-flag-uruguay-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-uruguay.png" />'
+      field.map: !image media.ug-map-uruguay-png
     tags:
       - UG::South_America
       - UG::Sovereign_State
@@ -5303,9 +5315,9 @@ notes:
       field.capital-info: ''
       field.country: Uzbekistan
       field.country-info: ''
-      field.flag: '<img src="ug-flag-uzbekistan.svg" />'
+      field.flag: !image media.ug-flag-uzbekistan-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-uzbekistan.png" />'
+      field.map: !image media.ug-map-uzbekistan-png
     tags:
       - UG::Asia
       - UG::Sovereign_State
@@ -5319,9 +5331,9 @@ notes:
       field.capital-info: ''
       field.country: Vanuatu
       field.country-info: ''
-      field.flag: '<img src="ug-flag-vanuatu.svg" />'
+      field.flag: !image media.ug-flag-vanuatu-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-vanuatu.png" />'
+      field.map: !image media.ug-map-vanuatu-png
     tags:
       - UG::Oceania
       - UG::Sovereign_State
@@ -5335,9 +5347,9 @@ notes:
       field.capital-info: ''
       field.country: Vatican City
       field.country-info: ''
-      field.flag: '<img src="ug-flag-vatican_city.svg" />'
+      field.flag: !image media.ug-flag-vatican-city-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-vatican_city.png" />'
+      field.map: !image media.ug-map-vatican-city-png
     tags:
       - UG::Europe
       - UG::Sovereign_State
@@ -5351,9 +5363,9 @@ notes:
       field.capital-info: ''
       field.country: Venezuela
       field.country-info: ''
-      field.flag: '<img src="ug-flag-venezuela.svg" />'
+      field.flag: !image media.ug-flag-venezuela-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-venezuela.png" />'
+      field.map: !image media.ug-map-venezuela-png
     tags:
       - UG::South_America
       - UG::Sovereign_State
@@ -5367,9 +5379,9 @@ notes:
       field.capital-info: ''
       field.country: Vietnam
       field.country-info: ''
-      field.flag: '<img src="ug-flag-vietnam.svg" />'
+      field.flag: !image media.ug-flag-vietnam-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-vietnam.png" />'
+      field.map: !image media.ug-map-vietnam-png
     tags:
       - UG::Asia
       - UG::Southeast_Asia
@@ -5384,9 +5396,9 @@ notes:
       field.capital-info: ''
       field.country: Wales
       field.country-info: Constituent country of the United Kingdom.
-      field.flag: '<img src="ug-flag-wales.svg" />'
+      field.flag: !image media.ug-flag-wales-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-wales.png" />'
+      field.map: !image media.ug-map-wales-png
     tags:
       - UG::Europe
     adapter_ids:
@@ -5401,7 +5413,7 @@ notes:
       field.country-info: Overseas territory of France.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-wallis_and_futuna.png" />'
+      field.map: !image media.ug-map-wallis-and-futuna-png
     tags:
       - UG::Oceania
     adapter_ids:
@@ -5416,7 +5428,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-white_sea.png" />'
+      field.map: !image media.ug-map-white-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -5431,7 +5443,7 @@ notes:
       field.country-info: ''
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-yellow_sea.png" />'
+      field.map: !image media.ug-map-yellow-sea-png
     tags:
       - 'UG::Oceans+Seas'
     adapter_ids:
@@ -5444,7 +5456,7 @@ notes:
       field.capital-info: 'Also spelled as Sana''a.'
       field.country: Yemen
       field.country-info: ''
-      field.flag: '<img src="ug-flag-yemen.svg" />'
+      field.flag: !image media.ug-flag-yemen-svg
       field.flag-similarity:
         format: '{country_1} ({description_1}), {country_2} ({description_2})'
         variables:
@@ -5456,7 +5468,7 @@ notes:
             text: with emblem
           description_2:
             text: with text
-      field.map: '<img src="ug-map-yemen.png" />'
+      field.map: !image media.ug-map-yemen-png
     tags:
       - UG::Asia
       - UG::Middle_East
@@ -5471,9 +5483,9 @@ notes:
       field.capital-info: ''
       field.country: Zambia
       field.country-info: ''
-      field.flag: '<img src="ug-flag-zambia.svg" />'
+      field.flag: !image media.ug-flag-zambia-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-zambia.png" />'
+      field.map: !image media.ug-map-zambia-png
     tags:
       - UG::Africa
       - UG::East_Africa
@@ -5490,7 +5502,7 @@ notes:
       field.country-info: Semi-autonomous region of Tanzania.
       field.flag: ''
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-zanzibar.png" />'
+      field.map: !image media.ug-map-zanzibar-png
     tags:
       - UG::Africa
     adapter_ids:
@@ -5503,1652 +5515,14 @@ notes:
       field.capital-info: ''
       field.country: Zimbabwe
       field.country-info: ''
-      field.flag: '<img src="ug-flag-zimbabwe.svg" />'
+      field.flag: !image media.ug-flag-zimbabwe-svg
       field.flag-similarity: ''
-      field.map: '<img src="ug-map-zimbabwe.png" />'
+      field.map: !image media.ug-map-zimbabwe-png
     tags:
       - UG::Africa
       - UG::East_Africa
       - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'r<N4LAAnnB'
-media:
-  media.ug-flag-abkhazia-svg:
-    path: ug-flag-abkhazia.svg
-    sha256: ''
-  media.ug-flag-afghanistan-svg:
-    path: ug-flag-afghanistan.svg
-    sha256: ''
-  media.ug-flag-aland-islands-svg:
-    path: ug-flag-aland_islands.svg
-    sha256: ''
-  media.ug-flag-albania-svg:
-    path: ug-flag-albania.svg
-    sha256: ''
-  media.ug-flag-algeria-svg:
-    path: ug-flag-algeria.svg
-    sha256: ''
-  media.ug-flag-andorra-svg:
-    path: ug-flag-andorra.svg
-    sha256: ''
-  media.ug-flag-angola-svg:
-    path: ug-flag-angola.svg
-    sha256: ''
-  media.ug-flag-antigua-and-barbuda-svg:
-    path: ug-flag-antigua_and_barbuda.svg
-    sha256: ''
-  media.ug-flag-argentina-svg:
-    path: ug-flag-argentina.svg
-    sha256: ''
-  media.ug-flag-armenia-svg:
-    path: ug-flag-armenia.svg
-    sha256: ''
-  media.ug-flag-aruba-svg:
-    path: ug-flag-aruba.svg
-    sha256: ''
-  media.ug-flag-australia-svg:
-    path: ug-flag-australia.svg
-    sha256: ''
-  media.ug-flag-austria-svg:
-    path: ug-flag-austria.svg
-    sha256: ''
-  media.ug-flag-azerbaijan-svg:
-    path: ug-flag-azerbaijan.svg
-    sha256: ''
-  media.ug-flag-bahrain-svg:
-    path: ug-flag-bahrain.svg
-    sha256: ''
-  media.ug-flag-bangladesh-svg:
-    path: ug-flag-bangladesh.svg
-    sha256: ''
-  media.ug-flag-barbados-svg:
-    path: ug-flag-barbados.svg
-    sha256: ''
-  media.ug-flag-belarus-svg:
-    path: ug-flag-belarus.svg
-    sha256: ''
-  media.ug-flag-belgium-svg:
-    path: ug-flag-belgium.svg
-    sha256: ''
-  media.ug-flag-belize-svg:
-    path: ug-flag-belize.svg
-    sha256: ''
-  media.ug-flag-benin-svg:
-    path: ug-flag-benin.svg
-    sha256: ''
-  media.ug-flag-bhutan-svg:
-    path: ug-flag-bhutan.svg
-    sha256: ''
-  media.ug-flag-bolivia-blur-svg:
-    path: ug-flag-bolivia-blur.svg
-    sha256: ''
-  media.ug-flag-bolivia-svg:
-    path: ug-flag-bolivia.svg
-    sha256: ''
-  media.ug-flag-bosnia-and-herzegovina-svg:
-    path: ug-flag-bosnia_and_herzegovina.svg
-    sha256: ''
-  media.ug-flag-botswana-svg:
-    path: ug-flag-botswana.svg
-    sha256: ''
-  media.ug-flag-brazil-svg:
-    path: ug-flag-brazil.svg
-    sha256: ''
-  media.ug-flag-brunei-svg:
-    path: ug-flag-brunei.svg
-    sha256: ''
-  media.ug-flag-bulgaria-svg:
-    path: ug-flag-bulgaria.svg
-    sha256: ''
-  media.ug-flag-burkina-faso-svg:
-    path: ug-flag-burkina_faso.svg
-    sha256: ''
-  media.ug-flag-burundi-svg:
-    path: ug-flag-burundi.svg
-    sha256: ''
-  media.ug-flag-cambodia-svg:
-    path: ug-flag-cambodia.svg
-    sha256: ''
-  media.ug-flag-cameroon-svg:
-    path: ug-flag-cameroon.svg
-    sha256: ''
-  media.ug-flag-canada-svg:
-    path: ug-flag-canada.svg
-    sha256: ''
-  media.ug-flag-cape-verde-svg:
-    path: ug-flag-cape_verde.svg
-    sha256: ''
-  media.ug-flag-central-african-republic-svg:
-    path: ug-flag-central_african_republic.svg
-    sha256: ''
-  media.ug-flag-chad-svg:
-    path: ug-flag-chad.svg
-    sha256: ''
-  media.ug-flag-chile-svg:
-    path: ug-flag-chile.svg
-    sha256: ''
-  media.ug-flag-china-svg:
-    path: ug-flag-china.svg
-    sha256: ''
-  media.ug-flag-colombia-svg:
-    path: ug-flag-colombia.svg
-    sha256: ''
-  media.ug-flag-comoros-svg:
-    path: ug-flag-comoros.svg
-    sha256: ''
-  media.ug-flag-cook-islands-svg:
-    path: ug-flag-cook_islands.svg
-    sha256: ''
-  media.ug-flag-costa-rica-blur-svg:
-    path: ug-flag-costa_rica-blur.svg
-    sha256: ''
-  media.ug-flag-costa-rica-svg:
-    path: ug-flag-costa_rica.svg
-    sha256: ''
-  media.ug-flag-croatia-svg:
-    path: ug-flag-croatia.svg
-    sha256: ''
-  media.ug-flag-cuba-svg:
-    path: ug-flag-cuba.svg
-    sha256: ''
-  media.ug-flag-curacao-svg:
-    path: ug-flag-curacao.svg
-    sha256: ''
-  media.ug-flag-cyprus-svg:
-    path: ug-flag-cyprus.svg
-    sha256: ''
-  media.ug-flag-czech-republic-svg:
-    path: ug-flag-czech_republic.svg
-    sha256: ''
-  media.ug-flag-democratic-republic-of-the-congo-svg:
-    path: ug-flag-democratic_republic_of_the_congo.svg
-    sha256: ''
-  media.ug-flag-denmark-svg:
-    path: ug-flag-denmark.svg
-    sha256: ''
-  media.ug-flag-djibouti-svg:
-    path: ug-flag-djibouti.svg
-    sha256: ''
-  media.ug-flag-dominica-svg:
-    path: ug-flag-dominica.svg
-    sha256: ''
-  media.ug-flag-dominican-republic-svg:
-    path: ug-flag-dominican_republic.svg
-    sha256: ''
-  media.ug-flag-ecuador-svg:
-    path: ug-flag-ecuador.svg
-    sha256: ''
-  media.ug-flag-egypt-svg:
-    path: ug-flag-egypt.svg
-    sha256: ''
-  media.ug-flag-el-salvador-blur-svg:
-    path: ug-flag-el_salvador-blur.svg
-    sha256: ''
-  media.ug-flag-el-salvador-svg:
-    path: ug-flag-el_salvador.svg
-    sha256: ''
-  media.ug-flag-england-svg:
-    path: ug-flag-england.svg
-    sha256: ''
-  media.ug-flag-equatorial-guinea-svg:
-    path: ug-flag-equatorial_guinea.svg
-    sha256: ''
-  media.ug-flag-eritrea-svg:
-    path: ug-flag-eritrea.svg
-    sha256: ''
-  media.ug-flag-estonia-svg:
-    path: ug-flag-estonia.svg
-    sha256: ''
-  media.ug-flag-eswatini-svg:
-    path: ug-flag-eswatini.svg
-    sha256: ''
-  media.ug-flag-ethiopia-svg:
-    path: ug-flag-ethiopia.svg
-    sha256: ''
-  media.ug-flag-european-union-svg:
-    path: ug-flag-european_union.svg
-    sha256: ''
-  media.ug-flag-faroe-islands-svg:
-    path: ug-flag-faroe_islands.svg
-    sha256: ''
-  media.ug-flag-federated-states-of-micronesia-svg:
-    path: ug-flag-federated_states_of_micronesia.svg
-    sha256: ''
-  media.ug-flag-fiji-svg:
-    path: ug-flag-fiji.svg
-    sha256: ''
-  media.ug-flag-finland-svg:
-    path: ug-flag-finland.svg
-    sha256: ''
-  media.ug-flag-france-svg:
-    path: ug-flag-france.svg
-    sha256: ''
-  media.ug-flag-french-polynesia-svg:
-    path: ug-flag-french_polynesia.svg
-    sha256: ''
-  media.ug-flag-gabon-svg:
-    path: ug-flag-gabon.svg
-    sha256: ''
-  media.ug-flag-georgia-svg:
-    path: ug-flag-georgia.svg
-    sha256: ''
-  media.ug-flag-germany-svg:
-    path: ug-flag-germany.svg
-    sha256: ''
-  media.ug-flag-ghana-svg:
-    path: ug-flag-ghana.svg
-    sha256: ''
-  media.ug-flag-greece-svg:
-    path: ug-flag-greece.svg
-    sha256: ''
-  media.ug-flag-greenland-svg:
-    path: ug-flag-greenland.svg
-    sha256: ''
-  media.ug-flag-grenada-svg:
-    path: ug-flag-grenada.svg
-    sha256: ''
-  media.ug-flag-guam-blur-svg:
-    path: ug-flag-guam-blur.svg
-    sha256: ''
-  media.ug-flag-guam-svg:
-    path: ug-flag-guam.svg
-    sha256: ''
-  media.ug-flag-guatemala-svg:
-    path: ug-flag-guatemala.svg
-    sha256: ''
-  media.ug-flag-guinea-bissau-svg:
-    path: ug-flag-guinea-bissau.svg
-    sha256: ''
-  media.ug-flag-guinea-svg:
-    path: ug-flag-guinea.svg
-    sha256: ''
-  media.ug-flag-guyana-svg:
-    path: ug-flag-guyana.svg
-    sha256: ''
-  media.ug-flag-haiti-svg:
-    path: ug-flag-haiti.svg
-    sha256: ''
-  media.ug-flag-honduras-svg:
-    path: ug-flag-honduras.svg
-    sha256: ''
-  media.ug-flag-hong-kong-svg:
-    path: ug-flag-hong_kong.svg
-    sha256: ''
-  media.ug-flag-hungary-svg:
-    path: ug-flag-hungary.svg
-    sha256: ''
-  media.ug-flag-iceland-svg:
-    path: ug-flag-iceland.svg
-    sha256: ''
-  media.ug-flag-india-svg:
-    path: ug-flag-india.svg
-    sha256: ''
-  media.ug-flag-indonesia-svg:
-    path: ug-flag-indonesia.svg
-    sha256: ''
-  media.ug-flag-iran-svg:
-    path: ug-flag-iran.svg
-    sha256: ''
-  media.ug-flag-iraq-svg:
-    path: ug-flag-iraq.svg
-    sha256: ''
-  media.ug-flag-ireland-svg:
-    path: ug-flag-ireland.svg
-    sha256: ''
-  media.ug-flag-israel-svg:
-    path: ug-flag-israel.svg
-    sha256: ''
-  media.ug-flag-italy-svg:
-    path: ug-flag-italy.svg
-    sha256: ''
-  media.ug-flag-ivory-coast-svg:
-    path: ug-flag-ivory_coast.svg
-    sha256: ''
-  media.ug-flag-jamaica-svg:
-    path: ug-flag-jamaica.svg
-    sha256: ''
-  media.ug-flag-japan-svg:
-    path: ug-flag-japan.svg
-    sha256: ''
-  media.ug-flag-jordan-svg:
-    path: ug-flag-jordan.svg
-    sha256: ''
-  media.ug-flag-kazakhstan-svg:
-    path: ug-flag-kazakhstan.svg
-    sha256: ''
-  media.ug-flag-kenya-svg:
-    path: ug-flag-kenya.svg
-    sha256: ''
-  media.ug-flag-kiribati-svg:
-    path: ug-flag-kiribati.svg
-    sha256: ''
-  media.ug-flag-kosovo-svg:
-    path: ug-flag-kosovo.svg
-    sha256: ''
-  media.ug-flag-kuwait-svg:
-    path: ug-flag-kuwait.svg
-    sha256: ''
-  media.ug-flag-kyrgyzstan-svg:
-    path: ug-flag-kyrgyzstan.svg
-    sha256: ''
-  media.ug-flag-laos-svg:
-    path: ug-flag-laos.svg
-    sha256: ''
-  media.ug-flag-latvia-svg:
-    path: ug-flag-latvia.svg
-    sha256: ''
-  media.ug-flag-lebanon-svg:
-    path: ug-flag-lebanon.svg
-    sha256: ''
-  media.ug-flag-lesotho-svg:
-    path: ug-flag-lesotho.svg
-    sha256: ''
-  media.ug-flag-liberia-svg:
-    path: ug-flag-liberia.svg
-    sha256: ''
-  media.ug-flag-libya-svg:
-    path: ug-flag-libya.svg
-    sha256: ''
-  media.ug-flag-liechtenstein-svg:
-    path: ug-flag-liechtenstein.svg
-    sha256: ''
-  media.ug-flag-lithuania-svg:
-    path: ug-flag-lithuania.svg
-    sha256: ''
-  media.ug-flag-luxembourg-svg:
-    path: ug-flag-luxembourg.svg
-    sha256: ''
-  media.ug-flag-macau-svg:
-    path: ug-flag-macau.svg
-    sha256: ''
-  media.ug-flag-madagascar-svg:
-    path: ug-flag-madagascar.svg
-    sha256: ''
-  media.ug-flag-malawi-svg:
-    path: ug-flag-malawi.svg
-    sha256: ''
-  media.ug-flag-malaysia-svg:
-    path: ug-flag-malaysia.svg
-    sha256: ''
-  media.ug-flag-maldives-svg:
-    path: ug-flag-maldives.svg
-    sha256: ''
-  media.ug-flag-mali-svg:
-    path: ug-flag-mali.svg
-    sha256: ''
-  media.ug-flag-malta-svg:
-    path: ug-flag-malta.svg
-    sha256: ''
-  media.ug-flag-marshall-islands-svg:
-    path: ug-flag-marshall_islands.svg
-    sha256: ''
-  media.ug-flag-mauritania-svg:
-    path: ug-flag-mauritania.svg
-    sha256: ''
-  media.ug-flag-mauritius-svg:
-    path: ug-flag-mauritius.svg
-    sha256: ''
-  media.ug-flag-mexico-svg:
-    path: ug-flag-mexico.svg
-    sha256: ''
-  media.ug-flag-moldova-svg:
-    path: ug-flag-moldova.svg
-    sha256: ''
-  media.ug-flag-monaco-svg:
-    path: ug-flag-monaco.svg
-    sha256: ''
-  media.ug-flag-mongolia-svg:
-    path: ug-flag-mongolia.svg
-    sha256: ''
-  media.ug-flag-montenegro-svg:
-    path: ug-flag-montenegro.svg
-    sha256: ''
-  media.ug-flag-morocco-svg:
-    path: ug-flag-morocco.svg
-    sha256: ''
-  media.ug-flag-mozambique-svg:
-    path: ug-flag-mozambique.svg
-    sha256: ''
-  media.ug-flag-myanmar-svg:
-    path: ug-flag-myanmar.svg
-    sha256: ''
-  media.ug-flag-namibia-svg:
-    path: ug-flag-namibia.svg
-    sha256: ''
-  media.ug-flag-nauru-svg:
-    path: ug-flag-nauru.svg
-    sha256: ''
-  media.ug-flag-nepal-nobox-svg:
-    path: ug-flag-nepal-nobox.svg
-    sha256: ''
-  media.ug-flag-netherlands-svg:
-    path: ug-flag-netherlands.svg
-    sha256: ''
-  media.ug-flag-new-caledonia-svg:
-    path: ug-flag-new_caledonia.svg
-    sha256: ''
-  media.ug-flag-new-zealand-svg:
-    path: ug-flag-new_zealand.svg
-    sha256: ''
-  media.ug-flag-nicaragua-blur-svg:
-    path: ug-flag-nicaragua-blur.svg
-    sha256: ''
-  media.ug-flag-nicaragua-svg:
-    path: ug-flag-nicaragua.svg
-    sha256: ''
-  media.ug-flag-niger-svg:
-    path: ug-flag-niger.svg
-    sha256: ''
-  media.ug-flag-nigeria-svg:
-    path: ug-flag-nigeria.svg
-    sha256: ''
-  media.ug-flag-niue-svg:
-    path: ug-flag-niue.svg
-    sha256: ''
-  media.ug-flag-north-korea-svg:
-    path: ug-flag-north_korea.svg
-    sha256: ''
-  media.ug-flag-north-macedonia-svg:
-    path: ug-flag-north_macedonia.svg
-    sha256: ''
-  media.ug-flag-northern-cyprus-svg:
-    path: ug-flag-northern_cyprus.svg
-    sha256: ''
-  media.ug-flag-norway-svg:
-    path: ug-flag-norway.svg
-    sha256: ''
-  media.ug-flag-oman-svg:
-    path: ug-flag-oman.svg
-    sha256: ''
-  media.ug-flag-pakistan-svg:
-    path: ug-flag-pakistan.svg
-    sha256: ''
-  media.ug-flag-palau-svg:
-    path: ug-flag-palau.svg
-    sha256: ''
-  media.ug-flag-palestine-svg:
-    path: ug-flag-palestine.svg
-    sha256: ''
-  media.ug-flag-panama-svg:
-    path: ug-flag-panama.svg
-    sha256: ''
-  media.ug-flag-papua-new-guinea-svg:
-    path: ug-flag-papua_new_guinea.svg
-    sha256: ''
-  media.ug-flag-paraguay-blur-svg:
-    path: ug-flag-paraguay-blur.svg
-    sha256: ''
-  media.ug-flag-paraguay-svg:
-    path: ug-flag-paraguay.svg
-    sha256: ''
-  media.ug-flag-peru-svg:
-    path: ug-flag-peru.svg
-    sha256: ''
-  media.ug-flag-philippines-svg:
-    path: ug-flag-philippines.svg
-    sha256: ''
-  media.ug-flag-poland-svg:
-    path: ug-flag-poland.svg
-    sha256: ''
-  media.ug-flag-portugal-svg:
-    path: ug-flag-portugal.svg
-    sha256: ''
-  media.ug-flag-puerto-rico-svg:
-    path: ug-flag-puerto_rico.svg
-    sha256: ''
-  media.ug-flag-qatar-svg:
-    path: ug-flag-qatar.svg
-    sha256: ''
-  media.ug-flag-republic-of-the-congo-svg:
-    path: ug-flag-republic_of_the_congo.svg
-    sha256: ''
-  media.ug-flag-romania-svg:
-    path: ug-flag-romania.svg
-    sha256: ''
-  media.ug-flag-russia-svg:
-    path: ug-flag-russia.svg
-    sha256: ''
-  media.ug-flag-rwanda-svg:
-    path: ug-flag-rwanda.svg
-    sha256: ''
-  media.ug-flag-sahrawi-arab-democratic-republic-svg:
-    path: ug-flag-sahrawi_arab_democratic_republic.svg
-    sha256: ''
-  media.ug-flag-saint-kitts-and-nevis-svg:
-    path: ug-flag-saint_kitts_and_nevis.svg
-    sha256: ''
-  media.ug-flag-saint-lucia-svg:
-    path: ug-flag-saint_lucia.svg
-    sha256: ''
-  media.ug-flag-saint-vincent-and-the-grenadines-svg:
-    path: ug-flag-saint_vincent_and_the_grenadines.svg
-    sha256: ''
-  media.ug-flag-samoa-svg:
-    path: ug-flag-samoa.svg
-    sha256: ''
-  media.ug-flag-san-marino-svg:
-    path: ug-flag-san_marino.svg
-    sha256: ''
-  media.ug-flag-sao-tome-and-principe-svg:
-    path: ug-flag-sao_tome_and_principe.svg
-    sha256: ''
-  media.ug-flag-saudi-arabia-svg:
-    path: ug-flag-saudi_arabia.svg
-    sha256: ''
-  media.ug-flag-scotland-svg:
-    path: ug-flag-scotland.svg
-    sha256: ''
-  media.ug-flag-senegal-svg:
-    path: ug-flag-senegal.svg
-    sha256: ''
-  media.ug-flag-serbia-svg:
-    path: ug-flag-serbia.svg
-    sha256: ''
-  media.ug-flag-seychelles-svg:
-    path: ug-flag-seychelles.svg
-    sha256: ''
-  media.ug-flag-sierra-leone-svg:
-    path: ug-flag-sierra_leone.svg
-    sha256: ''
-  media.ug-flag-singapore-svg:
-    path: ug-flag-singapore.svg
-    sha256: ''
-  media.ug-flag-slovakia-svg:
-    path: ug-flag-slovakia.svg
-    sha256: ''
-  media.ug-flag-slovenia-svg:
-    path: ug-flag-slovenia.svg
-    sha256: ''
-  media.ug-flag-solomon-islands-svg:
-    path: ug-flag-solomon_islands.svg
-    sha256: ''
-  media.ug-flag-somalia-svg:
-    path: ug-flag-somalia.svg
-    sha256: ''
-  media.ug-flag-somaliland-svg:
-    path: ug-flag-somaliland.svg
-    sha256: ''
-  media.ug-flag-south-africa-svg:
-    path: ug-flag-south_africa.svg
-    sha256: ''
-  media.ug-flag-south-korea-svg:
-    path: ug-flag-south_korea.svg
-    sha256: ''
-  media.ug-flag-south-ossetia-svg:
-    path: ug-flag-south_ossetia.svg
-    sha256: ''
-  media.ug-flag-south-sudan-svg:
-    path: ug-flag-south_sudan.svg
-    sha256: ''
-  media.ug-flag-spain-svg:
-    path: ug-flag-spain.svg
-    sha256: ''
-  media.ug-flag-sri-lanka-svg:
-    path: ug-flag-sri_lanka.svg
-    sha256: ''
-  media.ug-flag-sudan-svg:
-    path: ug-flag-sudan.svg
-    sha256: ''
-  media.ug-flag-suriname-svg:
-    path: ug-flag-suriname.svg
-    sha256: ''
-  media.ug-flag-sweden-svg:
-    path: ug-flag-sweden.svg
-    sha256: ''
-  media.ug-flag-switzerland-svg:
-    path: ug-flag-switzerland.svg
-    sha256: ''
-  media.ug-flag-syria-svg:
-    path: ug-flag-syria.svg
-    sha256: ''
-  media.ug-flag-taiwan-svg:
-    path: ug-flag-taiwan.svg
-    sha256: ''
-  media.ug-flag-tajikistan-svg:
-    path: ug-flag-tajikistan.svg
-    sha256: ''
-  media.ug-flag-tanzania-svg:
-    path: ug-flag-tanzania.svg
-    sha256: ''
-  media.ug-flag-thailand-svg:
-    path: ug-flag-thailand.svg
-    sha256: ''
-  media.ug-flag-the-bahamas-svg:
-    path: ug-flag-the_bahamas.svg
-    sha256: ''
-  media.ug-flag-the-gambia-svg:
-    path: ug-flag-the_gambia.svg
-    sha256: ''
-  media.ug-flag-timor-leste-svg:
-    path: ug-flag-timor-leste.svg
-    sha256: ''
-  media.ug-flag-togo-svg:
-    path: ug-flag-togo.svg
-    sha256: ''
-  media.ug-flag-tonga-svg:
-    path: ug-flag-tonga.svg
-    sha256: ''
-  media.ug-flag-transnistria-svg:
-    path: ug-flag-transnistria.svg
-    sha256: ''
-  media.ug-flag-trinidad-and-tobago-svg:
-    path: ug-flag-trinidad_and_tobago.svg
-    sha256: ''
-  media.ug-flag-tunisia-svg:
-    path: ug-flag-tunisia.svg
-    sha256: ''
-  media.ug-flag-turkey-svg:
-    path: ug-flag-turkey.svg
-    sha256: ''
-  media.ug-flag-turkmenistan-svg:
-    path: ug-flag-turkmenistan.svg
-    sha256: ''
-  media.ug-flag-tuvalu-svg:
-    path: ug-flag-tuvalu.svg
-    sha256: ''
-  media.ug-flag-uganda-svg:
-    path: ug-flag-uganda.svg
-    sha256: ''
-  media.ug-flag-ukraine-svg:
-    path: ug-flag-ukraine.svg
-    sha256: ''
-  media.ug-flag-united-arab-emirates-svg:
-    path: ug-flag-united_arab_emirates.svg
-    sha256: ''
-  media.ug-flag-united-kingdom-svg:
-    path: ug-flag-united_kingdom.svg
-    sha256: ''
-  media.ug-flag-united-states-of-america-svg:
-    path: ug-flag-united_states_of_america.svg
-    sha256: ''
-  media.ug-flag-united-states-virgin-islands-svg:
-    path: ug-flag-united_states_virgin_islands.svg
-    sha256: ''
-  media.ug-flag-uruguay-svg:
-    path: ug-flag-uruguay.svg
-    sha256: ''
-  media.ug-flag-uzbekistan-svg:
-    path: ug-flag-uzbekistan.svg
-    sha256: ''
-  media.ug-flag-vanuatu-svg:
-    path: ug-flag-vanuatu.svg
-    sha256: ''
-  media.ug-flag-vatican-city-svg:
-    path: ug-flag-vatican_city.svg
-    sha256: ''
-  media.ug-flag-venezuela-svg:
-    path: ug-flag-venezuela.svg
-    sha256: ''
-  media.ug-flag-vietnam-svg:
-    path: ug-flag-vietnam.svg
-    sha256: ''
-  media.ug-flag-wales-svg:
-    path: ug-flag-wales.svg
-    sha256: ''
-  media.ug-flag-yemen-svg:
-    path: ug-flag-yemen.svg
-    sha256: ''
-  media.ug-flag-zambia-svg:
-    path: ug-flag-zambia.svg
-    sha256: ''
-  media.ug-flag-zimbabwe-svg:
-    path: ug-flag-zimbabwe.svg
-    sha256: ''
-  media.ug-map-abkhazia-png:
-    path: ug-map-abkhazia.png
-    sha256: ''
-  media.ug-map-adriatic-sea-png:
-    path: ug-map-adriatic_sea.png
-    sha256: ''
-  media.ug-map-aegean-sea-png:
-    path: ug-map-aegean_sea.png
-    sha256: ''
-  media.ug-map-afghanistan-png:
-    path: ug-map-afghanistan.png
-    sha256: ''
-  media.ug-map-africa-nobox-png:
-    path: ug-map-africa-nobox.png
-    sha256: ''
-  media.ug-map-akrotiri-and-dhekelia-png:
-    path: ug-map-akrotiri_and_dhekelia.png
-    sha256: ''
-  media.ug-map-aland-islands-png:
-    path: ug-map-aland_islands.png
-    sha256: ''
-  media.ug-map-alaska-png:
-    path: ug-map-alaska.png
-    sha256: ''
-  media.ug-map-albania-png:
-    path: ug-map-albania.png
-    sha256: ''
-  media.ug-map-algeria-png:
-    path: ug-map-algeria.png
-    sha256: ''
-  media.ug-map-american-samoa-png:
-    path: ug-map-american_samoa.png
-    sha256: ''
-  media.ug-map-andorra-png:
-    path: ug-map-andorra.png
-    sha256: ''
-  media.ug-map-angola-png:
-    path: ug-map-angola.png
-    sha256: ''
-  media.ug-map-anguilla-png:
-    path: ug-map-anguilla.png
-    sha256: ''
-  media.ug-map-antarctica-nobox-png:
-    path: ug-map-antarctica-nobox.png
-    sha256: ''
-  media.ug-map-antigua-and-barbuda-png:
-    path: ug-map-antigua_and_barbuda.png
-    sha256: ''
-  media.ug-map-arabian-sea-png:
-    path: ug-map-arabian_sea.png
-    sha256: ''
-  media.ug-map-aral-sea-png:
-    path: ug-map-aral_sea.png
-    sha256: ''
-  media.ug-map-arctic-ocean-nobox-png:
-    path: ug-map-arctic_ocean-nobox.png
-    sha256: ''
-  media.ug-map-argentina-png:
-    path: ug-map-argentina.png
-    sha256: ''
-  media.ug-map-armenia-png:
-    path: ug-map-armenia.png
-    sha256: ''
-  media.ug-map-aruba-png:
-    path: ug-map-aruba.png
-    sha256: ''
-  media.ug-map-asia-nobox-png:
-    path: ug-map-asia-nobox.png
-    sha256: ''
-  media.ug-map-atlantic-ocean-nobox-png:
-    path: ug-map-atlantic_ocean-nobox.png
-    sha256: ''
-  media.ug-map-australia-png:
-    path: ug-map-australia.png
-    sha256: ''
-  media.ug-map-austria-png:
-    path: ug-map-austria.png
-    sha256: ''
-  media.ug-map-azerbaijan-png:
-    path: ug-map-azerbaijan.png
-    sha256: ''
-  media.ug-map-azores-png:
-    path: ug-map-azores.png
-    sha256: ''
-  media.ug-map-bahrain-png:
-    path: ug-map-bahrain.png
-    sha256: ''
-  media.ug-map-bali-png:
-    path: ug-map-bali.png
-    sha256: ''
-  media.ug-map-balkan-peninsula-png:
-    path: ug-map-balkan_peninsula.png
-    sha256: ''
-  media.ug-map-baltic-sea-png:
-    path: ug-map-baltic_sea.png
-    sha256: ''
-  media.ug-map-banda-sea-png:
-    path: ug-map-banda_sea.png
-    sha256: ''
-  media.ug-map-bangladesh-png:
-    path: ug-map-bangladesh.png
-    sha256: ''
-  media.ug-map-barbados-png:
-    path: ug-map-barbados.png
-    sha256: ''
-  media.ug-map-barents-sea-png:
-    path: ug-map-barents_sea.png
-    sha256: ''
-  media.ug-map-bay-of-bengal-png:
-    path: ug-map-bay_of_bengal.png
-    sha256: ''
-  media.ug-map-bay-of-biscay-png:
-    path: ug-map-bay_of_biscay.png
-    sha256: ''
-  media.ug-map-belarus-png:
-    path: ug-map-belarus.png
-    sha256: ''
-  media.ug-map-belgium-png:
-    path: ug-map-belgium.png
-    sha256: ''
-  media.ug-map-belize-png:
-    path: ug-map-belize.png
-    sha256: ''
-  media.ug-map-benin-png:
-    path: ug-map-benin.png
-    sha256: ''
-  media.ug-map-bering-strait-png:
-    path: ug-map-bering_strait.png
-    sha256: ''
-  media.ug-map-bermuda-png:
-    path: ug-map-bermuda.png
-    sha256: ''
-  media.ug-map-bhutan-png:
-    path: ug-map-bhutan.png
-    sha256: ''
-  media.ug-map-black-sea-png:
-    path: ug-map-black_sea.png
-    sha256: ''
-  media.ug-map-bolivia-png:
-    path: ug-map-bolivia.png
-    sha256: ''
-  media.ug-map-bosnia-and-herzegovina-png:
-    path: ug-map-bosnia_and_herzegovina.png
-    sha256: ''
-  media.ug-map-botswana-png:
-    path: ug-map-botswana.png
-    sha256: ''
-  media.ug-map-bougainville-png:
-    path: ug-map-bougainville.png
-    sha256: ''
-  media.ug-map-brazil-png:
-    path: ug-map-brazil.png
-    sha256: ''
-  media.ug-map-british-virgin-islands-png:
-    path: ug-map-british_virgin_islands.png
-    sha256: ''
-  media.ug-map-brunei-png:
-    path: ug-map-brunei.png
-    sha256: ''
-  media.ug-map-bulgaria-png:
-    path: ug-map-bulgaria.png
-    sha256: ''
-  media.ug-map-burkina-faso-png:
-    path: ug-map-burkina_faso.png
-    sha256: ''
-  media.ug-map-burundi-png:
-    path: ug-map-burundi.png
-    sha256: ''
-  media.ug-map-cambodia-png:
-    path: ug-map-cambodia.png
-    sha256: ''
-  media.ug-map-cameroon-png:
-    path: ug-map-cameroon.png
-    sha256: ''
-  media.ug-map-canada-png:
-    path: ug-map-canada.png
-    sha256: ''
-  media.ug-map-canary-islands-png:
-    path: ug-map-canary_islands.png
-    sha256: ''
-  media.ug-map-cape-verde-png:
-    path: ug-map-cape_verde.png
-    sha256: ''
-  media.ug-map-caribbean-sea-png:
-    path: ug-map-caribbean_sea.png
-    sha256: ''
-  media.ug-map-caspian-sea-png:
-    path: ug-map-caspian_sea.png
-    sha256: ''
-  media.ug-map-cayman-islands-png:
-    path: ug-map-cayman_islands.png
-    sha256: ''
-  media.ug-map-celebes-sea-png:
-    path: ug-map-celebes_sea.png
-    sha256: ''
-  media.ug-map-celtic-sea-png:
-    path: ug-map-celtic_sea.png
-    sha256: ''
-  media.ug-map-central-african-republic-png:
-    path: ug-map-central_african_republic.png
-    sha256: ''
-  media.ug-map-chad-png:
-    path: ug-map-chad.png
-    sha256: ''
-  media.ug-map-chile-png:
-    path: ug-map-chile.png
-    sha256: ''
-  media.ug-map-china-png:
-    path: ug-map-china.png
-    sha256: ''
-  media.ug-map-colombia-png:
-    path: ug-map-colombia.png
-    sha256: ''
-  media.ug-map-comoros-png:
-    path: ug-map-comoros.png
-    sha256: ''
-  media.ug-map-cook-islands-png:
-    path: ug-map-cook_islands.png
-    sha256: ''
-  media.ug-map-coral-sea-png:
-    path: ug-map-coral_sea.png
-    sha256: ''
-  media.ug-map-corsica-png:
-    path: ug-map-corsica.png
-    sha256: ''
-  media.ug-map-costa-rica-png:
-    path: ug-map-costa_rica.png
-    sha256: ''
-  media.ug-map-croatia-png:
-    path: ug-map-croatia.png
-    sha256: ''
-  media.ug-map-cuba-png:
-    path: ug-map-cuba.png
-    sha256: ''
-  media.ug-map-curacao-png:
-    path: ug-map-curacao.png
-    sha256: ''
-  media.ug-map-cyprus-png:
-    path: ug-map-cyprus.png
-    sha256: ''
-  media.ug-map-czech-republic-png:
-    path: ug-map-czech_republic.png
-    sha256: ''
-  media.ug-map-dead-sea-png:
-    path: ug-map-dead_sea.png
-    sha256: ''
-  media.ug-map-democratic-republic-of-the-congo-png:
-    path: ug-map-democratic_republic_of_the_congo.png
-    sha256: ''
-  media.ug-map-denmark-png:
-    path: ug-map-denmark.png
-    sha256: ''
-  media.ug-map-denmark-strait-png:
-    path: ug-map-denmark_strait.png
-    sha256: ''
-  media.ug-map-djibouti-png:
-    path: ug-map-djibouti.png
-    sha256: ''
-  media.ug-map-dominica-png:
-    path: ug-map-dominica.png
-    sha256: ''
-  media.ug-map-dominican-republic-png:
-    path: ug-map-dominican_republic.png
-    sha256: ''
-  media.ug-map-east-china-sea-png:
-    path: ug-map-east_china_sea.png
-    sha256: ''
-  media.ug-map-east-siberian-sea-png:
-    path: ug-map-east_siberian_sea.png
-    sha256: ''
-  media.ug-map-ecuador-png:
-    path: ug-map-ecuador.png
-    sha256: ''
-  media.ug-map-egypt-png:
-    path: ug-map-egypt.png
-    sha256: ''
-  media.ug-map-el-salvador-png:
-    path: ug-map-el_salvador.png
-    sha256: ''
-  media.ug-map-england-png:
-    path: ug-map-england.png
-    sha256: ''
-  media.ug-map-english-channel-png:
-    path: ug-map-english_channel.png
-    sha256: ''
-  media.ug-map-equatorial-guinea-png:
-    path: ug-map-equatorial_guinea.png
-    sha256: ''
-  media.ug-map-eritrea-png:
-    path: ug-map-eritrea.png
-    sha256: ''
-  media.ug-map-estonia-png:
-    path: ug-map-estonia.png
-    sha256: ''
-  media.ug-map-eswatini-png:
-    path: ug-map-eswatini.png
-    sha256: ''
-  media.ug-map-ethiopia-png:
-    path: ug-map-ethiopia.png
-    sha256: ''
-  media.ug-map-europe-nobox-png:
-    path: ug-map-europe-nobox.png
-    sha256: ''
-  media.ug-map-european-union-png:
-    path: ug-map-european_union.png
-    sha256: ''
-  media.ug-map-falkland-islands-png:
-    path: ug-map-falkland_islands.png
-    sha256: ''
-  media.ug-map-faroe-islands-png:
-    path: ug-map-faroe_islands.png
-    sha256: ''
-  media.ug-map-federated-states-of-micronesia-png:
-    path: ug-map-federated_states_of_micronesia.png
-    sha256: ''
-  media.ug-map-fiji-png:
-    path: ug-map-fiji.png
-    sha256: ''
-  media.ug-map-finland-png:
-    path: ug-map-finland.png
-    sha256: ''
-  media.ug-map-france-png:
-    path: ug-map-france.png
-    sha256: ''
-  media.ug-map-french-guiana-png:
-    path: ug-map-french_guiana.png
-    sha256: ''
-  media.ug-map-french-polynesia-png:
-    path: ug-map-french_polynesia.png
-    sha256: ''
-  media.ug-map-gabon-png:
-    path: ug-map-gabon.png
-    sha256: ''
-  media.ug-map-georgia-png:
-    path: ug-map-georgia.png
-    sha256: ''
-  media.ug-map-germany-png:
-    path: ug-map-germany.png
-    sha256: ''
-  media.ug-map-ghana-png:
-    path: ug-map-ghana.png
-    sha256: ''
-  media.ug-map-gibraltar-png:
-    path: ug-map-gibraltar.png
-    sha256: ''
-  media.ug-map-greece-png:
-    path: ug-map-greece.png
-    sha256: ''
-  media.ug-map-greenland-png:
-    path: ug-map-greenland.png
-    sha256: ''
-  media.ug-map-grenada-png:
-    path: ug-map-grenada.png
-    sha256: ''
-  media.ug-map-guadeloupe-png:
-    path: ug-map-guadeloupe.png
-    sha256: ''
-  media.ug-map-guam-png:
-    path: ug-map-guam.png
-    sha256: ''
-  media.ug-map-guatemala-png:
-    path: ug-map-guatemala.png
-    sha256: ''
-  media.ug-map-guernsey-png:
-    path: ug-map-guernsey.png
-    sha256: ''
-  media.ug-map-guinea-bissau-png:
-    path: ug-map-guinea-bissau.png
-    sha256: ''
-  media.ug-map-guinea-png:
-    path: ug-map-guinea.png
-    sha256: ''
-  media.ug-map-gulf-of-alaska-png:
-    path: ug-map-gulf_of_alaska.png
-    sha256: ''
-  media.ug-map-gulf-of-california-png:
-    path: ug-map-gulf_of_california.png
-    sha256: ''
-  media.ug-map-gulf-of-carpentaria-png:
-    path: ug-map-gulf_of_carpentaria.png
-    sha256: ''
-  media.ug-map-gulf-of-guinea-png:
-    path: ug-map-gulf_of_guinea.png
-    sha256: ''
-  media.ug-map-gulf-of-mexico-png:
-    path: ug-map-gulf_of_mexico.png
-    sha256: ''
-  media.ug-map-gulf-of-thailand-png:
-    path: ug-map-gulf_of_thailand.png
-    sha256: ''
-  media.ug-map-guyana-png:
-    path: ug-map-guyana.png
-    sha256: ''
-  media.ug-map-haiti-png:
-    path: ug-map-haiti.png
-    sha256: ''
-  media.ug-map-hawaii-png:
-    path: ug-map-hawaii.png
-    sha256: ''
-  media.ug-map-honduras-png:
-    path: ug-map-honduras.png
-    sha256: ''
-  media.ug-map-hong-kong-png:
-    path: ug-map-hong_kong.png
-    sha256: ''
-  media.ug-map-hudson-bay-png:
-    path: ug-map-hudson_bay.png
-    sha256: ''
-  media.ug-map-hungary-png:
-    path: ug-map-hungary.png
-    sha256: ''
-  media.ug-map-iceland-png:
-    path: ug-map-iceland.png
-    sha256: ''
-  media.ug-map-india-png:
-    path: ug-map-india.png
-    sha256: ''
-  media.ug-map-indian-ocean-nobox-png:
-    path: ug-map-indian_ocean-nobox.png
-    sha256: ''
-  media.ug-map-indonesia-png:
-    path: ug-map-indonesia.png
-    sha256: ''
-  media.ug-map-iran-png:
-    path: ug-map-iran.png
-    sha256: ''
-  media.ug-map-iraq-png:
-    path: ug-map-iraq.png
-    sha256: ''
-  media.ug-map-ireland-png:
-    path: ug-map-ireland.png
-    sha256: ''
-  media.ug-map-isle-of-man-png:
-    path: ug-map-isle_of_man.png
-    sha256: ''
-  media.ug-map-israel-png:
-    path: ug-map-israel.png
-    sha256: ''
-  media.ug-map-italy-png:
-    path: ug-map-italy.png
-    sha256: ''
-  media.ug-map-ivory-coast-png:
-    path: ug-map-ivory_coast.png
-    sha256: ''
-  media.ug-map-jamaica-png:
-    path: ug-map-jamaica.png
-    sha256: ''
-  media.ug-map-japan-png:
-    path: ug-map-japan.png
-    sha256: ''
-  media.ug-map-java-png:
-    path: ug-map-java.png
-    sha256: ''
-  media.ug-map-jeju-png:
-    path: ug-map-jeju.png
-    sha256: ''
-  media.ug-map-jersey-png:
-    path: ug-map-jersey.png
-    sha256: ''
-  media.ug-map-jordan-png:
-    path: ug-map-jordan.png
-    sha256: ''
-  media.ug-map-kaliningrad-oblast-png:
-    path: ug-map-kaliningrad_oblast.png
-    sha256: ''
-  media.ug-map-kazakhstan-png:
-    path: ug-map-kazakhstan.png
-    sha256: ''
-  media.ug-map-kenya-png:
-    path: ug-map-kenya.png
-    sha256: ''
-  media.ug-map-kiribati-png:
-    path: ug-map-kiribati.png
-    sha256: ''
-  media.ug-map-kosovo-png:
-    path: ug-map-kosovo.png
-    sha256: ''
-  media.ug-map-kuwait-png:
-    path: ug-map-kuwait.png
-    sha256: ''
-  media.ug-map-kyrgyzstan-png:
-    path: ug-map-kyrgyzstan.png
-    sha256: ''
-  media.ug-map-labrador-sea-png:
-    path: ug-map-labrador_sea.png
-    sha256: ''
-  media.ug-map-laos-png:
-    path: ug-map-laos.png
-    sha256: ''
-  media.ug-map-latvia-png:
-    path: ug-map-latvia.png
-    sha256: ''
-  media.ug-map-lebanon-png:
-    path: ug-map-lebanon.png
-    sha256: ''
-  media.ug-map-lesotho-png:
-    path: ug-map-lesotho.png
-    sha256: ''
-  media.ug-map-liberia-png:
-    path: ug-map-liberia.png
-    sha256: ''
-  media.ug-map-libya-png:
-    path: ug-map-libya.png
-    sha256: ''
-  media.ug-map-liechtenstein-png:
-    path: ug-map-liechtenstein.png
-    sha256: ''
-  media.ug-map-lithuania-png:
-    path: ug-map-lithuania.png
-    sha256: ''
-  media.ug-map-luxembourg-png:
-    path: ug-map-luxembourg.png
-    sha256: ''
-  media.ug-map-macau-png:
-    path: ug-map-macau.png
-    sha256: ''
-  media.ug-map-madagascar-png:
-    path: ug-map-madagascar.png
-    sha256: ''
-  media.ug-map-madeira-png:
-    path: ug-map-madeira.png
-    sha256: ''
-  media.ug-map-malawi-png:
-    path: ug-map-malawi.png
-    sha256: ''
-  media.ug-map-malaysia-png:
-    path: ug-map-malaysia.png
-    sha256: ''
-  media.ug-map-maldives-png:
-    path: ug-map-maldives.png
-    sha256: ''
-  media.ug-map-mali-png:
-    path: ug-map-mali.png
-    sha256: ''
-  media.ug-map-malta-png:
-    path: ug-map-malta.png
-    sha256: ''
-  media.ug-map-marshall-islands-png:
-    path: ug-map-marshall_islands.png
-    sha256: ''
-  media.ug-map-martinique-png:
-    path: ug-map-martinique.png
-    sha256: ''
-  media.ug-map-mauritania-png:
-    path: ug-map-mauritania.png
-    sha256: ''
-  media.ug-map-mauritius-png:
-    path: ug-map-mauritius.png
-    sha256: ''
-  media.ug-map-mayotte-png:
-    path: ug-map-mayotte.png
-    sha256: ''
-  media.ug-map-mediterranean-sea-png:
-    path: ug-map-mediterranean_sea.png
-    sha256: ''
-  media.ug-map-melanesia-png:
-    path: ug-map-melanesia.png
-    sha256: ''
-  media.ug-map-mexico-png:
-    path: ug-map-mexico.png
-    sha256: ''
-  media.ug-map-micronesia-png:
-    path: ug-map-micronesia.png
-    sha256: ''
-  media.ug-map-moldova-png:
-    path: ug-map-moldova.png
-    sha256: ''
-  media.ug-map-monaco-png:
-    path: ug-map-monaco.png
-    sha256: ''
-  media.ug-map-mongolia-png:
-    path: ug-map-mongolia.png
-    sha256: ''
-  media.ug-map-montenegro-png:
-    path: ug-map-montenegro.png
-    sha256: ''
-  media.ug-map-morocco-png:
-    path: ug-map-morocco.png
-    sha256: ''
-  media.ug-map-mozambique-png:
-    path: ug-map-mozambique.png
-    sha256: ''
-  media.ug-map-myanmar-png:
-    path: ug-map-myanmar.png
-    sha256: ''
-  media.ug-map-namibia-png:
-    path: ug-map-namibia.png
-    sha256: ''
-  media.ug-map-nauru-png:
-    path: ug-map-nauru.png
-    sha256: ''
-  media.ug-map-nepal-png:
-    path: ug-map-nepal.png
-    sha256: ''
-  media.ug-map-netherlands-png:
-    path: ug-map-netherlands.png
-    sha256: ''
-  media.ug-map-new-caledonia-png:
-    path: ug-map-new_caledonia.png
-    sha256: ''
-  media.ug-map-new-zealand-png:
-    path: ug-map-new_zealand.png
-    sha256: ''
-  media.ug-map-nicaragua-png:
-    path: ug-map-nicaragua.png
-    sha256: ''
-  media.ug-map-niger-png:
-    path: ug-map-niger.png
-    sha256: ''
-  media.ug-map-nigeria-png:
-    path: ug-map-nigeria.png
-    sha256: ''
-  media.ug-map-niue-png:
-    path: ug-map-niue.png
-    sha256: ''
-  media.ug-map-north-america-nobox-png:
-    path: ug-map-north_america-nobox.png
-    sha256: ''
-  media.ug-map-north-korea-png:
-    path: ug-map-north_korea.png
-    sha256: ''
-  media.ug-map-north-macedonia-png:
-    path: ug-map-north_macedonia.png
-    sha256: ''
-  media.ug-map-north-sea-png:
-    path: ug-map-north_sea.png
-    sha256: ''
-  media.ug-map-northern-cyprus-png:
-    path: ug-map-northern_cyprus.png
-    sha256: ''
-  media.ug-map-northern-ireland-png:
-    path: ug-map-northern_ireland.png
-    sha256: ''
-  media.ug-map-northern-mariana-islands-png:
-    path: ug-map-northern_mariana_islands.png
-    sha256: ''
-  media.ug-map-norway-png:
-    path: ug-map-norway.png
-    sha256: ''
-  media.ug-map-norwegian-sea-png:
-    path: ug-map-norwegian_sea.png
-    sha256: ''
-  media.ug-map-oceania-nobox-png:
-    path: ug-map-oceania-nobox.png
-    sha256: ''
-  media.ug-map-oman-png:
-    path: ug-map-oman.png
-    sha256: ''
-  media.ug-map-pacific-ocean-nobox-png:
-    path: ug-map-pacific_ocean-nobox.png
-    sha256: ''
-  media.ug-map-pakistan-png:
-    path: ug-map-pakistan.png
-    sha256: ''
-  media.ug-map-palau-png:
-    path: ug-map-palau.png
-    sha256: ''
-  media.ug-map-palestine-png:
-    path: ug-map-palestine.png
-    sha256: ''
-  media.ug-map-panama-png:
-    path: ug-map-panama.png
-    sha256: ''
-  media.ug-map-papua-new-guinea-png:
-    path: ug-map-papua_new_guinea.png
-    sha256: ''
-  media.ug-map-paraguay-png:
-    path: ug-map-paraguay.png
-    sha256: ''
-  media.ug-map-persian-gulf-png:
-    path: ug-map-persian_gulf.png
-    sha256: ''
-  media.ug-map-peru-png:
-    path: ug-map-peru.png
-    sha256: ''
-  media.ug-map-philippine-sea-png:
-    path: ug-map-philippine_sea.png
-    sha256: ''
-  media.ug-map-philippines-png:
-    path: ug-map-philippines.png
-    sha256: ''
-  media.ug-map-poland-png:
-    path: ug-map-poland.png
-    sha256: ''
-  media.ug-map-polynesia-png:
-    path: ug-map-polynesia.png
-    sha256: ''
-  media.ug-map-portugal-png:
-    path: ug-map-portugal.png
-    sha256: ''
-  media.ug-map-puerto-rico-png:
-    path: ug-map-puerto_rico.png
-    sha256: ''
-  media.ug-map-qatar-png:
-    path: ug-map-qatar.png
-    sha256: ''
-  media.ug-map-red-sea-png:
-    path: ug-map-red_sea.png
-    sha256: ''
-  media.ug-map-republic-of-the-congo-png:
-    path: ug-map-republic_of_the_congo.png
-    sha256: ''
-  media.ug-map-reunion-png:
-    path: ug-map-reunion.png
-    sha256: ''
-  media.ug-map-romania-png:
-    path: ug-map-romania.png
-    sha256: ''
-  media.ug-map-russia-png:
-    path: ug-map-russia.png
-    sha256: ''
-  media.ug-map-rwanda-png:
-    path: ug-map-rwanda.png
-    sha256: ''
-  media.ug-map-sahrawi-arab-democratic-republic-png:
-    path: ug-map-sahrawi_arab_democratic_republic.png
-    sha256: ''
-  media.ug-map-saint-kitts-and-nevis-png:
-    path: ug-map-saint_kitts_and_nevis.png
-    sha256: ''
-  media.ug-map-saint-lucia-png:
-    path: ug-map-saint_lucia.png
-    sha256: ''
-  media.ug-map-saint-martin-png:
-    path: ug-map-saint_martin.png
-    sha256: ''
-  media.ug-map-saint-vincent-and-the-grenadines-png:
-    path: ug-map-saint_vincent_and_the_grenadines.png
-    sha256: ''
-  media.ug-map-samoa-png:
-    path: ug-map-samoa.png
-    sha256: ''
-  media.ug-map-san-marino-png:
-    path: ug-map-san_marino.png
-    sha256: ''
-  media.ug-map-sao-tome-and-principe-png:
-    path: ug-map-sao_tome_and_principe.png
-    sha256: ''
-  media.ug-map-sardinia-png:
-    path: ug-map-sardinia.png
-    sha256: ''
-  media.ug-map-saudi-arabia-png:
-    path: ug-map-saudi_arabia.png
-    sha256: ''
-  media.ug-map-scandinavia-png:
-    path: ug-map-scandinavia.png
-    sha256: ''
-  media.ug-map-scotland-png:
-    path: ug-map-scotland.png
-    sha256: ''
-  media.ug-map-sea-of-galilee-png:
-    path: ug-map-sea_of_galilee.png
-    sha256: ''
-  media.ug-map-sea-of-japan-png:
-    path: ug-map-sea_of_japan.png
-    sha256: ''
-  media.ug-map-sea-of-okhotsk-png:
-    path: ug-map-sea_of_okhotsk.png
-    sha256: ''
-  media.ug-map-senegal-png:
-    path: ug-map-senegal.png
-    sha256: ''
-  media.ug-map-serbia-png:
-    path: ug-map-serbia.png
-    sha256: ''
-  media.ug-map-seychelles-png:
-    path: ug-map-seychelles.png
-    sha256: ''
-  media.ug-map-sicily-png:
-    path: ug-map-sicily.png
-    sha256: ''
-  media.ug-map-sierra-leone-png:
-    path: ug-map-sierra_leone.png
-    sha256: ''
-  media.ug-map-singapore-png:
-    path: ug-map-singapore.png
-    sha256: ''
-  media.ug-map-sint-maarten-png:
-    path: ug-map-sint_maarten.png
-    sha256: ''
-  media.ug-map-slovakia-png:
-    path: ug-map-slovakia.png
-    sha256: ''
-  media.ug-map-slovenia-png:
-    path: ug-map-slovenia.png
-    sha256: ''
-  media.ug-map-solomon-islands-png:
-    path: ug-map-solomon_islands.png
-    sha256: ''
-  media.ug-map-somalia-png:
-    path: ug-map-somalia.png
-    sha256: ''
-  media.ug-map-somaliland-png:
-    path: ug-map-somaliland.png
-    sha256: ''
-  media.ug-map-south-africa-png:
-    path: ug-map-south_africa.png
-    sha256: ''
-  media.ug-map-south-america-nobox-png:
-    path: ug-map-south_america-nobox.png
-    sha256: ''
-  media.ug-map-south-china-sea-png:
-    path: ug-map-south_china_sea.png
-    sha256: ''
-  media.ug-map-south-korea-png:
-    path: ug-map-south_korea.png
-    sha256: ''
-  media.ug-map-south-ossetia-png:
-    path: ug-map-south_ossetia.png
-    sha256: ''
-  media.ug-map-south-sudan-png:
-    path: ug-map-south_sudan.png
-    sha256: ''
-  media.ug-map-southern-ocean-nobox-png:
-    path: ug-map-southern_ocean-nobox.png
-    sha256: ''
-  media.ug-map-spain-png:
-    path: ug-map-spain.png
-    sha256: ''
-  media.ug-map-sri-lanka-png:
-    path: ug-map-sri_lanka.png
-    sha256: ''
-  media.ug-map-sudan-png:
-    path: ug-map-sudan.png
-    sha256: ''
-  media.ug-map-sumatra-png:
-    path: ug-map-sumatra.png
-    sha256: ''
-  media.ug-map-suriname-png:
-    path: ug-map-suriname.png
-    sha256: ''
-  media.ug-map-svalbard-png:
-    path: ug-map-svalbard.png
-    sha256: ''
-  media.ug-map-sweden-png:
-    path: ug-map-sweden.png
-    sha256: ''
-  media.ug-map-switzerland-png:
-    path: ug-map-switzerland.png
-    sha256: ''
-  media.ug-map-syria-png:
-    path: ug-map-syria.png
-    sha256: ''
-  media.ug-map-taiwan-png:
-    path: ug-map-taiwan.png
-    sha256: ''
-  media.ug-map-tajikistan-png:
-    path: ug-map-tajikistan.png
-    sha256: ''
-  media.ug-map-tanzania-png:
-    path: ug-map-tanzania.png
-    sha256: ''
-  media.ug-map-tasman-sea-png:
-    path: ug-map-tasman_sea.png
-    sha256: ''
-  media.ug-map-thailand-png:
-    path: ug-map-thailand.png
-    sha256: ''
-  media.ug-map-the-bahamas-png:
-    path: ug-map-the_bahamas.png
-    sha256: ''
-  media.ug-map-the-gambia-png:
-    path: ug-map-the_gambia.png
-    sha256: ''
-  media.ug-map-timor-leste-png:
-    path: ug-map-timor-leste.png
-    sha256: ''
-  media.ug-map-timor-sea-png:
-    path: ug-map-timor_sea.png
-    sha256: ''
-  media.ug-map-togo-png:
-    path: ug-map-togo.png
-    sha256: ''
-  media.ug-map-tonga-png:
-    path: ug-map-tonga.png
-    sha256: ''
-  media.ug-map-transnistria-png:
-    path: ug-map-transnistria.png
-    sha256: ''
-  media.ug-map-trinidad-and-tobago-png:
-    path: ug-map-trinidad_and_tobago.png
-    sha256: ''
-  media.ug-map-tunisia-png:
-    path: ug-map-tunisia.png
-    sha256: ''
-  media.ug-map-turkey-png:
-    path: ug-map-turkey.png
-    sha256: ''
-  media.ug-map-turkmenistan-png:
-    path: ug-map-turkmenistan.png
-    sha256: ''
-  media.ug-map-turks-and-caicos-islands-png:
-    path: ug-map-turks_and_caicos_islands.png
-    sha256: ''
-  media.ug-map-tuvalu-png:
-    path: ug-map-tuvalu.png
-    sha256: ''
-  media.ug-map-uganda-png:
-    path: ug-map-uganda.png
-    sha256: ''
-  media.ug-map-ukraine-png:
-    path: ug-map-ukraine.png
-    sha256: ''
-  media.ug-map-united-arab-emirates-png:
-    path: ug-map-united_arab_emirates.png
-    sha256: ''
-  media.ug-map-united-kingdom-png:
-    path: ug-map-united_kingdom.png
-    sha256: ''
-  media.ug-map-united-states-of-america-png:
-    path: ug-map-united_states_of_america.png
-    sha256: ''
-  media.ug-map-united-states-virgin-islands-png:
-    path: ug-map-united_states_virgin_islands.png
-    sha256: ''
-  media.ug-map-uruguay-png:
-    path: ug-map-uruguay.png
-    sha256: ''
-  media.ug-map-uzbekistan-png:
-    path: ug-map-uzbekistan.png
-    sha256: ''
-  media.ug-map-vanuatu-png:
-    path: ug-map-vanuatu.png
-    sha256: ''
-  media.ug-map-vatican-city-png:
-    path: ug-map-vatican_city.png
-    sha256: ''
-  media.ug-map-venezuela-png:
-    path: ug-map-venezuela.png
-    sha256: ''
-  media.ug-map-vietnam-png:
-    path: ug-map-vietnam.png
-    sha256: ''
-  media.ug-map-wales-png:
-    path: ug-map-wales.png
-    sha256: ''
-  media.ug-map-wallis-and-futuna-png:
-    path: ug-map-wallis_and_futuna.png
-    sha256: ''
-  media.ug-map-white-sea-png:
-    path: ug-map-white_sea.png
-    sha256: ''
-  media.ug-map-yellow-sea-png:
-    path: ug-map-yellow_sea.png
-    sha256: ''
-  media.ug-map-yemen-png:
-    path: ug-map-yemen.png
-    sha256: ''
-  media.ug-map-zambia-png:
-    path: ug-map-zambia.png
-    sha256: ''
-  media.ug-map-zanzibar-png:
-    path: ug-map-zanzibar.png
-    sha256: ''
-  media.ug-map-zimbabwe-png:
-    path: ug-map-zimbabwe.png
-    sha256: ''
+media: !include media.yaml
 tombstones: []

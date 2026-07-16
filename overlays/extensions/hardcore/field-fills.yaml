@@ -3,82 +3,84 @@ kind: extension
 field_fills:
   note.hardcore-american-samoa:
     field.capital: Pago Pago
-    field.flag: '<img src="ug-flag-american_samoa.svg" />'
+    field.flag: !image media.ug-flag-american-samoa-svg
   note.hardcore-anguilla:
     field.capital: The Valley
-    field.flag: '<img src="ug-flag-anguilla.svg" />'
+    field.flag: !image media.ug-flag-anguilla-svg
   note.hardcore-azores:
     field.capital: Ponta Delgada
-    field.flag: '<img src="ug-flag-azores.svg" />'
+    field.flag: !image media.ug-flag-azores-svg
   note.hardcore-bali:
     field.capital: Denpasar
-    field.flag: '<img src="ug-flag-bali-blur.png" /><img src="ug-flag-bali.png" />'
+    field.flag:
+      - !image media.ug-flag-bali-blur-png
+      - !image media.ug-flag-bali-png
   note.hardcore-bermuda:
     field.capital: Hamilton
-    field.flag: '<img src="ug-flag-bermuda.svg" />'
+    field.flag: !image media.ug-flag-bermuda-svg
   note.hardcore-british-virgin-islands:
     field.capital: Road Town
-    field.flag: '<img src="ug-flag-british_virgin_islands.svg" />'
+    field.flag: !image media.ug-flag-british-virgin-islands-svg
   note.hardcore-canary-islands:
     field.capital: Santa Cruz de Tenerife, Las Palmas
     field.capital-info: The capital is shared between the two cities of Santa Cruz de Tenerife and Las Palmas.
-    field.flag: '<img src="ug-flag-canary_islands.svg" />'
+    field.flag: !image media.ug-flag-canary-islands-svg
   note.hardcore-cayman-islands:
     field.capital: George Town
     field.capital-hint: Not a sovereign country
-    field.flag: '<img src="ug-flag-cayman_islands.svg" />'
+    field.flag: !image media.ug-flag-cayman-islands-svg
   note.hardcore-corsica:
     field.capital: Ajaccio
-    field.flag: '<img src="ug-flag-corsica.svg" />'
+    field.flag: !image media.ug-flag-corsica-svg
   note.hardcore-falkland-islands:
     field.capital: Stanley
-    field.flag: '<img src="ug-flag-falkland_islands.svg" />'
+    field.flag: !image media.ug-flag-falkland-islands-svg
   note.hardcore-french-guiana:
     field.capital: Cayenne
   note.hardcore-gibraltar:
     field.capital: Gibraltar
-    field.flag: '<img src="ug-flag-gibraltar.svg" />'
+    field.flag: !image media.ug-flag-gibraltar-svg
   note.hardcore-guadeloupe:
     field.capital: Basse-Terre
     field.capital-hint: Not a sovereign country
   note.hardcore-guernsey:
     field.capital: St. Peter Port
-    field.flag: '<img src="ug-flag-guernsey.svg" />'
+    field.flag: !image media.ug-flag-guernsey-svg
   note.hardcore-isle-of-man:
     field.capital: Douglas
-    field.flag: '<img src="ug-flag-isle_of_man.svg" />'
+    field.flag: !image media.ug-flag-isle-of-man-svg
   note.hardcore-jersey:
     field.capital: Saint Helier
-    field.flag: '<img src="ug-flag-jersey.svg" />'
+    field.flag: !image media.ug-flag-jersey-svg
   note.hardcore-kaliningrad-oblast:
     field.capital: Kaliningrad
-    field.flag: '<img src="ug-flag-kaliningrad_oblast.svg" />'
+    field.flag: !image media.ug-flag-kaliningrad-oblast-svg
   note.hardcore-madeira:
     field.capital: Funchal
-    field.flag: '<img src="ug-flag-madeira.svg" />'
+    field.flag: !image media.ug-flag-madeira-svg
   note.hardcore-martinique:
     field.capital: Fort-de-France
   note.hardcore-mayotte:
     field.capital: Mamoudzou
   note.hardcore-northern-mariana-islands:
     field.capital: Saipan
-    field.flag: '<img src="ug-flag-northern_mariana_islands.png" />'
+    field.flag: !image media.ug-flag-northern-mariana-islands-png
   note.hardcore-r-union:
     field.capital: Saint-Denis
   note.hardcore-saint-martin:
     field.capital: Marigot
   note.hardcore-sardinia:
     field.capital: Cagliari
-    field.flag: '<img src="ug-flag-sardinia.svg" />'
+    field.flag: !image media.ug-flag-sardinia-svg
   note.hardcore-sicily:
     field.capital: Palermo
-    field.flag: '<img src="ug-flag-sicily.svg" />'
+    field.flag: !image media.ug-flag-sicily-svg
   note.hardcore-sint-maarten:
     field.capital: Philipsburg
-    field.flag: '<img src="ug-flag-sint_maarten.svg" />'
+    field.flag: !image media.ug-flag-sint-maarten-svg
   note.hardcore-turks-and-caicos-islands:
     field.capital: Cockburn Town
-    field.flag: '<img src="ug-flag-turks_and_caicos_islands.svg" />'
+    field.flag: !image media.ug-flag-turks-and-caicos-islands-svg
   note.hardcore-zanzibar:
     field.capital: Zanzibar City
-    field.flag: '<img src="ug-flag-zanzibar.svg" />'
+    field.flag: !image media.ug-flag-zanzibar-svg

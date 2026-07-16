@@ -665,20 +665,20 @@ media:
   media.interactive-map-config-js:
     intent: add
     path: _ug-interactive_map_config.js
-    sha256: ''
+    sha256: a6c8862ea95a0257f951ef4fdc9a3c1a7aa069d4bbc04847d064b26bf4885ea0
   media.interactive-map-init-js:
     intent: add
     path: _ug-interactive_map_init.js
-    sha256: ''
+    sha256: fa70e8fa2a501f1360a83652157befa28b1de8a20a9a660f35e520d3c19c6ad2
   media.jsvectormap-css:
     intent: add
     path: _ug-jsvectormap.min.css
-    sha256: ''
+    sha256: fae18b26699328ea81afed84e8a0d8b3f351b07c5290e35714750bd1fcb63bfe
   media.jsvectormap-js:
     intent: add
     path: _ug-jsvectormap.js
-    sha256: ''
+    sha256: e3979d3e3dc42d5de35167faaac2722de730187a909ca4a98b058e8ed6b18f7b
   media.world-js:
     intent: add
     path: _ug-world.js
-    sha256: ''
+    sha256: ae54701d4796a334c7f2168aab07d631c09c0ff6f84d6813744a3cb6c27008c1

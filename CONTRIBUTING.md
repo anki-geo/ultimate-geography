@@ -32,8 +32,6 @@ brainbrew --version
 
 CI uses the immutable Nix source revision `f5f45a3d091985733d8979ef512411d4020bf941`. To use that same Nix source locally, prefix a Brain Brew command with `nix run github:jeprecated/brain-brew/f5f45a3d091985733d8979ef512411d4020bf941 --`.
 
-The current manifests have not yet been migrated to alpha.2 schemas, so alpha.2 verification is expected to fail until that migration is complete.
-
 List the available targets:
 
 ```bash
@@ -59,9 +57,9 @@ brainbrew export crowdanki \
   --target en-standard \
   --out build/crowdanki/en-standard \
   --media-root media
-mkdir -p build/crowdanki/en-standard/media
-cp media/* build/crowdanki/en-standard/media/
 ```
+
+The exporter copies exactly the media declared by the resolved target into its output. Do not create an output `media/` directory or copy the source `media/*` manually.
 
 Export every configured target for a release or CI smoke test:
 
@@ -74,8 +72,6 @@ for manifest in brainbrew.yaml brainbrew-hardcore.yaml; do
       --target "$target" \
       --out "$out" \
       --media-root media
-    mkdir -p "$out/media"
-    cp media/* "$out/media/"
   done
 done
 ```
