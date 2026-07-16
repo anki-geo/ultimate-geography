@@ -13,6 +13,12 @@ This refresh was run after migrating UG translation overlays to `translations.di
 
 The current tree is materialized before export so this evidence remains comparable with Brain Brew builds that do not yet resolve source `!include` markers in every workflow. The composed/exported deck output remains fully materialized.
 
+## POC surface and reviewed deltas
+
+The migration POC covers 74 main-manifest targets and 26 Hardcore companion targets. The result matrix below is the representative semantic comparison; it is not a claim that all 100 targets have been revalidated with alpha.2. The documented old-Hardcore refresh deltas are intentional: preserved meaningful GUIDs, omission of the old all-empty generated note, current UG/HG source text where the old Hardcore repository was stale, and the standalone UG+HG composition. The per-target field deltas remain recorded below for review.
+
+The pinned alpha.2 toolchain intentionally rejects the current pre-alpha.2 manifests. Refresh this evidence with alpha.2 after the schema migration; do not treat the historical local-debug export command below as alpha.2 validation.
+
 ## Reproduce
 
 ```bash

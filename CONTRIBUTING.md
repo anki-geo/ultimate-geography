@@ -6,7 +6,7 @@ Seen something outdated or plain wrong? Spotted a typo somewhere? Think somethin
 
 ## Contributor's guide
 
-Ultimate Geography is still maintained with [Brain Brew](https://github.com/jeprecated/brain-brew), now using the new Rust-based Brain Brew federation workflow instead of the legacy Python recipe pipeline.
+Ultimate Geography is maintained with [Brain Brew](https://github.com/jeprecated/brain-brew) instead of the legacy Python recipe pipeline.
 
 The source of truth is:
 
@@ -23,26 +23,16 @@ The source of truth is:
 
 ### Getting started
 
-Install the Rust-based Brain Brew CLI as a normal `brainbrew` command. Nix is useful for reproducible CI and for maintainers who prefer flakes, but it is not required for ordinary UG editing once `brainbrew` is installed.
-
-Recommended install paths for the current Brain Brew preview:
+Install the published Brain Brew alpha.2 CLI as a normal `brainbrew` command:
 
 ```bash
-# Rust users
-cargo install brainbrew --version 1.0.0-alpha.1 --locked
-
-# macOS/Linux prebuilt release installer
-curl --proto '=https' --tlsv1.2 -LsSf \
-  https://github.com/jeprecated/brain-brew/releases/download/v1.0.0-alpha.1/brainbrew-installer.sh \
-  | sh
-
-# Homebrew users, once the preview release is published to the tap
-brew install jeprecated/tap/brainbrew
-
+cargo install brainbrew --version 1.0.0-alpha.2 --locked
 brainbrew --version
 ```
 
-If you intentionally want the deterministic Nix path, use the same commands below with `nix run github:jeprecated/brain-brew/rust-brainbrew --` in place of `brainbrew`.
+CI uses the immutable Nix source revision `f5f45a3d091985733d8979ef512411d4020bf941`. To use that same Nix source locally, prefix a Brain Brew command with `nix run github:jeprecated/brain-brew/f5f45a3d091985733d8979ef512411d4020bf941 --`.
+
+The current manifests have not yet been migrated to alpha.2 schemas, so alpha.2 verification is expected to fail until that migration is complete.
 
 List the available targets:
 

@@ -6,3 +6,5 @@ result
 Thumbs.db
 ~$*
 .idea/
+__pycache__/
+*.pyc

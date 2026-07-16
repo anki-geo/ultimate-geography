@@ -82,7 +82,10 @@
    * Initialization of the map displayed on the front side of the card
    */
   function initFrontMap() {
-    new jsVectorMap({
+    sessionStorage.removeItem(commonConfig.selectedRegionSessionKey);
+    sessionStorage.removeItem(commonConfig.viewStateSessionKey);
+
+    const frontMap = new jsVectorMap({
       ...commonMap,
       regionsSelectable: true,
       regionsSelectableOne: true,
@@ -92,17 +95,26 @@
         selected: {fill: commonColors.selectedRegion}
       },
 
-      onRegionSelected: swapToBackSide,
+      onRegionSelected(code) {
+        sessionStorage.setItem(commonConfig.viewStateSessionKey, JSON.stringify({
+          scale: frontMap.scale,
+          transX: frontMap.transX,
+          transY: frontMap.transY
+        }));
+        swapToBackSide(code);
+      },
 
       ...mobileSwipingHack(false)
     });
+
+    attachSmoothZoom(frontMap);
   }
 
   /**
    * Initialization of the map displayed on the back side of the card
    */
   function initBackMap() {
-    new jsVectorMap({
+    const backMap = new jsVectorMap({
       ...commonMap,
       selectedRegions: [commonConfig.regionCode],
 
@@ -110,16 +122,82 @@
         ...commonMap.regionStyle,
         selected: {fill: getRegionColor()}
       },
-      focusOn: {
-        region: commonConfig.regionCode,
-        animate: true
-      },
 
       ...mobileSwipingHack(commonConfig.toolTipEnabled, (event, tooltip) => {
         tooltip._tooltip.style.backgroundColor = commonColors.tooltipBackground;
         tooltip._tooltip.style.color = commonColors.tooltipText;
       })
     });
+
+    const saved = readSavedView();
+    if (saved) {
+      // Snap to the saved view by mutating public state directly — _setScale's
+      // non-centered branch interprets its e/i args as off-center-zoom deltas
+      // around the current transX/transY, not absolute translations.
+      backMap.scale = saved.scale;
+      backMap.transX = saved.transX;
+      backMap.transY = saved.transY;
+      backMap._applyTransform();
+    }
+    backMap.setFocus({region: commonConfig.regionCode, animate: true});
+
+    attachSmoothZoom(backMap);
+
+    sessionStorage.removeItem(commonConfig.viewStateSessionKey);
+    sessionStorage.removeItem(commonConfig.selectedRegionSessionKey);
+  }
+
+  /**
+   * Replacement wheel handler for jsVectorMap.
+   *
+   * The built-in handler bit-shifts deltaY by 10, defaulting to ±1, then applies
+   * pow(1.003, ±112.5) ≈ 1.4x or 0.71x per event. Trackpads fire many events
+   * per flick, so the multiplier explodes and clamps to zoomMin/zoomMax.
+   *
+   * Here we normalize across deltaMode (px/line/page) and apply a small per-pixel
+   * scale so a smooth flick produces a smooth zoom.
+   */
+  function attachSmoothZoom(map) {
+    const container = map.container;
+    let pendingPixels = 0;
+    let pendingX = 0;
+    let pendingY = 0;
+    let frame = null;
+
+    container.addEventListener("wheel", (event) => {
+      event.preventDefault();
+      const rect = container.getBoundingClientRect();
+      pendingX = event.pageX - rect.left - window.pageXOffset;
+      pendingY = event.pageY - rect.top - window.pageYOffset;
+      pendingPixels += event.deltaMode === 1 ? event.deltaY * 30
+        : event.deltaMode === 2 ? event.deltaY * 300
+        : event.deltaY;
+
+      if (frame !== null) return;
+      frame = requestAnimationFrame(() => {
+        const factor = Math.pow(1.008, -pendingPixels);
+        map._setScale(map.scale * factor, pendingX, pendingY, false, false);
+        pendingPixels = 0;
+        frame = null;
+      });
+    }, { passive: false });
+  }
+
+  /**
+   * Read the front-side pan/zoom snapshot saved at click time.
+   * Returns null if missing, malformed, or contains non-finite numbers.
+   */
+  function readSavedView() {
+    const raw = sessionStorage.getItem(commonConfig.viewStateSessionKey);
+    if (!raw) return null;
+    try {
+      const v = JSON.parse(raw);
+      return v && Number.isFinite(v.scale) && Number.isFinite(v.transX) && Number.isFinite(v.transY)
+        ? v
+        : null;
+    } catch {
+      return null;
+    }
   }
 
   /**
