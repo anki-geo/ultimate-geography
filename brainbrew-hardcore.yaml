@@ -294,6 +294,10 @@ targets:
   de-hardcore-companion-standard:
     overlays:
       - overlay.translation.hardcore.de
+    exports:
+      crowdanki:
+        out: build/crowdanki/de-hardcore-companion-standard
+        golden: goldens/de-hardcore-companion-standard/deck.json
   en-hardcore-companion-extended:
     overlays:
       - overlay.variant.extended.en

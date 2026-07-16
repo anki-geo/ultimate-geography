@@ -39,14 +39,16 @@ brainbrew targets --manifest brainbrew.yaml
 brainbrew targets --manifest brainbrew-hardcore.yaml
 ```
 
-Verify the whole workspace, including media references and external HTML/CSS source checks:
+Verify the whole workspace. Native verification checks every composed target, including external HTML/CSS after `!include` resolution, media references and hashes, stale translation paths, and configured CrowdAnki goldens:
 
 ```bash
-python scripts/check-source-content.py
+python scripts/check-translation-profile.py
 for manifest in brainbrew.yaml brainbrew-hardcore.yaml; do
   brainbrew verify --manifest "$manifest" --all-targets --media-root media
 done
 ```
+
+The small Python command only protects the two canonical translation-profile copies from drifting; alpha.2 does not support a mapping-valued `!include` there. HTML/CSS validation is part of Brain Brew itself.
 
 Export one target with media:
 
@@ -71,12 +73,28 @@ for manifest in brainbrew.yaml brainbrew-hardcore.yaml; do
       --manifest "$manifest" \
       --target "$target" \
       --out "$out" \
-      --media-root media
+      --media-root media \
+      --force
   done
 done
 ```
 
-The full `verify` command above validates that every target composes, every media reference is declared, every declaration's SHA-256 matches the source byte under `media/`, and stale translation keys are rejected.
+The full `verify` command above validates that every target composes, every media reference is declared, every declaration's SHA-256 matches the source byte under `media/`, stale translation keys are rejected, and all configured parsed-JSON goldens match.
+
+Eight representative targets have committed CrowdAnki `deck.json` goldens under `goldens/`: English/German/Hebrew/Chinese standard, English Extended/Experimental, German standalone Hardcore, and German companion Hardcore. To accept an intentional output change, export that target directly into its golden directory, remove the copied media, inspect the parsed JSON diff, and verify again:
+
+```bash
+target=en-standard
+manifest=brainbrew.yaml
+rm -rf "goldens/$target"
+brainbrew export crowdanki \
+  --manifest "$manifest" --target "$target" \
+  --out "goldens/$target" --media-root media
+rm -rf "goldens/$target/media"
+brainbrew verify --manifest "$manifest" --target "$target" --media-root media
+```
+
+For the independent old-Python comparison and its immutable inputs, run `python scripts/collect-pr736-equivalence-evidence.py --report docs/pr736-equivalence-evidence.md`. The collector downloads the pinned UG/Hardcore source revisions, builds their original recipes, exercises current native includes, and rejects unclassified metadata, schema, template/CSS, note/GUID/tag, description, configuration, or media-byte changes. See the generated evidence document for prerequisites and the representative target matrix.
 
 Compose one target to inspect the resolved Canonical Deck YAML:
 
@@ -84,7 +102,7 @@ Compose one target to inspect the resolved Canonical Deck YAML:
 brainbrew compose \
   --manifest brainbrew.yaml \
   --target de-extended \
-  --out /tmp/de-extended.yaml
+  --out build/de-extended.yaml
 ```
 
 ### Common edits
@@ -95,7 +113,7 @@ brainbrew compose \
 - **Edit standard card templates:** update the question/answer HTML fragments under `templates/ultimate-geography/<template-name>/`.
 - **Edit card styling:** update `styles/ultimate-geography/card.css`; both the normal UG deck shell and the Hardcore companion shell include this file.
 - **Edit extended or experimental templates:** update the shared overlay YAML in `overlays/variants/extended.yaml` or `overlays/variants/experimental.yaml`, and put larger HTML changes in the included files under `templates/ultimate-geography/`; language-specific files under those directories should stay limited to adapter identity or true language exceptions.
-- **Edit Hardcore Geography content:** update the shared Hardcore overlays under `overlays/extensions/hardcore/`; standalone Hardcore targets and companion/add-on targets reuse the same note definitions.
+- **Edit Hardcore Geography content:** update the shared Hardcore overlays under `overlays/extensions/hardcore/`; standalone Hardcore targets and companion/add-on targets reuse the same note definitions. Localized standalone targets apply the corresponding `companion-translations/<lang>.yaml` after adding Hardcore notes, so keep those content translations shared with companion exports.
 - **Edit Hardcore Geography fills:** put language-neutral/default blank-field fills in `overlays/extensions/hardcore/field-fills.yaml`; use `overlays/extensions/hardcore/field-fills/<lang>.yaml` only for localized overrides that differ from the default.
 - **Replace or add media:** put the file directly in `media/`, add or update its stable media id/path in `media.yaml` (or the owning Experimental/Hardcore overlay), reference that id from note fields with `!image media.<id>`, and keep `sources.csv` up to date. Refresh declaration hashes from the real bytes before verification:
 
@@ -113,7 +131,7 @@ YAML is the canonical storage format, but translators do not need to browse it b
 
 Stable ids such as `note.finland`, `field.country`, `field.flag-similarity`, and paths like `notes.note.finland.fields.field.country` are internal identities. They are intentionally not translated and are distinct from display names such as `Country`, card labels such as `${label.location}`, and translated field contents such as `Finland` → `Finlândia`. Keep stable ids stable unless you are deliberately migrating identity; changing a display name or translation should happen in note-type variables, field names, or translation dictionaries, not by renaming `field.X`/`note.X` ids.
 
-Translation overlays use four separate dictionaries:
+Translation overlays use separate dictionaries plus typed target adaptations:
 
 ```yaml
 translations:
@@ -125,11 +143,16 @@ translations:
       Autonomous region of Portugal.: 'Autonomní území Portugalska.'
   no_change:
     - Andorra
-  target_additions:
-    notes.note.pacific-ocean.fields.field.country-info: 'Známý též jako Pacifik.'
+target_adaptations:
+  notes.note.pacific-ocean.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Známý též jako Pacifik.'
+    reason: Czech target intentionally adds the common alternative name.
 ```
 
-Use `translations.direct` for reusable translations of exact non-empty source text. Use `translations.contextual` when the same source needs a path-specific translation or when a translation should only apply under one note/field. Use `translations.no_change` for translator-reviewed text that intentionally remains identical to English; this is different from an unreviewed missing translation. Use `translations.target_additions` only when the source field is intentionally blank but the translated target should add text.
+Use `translations.direct` for reusable translations of exact non-empty source text. Use `translations.contextual` when the same source needs a path-specific translation or when a translation should only apply under one note/field. Use `translations.no_change` for translator-reviewed text that intentionally remains identical to English; this is different from an unreviewed missing translation. Use a top-level typed `target_adaptations` entry when the target must intentionally differ structurally or add text to an empty source field. Record its ownership, expected source value, target value (for `intent: adapt`), and a concrete reason; use `intent: delete` for an intentional target-only removal.
 
 Brain Brew checks these keys against the current source. If English changes from `Autonomous region of Portugal.` to a different sentence, the stale contextual key fails verification instead of silently applying the old translation to new text.
 

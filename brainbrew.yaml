@@ -50,78 +50,138 @@ overlays:
   overlay.translation.fr:
     file: overlays/languages/fr.yaml
     kind: translation
+  overlay.translation.hardcore.companion.cs:
+    file: overlays/extensions/hardcore/companion-translations/cs.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.companion.de:
+    file: overlays/extensions/hardcore/companion-translations/de.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.companion.es:
+    file: overlays/extensions/hardcore/companion-translations/es.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.companion.fr:
+    file: overlays/extensions/hardcore/companion-translations/fr.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.companion.it:
+    file: overlays/extensions/hardcore/companion-translations/it.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.companion.nb:
+    file: overlays/extensions/hardcore/companion-translations/nb.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.companion.nl:
+    file: overlays/extensions/hardcore/companion-translations/nl.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.companion.pl:
+    file: overlays/extensions/hardcore/companion-translations/pl.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.companion.pt:
+    file: overlays/extensions/hardcore/companion-translations/pt.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.companion.ru:
+    file: overlays/extensions/hardcore/companion-translations/ru.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.companion.sv:
+    file: overlays/extensions/hardcore/companion-translations/sv.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore
+  overlay.translation.hardcore.companion.zh:
+    file: overlays/extensions/hardcore/companion-translations/zh.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore
   overlay.translation.hardcore.cs:
     file: overlays/extensions/hardcore/translations/cs.yaml
     kind: translation
     depends_on:
       - overlay.translation.cs
-      - overlay.extension.hardcore
+      - overlay.translation.hardcore.companion.cs
   overlay.translation.hardcore.de:
     file: overlays/extensions/hardcore/translations/de.yaml
     kind: translation
     depends_on:
       - overlay.translation.de
-      - overlay.extension.hardcore
+      - overlay.translation.hardcore.companion.de
   overlay.translation.hardcore.es:
     file: overlays/extensions/hardcore/translations/es.yaml
     kind: translation
     depends_on:
       - overlay.translation.es
-      - overlay.extension.hardcore
+      - overlay.translation.hardcore.companion.es
   overlay.translation.hardcore.fr:
     file: overlays/extensions/hardcore/translations/fr.yaml
     kind: translation
     depends_on:
       - overlay.translation.fr
-      - overlay.extension.hardcore
+      - overlay.translation.hardcore.companion.fr
   overlay.translation.hardcore.it:
     file: overlays/extensions/hardcore/translations/it.yaml
     kind: translation
     depends_on:
       - overlay.translation.it
-      - overlay.extension.hardcore
+      - overlay.translation.hardcore.companion.it
   overlay.translation.hardcore.nb:
     file: overlays/extensions/hardcore/translations/nb.yaml
     kind: translation
     depends_on:
       - overlay.translation.nb
-      - overlay.extension.hardcore
+      - overlay.translation.hardcore.companion.nb
   overlay.translation.hardcore.nl:
     file: overlays/extensions/hardcore/translations/nl.yaml
     kind: translation
     depends_on:
       - overlay.translation.nl
-      - overlay.extension.hardcore
+      - overlay.translation.hardcore.companion.nl
   overlay.translation.hardcore.pl:
     file: overlays/extensions/hardcore/translations/pl.yaml
     kind: translation
     depends_on:
       - overlay.translation.pl
-      - overlay.extension.hardcore
+      - overlay.translation.hardcore.companion.pl
   overlay.translation.hardcore.pt:
     file: overlays/extensions/hardcore/translations/pt.yaml
     kind: translation
     depends_on:
       - overlay.translation.pt
-      - overlay.extension.hardcore
+      - overlay.translation.hardcore.companion.pt
   overlay.translation.hardcore.ru:
     file: overlays/extensions/hardcore/translations/ru.yaml
     kind: translation
     depends_on:
       - overlay.translation.ru
-      - overlay.extension.hardcore
+      - overlay.translation.hardcore.companion.ru
   overlay.translation.hardcore.sv:
     file: overlays/extensions/hardcore/translations/sv.yaml
     kind: translation
     depends_on:
       - overlay.translation.sv
-      - overlay.extension.hardcore
+      - overlay.translation.hardcore.companion.sv
   overlay.translation.hardcore.zh:
     file: overlays/extensions/hardcore/translations/zh.yaml
     kind: translation
     depends_on:
       - overlay.translation.zh
-      - overlay.extension.hardcore
+      - overlay.translation.hardcore.companion.zh
   overlay.translation.he:
     file: overlays/languages/he.yaml
     kind: translation
@@ -391,15 +451,31 @@ targets:
   de-hardcore-standard:
     overlays:
       - overlay.extension.hardcore.field-fills.de
+    exports:
+      crowdanki:
+        out: build/crowdanki/de-hardcore-standard
+        golden: goldens/de-hardcore-standard/deck.json
   de-standard:
     overlays:
       - overlay.translation.de
+    exports:
+      crowdanki:
+        out: build/crowdanki/de-standard
+        golden: goldens/de-standard/deck.json
   en-experimental:
     overlays:
       - overlay.variant.experimental.en
+    exports:
+      crowdanki:
+        out: build/crowdanki/en-experimental
+        golden: goldens/en-experimental/deck.json
   en-extended:
     overlays:
       - overlay.variant.extended.en
+    exports:
+      crowdanki:
+        out: build/crowdanki/en-extended
+        golden: goldens/en-extended/deck.json
   en-hardcore-extended:
     overlays:
       - overlay.variant.extended.en
@@ -409,6 +485,10 @@ targets:
       - overlay.extension.hardcore.field-fills
   en-standard:
     overlays: []
+    exports:
+      crowdanki:
+        out: build/crowdanki/en-standard
+        golden: goldens/en-standard/deck.json
   es-experimental:
     overlays:
       - overlay.variant.experimental.es
@@ -450,6 +530,10 @@ targets:
   he-standard:
     overlays:
       - overlay.translation.he
+    exports:
+      crowdanki:
+        out: build/crowdanki/he-standard
+        golden: goldens/he-standard/deck.json
   it-experimental:
     overlays:
       - overlay.variant.experimental.it
@@ -592,6 +676,10 @@ targets:
   zh-standard:
     overlays:
       - overlay.translation.zh
+    exports:
+      crowdanki:
+        out: build/crowdanki/zh-standard
+        golden: goldens/zh-standard/deck.json
   zh-tw-experimental:
     overlays:
       - overlay.variant.experimental.zh-tw

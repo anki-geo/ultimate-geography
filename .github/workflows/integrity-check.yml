@@ -22,10 +22,8 @@ jobs:
           extra_nix_config: |
             experimental-features = nix-command flakes
 
-      - name: Check external template/style sources and translation profile consistency
-        run: |
-          python scripts/check-source-content.py
-          python scripts/check-translation-profile.py
+      - name: Check translation profile consistency
+        run: python scripts/check-translation-profile.py
 
       - name: Verify Brain Brew workspace
         run: |
@@ -34,13 +32,24 @@ jobs:
             nix run "$BRAINBREW_FLAKE" -- verify --manifest "$manifest" --all-targets --media-root media
           done
 
-      - name: Export all CrowdAnki targets
+      - name: Transactionally export all 100 CrowdAnki targets
         run: |
           set -euo pipefail
+          rm -rf build/crowdanki
+          total=0
           for manifest in $BRAINBREW_MANIFESTS; do
-            nix run "$BRAINBREW_FLAKE" -- targets --manifest "$manifest" | while read -r target; do
+            mapfile -t targets < <(nix run "$BRAINBREW_FLAKE" -- targets --manifest "$manifest")
+            case "$manifest" in
+              brainbrew.yaml) test "${#targets[@]}" -eq 74 ;;
+              brainbrew-hardcore.yaml) test "${#targets[@]}" -eq 26 ;;
+            esac
+            for target in "${targets[@]}"; do
               out="build/crowdanki/$target"
-              nix run "$BRAINBREW_FLAKE" -- export crowdanki --manifest "$manifest" --target "$target" --out "$out" --media-root media
+              nix run "$BRAINBREW_FLAKE" -- export crowdanki \
+                --manifest "$manifest" --target "$target" --out "$out" \
+                --media-root media --force
               test -f "$out/deck.json"
+              total=$((total + 1))
             done
           done
+          test "$total" -eq 100
