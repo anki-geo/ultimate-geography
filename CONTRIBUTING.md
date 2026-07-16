@@ -76,7 +76,7 @@ for manifest in brainbrew.yaml brainbrew-hardcore.yaml; do
 done
 ```
 
-The full `verify` command above validates that every target composes, every referenced media file exists in the source `media/` root, and stale translation keys are rejected.
+The full `verify` command above validates that every target composes, every media reference is declared, every declaration's SHA-256 matches the source byte under `media/`, and stale translation keys are rejected.
 
 Compose one target to inspect the resolved Canonical Deck YAML:
 
@@ -97,7 +97,13 @@ brainbrew compose \
 - **Edit extended or experimental templates:** update the shared overlay YAML in `overlays/variants/extended.yaml` or `overlays/variants/experimental.yaml`, and put larger HTML changes in the included files under `templates/ultimate-geography/`; language-specific files under those directories should stay limited to adapter identity or true language exceptions.
 - **Edit Hardcore Geography content:** update the shared Hardcore overlays under `overlays/extensions/hardcore/`; standalone Hardcore targets and companion/add-on targets reuse the same note definitions.
 - **Edit Hardcore Geography fills:** put language-neutral/default blank-field fills in `overlays/extensions/hardcore/field-fills.yaml`; use `overlays/extensions/hardcore/field-fills/<lang>.yaml` only for localized overrides that differ from the default.
-- **Replace or add media:** put the file directly in `media/`, reference the same filename from the note field HTML, and keep `sources.csv` up to date.
+- **Replace or add media:** put the file directly in `media/`, add or update its stable media id/path in `media.yaml` (or the owning Experimental/Hardcore overlay), reference that id from note fields with `!image media.<id>`, and keep `sources.csv` up to date. Refresh declaration hashes from the real bytes before verification:
+
+```bash
+for manifest in brainbrew.yaml brainbrew-hardcore.yaml; do
+  brainbrew media hash --manifest "$manifest" --all-targets --media-root media
+done
+```
 
 After any edit, run the full `verify` command above. If you change generated deck output intentionally, inspect an exported target before opening a pull request.
 
