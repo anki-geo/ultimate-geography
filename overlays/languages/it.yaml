@@ -10,14 +10,10 @@ translations:
     Akrotiri and Dhekelia: Akrotiri e Dhekelia
     Algiers: Algeri
     Also known as Burma.: Conosciuta anche come Myanmar.
-    Also known as Cabo Verde.: ''
     Also known as Czechia.: Conosciuta anche come Cechia.
     Also known as East Timor.: Conosciuto anche come Timor-Leste.
-    Also known as Kiev.: ''
-    'Also known as Türkiye': ''
     Also known as the Gulf of Siam.: Conosciuto anche come Golfo della Thailandia.
     Also known as the Sea of Cortez.: Conosciuto anche come Mare di Cortez.
-    'Also spelled as Sana''a.': ''
     American Samoa: Samoa Americane
     Antarctica: Antartide
     Antigua and Barbuda: Antigua e Barbuda
@@ -211,7 +207,6 @@ translations:
     Official capital was moved from Bujumbura to Gitega in 2019.: 'La capitale ufficiale è stata spostata da Bujumbura a Gitega nel 2019.'
     Official capital was moved from Malabo to Ciudad de la Paz in 2026.: 'La capitale ufficiale è stata spostata da Malabo a Ciudad de la Paz nel 2026.'
     'Officially Côte d''Ivoire.': 'Ufficialmente Côte d''Ivoire.'
-    Officially Luxembourg.: ''
     Overseas department of France.: 'Dipartimento d''oltremare della Francia.'
     Overseas territory of France.: 'Territorio d''oltremare della Francia.'
     Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
@@ -664,8 +659,6 @@ translations:
     - Zambia
     - Zanzibar
     - Zimbabwe
-  target_additions:
-    notes.note.arctic-ocean.fields.field.country-info: Conosciuto a livello internazionale come Oceano Artico.
   variables:
     label.capital:
       Capital: Capitale
@@ -732,7 +725,7 @@ translations:
       'd-q4J~CNW_': 'sg;fSvH,Qx'
       'd3c`&/1Y^D': fIkBdQ_9rz
       'd5m8%D6,;u': 'An&noX2#5Z'
-      'dC:e5G4J/p': 'eR2{(`qi%Y'
+      dC:e5G4J/p: 'eR2{(`qi%Y'
       'dUZ^=SE5BG': 'q=j}:zl1<J'
       'dWA49p}F{k': 'Doqtd|&vp5'
       'dY96`C-f(_': 'P*&eD$m6f6'
@@ -758,7 +751,7 @@ translations:
       'e_;dzXj8de': 'mt.:&v@o1)'
       'epvt3>HH?U': 's<L4%Wra>#'
       'euW0jm=wfR': 'BB/C2B[$C5'
-      'e{e8vi@^PY': 'lt:FGWJBSN'
+      'e{e8vi@^PY': lt:FGWJBSN
       'f#4-L[mp5*': 'QoEJ+5vO&k'
       'f*2@qiHh_1': 'A6$z`mA%oA'
       'f*LO~>!0PN': 'DCq[ofnQ_C'
@@ -779,7 +772,7 @@ translations:
       'gG6SWfM>H0': 'NBAc+DUlR.'
       'gRVZ]qJ#>O': 'dGv_,!sUnF'
       'gYIoR`|AxW': 'B%fQaJUVdo'
-      'gePC:Xt_nW': 'HuK?9aC_zy'
+      gePC:Xt_nW: 'HuK?9aC_zy'
       'gp[h@]y13l': 'pQkua|dss!'
       'gsS{jR,]|Q': 'pU3#tTpq!l'
       'gx:;za!?C9': 'E[oI~&d)7T'
@@ -1002,3 +995,35 @@ translations:
       'zSc]-^U=0=': 'Hq>2Y[(Y]*'
     crowdanki:uuid:
       43e2586a-9a65-11e8-a777-a0481cc15658: cd65a274-7341-4e72-8de5-5d3d83ea4537
+target_adaptations:
+  notes.note.arctic-ocean.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Conosciuto a livello internazionale come Oceano Artico.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.cape-verde.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Cabo Verde.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.luxembourg.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Officially Luxembourg.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.turkey.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also known as Türkiye'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.ukraine.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Kiev.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.yemen.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also spelled as Sana''a.'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'

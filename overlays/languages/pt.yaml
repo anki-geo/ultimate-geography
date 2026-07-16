@@ -16,15 +16,7 @@ translations:
     Albania: 'Albânia'
     Algeria: 'Argélia'
     Algiers: Argel
-    Also known as Burma.: ''
-    Also known as Cabo Verde.: ''
-    Also known as Czechia.: ''
-    Also known as East Timor.: ''
-    Also known as Kiev.: ''
-    'Also known as Türkiye': ''
-    Also known as the Gulf of Siam.: ''
     Also known as the Sea of Cortez.: 'Também conhecido como Mar de Cortez.'
-    'Also spelled as Sana''a.': ''
     American Samoa: Samoa Americana
     Amman: 'Amã'
     Amsterdam: 'Amsterdã (BR), Amsterdão (PT)'
@@ -158,7 +150,6 @@ translations:
     Faroe Islands: 'Ilhas Faroé'
     Federated States of Micronesia: 'Estados Federados da Micronésia'
     Finland: 'Finlândia'
-    Formerly Zaire.: ''
     Formerly known as Macedonia.: 'Anteriormente conhecida como Macedônia.'
     France: 'França'
     French Guiana: Guiana Francesa
@@ -305,7 +296,6 @@ translations:
     Official capital was moved from Bujumbura to Gitega in 2019.: A capital oficial foi transferida de Bujumbura para Guitega em 2019.
     Official capital was moved from Malabo to Ciudad de la Paz in 2026.: A capital oficial foi transferida de Malabo para Cidade da Paz em 2026.
     'Officially Côte d''Ivoire.': 'Oficialmente Côte d''Ivoire.'
-    Officially Luxembourg.: ''
     Oman: 'Omã (BR), Omão (PT)'
     Oranjestad: Oranjestade
     Ottawa: Otava
@@ -466,7 +456,6 @@ translations:
     While Yamoussoukro is the official capital, Abidjan is the de facto seat of government.: 'Embora Iamussucro seja a capital oficial, Abidjã é a sede do governo.'
     White Sea: Mar Branco
     Windhoek: Vinduque
-    World region covering the Australian continent and most of the islands in the Pacific Ocean.: ''
     Yamoussoukro: Iamussucro
     'Yaoundé': 'Iaundé'
     Yaren: 'Iarém'
@@ -705,10 +694,6 @@ translations:
     - Wellington
     - Willemstad
     - Zanzibar
-  target_additions:
-    notes.note.antigua-and-barbuda.fields.field.capital-hint: Estado soberano
-    notes.note.netherlands.fields.field.country-info: Conhecidos informalmente como Holanda.
-    notes.note.puerto-rico.fields.field.capital-hint: 'Não é um Estado soberano'
   variables:
     label.capital-hint.answer:
       'Hint: {{Capital hint}}': 'Dica: {{Capital hint}}'
@@ -773,7 +758,7 @@ translations:
       'd-q4J~CNW_': 'A?qpd&5PT&'
       'd3c`&/1Y^D': 'I{3qN!QnX}'
       'd5m8%D6,;u': GxAVE4X5.9
-      'dC:e5G4J/p': 'G#>XV1}xL2'
+      dC:e5G4J/p: 'G#>XV1}xL2'
       'dUZ^=SE5BG': pZ,nCA,.0R
       'dWA49p}F{k': 'c+r?+))vw9'
       'dY96`C-f(_': 'wDA~K0^p(*'
@@ -820,7 +805,7 @@ translations:
       'gG6SWfM>H0': 'rJI8->gW%l'
       'gRVZ]qJ#>O': 'N*r4!:+/}l'
       'gYIoR`|AxW': 'ctod6{!$KH'
-      'gePC:Xt_nW': 'GUDe$&2Ul)'
+      gePC:Xt_nW: 'GUDe$&2Ul)'
       'gp[h@]y13l': 'GmXe5(x+Sd'
       'gsS{jR,]|Q': 'hK{#z+aR76'
       'gx:;za!?C9': 'KOyffK#a5H'
@@ -1043,3 +1028,77 @@ translations:
       'zSc]-^U=0=': 'A#xTVpn3Ks'
     crowdanki:uuid:
       43e2586a-9a65-11e8-a777-a0481cc15658: 3da2a851-258c-447f-9d16-91a663663675
+target_adaptations:
+  notes.note.antigua-and-barbuda.fields.field.capital-hint:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Estado soberano
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.cape-verde.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Cabo Verde.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.czech-republic.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Czechia.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.democratic-republic-of-the-congo.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Formerly Zaire.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.gulf-of-thailand.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as the Gulf of Siam.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.luxembourg.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Officially Luxembourg.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.myanmar.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Burma.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.netherlands.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Conhecidos informalmente como Holanda.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.oceania.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: World region covering the Australian continent and most of the islands in the Pacific Ocean.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.puerto-rico.fields.field.capital-hint:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Não é um Estado soberano'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.timor-leste.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as East Timor.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.turkey.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also known as Türkiye'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.ukraine.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Kiev.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.yemen.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also spelled as Sana''a.'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'

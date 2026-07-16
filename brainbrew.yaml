@@ -1,8 +1,6 @@
 package:
   id: anki-geo.ultimate-geography
   version: 0.1.0
-  compatible_base_versions:
-    - '>=0.1,<0.2'
 base: deck.yaml
 overlays:
   overlay.extension.hardcore:

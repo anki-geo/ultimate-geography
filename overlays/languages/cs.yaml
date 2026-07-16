@@ -19,8 +19,6 @@ translations:
     Also known as Cabo Verde.: 'Známé též jako Cabo Verde.'
     Also known as Czechia.: 'Používané časteji Česká republika.'
     Also known as East Timor.: 'Známý též jako Timor Leste.'
-    Also known as Kiev.: ''
-    'Also known as Türkiye': ''
     Also known as the Gulf of Siam.: 'Známý též jako Záliv Siam.'
     Also known as the Sea of Cortez.: 'Známý též jako Cortézovo moře.'
     'Also spelled as Sana''a.': 'Také psáno jako San''á.'
@@ -188,7 +186,6 @@ translations:
     Kenya: 'Keňa'
     Khartoum: 'Chartúm'
     Known as Nur-Sultan between 2019 and 2022: 'Známá jako Nur-Sultan mezi lety 2019 a 2022'
-    Known as Swaziland until 2018.: ''
     Kuwait: Kuvajt
     Kuwait City: Kuvajt
     Kyiv: Kyjev
@@ -255,7 +252,6 @@ translations:
     Official capital was moved from Bujumbura to Gitega in 2019.: 'Oficiální hlavní město bylo přesunuto z Bujumbury zpět do Gitegy v roce 2019.'
     Official capital was moved from Malabo to Ciudad de la Paz in 2026.: 'Oficiální hlavní město bylo přesunuto z Malabo do Ciudad de la Paz v roce 2026.'
     'Officially Côte d''Ivoire.': 'Oficiálně Côte d''Ivoire.'
-    Officially Luxembourg.: ''
     Oman: 'Omán'
     Overseas department of France.: 'Zámořský department Francie.'
     Pacific Ocean: 'Tichý oceán'
@@ -706,9 +702,6 @@ translations:
     - Yaren
     - Zanzibar
     - Zimbabwe
-  target_additions:
-    notes.note.pacific-ocean.fields.field.country-info: 'Známý též jako Pacifik.'
-    notes.note.united-kingdom.fields.field.country-info: 'Známé též jako Velká Británie.'
   variables:
     label.capital:
       Capital: 'Hlavní město'
@@ -734,7 +727,7 @@ translations:
       Bszsaz0Iuo: 'q9GttqBN(j'
       'Cf2@;p<aL': 'M%RATtq>65'
       'E3u*2.<9#`': 'kn6vhJtt!Y'
-      'EWXNc<g5)': 'v/ymm:8cf7'
+      'EWXNc<g5)': v/ymm:8cf7
       'G/^_##fcPN': 'u}sPj7cerL'
       'Gn;q2Y)Xe4': 'x18Y%w8iOt'
       'H*c[ML+`s=': 'f.Z<UFi.{x'
@@ -775,7 +768,7 @@ translations:
       'd-q4J~CNW_': 'J>b>D;vQoW'
       'd3c`&/1Y^D': 'wOmUda6!>t'
       'd5m8%D6,;u': 'LXl!1P9Nfp'
-      'dC:e5G4J/p': 'x`*~=TA+FK'
+      dC:e5G4J/p: 'x`*~=TA+FK'
       'dUZ^=SE5BG': 'u2@(1}y4a{'
       'dWA49p}F{k': 'b<l<9Sv>;o'
       'dY96`C-f(_': 'A7Cj*hqC7['
@@ -822,7 +815,7 @@ translations:
       'gG6SWfM>H0': 'f#ZCPMD62V'
       'gRVZ]qJ#>O': pvm.S00zT/
       'gYIoR`|AxW': 'm-W32Cjt+v'
-      'gePC:Xt_nW': dt/qfm,mMR
+      gePC:Xt_nW: dt/qfm,mMR
       'gp[h@]y13l': 'nLS!c^B.u5'
       'gsS{jR,]|Q': 'v8pkKiW5;U'
       'gx:;za!?C9': 'uJWy?`0JRW'
@@ -956,7 +949,7 @@ translations:
       pkj3RPBUrF: 'bTd6E)qj]$'
       'pwwZu{7f~(': 'b~j)uKz$/r'
       'pz(G*<F93/': onvgK4ynAq
-      'p}Qa|!7PpR': 't0QR1Q:HMY'
+      'p}Qa|!7PpR': t0QR1Q:HMY
       'q1Q3Do8S>g': 'nlr&VdfBJA'
       'q2#Yv[O0:|': 'uq)KM}CVsF'
       'q7do-wLx%E': 'GJT]wWpqv6'
@@ -1045,3 +1038,36 @@ translations:
       'zSc]-^U=0=': 'l1uc5E8j;X'
     crowdanki:uuid:
       43e2586a-9a65-11e8-a777-a0481cc15658: 47d13c81-b471-4471-8e87-ebad53fa7307
+target_adaptations:
+  notes.note.eswatini.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Known as Swaziland until 2018.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.luxembourg.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Officially Luxembourg.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.pacific-ocean.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Známý též jako Pacifik.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.turkey.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also known as Türkiye'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.ukraine.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Kiev.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.united-kingdom.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Známé též jako Velká Británie.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'

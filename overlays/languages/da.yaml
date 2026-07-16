@@ -13,14 +13,9 @@ translations:
     Algeria: Algeriet
     Algiers: Algier
     Also known as Burma.: 'Også kendt som Burma.'
-    Also known as Cabo Verde.: ''
-    Also known as Czechia.: ''
     Also known as East Timor.: 'Også kendt som Timor-Leste.'
     Also known as Kiev.: 'Også kendt som Kiev.'
-    'Also known as Türkiye': ''
     Also known as the Gulf of Siam.: 'Også kendt som Siambugten.'
-    Also known as the Sea of Cortez.: ''
-    'Also spelled as Sana''a.': ''
     American Samoa: Amerikansk Samoa
     Antarctica: Antarktis
     Antigua and Barbuda: Antigua og Barbuda
@@ -192,7 +187,6 @@ translations:
     Official capital was moved from Bujumbura to Gitega in 2019.: Den officielle hovedstad blev flyttet fra Bujumbura til Gitega i 2019.
     Official capital was moved from Malabo to Ciudad de la Paz in 2026.: Den officielle hovedstad blev flyttet fra Malabo til Ciudad de la Paz i 2026.
     'Officially Côte d''Ivoire.': 'Officielt Cote d’Ivoire.'
-    Officially Luxembourg.: ''
     Overseas department of France.: 'Fransk oversøisk departement.'
     Pacific Ocean: Stillehavet
     Palestine: 'Palæstina'
@@ -684,14 +678,6 @@ translations:
     - Zambia
     - Zanzibar
     - Zimbabwe
-  target_additions:
-    notes.note.arctic-ocean.fields.field.country-info: 'Også kendt som Det Arktiske Ocean.'
-    notes.note.balkan-peninsula.fields.field.country-info: 'Også kendt som Balkan.'
-    notes.note.baltic-sea.fields.field.country-info: 'Også kaldt Baltiske Hav.'
-    notes.note.belarus.fields.field.country-info: 'Også kendt som Hviderusland. Udenrigsministeriet er begyndt at bruge betegnelsen Belarus i marts 2021.'
-    notes.note.netherlands.fields.field.country-info: 'Også kendt som Holland.'
-    notes.note.united-kingdom.fields.field.country-info: 'Officielt benævnt Det Forenede Kongerige Storbritannien og Nordirland.'
-    notes.note.united-states-of-america.fields.field.country-info: Formelt Amerikas Forenede Stater.
   variables:
     label.capital:
       Capital: Hovedstad
@@ -756,7 +742,7 @@ translations:
       'd-q4J~CNW_': 'x6mgT;g-y('
       'd3c`&/1Y^D': 'gHj]IWX<H9'
       'd5m8%D6,;u': 'Eb_u$_koMA'
-      'dC:e5G4J/p': 'A]28vyA>&x'
+      dC:e5G4J/p: 'A]28vyA>&x'
       'dUZ^=SE5BG': 'vv!U3<)YQd'
       'dWA49p}F{k': 'CdND;!8x4h'
       'dY96`C-f(_': 'd.8!=y^r?T'
@@ -803,7 +789,7 @@ translations:
       'gG6SWfM>H0': 'ofIXVVnbk+'
       'gRVZ]qJ#>O': 'z+R(l-qu:w'
       'gYIoR`|AxW': 'p>4`R>@ts5'
-      'gePC:Xt_nW': 'j,M#?Q{BE<'
+      gePC:Xt_nW: 'j,M#?Q{BE<'
       'gp[h@]y13l': wxybJM,rY
       'gsS{jR,]|Q': 'I5Xpi}2t{j'
       'gx:;za!?C9': 'grAkl2|g`7'
@@ -889,7 +875,7 @@ translations:
       'lq`T^ZBF2Y': 'Iox&|;dTWV'
       'l}[BG9.nQS': 'ct$F+%LWn9'
       'm)WUtJS`H&': 'm2L<-H#(|p'
-      'm*#%sE.`.;': 'rstd_.g5:r'
+      'm*#%sE.`.;': rstd_.g5:r
       'm*PYE=#wr^': 'k+H>G/=c~s'
       'm2F|cUkKhv': 'gOMsqm#1v:'
       'm5j,b/y<EE': 'P_~u:5HCM_'
@@ -1026,3 +1012,76 @@ translations:
       'zSc]-^U=0=': 'kQ{}[-(!z,'
     crowdanki:uuid:
       43e2586a-9a65-11e8-a777-a0481cc15658: 15daaec7-4097-4d97-ba94-9db44f8b8f51
+target_adaptations:
+  notes.note.arctic-ocean.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Også kendt som Det Arktiske Ocean.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.balkan-peninsula.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Også kendt som Balkan.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.baltic-sea.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Også kaldt Baltiske Hav.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.belarus.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Også kendt som Hviderusland. Udenrigsministeriet er begyndt at bruge betegnelsen Belarus i marts 2021.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.cape-verde.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Cabo Verde.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.czech-republic.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Czechia.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.gulf-of-california.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as the Sea of Cortez.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.luxembourg.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Officially Luxembourg.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.netherlands.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Også kendt som Holland.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.turkey.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also known as Türkiye'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.united-kingdom.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Officielt benævnt Det Forenede Kongerige Storbritannien og Nordirland.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.united-states-of-america.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Formelt Amerikas Forenede Stater.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.yemen.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also spelled as Sana''a.'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'

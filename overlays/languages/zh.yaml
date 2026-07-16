@@ -23,10 +23,8 @@ translations:
     Also known as Czechia.: '也被称为捷克(Czechia)。'
     Also known as East Timor.: '也称为东帝汶(Timor-Leste)。'
     Also known as Kiev.: '基辅在国际上公认有2种名字(Kyiv, Kiev)。'
-    'Also known as Türkiye': ''
     Also known as the Gulf of Siam.: '也被称为暹罗湾(Gulf of Siam)。'
     Also known as the Sea of Cortez.: '也被称为科尔特斯海(Sea of Cortez)。'
-    'Also spelled as Sana''a.': ''
     American Samoa: '美属萨摩亚(American Samoa)'
     Amman: '安曼(Amman)'
     Amsterdam: '阿姆斯特丹(Amsterdam)'
@@ -781,10 +779,6 @@ translations:
         Egypt: '埃及'
       yemen.fields.field.flag-similarity.message.variables.country_2:
         Iraq: '伊拉克'
-  target_additions:
-    notes.note.myanmar.fields.field.capital-info: '缅甸于2005年11月6日首都从仰光(Yangon)迁往内比都(Naypyidaw)。'
-    notes.note.netherlands.fields.field.country-info: '现名尼德兰(Netherlands)，中文通译为荷兰(Holanda)'
-    notes.note.yellow-sea.fields.field.country-info: '虽然国际上普遍认为黄海(Yellow Sea)包含了渤海(Bohai Sea)，但在中国(China)，它们通常被视为两个独立的海域。'
   variables:
     label.capital:
       Capital: '首都'
@@ -851,7 +845,7 @@ translations:
       'd-q4J~CNW_': 'p1BZV>/N^['
       'd3c`&/1Y^D': 'rY(r:vfR-a'
       'd5m8%D6,;u': 'wr%uN<cXE)'
-      'dC:e5G4J/p': 'iEC3b2]U!+'
+      dC:e5G4J/p: 'iEC3b2]U!+'
       'dUZ^=SE5BG': 'Py)lE+`c_p'
       'dWA49p}F{k': 'oF[H>r%3yR'
       'dY96`C-f(_': 'K4=tg/ma1*'
@@ -898,7 +892,7 @@ translations:
       'gG6SWfM>H0': 'r4vN]%uAKT'
       'gRVZ]qJ#>O': 'HRgL]mMe{v'
       'gYIoR`|AxW': 'FQ&H#h<as;'
-      'gePC:Xt_nW': 'I*dt3/F8<o'
+      gePC:Xt_nW: 'I*dt3/F8<o'
       'gp[h@]y13l': 'DY_}Ym-I8p'
       'gsS{jR,]|Q': 'zB7<_/(/Gl'
       'gx:;za!?C9': 'p3Y4T-dI^r'
@@ -1004,7 +998,7 @@ translations:
       'm{noqE29%I': 'PS+ir>Fe)M'
       'm{oM,jr>C#': 'e%9U7YA-t6'
       'n&>e`2FO/S': 'lvc.@k4vE}'
-      'n+t>2`:;P/': 'gbrfcUD:c-'
+      'n+t>2`:;P/': gbrfcUD:c-
       'n:7&>YT5A=': 'QiSNJi)a#e'
       'nIfRn<aY:N': 'B<M:dLv@59'
       'niJUFZF$Y:': 'HyIk26o)>j'
@@ -1045,7 +1039,7 @@ translations:
       'q[S4`,F0D=': 'ImXm@Y!d=C'
       'q[}7hk(+=e': P-3hgOQ.ys
       'qiv/4tOlf=': umsYCBpKat
-      qvITjNxkLN: 'nlXMhXa:eo'
+      qvITjNxkLN: nlXMhXa:eo
       'qx%>fB$d+$': v6tcadB/em
       'r(h9&#wc~B': 'D!;%*R6J&o'
       'r/B|ra%L,.': 'EU8;wgRtD*'
@@ -1114,7 +1108,7 @@ translations:
       'vwc3}.=Z#&': 'M6}Ies>(@<'
       'wa>{k!2cXc': 'BuC717Wq+L'
       x2d4n4ADcP: 'had@3^QMe<'
-      'xb&P*pH(Q': 'w:QQuWvDwe'
+      'xb&P*pH(Q': w:QQuWvDwe
       'xqrJ^d[.(O': 'kHR&Uv%`gZ'
       'yX:tmrd5;]': 'Fp7TupO=4T'
       'z:*d{z(~V2': 'Lw@Xd3XL=}'
@@ -1122,6 +1116,35 @@ translations:
     crowdanki:uuid:
       43c5ba66-9a65-11e8-90c9-a0481cc15658: 6c995ee1-4b62-4019-a033-de0ef8651c83
       43e2586a-9a65-11e8-a777-a0481cc15658: 30c7ff39-56b5-4693-8e16-aa862eb7a619
+target_adaptations:
+  notes.note.myanmar.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: '缅甸于2005年11月6日首都从仰光(Yangon)迁往内比都(Naypyidaw)。'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.netherlands.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: '现名尼德兰(Netherlands)，中文通译为荷兰(Holanda)'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.turkey.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also known as Türkiye'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.yellow-sea.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: '虽然国际上普遍认为黄海(Yellow Sea)包含了渤海(Bohai Sea)，但在中国(China)，它们通常被视为两个独立的海域。'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.yemen.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also spelled as Sana''a.'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
 deck:
   name:
     intent: replace

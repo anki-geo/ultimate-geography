@@ -87,8 +87,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-abkhazia.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'sRw-ik:I$v'
   note.adriatic-sea:
@@ -133,8 +133,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-afghanistan.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'm5j,b/y<EE'
   note.africa:
@@ -149,7 +149,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-africa-nobox.png" />'
     tags:
-      - 'UG::Continents'
+      - UG::Continents
     adapter_ids:
       crowdanki:guid: 'pwwZu{7f~('
   note.akrotiri-and-dhekelia:
@@ -164,9 +164,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-akrotiri_and_dhekelia.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Mediterranean'
-      - 'UG::Middle_East'
+      - UG::Asia
+      - UG::Mediterranean
+      - UG::Middle_East
     adapter_ids:
       crowdanki:guid: 'wa>{k!2cXc'
   note.alaska:
@@ -181,7 +181,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-alaska.png" />'
     tags:
-      - 'UG::North_America'
+      - UG::North_America
     adapter_ids:
       crowdanki:guid: 'ssbyA9}]QP'
   note.albania:
@@ -196,9 +196,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-albania.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Mediterranean'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Mediterranean
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'gz9${p}er*'
   note.algeria:
@@ -213,9 +213,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-algeria.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Mediterranean'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Mediterranean
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'bd~Ght5tLR'
   note.american-samoa:
@@ -230,7 +230,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-american_samoa.png" />'
     tags:
-      - 'UG::Oceania'
+      - UG::Oceania
     adapter_ids:
       crowdanki:guid: 'niJUFZF$Y:'
   note.andorra:
@@ -251,8 +251,8 @@ notes:
             text: wider, coat of arms with eagle
       field.map: '<img src="ug-map-andorra.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'dY96`C-f(_'
   note.angola:
@@ -267,8 +267,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-angola.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'onMKID2d;D'
   note.anguilla:
@@ -283,8 +283,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-anguilla.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
+      - UG::Caribbean
+      - UG::North_America
     adapter_ids:
       crowdanki:guid: 'e<X;[vACXC'
   note.antarctica:
@@ -299,7 +299,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-antarctica-nobox.png" />'
     tags:
-      - 'UG::Continents'
+      - UG::Continents
     adapter_ids:
       crowdanki:guid: 'Cf2@;p<aL'
   note.antigua-and-barbuda:
@@ -314,9 +314,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-antigua_and_barbuda.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::Caribbean
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'm2F|cUkKhv'
   note.arabian-sea:
@@ -376,8 +376,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-argentina.png" />'
     tags:
-      - 'UG::South_America'
-      - 'UG::Sovereign_State'
+      - UG::South_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'n&>e`2FO/S'
   note.armenia:
@@ -392,8 +392,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-armenia.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'c(,2{yXI#E'
   note.aruba:
@@ -408,8 +408,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-aruba.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
+      - UG::Caribbean
+      - UG::North_America
     adapter_ids:
       crowdanki:guid: 'uv1fGXHN@)'
   note.asia:
@@ -424,7 +424,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-asia-nobox.png" />'
     tags:
-      - 'UG::Continents'
+      - UG::Continents
     adapter_ids:
       crowdanki:guid: 'Qlib4)q2Hk'
   note.atlantic-ocean:
@@ -460,8 +460,8 @@ notes:
             text: red stars, two fewer stars
       field.map: '<img src="ug-map-australia.png" />'
     tags:
-      - 'UG::Oceania'
-      - 'UG::Sovereign_State'
+      - UG::Oceania
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'k0{O[6l]bH'
   note.austria:
@@ -482,9 +482,9 @@ notes:
             text: darker red, narrower white band
       field.map: '<img src="ug-map-austria.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'r>aI-$$|wT'
   note.azerbaijan:
@@ -499,8 +499,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-azerbaijan.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'k9E.p^<u$,'
   note.azores:
@@ -515,7 +515,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-azores.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: 'j=L,YBvsBk'
   note.bahrain:
@@ -536,9 +536,9 @@ notes:
             text: wider, more serrated edges, maroon
       field.map: '<img src="ug-map-bahrain.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'stRa/S(0$F'
   note.bali:
@@ -553,7 +553,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-bali.png" />'
     tags:
-      - 'UG::Asia'
+      - UG::Asia
     adapter_ids:
       crowdanki:guid: 'O~pXkAbd3'
   note.balkan-peninsula:
@@ -568,7 +568,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-balkan_peninsula.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: 'zSc]-^U=0='
   note.baltic-sea:
@@ -613,8 +613,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-bangladesh.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'l+>Ki!j#v+'
   note.barbados:
@@ -629,9 +629,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-barbados.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::Caribbean
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'e{e8vi@^PY'
   note.barents-sea:
@@ -691,8 +691,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-belarus.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'l$zM~ihPFE'
   note.belgium:
@@ -707,9 +707,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-belgium.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'jTNoKo}Bu+'
   note.belize:
@@ -724,8 +724,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-belize.png" />'
     tags:
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'tcneuK7v%`'
   note.benin:
@@ -740,9 +740,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-benin.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
-      - 'UG::West_Africa'
+      - UG::Africa
+      - UG::Sovereign_State
+      - UG::West_Africa
     adapter_ids:
       crowdanki:guid: 'q8fF$4,c6_'
   note.bering-strait:
@@ -772,8 +772,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-bermuda.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
+      - UG::Caribbean
+      - UG::North_America
     adapter_ids:
       crowdanki:guid: 'gBCR?!O*;E'
   note.bhutan:
@@ -788,8 +788,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-bhutan.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'kQ:NIhJy~E'
   note.black-sea:
@@ -825,8 +825,8 @@ notes:
             text: star instead of coat of arms
       field.map: '<img src="ug-map-bolivia.png" />'
     tags:
-      - 'UG::South_America'
-      - 'UG::Sovereign_State'
+      - UG::South_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'khB~(m^@Z5'
   note.bosnia-and-herzegovina:
@@ -841,9 +841,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-bosnia_and_herzegovina.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Mediterranean'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Mediterranean
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'mz[>>AxIr4'
   note.botswana:
@@ -858,8 +858,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-botswana.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: upiX0g1quR
   note.bougainville:
@@ -874,7 +874,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-bougainville.png" />'
     tags:
-      - 'UG::Oceania'
+      - UG::Oceania
     adapter_ids:
       crowdanki:guid: 'vKx<0Qa!aP'
   note.brazil:
@@ -889,8 +889,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-brazil.png" />'
     tags:
-      - 'UG::South_America'
-      - 'UG::Sovereign_State'
+      - UG::South_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: spKoFRM4if
   note.british-virgin-islands:
@@ -905,8 +905,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-british_virgin_islands.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
+      - UG::Caribbean
+      - UG::North_America
     adapter_ids:
       crowdanki:guid: 'q[}7hk(+=e'
   note.brunei:
@@ -921,9 +921,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-brunei.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Southeast_Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Southeast_Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'sY>@9w~i^p'
   note.bulgaria:
@@ -938,9 +938,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-bulgaria.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'u4^lH.xem5'
   note.burkina-faso:
@@ -955,9 +955,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-burkina_faso.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
-      - 'UG::West_Africa'
+      - UG::Africa
+      - UG::Sovereign_State
+      - UG::West_Africa
     adapter_ids:
       crowdanki:guid: 'n:7&>YT5A='
   note.burundi:
@@ -972,9 +972,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-burundi.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'EWXNc<g5)'
   note.cambodia:
@@ -989,9 +989,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-cambodia.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Southeast_Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Southeast_Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'bW)ch:vs1P'
   note.cameroon:
@@ -1012,8 +1012,8 @@ notes:
             text: green/yellow/red, green star
       field.map: '<img src="ug-map-cameroon.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'j2IQ=f=w3@'
   note.canada:
@@ -1028,8 +1028,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-canada.png" />'
     tags:
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'e?h=Xhs+K&'
   note.canary-islands:
@@ -1044,7 +1044,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-canary_islands.png" />'
     tags:
-      - 'UG::Africa'
+      - UG::Africa
     adapter_ids:
       crowdanki:guid: 'e?Xq9gy=@['
   note.cape-verde:
@@ -1059,9 +1059,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-cape_verde.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
-      - 'UG::West_Africa'
+      - UG::Africa
+      - UG::Sovereign_State
+      - UG::West_Africa
     adapter_ids:
       crowdanki:guid: 'gFOojQO(MH'
   note.caribbean-sea:
@@ -1106,8 +1106,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-cayman_islands.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
+      - UG::Caribbean
+      - UG::North_America
     adapter_ids:
       crowdanki:guid: 'vwc3}.=Z#&'
   note.celebes-sea:
@@ -1152,8 +1152,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-central_african_republic.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'vNiD6A.v#s'
   note.chad:
@@ -1174,8 +1174,8 @@ notes:
             text: slightly lighter blue
       field.map: '<img src="ug-map-chad.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: '?n!)c/h=Q'
   note.chile:
@@ -1190,8 +1190,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-chile.png" />'
     tags:
-      - 'UG::South_America'
-      - 'UG::Sovereign_State'
+      - UG::South_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'q8][)Ri}=q'
   note.china:
@@ -1206,8 +1206,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-china.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: mJH4kwPF.-
   note.colombia:
@@ -1228,8 +1228,8 @@ notes:
             text: with coat of arms
       field.map: '<img src="ug-map-colombia.png" />'
     tags:
-      - 'UG::South_America'
-      - 'UG::Sovereign_State'
+      - UG::South_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: hoHandbYAy
   note.comoros:
@@ -1244,9 +1244,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-comoros.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 't`cagaWApo'
   note.cook-islands:
@@ -1261,8 +1261,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-cook_islands.png" />'
     tags:
-      - 'UG::Oceania'
-      - 'UG::Sovereign_State'
+      - UG::Oceania
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 's4E?ZF[E<>'
   note.coral-sea:
@@ -1292,7 +1292,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-corsica.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: 'xb&P*pH(Q'
   note.costa-rica:
@@ -1307,8 +1307,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-costa_rica.png" />'
     tags:
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'uH*Q(mcRt5'
   note.croatia:
@@ -1323,10 +1323,10 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-croatia.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Mediterranean'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Mediterranean
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'bk2ByZIeU+'
   note.cuba:
@@ -1347,9 +1347,9 @@ notes:
             text: blue triangle, red stripes
       field.map: '<img src="ug-map-cuba.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::Caribbean
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'rPekx@n9:L'
   note.cura-ao:
@@ -1370,8 +1370,8 @@ notes:
             text: single star below yellow band
       field.map: '<img src="ug-map-curacao.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
+      - UG::Caribbean
+      - UG::North_America
     adapter_ids:
       crowdanki:guid: 'oa87&PB&Bm'
   note.cyprus:
@@ -1386,11 +1386,11 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-cyprus.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::European_Union'
-      - 'UG::Mediterranean'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::European_Union
+      - UG::Mediterranean
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'kkbYQXw5b;'
   note.czech-republic:
@@ -1405,9 +1405,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-czech_republic.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'twrhzJ[k:Z'
   note.dead-sea:
@@ -1437,8 +1437,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-democratic_republic_of_the_congo.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'o3VS!KWb/@'
   note.denmark:
@@ -1453,9 +1453,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-denmark.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'kS)hDm%w}R'
   note.denmark-strait:
@@ -1485,9 +1485,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-djibouti.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'iR;U<J:CJJ'
   note.dominica:
@@ -1502,9 +1502,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-dominica.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::Caribbean
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'k}4/oj#$~s'
   note.dominican-republic:
@@ -1519,9 +1519,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-dominican_republic.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::Caribbean
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'lAxH.CfJB@'
   note.east-china-sea:
@@ -1572,8 +1572,8 @@ notes:
             text: no coat of arms
       field.map: '<img src="ug-map-ecuador.png" />'
     tags:
-      - 'UG::South_America'
-      - 'UG::Sovereign_State'
+      - UG::South_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'lmRujD!(A7'
   note.egypt:
@@ -1598,10 +1598,10 @@ notes:
             text: no emblem
       field.map: '<img src="ug-map-egypt.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Mediterranean'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Mediterranean
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'j%*8gN)q>d'
   note.el-salvador:
@@ -1622,8 +1622,8 @@ notes:
             text: different coat of arms, slightly lighter blue
       field.map: '<img src="ug-map-el_salvador.png" />'
     tags:
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'k$1_yaF?9#'
   note.england:
@@ -1638,7 +1638,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-england.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: 'e+/O]%*qfk'
   note.english-channel:
@@ -1668,8 +1668,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-equatorial_guinea.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'gYIoR`|AxW'
   note.eritrea:
@@ -1684,9 +1684,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-eritrea.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'pS>DrFhd%u'
   note.estonia:
@@ -1701,9 +1701,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-estonia.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'AES],s:8='
   note.eswatini:
@@ -1718,8 +1718,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-eswatini.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'e5P*D#I{m{'
   note.ethiopia:
@@ -1734,9 +1734,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-ethiopia.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 't|h3|;E4g{'
   note.europe:
@@ -1751,7 +1751,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-europe-nobox.png" />'
     tags:
-      - 'UG::Continents'
+      - UG::Continents
     adapter_ids:
       crowdanki:guid: oV/JG7fwZq
   note.european-union:
@@ -1766,7 +1766,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-european_union.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: Bszsaz0Iuo
   note.falkland-islands:
@@ -1781,7 +1781,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-falkland_islands.png" />'
     tags:
-      - 'UG::South_America'
+      - UG::South_America
     adapter_ids:
       crowdanki:guid: 'p#R$-mG/L'
   note.faroe-islands:
@@ -1806,7 +1806,7 @@ notes:
             text: red background, blue and white cross
       field.map: '<img src="ug-map-faroe_islands.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: 'k[)#L4.[v3'
   note.federated-states-of-micronesia:
@@ -1821,8 +1821,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-federated_states_of_micronesia.png" />'
     tags:
-      - 'UG::Oceania'
-      - 'UG::Sovereign_State'
+      - UG::Oceania
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'k1]FH+s8j@'
   note.fiji:
@@ -1837,8 +1837,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-fiji.png" />'
     tags:
-      - 'UG::Oceania'
-      - 'UG::Sovereign_State'
+      - UG::Oceania
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'gB|K:+r?1V'
   note.finland:
@@ -1853,9 +1853,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-finland.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'k}A9]O:0xw'
   note.france:
@@ -1870,10 +1870,10 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-france.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Mediterranean'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Mediterranean
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'm*#%sE.`.;'
   note.french-guiana:
@@ -1888,7 +1888,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-french_guiana.png" />'
     tags:
-      - 'UG::South_America'
+      - UG::South_America
     adapter_ids:
       crowdanki:guid: 'b^Try&me1A'
   note.french-polynesia:
@@ -1903,7 +1903,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-french_polynesia.png" />'
     tags:
-      - 'UG::Oceania'
+      - UG::Oceania
     adapter_ids:
       crowdanki:guid: 'lH^2D]w;[H'
   note.gabon:
@@ -1918,8 +1918,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-gabon.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'p.yv>BQ470'
   note.georgia:
@@ -1934,8 +1934,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-georgia.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'jN|NAUP*h}'
   note.germany:
@@ -1950,9 +1950,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-germany.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'j|z@PMgdx,'
   note.ghana:
@@ -1973,9 +1973,9 @@ notes:
             text: coat of arms instead of star
       field.map: '<img src="ug-map-ghana.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
-      - 'UG::West_Africa'
+      - UG::Africa
+      - UG::Sovereign_State
+      - UG::West_Africa
     adapter_ids:
       crowdanki:guid: 'gx:;za!?C9'
   note.gibraltar:
@@ -1990,8 +1990,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-gibraltar.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Mediterranean'
+      - UG::Europe
+      - UG::Mediterranean
     adapter_ids:
       crowdanki:guid: 'o``:?0>/yz'
   note.greece:
@@ -2006,10 +2006,10 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-greece.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Mediterranean'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Mediterranean
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'n+t>2`:;P/'
   note.greenland:
@@ -2024,7 +2024,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-greenland.png" />'
     tags:
-      - 'UG::North_America'
+      - UG::North_America
     adapter_ids:
       crowdanki:guid: 'ilGtw#=asM'
   note.grenada:
@@ -2039,9 +2039,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-grenada.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::Caribbean
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'f*LO~>!0PN'
   note.guadeloupe:
@@ -2056,8 +2056,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-guadeloupe.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
+      - UG::Caribbean
+      - UG::North_America
     adapter_ids:
       crowdanki:guid: 'tTnCoO/*tk'
   note.guam:
@@ -2072,7 +2072,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-guam.png" />'
     tags:
-      - 'UG::Oceania'
+      - UG::Oceania
     adapter_ids:
       crowdanki:guid: 'dWA49p}F{k'
   note.guatemala:
@@ -2087,8 +2087,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-guatemala.png" />'
     tags:
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'dUZ^=SE5BG'
   note.guernsey:
@@ -2103,7 +2103,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-guernsey.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: 'pz(G*<F93/'
   note.guinea:
@@ -2124,9 +2124,9 @@ notes:
             text: red and green flipped, slightly brighter green
       field.map: '<img src="ug-map-guinea.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
-      - 'UG::West_Africa'
+      - UG::Africa
+      - UG::Sovereign_State
+      - UG::West_Africa
     adapter_ids:
       crowdanki:guid: 'r]*Ioa%$bK'
   note.guinea-bissau:
@@ -2141,9 +2141,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-guinea-bissau.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
-      - 'UG::West_Africa'
+      - UG::Africa
+      - UG::Sovereign_State
+      - UG::West_Africa
     adapter_ids:
       crowdanki:guid: 'i^J8&$(1]|'
   note.gulf-of-alaska:
@@ -2248,8 +2248,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-guyana.png" />'
     tags:
-      - 'UG::South_America'
-      - 'UG::Sovereign_State'
+      - UG::South_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'q:XyGf#>Wg'
   note.haiti:
@@ -2264,9 +2264,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-haiti.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::Caribbean
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'hZ/V/D&rO`'
   note.hawaii:
@@ -2281,7 +2281,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-hawaii.png" />'
     tags:
-      - 'UG::Oceania'
+      - UG::Oceania
     adapter_ids:
       crowdanki:guid: 's>f40rn,O]'
   note.honduras:
@@ -2296,8 +2296,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-honduras.png" />'
     tags:
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 't_h*fbN#:('
   note.hong-kong:
@@ -2312,7 +2312,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-hong_kong.png" />'
     tags:
-      - 'UG::Asia'
+      - UG::Asia
     adapter_ids:
       crowdanki:guid: 'lpbD0St&OU'
   note.hudson-bay:
@@ -2342,9 +2342,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-hungary.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'mcc&0Kq^xE'
   note.iceland:
@@ -2369,8 +2369,8 @@ notes:
             text: white background, red and blue cross
       field.map: '<img src="ug-map-iceland.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: j7eEZkzsCZ
   note.india:
@@ -2385,8 +2385,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-india.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'q2#Yv[O0:|'
   note.indian-ocean:
@@ -2426,9 +2426,9 @@ notes:
             text: red and white flipped, darker red
       field.map: '<img src="ug-map-indonesia.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Southeast_Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Southeast_Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'sx|l+io`B@'
   note.iran:
@@ -2443,9 +2443,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-iran.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'mbz=7n[0v9'
   note.iraq:
@@ -2470,9 +2470,9 @@ notes:
             text: no text
       field.map: '<img src="ug-map-iraq.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: jI9P-f6r3M
   note.ireland:
@@ -2493,9 +2493,9 @@ notes:
             text: green and orange flipped, narrower
       field.map: '<img src="ug-map-ireland.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 's<_WLSB3I/'
   note.isle-of-man:
@@ -2510,7 +2510,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-isle_of_man.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: 'cV4idO^r8W'
   note.israel:
@@ -2525,10 +2525,10 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-israel.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Mediterranean'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Mediterranean
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'ijP>aJBT!9'
   note.italy:
@@ -2543,10 +2543,10 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-italy.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Mediterranean'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Mediterranean
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'cYKvF#ptF7'
   note.ivory-coast:
@@ -2567,9 +2567,9 @@ notes:
             text: orange and green flipped, wider
       field.map: '<img src="ug-map-ivory_coast.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
-      - 'UG::West_Africa'
+      - UG::Africa
+      - UG::Sovereign_State
+      - UG::West_Africa
     adapter_ids:
       crowdanki:guid: 'jN^Vc%9OQ5'
   note.jamaica:
@@ -2584,9 +2584,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-jamaica.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::Caribbean
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'h&`>n98~V1'
   note.japan:
@@ -2601,8 +2601,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-japan.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'l}[BG9.nQS'
   note.java:
@@ -2617,7 +2617,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-java.png" />'
     tags:
-      - 'UG::Asia'
+      - UG::Asia
     adapter_ids:
       crowdanki:guid: 'gDsLPj(9S#'
   note.jeju:
@@ -2632,7 +2632,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-jeju.png" />'
     tags:
-      - 'UG::Asia'
+      - UG::Asia
     adapter_ids:
       crowdanki:guid: fkq7lhLkdH
   note.jersey:
@@ -2647,7 +2647,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-jersey.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: 'm*PYE=#wr^'
   note.jordan:
@@ -2662,9 +2662,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-jordan.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'i)]+09JUR&'
   note.kaliningrad-oblast:
@@ -2679,9 +2679,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-kaliningrad_oblast.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
-      crowdanki:guid: 'dC:e5G4J/p'
+      crowdanki:guid: dC:e5G4J/p
   note.kazakhstan:
     note_type_id: note-type.ultimate-geography
     fields:
@@ -2694,8 +2694,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-kazakhstan.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'ia8as9sCY|'
   note.kenya:
@@ -2710,9 +2710,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-kenya.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'j<egqG@)EL'
   note.kiribati:
@@ -2727,8 +2727,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-kiribati.png" />'
     tags:
-      - 'UG::Oceania'
-      - 'UG::Sovereign_State'
+      - UG::Oceania
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: sXzvT.g31p
   note.kosovo:
@@ -2743,8 +2743,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-kosovo.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: libliptkB4
   note.kuwait:
@@ -2759,9 +2759,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-kuwait.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'euW0jm=wfR'
   note.kyrgyzstan:
@@ -2776,8 +2776,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-kyrgyzstan.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: pkj3RPBUrF
   note.labrador-sea:
@@ -2807,7 +2807,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-aland_islands.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: 'd``B*6:eCx'
   note.laos:
@@ -2822,9 +2822,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-laos.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Southeast_Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Southeast_Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'iW>m(L/~c='
   note.latvia:
@@ -2845,9 +2845,9 @@ notes:
             text: brighter red, wider white band
       field.map: '<img src="ug-map-latvia.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'm)WUtJS`H&'
   note.lebanon:
@@ -2862,10 +2862,10 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-lebanon.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Mediterranean'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Mediterranean
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'mtd;>7T|g>'
   note.lesotho:
@@ -2880,8 +2880,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-lesotho.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'oNpApS<AoJ'
   note.liberia:
@@ -2896,9 +2896,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-liberia.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
-      - 'UG::West_Africa'
+      - UG::Africa
+      - UG::Sovereign_State
+      - UG::West_Africa
     adapter_ids:
       crowdanki:guid: 'nsS59c`VL,'
   note.libya:
@@ -2913,9 +2913,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-libya.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Mediterranean'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Mediterranean
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'jrM28*HbyG'
   note.liechtenstein:
@@ -2930,8 +2930,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-liechtenstein.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'l$2O|9w`F~'
   note.lithuania:
@@ -2946,9 +2946,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-lithuania.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'kZ52zV#[Iv'
   note.luxembourg:
@@ -2969,9 +2969,9 @@ notes:
             text: darker blue
       field.map: '<img src="ug-map-luxembourg.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'i2]v|D3@:j'
   note.macau:
@@ -2986,7 +2986,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-macau.png" />'
     tags:
-      - 'UG::Asia'
+      - UG::Asia
     adapter_ids:
       crowdanki:guid: 'mq)8`hi{hb'
   note.madagascar:
@@ -3001,9 +3001,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-madagascar.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'm{noqE29%I'
   note.madeira:
@@ -3018,7 +3018,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-madeira.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: 'h}lnSN_f$_'
   note.malawi:
@@ -3033,9 +3033,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-malawi.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'sSW/?WMy17'
   note.malaysia:
@@ -3050,9 +3050,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-malaysia.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Southeast_Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Southeast_Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'mk20`,N=`='
   note.maldives:
@@ -3067,8 +3067,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-maldives.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'hXNTVF<:SH'
   note.mali:
@@ -3089,9 +3089,9 @@ notes:
             text: green and red flipped, slightly darker green
       field.map: '<img src="ug-map-mali.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
-      - 'UG::West_Africa'
+      - UG::Africa
+      - UG::Sovereign_State
+      - UG::West_Africa
     adapter_ids:
       crowdanki:guid: 'd-q4J~CNW_'
   note.malta:
@@ -3106,10 +3106,10 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-malta.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Mediterranean'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Mediterranean
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'nIfRn<aY:N'
   note.marshall-islands:
@@ -3124,8 +3124,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-marshall_islands.png" />'
     tags:
-      - 'UG::Oceania'
-      - 'UG::Sovereign_State'
+      - UG::Oceania
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'eT<gzg?q,r'
   note.martinique:
@@ -3140,8 +3140,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-martinique.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
+      - UG::Caribbean
+      - UG::North_America
     adapter_ids:
       crowdanki:guid: 'u;|vR#mVMW'
   note.mauritania:
@@ -3156,9 +3156,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-mauritania.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
-      - 'UG::West_Africa'
+      - UG::Africa
+      - UG::Sovereign_State
+      - UG::West_Africa
     adapter_ids:
       crowdanki:guid: 'jKO,9y0M;#'
   note.mauritius:
@@ -3173,9 +3173,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-mauritius.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'skOM(?n$GG'
   note.mayotte:
@@ -3190,8 +3190,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-mayotte.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
+      - UG::Africa
+      - UG::East_Africa
     adapter_ids:
       crowdanki:guid: 'xqrJ^d[.(O'
   note.mediterranean-sea:
@@ -3221,7 +3221,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-melanesia.png" />'
     tags:
-      - 'UG::Oceania'
+      - UG::Oceania
     adapter_ids:
       crowdanki:guid: 'o9{x<AyA]B'
   note.mexico:
@@ -3236,8 +3236,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-mexico.png" />'
     tags:
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'sxOMs+bE8@'
   note.micronesia:
@@ -3252,7 +3252,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-micronesia.png" />'
     tags:
-      - 'UG::Oceania'
+      - UG::Oceania
     adapter_ids:
       crowdanki:guid: 'cv+Nq9:a<P'
   note.moldova:
@@ -3273,8 +3273,8 @@ notes:
             text: narrower, coat of arms with motto
       field.map: '<img src="ug-map-moldova.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: '5S(f7%O-$'
   note.monaco:
@@ -3299,9 +3299,9 @@ notes:
             text: red and white flipped, wider
       field.map: '<img src="ug-map-monaco.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Mediterranean'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Mediterranean
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'm?}%V6s8]*'
   note.mongolia:
@@ -3316,8 +3316,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-mongolia.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'd3c`&/1Y^D'
   note.montenegro:
@@ -3332,9 +3332,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-montenegro.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Mediterranean'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Mediterranean
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'uRo^w#p5Be'
   note.morocco:
@@ -3349,9 +3349,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-morocco.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Mediterranean'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Mediterranean
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'mi+kf0LTW.'
   note.mozambique:
@@ -3366,9 +3366,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-mozambique.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'vgdj#X?8dB'
   note.myanmar:
@@ -3383,9 +3383,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-myanmar.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Southeast_Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Southeast_Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'l*j*EE:!Y?'
   note.namibia:
@@ -3400,8 +3400,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-namibia.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'mkgcU7[bA%'
   note.nauru:
@@ -3422,8 +3422,8 @@ notes:
             text: two stars in top-left corner
       field.map: '<img src="ug-map-nauru.png" />'
     tags:
-      - 'UG::Oceania'
-      - 'UG::Sovereign_State'
+      - UG::Oceania
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'vE[T$`n9T)'
   note.nepal:
@@ -3438,8 +3438,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-nepal.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'l3Ly8PBxt('
   note.netherlands:
@@ -3460,9 +3460,9 @@ notes:
             text: lighter blue
       field.map: '<img src="ug-map-netherlands.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'o=,%hU&yX%'
   note.new-caledonia:
@@ -3477,7 +3477,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-new_caledonia.png" />'
     tags:
-      - 'UG::Oceania'
+      - UG::Oceania
     adapter_ids:
       crowdanki:guid: 'tj&bK}%P!F'
   note.new-zealand:
@@ -3498,8 +3498,8 @@ notes:
             text: white stars, two more stars
       field.map: '<img src="ug-map-new_zealand.png" />'
     tags:
-      - 'UG::Oceania'
-      - 'UG::Sovereign_State'
+      - UG::Oceania
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: ')Y}Qy.3GK'
   note.nicaragua:
@@ -3520,8 +3520,8 @@ notes:
             text: different coat of arms, slightly darker blue
       field.map: '<img src="ug-map-nicaragua.png" />'
     tags:
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'q=w[<m2Bk&'
   note.niger:
@@ -3536,9 +3536,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-niger.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
-      - 'UG::West_Africa'
+      - UG::Africa
+      - UG::Sovereign_State
+      - UG::West_Africa
     adapter_ids:
       crowdanki:guid: 'jcu!gLw/&r'
   note.nigeria:
@@ -3553,9 +3553,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-nigeria.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
-      - 'UG::West_Africa'
+      - UG::Africa
+      - UG::Sovereign_State
+      - UG::West_Africa
     adapter_ids:
       crowdanki:guid: 'sB7rZQsR<l'
   note.niue:
@@ -3570,8 +3570,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-niue.png" />'
     tags:
-      - 'UG::Oceania'
-      - 'UG::Sovereign_State'
+      - UG::Oceania
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'kX]hN=_.c-'
   note.north-america:
@@ -3586,7 +3586,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-north_america-nobox.png" />'
     tags:
-      - 'UG::Continents'
+      - UG::Continents
     adapter_ids:
       crowdanki:guid: 'bD?R}i8_[c'
   note.north-korea:
@@ -3601,8 +3601,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-north_korea.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'r6BV%|..*5'
   note.north-macedonia:
@@ -3617,8 +3617,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-north_macedonia.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'r5C646H*+*'
   note.north-sea:
@@ -3648,10 +3648,10 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-northern_cyprus.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Mediterranean'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Mediterranean
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'r/B|ra%L,.'
   note.northern-ireland:
@@ -3666,7 +3666,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-northern_ireland.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: 'cPO|Cru8n<'
   note.northern-mariana-islands:
@@ -3681,7 +3681,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-northern_mariana_islands.png" />'
     tags:
-      - 'UG::Oceania'
+      - UG::Oceania
     adapter_ids:
       crowdanki:guid: 'p}Qa|!7PpR'
   note.norway:
@@ -3706,8 +3706,8 @@ notes:
             text: white background, red and blue cross
       field.map: '<img src="ug-map-norway.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'lq`T^ZBF2Y'
   note.norwegian-sea:
@@ -3737,7 +3737,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-oceania-nobox.png" />'
     tags:
-      - 'UG::Continents'
+      - UG::Continents
     adapter_ids:
       crowdanki:guid: 'qFuGdDx^Yv'
   note.oman:
@@ -3752,9 +3752,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-oman.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'eALZe^HCHq'
   note.pacific-ocean:
@@ -3784,8 +3784,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-pakistan.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'iIS#Nw]tr]'
   note.palau:
@@ -3800,8 +3800,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-palau.png" />'
     tags:
-      - 'UG::Oceania'
-      - 'UG::Sovereign_State'
+      - UG::Oceania
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'r?E$4f-d0/'
   note.palestine:
@@ -3826,10 +3826,10 @@ notes:
             text: with star and crescent
       field.map: '<img src="ug-map-palestine.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Mediterranean'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Mediterranean
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'g<[f89~U)A'
   note.panama:
@@ -3844,8 +3844,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-panama.png" />'
     tags:
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'vpOTK6tMr@'
   note.papua-new-guinea:
@@ -3860,8 +3860,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-papua_new_guinea.png" />'
     tags:
-      - 'UG::Oceania'
-      - 'UG::Sovereign_State'
+      - UG::Oceania
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'lhWI;$JC9('
   note.paraguay:
@@ -3876,8 +3876,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-paraguay.png" />'
     tags:
-      - 'UG::South_America'
-      - 'UG::Sovereign_State'
+      - UG::South_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 's#:aIK$9^x'
   note.persian-gulf:
@@ -3907,8 +3907,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-peru.png" />'
     tags:
-      - 'UG::South_America'
-      - 'UG::Sovereign_State'
+      - UG::South_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'jBd@A?>g|}'
   note.philippine-sea:
@@ -3938,9 +3938,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-philippines.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Southeast_Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Southeast_Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'qx%>fB$d+$'
   note.poland:
@@ -3965,9 +3965,9 @@ notes:
             text: white and red flipped, narrower
       field.map: '<img src="ug-map-poland.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'f>c7x2E]Q6'
   note.polynesia:
@@ -3982,7 +3982,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-polynesia.png" />'
     tags:
-      - 'UG::Oceania'
+      - UG::Oceania
     adapter_ids:
       crowdanki:guid: 'd5m8%D6,;u'
   note.portugal:
@@ -3997,9 +3997,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-portugal.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'q[S4`,F0D='
   note.puerto-rico:
@@ -4020,8 +4020,8 @@ notes:
             text: red triangle, blue stripes
       field.map: '<img src="ug-map-puerto_rico.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
+      - UG::Caribbean
+      - UG::North_America
     adapter_ids:
       crowdanki:guid: t3aZXtpNyi
   note.qatar:
@@ -4042,9 +4042,9 @@ notes:
             text: narrower, fewer serrated edges, red
       field.map: '<img src="ug-map-qatar.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'm{oM,jr>C#'
   note.r-union:
@@ -4059,8 +4059,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-reunion.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
+      - UG::Africa
+      - UG::East_Africa
     adapter_ids:
       crowdanki:guid: 'vrn%j%6{nu'
   note.red-sea:
@@ -4090,8 +4090,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-republic_of_the_congo.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'u|I}oElaH)'
   note.romania:
@@ -4112,9 +4112,9 @@ notes:
             text: slightly darker blue
       field.map: '<img src="ug-map-romania.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'jCd]`-=k,:'
   note.russia:
@@ -4135,8 +4135,8 @@ notes:
             text: with coat of arms
       field.map: '<img src="ug-map-russia.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'vf)G?[_?Pf'
   note.rwanda:
@@ -4151,9 +4151,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-rwanda.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'j)i)pB*HJ,'
   note.s-o-tom-and-pr-ncipe:
@@ -4168,10 +4168,10 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-sao_tome_and_principe.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Sovereign_State
     adapter_ids:
-      crowdanki:guid: 'gePC:Xt_nW'
+      crowdanki:guid: gePC:Xt_nW
   note.sahrawi-arab-democratic-republic:
     note_type_id: note-type.ultimate-geography
     fields:
@@ -4190,8 +4190,8 @@ notes:
             text: no symbol
       field.map: '<img src="ug-map-sahrawi_arab_democratic_republic.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'cAlyc~G.y%'
   note.saint-kitts-and-nevis:
@@ -4206,9 +4206,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-saint_kitts_and_nevis.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::Caribbean
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'b[(2`4t&?J'
   note.saint-lucia:
@@ -4223,9 +4223,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-saint_lucia.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::Caribbean
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'leh^fmrt*#'
   note.saint-martin:
@@ -4240,8 +4240,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-saint_martin.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
+      - UG::Caribbean
+      - UG::North_America
     adapter_ids:
       crowdanki:guid: 't2&ri|[Un:'
   note.saint-vincent-and-the-grenadines:
@@ -4256,9 +4256,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-saint_vincent_and_the_grenadines.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::Caribbean
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'va/ky=f5pK'
   note.samoa:
@@ -4273,8 +4273,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-samoa.png" />'
     tags:
-      - 'UG::Oceania'
-      - 'UG::Sovereign_State'
+      - UG::Oceania
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: qvITjNxkLN
   note.san-marino:
@@ -4289,8 +4289,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-san_marino.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'j9:K,~DQ2v'
   note.sardinia:
@@ -4305,7 +4305,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-sardinia.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: 'jKIDq|}J&c'
   note.saudi-arabia:
@@ -4320,9 +4320,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-saudi_arabia.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'ln^3p)j3b.'
   note.scandinavia:
@@ -4337,7 +4337,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-scandinavia.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: 'He!e=h?_2V'
   note.scotland:
@@ -4352,7 +4352,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-scotland.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: 'h~5xz+=ke~'
   note.sea-of-galilee:
@@ -4418,9 +4418,9 @@ notes:
             text: green/red/yellow, yellow star
       field.map: '<img src="ug-map-senegal.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
-      - 'UG::West_Africa'
+      - UG::Africa
+      - UG::Sovereign_State
+      - UG::West_Africa
     adapter_ids:
       crowdanki:guid: 't-0>F]bu>P'
   note.serbia:
@@ -4435,8 +4435,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-serbia.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'ui3>b-?a@m'
   note.seychelles:
@@ -4451,9 +4451,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-seychelles.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'hrI_uiW>E]'
   note.sicily:
@@ -4468,7 +4468,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-sicily.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: 'n{{o2K1:dw'
   note.sierra-leone:
@@ -4483,9 +4483,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-sierra_leone.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
-      - 'UG::West_Africa'
+      - UG::Africa
+      - UG::Sovereign_State
+      - UG::West_Africa
     adapter_ids:
       crowdanki:guid: 'uc61ToT%gt'
   note.singapore:
@@ -4500,9 +4500,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-singapore.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Southeast_Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Southeast_Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'cL?8!xP#Wj'
   note.sint-maarten:
@@ -4517,8 +4517,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-sint_maarten.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
+      - UG::Caribbean
+      - UG::North_America
     adapter_ids:
       crowdanki:guid: 'bnEK#)[;qT'
   note.slovakia:
@@ -4543,9 +4543,9 @@ notes:
             text: wider, smaller coat of arms
       field.map: '<img src="ug-map-slovakia.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'qVi;t%/`F|'
   note.slovenia:
@@ -4566,10 +4566,10 @@ notes:
             text: narrower, bigger coat of arms
       field.map: '<img src="ug-map-slovenia.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Mediterranean'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Mediterranean
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'g-]bb&[.E!'
   note.solomon-islands:
@@ -4584,8 +4584,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-solomon_islands.png" />'
     tags:
-      - 'UG::Oceania'
-      - 'UG::Sovereign_State'
+      - UG::Oceania
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'r>g<|,FWi%'
   note.somalia:
@@ -4600,9 +4600,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-somalia.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'c,5(mUGzYT'
   note.somaliland:
@@ -4617,9 +4617,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-somaliland.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'jX=#G8wu#('
   note.south-africa:
@@ -4634,8 +4634,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-south_africa.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'e.t$Vi5,>f'
   note.south-america:
@@ -4650,7 +4650,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-south_america-nobox.png" />'
     tags:
-      - 'UG::Continents'
+      - UG::Continents
     adapter_ids:
       crowdanki:guid: 'Lol+XIvY21'
   note.south-china-sea:
@@ -4680,8 +4680,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-south_korea.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'h?a*UKfT_M'
   note.south-ossetia:
@@ -4696,8 +4696,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-south_ossetia.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'p]t8:Tka7q'
   note.south-sudan:
@@ -4712,9 +4712,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-south_sudan.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'l&#7I)Ah/E'
   note.southern-ocean:
@@ -4744,10 +4744,10 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-spain.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Mediterranean'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Mediterranean
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'f21=-A~W;~'
   note.sri-lanka:
@@ -4762,8 +4762,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-sri_lanka.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'g9v~y/;=z('
   note.sudan:
@@ -4784,8 +4784,8 @@ notes:
             text: black/white/green, red arrow
       field.map: '<img src="ug-map-sudan.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'k/u1:B%DJH'
   note.sumatra:
@@ -4800,7 +4800,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-sumatra.png" />'
     tags:
-      - 'UG::Asia'
+      - UG::Asia
     adapter_ids:
       crowdanki:guid: 'ck!6;xK$/^'
   note.suriname:
@@ -4815,8 +4815,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-suriname.png" />'
     tags:
-      - 'UG::South_America'
-      - 'UG::Sovereign_State'
+      - UG::South_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'koI(}OyJ:@'
   note.svalbard:
@@ -4831,7 +4831,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-svalbard.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: '5JJ2]i)p4'
   note.sweden:
@@ -4846,9 +4846,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-sweden.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::European_Union'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::European_Union
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'sT5=H|@KU|'
   note.switzerland:
@@ -4863,8 +4863,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-switzerland.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'lU@C3<C8Wk'
   note.syria:
@@ -4879,10 +4879,10 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-syria.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Mediterranean'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Mediterranean
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'e=.VHQ9E+M'
   note.taiwan:
@@ -4897,8 +4897,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-taiwan.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'm[96fa+HDS'
   note.tajikistan:
@@ -4913,8 +4913,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-tajikistan.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'g~%pF`(x{u'
   note.tanzania:
@@ -4929,9 +4929,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-tanzania.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'p:SPZ:e/*['
   note.tasman-sea:
@@ -4961,9 +4961,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-thailand.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Southeast_Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Southeast_Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'hE5j*e,Q?['
   note.the-bahamas:
@@ -4978,9 +4978,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-the_bahamas.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::Caribbean
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'W5?6yQZD2'
   note.the-gambia:
@@ -4995,9 +4995,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-the_gambia.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
-      - 'UG::West_Africa'
+      - UG::Africa
+      - UG::Sovereign_State
+      - UG::West_Africa
     adapter_ids:
       crowdanki:guid: 'f#4-L[mp5*'
   note.timor-leste:
@@ -5012,9 +5012,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-timor-leste.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Southeast_Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Southeast_Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'fRSM{K+;[w'
   note.timor-sea:
@@ -5044,9 +5044,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-togo.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Sovereign_State'
-      - 'UG::West_Africa'
+      - UG::Africa
+      - UG::Sovereign_State
+      - UG::West_Africa
     adapter_ids:
       crowdanki:guid: 't+v9b--,qs'
   note.tonga:
@@ -5061,8 +5061,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-tonga.png" />'
     tags:
-      - 'UG::Oceania'
-      - 'UG::Sovereign_State'
+      - UG::Oceania
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'c^,~EC6Pb2'
   note.transnistria:
@@ -5077,8 +5077,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-transnistria.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'tMMtBUpb$&'
   note.trinidad-and-tobago:
@@ -5093,9 +5093,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-trinidad_and_tobago.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::Caribbean
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 't50y/[AEhF'
   note.tunisia:
@@ -5110,9 +5110,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-tunisia.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::Mediterranean'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::Mediterranean
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'fV`&p81%d('
   note.turkey:
@@ -5127,10 +5127,10 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-turkey.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Mediterranean'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Mediterranean
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'jDA-V?/hVj'
   note.turkmenistan:
@@ -5145,8 +5145,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-turkmenistan.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'u-`cspdp)D'
   note.turks-and-caicos-islands:
@@ -5161,8 +5161,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-turks_and_caicos_islands.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
+      - UG::Caribbean
+      - UG::North_America
     adapter_ids:
       crowdanki:guid: 'q7do-wLx%E'
   note.tuvalu:
@@ -5177,8 +5177,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-tuvalu.png" />'
     tags:
-      - 'UG::Oceania'
-      - 'UG::Sovereign_State'
+      - UG::Oceania
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'de=9c:,@j9'
   note.uganda:
@@ -5193,9 +5193,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-uganda.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'gsS{jR,]|Q'
   note.ukraine:
@@ -5210,8 +5210,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-ukraine.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'h_9=mkZXAH'
   note.united-arab-emirates:
@@ -5226,9 +5226,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-united_arab_emirates.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'o~}KVA:VbI'
   note.united-kingdom:
@@ -5243,8 +5243,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-united_kingdom.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 's9-GL*@AXD'
   note.united-states-of-america:
@@ -5259,8 +5259,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-united_states_of_america.png" />'
     tags:
-      - 'UG::North_America'
-      - 'UG::Sovereign_State'
+      - UG::North_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'b@M[XTc?}5'
   note.united-states-virgin-islands:
@@ -5275,8 +5275,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-united_states_virgin_islands.png" />'
     tags:
-      - 'UG::Caribbean'
-      - 'UG::North_America'
+      - UG::Caribbean
+      - UG::North_America
     adapter_ids:
       crowdanki:guid: 'kE!iKHLN_g'
   note.uruguay:
@@ -5291,8 +5291,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-uruguay.png" />'
     tags:
-      - 'UG::South_America'
-      - 'UG::Sovereign_State'
+      - UG::South_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'e?gIaPc$Ox'
   note.uzbekistan:
@@ -5307,8 +5307,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-uzbekistan.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: mbGXc0y3Pe
   note.vanuatu:
@@ -5323,8 +5323,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-vanuatu.png" />'
     tags:
-      - 'UG::Oceania'
-      - 'UG::Sovereign_State'
+      - UG::Oceania
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'K*b}<I3(~'
   note.vatican-city:
@@ -5339,8 +5339,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-vatican_city.png" />'
     tags:
-      - 'UG::Europe'
-      - 'UG::Sovereign_State'
+      - UG::Europe
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'mk1VltJl<]'
   note.venezuela:
@@ -5355,8 +5355,8 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-venezuela.png" />'
     tags:
-      - 'UG::South_America'
-      - 'UG::Sovereign_State'
+      - UG::South_America
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'o#&RMA_REo'
   note.vietnam:
@@ -5371,9 +5371,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-vietnam.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Southeast_Asia'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Southeast_Asia
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'pD<Pd$Ag@J'
   note.wales:
@@ -5388,7 +5388,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-wales.png" />'
     tags:
-      - 'UG::Europe'
+      - UG::Europe
     adapter_ids:
       crowdanki:guid: 'hNE9}>;Q&-'
   note.wallis-and-futuna:
@@ -5403,7 +5403,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-wallis_and_futuna.png" />'
     tags:
-      - 'UG::Oceania'
+      - UG::Oceania
     adapter_ids:
       crowdanki:guid: 'dbP/Cj}sB+'
   note.white-sea:
@@ -5458,9 +5458,9 @@ notes:
             text: with text
       field.map: '<img src="ug-map-yemen.png" />'
     tags:
-      - 'UG::Asia'
-      - 'UG::Middle_East'
-      - 'UG::Sovereign_State'
+      - UG::Asia
+      - UG::Middle_East
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'e42BpV,P}C'
   note.zambia:
@@ -5475,9 +5475,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-zambia.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'fxAN),FAc$'
   note.zanzibar:
@@ -5492,7 +5492,7 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-zanzibar.png" />'
     tags:
-      - 'UG::Africa'
+      - UG::Africa
     adapter_ids:
       crowdanki:guid: 'gp[h@]y13l'
   note.zimbabwe:
@@ -5507,9 +5507,9 @@ notes:
       field.flag-similarity: ''
       field.map: '<img src="ug-map-zimbabwe.png" />'
     tags:
-      - 'UG::Africa'
-      - 'UG::East_Africa'
-      - 'UG::Sovereign_State'
+      - UG::Africa
+      - UG::East_Africa
+      - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'r<N4LAAnnB'
 media:

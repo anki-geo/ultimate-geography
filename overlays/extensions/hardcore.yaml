@@ -15,8 +15,8 @@ notes:
         field.flag-similarity: ''
         field.map: '<img src="ug-map-bonaire.png" />'
       tags:
-        - 'UG::Caribbean'
-        - 'UG::North_America'
+        - UG::Caribbean
+        - UG::North_America
       adapter_ids:
         crowdanki:guid: '~)7-62ytBX'
   note.british-indian-ocean-territory:
@@ -33,7 +33,7 @@ notes:
         field.flag-similarity: ''
         field.map: '<img src="ug-map-british_indian_ocean_territory.png" />'
       tags:
-        - 'UG::Africa'
+        - UG::Africa
       adapter_ids:
         crowdanki:guid: 'ArmciP%a;a'
   note.ceuta:
@@ -50,7 +50,7 @@ notes:
         field.flag-similarity: ''
         field.map: '<img src="ug-map-ceuta.png" />'
       tags:
-        - 'UG::Europe'
+        - UG::Europe
       adapter_ids:
         crowdanki:guid: 'rHh8*,y.yc'
   note.christmas-island:
@@ -67,8 +67,8 @@ notes:
         field.flag-similarity: ''
         field.map: '<img src="ug-map-christmas_island.png" />'
       tags:
-        - 'UG::Asia'
-        - 'UG::Southeast_Asia'
+        - UG::Asia
+        - UG::Southeast_Asia
       adapter_ids:
         crowdanki:guid: 'k3]]2^DP1R'
   note.cocos-keeling-islands:
@@ -85,8 +85,8 @@ notes:
         field.flag-similarity: ''
         field.map: '<img src="ug-map-cocos_islands.png" />'
       tags:
-        - 'UG::Asia'
-        - 'UG::Southeast_Asia'
+        - UG::Asia
+        - UG::Southeast_Asia
       adapter_ids:
         crowdanki:guid: mvNnHkGnVl
   note.easter-island:
@@ -103,7 +103,7 @@ notes:
         field.flag-similarity: ''
         field.map: '<img src="ug-map-easter_island.png" />'
       tags:
-        - 'UG::Oceania'
+        - UG::Oceania
       adapter_ids:
         crowdanki:guid: 'rNv|0qxR]K'
   note.gal-pagos-islands:
@@ -126,7 +126,7 @@ notes:
               text: slightly lighter blue
         field.map: '<img src="ug-map-galapagos_islands.png" />'
       tags:
-        - 'UG::South_America'
+        - UG::South_America
       adapter_ids:
         crowdanki:guid: 'j=,1:f39$]'
   note.hardcore-american-samoa:
@@ -143,8 +143,8 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Oceania'
-        - 'UG::Overlapping'
+        - UG::Oceania
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'lU*>%[&e|.'
   note.hardcore-anguilla:
@@ -161,9 +161,9 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Caribbean'
-        - 'UG::North_America'
-        - 'UG::Overlapping'
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'cy]sz097{A'
   note.hardcore-azores:
@@ -180,8 +180,8 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Europe'
-        - 'UG::Overlapping'
+        - UG::Europe
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'hz,n^64X%i'
   note.hardcore-bali:
@@ -198,8 +198,8 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Asia'
-        - 'UG::Overlapping'
+        - UG::Asia
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: ',LnVW8IL`'
   note.hardcore-bermuda:
@@ -216,9 +216,9 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Caribbean'
-        - 'UG::North_America'
-        - 'UG::Overlapping'
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'e%!;xc:jxC'
   note.hardcore-british-virgin-islands:
@@ -235,9 +235,9 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Caribbean'
-        - 'UG::North_America'
-        - 'UG::Overlapping'
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: oDGbPPlkzc
   note.hardcore-canary-islands:
@@ -254,8 +254,8 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Africa'
-        - 'UG::Overlapping'
+        - UG::Africa
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'cB]XeL7sC?'
   note.hardcore-cayman-islands:
@@ -272,9 +272,9 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Caribbean'
-        - 'UG::North_America'
-        - 'UG::Overlapping'
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 't8K|Gnw[k$'
   note.hardcore-corsica:
@@ -291,8 +291,8 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Europe'
-        - 'UG::Overlapping'
+        - UG::Europe
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: '2N$NqX&k.'
   note.hardcore-falkland-islands:
@@ -309,8 +309,8 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Overlapping'
-        - 'UG::South_America'
+        - UG::Overlapping
+        - UG::South_America
       adapter_ids:
         crowdanki:guid: 'UkP!tU%r)'
   note.hardcore-french-guiana:
@@ -327,8 +327,8 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Overlapping'
-        - 'UG::South_America'
+        - UG::Overlapping
+        - UG::South_America
       adapter_ids:
         crowdanki:guid: '~F>Y6gVJay'
   note.hardcore-gibraltar:
@@ -345,9 +345,9 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Europe'
-        - 'UG::Mediterranean'
-        - 'UG::Overlapping'
+        - UG::Europe
+        - UG::Mediterranean
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'mHDrx]xo!x'
   note.hardcore-guadeloupe:
@@ -364,9 +364,9 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Caribbean'
-        - 'UG::North_America'
-        - 'UG::Overlapping'
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'r]V9W,sj5i'
   note.hardcore-guernsey:
@@ -383,8 +383,8 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Europe'
-        - 'UG::Overlapping'
+        - UG::Europe
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'n#k%mr&bc-'
   note.hardcore-isle-of-man:
@@ -401,8 +401,8 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Europe'
-        - 'UG::Overlapping'
+        - UG::Europe
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'a_~PL,CWhU'
   note.hardcore-jersey:
@@ -419,8 +419,8 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Europe'
-        - 'UG::Overlapping'
+        - UG::Europe
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'kq:]$sh13['
   note.hardcore-kaliningrad-oblast:
@@ -437,8 +437,8 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Europe'
-        - 'UG::Overlapping'
+        - UG::Europe
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'b&sLa#a&vn'
   note.hardcore-madeira:
@@ -455,8 +455,8 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Europe'
-        - 'UG::Overlapping'
+        - UG::Europe
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'fKTU=+DKl]'
   note.hardcore-martinique:
@@ -473,9 +473,9 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Caribbean'
-        - 'UG::North_America'
-        - 'UG::Overlapping'
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'sxF2<dV=;U'
   note.hardcore-mayotte:
@@ -492,9 +492,9 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Africa'
-        - 'UG::East_Africa'
-        - 'UG::Overlapping'
+        - UG::Africa
+        - UG::East_Africa
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'v2Z)BIAnoM'
   note.hardcore-northern-mariana-islands:
@@ -511,8 +511,8 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Oceania'
-        - 'UG::Overlapping'
+        - UG::Oceania
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'nK;HFcd-1P'
   note.hardcore-r-union:
@@ -529,9 +529,9 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Africa'
-        - 'UG::East_Africa'
-        - 'UG::Overlapping'
+        - UG::Africa
+        - UG::East_Africa
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: t3VhRfcBZs
   note.hardcore-saint-martin:
@@ -548,9 +548,9 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Caribbean'
-        - 'UG::North_America'
-        - 'UG::Overlapping'
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'rbjYQCA<Z.'
   note.hardcore-sardinia:
@@ -567,8 +567,8 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Europe'
-        - 'UG::Overlapping'
+        - UG::Europe
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'h/)!YCH&na'
   note.hardcore-sicily:
@@ -585,8 +585,8 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Europe'
-        - 'UG::Overlapping'
+        - UG::Europe
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'lIEV|(|pPu'
   note.hardcore-sint-maarten:
@@ -603,9 +603,9 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Caribbean'
-        - 'UG::North_America'
-        - 'UG::Overlapping'
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: '~Z$*giAq2R'
   note.hardcore-turks-and-caicos-islands:
@@ -622,9 +622,9 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Caribbean'
-        - 'UG::North_America'
-        - 'UG::Overlapping'
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: ogLVp1-2mC
   note.hardcore-zanzibar:
@@ -641,8 +641,8 @@ notes:
         field.flag-similarity: ''
         field.map: ''
       tags:
-        - 'UG::Africa'
-        - 'UG::Overlapping'
+        - UG::Africa
+        - UG::Overlapping
       adapter_ids:
         crowdanki:guid: 'e1zOyx7^cj'
   note.melilla:
@@ -659,7 +659,7 @@ notes:
         field.flag-similarity: ''
         field.map: '<img src="ug-map-melilla.png" />'
       tags:
-        - 'UG::Europe'
+        - UG::Europe
       adapter_ids:
         crowdanki:guid: 'd~3m`ihA*b'
   note.montserrat:
@@ -676,8 +676,8 @@ notes:
         field.flag-similarity: ''
         field.map: '<img src="ug-map-montserrat.png" />'
       tags:
-        - 'UG::Caribbean'
-        - 'UG::North_America'
+        - UG::Caribbean
+        - UG::North_America
       adapter_ids:
         crowdanki:guid: 'iq7o#n0juD'
   note.mount-athos:
@@ -694,7 +694,7 @@ notes:
         field.flag-similarity: ''
         field.map: '<img src="ug-map-mount_athos.png" />'
       tags:
-        - 'UG::Europe'
+        - UG::Europe
       adapter_ids:
         crowdanki:guid: 'qAsU}ONgC#'
   note.norfolk-island:
@@ -711,7 +711,7 @@ notes:
         field.flag-similarity: ''
         field.map: '<img src="ug-map-norfolk_island.png" />'
       tags:
-        - 'UG::Oceania'
+        - UG::Oceania
       adapter_ids:
         crowdanki:guid: 'nipI.lOoC;'
   note.pitcairn-islands:
@@ -728,7 +728,7 @@ notes:
         field.flag-similarity: ''
         field.map: '<img src="ug-map-pitcairn_islands.png" />'
       tags:
-        - 'UG::Oceania'
+        - UG::Oceania
       adapter_ids:
         crowdanki:guid: 'mCh>s18~IX'
   note.saba:
@@ -745,8 +745,8 @@ notes:
         field.flag-similarity: ''
         field.map: '<img src="ug-map-saba.png" />'
       tags:
-        - 'UG::Caribbean'
-        - 'UG::North_America'
+        - UG::Caribbean
+        - UG::North_America
       adapter_ids:
         crowdanki:guid: 'i;=jdbhl(w'
   note.saint-barth-lemy:
@@ -763,8 +763,8 @@ notes:
         field.flag-similarity: ''
         field.map: '<img src="ug-map-saint_barthelemy.png" />'
       tags:
-        - 'UG::Caribbean'
-        - 'UG::North_America'
+        - UG::Caribbean
+        - UG::North_America
       adapter_ids:
         crowdanki:guid: 'ga97y4Zy0{'
   note.saint-helena:
@@ -781,8 +781,8 @@ notes:
         field.flag-similarity: ''
         field.map: '<img src="ug-map-saint_helena.png" />'
       tags:
-        - 'UG::Africa'
-        - 'UG::West_Africa'
+        - UG::Africa
+        - UG::West_Africa
       adapter_ids:
         crowdanki:guid: 'khTp#J9C!!'
   note.sint-eustatius:
@@ -799,8 +799,8 @@ notes:
         field.flag-similarity: ''
         field.map: '<img src="ug-map-sint_eustatius.png" />'
       tags:
-        - 'UG::Caribbean'
-        - 'UG::North_America'
+        - UG::Caribbean
+        - UG::North_America
       adapter_ids:
         crowdanki:guid: 'r3?J{NB0J3'
   note.tokelau:
@@ -817,7 +817,7 @@ notes:
         field.flag-similarity: ''
         field.map: '<img src="ug-map-tokelau.png" />'
       tags:
-        - 'UG::Oceania'
+        - UG::Oceania
       adapter_ids:
         crowdanki:guid: 'nN<IGBxnX.'
 media:

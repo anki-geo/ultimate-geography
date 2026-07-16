@@ -16,14 +16,9 @@ translations:
     Algeria: Argelia
     Algiers: Argel
     Also known as Burma.: 'También conocida como Myanmar.'
-    Also known as Cabo Verde.: ''
     Also known as Czechia.: 'También conocida como Chequia.'
-    Also known as East Timor.: ''
-    Also known as Kiev.: ''
-    'Also known as Türkiye': ''
     Also known as the Gulf of Siam.: 'También conocido como golfo de Siam.'
     Also known as the Sea of Cortez.: 'También conocido como mar de Cortés.'
-    'Also spelled as Sana''a.': ''
     American Samoa: Samoa Americana
     Amman: 'Amán'
     Amsterdam: 'Ámsterdam'
@@ -253,7 +248,6 @@ translations:
     Official capital was moved from Bujumbura to Gitega in 2019.: 'La capital oficial se cambió de Buyumbura a Guitega en 2019.'
     Official capital was moved from Malabo to Ciudad de la Paz in 2026.: 'La capital oficial se cambió de Malabo a Ciudad de la Paz en 2026.'
     'Officially Côte d''Ivoire.': 'Oficialmente Côte d''Ivoire.'
-    Officially Luxembourg.: ''
     Oman: 'Omán'
     Ouagadougou: 'Uagadugú'
     Overseas department of France.: Departamento de ultramar de Francia.
@@ -655,8 +649,6 @@ translations:
     - Yemen
     - Zagreb
     - Zambia
-  target_additions:
-    notes.note.celebes-sea.fields.field.country-info: 'También conocido como mar de Sulawesi.'
   variables:
     label.capital-hint.answer:
       'Hint: {{Capital hint}}': 'Pista: {{Capital hint}}'
@@ -721,7 +713,7 @@ translations:
       'd-q4J~CNW_': '5?1c-[%F4W'
       'd3c`&/1Y^D': '5#NGm&~Qb]'
       'd5m8%D6,;u': '5%Xglve#^/'
-      'dC:e5G4J/p': '5KvPdycB[*'
+      dC:e5G4J/p: '5KvPdycB[*'
       'dUZ^=SE5BG': '52|EyK(XJ`'
       'dWA49p}F{k': '54#chhJxe$'
       'dY96`C-f(_': '56heGus|:W'
@@ -768,7 +760,7 @@ translations:
       'gG6SWfM>H0': '8Oe@_|:,Pp'
       'gRVZ]qJ#>O': '8Z^|Di-3{d'
       'gYIoR`|AxW': '86,Z?=IsFl'
-      'gePC:Xt_nW': '8m=%vP4<vl'
+      gePC:Xt_nW: '8m=%vP4<vl'
       'gp[h@]y13l': '8xCSB:9T#%'
       'gsS{jR,]|Q': '8A@HUJr:ff'
       'gx:;za!?C9': '8Fvw!]i-Ky'
@@ -992,6 +984,43 @@ translations:
     crowdanki:uuid:
       43c5ba66-9a65-11e8-90c9-a0481cc15658: cb4d32ee-12ed-9960-1841-28c09449ded0
       43e2586a-9a65-11e8-a777-a0481cc15658: 0bacddfd-1e81-4e62-9152-bdff33db0374
+target_adaptations:
+  notes.note.cape-verde.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Cabo Verde.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.celebes-sea.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'También conocido como mar de Sulawesi.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.luxembourg.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Officially Luxembourg.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.timor-leste.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as East Timor.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.turkey.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also known as Türkiye'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.ukraine.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Kiev.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.yemen.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also spelled as Sana''a.'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
 deck:
   name:
     intent: replace

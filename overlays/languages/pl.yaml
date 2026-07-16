@@ -16,14 +16,8 @@ translations:
     Algeria: Algieria
     Algiers: Algier
     Also known as Burma.: 'Znana także jako Birma.'
-    Also known as Cabo Verde.: ''
-    Also known as Czechia.: ''
-    Also known as East Timor.: ''
-    Also known as Kiev.: ''
-    'Also known as Türkiye': ''
     Also known as the Gulf of Siam.: 'Znana także jako Zatoka Syjamska.'
     Also known as the Sea of Cortez.: 'Znana także jako Morze Cortéza.'
-    'Also spelled as Sana''a.': ''
     American Samoa: 'Samoa Amerykańskie'
     Andorra: Andora
     Andorra la Vella: Andora
@@ -269,7 +263,6 @@ translations:
     Official capital was moved from Bujumbura to Gitega in 2019.: 'Oficjalna stolica została przeniesiona z Bużumbury z powrotem do Gitegi w 2019 roku.'
     Official capital was moved from Malabo to Ciudad de la Paz in 2026.: 'Oficjalna stolica została przeniesiona z Malabo do Ciudad de la Paz w 2026 roku.'
     'Officially Côte d''Ivoire.': 'Oficjalnie Côte d’Ivoire.'
-    Officially Luxembourg.: ''
     Ouagadougou: Wagadugu
     Overseas department of France.: Departament zamorski Francji.
     Overseas territory of France.: Terytorium zamorskie Francji.
@@ -655,14 +648,6 @@ translations:
     - Zambia
     - Zanzibar
     - Zimbabwe
-  target_additions:
-    notes.note.arctic-ocean.fields.field.country-info: 'Znany także jako Ocean Północny lub Morze Arktyczne.'
-    notes.note.netherlands.fields.field.country-info: 'Znana także jako Niderlandy.'
-    notes.note.pacific-ocean.fields.field.country-info: 'Znany także jako Pacyfik.'
-    notes.note.sea-of-galilee.fields.field.country-info: 'Znane także jako Jezioro Galilejskie lub Genezaret.'
-    notes.note.south-africa.fields.field.country-info: 'Znana także jako RPA (Republika Południowej Afryki).'
-    notes.note.united-kingdom.fields.field.country-info: 'Znana także jako Zjednoczone Królestwo.'
-    notes.note.united-states-of-america.fields.field.country-info: 'Znane także jako USA.'
   variables:
     label.capital:
       Capital: Stolica
@@ -715,7 +700,7 @@ translations:
       'bd~Ght5tLR': 'oG4Xq?fD~!'
       'bk2ByZIeU+': 'APd:*Sw~Jo'
       'bnEK#)[;qT': 'DP;c*Gso.!'
-      'c(,2{yXI#E': 'm9:dQqYhJ-'
+      'c(,2{yXI#E': m9:dQqYhJ-
       'c,5(mUGzYT': 'rr).TrA1*?'
       'cAlyc~G.y%': cgFhukF/h-
       'cEO^y)Md[G': 'j?gTI%edF-'
@@ -729,7 +714,7 @@ translations:
       'd-q4J~CNW_': 'En5vg+xV2M'
       'd3c`&/1Y^D': 'GMVFQ3%=_`'
       'd5m8%D6,;u': 'tb.s`6ajY!'
-      'dC:e5G4J/p': 'B;L,H^Gdc?'
+      dC:e5G4J/p: 'B;L,H^Gdc?'
       'dUZ^=SE5BG': 'v40(;6p*}'
       'dWA49p}F{k': Jcw/VM6mWA
       'dY96`C-f(_': 'oC1a!U&Wzg'
@@ -776,7 +761,7 @@ translations:
       'gG6SWfM>H0': i0rhYlrB0u
       'gRVZ]qJ#>O': 'KBG*PF:x]!'
       'gYIoR`|AxW': 'Dx=^!Ay8w)'
-      'gePC:Xt_nW': 'qN4y}IRxo9'
+      gePC:Xt_nW: 'qN4y}IRxo9'
       'gp[h@]y13l': vaqxA_9kBR
       'gsS{jR,]|Q': 'erWr`a8I.'
       'gx:;za!?C9': 'yTe`BA-t|0'
@@ -891,7 +876,7 @@ translations:
       'n{{o2K1:dw': 'e`G_.zMu{b'
       'o#&RMA_REo': 'B8M2AVg!-$'
       'o3VS!KWb/@': 'lIU.{,At0:'
-      'o9{x<AyA]B': 'K-uAcOB/:4'
+      'o9{x<AyA]B': K-uAcOB/:4
       'o=,%hU&yX%': 'IPxKm2F%q:'
       'oNpApS<AoJ': 't@kS,bQx(p'
       oV/JG7fwZq: 'AV[k3U!i[I'
@@ -993,9 +978,87 @@ translations:
       'wa>{k!2cXc': 'JE12$)9ER@'
       x2d4n4ADcP: 'F&7yB5tW/w'
       'xb&P*pH(Q': 'Q*1]Cvu?#a'
-      'xqrJ^d[.(O': 'EezTS:.:Ou'
+      'xqrJ^d[.(O': EezTS:.:Ou
       'yX:tmrd5;]': 'L4WiVp>Un|'
       'z:*d{z(~V2': 'kBb;v^=11('
       'zSc]-^U=0=': 'O?:STIyrxP'
     crowdanki:uuid:
       43e2586a-9a65-11e8-a777-a0481cc15658: 84786477-e28a-490e-958d-7b35946d7b11
+target_adaptations:
+  notes.note.arctic-ocean.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Znany także jako Ocean Północny lub Morze Arktyczne.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.cape-verde.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Cabo Verde.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.czech-republic.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Czechia.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.luxembourg.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Officially Luxembourg.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.netherlands.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Znana także jako Niderlandy.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.pacific-ocean.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Znany także jako Pacyfik.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.sea-of-galilee.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Znane także jako Jezioro Galilejskie lub Genezaret.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.south-africa.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Znana także jako RPA (Republika Południowej Afryki).'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.timor-leste.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as East Timor.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.turkey.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also known as Türkiye'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.ukraine.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Kiev.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.united-kingdom.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Znana także jako Zjednoczone Królestwo.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.united-states-of-america.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Znane także jako USA.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.yemen.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also spelled as Sana''a.'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'

@@ -2,7 +2,6 @@ id: overlay.translation.zh-tw
 kind: translation
 translations:
   direct:
-    'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.': ''
     Abkhazia: '阿布哈茲共和國 (Abkhazia)'
     Abu Dhabi: '阿布達比 (Abu Dhabi)'
     Abuja: '阿布加 (Abuja)'
@@ -18,15 +17,8 @@ translations:
     Algeria: '阿爾巴尼亞 (Algeria)'
     Algiers: '阿爾及爾 (Algiers)'
     Alofi: '阿洛非 (Alofi)'
-    Also known as Burma.: ''
-    Also known as Cabo Verde.: ''
-    Also known as Czechia.: ''
-    Also known as East Timor.: ''
     Also known as Kiev.: '又稱為基輔。'
-    'Also known as Türkiye': ''
-    Also known as the Gulf of Siam.: ''
     Also known as the Sea of Cortez.: '又稱科爾特斯海。'
-    'Also spelled as Sana''a.': ''
     American Samoa: '美屬薩摩亞 (American Samoa)'
     Amman: '安曼 (Amman)'
     Amsterdam: '阿姆斯特丹 (Amsterdam)'
@@ -280,7 +272,6 @@ translations:
     Kinshasa: '金夏沙 (Kinshasa)'
     Kiribati: '吉里巴斯 (Kiribati)'
     Known as Nur-Sultan between 2019 and 2022: '2019年至2022年間稱為Nur-Sultan'
-    Known as Swaziland until 2018.: ''
     Kosovo: '科索沃 (Kosovo)'
     Kuala Lumpur: '吉隆坡 (Kuala Lumpur)'
     Kuwait: '科威特 (Kuwait)'
@@ -389,7 +380,6 @@ translations:
     Official capital was moved from Bujumbura to Gitega in 2019.: '2019年正式從布瓊布拉遷都到基特加。'
     Official capital was moved from Malabo to Ciudad de la Paz in 2026.: '2026年官方首都从马拉博迁至拉巴斯城。'
     'Officially Côte d''Ivoire.': '正式名: cote d''ivoire。'
-    Officially Luxembourg.: ''
     Oman: '阿曼王國 (Oman)'
     Oranjestad: '奧拉涅斯塔德 (Oranjestad)'
     Oslo: '奧斯陸 (Oslo)'
@@ -774,8 +764,6 @@ translations:
         Egypt: '埃及'
       yemen.fields.field.flag-similarity.message.variables.country_2:
         Iraq: '伊拉克'
-  target_additions:
-    notes.note.kiribati.fields.field.capital-info: '拉巴斯正在建造來取代馬拉波成為首都。'
   variables:
     label.capital:
       Capital: '首都'
@@ -842,7 +830,7 @@ translations:
       'd-q4J~CNW_': 'mcx~q)C#fp'
       'd3c`&/1Y^D': 'oM_cUhpXs+'
       'd5m8%D6,;u': 'f=0lxUc!hI'
-      'dC:e5G4J/p': 'B)e_x[4X4P'
+      dC:e5G4J/p: 'B)e_x[4X4P'
       'dUZ^=SE5BG': 'd5MCU2l,|S'
       'dWA49p}F{k': 'mLzNfCesY['
       'dY96`C-f(_': 'wc`HJI6~,]'
@@ -870,7 +858,7 @@ translations:
       'euW0jm=wfR': 'A-#|rzmH_H'
       'e{e8vi@^PY': 'O@9XZJX</+'
       'f#4-L[mp5*': 'h+lSRRJ#D'
-      'f*2@qiHh_1': 'LwE:P,P98X'
+      'f*2@qiHh_1': LwE:P,P98X
       'f*LO~>!0PN': c.ecIN49mi
       'f21=-A~W;~': 'FiNf!6B`-A'
       'f>c7x2E]Q6': 'm5V-SM=<@2'
@@ -889,7 +877,7 @@ translations:
       'gG6SWfM>H0': 'NLqA4ocW^('
       'gRVZ]qJ#>O': 'b=f8dwxf6,'
       'gYIoR`|AxW': 'F%ZvaD~rn$'
-      'gePC:Xt_nW': 'dH5->JA4?,'
+      gePC:Xt_nW: 'dH5->JA4?,'
       'gp[h@]y13l': 'gj79~OV>hd'
       'gsS{jR,]|Q': 'EGG=`g;_2a'
       'gx:;za!?C9': 'xy{u)[Y5T.'
@@ -989,7 +977,7 @@ translations:
       'mk1VltJl<]': hoD/2dfvqx
       'mk20`,N=`=': 'uG9NEoHA_;'
       'mkgcU7[bA%': 'c^8$Lj5E?5'
-      'mq)8`hi{hb': 'z:Rh_xOA1G'
+      'mq)8`hi{hb': z:Rh_xOA1G
       'mtd;>7T|g>': 'Q<u0hiTYxM'
       'mz[>>AxIr4': 'gasQ]L`h5j'
       'm{noqE29%I': 'F.<0drjn&]'
@@ -1068,7 +1056,7 @@ translations:
       'sxOMs+bE8@': 'I$=}<6%^YZ'
       'sx|l+io`B@': 'AZ}#k|<N|v'
       's|K&2S,UP|': 'QZ*<~wF)nZ'
-      't$y1C2R-Av': 't.tq:p5XWk'
+      't$y1C2R-Av': t.tq:p5XWk
       't+v9b--,qs': 'tH(e$64`Pn'
       't-0>F]bu>P': 'Enj/0}MeE0'
       't2&ri|[Un:': 'ufqRE1R}N|'
@@ -1095,7 +1083,7 @@ translations:
       'u|I}oElaH)': 'K^{=PMLj&`'
       'vE[T$`n9T)': 'h3jZfpL|`9'
       'vKx<0Qa!aP': 'BEF$8wbVr:'
-      'vNiD6A.v#s': 'qOdNh:f:iF'
+      'vNiD6A.v#s': qOdNh:f:iF
       'va/ky=f5pK': 'kS{CQ@,$y|'
       'vf)G?[_?Pf': 'DOhb!^w01('
       'vgdj#X?8dB': 'c[b7Gzotv2'
@@ -1113,6 +1101,63 @@ translations:
     crowdanki:uuid:
       43c5ba66-9a65-11e8-90c9-a0481cc15658: 3d365148-83a7-4b53-8dbc-e3b183524025
       43e2586a-9a65-11e8-a777-a0481cc15658: d75ad494-71f3-4909-beda-b80ec04c7a0d
+target_adaptations:
+  notes.note.cape-verde.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Cabo Verde.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.czech-republic.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Czechia.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.eswatini.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Known as Swaziland until 2018.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.gulf-of-thailand.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as the Gulf of Siam.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.kiribati.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: '拉巴斯正在建造來取代馬拉波成為首都。'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.luxembourg.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Officially Luxembourg.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.myanmar.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Burma.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.sea-of-japan.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.timor-leste.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as East Timor.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.turkey.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also known as Türkiye'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.yemen.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also spelled as Sana''a.'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
 deck:
   name:
     intent: replace

@@ -14,13 +14,9 @@ translations:
     Algiers: Algier
     Also known as Burma.: Auch Birma oder Burma.
     Also known as Cabo Verde.: Auch Cabo Verde.
-    Also known as Czechia.: ''
     Also known as East Timor.: Auch Timor-Leste.
-    Also known as Kiev.: ''
-    'Also known as Türkiye': ''
     Also known as the Gulf of Siam.: Auch Golf von Siam.
     Also known as the Sea of Cortez.: 'Auch Cortés-See.'
-    'Also spelled as Sana''a.': ''
     American Samoa: Amerikanisch-Samoa
     Antarctica: Antarktis
     Antigua and Barbuda: Antigua und Barbuda
@@ -215,7 +211,6 @@ translations:
     Official capital was moved from Bujumbura to Gitega in 2019.: Die offizielle Hauptstadt wurde 2019 von Bujumbura nach Gitega verlegt.
     Official capital was moved from Malabo to Ciudad de la Paz in 2026.: Die offizielle Hauptstadt wurde 2026 von Malabo nach Ciudad de la Paz verlegt.
     'Officially Côte d''Ivoire.': 'Offiziell Côte d''Ivoire.'
-    Officially Luxembourg.: ''
     Overseas department of France.: 'Übersee-Département Frankreichs.'
     Overseas territory of France.: 'Französisches Überseegebiet.'
     Pacific Ocean: Pazifischer Ozean
@@ -679,24 +674,6 @@ translations:
     - 'Yaoundé'
     - Yaren
     - Zagreb
-  target_additions:
-    notes.note.aegean-sea.fields.field.country-info: 'Auch Ägäis.'
-    notes.note.arctic-ocean.fields.field.country-info: 'Auch Nordpolarmeer, nördliches Eismeer, Arktische See oder Arktik.'
-    notes.note.atlantic-ocean.fields.field.country-info: Auch Atlantik.
-    notes.note.balkan-peninsula.fields.field.country-info: Auch Balkan.
-    notes.note.baltic-sea.fields.field.country-info: Auch Baltisches Meer.
-    notes.note.bay-of-biscay.fields.field.country-info: Auch Golf von Biskaya.
-    notes.note.belarus.fields.field.country-info: 'Auch Weißrussland.'
-    notes.note.burkina-faso.fields.field.capital-info: Auch Wagadugu.
-    notes.note.caspian-sea.fields.field.country-info: Auch Kaspisee.
-    notes.note.celebes-sea.fields.field.country-info: Auch Sulawesisee.
-    notes.note.moldova.fields.field.country-info: Auch Moldawien.
-    notes.note.norwegian-sea.fields.field.country-info: Auch Norwegische See oder Norwegisches Meer.
-    notes.note.pacific-ocean.fields.field.country-info: Auch Pazifik.
-    notes.note.persian-gulf.fields.field.country-info: Auch Arabischer Golf.
-    notes.note.solomon-islands.fields.field.country-info: Auch Salomoninseln.
-    notes.note.suriname.fields.field.country-info: Auch Surinam.
-    notes.note.white-sea.fields.field.country-info: 'Auch Weißmeer.'
   variables:
     label.capital:
       Capital: Hauptstadt
@@ -763,7 +740,7 @@ translations:
       'd-q4J~CNW_': '6t2d.]&G`X'
       'd3c`&/1Y^D': '6cOHn(aRF^'
       'd5m8%D6,;u': '6eYhmwf$x:'
-      'dC:e5G4J/p': '6&wQezdCv+'
+      dC:e5G4J/p: '6&wQezdCv+'
       'dUZ^=SE5BG': '6^}FzL)Y%{'
       'dWA49p}F{k': '6`$diiKyI%'
       'dY96`C-f(_': '6|ifHvt}oX'
@@ -772,7 +749,7 @@ translations:
       'de=9c:,@j9': '6QziO)s/Vz'
       'dlU7VG|3Gd': '6X^g_zJW+6'
       'd}R:qHj1,7': '6K@w2AVUsx'
-      'e!KSebP}pt': 'M:N/9q9_rl'
+      'e!KSebP}pt': M:N/9q9_rl
       'e+/O]%*qfk': '7rv=E6qjR%'
       'e.t$Vi5,>f': '7u5l_be$A8'
       'e42BpV,P}C': '7db%1OsIK]'
@@ -790,7 +767,7 @@ translations:
       'epvt3>HH?U': 7175c-,ABk
       'euW0jm=wfR': '76`~VfzpRh'
       'e{e8vi@^PY': '7IQh7bC<>o'
-      'f#4-L[mp5*': '8kdt::YieH'
+      'f#4-L[mp5*': 8kdt::YieH
       'f*2@qiHh_1': 8qbC2b,aGr
       'f*LO~>!0PN': '8q:=L-jT>d'
       'f21=-A~W;~': 8bazttLPx2
@@ -810,7 +787,7 @@ translations:
       'gG6SWfM>H0': '9+f[`};-,q'
       'gRVZ]qJ#>O': '9@_}Ej.4Ae'
       'gYIoR`|AxW': '9|-0@>Jt9m'
-      'gePC:Xt_nW': '9Q>&wQ5=Zm'
+      gePC:Xt_nW: '9Q>&wQ5=Zm'
       'gp[h@]y13l': '91DTC;!Uc&'
       'gsS{jR,]|Q': '94[IVKs;Jg'
       'gx:;za!?C9': '99wx#^j.&z'
@@ -1033,3 +1010,131 @@ translations:
       'zSc]-^U=0=': '?[OEt<^,~Q'
     crowdanki:uuid:
       43e2586a-9a65-11e8-a777-a0481cc15658: cb3de16f-7c9c-4944-994a-e17ec2018c28
+target_adaptations:
+  notes.note.aegean-sea.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Auch Ägäis.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.arctic-ocean.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Auch Nordpolarmeer, nördliches Eismeer, Arktische See oder Arktik.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.atlantic-ocean.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Auch Atlantik.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.balkan-peninsula.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Auch Balkan.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.baltic-sea.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Auch Baltisches Meer.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.bay-of-biscay.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Auch Golf von Biskaya.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.belarus.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Auch Weißrussland.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.burkina-faso.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Auch Wagadugu.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.caspian-sea.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Auch Kaspisee.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.celebes-sea.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Auch Sulawesisee.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.czech-republic.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Czechia.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.luxembourg.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Officially Luxembourg.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.moldova.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Auch Moldawien.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.norwegian-sea.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Auch Norwegische See oder Norwegisches Meer.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.pacific-ocean.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Auch Pazifik.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.persian-gulf.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Auch Arabischer Golf.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.solomon-islands.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Auch Salomoninseln.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.suriname.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Auch Surinam.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.turkey.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also known as Türkiye'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.ukraine.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Kiev.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.white-sea.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Auch Weißmeer.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.yemen.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also spelled as Sana''a.'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'

@@ -13,14 +13,9 @@ translations:
     Algeria: Algeriet
     Algiers: Alger
     Also known as Burma.: 'Även känt som Burma.'
-    Also known as Cabo Verde.: ''
-    Also known as Czechia.: ''
     Also known as East Timor.: 'Även känt som Timor-Leste.'
-    Also known as Kiev.: ''
-    'Also known as Türkiye': ''
     Also known as the Gulf of Siam.: 'Även känd som Siambukten.'
     Also known as the Sea of Cortez.: 'Även känt som Cortez hav.'
-    'Also spelled as Sana''a.': ''
     American Samoa: Amerikanska Samoa
     Antarctica: Antarktis
     Antigua and Barbuda: Antigua och Barbuda
@@ -199,8 +194,6 @@ translations:
     Oceania: Oceanien
     Official capital was moved from Bujumbura to Gitega in 2019.: 'Tidigare känt som Kitega; flyttat från Bujumbura i slutet av 2018.'
     Official capital was moved from Malabo to Ciudad de la Paz in 2026.: 'Flyttat från Malabo i 2026.'
-    'Officially Côte d''Ivoire.': ''
-    Officially Luxembourg.: ''
     Pacific Ocean: Stilla havet
     Palestine: Palestina
     Papua New Guinea: Papua Nya Guinea
@@ -697,22 +690,6 @@ translations:
     - Zambia
     - Zanzibar
     - Zimbabwe
-  target_additions:
-    notes.note.arabian-sea.fields.field.country-info: 'Även känt som Arabiska sjön.'
-    notes.note.bahrain.fields.field.country-info: Stavas alternativt Bahrein.
-    notes.note.balkan-peninsula.fields.field.country-info: 'Även känt som Balkan.'
-    notes.note.belarus.fields.field.country-info: 'Även känt som Vitryssland.'
-    notes.note.federated-states-of-micronesia.fields.field.country-info: 'Även känt som Mikronesiska federationen.'
-    notes.note.mongolia.fields.field.capital-info: 'Stavas även Ulaanbaatar.'
-    notes.note.myanmar.fields.field.capital-info: 'Stavas även Nay Pyi Taw.'
-    notes.note.persian-gulf.fields.field.country-info: 'Även känd som Iranska viken.'
-    notes.note.qatar.fields.field.country-info: Stavas alternativt Katar.
-    notes.note.republic-of-the-congo.fields.field.country-info: Formellt Republiken Kongo.
-    notes.note.sea-of-galilee.fields.field.country-info: 'Även känd som Galileiska sjön och Tiberiassjön.'
-    notes.note.united-kingdom.fields.field.country-info: 'Formellt Förenade kungariket.'
-    notes.note.united-states-of-america.fields.field.country-info: 'Formellt Amerikas förenta stater, även känt som Förenta staterna.'
-    notes.note.yellow-sea.fields.field.country-info: 'Kallas Västhavet i Nord- och Sydkorea.'
-    notes.note.yemen.fields.field.country-info: Stavas alternativt Yemen.
   variables:
     label.capital:
       Capital: Huvudstad
@@ -779,7 +756,7 @@ translations:
       'd-q4J~CNW_': 'f?dUt&>$PS'
       'd3c`&/1Y^D': 'y!.rR1N]Q%'
       'd5m8%D6,;u': 't!YaMvtxM)'
-      'dC:e5G4J/p': 'iZ`BoOu7TH'
+      dC:e5G4J/p: 'iZ`BoOu7TH'
       'dUZ^=SE5BG': '^(x:orV#n'
       'dWA49p}F{k': 'O%#xYWz^#M'
       'dY96`C-f(_': KUSv4_ZftC
@@ -803,7 +780,7 @@ translations:
       'eN#^kPGv*L': 'sE1}%6$3D9'
       'eT<gzg?q,r': 'gum46?fIJ@'
       'e_;dzXj8de': 'sB,_Fhn5&I'
-      'epvt3>HH?U': 'iWh/XzA:Fx'
+      'epvt3>HH?U': iWh/XzA:Fx
       'euW0jm=wfR': 'F5Fbm]10e3'
       'e{e8vi@^PY': 'O8La>q*+=D'
       'f#4-L[mp5*': 'nh!${YsPie'
@@ -820,13 +797,13 @@ translations:
       'g9v~y/;=z(': caoMw/l6Qq
       'g<[f89~U)A': 'eRztGZ?5gt'
       'gBCR?!O*;E': 'wY{he1D;Tc'
-      'gB|K:+r?1V': 'ncoVNK:5c/'
+      'gB|K:+r?1V': ncoVNK:5c/
       'gDsLPj(9S#': 'EykZ%2$zVY'
       'gFOojQO(MH': 'n$t4JTV.L['
       'gG6SWfM>H0': 'c3_S$ge,H%'
       'gRVZ]qJ#>O': 'ywSb;Oor?l'
       'gYIoR`|AxW': 'm9{}Vj*h)B'
-      'gePC:Xt_nW': 'we!,qZc~VX'
+      gePC:Xt_nW: 'we!,qZc~VX'
       'gp[h@]y13l': 'o6Q=4QRc:P'
       'gsS{jR,]|Q': 'DnUNQy>V@c'
       'gx:;za!?C9': 'O6XK(yEdjN'
@@ -1050,6 +1027,132 @@ translations:
     crowdanki:uuid:
       43c5ba66-9a65-11e8-90c9-a0481cc15658: 75bfcdb5-0ff3-4038-83cb-3e6ed974f439
       43e2586a-9a65-11e8-a777-a0481cc15658: 3090ce89-5fd8-4107-86df-3e7a74ec288f
+target_adaptations:
+  notes.note.arabian-sea.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Även känt som Arabiska sjön.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.bahrain.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Stavas alternativt Bahrein.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.balkan-peninsula.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Även känt som Balkan.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.belarus.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Även känt som Vitryssland.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.cape-verde.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Cabo Verde.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.czech-republic.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Czechia.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.federated-states-of-micronesia.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Även känt som Mikronesiska federationen.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.ivory-coast.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Officially Côte d''Ivoire.'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.luxembourg.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Officially Luxembourg.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.mongolia.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Stavas även Ulaanbaatar.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.myanmar.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Stavas även Nay Pyi Taw.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.persian-gulf.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Även känd som Iranska viken.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.qatar.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Stavas alternativt Katar.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.republic-of-the-congo.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Formellt Republiken Kongo.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.sea-of-galilee.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Även känd som Galileiska sjön och Tiberiassjön.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.turkey.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also known as Türkiye'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.ukraine.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Kiev.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.united-kingdom.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Formellt Förenade kungariket.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.united-states-of-america.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Formellt Amerikas förenta stater, även känt som Förenta staterna.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.yellow-sea.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Kallas Västhavet i Nord- och Sydkorea.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.yemen.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also spelled as Sana''a.'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.yemen.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: Stavas alternativt Yemen.
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
 deck:
   name:
     intent: replace
