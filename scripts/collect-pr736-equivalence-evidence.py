@@ -120,6 +120,81 @@ EXPECTED_HARDCORE_FIELD_DELTAS = {
         }
     ),
 }
+
+# Audited learner-visible corrections made after the output-preserving PR #736
+# migration. The target is part of the identity: the three German UG tuples
+# are repeated explicitly for the standalone target, while companion Hardcore
+# remains governed by EXPECTED_HARDCORE_FIELD_DELTAS above.
+FOLLOWUP_TRANSLATION_FIELD_DELTAS = frozenset(
+    {
+        (
+            "de-hardcore-standard",
+            "%T%LofF/}v",
+            3,
+            "Sucre ist die offizielle Hauptstadt, aber La Paz ist der Regierungssitz.",
+            "Sucre ist die verfassungsmäßige Hauptstadt, aber La Paz ist der Regierungssitz.",
+        ),
+        (
+            "de-hardcore-standard",
+            "5$X!O]+&!D",
+            1,
+            "Teilweise anerkannter Staat, von Marokko beansprucht.",
+            "Teilweise anerkannter Staat, von Marokko beansprucht. Auch als Westsahara bekannt.",
+        ),
+        (
+            "de-hardcore-standard",
+            "7e>q(4-?YZ",
+            3,
+            "Mbabane ist die offizielle Haupstadt, aber Lobamba ist die traditionelle Haupstadt und Sitz des nationalen Parlaments.",
+            "Mbabane ist die offizielle Exekutivhauptstadt, aber Lobamba ist die traditionelle, spirituelle und legislative Hauptstadt.",
+        ),
+        (
+            "de-standard",
+            "%T%LofF/}v",
+            3,
+            "Sucre ist die offizielle Hauptstadt, aber La Paz ist der Regierungssitz.",
+            "Sucre ist die verfassungsmäßige Hauptstadt, aber La Paz ist der Regierungssitz.",
+        ),
+        (
+            "de-standard",
+            "5$X!O]+&!D",
+            1,
+            "Teilweise anerkannter Staat, von Marokko beansprucht.",
+            "Teilweise anerkannter Staat, von Marokko beansprucht. Auch als Westsahara bekannt.",
+        ),
+        (
+            "de-standard",
+            "7e>q(4-?YZ",
+            3,
+            "Mbabane ist die offizielle Haupstadt, aber Lobamba ist die traditionelle Haupstadt und Sitz des nationalen Parlaments.",
+            "Mbabane ist die offizielle Exekutivhauptstadt, aber Lobamba ist die traditionelle, spirituelle und legislative Hauptstadt.",
+        ),
+        (
+            "he-standard",
+            "J]?Pq5R()a",
+            1,
+            "תת-אזור של אוקיאניה הכולל אלפי איים קטנים בצפון-מערב האוקיינוס השקט.",
+            "תת-אזור של אוקיאניה הכולל אלפי איים קטנים במערב האוקיינוס השקט.",
+        ),
+        ("zh-standard", "D`cK5{Bf(v", 1, "英国属地之一。", "英国的构成国。"),
+        ("zh-standard", "GQLh_H^La#", 0, "多米尼加(Dominica)", "多米尼克(Dominica)"),
+        (
+            "zh-standard",
+            "K;bT|9JN(q",
+            1,
+            "包括澳大利亚大陆(Australian continent)和太平洋(Pacific Ocean)大部分岛屿的世界大洲。",
+            "包括澳大利亚大陆(Australian continent)和太平洋(Pacific Ocean)大部分岛屿的世界区域。",
+        ),
+        ("zh-standard", "Nwl0,aw[|b", 1, "英国属地之一。", "英国的构成国。"),
+        ("zh-standard", "bY]b2xX@do", 1, "荷兰(Netherlands)的一部分。", "荷兰王国的构成国。"),
+        ("zh-standard", "cT*U%JzhoF", 1, "英国属地之一。", "英国的构成国。"),
+        ("zh-standard", "gA!f|vb<.t", 1, "荷兰(Netherlands)的一部分。", "荷兰王国的构成国。"),
+        ("zh-standard", "p@-D*C4Kbm", 1, "丹麦属地之一。", "丹麦王国的构成国。"),
+        ("zh-standard", "s~>jc!QM+^", 1, "英国属地之一。", "英国的构成国。"),
+        ("zh-standard", "yOxL^*11zC", 1, "丹麦属地之一。", "丹麦王国的构成国。"),
+        ("zh-standard", "zA3)&;T.So", 1, "荷兰(Netherlands)的一部分。", "荷兰王国的构成国。"),
+    }
+)
 PR733_MEDIA = (
     "_ug-interactive_map_config.js",
     "_ug-interactive_map_init.js",
@@ -585,6 +660,35 @@ def require_expected_hardcore_field_deltas(language: str, comparison: dict[str, 
     require(actual == expected, f"{target}: Hardcore field deltas differ: expected {expected!r}, got {actual!r}")
 
 
+def require_expected_followup_translation_deltas(target: str, comparison: dict[str, object]) -> None:
+    actual = frozenset(
+        (target, guid, index, before, after)
+        for guid, changes in comparison["field_diffs"]
+        for index, before, after in changes
+    )
+    expected = frozenset(row for row in FOLLOWUP_TRANSLATION_FIELD_DELTAS if row[0] == target)
+    require(
+        actual == expected,
+        f"{target}: follow-up translation deltas differ: expected {expected!r}, got {actual!r}",
+    )
+
+
+def verify_followup_translation_allowlist_negative_probe() -> None:
+    target = "de-standard"
+    expected = sorted(row for row in FOLLOWUP_TRANSLATION_FIELD_DELTAS if row[0] == target)
+    substituted = []
+    for position, (_, guid, index, before, after) in enumerate(expected):
+        if position == 0:
+            after += " [count-preserving negative probe]"
+        substituted.append((guid, [(index, before, after)]))
+    probe = {"field_diffs": substituted}
+    try:
+        require_expected_followup_translation_deltas(target, probe)
+    except EvidenceError:
+        return
+    raise EvidenceError("follow-up translation exact-tuple negative probe unexpectedly passed")
+
+
 def directory_media_hashes(deck: dict, output: Path) -> dict[str, str]:
     declared = deck.get("media_files", [])
     require(len(declared) == len(set(declared)), f"duplicate media filename under {output}")
@@ -697,7 +801,7 @@ def compare_ug_target(spec: TargetSpec, old_output: Path, new_output: Path) -> d
     model = compare_ug_model(old["note_models"][0], new["note_models"][0], spec.language, spec.target)
     notes = compare_note_payloads(old, new)
     require(not notes["old_only"] and not notes["new_only"], f"{spec.target}: GUID set changed")
-    require(not notes["field_diffs"], f"{spec.target}: note field values/order changed")
+    require_expected_followup_translation_deltas(spec.target, notes)
     require(notes["tag_membership_changes"] == 0, f"{spec.target}: tag membership changed")
     require(notes["other_changes"] == [], f"{spec.target}: note metadata changed")
     require(notes["model_uuid_changes"] == 0, f"{spec.target}: note model assignment changed")
@@ -829,7 +933,7 @@ def compare_standalone_target(
     old_ug_view = dict(old_ug)
     old_ug_view["notes"] = [ug_notes[guid] for guid in sorted(ug_notes)]
     ug_comparison = compare_note_payloads(old_ug_view, ug_view)
-    require(not ug_comparison["field_diffs"], f"{spec.target}: ordinary UG fields changed in standalone")
+    require_expected_followup_translation_deltas(spec.target, ug_comparison)
     require(ug_comparison["tag_membership_changes"] == 0, f"{spec.target}: ordinary UG tags changed in standalone")
     require(ug_comparison["other_changes"] == [], f"{spec.target}: ordinary UG note metadata changed in standalone")
     require(ug_comparison["model_uuid_changes"] == 0, f"{spec.target}: ordinary UG model assignment changed in standalone")
@@ -933,6 +1037,10 @@ def write_report(
             template += "; localized capital-hint label falls back to English"
         if result["model"]["pr733_links"]:
             template += "; explicit jsVectorMap stylesheet link"
+        followup_count = sum(1 for row in FOLLOWUP_TRANSLATION_FIELD_DELTAS if row[0] == spec.target)
+        note_surface = "exact by GUID/field order/tag set"
+        if followup_count:
+            note_surface += f" except {followup_count} exact audited translation correction tuple(s)"
         surface_rows.append(
             [
                 spec.target,
@@ -940,7 +1048,7 @@ def write_report(
                 "exact",
                 schema,
                 template,
-                "exact by GUID/field order/tag set",
+                note_surface,
                 "exact current-count refresh",
                 "exact names + SHA-256",
             ]
@@ -991,6 +1099,7 @@ def write_report(
                 result["classification"],
             ]
         )
+        followup_count = sum(1 for row in FOLLOWUP_TRANSLATION_FIELD_DELTAS if row[0] == spec.target)
         surface_rows.append(
             [
                 spec.target,
@@ -998,8 +1107,8 @@ def write_report(
                 "immutable UG localized model identity",
                 "UG field order/config; RTL represented in CSS",
                 "current UG direction/card surface; known hint debt where applicable",
-                f"{ug_notes['old_count']} UG exact + {hg_notes['old_count']} HG GUIDs; "
-                f"{len(hg_notes['field_diffs'])} classified HG refresh(es); tag membership exact",
+                f"{ug_notes['old_count']} UG GUIDs with {followup_count} exact audited translation correction tuple(s) + "
+                f"{hg_notes['old_count']} HG GUIDs; {len(hg_notes['field_diffs'])} classified HG refresh(es); tag membership exact",
                 "exact current-count refresh of immutable UG description",
                 "byte-exact collision-free union",
             ]
@@ -1027,6 +1136,11 @@ def write_report(
             hint_rows.append(
                 [result["spec"].target, inline_code(before.strip()), inline_code(after.strip())]
             )
+
+    followup_rows = [
+        [target, inline_code(guid), str(index), inline_code(before), inline_code(after)]
+        for target, guid, index, before, after in sorted(FOLLOWUP_TRANSLATION_FIELD_DELTAS)
+    ]
 
     alignment_rows = [
         [
@@ -1163,6 +1277,14 @@ The revision-bound Hardcore repository is stale relative to the immutable UG bas
 
 The strict English/German historical companion and standalone pairs have identical payloads for the same {standalone_reference['hg_notes']['old_count']} meaningful Hardcore GUIDs while retaining distinct deck identities and exact note-model surfaces. They preserve exact tag membership (including `UG::Overlapping`), and all {len(next(result for result in companion_results if result['spec'].language == 'en')['media'])} Hardcore media filenames/bytes. Standalone media is the exact {len(standalone_reference['media'])}-file union of {len(next(result for result in ug_results if result['spec'].target == 'en-standard')['media'])} UG and {len(next(result for result in companion_results if result['spec'].language == 'en')['media'])} Hardcore assets. The separate current-composition invariant above enforces the corresponding payload/model/identity relationship for every localized language.
 
+## Follow-up audited translation corrections
+
+This section is deliberately separate from the output-preserving PR #736 migration classifications. A conservative direct-translation audit subsequently corrected 73 definite target-content bugs while retaining the accepted English source. Only corrections reached by the representative German, Hebrew, and Simplified Chinese historical targets appear below. The comparator requires the exact `(target, GUID, field index, old value, new value)` set; German tuples are repeated explicitly for the standalone target. No tuple applies to companion Hardcore output.
+
+{markdown_table(['Target', 'GUID', 'Field index', 'Historical value', 'Audited value'], followup_rows)}
+
+The collector runs an in-process negative probe that changes the new value of one `de-standard` tuple without changing the tuple count. Exact-set validation must raise `EvidenceError`; collector startup fails if that substituted tuple is accepted. All prior GUID, note-count/blank, tag, model/schema/template/CSS, deck identity/description/configuration, and media filename/SHA-256 guards remain independent and unchanged.
+
 ## Committed parsed-JSON goldens
 
 Historical evidence answers “did the migration preserve/classify the old output?” Goldens independently answer “did a later change alter the accepted migration output?” Normal `verify --all-targets` checks these eight full parsed CrowdAnki JSON files with no allowlist:
@@ -1187,7 +1309,7 @@ A disposable edit of `goldens/en-standard/deck.json` changed `$.name`; verificat
 
 ## Assessment
 
-Strict native verification covers all 74 main plus 26 companion targets; CI also transactionally exports all 100. The representative historical classes cover source, translation, RTL, CJK, Extended, Experimental, standalone Hardcore, and companion Hardcore, while the separate current-composition invariant covers every localized Hardcore pair. No unknown raw-note/blank artifact, GUID, note-field, tag-membership, deck identity, configuration, description, schema, template/CSS, or media-byte delta is accepted by this collector. The only non-exact historical surfaces are explicitly classified above: the exact current-count description refresh, direction representation, the explicit Experimental stylesheet link with PR #733 bytes preserved, the corrected localized-standalone stack, exact-allowlisted stale old-Hardcore refreshes and blank artifact removal, and the deferred capital-hint label fallback.
+Strict native verification covers all 74 main plus 26 companion targets; CI also transactionally exports all 100. The representative historical classes cover source, translation, RTL, CJK, Extended, Experimental, standalone Hardcore, and companion Hardcore, while the separate current-composition invariant covers every localized Hardcore pair. No unknown raw-note/blank artifact, GUID, note-field, tag-membership, deck identity, configuration, description, schema, template/CSS, or media-byte delta is accepted by this collector. The only non-exact historical surfaces are explicitly classified above: the exact current-count description refresh, direction representation, the explicit Experimental stylesheet link with PR #733 bytes preserved, the corrected localized-standalone stack, exact-allowlisted stale old-Hardcore refreshes and blank artifact removal, the exact follow-up audited translation tuples, and the deferred capital-hint label fallback.
 """
     report_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.write_text(report, encoding="utf-8")
@@ -1254,6 +1376,7 @@ def verify_main_hardcore_translation_wiring() -> None:
 
 def collect(old_ug_root: Path, old_hg_root: Path, new_root: Path) -> list[dict[str, object]]:
     verify_main_hardcore_translation_wiring()
+    verify_followup_translation_allowlist_negative_probe()
     results: list[dict[str, object]] = []
     for spec in TARGETS:
         new_output = new_root / spec.target

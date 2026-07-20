@@ -206,7 +206,6 @@ translations:
     Southern Ocean: 'Sørishavet'
     Sovereign country: Selvstendig land
     Spain: Spania
-    Sri Jayawardenepura Kotte: Colombo
     'St. John''s': 'Saint John’s'
     State of the United States.: USAs delstat.
     State recognised only by Turkey and claimed by Cyprus.: 'Selverklært øyrepublikk på Kypros som bare Tyrkia anerkjenner.'
@@ -264,7 +263,7 @@ translations:
     darker red, narrower white band: 'mørkere rød, smalere hvitt bånd'
     different coat of arms, slightly darker blue: 'annerledes våpenskjold, noe mørkere blå'
     different coat of arms, slightly lighter blue: 'annerledes våpenskjold, noe lysere blå'
-    emblem instead of text: blank midstripe
+    emblem instead of text: emblem i stedet for tekst
     green and orange flipped, narrower: 'grønn og oransj har byttet plass, smalere'
     green and red flipped, slightly darker green: 'byttet plass på grønt og rødt, noe mørkere grønnfarge'
     green/red/yellow, yellow star: 'grønn/rød/gul, gul stjerne'
@@ -275,23 +274,23 @@ translations:
     narrower, darker red: 'smalere, mørkere rød'
     narrower, fewer serrated edges, red: 'smalere, færre tagger, rødt'
     no coat of arms: 'uten våpenskjold'
-    no emblem: tekst
+    no emblem: uten emblem
     no symbol: uten symbol
-    no text: emblem
+    no text: uten tekst
     orange and green flipped, wider: 'byttet plass på oransje og grønt, bredere'
     red and green flipped, slightly brighter green: 'byttet plass på rødt og grønt; noe lysere grønn'
     red and white flipped, darker red: 'rødt og hvitt byttet, mørkere rød'
     red and white flipped, wider: 'rødt og hvitt byttet, bredere'
     red background, blue and white cross: 'rød bakgrunn, blått og hvitt kors'
     red background, blue cross: 'rød bakgrunn, blått kors'
-    red stars, two fewer stars: 'røde stjerner'
+    red stars, two fewer stars: 'røde stjerner, to færre stjerner'
     red triangle, blue stripes: 'rød trekant, blå striper'
     red/white/black, green arrow: 'rød/hvit/svart, grønn trekant'
     single star below yellow band: 'en enkelt stjerne under et gult bånd'
     slightly darker blue: 'noe mørkere blå'
     slightly lighter blue: 'noe lysere blå'
     star instead of coat of arms: 'stjerne i stedet for våpenskjold'
-    text instead of emblem: blank midstripe
+    text instead of emblem: tekst i stedet for emblem
     two stars in top-left corner: 'to stjerner i øverste venstre hjørne'
     white and red flipped, brighter red: 'rødt og hvitt byttet, lysere rød'
     white and red flipped, narrower: 'rødt og hvitt byttet, smalere'
@@ -299,7 +298,7 @@ translations:
     white stars, two more stars: hvite stjerner og to ekstra stjerner
     wider, brighter red: 'bredere, lysere rød'
     wider, coat of arms with eagle: 'bredere, våpenskjold med ørn'
-    wider, more serrated edges, maroon: bredere, flere tagger og jordbrun farge
+    wider, more serrated edges, maroon: 'bredere, flere tagger og rødbrun farge'
     wider, smaller coat of arms: 'bredere, mindre våpenskjold'
     with coat of arms: 'med våpenskjold'
     with emblem: emblem
@@ -322,10 +321,6 @@ translations:
         Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
       cura-ao:
         Constituent country of the Kingdom of the Netherlands.: '«Land» som sammen med Nederland, Aruba og Sint Maarten utgjør føderasjonen Kongeriket Nederlandene.'
-      egypt.fields.field.flag-similarity.message.variables.country_1:
-        Iraq: Jemen
-      egypt.fields.field.flag-similarity.message.variables.country_2:
-        Yemen: Irak
       falkland-islands:
         Overseas territory of the United Kingdom.: 'Britisk øygruppe.'
       french-guiana:
@@ -340,10 +335,6 @@ translations:
         Crown dependency of the United Kingdom.: 'Kanaløy underlagt britisk kronbesittelse.'
       hong-kong:
         Special Administrative Region of China.: 'Også kjent som Hong Kong. Spesiell administrativ region i Kina.'
-      iraq.fields.field.flag-similarity.message.variables.country_1:
-        Egypt: Jemen
-      iraq.fields.field.flag-similarity.message.variables.country_2:
-        Yemen: Egypt
       isle-of-man:
         Crown dependency of the United Kingdom.: 'Også kalt Isle of Man. Kanaløy underlagt britisk kronbesittelse. Hverken del av Storbritannia eller EU.'
       ivory-coast.fields.field.flag-similarity.message.variables.country_1:
@@ -636,6 +627,7 @@ translations:
     - Somalia
     - Somaliland
     - South Tarawa
+    - Sri Jayawardenepura Kotte
     - Sri Lanka
     - 'St. George''s'
     - Stockholm

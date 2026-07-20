@@ -235,7 +235,7 @@ translations:
     Saint Vincent and the Grenadines: Saint Vincent en de Grenadines
     Sardinia: 'Sardinië'
     Saudi Arabia: 'Saoedi-Arabië'
-    Scandinavia: Scandinavisch Schiereiland
+    Scandinavia: 'Scandinavië'
     Scotland: Schotland
     Sea of Galilee: Meer van Tiberias
     Sea of Japan: Japanse Zee
@@ -251,7 +251,7 @@ translations:
     Solomon Islands: Salomonseilanden
     Somalia: 'Somalië'
     South Africa: Zuid-Afrika
-    'South Africa has no legally defined capital: the branches of government are split over three cities: Pretoria (executive), Cape Town (legislative) and Bloemfontein (judicial).': 'Zuid-Afrika is een federale republiek met drie hoofdsteden: Pretoria (bestuurlijke macht), Kaapstad (wetgevende macht) en Bloemfontein (rechterlijke macht).'
+    'South Africa has no legally defined capital: the branches of government are split over three cities: Pretoria (executive), Cape Town (legislative) and Bloemfontein (judicial).': 'Zuid-Afrika heeft geen wettelijk vastgelegde hoofdstad: de regeringsmachten zijn verdeeld over drie steden: Pretoria (uitvoerend), Kaapstad (wetgevend) en Bloemfontein (rechterlijk).'
     South America: Zuid-Amerika
     South China Sea: Zuid-Chinese Zee
     South Korea: Zuid-Korea
@@ -322,7 +322,7 @@ translations:
     Yerevan: Jerevan
     black/white/green, red arrow: zwart/wit/groen, rode pijl
     blue background, red and white cross: blauwe achtergrond, rood met wit kruis
-    blue background, red cross: blauwe achtergrond, rood met wit kruis
+    blue background, red cross: blauwe achtergrond, rood kruis
     blue triangle, red stripes: blauwe driehoek, rode strepen
     brighter red, wider white band: helderder rood, bredere witte band
     coat of arms instead of star: wapen in plaats van ster
@@ -359,7 +359,7 @@ translations:
     star instead of coat of arms: ster in plaats van wapen
     text instead of emblem: tekst in plaats van embleem
     two stars in top-left corner: twee sterren in de linkerbovenhoek
-    white and red flipped, brighter red: breder, helderder rood
+    white and red flipped, brighter red: wit en rood omgekeerd, helderder rood
     white and red flipped, narrower: wit en rood omgekeerd, smaller
     white background, red and blue cross: witte achtergrond, rood/blauw kruis
     white stars, two more stars: witte sterren, twee sterren meer
