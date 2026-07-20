@@ -70,10 +70,10 @@ translations:
     City of San Marino: San Marino
     Claimed and controlled: 'Gjort krav på og kontrolleret'
     Claimed but not controlled: 'Gjort krav på, men ikke kontrolleret'
-    Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.: 'Colombo bliver ofte benævnt som hovedstad, men Sri Jayawardenapura Kotte, en forstad til Colombo, er den officielle hovedstad.'
+    Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.: 'Colombo bliver ofte benævnt som hovedstad, men Sri Jayawardenapura Kotte, en forstad til Colombo, er den officielle og lovgivende hovedstad.'
     Comoros: Comorerne
     Constituent country in the Kingdom of Denmark.: 'Selvstyrende nation i Det Danske Rigsfællesskab.'
-    Constituent country of the Kingdom of the Netherlands.: 'Selvstændig stat i Kongeriget Nederlandene.'
+    Constituent country of the Kingdom of the Netherlands.: 'Land, der udgør en del af Kongeriget Nederlandene.'
     Constituent country of the United Kingdom.: Delvis selvstyrende nation i Storbritannien.
     Cook Islands: 'Cookøerne'
     Copenhagen: 'København'
@@ -280,10 +280,10 @@ translations:
     Warsaw: Warszawa
     Washington, D.C.: Washington
     While Amsterdam is the official capital, The Hague is the seat of the executive and legislative branches.: 'Selvom Amsterdam er den forfatningsmæssige hovedstad, ligger regeringen i Haag.'
-    While Dodoma is the official capital, Dar es Salaam is the de facto seat of government.: 'Selvom Dodoma er den officielle hovedstad er Dar es Salaam de facto sæde for regeringen government.'
+    While Dodoma is the official capital, Dar es Salaam is the de facto seat of government.: 'Selvom Dodoma er den officielle hovedstad er Dar es Salaam de facto sæde for regeringen.'
     While Mbabane is the official, executive capital, Lobamba is the traditional, spiritual and legislative capital.: 'Selvom Mbabane er den officielle og udøvende hovedstad er Lobamba den traditionelle, sprituelle og lovgivende hovedstad.'
     While Porto-Novo is the official capital, Cotonou is the de facto seat of government.: 'Selvom Porto-Novo er den officielle hovedstad, er Cotonou de facto sæde for regeringen.'
-    While Sucre is the constitutional capital, La Paz is the seat of government.: 'Sucre er officiel hovedstad, mens La Paz er regeringssædet.'
+    While Sucre is the constitutional capital, La Paz is the seat of government.: 'Sucre er den forfatningsmæssige hovedstad, mens La Paz er regeringssædet.'
     While Yamoussoukro is the official capital, Abidjan is the de facto seat of government.: 'Selvom Yamoussoukro er den officielle hovedstad er Abidjan de facto sæde for regeringen.'
     White Sea: Hvidehavet
     World region covering the Australian continent and most of the islands in the Pacific Ocean.: 'Verdensdel som dækker det Australske kontinent og de fleste af øerne i Stillehavet.'
@@ -291,7 +291,7 @@ translations:
     Yerevan: Jerevan
     black/white/green, red arrow: 'sort/hvid/grøn, rød pil'
     blue background, red and white cross: 'blå baggrund, rødt og hvidt kors'
-    blue background, red cross: 'blå baggrun, rødt kors'
+    blue background, red cross: 'blå baggrund, rødt kors'
     blue triangle, red stripes: 'blå trekant, røde striber'
     brighter red, wider white band: 'lysere rød, bredere hvid stribe'
     coat of arms instead of star: 'våbenskjold i stedet for stjerne'
@@ -318,14 +318,14 @@ translations:
     red and white flipped, darker red: 'rød og hvid byttet rundt, mørkere rød'
     red and white flipped, wider: 'rød og hvid byttet rundt, bredere'
     red background, blue and white cross: 'rød baggrund, blåt og hvidt kors'
-    red background, blue cross: 'rød baggrund, blåt og hvidt kors'
+    red background, blue cross: 'rød baggrund, blåt kors'
     red stars, two fewer stars: 'røde stjerner, to færre stjerner'
     red triangle, blue stripes: 'rød trekant, blå striber'
     red/white/black, green arrow: 'rød/hvid/sort, grøn pil'
     single star below yellow band: enkelt stjerne under gul stribe
     slightly darker blue: 'lidt mørkere blå'
     slightly lighter blue: 'lidt lysere blå'
-    star instead of coat of arms: 'stjerner i stedet for våbenskjold'
+    star instead of coat of arms: 'stjerne i stedet for våbenskjold'
     text instead of emblem: tekst i stedet for emblem
     two stars in top-left corner: 'to stjerne i øverste venstre hjørne'
     white and red flipped, brighter red: 'hvid og rød byttet rundt, lysere rød'

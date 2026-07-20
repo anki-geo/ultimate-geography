@@ -356,7 +356,7 @@ translations:
     'Tórshavn': Thorshavn
     Ukraine: Ukraina
     Ulaanbaatar: 'Ułan Bator'
-    Unincorporated internal area of Norway.: 'Terytorium zależne Norwegii.'
+    Unincorporated internal area of Norway.: 'Nieinkorporowany obszar wewnętrzny Norwegii.'
     Unincorporated territory of the United States.: 'Terytorium nieinkorporowane Stanów Zjednoczonych.'
     United Arab Emirates: Zjednoczone Emiraty Arabskie
     United Kingdom: Wielka Brytania
@@ -373,13 +373,13 @@ translations:
     Wallis and Futuna: Wallis i Futuna
     Warsaw: Warszawa
     Washington, D.C.: Waszyngton
-    While Amsterdam is the official capital, The Hague is the seat of the executive and legislative branches.: 'Oficjalną stolicą jest Amsterdam, natomiast siedzibą władz jest Haga.'
-    While Dodoma is the official capital, Dar es Salaam is the de facto seat of government.: 'Oficjalną stolicą jest Dodoma, natomiast siedzibą władz jest miasto Dar es Salaam.'
-    'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.': 'Oficjalną stolicą jest Al-Ujun, natomiast de facto funkcję stolicy pełni Tifariti.'
+    While Amsterdam is the official capital, The Hague is the seat of the executive and legislative branches.: 'Podczas gdy Amsterdam jest oficjalną stolicą, Haga jest siedzibą władzy wykonawczej i ustawodawczej.'
+    While Dodoma is the official capital, Dar es Salaam is the de facto seat of government.: 'Podczas gdy Dodoma jest oficjalną stolicą, Dar es Salaam jest de facto siedzibą rządu.'
+    'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.': 'Podczas gdy Al-Ujun, znany także jako El Aaiún, jest deklarowaną stolicą, Tifariti jest de facto siedzibą rządu.'
     While Mbabane is the official, executive capital, Lobamba is the traditional, spiritual and legislative capital.: 'Oficjalną stolicą i siedzibą władz wykonawczych jest Mbabane, natomiast tradycyjną stolicą oraz siedzibą króla i parlamentu jest Lobamba.'
-    While Porto-Novo is the official capital, Cotonou is the de facto seat of government.: 'Oficjalną stolicą jest Porto-Novo, natomiast siedzibą władz jest Kotonu.'
-    While Sucre is the constitutional capital, La Paz is the seat of government.: 'Oficjalną stolicą jest Sucre, natomiast siedzibą rządu jest La Paz.'
-    While Yamoussoukro is the official capital, Abidjan is the de facto seat of government.: 'Oficjalną stolicą jest Jamusukro, natomiast siedzibą władz jest Abidżan.'
+    While Porto-Novo is the official capital, Cotonou is the de facto seat of government.: 'Podczas gdy Porto-Novo jest oficjalną stolicą, Kotonu jest de facto siedzibą rządu.'
+    While Sucre is the constitutional capital, La Paz is the seat of government.: 'Podczas gdy Sucre jest stolicą konstytucyjną, La Paz jest siedzibą rządu.'
+    While Yamoussoukro is the official capital, Abidjan is the de facto seat of government.: 'Podczas gdy Jamusukro jest oficjalną stolicą, Abidżan jest de facto siedzibą rządu.'
     White Sea: 'Morze Białe'
     Windhoek: Windhuk
     World region covering the Australian continent and most of the islands in the Pacific Ocean.: 'Część świata obejmująca Australię oraz wyspy Oceanu Spokojnego.'
@@ -394,7 +394,7 @@ translations:
     blue background, red cross: 'niebieskie tło, czerwony krzyż'
     blue triangle, red stripes: 'niebieski trójkąt, czerwone pasy'
     brighter red, wider white band: 'jaśniejsza czerwień, szerszy biały pas'
-    coat of arms instead of star: 'godło zamiast gwiazd'
+    coat of arms instead of star: 'godło zamiast gwiazdy'
     darker blue: ciemniejszy niebieski
     darker red, narrower white band: 'ciemniejsza czerwień, węższy biały pas'
     different coat of arms, slightly darker blue: 'inne godło, lekko ciemniejszy niebieski'
@@ -425,7 +425,7 @@ translations:
     single star below yellow band: 'jedna gwiazda pod żółtym pasem'
     slightly darker blue: lekko ciemniejszy niebieski
     slightly lighter blue: 'lekko jaśniejszy niebieski'
-    star instead of coat of arms: 'gwiazdy zamiast godła'
+    star instead of coat of arms: 'gwiazda zamiast godła'
     text instead of emblem: 'napis zamiast godła'
     two stars in top-left corner: 'dwie gwiazdy w lewym górnym rogu'
     white and red flipped, brighter red: 'zamieniona biel i czerwień, jaśniejsza czerwień'
