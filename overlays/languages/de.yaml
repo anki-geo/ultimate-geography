@@ -33,12 +33,10 @@ translations:
     Austria: 'Österreich'
     Autonomous community of Spain.: Autonome Gemeinschaft Spaniens.
     Autonomous province of South Korea.: 'Autonome Provinz Südkoreas.'
-    Autonomous region of Finland.: 'Auch Ålandinseln. Autonome Region Finnlands.'
     Autonomous region of Italy.: Autonome Region Italiens.
     Autonomous region of Papua New Guinea.: Autonome Region Papua-Neuguineas.
     Autonomous region of Portugal.: Autonome Region Portugals.
     Azerbaijan: Aserbaidschan
-    Azores: 'Azoren (Habichtsinseln)'
     Baghdad: Bagdad
     Balkan Peninsula: Balkanhalbinsel
     Baltic Sea: Ostsee
@@ -74,7 +72,6 @@ translations:
     Central African Republic: Zentralafrikanische Republik
     Cetinje is an honorary capital.: Cetinje ist eine Ehrenhauptstadt.
     Chad: Tschad
-    China: Volksrepublik China
     City of San Marino: Stadt San Marino
     Claimed and controlled: Behauptet und kontrolliert
     Claimed but not controlled: Behauptet, aber nicht kontrolliert
@@ -91,7 +88,6 @@ translations:
     Croatia: Kroatien
     Crown dependency of the United Kingdom.: Kronbesitz der britischen Krone.
     Cuba: Kuba
-    Cyprus: Republik Zypern
     Czech Republic: Tschechien
     Damascus: Damaskus
     Dead Sea: Totes Meer
@@ -230,7 +226,6 @@ translations:
     Pyongyang: 'Pjöngjang'
     Qatar: Katar
     Red Sea: Rotes Meer
-    Region of France.: 'Gebietskörperschaft Frankreichs.'
     Republic of the Congo: Republik Kongo
     Riyadh: Riad
     Romania: 'Rumänien'
@@ -260,7 +255,6 @@ translations:
     Slovenia: Slowenien
     Solomon Islands: Salomonen
     South Africa: 'Südafrika'
-    'South Africa has no legally defined capital: the branches of government are split over three cities: Pretoria (executive), Cape Town (legislative) and Bloemfontein (judicial).': 'Die Regierung sitzt in Pretoria (Exekutive), das Parlament in Kapstadt (Legislative) und das Oberste Berufungsgericht in Bloemfontein (Judikative).'
     South America: 'Südamerika'
     South China Sea: 'Südchinesisches Meer'
     South Korea: 'Südkorea'
@@ -276,8 +270,6 @@ translations:
     State recognised only by Turkey and claimed by Cyprus.: 'Nur von der Türkei anerkannter Staat, von Zypern beansprucht.'
     Strait of Hormuz: 'Straße von Hormus'
     Strait of Malacca: 'Straße von Malakka'
-    Subregion of Oceania comprising thousands of small islands in the central and southern Pacific Ocean.: 'Größte Inselregion Ozeaniens.'
-    Subregion of Oceania comprising thousands of small islands in the western Pacific Ocean.: 'Teilregion von Ozeanien bestehend über 2000 tropischen Inseln und Atollen im westlichen Pazifik.'
     Subregion of Oceania, which includes Vanuatu, the Solomon Islands, Fiji, and Papua New Guinea.: 'Teilregion von Ozeanien, zu der Vanuatu, die Salomonen, Fidschi und Papua-Neuguinea gehören.'
     Sukhumi: Sochumi
     Svalbard: Spitzbergen
@@ -1033,6 +1025,12 @@ target_adaptations:
     expected_source: ''
     target: Auch Atlantik.
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.azores.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: Azores
+    target: 'Azoren (Habichtsinseln)'
+    reason: German intentionally appends the localized alternate name Habichtsinseln.
   notes.note.balkan-peninsula.fields.field.country-info:
     intent: adapt
     ownership: translation
@@ -1075,16 +1073,46 @@ target_adaptations:
     expected_source: ''
     target: Auch Sulawesisee.
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.china.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: China
+    target: Volksrepublik China
+    reason: 'German intentionally labels the China answer as the People''s Republic of China.'
+  notes.note.corsica.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Region of France.
+    target: 'Gebietskörperschaft Frankreichs.'
+    reason: German intentionally describes Corsica using the more specific French territorial-collectivity category.
+  notes.note.cyprus.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: Cyprus
+    target: Republik Zypern
+    reason: German intentionally uses the official polity name Republic of Cyprus for the answer.
   notes.note.czech-republic.fields.field.country-info:
     intent: delete
     ownership: translation
     expected_source: Also known as Czechia.
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.land-islands.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Autonomous region of Finland.
+    target: 'Auch Ålandinseln. Autonome Region Finnlands.'
+    reason: 'German adds the alternate plural name Ålandinseln to the Finnish autonomous-region description.'
   notes.note.luxembourg.fields.field.capital-info:
     intent: delete
     ownership: translation
     expected_source: Officially Luxembourg.
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.micronesia.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Subregion of Oceania comprising thousands of small islands in the western Pacific Ocean.
+    target: 'Teilregion von Ozeanien bestehend über 2000 tropischen Inseln und Atollen im westlichen Pazifik.'
+    reason: German intentionally replaces the generic source description with a more specific count and island/atoll characterization.
   notes.note.moldova.fields.field.country-info:
     intent: adapt
     ownership: translation
@@ -1109,12 +1137,24 @@ target_adaptations:
     expected_source: ''
     target: Auch Arabischer Golf.
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.polynesia.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Subregion of Oceania comprising thousands of small islands in the central and southern Pacific Ocean.
+    target: 'Größte Inselregion Ozeaniens.'
+    reason: 'German intentionally substitutes a concise size/rank description for the source''s island-count and location description.'
   notes.note.solomon-islands.fields.field.country-info:
     intent: adapt
     ownership: translation
     expected_source: ''
     target: Auch Salomoninseln.
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.south-africa.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'South Africa has no legally defined capital: the branches of government are split over three cities: Pretoria (executive), Cape Town (legislative) and Bloemfontein (judicial).'
+    target: 'Die Regierung sitzt in Pretoria (Exekutive), das Parlament in Kapstadt (Legislative) und das Oberste Berufungsgericht in Bloemfontein (Judikative).'
+    reason: German replaces the generic three-branch wording with the concrete institutions seated in each city.
   notes.note.suriname.fields.field.country-info:
     intent: adapt
     ownership: translation

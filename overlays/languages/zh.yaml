@@ -2,7 +2,6 @@ id: overlay.translation.zh
 kind: translation
 translations:
   direct:
-    'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.': '日本海(Sea of Japan)的周边国家之间存在命名争议，韩国(South Korea)尤其支持东海(East Sea)的名称，中国在元朝及明朝初时期称“鲸海”。'
     Abkhazia: '阿布哈兹(Abkhazia)'
     Abu Dhabi: '阿布扎比(Abu Dhabi)'
     Abuja: '阿布贾(Abuja)'
@@ -18,11 +17,9 @@ translations:
     Algeria: '阿尔及利亚(Algeria)'
     Algiers: '阿尔及尔(Algiers)'
     Alofi: '阿洛菲(Alofi)'
-    Also known as Burma.: '缅甸在国际上公认有2种名字(Myanmar, Burma)。'
     Also known as Cabo Verde.: '也称为佛得角(Cabo Verde)。'
     Also known as Czechia.: '也被称为捷克(Czechia)。'
     Also known as East Timor.: '也称为东帝汶(Timor-Leste)。'
-    Also known as Kiev.: '基辅在国际上公认有2种名字(Kyiv, Kiev)。'
     Also known as the Gulf of Siam.: '也被称为暹罗湾(Gulf of Siam)。'
     Also known as the Sea of Cortez.: '也被称为科尔特斯海(Sea of Cortez)。'
     American Samoa: '美属萨摩亚(American Samoa)'
@@ -98,7 +95,6 @@ translations:
     Black Sea: '黑海(Black Sea)'
     'Bogotá': '波哥大(Bogotá)'
     Bolivia: '玻利维亚(Bolivia)'
-    Bosnia and Herzegovina: '波斯尼亚和黑塞哥维那(Bosnia and Herzegovina)，简称“波黑”'
     Botswana: '博茨瓦纳(Botswana)'
     Bougainville: '布干维尔(Bougainville)'
     'Brasília': '巴西利亚(Brasília)'
@@ -128,10 +124,8 @@ translations:
     Caspian Sea: '里海(Caspian Sea)'
     Castries: '卡斯特里(Castries)'
     Cayman Islands: '开曼群岛(Cayman Islands)'
-    Celebes Sea: '苏拉威西海(Celebes Sea, 亦称西里伯斯海)'
     Celtic Sea: '凯尔特海(Celtic Sea)'
     Central African Republic: '中非共和国(Central African Republic)'
-    Cetinje is an honorary capital.: '采蒂涅(Cetinje)，黑山古都和宗教、历史中心。'
     Chad: '乍得(Chad)'
     Charlotte Amalie: '夏洛特阿马利亚(Charlotte Amalie)'
     Chile: '智利(Chile)'
@@ -355,7 +349,6 @@ translations:
     Namibia: '纳米比亚(Namibia)'
     Nassau: '拿骚(Nassau)'
     Nauru: '瑙鲁(Nauru)'
-    'Nauru has no official capital; the Yaren District is the de facto capital.': '瑙鲁(Nauru)无正式首都，政府机关设在亚伦区(the Yaren District)。'
     Naypyidaw: '内比都(Naypyidaw)'
     Nepal: '尼泊尔(Nepal)'
     Netherlands: '荷兰(Netherlands)'
@@ -388,7 +381,6 @@ translations:
     Oceania: '大洋洲(Oceania)'
     Official capital was moved from Bujumbura to Gitega in 2019.: '2019 年官方首都从布琼布拉(Bujumbura)迁至基特加(Gitega)。'
     Official capital was moved from Malabo to Ciudad de la Paz in 2026.: '2026 年官方首都从马拉博(Malabo)迁至拉巴斯城(Ciudad de la Paz)。'
-    'Officially Côte d''Ivoire.': '官方名为科特迪瓦(Côte d''Ivoire), 全称科特迪瓦共和国(The Republic of Côte d''Ivoire)'
     Officially Luxembourg.: '官方称为卢森堡(Luxembourg)。'
     Oman: '阿曼(Oman)'
     Oranjestad: '奥拉涅斯塔德(Oranjestad)'
@@ -410,8 +402,6 @@ translations:
     Paraguay: '巴拉圭(Paraguay)'
     Paramaribo: '帕拉马里博(Paramaribo)'
     Paris: '巴黎(Paris)'
-    Partially recognised state claimed by Morocco. Also known as Western Sahara.: '摩洛哥(Morocco)宣称拥有主权但仅被部分国家承认的地区。'
-    Partially recognised state claimed by Serbia.: '塞尔维亚(Serbia)宣称拥有主权但仅被部分国家承认的地区。'
     Persian Gulf: '波斯湾(Persian Gulf)'
     Peru: '秘鲁(Peru)'
     Philippine Sea: '菲律宾海(Philippine Sea)'
@@ -425,7 +415,6 @@ translations:
     Port Vila: '维拉港(Port Vila)'
     Port of Spain: '西班牙港(Port of Spain)'
     Port-au-Prince: '太子港(Port-au-Prince)'
-    Porto-Novo: '波多诺伏(Porto-Novo, 也被称之为“新港”)'
     Portugal: '葡萄牙(Portugal)'
     Prague: '布拉格(Prague)'
     Praia: '普拉亚(Praia)'
@@ -486,7 +475,6 @@ translations:
     Somalia: '索马里(Somalia)'
     Somaliland: '索马里兰(Somaliland)'
     South Africa: '南非(South Africa)'
-    'South Africa has no legally defined capital: the branches of government are split over three cities: Pretoria (executive), Cape Town (legislative) and Bloemfontein (judicial).': '南非没有法定首都，政府部门分为三个城市：行政首都(中央政府所在地)为比勒陀利亚(Pretoria, 2005年起讨论改为 茨瓦内/Tshwane 但至今没有实施)，立法首都(议会所在地)为开普敦(Cape Town)，司法首都(最高法院所在地)为布隆方丹(Bloemfontein)。'
     South America: '南美洲(South America)'
     South China Sea: '南海(South China Sea)'
     South Korea: '韩国(South Korea)'
@@ -497,7 +485,6 @@ translations:
     Sovereign country: '主权国家'
     Spain: '西班牙(Spain)'
     Special Administrative Region of China.: '中国特别行政区。'
-    Sri Jayawardenepura Kotte: '斯里贾亚瓦德纳普拉科特(Sri Jayawardenepura Kotte)，亦称科特'
     Sri Lanka: '斯里兰卡(Sri Lanka)'
     'St. George''s': '圣乔治(St. George''s)'
     'St. John''s': '圣约翰(St. John''s)'
@@ -581,10 +568,8 @@ translations:
     Wellington: '惠灵顿(Wellington)'
     While Amsterdam is the official capital, The Hague is the seat of the executive and legislative branches.: '虽然阿姆斯特丹(Amsterdam)是官方首都，但海牙(Hague)是行政和立法部门的所在地。'
     While Dodoma is the official capital, Dar es Salaam is the de facto seat of government.: '虽然多多马(Dodoma)是官方首都，但达累斯萨拉姆(Dar es Salaam)是实际政府所在地。'
-    'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.': '虽然阿尤恩(Laayoune，西班牙语称为El Aaiún，中文含义是泉水)，是官方宣称的首都，但提法里提(Tifariti)是实际政府所在地。'
     While Mbabane is the official, executive capital, Lobamba is the traditional, spiritual and legislative capital.: '姆巴巴内(Mbabane)是官方的行政首都，而洛班巴(Lobamba)是传统观念中的首都、精神首都和立法首都。'
     While Porto-Novo is the official capital, Cotonou is the de facto seat of government.: '虽然波多诺伏(Porto-Novo)是官方首都，但科托努(Cotonou)是实际政府所在地。'
-    While Sucre is the constitutional capital, La Paz is the seat of government.: '虽然苏克雷(Sucre)是宪法认定的行政首都，但拉巴斯(La Paz)是政府所在地和财政中心。'
     While Yamoussoukro is the official capital, Abidjan is the de facto seat of government.: '虽然亚穆苏克罗(Yamoussoukro)是官方首都，但阿比让(Abidjan)是实际政府所在地。'
     White Sea: '白海(White Sea)'
     Willemstad: '威廉斯塔德(Willemstad)'
@@ -1120,18 +1105,102 @@ translations:
       43c5ba66-9a65-11e8-90c9-a0481cc15658: 6c995ee1-4b62-4019-a033-de0ef8651c83
       43e2586a-9a65-11e8-a777-a0481cc15658: 30c7ff39-56b5-4693-8e16-aa862eb7a619
 target_adaptations:
+  notes.note.benin.fields.field.capital:
+    intent: adapt
+    ownership: translation
+    expected_source: Porto-Novo
+    target: '波多诺伏(Porto-Novo, 也被称之为“新港”)'
+    reason: Simplified Chinese adds the localized translated alias New Port.
+  notes.note.bolivia.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: While Sucre is the constitutional capital, La Paz is the seat of government.
+    target: '虽然苏克雷(Sucre)是宪法认定的行政首都，但拉巴斯(La Paz)是政府所在地和财政中心。'
+    reason: Simplified Chinese calls Sucre an administrative capital and adds La Paz as a financial center.
+  notes.note.bosnia-and-herzegovina.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: Bosnia and Herzegovina
+    target: '波斯尼亚和黑塞哥维那(Bosnia and Herzegovina)，简称“波黑”'
+    reason: 'Simplified Chinese adds the localized abbreviation 波黑 to the country label.'
+  notes.note.celebes-sea.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: Celebes Sea
+    target: '苏拉威西海(Celebes Sea, 亦称西里伯斯海)'
+    reason: Simplified Chinese uses Sulawesi Sea as the primary name and adds Celebes Sea as an alternate name.
+  notes.note.ivory-coast.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'Officially Côte d''Ivoire.'
+    target: '官方名为科特迪瓦(Côte d''Ivoire), 全称科特迪瓦共和国(The Republic of Côte d''Ivoire)'
+    reason: 'Simplified Chinese adds the full official state name Republic of Côte d’Ivoire.'
+  notes.note.kosovo.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Partially recognised state claimed by Serbia.
+    target: '塞尔维亚(Serbia)宣称拥有主权但仅被部分国家承认的地区。'
+    reason: Simplified Chinese uses region rather than state framing for Kosovo.
+  notes.note.montenegro.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Cetinje is an honorary capital.
+    target: '采蒂涅(Cetinje)，黑山古都和宗教、历史中心。'
+    reason: Simplified Chinese replaces honorary-capital wording with historical-capital and religious and historical-center facts.
   notes.note.myanmar.fields.field.capital-info:
     intent: adapt
     ownership: translation
     expected_source: ''
     target: '缅甸于2005年11月6日首都从仰光(Yangon)迁往内比都(Naypyidaw)。'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.myanmar.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as Burma.
+    target: '缅甸在国际上公认有2种名字(Myanmar, Burma)。'
+    reason: Simplified Chinese replaces the simple alias with a claim that Myanmar and Burma are two internationally recognized names.
+  notes.note.nauru.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'Nauru has no official capital; the Yaren District is the de facto capital.'
+    target: '瑙鲁(Nauru)无正式首都，政府机关设在亚伦区(the Yaren District)。'
+    reason: Simplified Chinese substitutes the location of government offices for the de facto-capital proposition.
   notes.note.netherlands.fields.field.country-info:
     intent: adapt
     ownership: translation
     expected_source: ''
     target: '现名尼德兰(Netherlands)，中文通译为荷兰(Holanda)'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.sahrawi-arab-democratic-republic.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.'
+    target: '虽然阿尤恩(Laayoune，西班牙语称为El Aaiún，中文含义是泉水)，是官方宣称的首都，但提法里提(Tifariti)是实际政府所在地。'
+    reason: Simplified Chinese adds the localized etymology that Laayoune means spring.
+  notes.note.sahrawi-arab-democratic-republic.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Partially recognised state claimed by Morocco. Also known as Western Sahara.
+    target: '摩洛哥(Morocco)宣称拥有主权但仅被部分国家承认的地区。'
+    reason: Simplified Chinese uses region rather than state framing and omits the Western Sahara alias.
+  notes.note.sea-of-japan.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.'
+    target: '日本海(Sea of Japan)的周边国家之间存在命名争议，韩国(South Korea)尤其支持东海(East Sea)的名称，中国在元朝及明朝初时期称“鲸海”。'
+    reason: Simplified Chinese adds a China-specific historical name and dynasty-period proposition for the Sea of Japan.
+  notes.note.south-africa.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'South Africa has no legally defined capital: the branches of government are split over three cities: Pretoria (executive), Cape Town (legislative) and Bloemfontein (judicial).'
+    target: '南非没有法定首都，政府部门分为三个城市：行政首都(中央政府所在地)为比勒陀利亚(Pretoria, 2005年起讨论改为 茨瓦内/Tshwane 但至今没有实施)，立法首都(议会所在地)为开普敦(Cape Town)，司法首都(最高法院所在地)为布隆方丹(Bloemfontein)。'
+    reason: 'Simplified Chinese expands the description with institutional glosses and the Pretoria–Tshwane renaming discussion.'
+  notes.note.sri-lanka.fields.field.capital:
+    intent: adapt
+    ownership: translation
+    expected_source: Sri Jayawardenepura Kotte
+    target: '斯里贾亚瓦德纳普拉科特(Sri Jayawardenepura Kotte)，亦称科特'
+    reason: Simplified Chinese adds Kotte as a localized short alias.
   notes.note.taiwan.fields.field.country-info:
     intent: adapt
     ownership: translation
@@ -1143,6 +1212,12 @@ target_adaptations:
     ownership: translation
     expected_source: 'Also known as Türkiye'
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.ukraine.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as Kiev.
+    target: '基辅在国际上公认有2种名字(Kyiv, Kiev)。'
+    reason: Simplified Chinese replaces the simple alias with a claim that Kyiv and Kiev are two internationally recognized names.
   notes.note.yellow-sea.fields.field.country-info:
     intent: adapt
     ownership: translation

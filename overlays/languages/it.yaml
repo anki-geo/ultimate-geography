@@ -9,9 +9,7 @@ translations:
     Aegean Sea: Mar Egeo
     Akrotiri and Dhekelia: Akrotiri e Dhekelia
     Algiers: Algeri
-    Also known as Burma.: Conosciuta anche come Myanmar.
     Also known as Czechia.: Conosciuta anche come Cechia.
-    Also known as East Timor.: Conosciuto anche come Timor-Leste.
     Also known as the Gulf of Siam.: Conosciuto anche come Golfo della Thailandia.
     Also known as the Sea of Cortez.: Conosciuto anche come Mare di Cortez.
     American Samoa: Samoa Americane
@@ -1016,6 +1014,18 @@ target_adaptations:
     ownership: translation
     expected_source: Officially Luxembourg.
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.myanmar.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as Burma.
+    target: Conosciuta anche come Myanmar.
+    reason: Italian uses Birmania as the primary label and intentionally gives Myanmar as the alternate name.
+  notes.note.timor-leste.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as East Timor.
+    target: Conosciuto anche come Timor-Leste.
+    reason: Italian uses Timor Est as the primary label and intentionally gives Timor-Leste as the alternate name.
   notes.note.turkey.fields.field.country-info:
     intent: delete
     ownership: translation

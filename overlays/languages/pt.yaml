@@ -342,7 +342,6 @@ translations:
     Russia: 'Rússia'
     Rwanda: Ruanda
     'Réunion': 'Reunião'
-    Sahrawi Arab Democratic Republic: 'República Árabe Saaraui Democrática (RASD)'
     Saint Kitts and Nevis: 'São Cristóvão e Névis'
     Saint Lucia: 'Santa Lúcia'
     Saint Martin: 'São Martinho (França)'
@@ -1086,6 +1085,12 @@ target_adaptations:
     expected_source: ''
     target: 'Não é um Estado soberano'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.sahrawi-arab-democratic-republic.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: Sahrawi Arab Democratic Republic
+    target: 'República Árabe Saaraui Democrática (RASD)'
+    reason: Portuguese intentionally appends the acronym RASD to the main country label while the embedded reference uses the unexpanded name.
   notes.note.timor-leste.fields.field.country-info:
     intent: delete
     ownership: translation

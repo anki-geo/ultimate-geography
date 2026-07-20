@@ -2,7 +2,6 @@ id: overlay.translation.sv
 kind: translation
 translations:
   direct:
-    'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.': 'Sydkorea förespråkar namnet Östhavet, Nordkorea Ostkoreanska havet.'
     Abkhazia: Abchazien
     Addis Ababa: Addis Abeba
     Adriatic Sea: Adriatiska havet
@@ -13,7 +12,6 @@ translations:
     Algeria: Algeriet
     Algiers: Alger
     Also known as Burma.: 'Även känt som Burma.'
-    Also known as East Timor.: 'Även känt som Timor-Leste.'
     Also known as the Gulf of Siam.: 'Även känd som Siambukten.'
     Also known as the Sea of Cortez.: 'Även känt som Cortez hav.'
     American Samoa: Amerikanska Samoa
@@ -30,7 +28,6 @@ translations:
     Australia: Australien
     Austria: 'Österrike'
     Autonomous community of Spain.: Spansk autonom region.
-    Autonomous province of South Korea.: 'Autonom region i Sydkorea; tidigare känd som Quelpart.'
     Autonomous region of Finland.: 'Självstyrande del av Finland.'
     Autonomous region of Italy.: Italiensk autonom region.
     Autonomous region of Papua New Guinea.: Autonom region i Papua Nya Guinea.
@@ -73,7 +70,6 @@ translations:
     City of San Marino: San Marino
     Claimed and controlled: 'Hävdas och kontrolleras'
     Claimed but not controlled: 'Påstått men inte kontrollerat'
-    Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.: 'Kallas även Kotte eller Sri Jayawardenapura Kotte; Colombo refereras ofta till som huvudstad, men förorten Sri Jayawardenapura är officiell huvudstad.'
     Comoros: Komorerna
     Constituent country in the Kingdom of Denmark.: Riksdel av Danmark.
     Constituent country of the Kingdom of the Netherlands.: 'Ett av fyra länder som utgör staten Nederländerna.'
@@ -126,7 +122,6 @@ translations:
     Gulf of Thailand: Thailandviken
     Havana: Havanna
     Helsinki: Helsingfors
-    Historical and cultural region in Northern Europe, which includes the countries of Denmark, Norway and Sweden, and sometimes Finland and Iceland.: 'Skandinavien består av Sverige, Norge och Danmark. Norden inkluderar även Finland och Island, och utomskandinaviska områden som Svalbard och Grönland. '
     Hong Kong: Hongkong
     Hungary: Ungern
     Iceland: Island
@@ -146,7 +141,6 @@ translations:
     Kathmandu: Katmandu
     Kazakhstan: Kazakstan
     Known as Nur-Sultan between 2019 and 2022: Hette Nur-Sultan mellan 2019 och 2022
-    Known as Swaziland until 2018.: 'Även känt som Eswatini.'
     Kuwait City: Kuwait
     Kyiv: Kiev
     Kyrgyzstan: Kirgizistan
@@ -174,7 +168,6 @@ translations:
     Moscow: Moskva
     Mozambique: 'Moçambique'
     Muscat: Muskat
-    'Nauru has no official capital; the Yaren District is the de facto capital.': 'Nauru saknar städer, Yaren är de facto huvudort.'
     Netherlands: 'Nederländerna'
     New Caledonia: Nya Kaledonien
     New Zealand: Nya Zeeland
@@ -190,7 +183,6 @@ translations:
     Norwegian Sea: Norska havet
     Not a sovereign country: 'Ej suverän stat'
     'Nukuʻalofa': 'Nuku''alofa'
-    'Oblast (administrative region) of the Russian Federation.': 'Även känt som Ryska Östpreussen.'
     Oceania: Oceanien
     Official capital was moved from Bujumbura to Gitega in 2019.: 'Tidigare känt som Kitega; flyttat från Bujumbura i slutet av 2018.'
     Official capital was moved from Malabo to Ciudad de la Paz in 2026.: 'Flyttat från Malabo i 2026.'
@@ -198,7 +190,6 @@ translations:
     Palestine: Palestina
     Papua New Guinea: Papua Nya Guinea
     Partially recognised state claimed by China.: 'Delvis erkänd stat, görs anspråk på av Kina.'
-    Partially recognised state claimed by Morocco. Also known as Western Sahara.: 'Även känt som Västsahariska republiken.'
     Partially recognised state claimed by Serbia.: 'Delvis erkänd stat, görs anspråk på av Serbien.'
     Persian Gulf: Persiska viken
     Philippine Sea: 'Filippinska sjön'
@@ -275,7 +266,6 @@ translations:
     Turks and Caicos Islands: 'Turks- och Caicosöarna'
     Ukraine: Ukraina
     Ulaanbaatar: Ulan Bator
-    Unincorporated internal area of Norway.: 'Norsk ögrupp.'
     Unincorporated territory of the United States.: 'Amerikanskt icke-inkorporerat område.'
     United Arab Emirates: 'Förenade Arabemiraten'
     United Kingdom: Storbritannien
@@ -286,11 +276,9 @@ translations:
     Warsaw: Warszawa
     While Amsterdam is the official capital, The Hague is the seat of the executive and legislative branches.: 'Haag är administrativ huvudstad.'
     While Dodoma is the official capital, Dar es Salaam is the de facto seat of government.: 'Dar es-Salaam är de facto administrativ huvudstad.'
-    'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.': 'Stavas även al-''Ayun, El Aaiún; Tifariti är de facto säte för parlamentet.'
     While Mbabane is the official, executive capital, Lobamba is the traditional, spiritual and legislative capital.: 'Lobamba är traditionell och lagstiftande huvudstad.'
     While Porto-Novo is the official capital, Cotonou is the de facto seat of government.: 'Cotonou är administrativ huvudstad.'
     While Sucre is the constitutional capital, La Paz is the seat of government.: 'La Paz är säte för regeringen.'
-    While Yamoussoukro is the official capital, Abidjan is the de facto seat of government.: 'Stavas även Yamassoukro; Abidjan är de facto administrativ huvudstad.'
     White Sea: Vita havet
     World region covering the Australian continent and most of the islands in the Pacific Ocean.: 'Världsdel bestående av Australien och majoriteten av öarna och ögrupperna i Stilla havet.'
     Yellow Sea: Gula havet
@@ -1066,17 +1054,41 @@ target_adaptations:
     ownership: translation
     expected_source: Also known as Czechia.
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.eswatini.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Known as Swaziland until 2018.
+    target: 'Även känt som Eswatini.'
+    reason: Swedish retains Swaziland as the primary answer and presents Eswatini as its alternate name.
   notes.note.federated-states-of-micronesia.fields.field.country-info:
     intent: adapt
     ownership: translation
     expected_source: ''
     target: 'Även känt som Mikronesiska federationen.'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.ivory-coast.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: While Yamoussoukro is the official capital, Abidjan is the de facto seat of government.
+    target: 'Stavas även Yamassoukro; Abidjan är de facto administrativ huvudstad.'
+    reason: Swedish intentionally adds the Yamassoukro spelling and uses administrative-capital wording for Abidjan.
   notes.note.ivory-coast.fields.field.country-info:
     intent: delete
     ownership: translation
     expected_source: 'Officially Côte d''Ivoire.'
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.jeju.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Autonomous province of South Korea.
+    target: 'Autonom region i Sydkorea; tidigare känd som Quelpart.'
+    reason: 'Swedish intentionally adds Jeju''s former name Quelpart.'
+  notes.note.kaliningrad-oblast.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'Oblast (administrative region) of the Russian Federation.'
+    target: 'Även känt som Ryska Östpreussen.'
+    reason: 'Swedish intentionally replaces the administrative classification with the localized nickname Ryska Östpreussen.'
   notes.note.luxembourg.fields.field.capital-info:
     intent: delete
     ownership: translation
@@ -1094,6 +1106,12 @@ target_adaptations:
     expected_source: ''
     target: 'Stavas även Nay Pyi Taw.'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.nauru.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'Nauru has no official capital; the Yaren District is the de facto capital.'
+    target: 'Nauru saknar städer, Yaren är de facto huvudort.'
+    reason: Swedish intentionally replaces the official-capital statement with a no-cities and de facto main-locality description.
   notes.note.persian-gulf.fields.field.country-info:
     intent: adapt
     ownership: translation
@@ -1112,12 +1130,54 @@ target_adaptations:
     expected_source: ''
     target: Formellt Republiken Kongo.
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.sahrawi-arab-democratic-republic.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.'
+    target: 'Stavas även al-''Ayun, El Aaiún; Tifariti är de facto säte för parlamentet.'
+    reason: Swedish intentionally foregrounds alternate spellings and identifies Tifariti as the de facto parliamentary seat.
+  notes.note.sahrawi-arab-democratic-republic.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Partially recognised state claimed by Morocco. Also known as Western Sahara.
+    target: 'Även känt som Västsahariska republiken.'
+    reason: Swedish intentionally replaces recognition and Moroccan-claim wording with a localized alternate republic name.
+  notes.note.scandinavia.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Historical and cultural region in Northern Europe, which includes the countries of Denmark, Norway and Sweden, and sometimes Finland and Iceland.
+    target: 'Skandinavien består av Sverige, Norge och Danmark. Norden inkluderar även Finland och Island, och utomskandinaviska områden som Svalbard och Grönland. '
+    reason: Swedish intentionally distinguishes Skandinavien from Norden and adds Svalbard and Greenland to the Nordic description.
   notes.note.sea-of-galilee.fields.field.country-info:
     intent: adapt
     ownership: translation
     expected_source: ''
     target: 'Även känd som Galileiska sjön och Tiberiassjön.'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.sea-of-japan.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.'
+    target: 'Sydkorea förespråkar namnet Östhavet, Nordkorea Ostkoreanska havet.'
+    reason: Swedish intentionally contrasts South and North Korean preferred names instead of translating only the source South Korean support statement.
+  notes.note.sri-lanka.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.
+    target: 'Kallas även Kotte eller Sri Jayawardenapura Kotte; Colombo refereras ofta till som huvudstad, men förorten Sri Jayawardenapura är officiell huvudstad.'
+    reason: Swedish intentionally adds Kotte aliases and uses a localized summary of Sri Lanka capital relationship.
+  notes.note.svalbard.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Unincorporated internal area of Norway.
+    target: 'Norsk ögrupp.'
+    reason: Swedish intentionally describes Svalbard geographically as a Norwegian archipelago.
+  notes.note.timor-leste.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as East Timor.
+    target: 'Även känt som Timor-Leste.'
+    reason: 'Swedish uses Östtimor as the primary answer and presents Timor-Leste as the alternate name.'
   notes.note.turkey.fields.field.country-info:
     intent: delete
     ownership: translation

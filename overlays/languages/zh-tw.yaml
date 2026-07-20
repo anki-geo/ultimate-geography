@@ -2,7 +2,6 @@ id: overlay.translation.zh-tw
 kind: translation
 translations:
   direct:
-    Abkhazia: '阿布哈茲共和國 (Abkhazia)'
     Abu Dhabi: '阿布達比 (Abu Dhabi)'
     Abuja: '阿布加 (Abuja)'
     Accra: '阿克拉 (Accra)'
@@ -36,7 +35,6 @@ translations:
     Arctic Ocean: '北冰洋 (Arctic Ocean)'
     Argentina: '阿根廷 (Argentina)'
     Armenia: '亞美尼亞 (Armenia)'
-    Aruba: '荷屬阿魯巴 (Aruba)'
     Ashgabat: '阿什哈巴特 (Ashgabat)'
     Asia: '亞洲 (Asia)'
     Asmara: '阿斯馬拉 (Asmara)'
@@ -122,7 +120,6 @@ translations:
     Caspian Sea: '裏海 (Caspian Sea)'
     Castries: '卡斯翠 (Castries)'
     Cayman Islands: '開曼群島 (Cayman Islands)'
-    Celebes Sea: '西里伯斯海(蘇拉威西海) (Celebes Sea)'
     Celtic Sea: '凱爾特海 (Celtic Sea)'
     Central African Republic: '中非共和國 (Central African Republic)'
     Cetinje is an honorary capital.: '策提涅是歷史首都。'
@@ -400,9 +397,6 @@ translations:
     Paraguay: '巴拉圭 (Paraguay)'
     Paramaribo: '巴拉馬利波 (Paramaribo)'
     Paris: '巴黎 (Paris)'
-    Partially recognised state claimed by China.: '中國宣稱擁有該地區主權，但僅有部分國家承認。'
-    Partially recognised state claimed by Morocco. Also known as Western Sahara.: '摩洛哥宣稱擁有該地區主權，但僅有部分國家承認。又稱為西撒哈拉。'
-    Partially recognised state claimed by Serbia.: '塞爾維亞宣稱擁有該地區主權，但僅有部分國家承認。'
     Persian Gulf: '波斯灣 (Persian Gulf)'
     Peru: '祕魯 (Peru)'
     Philippine Sea: '菲律賓海 (Philippine Sea)'
@@ -416,7 +410,6 @@ translations:
     Port Vila: '維拉港 (Port Vila)'
     Port of Spain: '西班牙港 (Port of Spain)'
     Port-au-Prince: '太子港 (Port-au-Prince)'
-    Porto-Novo: '新港 (Porto-Novo)'
     Portugal: '葡萄牙 (Portugal)'
     Prague: '布拉格 (Prague)'
     Praia: '培亞 (Praia)'
@@ -439,7 +432,6 @@ translations:
     Russia: '俄羅斯 (Russia)'
     Rwanda: '盧安達 (Rwanda)'
     'Réunion': '留尼旺島 (Réunion)'
-    Sahrawi Arab Democratic Republic: '撒拉威阿拉伯民主共和國(西薩哈拉) (Sahrawi Arab Democratic Republic)'
     Saint Kitts and Nevis: '聖克里斯多福及尼維斯聯邦 (Saint Kitts and Nevis)'
     Saint Lucia: '聖露西亞 (Saint Lucia)'
     Saint Martin: '聖馬丁 (Saint Martin)'
@@ -468,14 +460,12 @@ translations:
     Sicily: '西西里島 (Sicily)'
     Sierra Leone: '獅子山 (Sierra Leone)'
     Singapore: '新加坡 (Singapore)'
-    Sint Maarten: '荷屬聖馬丁 (Sint Maarten)'
     Skopje: '斯科普里 (Skopje)'
     Slovakia: '斯洛伐克 (Slovakia)'
     Slovenia: '斯洛維尼亞 (Slovenia)'
     Sofia: '索菲亞 (Sofia)'
     Solomon Islands: '索羅門群島 (Solomon Islands)'
     Somalia: '索馬利亞 (Somalia)'
-    Somaliland: '索馬利蘭共和國 (Somaliland)'
     South Africa: '南非 (South Africa)'
     'South Africa has no legally defined capital: the branches of government are split over three cities: Pretoria (executive), Cape Town (legislative) and Bloemfontein (judicial).': '南非沒有法定首都，並有三大城市:普勒托利亞(行政)、開普敦(立法)、布隆方丹(司法)。'
     South America: '南美洲 (South America)'
@@ -514,7 +504,6 @@ translations:
     'São Tomé': '聖多美 (São Tomé)'
     'São Tomé and Príncipe': '聖多美普林西比民主共和國 (São Tomé and Príncipe)'
     Taipei: '台北 (Taipei)'
-    Taiwan: '台灣(中華民國) (Taiwan)'
     Tajikistan: '塔吉克共和國 (Tajikistan)'
     Tallinn: '塔林 (Tallinn)'
     Tanzania: '坦尚尼亞 (Tanzania)'
@@ -534,7 +523,6 @@ translations:
     Togo: '多哥 (Togo)'
     Tokyo: '東京 (Tokyo)'
     Tonga: '東加 (Tonga)'
-    Transnistria: '德涅斯特河沿岸共和國 (Transnistria)'
     Trinidad and Tobago: '千里達及托巴哥 (Trinidad and Tobago)'
     Tripoli: '的黎波里 (Tripoli)'
     Tskhinvali: '茲辛瓦利 (Tskhinvali)'
@@ -1106,11 +1094,35 @@ translations:
       43c5ba66-9a65-11e8-90c9-a0481cc15658: 3d365148-83a7-4b53-8dbc-e3b183524025
       43e2586a-9a65-11e8-a777-a0481cc15658: d75ad494-71f3-4909-beda-b80ec04c7a0d
 target_adaptations:
+  notes.note.abkhazia.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: Abkhazia
+    target: '阿布哈茲共和國 (Abkhazia)'
+    reason: Traditional Chinese adds explicit republic framing to the Abkhazia label.
+  notes.note.aruba.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: Aruba
+    target: '荷屬阿魯巴 (Aruba)'
+    reason: Traditional Chinese adds Dutch political affiliation to the Aruba label.
+  notes.note.benin.fields.field.capital:
+    intent: adapt
+    ownership: translation
+    expected_source: Porto-Novo
+    target: '新港 (Porto-Novo)'
+    reason: Traditional Chinese replaces the capital label with the localized translated name New Port while retaining Porto-Novo parenthetically.
   notes.note.cape-verde.fields.field.country-info:
     intent: delete
     ownership: translation
     expected_source: Also known as Cabo Verde.
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.celebes-sea.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: Celebes Sea
+    target: '西里伯斯海(蘇拉威西海) (Celebes Sea)'
+    reason: Traditional Chinese adds Sulawesi Sea as a second name.
   notes.note.czech-republic.fields.field.country-info:
     intent: delete
     ownership: translation
@@ -1132,6 +1144,12 @@ target_adaptations:
     expected_source: ''
     target: '拉巴斯正在建造來取代馬拉波成為首都。'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.kosovo.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Partially recognised state claimed by Serbia.
+    target: '塞爾維亞宣稱擁有該地區主權，但僅有部分國家承認。'
+    reason: Traditional Chinese uses region rather than state framing for Kosovo.
   notes.note.luxembourg.fields.field.capital-info:
     intent: delete
     ownership: translation
@@ -1142,16 +1160,58 @@ target_adaptations:
     ownership: translation
     expected_source: Also known as Burma.
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.sahrawi-arab-democratic-republic.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: Sahrawi Arab Democratic Republic
+    target: '撒拉威阿拉伯民主共和國(西薩哈拉) (Sahrawi Arab Democratic Republic)'
+    reason: Traditional Chinese adds Western Sahara as an alternate geopolitical label.
+  notes.note.sahrawi-arab-democratic-republic.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Partially recognised state claimed by Morocco. Also known as Western Sahara.
+    target: '摩洛哥宣稱擁有該地區主權，但僅有部分國家承認。又稱為西撒哈拉。'
+    reason: Traditional Chinese uses region rather than state framing for Western Sahara.
   notes.note.sea-of-japan.fields.field.country-info:
     intent: delete
     ownership: translation
     expected_source: 'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.'
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.sint-maarten.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: Sint Maarten
+    target: '荷屬聖馬丁 (Sint Maarten)'
+    reason: Traditional Chinese uses a localized label that adds Dutch political affiliation.
+  notes.note.somaliland.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: Somaliland
+    target: '索馬利蘭共和國 (Somaliland)'
+    reason: Traditional Chinese adds explicit republic framing to the Somaliland label.
+  notes.note.taiwan.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: Taiwan
+    target: '台灣(中華民國) (Taiwan)'
+    reason: Traditional Chinese adds the politically material Republic of China state alias.
+  notes.note.taiwan.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Partially recognised state claimed by China.
+    target: '中國宣稱擁有該地區主權，但僅有部分國家承認。'
+    reason: Traditional Chinese uses region rather than state framing for Taiwan.
   notes.note.timor-leste.fields.field.country-info:
     intent: delete
     ownership: translation
     expected_source: Also known as East Timor.
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.transnistria.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: Transnistria
+    target: '德涅斯特河沿岸共和國 (Transnistria)'
+    reason: Traditional Chinese uses the expanded Pridnestrovian Republic label.
   notes.note.turkey.fields.field.country-info:
     intent: delete
     ownership: translation

@@ -13,7 +13,6 @@ translations:
     Algeria: Algeriet
     Algiers: Algier
     Also known as Burma.: 'Også kendt som Burma.'
-    Also known as East Timor.: 'Også kendt som Timor-Leste.'
     Also known as Kiev.: 'Også kendt som Kiev.'
     Also known as the Gulf of Siam.: 'Også kendt som Siambugten.'
     American Samoa: Amerikansk Samoa
@@ -65,7 +64,6 @@ translations:
     Celebes Sea: Celebeshavet
     Celtic Sea: Det Keltiske hav
     Central African Republic: Den Centralafrikanske Republik
-    Cetinje is an honorary capital.: Cetinje har status som Montenegros gamle royale hovedstad.
     Chad: Tchad
     China: Kina
     'Chișinău': Chisinau
@@ -192,7 +190,6 @@ translations:
     Palestine: 'Palæstina'
     Papua New Guinea: Papua Ny Guinea
     Partially recognised state claimed by China.: 'Delvist anerkendt stat som Kina gør krav på.'
-    Partially recognised state claimed by Morocco. Also known as Western Sahara.: 'Delvist anerkendt stat som Marokko gør krav på. Også kendt som Saharawi Arabiske Demokratiske Republik.'
     Partially recognised state claimed by Serbia.: 'Delvist anerkendt stat som Serbien gør krav på.'
     Persian Gulf: Persiske Bugt
     Philippine Sea: Filippinske Hav
@@ -271,7 +268,6 @@ translations:
     Turks and Caicos Islands: 'Turks- og Caicosøerne'
     'Tórshavn': Thorshavn
     Ulaanbaatar: Ulan Bator
-    Unincorporated internal area of Norway.: 'Norsk øgruppe.'
     Unincorporated territory of the United States.: 'Et såkaldt Unincorporated Territory under USA.'
     United Arab Emirates: De Forenede Arabiske Emirater
     United Kingdom: Storbritannien
@@ -285,7 +281,6 @@ translations:
     Washington, D.C.: Washington
     While Amsterdam is the official capital, The Hague is the seat of the executive and legislative branches.: 'Selvom Amsterdam er den forfatningsmæssige hovedstad, ligger regeringen i Haag.'
     While Dodoma is the official capital, Dar es Salaam is the de facto seat of government.: 'Selvom Dodoma er den officielle hovedstad er Dar es Salaam de facto sæde for regeringen government.'
-    'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.': 'Selvom El Aaiun er den erklærede hovedstad er Tifariti de facto sæde for regeringen.'
     While Mbabane is the official, executive capital, Lobamba is the traditional, spiritual and legislative capital.: 'Selvom Mbabane er den officielle og udøvende hovedstad er Lobamba den traditionelle, sprituelle og lovgivende hovedstad.'
     While Porto-Novo is the official capital, Cotonou is the de facto seat of government.: 'Selvom Porto-Novo er den officielle hovedstad, er Cotonou de facto sæde for regeringen.'
     While Sucre is the constitutional capital, La Paz is the seat of government.: 'Sucre er officiel hovedstad, mens La Paz er regeringssædet.'
@@ -1061,12 +1056,42 @@ target_adaptations:
     ownership: translation
     expected_source: Officially Luxembourg.
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.montenegro.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Cetinje is an honorary capital.
+    target: Cetinje har status som Montenegros gamle royale hovedstad.
+    reason: 'Danish replaces the honorary-capital wording with Cetinje''s historical royal-capital status.'
   notes.note.netherlands.fields.field.country-info:
     intent: adapt
     ownership: translation
     expected_source: ''
     target: 'Også kendt som Holland.'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.sahrawi-arab-democratic-republic.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.'
+    target: 'Selvom El Aaiun er den erklærede hovedstad er Tifariti de facto sæde for regeringen.'
+    reason: 'Danish naming policy uses El Aaiun as the primary declared-capital name and omits the source''s inverse alias wording.'
+  notes.note.sahrawi-arab-democratic-republic.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Partially recognised state claimed by Morocco. Also known as Western Sahara.
+    target: 'Delvist anerkendt stat som Marokko gør krav på. Også kendt som Saharawi Arabiske Demokratiske Republik.'
+    reason: Danish uses Vestsahara as the primary answer and therefore presents the Sahrawi Arab Democratic Republic as the alternate name.
+  notes.note.svalbard.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Unincorporated internal area of Norway.
+    target: 'Norsk øgruppe.'
+    reason: 'Danish intentionally describes Svalbard as a Norwegian archipelago instead of translating the source''s legal classification.'
+  notes.note.timor-leste.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as East Timor.
+    target: 'Også kendt som Timor-Leste.'
+    reason: 'Danish uses Østtimor as the primary country label and intentionally presents Timor-Leste as the alternate name.'
   notes.note.turkey.fields.field.country-info:
     intent: delete
     ownership: translation

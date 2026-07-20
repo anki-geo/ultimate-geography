@@ -19,10 +19,7 @@ translations:
     Algiers: 'Алжир'
     Alofi: 'Алофи'
     Also known as Burma.: 'Также известна как Бирма.'
-    Also known as Cabo Verde.: 'Ранее известна как Острова Зелëного Мыса.'
     Also known as Czechia.: 'Известна также как Чехия.'
-    Also known as East Timor.: 'Также известен как Тимор-Лешти.'
-    Also known as the Gulf of Siam.: 'Также известен как Тайландский залив.'
     Also known as the Sea of Cortez.: 'Также известное как Кортезское море.'
     American Samoa: 'Американское Самоа'
     Amman: 'Амман'
@@ -163,7 +160,6 @@ translations:
     Denmark Strait: 'Датский пролив'
     Dhaka: 'Дакка'
     Dili: 'Дили'
-    'Disputed; claimed by Israel; Ramallah is the administrative centre.': 'Заявленная столица; оспаривается Израилем; Рамалла - административный центр.'
     'Disputed; claimed by Palestine.': 'Спорный; требует Палестина.'
     Djibouti: 'Джибути'
     Dodoma: 'Додома'
@@ -381,10 +377,8 @@ translations:
     'Nukuʻalofa': 'Нукуалофа'
     Nuuk: 'Нуук'
     'Oblast (administrative region) of the Russian Federation.': 'Область (административный район) Российской Федерации.'
-    Oceania: 'Австралия и Океания'
     Official capital was moved from Bujumbura to Gitega in 2019.: 'Официальная столица была перенесена из Бужумбуры в Гитегу в 2019 году.'
     Official capital was moved from Malabo to Ciudad de la Paz in 2026.: 'Официальная столица была перенесена из Малабо в Сьюдад-де-ла-Пас в 2026 году.'
-    'Officially Côte d''Ivoire.': 'Ранее известно как Берег Слоновой Кости.'
     Officially Luxembourg.: 'Официально Люксембург.'
     Oman: 'Оман'
     Oranjestad: 'Ораньестад'
@@ -553,7 +547,6 @@ translations:
     Uganda: 'Уганда'
     Ukraine: 'Украина'
     Ulaanbaatar: 'Улан-Батор'
-    Unincorporated internal area of Norway.: 'Также известен как Свальбард. Неинкорпорированная внутренняя территория Норвегии.'
     Unincorporated territory of the United States.: 'Неинкорпорированная территория Соединенных Штатов.'
     United Arab Emirates: 'Объединенные Арабские Эмираты'
     United Kingdom: 'Великобритания'
@@ -1023,6 +1016,12 @@ translations:
     crowdanki:uuid:
       43e2586a-9a65-11e8-a777-a0481cc15658: 2aa62e36-601e-4e4c-a124-5a79b14f8697
 target_adaptations:
+  notes.note.cape-verde.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as Cabo Verde.
+    target: 'Ранее известна как Острова Зелëного Мыса.'
+    reason: 'Russian localization records the historical Russian name Острова Зелëного Мыса instead of presenting Cabo Verde as an alternate name.'
   notes.note.english-channel.fields.field.country-info:
     intent: adapt
     ownership: translation
@@ -1035,23 +1034,59 @@ target_adaptations:
     expected_source: ''
     target: 'Также известен как Готхоб'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.gulf-of-thailand.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as the Gulf of Siam.
+    target: 'Также известен как Тайландский залив.'
+    reason: 'Russian localization uses Сиамский залив as the primary label and reverses Тайландский залив into the alternate name.'
+  notes.note.ivory-coast.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'Officially Côte d''Ivoire.'
+    target: 'Ранее известно как Берег Слоновой Кости.'
+    reason: 'Russian localization records Берег Слоновой Кости as the former Russian name instead of restating the official name.'
   notes.note.namibia.fields.field.country-info:
     intent: adapt
     ownership: translation
     expected_source: ''
     target: 'Ранее известна как Юго-Западная Африка'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.oceania.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: Oceania
+    target: 'Австралия и Океания'
+    reason: 'Russian school-geography localization labels the region Австралия и Океания, explicitly including Australia.'
   notes.note.oceania.fields.field.country-info:
     intent: delete
     ownership: translation
     expected_source: World region covering the Australian continent and most of the islands in the Pacific Ocean.
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.palestine.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'Disputed; claimed by Israel; Ramallah is the administrative centre.'
+    target: 'Заявленная столица; оспаривается Израилем; Рамалла - административный центр.'
+    reason: Russian localization adds declared-capital framing and describes the status as disputed by Israel.
   notes.note.sea-of-galilee.fields.field.country-info:
     intent: adapt
     ownership: translation
     expected_source: ''
     target: 'Также известно как Тивериадское озеро'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.svalbard.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Unincorporated internal area of Norway.
+    target: 'Также известен как Свальбард. Неинкорпорированная внутренняя территория Норвегии.'
+    reason: 'Russian localization adds Свальбард as an alternate name for primary label Шпицберген.'
+  notes.note.timor-leste.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as East Timor.
+    target: 'Также известен как Тимор-Лешти.'
+    reason: 'Russian localization uses Восточный Тимор as the primary label and reverses Тимор-Лешти into the alternate name.'
   notes.note.turkey.fields.field.country-info:
     intent: delete
     ownership: translation

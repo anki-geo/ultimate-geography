@@ -2,7 +2,6 @@ id: overlay.translation.pl
 kind: translation
 translations:
   direct:
-    'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.': 'Pomiędzy państwami graniczącymi z tym morzem toczy się spór o jego nazwę, przy czym Korea Południowa opowiada się za nazwą Morze Wschodnie. KSNG opowiedziała się za nazwą Morze Japońskie.'
     Abkhazia: Abchazja
     Abu Dhabi: Abu Zabi
     Abuja: 'Abudża'
@@ -33,7 +32,6 @@ translations:
     Athens: Ateny
     Atlantic Ocean: Ocean Atlantycki
     Autonomous community of Spain.: 'Wspólnota autonomiczna Hiszpanii.'
-    Autonomous province of South Korea.: 'Terytorium autonomiczne Korei Południowej, znane także jako Cheju lub Jeju.'
     Autonomous region of Finland.: Terytorium autonomiczne Finlandii.
     Autonomous region of Italy.: 'Terytorium autonomiczne Włoch.'
     Autonomous region of Papua New Guinea.: Terytorium autonomiczne Papui-Nowej Gwinei.
@@ -89,8 +87,6 @@ translations:
     China: Chiny
     'Chișinău': 'Kiszyniów'
     City of San Marino: San Marino
-    Claimed and controlled: 'Terytorium sporne, nad którym sprawuje on władzę'
-    Claimed but not controlled: 'Terytorium sporne, nad którym nie sprawuje ona władzy'
     Colombia: Kolumbia
     Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.: 'Kolombo często nazywane jest stolicą, ale Sri Dźajawardanapura Kotte, przedmieście Kolombo, jest oficjalną stolicą ustawodawczą.'
     Comoros: Komory
@@ -113,8 +109,6 @@ translations:
     Democratic Republic of the Congo: Demokratyczna Republika Konga
     Denmark: Dania
     Denmark Strait: 'Cieśnina Duńska'
-    'Disputed; claimed by Israel; Ramallah is the administrative centre.': 'Terytorium sporne z Izraelem; de facto funkcję stolicy pełni Ramallah.'
-    'Disputed; claimed by Palestine.': 'Terytorium sporne z Palestyną.'
     Djibouti: 'Dżibuti'
     Dominica: Dominika
     Dominican Republic: Dominikana
@@ -166,9 +160,6 @@ translations:
     Hudson Bay: Zatoka Hudsona
     Hungary: 'Węgry'
     Iceland: Islandia
-    Independent state claimed by Georgia.: 'Państwo nieuznawane, terytorium sporne z Gruzją.'
-    Independent state claimed by Moldova.: 'Państwo nieuznawane, terytorium sporne z Mołdawią.'
-    Independent state claimed by Somalia.: 'Państwo nieuznawane, terytorium sporne z Somalią.'
     India: Indie
     Indian Ocean: Ocean Indyjski
     Indonesia: Indonezja
@@ -259,7 +250,6 @@ translations:
     Not a sovereign country: 'Nie jest suwerennym państwem'
     Nouakchott: Nawakszut
     'Nouméa': Numea
-    'Oblast (administrative region) of the Russian Federation.': 'Eksklawa Rosji. Do 2023 r. znany w języku polskim jako obwód kaliningradzki.'
     Official capital was moved from Bujumbura to Gitega in 2019.: 'Oficjalna stolica została przeniesiona z Bużumbury z powrotem do Gitegi w 2019 roku.'
     Official capital was moved from Malabo to Ciudad de la Paz in 2026.: 'Oficjalna stolica została przeniesiona z Malabo do Ciudad de la Paz w 2026 roku.'
     'Officially Côte d''Ivoire.': 'Oficjalnie Côte d’Ivoire.'
@@ -273,9 +263,6 @@ translations:
     Papua New Guinea: Papua-Nowa Gwinea
     Paraguay: Paragwaj
     Paris: 'Paryż'
-    Partially recognised state claimed by China.: 'Częściowo uznane państwo, terytorium sporne z Chinami.'
-    Partially recognised state claimed by Morocco. Also known as Western Sahara.: 'Częściowo uznane państwo, terytorium sporne z Marokiem. Znana także jako Saharyjska Arabska Republika Demokratyczna.'
-    Partially recognised state claimed by Serbia.: 'Państwo częściowo uznane, terytorium sporne z Serbią.'
     Persian Gulf: Zatoka Perska
     Philippine Sea: 'Morze Filipińskie'
     Philippines: Filipiny
@@ -298,7 +285,6 @@ translations:
     Rome: Rzym
     Russia: Rosja
     'Réunion': Reunion
-    Sahrawi Arab Democratic Republic: Sahara Zachodnia
     Saint Kitts and Nevis: Saint Kitts i Nevis
     Saint Martin: Saint-Martin
     Saint Vincent and the Grenadines: Saint Vincent i Grenadyny
@@ -989,6 +975,12 @@ translations:
     crowdanki:uuid:
       43e2586a-9a65-11e8-a777-a0481cc15658: 84786477-e28a-490e-958d-7b35946d7b11
 target_adaptations:
+  notes.note.abkhazia.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Independent state claimed by Georgia.
+    target: 'Państwo nieuznawane, terytorium sporne z Gruzją.'
+    reason: Polish localization describes Abkhazia and South Ossetia as unrecognised states and territories disputed with Georgia.
   notes.note.arctic-ocean.fields.field.country-info:
     intent: adapt
     ownership: translation
@@ -1005,6 +997,36 @@ target_adaptations:
     ownership: translation
     expected_source: Also known as Czechia.
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.israel.fields.field.capital-hint:
+    intent: adapt
+    ownership: translation
+    expected_source: Claimed and controlled
+    target: 'Terytorium sporne, nad którym sprawuje on władzę'
+    reason: Polish localization frames the Israel hint as disputed territory under Israeli control.
+  notes.note.israel.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'Disputed; claimed by Palestine.'
+    target: 'Terytorium sporne z Palestyną.'
+    reason: Polish localization frames the claim as a territorial dispute with Palestine.
+  notes.note.jeju.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Autonomous province of South Korea.
+    target: 'Terytorium autonomiczne Korei Południowej, znane także jako Cheju lub Jeju.'
+    reason: Polish localization adds the Cheju and Jeju naming variants and describes Jeju as an autonomous territory.
+  notes.note.kaliningrad-oblast.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'Oblast (administrative region) of the Russian Federation.'
+    target: 'Eksklawa Rosji. Do 2023 r. znany w języku polskim jako obwód kaliningradzki.'
+    reason: Polish localization follows the 2023 Polish naming recommendation, identifies the exclave, and records the former Polish name.
+  notes.note.kosovo.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Partially recognised state claimed by Serbia.
+    target: 'Państwo częściowo uznane, terytorium sporne z Serbią.'
+    reason: 'Polish localization frames Serbia''s claim as a territorial dispute with Serbia.'
   notes.note.luxembourg.fields.field.capital-info:
     intent: delete
     ownership: translation
@@ -1022,23 +1044,77 @@ target_adaptations:
     expected_source: ''
     target: 'Znany także jako Pacyfik.'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.palestine.fields.field.capital-hint:
+    intent: adapt
+    ownership: translation
+    expected_source: Claimed but not controlled
+    target: 'Terytorium sporne, nad którym nie sprawuje ona władzy'
+    reason: Polish localization frames the Palestine hint as disputed territory outside Palestinian control.
+  notes.note.palestine.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'Disputed; claimed by Israel; Ramallah is the administrative centre.'
+    target: 'Terytorium sporne z Izraelem; de facto funkcję stolicy pełni Ramallah.'
+    reason: Polish localization frames the status as a dispute with Israel and describes Ramallah as the de facto capital.
+  notes.note.sahrawi-arab-democratic-republic.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: Sahrawi Arab Democratic Republic
+    target: Sahara Zachodnia
+    reason: Polish localization uses Western Sahara as the primary label and SADR as its alternate name.
+  notes.note.sahrawi-arab-democratic-republic.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Partially recognised state claimed by Morocco. Also known as Western Sahara.
+    target: 'Częściowo uznane państwo, terytorium sporne z Marokiem. Znana także jako Saharyjska Arabska Republika Demokratyczna.'
+    reason: 'Polish localization uses Western Sahara as the primary label, reverses SADR into the alternate name, and frames Morocco''s claim as a dispute.'
   notes.note.sea-of-galilee.fields.field.country-info:
     intent: adapt
     ownership: translation
     expected_source: ''
     target: 'Znane także jako Jezioro Galilejskie lub Genezaret.'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.sea-of-japan.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.'
+    target: 'Pomiędzy państwami graniczącymi z tym morzem toczy się spór o jego nazwę, przy czym Korea Południowa opowiada się za nazwą Morze Wschodnie. KSNG opowiedziała się za nazwą Morze Japońskie.'
+    reason: 'Polish localization adds the KSNG recommendation for the Polish name Morze Japońskie.'
+  notes.note.somaliland.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Independent state claimed by Somalia.
+    target: 'Państwo nieuznawane, terytorium sporne z Somalią.'
+    reason: Polish localization describes Somaliland as an unrecognised state and territory disputed with Somalia.
   notes.note.south-africa.fields.field.country-info:
     intent: adapt
     ownership: translation
     expected_source: ''
     target: 'Znana także jako RPA (Republika Południowej Afryki).'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.south-ossetia.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Independent state claimed by Georgia.
+    target: 'Państwo nieuznawane, terytorium sporne z Gruzją.'
+    reason: Polish localization describes Abkhazia and South Ossetia as unrecognised states and territories disputed with Georgia.
+  notes.note.taiwan.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Partially recognised state claimed by China.
+    target: 'Częściowo uznane państwo, terytorium sporne z Chinami.'
+    reason: 'Polish localization frames China''s claim as a territorial dispute with China.'
   notes.note.timor-leste.fields.field.country-info:
     intent: delete
     ownership: translation
     expected_source: Also known as East Timor.
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.transnistria.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Independent state claimed by Moldova.
+    target: 'Państwo nieuznawane, terytorium sporne z Mołdawią.'
+    reason: Polish localization describes Transnistria as an unrecognised state and territory disputed with Moldova.
   notes.note.turkey.fields.field.country-info:
     intent: delete
     ownership: translation

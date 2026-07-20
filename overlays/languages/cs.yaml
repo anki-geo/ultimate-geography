@@ -17,8 +17,6 @@ translations:
     Algiers: 'Alžír'
     Also known as Burma.: 'Známý též jako Barma.'
     Also known as Cabo Verde.: 'Známé též jako Cabo Verde.'
-    Also known as Czechia.: 'Používané časteji Česká republika.'
-    Also known as East Timor.: 'Známý též jako Timor Leste.'
     Also known as the Gulf of Siam.: 'Známý též jako Záliv Siam.'
     Also known as the Sea of Cortez.: 'Známý též jako Cortézovo moře.'
     'Also spelled as Sana''a.': 'Také psáno jako San''á.'
@@ -260,7 +258,6 @@ translations:
     Panama City: 'Panamá'
     Papua New Guinea: 'Papua Nová Guinea'
     Paris: 'Paříž'
-    Partially recognised state claimed by China.: 'Částečně uznávaný stát nárokovaný Čínou, známý též jako Taiwan.'
     Partially recognised state claimed by Morocco. Also known as Western Sahara.: 'Částečné uznávaný stát nárokovaný Marokem, známý též jako Západní Sahara.'
     Partially recognised state claimed by Serbia.: 'Částečně uznávaný stát nárokováný Srbskem.'
     Persian Gulf: 'Perský záliv'
@@ -1043,6 +1040,12 @@ translations:
     crowdanki:uuid:
       43e2586a-9a65-11e8-a777-a0481cc15658: 47d13c81-b471-4471-8e87-ebad53fa7307
 target_adaptations:
+  notes.note.czech-republic.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as Czechia.
+    target: 'Používané časteji Česká republika.'
+    reason: 'Czech localization uses Česko as the primary label and presents Česká republika as the more frequent alternate name.'
   notes.note.eswatini.fields.field.country-info:
     intent: delete
     ownership: translation
@@ -1059,6 +1062,18 @@ target_adaptations:
     expected_source: ''
     target: 'Známý též jako Pacifik.'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.taiwan.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Partially recognised state claimed by China.
+    target: 'Částečně uznávaný stát nárokovaný Čínou, známý též jako Taiwan.'
+    reason: Czech localization adds the alternate spelling Taiwan for primary label Tchaj-wan.
+  notes.note.timor-leste.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as East Timor.
+    target: 'Známý též jako Timor Leste.'
+    reason: 'Czech localization uses Východní Timor as the primary label and reverses Timor Leste into the alternate name.'
   notes.note.turkey.fields.field.country-info:
     intent: delete
     ownership: translation

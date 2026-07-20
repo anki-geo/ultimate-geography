@@ -13,9 +13,6 @@ translations:
     Albania: Albanie
     Algeria: 'Algérie'
     Algiers: Alger
-    Also known as Burma.: Aussi connue comme le Myanmar.
-    Also known as Czechia.: 'Aussi connue comme la  République tchèque.'
-    Also known as East Timor.: Aussi connu comme le Timor-Leste.
     Also known as the Gulf of Siam.: Aussi connu comme le golfe du Siam.
     Also known as the Sea of Cortez.: 'Aussi connu comme la mer de Cortés.'
     American Samoa: 'Samoa américaines'
@@ -112,7 +109,6 @@ translations:
     Denmark: Danemark
     Denmark Strait: 'Détroit de Danemark'
     Dhaka: Dacca
-    'Disputed; claimed by Israel; Ramallah is the administrative centre.': 'Contestée; revendiquée par Israël; Ramallah est la capitale administrative de fait.'
     'Disputed; claimed by Palestine.': 'Contestée; revendiquée par la Palestine.'
     Dominica: Dominique
     Dominican Republic: 'République dominicaine'
@@ -158,7 +154,6 @@ translations:
     Hanoi: 'Hanoï'
     Havana: La Havane
     Hawaii: 'Hawaï'
-    Historical and cultural region in Northern Europe, which includes the countries of Denmark, Norway and Sweden, and sometimes Finland and Iceland.: 'Région historique et culturelle d''Europe du Nord constituée de trois monarchies constitutionnelles, le Danemark, la Norvège et la Suède, et parfois de façon incorrecte l''Islande et la Finlande.'
     Hudson Bay: 'Baie d''Hudson'
     Hungary: Hongrie
     Iceland: Islande
@@ -298,7 +293,6 @@ translations:
     South America: 'Amérique du Sud'
     South China Sea: 'Mer de Chine méridionale'
     South Korea: 'Corée du Sud'
-    South Ossetia: 'Ossétie du Sud-Alanie'
     South Sudan: Soudan du Sud
     South Tarawa: Tarawa-Sud
     Southern Ocean: 'Océan Austral'
@@ -360,7 +354,6 @@ translations:
     Washington, D.C.: Washington
     While Amsterdam is the official capital, The Hague is the seat of the executive and legislative branches.: 'Bien qu''Amsterdam soit la capitale officielle, La Haye est le siège du gouvernement et du parlement.'
     While Dodoma is the official capital, Dar es Salaam is the de facto seat of government.: 'Bien que Dodoma soit la capitale officielle, Dar es Salaam est le siège du gouvernement.'
-    'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.': 'Bien que Laâyoune soit la capitale déclarée, Tifariti est le siège du gouvernement.'
     While Mbabane is the official, executive capital, Lobamba is the traditional, spiritual and legislative capital.: 'Bien que Mbabane soit la capitale exécutive officielle, Lobamba est la capitale traditionnelle, spirituelle et législative.'
     While Porto-Novo is the official capital, Cotonou is the de facto seat of government.: 'Bien que Porto-Novo soit la capitale officielle, Cotonou est le siège du gouvernement.'
     While Sucre is the constitutional capital, La Paz is the seat of government.: 'Bien que Sucre soit la capitale constitutionnelle, La Paz est le siège du gouvernement.'
@@ -1015,6 +1008,12 @@ target_adaptations:
     expected_source: ''
     target: Aussi connu comme la mer de Sulawesi.
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.czech-republic.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as Czechia.
+    target: 'Aussi connue comme la  République tchèque.'
+    reason: 'French uses Tchéquie as the primary label and intentionally gives République tchèque as the alternate name.'
   notes.note.ivory-coast.fields.field.country-info:
     intent: delete
     ownership: translation
@@ -1025,6 +1024,42 @@ target_adaptations:
     ownership: translation
     expected_source: Officially Luxembourg.
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.myanmar.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as Burma.
+    target: Aussi connue comme le Myanmar.
+    reason: French uses Birmanie as the primary label and intentionally gives Myanmar as the alternate name.
+  notes.note.palestine.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'Disputed; claimed by Israel; Ramallah is the administrative centre.'
+    target: 'Contestée; revendiquée par Israël; Ramallah est la capitale administrative de fait.'
+    reason: French intentionally describes Ramallah as the de facto administrative capital rather than merely an administrative centre.
+  notes.note.sahrawi-arab-democratic-republic.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.'
+    target: 'Bien que Laâyoune soit la capitale déclarée, Tifariti est le siège du gouvernement.'
+    reason: 'French uses the preferred Laâyoune name, omits the Spanish alias, and simplifies the government-seat wording.'
+  notes.note.scandinavia.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Historical and cultural region in Northern Europe, which includes the countries of Denmark, Norway and Sweden, and sometimes Finland and Iceland.
+    target: 'Région historique et culturelle d''Europe du Nord constituée de trois monarchies constitutionnelles, le Danemark, la Norvège et la Suède, et parfois de façon incorrecte l''Islande et la Finlande.'
+    reason: French uses a narrower cultural definition, adds constitutional-monarchy status, and judges the inclusion of Finland and Iceland incorrect.
+  notes.note.south-ossetia.fields.field.country:
+    intent: adapt
+    ownership: translation
+    expected_source: South Ossetia
+    target: 'Ossétie du Sud-Alanie'
+    reason: 'French intentionally uses the extended polity name South Ossetia–Alania.'
+  notes.note.timor-leste.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as East Timor.
+    target: Aussi connu comme le Timor-Leste.
+    reason: French uses Timor oriental as the primary label and intentionally gives Timor-Leste as the alternate name.
   notes.note.turkey.fields.field.country-info:
     intent: delete
     ownership: translation

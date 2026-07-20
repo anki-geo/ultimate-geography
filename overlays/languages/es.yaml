@@ -15,7 +15,6 @@ translations:
     Akrotiri and Dhekelia: Acrotiri y Dhekelia
     Algeria: Argelia
     Algiers: Argel
-    Also known as Burma.: 'También conocida como Myanmar.'
     Also known as Czechia.: 'También conocida como Chequia.'
     Also known as the Gulf of Siam.: 'También conocido como golfo de Siam.'
     Also known as the Sea of Cortez.: 'También conocido como mar de Cortés.'
@@ -185,7 +184,6 @@ translations:
     Khartoum: Jartum
     Kinshasa: Kinsasa
     Known as Nur-Sultan between 2019 and 2022: 'Conocida como Nursultán entre 2019 y 2022'
-    Known as Swaziland until 2018.: Oficialmente Esuatini desde 2018.
     Kuwait City: Kuwait
     Kyiv: Kiev
     Kyrgyzstan: 'Kirguistán'
@@ -391,7 +389,6 @@ translations:
     Washington, D.C.: Washington D. C.
     While Amsterdam is the official capital, The Hague is the seat of the executive and legislative branches.: 'Aunque Ámsterdam es la capital oficial, La Haya es la sede del gobierno y del poder legislativo.'
     While Dodoma is the official capital, Dar es Salaam is the de facto seat of government.: Aunque Dodoma es la capital oficial, Dar es-Salam es la capital de facto.
-    'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.': 'Aunque El Aaiún es la capital proclamada, Tifariti es la capital de facto.'
     While Mbabane is the official, executive capital, Lobamba is the traditional, spiritual and legislative capital.: Aunque Mbabane es la capital oficial y ejecutiva, Lobamba es la capital tradicional, espiritual y legislativa.
     While Porto-Novo is the official capital, Cotonou is the de facto seat of government.: 'Aunque Porto Novo es la capital oficial, Cotonú es la capital de facto.'
     While Sucre is the constitutional capital, La Paz is the seat of government.: Aunque Sucre es la capital constitucional, La Paz es sede de gobierno.
@@ -1000,11 +997,29 @@ target_adaptations:
     expected_source: ''
     target: 'También conocido como mar de Sulawesi.'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.eswatini.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Known as Swaziland until 2018.
+    target: Oficialmente Esuatini desde 2018.
+    reason: Spanish retains Suazilandia as the displayed name and reframes the post-2018 official name as Esuatini.
   notes.note.luxembourg.fields.field.capital-info:
     intent: delete
     ownership: translation
     expected_source: Officially Luxembourg.
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.myanmar.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as Burma.
+    target: 'También conocida como Myanmar.'
+    reason: Spanish uses Birmania as the primary label and intentionally gives Myanmar as the alternate name.
+  notes.note.sahrawi-arab-democratic-republic.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.'
+    target: 'Aunque El Aaiún es la capital proclamada, Tifariti es la capital de facto.'
+    reason: 'Spanish uses the preferred El Aaiún exonym and intentional de facto-capital wording.'
   notes.note.timor-leste.fields.field.country-info:
     intent: delete
     ownership: translation

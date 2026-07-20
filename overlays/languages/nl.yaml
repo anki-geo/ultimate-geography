@@ -2,7 +2,6 @@ id: overlay.translation.nl
 kind: translation
 translations:
   direct:
-    'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.': Er bestaat een dispuut over de naam tussen de aangrenzende landen. In het Koreaans wordt de zee Oostzee genoemd.
     Abkhazia: 'Abchazië'
     Addis Ababa: Addis Abeba
     Adriatic Sea: Adriatische Zee
@@ -12,7 +11,6 @@ translations:
     Albania: 'Albanië'
     Algeria: Algerije
     Also known as Burma.: Ook bekend als Birma.
-    Also known as East Timor.: Ook bekend als Timor-Leste.
     Also known as the Sea of Cortez.: 'Ook wel de Zee van Cortés genoemd.'
     American Samoa: Amerikaans Samoa
     Antigua and Barbuda: Antigua en Barbuda
@@ -73,7 +71,6 @@ translations:
     Celebes Sea: Celebeszee
     Celtic Sea: Keltische Zee
     Central African Republic: Centraal-Afrikaanse Republiek
-    Cetinje is an honorary capital.: Voormalige hoofdstad is Cetinje.
     Chad: Tsjaad
     Chile: Chili
     City of San Marino: San Marino
@@ -317,9 +314,7 @@ translations:
     While Dodoma is the official capital, Dar es Salaam is the de facto seat of government.: 'Ondanks Dodoma de officiële hoofdstad is, is Dar es Salaam de facto de zetel van de regering.'
     'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.': Ondanks Laayoune, ook wel bekend als al-Ajoen, de verklaarde hoofdstad is, is Tifariti de feitelijke zetel van de regering.
     While Mbabane is the official, executive capital, Lobamba is the traditional, spiritual and legislative capital.: Mbabane is de bestuurlijke hoofdstad en Lobamba de traditionele koninklijke hoofdstad en wettelijke zetel.
-    While Porto-Novo is the official capital, Cotonou is the de facto seat of government.: 'Porto-Novo is de officiële hoofdstad, maar de economische hoofdstad en grootste stad van Benin is Cotonou.'
     While Sucre is the constitutional capital, La Paz is the seat of government.: Ondanks Sucre de constitutionele hoofdstad is, is La Paz de zetel van de regering.
-    While Yamoussoukro is the official capital, Abidjan is the de facto seat of government.: Abidjan was tot 1983 de hoofdstad, de meeste overheidsgebouwen en ambassades bevinden zich er nog steeds.
     White Sea: Witte Zee
     World region covering the Australian continent and most of the islands in the Pacific Ocean.: Wereldregio die het Australische continent en de meeste eilanden in de Stille Oceaan beslaat.
     Yellow Sea: Gele Zee
@@ -1000,6 +995,12 @@ target_adaptations:
     expected_source: ''
     target: Ook bekend als Belarus.
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.benin.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: While Porto-Novo is the official capital, Cotonou is the de facto seat of government.
+    target: 'Porto-Novo is de officiële hoofdstad, maar de economische hoofdstad en grootste stad van Benin is Cotonou.'
+    reason: 'Dutch intentionally substitutes Cotonou''s economic-capital and largest-city roles for the source de facto government-seat claim.'
   notes.note.cape-verde.fields.field.country-info:
     intent: delete
     ownership: translation
@@ -1027,6 +1028,12 @@ target_adaptations:
     ownership: translation
     expected_source: Also known as the Gulf of Siam.
     reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.ivory-coast.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: While Yamoussoukro is the official capital, Abidjan is the de facto seat of government.
+    target: Abidjan was tot 1983 de hoofdstad, de meeste overheidsgebouwen en ambassades bevinden zich er nog steeds.
+    reason: 'Dutch intentionally replaces the de facto-seat wording with Abidjan''s former-capital history and continuing government and embassy presence.'
   notes.note.ivory-coast.fields.field.country-info:
     intent: delete
     ownership: translation
@@ -1043,6 +1050,12 @@ target_adaptations:
     expected_source: ''
     target: Ook wel Maldiven genoemd.
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.montenegro.fields.field.capital-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Cetinje is an honorary capital.
+    target: Voormalige hoofdstad is Cetinje.
+    reason: Dutch intentionally describes Cetinje as the former capital instead of an honorary capital.
   notes.note.pacific-ocean.fields.field.country-info:
     intent: adapt
     ownership: translation
@@ -1055,6 +1068,18 @@ target_adaptations:
     expected_source: ''
     target: Ook wel Meer van Kinneret, Meer van Galilea of Meer van Genezareth genoemd.
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.sea-of-japan.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: 'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.'
+    target: Er bestaat een dispuut over de naam tussen de aangrenzende landen. In het Koreaans wordt de zee Oostzee genoemd.
+    reason: 'Dutch intentionally replaces South Korea''s support claim with a Korean-language naming statement.'
+  notes.note.timor-leste.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as East Timor.
+    target: Ook bekend als Timor-Leste.
+    reason: Dutch uses Oost-Timor as the primary answer and presents Timor-Leste as the alternate name.
   notes.note.turkey.fields.field.country-info:
     intent: delete
     ownership: translation
