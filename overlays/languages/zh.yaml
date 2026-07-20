@@ -410,7 +410,6 @@ translations:
     Paraguay: '巴拉圭(Paraguay)'
     Paramaribo: '帕拉马里博(Paramaribo)'
     Paris: '巴黎(Paris)'
-    Partially recognised state claimed by China.: '中国宣称对台湾拥有主权，但仅被部分国家承认'
     Partially recognised state claimed by Morocco. Also known as Western Sahara.: '摩洛哥(Morocco)宣称拥有主权但仅被部分国家承认的地区。'
     Partially recognised state claimed by Serbia.: '塞尔维亚(Serbia)宣称拥有主权但仅被部分国家承认的地区。'
     Persian Gulf: '波斯湾(Persian Gulf)'
@@ -1133,6 +1132,12 @@ target_adaptations:
     expected_source: ''
     target: '现名尼德兰(Netherlands)，中文通译为荷兰(Holanda)'
     reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.taiwan.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Partially recognised state claimed by China.
+    target: '中国宣称对台湾拥有主权，但仅被部分国家承认'
+    reason: target-language geopolitical wording
   notes.note.turkey.fields.field.country-info:
     intent: delete
     ownership: translation
