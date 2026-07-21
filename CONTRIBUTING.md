@@ -23,14 +23,14 @@ The source of truth is:
 
 ### Getting started
 
-Install the published Brain Brew alpha.2 CLI as a normal `brainbrew` command:
+Install the published Brain Brew alpha.3 CLI as a normal `brainbrew` command:
 
 ```bash
-cargo install brainbrew --version 1.0.0-alpha.2 --locked
+cargo install brainbrew --version 1.0.0-alpha.3 --locked
 brainbrew --version
 ```
 
-CI uses the immutable Nix source revision `f5f45a3d091985733d8979ef512411d4020bf941`. To use that same Nix source locally, prefix a Brain Brew command with `nix run github:jeprecated/brain-brew/f5f45a3d091985733d8979ef512411d4020bf941 --`.
+CI uses the immutable Nix source revision `6ee570d427a1a8eec92c22668442f9b7186f9ba7`. To use that same Nix source locally, prefix a Brain Brew command with `nix run github:jeprecated/brain-brew/6ee570d427a1a8eec92c22668442f9b7186f9ba7 --`.
 
 List the available targets:
 
@@ -48,7 +48,7 @@ for manifest in brainbrew.yaml brainbrew-hardcore.yaml; do
 done
 ```
 
-The small Python command only protects the two canonical translation-profile copies from drifting; alpha.2 does not support a mapping-valued `!include` there. HTML/CSS validation is part of Brain Brew itself.
+The small Python command only protects the two canonical translation-profile copies from drifting; alpha.3 does not support a mapping-valued `!include` there. HTML/CSS validation is part of Brain Brew itself.
 
 Export one target with media:
 
@@ -197,14 +197,14 @@ brainbrew translations --manifest brainbrew.yaml --target da-standard --apply
 brainbrew translations --manifest brainbrew.yaml --target da-standard --context --status missing --apply --interactive
 ```
 
-For a browser-based local UI, released Brain Brew builds expose the read-only Deck Workbench server:
+For a browser-based local UI with explicitly enabled writes, run the released Brain Brew Workbench locally:
 
 ```bash
-brainbrew workbench serve --manifest brainbrew.yaml
-brainbrew workbench serve --manifest brainbrew.yaml --port 0 --no-open
+brainbrew workbench serve --manifest brainbrew.yaml --enable-write
+brainbrew workbench serve --manifest brainbrew.yaml --port 0 --no-open --enable-write
 ```
 
-This launches a local `127.0.0.1` server with embedded browser assets. Release builds do not mutate canonical source files: browsing, target and language selection, comparison panes, previews, and browser-local draft staging are available, while Apply and new-language source writes remain blocked. Use the terminal `translations` workflow above for intentional source edits.
+This launches a local `127.0.0.1` server with embedded browser assets. Every server starts read-only unless `--enable-write` is supplied; the flag explicitly opts that local process into write mode. Browser-local drafts remain unapplied until you review and confirm Apply. Only then can Brain Brew update the canonical YAML and owned translation overlays through its validated workspace transaction. Write mode is visibly marked because additional hardening remains incomplete, so keep the repository under version control and do not use it on irreplaceable state. Omit `--enable-write` whenever you only want to browse, compare languages and targets, or preview cards.
 
 UG keeps translation coverage lenient for now because several language and Hardcore targets intentionally have missing/raw fallback text while translation work continues. `brainbrew verify` still rejects stale keys, invalid target additions, broken contextual paths, and media/reference errors. For a fully completed release target, maintainers can opt into strict checks with target metadata or a one-off command:
 

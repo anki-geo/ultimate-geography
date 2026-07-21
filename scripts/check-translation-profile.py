@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Keep the two alpha.2 manifest translation profiles byte-for-byte identical."""
+"""Keep the two alpha.3 manifest translation profiles byte-for-byte identical."""
 
 from pathlib import Path
 import sys
