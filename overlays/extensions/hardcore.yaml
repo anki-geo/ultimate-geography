@@ -1,0 +1,1047 @@
+id: overlay.extension.hardcore
+kind: extension
+notes:
+  note.bonaire:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: Kralendijk
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Bonaire
+        field.country-info: Special municipality of the Netherlands.
+        field.flag: !image media.ug-flag-bonaire-svg
+        field.flag-similarity: ''
+        field.map: !image media.ug-map-bonaire-png
+      tags:
+        - UG::Caribbean
+        - UG::North_America
+      adapter_ids:
+        crowdanki:guid: '~)7-62ytBX'
+  note.british-indian-ocean-territory:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: Camp Justice
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: British Indian Ocean Territory
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: !image media.ug-flag-british-indian-ocean-territory-svg
+        field.flag-similarity: ''
+        field.map: !image media.ug-map-british-indian-ocean-territory-png
+      tags:
+        - UG::Africa
+      adapter_ids:
+        crowdanki:guid: 'ArmciP%a;a'
+  note.ceuta:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Ceuta
+        field.country-info: Autonomous city of Spain.
+        field.flag: !image media.ug-flag-ceuta-png
+        field.flag-similarity: ''
+        field.map: !image media.ug-map-ceuta-png
+      tags:
+        - UG::Europe
+      adapter_ids:
+        crowdanki:guid: 'rHh8*,y.yc'
+  note.christmas-island:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: Flying Fish Cove
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Christmas Island
+        field.country-info: External territory of Australia.
+        field.flag: !image media.ug-flag-christmas-island-svg
+        field.flag-similarity: ''
+        field.map: !image media.ug-map-christmas-island-png
+      tags:
+        - UG::Asia
+        - UG::Southeast_Asia
+      adapter_ids:
+        crowdanki:guid: 'k3]]2^DP1R'
+  note.cocos-keeling-islands:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: West Island
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: 'Cocos (Keeling) Islands'
+        field.country-info: External territory of Australia.
+        field.flag: !image media.ug-flag-cocos-islands-svg
+        field.flag-similarity: ''
+        field.map: !image media.ug-map-cocos-islands-png
+      tags:
+        - UG::Asia
+        - UG::Southeast_Asia
+      adapter_ids:
+        crowdanki:guid: mvNnHkGnVl
+  note.easter-island:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Easter Island
+        field.country-info: Polynesian island and special territory of Chile.
+        field.flag: !image media.ug-flag-easter-island-svg
+        field.flag-similarity: ''
+        field.map: !image media.ug-map-easter-island-png
+      tags:
+        - UG::Oceania
+      adapter_ids:
+        crowdanki:guid: 'rNv|0qxR]K'
+  note.gal-pagos-islands:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: Puerto Baquerizo Moreno
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: 'Galápagos Islands'
+        field.country-info: Province of Ecuador.
+        field.flag: !image media.ug-flag-galapagos-islands-svg
+        field.flag-similarity:
+          format: '{country_1} ({description_1})'
+          variables:
+            country_1:
+              text: Sierra Leone
+            description_1:
+              text: slightly lighter blue
+        field.map: !image media.ug-map-galapagos-islands-png
+      tags:
+        - UG::South_America
+      adapter_ids:
+        crowdanki:guid: 'j=,1:f39$]'
+  note.hardcore-american-samoa:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: American Samoa
+        field.country-info: Unincorporated territory of the United States.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Oceania
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'lU*>%[&e|.'
+  note.hardcore-anguilla:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Anguilla
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'cy]sz097{A'
+  note.hardcore-azores:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Azores
+        field.country-info: Autonomous region of Portugal.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Europe
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'hz,n^64X%i'
+  note.hardcore-bali:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Bali
+        field.country-info: Island of Indonesia.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Asia
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: ',LnVW8IL`'
+  note.hardcore-bermuda:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Bermuda
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'e%!;xc:jxC'
+  note.hardcore-british-virgin-islands:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: British Virgin Islands
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: oDGbPPlkzc
+  note.hardcore-canary-islands:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Canary Islands
+        field.country-info: Autonomous community of Spain.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Africa
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'cB]XeL7sC?'
+  note.hardcore-cayman-islands:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Cayman Islands
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 't8K|Gnw[k$'
+  note.hardcore-corsica:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Corsica
+        field.country-info: Region of France.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Europe
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: '2N$NqX&k.'
+  note.hardcore-falkland-islands:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Falkland Islands
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Overlapping
+        - UG::South_America
+      adapter_ids:
+        crowdanki:guid: 'UkP!tU%r)'
+  note.hardcore-french-guiana:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: French Guiana
+        field.country-info: Overseas department of France.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Overlapping
+        - UG::South_America
+      adapter_ids:
+        crowdanki:guid: '~F>Y6gVJay'
+  note.hardcore-gibraltar:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Gibraltar
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Europe
+        - UG::Mediterranean
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'mHDrx]xo!x'
+  note.hardcore-guadeloupe:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Guadeloupe
+        field.country-info: Overseas department of France.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'r]V9W,sj5i'
+  note.hardcore-guernsey:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Guernsey
+        field.country-info: Crown dependency of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Europe
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'n#k%mr&bc-'
+  note.hardcore-isle-of-man:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Isle of Man
+        field.country-info: Crown dependency of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Europe
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'a_~PL,CWhU'
+  note.hardcore-jersey:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Jersey
+        field.country-info: Crown dependency of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Europe
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'kq:]$sh13['
+  note.hardcore-kaliningrad-oblast:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Kaliningrad Oblast
+        field.country-info: 'Oblast (administrative region) of the Russian Federation.'
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Europe
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'b&sLa#a&vn'
+  note.hardcore-madeira:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Madeira
+        field.country-info: Autonomous region of Portugal.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Europe
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'fKTU=+DKl]'
+  note.hardcore-martinique:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Martinique
+        field.country-info: Overseas department of France.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'sxF2<dV=;U'
+  note.hardcore-mayotte:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Mayotte
+        field.country-info: Overseas department of France.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Africa
+        - UG::East_Africa
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'v2Z)BIAnoM'
+  note.hardcore-northern-mariana-islands:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Northern Mariana Islands
+        field.country-info: Unincorporated territory of the United States.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Oceania
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'nK;HFcd-1P'
+  note.hardcore-r-union:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: 'Réunion'
+        field.country-info: Overseas department of France.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Africa
+        - UG::East_Africa
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: t3VhRfcBZs
+  note.hardcore-saint-martin:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Saint Martin
+        field.country-info: Overseas territory of France.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'rbjYQCA<Z.'
+  note.hardcore-sardinia:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Sardinia
+        field.country-info: Autonomous region of Italy.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Europe
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'h/)!YCH&na'
+  note.hardcore-sicily:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Sicily
+        field.country-info: Autonomous region of Italy.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Europe
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'lIEV|(|pPu'
+  note.hardcore-sint-maarten:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Sint Maarten
+        field.country-info: Constituent country of the Kingdom of the Netherlands.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: '~Z$*giAq2R'
+  note.hardcore-turks-and-caicos-islands:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Turks and Caicos Islands
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Caribbean
+        - UG::North_America
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: ogLVp1-2mC
+  note.hardcore-zanzibar:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Zanzibar
+        field.country-info: Semi-autonomous region of Tanzania.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: ''
+      tags:
+        - UG::Africa
+        - UG::Overlapping
+      adapter_ids:
+        crowdanki:guid: 'e1zOyx7^cj'
+  note.melilla:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Melilla
+        field.country-info: Autonomous city of Spain
+        field.flag: !image media.ug-flag-melilla-png
+        field.flag-similarity: ''
+        field.map: !image media.ug-map-melilla-png
+      tags:
+        - UG::Europe
+      adapter_ids:
+        crowdanki:guid: 'd~3m`ihA*b'
+  note.montserrat:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: Brades
+        field.capital-hint: ''
+        field.capital-info: Eruptions in 1997 destroyed the capital city of Plymouth, making Brades the de facto capital.
+        field.country: Montserrat
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: !image media.ug-flag-montserrat-svg
+        field.flag-similarity: ''
+        field.map: !image media.ug-map-montserrat-png
+      tags:
+        - UG::Caribbean
+        - UG::North_America
+      adapter_ids:
+        crowdanki:guid: 'iq7o#n0juD'
+  note.mount-athos:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: Karyes
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Mount Athos
+        field.country-info: Autonomous orthodox monastic state in northeastern Greece, also known as the Holy Mountain.
+        field.flag: !image media.ug-flag-mount-athos-png
+        field.flag-similarity: ''
+        field.map: !image media.ug-map-mount-athos-png
+      tags:
+        - UG::Europe
+      adapter_ids:
+        crowdanki:guid: 'qAsU}ONgC#'
+  note.norfolk-island:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: Kingston
+        field.capital-hint: Not a sovereign country
+        field.capital-info: ''
+        field.country: Norfolk Island
+        field.country-info: External territory of Australia.
+        field.flag: !image media.ug-flag-norfolk-island-svg
+        field.flag-similarity: ''
+        field.map: !image media.ug-map-norfolk-island-png
+      tags:
+        - UG::Oceania
+      adapter_ids:
+        crowdanki:guid: 'nipI.lOoC;'
+  note.pitcairn-islands:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: Adamstown
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Pitcairn Islands
+        field.country-info: Overseas territory of the United Kingdom.
+        field.flag: !image media.ug-flag-pitcairn-islands-svg
+        field.flag-similarity: ''
+        field.map: !image media.ug-map-pitcairn-islands-png
+      tags:
+        - UG::Oceania
+      adapter_ids:
+        crowdanki:guid: 'mCh>s18~IX'
+  note.saba:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: The Bottom
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Saba
+        field.country-info: Special municipality of the Netherlands.
+        field.flag: !image media.ug-flag-saba-svg
+        field.flag-similarity: ''
+        field.map: !image media.ug-map-saba-png
+      tags:
+        - UG::Caribbean
+        - UG::North_America
+      adapter_ids:
+        crowdanki:guid: 'i;=jdbhl(w'
+  note.saint-barth-lemy:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: Gustavia
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: 'Saint Barthélemy'
+        field.country-info: Overseas territory of France.
+        field.flag: ''
+        field.flag-similarity: ''
+        field.map: !image media.ug-map-saint-barthelemy-png
+      tags:
+        - UG::Caribbean
+        - UG::North_America
+      adapter_ids:
+        crowdanki:guid: 'ga97y4Zy0{'
+  note.saint-helena:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: Jamestown
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Saint Helena
+        field.country-info: Part of Saint Helena, Ascension and Tristan da Cunha, an overseas territory of the United Kingdom.
+        field.flag: !image media.ug-flag-saint-helena-png
+        field.flag-similarity: ''
+        field.map: !image media.ug-map-saint-helena-png
+      tags:
+        - UG::Africa
+        - UG::West_Africa
+      adapter_ids:
+        crowdanki:guid: 'khTp#J9C!!'
+  note.sint-eustatius:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: Oranjestad
+        field.capital-hint: Special municipality
+        field.capital-info: ''
+        field.country: Sint Eustatius
+        field.country-info: Special municipality of the Netherlands.
+        field.flag: !image media.ug-flag-sint-eustatius-svg
+        field.flag-similarity: ''
+        field.map: !image media.ug-map-sint-eustatius-png
+      tags:
+        - UG::Caribbean
+        - UG::North_America
+      adapter_ids:
+        crowdanki:guid: 'r3?J{NB0J3'
+  note.tokelau:
+    intent: add
+    note:
+      note_type_id: note-type.ultimate-geography
+      fields:
+        field.capital: ''
+        field.capital-hint: ''
+        field.capital-info: ''
+        field.country: Tokelau
+        field.country-info: 'Dependent territory of New Zealand. Tokelau has no official capital; the meeting place of the Tokelau Council rotates annually.'
+        field.flag: !image media.ug-flag-tokelau-svg
+        field.flag-similarity: ''
+        field.map: !image media.ug-map-tokelau-png
+      tags:
+        - UG::Oceania
+      adapter_ids:
+        crowdanki:guid: 'nN<IGBxnX.'
+media:
+  media.ug-flag-american-samoa-svg:
+    intent: add
+    path: ug-flag-american_samoa.svg
+    sha256: 3141548649c7f9aa2d9011d318d83146bd4ecabd1222c6765c5a015193102f9e
+  media.ug-flag-anguilla-svg:
+    intent: add
+    path: ug-flag-anguilla.svg
+    sha256: 8bd73d66ffc14d929e71cae619bcebd2c414f7d08ecb2449203c81badcb7a5c9
+  media.ug-flag-azores-svg:
+    intent: add
+    path: ug-flag-azores.svg
+    sha256: ec76751963336c3c1bc99159a5c94e9096d79c3aac7cbc6871b8eab8bb165e84
+  media.ug-flag-bali-blur-png:
+    intent: add
+    path: ug-flag-bali-blur.png
+    sha256: 8adbdd7733e6e7a10958ecd1e1dab17f6a08bf72ece212fea57ab87bcef42119
+  media.ug-flag-bali-png:
+    intent: add
+    path: ug-flag-bali.png
+    sha256: 221e12d212316b2b920fc9f0372cbdc65523068bc6f103fd9996c80beb15512c
+  media.ug-flag-bermuda-svg:
+    intent: add
+    path: ug-flag-bermuda.svg
+    sha256: e134e7015ba692dc084dcb2eabcc27dfb9f71ef6f85965fd6b8cadc118682925
+  media.ug-flag-bonaire-svg:
+    intent: add
+    path: ug-flag-bonaire.svg
+    sha256: 4fad22285b1b0206ea8494cd77197b327141a208b1aa8e1e81f62921d19122cb
+  media.ug-flag-british-indian-ocean-territory-svg:
+    intent: add
+    path: ug-flag-british_indian_ocean_territory.svg
+    sha256: f09d431d9dc267b9ca3977f2ebe4fd55ad41e6de4fefd343f495caea1d038bb4
+  media.ug-flag-british-virgin-islands-svg:
+    intent: add
+    path: ug-flag-british_virgin_islands.svg
+    sha256: 38b7542ec50e88dcd852ca37c723bdd1368e05d2ef117d940193069458871d4d
+  media.ug-flag-canary-islands-svg:
+    intent: add
+    path: ug-flag-canary_islands.svg
+    sha256: 990186e1c3c21a85f197f730ea9dd8181020912c7ca2d23736813e0c742a3ab1
+  media.ug-flag-cayman-islands-svg:
+    intent: add
+    path: ug-flag-cayman_islands.svg
+    sha256: 2187fe60713dd1eeb1522131b7a2869ff55817abdb75c77aa4e5dabb18e6c12c
+  media.ug-flag-ceuta-png:
+    intent: add
+    path: ug-flag-ceuta.png
+    sha256: 4d0a59d76fc6d945bb4b91efa7de3a3d62354306b07c3d0c9c88d936862654dc
+  media.ug-flag-christmas-island-svg:
+    intent: add
+    path: ug-flag-christmas_island.svg
+    sha256: 2c8bde6bab5c1a3f1cbbf06b4ad3dd260b1887654280f49af18d9fa23330cb28
+  media.ug-flag-cocos-islands-svg:
+    intent: add
+    path: ug-flag-cocos_islands.svg
+    sha256: 17d0def642f734793774bf122cdc2a83482f8764bc99be198d1fca2b8f297d3c
+  media.ug-flag-corsica-svg:
+    intent: add
+    path: ug-flag-corsica.svg
+    sha256: 8af45ff1808cf274f93dcbac3a70da60ab13e45c9e30f631f36a8e724007eefe
+  media.ug-flag-easter-island-svg:
+    intent: add
+    path: ug-flag-easter_island.svg
+    sha256: ee31824174bd0dd3b67151e4b54b16c2bf2280fffc96c811c7d577e3fdc485cc
+  media.ug-flag-falkland-islands-svg:
+    intent: add
+    path: ug-flag-falkland_islands.svg
+    sha256: a1b3350ebcc188df50b2327ac7b9d8d83d6f3b7792150c08f6f84b03e10ef915
+  media.ug-flag-galapagos-islands-svg:
+    intent: add
+    path: ug-flag-galapagos_islands.svg
+    sha256: 8b2cf697e045169b9d73b47b96a7ccafd51fba64695ce4b62c8407768ec058ef
+  media.ug-flag-gibraltar-svg:
+    intent: add
+    path: ug-flag-gibraltar.svg
+    sha256: 9775848c325e8db3a27084ae8ad4c44186d53c8ec7473b9bb811655a143a62e2
+  media.ug-flag-guernsey-svg:
+    intent: add
+    path: ug-flag-guernsey.svg
+    sha256: 8044ff0e18b0b42d5574039a22b6bec846dca94a08ac1b0f0676957eaacb95ad
+  media.ug-flag-isle-of-man-svg:
+    intent: add
+    path: ug-flag-isle_of_man.svg
+    sha256: ec2cd3c20eb803db16244526b5cc83f2a22de128aa184a78bb823976aaa6c777
+  media.ug-flag-jersey-svg:
+    intent: add
+    path: ug-flag-jersey.svg
+    sha256: e2505849bfd23e1dfa0835561580c2fea0a1fde3e99588a4f7418651805a61b1
+  media.ug-flag-kaliningrad-oblast-svg:
+    intent: add
+    path: ug-flag-kaliningrad_oblast.svg
+    sha256: 488da56d3b5a876ceb5f11e3101f5f98fa66cfb480112429e69b86ee22421ca4
+  media.ug-flag-madeira-svg:
+    intent: add
+    path: ug-flag-madeira.svg
+    sha256: a2c111af63263dd0eb36d1a4cb0cefa98421899bb6ff86f67708d2da4dd574ec
+  media.ug-flag-melilla-png:
+    intent: add
+    path: ug-flag-melilla.png
+    sha256: b6647414335b8f90888b8be841e371abfc85e532064cb164935e06e219570a16
+  media.ug-flag-montserrat-svg:
+    intent: add
+    path: ug-flag-montserrat.svg
+    sha256: 7942b16b003d971dec1e280c41de4a4dbd21cd60964ecade02dbb136a7fe58b7
+  media.ug-flag-mount-athos-png:
+    intent: add
+    path: ug-flag-mount_athos.png
+    sha256: eb8103068368ff6309d014592582506a9905ea295ce4a34ec164bcf3274a110d
+  media.ug-flag-norfolk-island-svg:
+    intent: add
+    path: ug-flag-norfolk_island.svg
+    sha256: c79ba625140c042fc2485845410de7a43ca66fc26da870e36c7e50b5ef33db71
+  media.ug-flag-northern-mariana-islands-png:
+    intent: add
+    path: ug-flag-northern_mariana_islands.png
+    sha256: d4b98f521646234e9396edf818336747dfc5c29da6be09461f56811905e392f5
+  media.ug-flag-pitcairn-islands-svg:
+    intent: add
+    path: ug-flag-pitcairn_islands.svg
+    sha256: 4ee6a4315a046efe5f7670d6157a903e83e971f2eb00509e0d32cd00e36e1afb
+  media.ug-flag-saba-svg:
+    intent: add
+    path: ug-flag-saba.svg
+    sha256: 65aefb9d19dcf7a8838000e6d1b2a79cf47f65fcbbb655102b1cc7d79ab174eb
+  media.ug-flag-saint-helena-png:
+    intent: add
+    path: ug-flag-saint_helena.png
+    sha256: 11705023473781e8714638c9825b144839a60785a316b245c0b18eaa068cde43
+  media.ug-flag-sardinia-svg:
+    intent: add
+    path: ug-flag-sardinia.svg
+    sha256: 42b45a2a9fa9f9fd347abce01e95f0f6320190a645568dd7ddcce72c68b1a670
+  media.ug-flag-sicily-svg:
+    intent: add
+    path: ug-flag-sicily.svg
+    sha256: d6dc97258959e8e65220c0f5229112a73b79aa2ff4af80e51574d44ca4bbad8b
+  media.ug-flag-sint-eustatius-svg:
+    intent: add
+    path: ug-flag-sint_eustatius.svg
+    sha256: 471f01467c612a8579eb0374f2d4abcedd8647339544d5471848c9f20d210345
+  media.ug-flag-sint-maarten-svg:
+    intent: add
+    path: ug-flag-sint_maarten.svg
+    sha256: 8add6f8355bb0305edc04a92d9d1ec07fe3c1f4b3ad15ccc3bfae420914f9bcc
+  media.ug-flag-tokelau-svg:
+    intent: add
+    path: ug-flag-tokelau.svg
+    sha256: 14429538170f1b0183b9eb93f14afafbae9530231d295ea5ab938d38d656ac43
+  media.ug-flag-turks-and-caicos-islands-svg:
+    intent: add
+    path: ug-flag-turks_and_caicos_islands.svg
+    sha256: 5c1380aeb2703a30d15f6aea4e6c9e7feb2d47e8987707c17120ba8e3ee09204
+  media.ug-flag-zanzibar-svg:
+    intent: add
+    path: ug-flag-zanzibar.svg
+    sha256: a6dba86ff4218740760a8d023435fdf61f246755e762c432042dacbf0eb2d2b8
+  media.ug-map-bonaire-png:
+    intent: add
+    path: ug-map-bonaire.png
+    sha256: 54295de32a634bb9ffc4ce722f5c63db9484e30bb900c72bb96b76ef9eb5409b
+  media.ug-map-british-indian-ocean-territory-png:
+    intent: add
+    path: ug-map-british_indian_ocean_territory.png
+    sha256: 7e82c6b5b940885736241a0a1cf6cdb850c1c34ce8e37c8f9902d642d6bac60c
+  media.ug-map-ceuta-png:
+    intent: add
+    path: ug-map-ceuta.png
+    sha256: bcfe8afa3f707978307334759ce79fd7825b7511990789534b02ad833546de5e
+  media.ug-map-christmas-island-png:
+    intent: add
+    path: ug-map-christmas_island.png
+    sha256: bb14b169806373244646d5f371610015c185ff7b781443ab7218861a44392736
+  media.ug-map-cocos-islands-png:
+    intent: add
+    path: ug-map-cocos_islands.png
+    sha256: c02b02c04d4d7aaec94a91c61472ab914dab8c2feae83d86772e0ae4c1eec536
+  media.ug-map-easter-island-png:
+    intent: add
+    path: ug-map-easter_island.png
+    sha256: ab7bb52014fe844ed28ba09c8220500b0a9564d0b92d4a4fb87bd72b748b5c7e
+  media.ug-map-galapagos-islands-png:
+    intent: add
+    path: ug-map-galapagos_islands.png
+    sha256: 9fa081f95dcc1b25bc879ea77b304ff5f5efd7ac5a1e2248d888d7596db5692f
+  media.ug-map-melilla-png:
+    intent: add
+    path: ug-map-melilla.png
+    sha256: a8333786f556f4d6a0dacc408d542df6f7d1829edeb4c095b20c5c6563991673
+  media.ug-map-montserrat-png:
+    intent: add
+    path: ug-map-montserrat.png
+    sha256: df8849b882307db811259396378880ab9a69b7384b6ed553bae81e71696f5547
+  media.ug-map-mount-athos-png:
+    intent: add
+    path: ug-map-mount_athos.png
+    sha256: ac0924dbde3a5ee79ae7db02b1221516654d870dcd145c05d38adb618e0238fa
+  media.ug-map-norfolk-island-png:
+    intent: add
+    path: ug-map-norfolk_island.png
+    sha256: 53ff3364c93fc5fd8b5ec6029ce10c8a4668198214206f60d8fdde6910575d5c
+  media.ug-map-pitcairn-islands-png:
+    intent: add
+    path: ug-map-pitcairn_islands.png
+    sha256: a324885f9744713655228deb0d7ad4c01f09c73f00b54140339a96ad1873d2cc
+  media.ug-map-saba-png:
+    intent: add
+    path: ug-map-saba.png
+    sha256: 10e92d55d2ec12793c9d96a03ab6a67d7c32b1fe2b8c1098ecd53ddc18c2f2b6
+  media.ug-map-saint-barthelemy-png:
+    intent: add
+    path: ug-map-saint_barthelemy.png
+    sha256: 5518639ca9f79dee03bdc9600a81dbed2b25f9755ae1c2bbb1bca12970bd0d2c
+  media.ug-map-saint-helena-png:
+    intent: add
+    path: ug-map-saint_helena.png
+    sha256: 4a2ed206f4a85b0cbbdb2766be15f9da6c5e842e71071991e017731965ad0a3c
+  media.ug-map-sint-eustatius-png:
+    intent: add
+    path: ug-map-sint_eustatius.png
+    sha256: 67a207e1b9a11bfff5cd67de1ce95a9d34abcb892974a207abd6a04af6311121
+  media.ug-map-tokelau-png:
+    intent: add
+    path: ug-map-tokelau.png
+    sha256: 08f52249c5964d76ecab2bb2b58ad43175977177fb2053ea4c9d0a2af40e6a26

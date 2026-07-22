@@ -1,0 +1,86 @@
+id: overlay.translation.hardcore.companion.nl
+kind: translation
+translations:
+  contextual:
+    notes.note:
+      british-indian-ocean-territory:
+        Overseas territory of the United Kingdom.: Overzees land van het Verenigd Koninkrijk.
+      hardcore-american-samoa:
+        American Samoa: Amerikaans Samoa
+        Unincorporated territory of the United States.: Gebied zonder rechtspersoonlijkheid van de Verenigde Staten.
+      hardcore-anguilla:
+        Overseas territory of the United Kingdom.: Overzees land van het Verenigd Koninkrijk.
+      hardcore-azores:
+        Autonomous region of Portugal.: Autonome regio van Portugal.
+        Azores: Azoren
+      hardcore-bali:
+        Island of Indonesia.: 'Eiland van Indonesië.'
+      hardcore-bermuda:
+        Overseas territory of the United Kingdom.: Overzees land van het Verenigd Koninkrijk.
+      hardcore-british-virgin-islands:
+        British Virgin Islands: Britse Maagdeneilanden
+        Overseas territory of the United Kingdom.: Overzees land van het Verenigd Koninkrijk.
+      hardcore-canary-islands:
+        Autonomous community of Spain.: Autonome gemeenschap in Spanje.
+        Canary Islands: Canarische Eilanden
+      hardcore-cayman-islands:
+        Cayman Islands: Kaaimaneilanden
+        Overseas territory of the United Kingdom.: Overzees land van het Verenigd Koninkrijk.
+      hardcore-corsica:
+        Region of France.: Franse regio.
+      hardcore-falkland-islands:
+        Falkland Islands: Falklandeilanden
+        Overseas territory of the United Kingdom.: Overzees land van het Verenigd Koninkrijk.
+      hardcore-french-guiana:
+        French Guiana: Frans-Guyana
+        Overseas department of France.: Overzees departement van Frankrijk.
+      hardcore-gibraltar:
+        Overseas territory of the United Kingdom.: Overzees land van het Verenigd Koninkrijk.
+      hardcore-guadeloupe:
+        Overseas department of France.: Overzees departement van Frankrijk.
+      hardcore-guernsey:
+        Crown dependency of the United Kingdom.: Brits Kroonbezit.
+      hardcore-isle-of-man:
+        Crown dependency of the United Kingdom.: Brits Kroonbezit.
+        Isle of Man: Man
+      hardcore-jersey:
+        Crown dependency of the United Kingdom.: Brits Kroonbezit.
+      hardcore-kaliningrad-oblast:
+        Kaliningrad Oblast: Oblast Kaliningrad
+        'Oblast (administrative region) of the Russian Federation.': 'Oblast (administratieve regio) van de Russische Federatie.'
+      hardcore-madeira:
+        Autonomous region of Portugal.: Autonome regio van Portugal.
+      hardcore-martinique:
+        Overseas department of France.: Overzees departement van Frankrijk.
+      hardcore-mayotte:
+        Overseas department of France.: Overzees departement van Frankrijk.
+      hardcore-northern-mariana-islands:
+        Northern Mariana Islands: Noordelijke Marianen
+        Unincorporated territory of the United States.: Gebied zonder rechtspersoonlijkheid van de Verenigde Staten.
+      hardcore-r-union:
+        Overseas department of France.: Overzees departement van Frankrijk.
+      hardcore-saint-martin:
+        Overseas territory of France.: Overzees land van Frankrijk.
+        Saint Martin: 'Sint-Maarten (Franse Antillen)'
+      hardcore-sardinia:
+        Autonomous region of Italy.: 'Autonome regio van Italië.'
+        Sardinia: 'Sardinië'
+      hardcore-sicily:
+        Autonomous region of Italy.: 'Autonome regio van Italië.'
+        Sicily: 'Sicilië'
+      hardcore-sint-maarten:
+        Constituent country of the Kingdom of the Netherlands.: Autonoom gebied binnen het Koninkrijk der Nederlanden.
+        Sint Maarten: 'Sint Maarten (Koninkrijk der Nederlanden)'
+      hardcore-turks-and-caicos-islands:
+        Overseas territory of the United Kingdom.: Overzees land van het Verenigd Koninkrijk.
+        Turks and Caicos Islands: Turks- en Caicoseilanden
+      hardcore-zanzibar:
+        Semi-autonomous region of Tanzania.: Half-autonome regio van Tanzania.
+      montserrat:
+        Overseas territory of the United Kingdom.: Overzees land van het Verenigd Koninkrijk.
+      norfolk-island:
+        Not a sovereign country: Geen soevereine staat
+      pitcairn-islands:
+        Overseas territory of the United Kingdom.: Overzees land van het Verenigd Koninkrijk.
+      saint-barth-lemy:
+        Overseas territory of France.: Overzees land van Frankrijk.

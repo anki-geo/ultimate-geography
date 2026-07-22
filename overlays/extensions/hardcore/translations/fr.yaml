@@ -1,0 +1,103 @@
+id: overlay.translation.hardcore.fr
+kind: translation
+translations:
+  direct:
+    slightly lighter blue: 'bleu légèrement plus clair'
+  contextual:
+    notes.note:
+      bonaire:
+        Special municipality of the Netherlands.: 'Commune des Pays-Bas à statut particulier.'
+      british-indian-ocean-territory:
+        British Indian Ocean Territory: 'Territoire britannique de l''océan Indien'
+        Overseas territory of the United Kingdom.: 'Territoire britannique d''outre-mer.'
+      ceuta:
+        Autonomous city of Spain.: 'Ville autonome d’Espagne.'
+      christmas-island:
+        Christmas Island: 'Île Christmas'
+        External territory of Australia.: 'Territoire extérieur australien.'
+      cocos-keeling-islands:
+        'Cocos (Keeling) Islands': 'Îles Cocos'
+        External territory of Australia.: 'Territoire extérieur australien.'
+      easter-island:
+        Easter Island: 'Île de Pâques'
+        Polynesian island and special territory of Chile.: 'Île polynésienne et territoire spécial du Chili.'
+      gal-pagos-islands:
+        'Galápagos Islands': 'Îles Galápagos'
+        Province of Ecuador.: 'Province de l''Équateur.'
+      melilla:
+        Autonomous city of Spain: 'Ville autonome d’Espagne.'
+      montserrat:
+        Eruptions in 1997 destroyed the capital city of Plymouth, making Brades the de facto capital.: 'Des éruptions en 1997 ont détruit la capitale Plymouth, faisant de Brades la capitale de fait.'
+        Overseas territory of the United Kingdom.: 'Territoire britannique d''outre-mer.'
+      mount-athos:
+        Autonomous orthodox monastic state in northeastern Greece, also known as the Holy Mountain.: 'République monastique autonome au nord-est de la Grêce, aussi connue comme la Sainte-Montagne.'
+        Karyes: 'Karyès'
+        Mount Athos: Mont Athos
+      norfolk-island:
+        External territory of Australia.: 'Territoire extérieur australien.'
+        Norfolk Island: 'Île Norfolk'
+        Not a sovereign country: Pas une nation souveraine
+      pitcairn-islands:
+        Overseas territory of the United Kingdom.: 'Territoire britannique d''outre-mer.'
+        Pitcairn Islands: 'Îles Pitcairn'
+      saba:
+        Special municipality of the Netherlands.: 'Commune des Pays-Bas à statut particulier.'
+      saint-barth-lemy:
+        Overseas territory of France.: 'Collectivité française d''outre-mer.'
+        'Saint Barthélemy': 'Saint-Barthélemy'
+      saint-helena:
+        Part of Saint Helena, Ascension and Tristan da Cunha, an overseas territory of the United Kingdom.: 'Fait partie de Sainte-Hélène, Ascension et Tristan da Cunha, un territoire britannique d''outre-mer.'
+        Saint Helena: 'Sainte-Hélène'
+      sint-eustatius:
+        Sint Eustatius: Saint-Eustache
+        Special municipality: 'Commune à statut particulier'
+        Special municipality of the Netherlands.: 'Commune des Pays-Bas à statut particulier.'
+      tokelau:
+        'Dependent territory of New Zealand. Tokelau has no official capital; the meeting place of the Tokelau Council rotates annually.': 'Territoire dépendant de la Nouvelle-Zélande. La capitale, de même que la présidence du Conseil permanent du Gouvernement, tournent entre les trois atolls.'
+  adapter_ids:
+    crowdanki:guid:
+      ',LnVW8IL`': 'tOgiV:hG*a'
+      '2N$NqX&k.': 'NHK~0=sW1P'
+      'ArmciP%a;a': 'b{vct.#IZc'
+      'UkP!tU%r)': 'ye)3;Bn^^I'
+      'a_~PL,CWhU': vQIllWa:XP
+      'b&sLa#a&vn': 'RcgTtiG}nb'
+      'cB]XeL7sC?': 'yy`r|xqpM('
+      'cy]sz097{A': 'bL:V3Mk#/G'
+      'd~3m`ihA*b': 'n&_>y_UGVj'
+      'e%!;xc:jxC': 'M|}oP%7k6P'
+      'e1zOyx7^cj': 'BBBp5+S)1='
+      'fKTU=+DKl]': 'F`f?DC4gw('
+      'ga97y4Zy0{': 'j[t$1r]e!z'
+      'h/)!YCH&na': 'w?4Amjn6?Z'
+      'hz,n^64X%i': 'i&J4[Szx-$'
+      'i;=jdbhl(w': 'La@o-<R>D7'
+      'iq7o#n0juD': 'b(u8IoFmpT'
+      'j=,1:f39$]': 'H@=}/tnJ+r'
+      'k3]]2^DP1R': 'D&*IGrwa$z'
+      'khTp#J9C!!': 'D%b^RAFZPX'
+      'kq:]$sh13[': 'D~@6uO&G_A'
+      'lIEV|(|pPu': 'ra8BF$L>Po'
+      'lU*>%[&e|.': 'FPFONJ):Dy'
+      'mCh>s18~IX': 't~:|totC7S'
+      'mHDrx]xo!x': 'H-|fKHW;I8'
+      mvNnHkGnVl: 'Ft%(~s0yZU'
+      'n#k%mr&bc-': 'JJbQ3Yb#K^'
+      'nK;HFcd-1P': 'd;k6{g#b,#'
+      'nN<IGBxnX.': 'h,gV%?87c)'
+      'nipI.lOoC;': 'vWw{Q}@SN]'
+      oDGbPPlkzc: 'zoAz-:m$~u'
+      ogLVp1-2mC: 'P1N8C]-igP'
+      'qAsU}ONgC#': 'i!`,>h~F3D'
+      'r3?J{NB0J3': 'ti,@|wZ>0w'
+      'rHh8*,y.yc': 'Q~`$pP/xjA'
+      'rNv|0qxR]K': 'B]FW$v]S+/'
+      'r]V9W,sj5i': 'm_a!IK=G9,'
+      'rbjYQCA<Z.': 'LGlrG;kW2{'
+      'sxF2<dV=;U': 'K<#E5NGXcJ'
+      t3VhRfcBZs: 'k1>2(^fW}0'
+      't8K|Gnw[k$': 'RhdJQ}!+_*'
+      'v2Z)BIAnoM': 'bfl[RFo_kj'
+      '~)7-62ytBX': 'Iv0W>oAB^c'
+      '~F>Y6gVJay': 'skV=e<)j!c'
+      '~Z$*giAq2R': 'C&/=gH.D`@'

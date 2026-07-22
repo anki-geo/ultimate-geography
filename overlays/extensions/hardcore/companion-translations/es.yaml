@@ -1,0 +1,82 @@
+id: overlay.translation.hardcore.companion.es
+kind: translation
+translations:
+  contextual:
+    notes.note:
+      hardcore-american-samoa:
+        American Samoa: Samoa Americana
+        Unincorporated territory of the United States.: Territorio no incorporado de los Estados Unidos.
+      hardcore-anguilla:
+        Anguilla: Anguila
+        Overseas territory of the United Kingdom.: Territorio de ultramar del Reino Unido.
+      hardcore-azores:
+        Autonomous region of Portugal.: 'Región autónoma de Portugal.'
+      hardcore-bali:
+        Island of Indonesia.: Isla de Indonesia.
+      hardcore-bermuda:
+        Bermuda: Bermudas
+        Overseas territory of the United Kingdom.: Territorio de ultramar del Reino Unido.
+      hardcore-british-virgin-islands:
+        British Virgin Islands: 'Islas Vírgenes Británicas'
+        Overseas territory of the United Kingdom.: Territorio de ultramar del Reino Unido.
+      hardcore-canary-islands:
+        Autonomous community of Spain.: 'Comunidad autónoma de España.'
+        Canary Islands: Canarias
+      hardcore-cayman-islands:
+        Cayman Islands: 'Islas Caimán'
+        Overseas territory of the United Kingdom.: Territorio de ultramar del Reino Unido.
+      hardcore-corsica:
+        Corsica: 'Córcega'
+        Region of France.: 'Región de Francia.'
+      hardcore-falkland-islands:
+        Falkland Islands: Islas Malvinas
+        Overseas territory of the United Kingdom.: Territorio de ultramar del Reino Unido.
+      hardcore-french-guiana:
+        French Guiana: Guayana Francesa
+        Overseas department of France.: Departamento de ultramar de Francia.
+      hardcore-gibraltar:
+        Overseas territory of the United Kingdom.: Territorio de ultramar del Reino Unido.
+      hardcore-guadeloupe:
+        Guadeloupe: Guadalupe
+        Overseas department of France.: Departamento de ultramar de Francia.
+      hardcore-guernsey:
+        Crown dependency of the United Kingdom.: 'Dependencia de la Corona británica.'
+      hardcore-isle-of-man:
+        Crown dependency of the United Kingdom.: 'Dependencia de la Corona británica.'
+        Isle of Man: Isla de Man
+      hardcore-jersey:
+        Crown dependency of the United Kingdom.: 'Dependencia de la Corona británica.'
+      hardcore-kaliningrad-oblast:
+        Kaliningrad Oblast: 'Óblast de Kaliningrado'
+        'Oblast (administrative region) of the Russian Federation.': 'Óblast (región administrativa) de la Federación de Rusia.'
+      hardcore-madeira:
+        Autonomous region of Portugal.: 'Región autónoma de Portugal.'
+      hardcore-martinique:
+        Martinique: Martinica
+        Overseas department of France.: Departamento de ultramar de Francia.
+      hardcore-mayotte:
+        Overseas department of France.: Departamento de ultramar de Francia.
+      hardcore-northern-mariana-islands:
+        Northern Mariana Islands: Islas Marianas del Norte
+        Unincorporated territory of the United States.: Territorio no incorporado de los Estados Unidos.
+      hardcore-r-union:
+        Overseas department of France.: Departamento de ultramar de Francia.
+        'Réunion': 'Reunión'
+      hardcore-saint-martin:
+        Overseas territory of France.: Territorio de ultramar de Francia.
+        Saint Martin: 'San Martín (Francia)'
+      hardcore-sardinia:
+        Autonomous region of Italy.: 'Región autónoma de Italia.'
+        Sardinia: 'Cerdeña'
+      hardcore-sicily:
+        Autonomous region of Italy.: 'Región autónoma de Italia.'
+        Sicily: Sicilia
+      hardcore-sint-maarten:
+        Constituent country of the Kingdom of the Netherlands.: 'Nación constitutiva del Reino de los Países Bajos.'
+        Sint Maarten: 'San Martín (Países Bajos)'
+      hardcore-turks-and-caicos-islands:
+        Overseas territory of the United Kingdom.: Territorio de ultramar del Reino Unido.
+        Turks and Caicos Islands: Islas Turcas y Caicos
+      hardcore-zanzibar:
+        Semi-autonomous region of Tanzania.: 'Región semiautónoma de Tanzania.'
+        Zanzibar: 'Zanzíbar'

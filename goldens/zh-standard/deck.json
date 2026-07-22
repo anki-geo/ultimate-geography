@@ -1,0 +1,7519 @@
+{
+  "__type__": "Deck",
+  "children": [],
+  "crowdanki_uuid": "6c995ee1-4b62-4019-a033-de0ef8651c83",
+  "deck_config_uuid": "43d37fac-9a65-11e8-9cc5-a0481cc15658",
+  "deck_configurations": [
+    {
+      "__type__": "DeckConfig",
+      "autoplay": false,
+      "crowdanki_uuid": "43d37fac-9a65-11e8-9cc5-a0481cc15658",
+      "dyn": false,
+      "lapse": {
+        "delays": [
+          10
+        ],
+        "leechAction": 0,
+        "leechFails": 8,
+        "minInt": 1,
+        "mult": 0
+      },
+      "maxTaken": 60,
+      "name": "Ultimate Geography",
+      "new": {
+        "bury": true,
+        "delays": [
+          1,
+          10
+        ],
+        "initialFactor": 2500,
+        "ints": [
+          1,
+          4,
+          7
+        ],
+        "order": 0,
+        "perDay": 15,
+        "separate": true
+      },
+      "replayq": true,
+      "rev": {
+        "bury": true,
+        "ease4": 1.3,
+        "fuzz": 0.05,
+        "ivlFct": 1,
+        "maxIvl": 36500,
+        "minSpace": 1,
+        "perDay": 100
+      },
+      "timer": 0
+    }
+  ],
+  "desc": "<a href=\"https://github.com/anki-geo/ultimate-geography/\"><b>完整说明</b></a> | <a href=\"https://github.com/anki-geo/ultimate-geography/releases\"><b>发行说明</b></a> | <a href=\"https://github.com/anki-geo/ultimate-geography/blob/master/CONTRIBUTING.md\"><b>贡献指南</b></a>\n\n<b>Ultimate Geography v5.3</b> 特性:\n\n- 全世界 <a href=\"https://en.wikipedia.org/wiki/List_of_sovereign_states\"><b>205 个主权国家</b></a> (820 张卡片)\n- <b>59 个领土、世界区域和其他实体</b> (103 张卡片)\n- <b>48 个海洋</b> (48 张卡片，仅地图)\n- <b>7 个大陆</b> (7 张卡片，仅地图)\n- 总计 <b>321 个独立笔记</b>, <b>980 张卡片</b>, <b>221 个旗帜</b> 以及 <b>321 个地图</b>.\n\n本卡组 <a href=\"https://github.com/anki-geo/ultimate-geography#other-languages-and-versions\">支持</a> <b>英语(English)</b>, <b>德语(German)</b>, <b>西班牙语(Spanish)</b>, <b>法语(French)</b>, <b>挪威语(Norwegian)</b>, <b>捷克语(Czech)</b>, <b>俄语(Russian)</b>, <b>荷兰语(Dutch)</b>, <b>瑞典语(Swedish)</b>, <b>葡萄牙语(Portuguese)</b>, <b>简化字(Simplified Chinese/ZH)</b>, <b>正體字(Traditional Chinese/ZH-TW)</b>, <b>波兰语(Polish)</b>, <b>意大利语(Italian)</b>, <b>丹麦语(Danish)</b> 和 <b>希伯来语(Hebrew)</b>。 同时 每种语言均支持<a href=\"https://github.com/anki-geo/ultimate-geography#other-languages-and-versions\"><b>拓展版本</b></a>。 为了帮助记忆并在学习时提供上下文，一些笔记带有额外的信息，例如类似的旗帜、治理信息、替代国家名称等。\n\n你还能使用Anki的<a href=\"https://github.com/anki-geo/ultimate-geography#custom-study\">过滤牌组功能</a> , 将您的研究重点放在套牌的子集上, 例如主权州、单个笔记模板（例如地图→国家/地区）或特定大陆（例如欧洲）。\n\n这个卡组在 <a href=\"https://github.com/anki-geo/ultimate-geography\"><b>GitHub上维护</b></a>。如果您发现错误、有建议或想要帮助，请不要犹豫<a href=\"https://github.com/anki-geo/ultimate-geography/issues\">打开一个问题(Issue)</a>。 想要<b>随时了解新版本</b>？ 观看(Watch)我们的 GitHub 仓库(Repository)或者订阅(Subscribe)<a href=\"https://github.com/anki-geo/ultimate-geography/releases.atom\">发布提要(releases feed)</a>!\n",
+  "dyn": 0,
+  "extendNew": 10,
+  "extendRev": 50,
+  "media_files": [
+    "ug-flag-abkhazia.svg",
+    "ug-flag-afghanistan.svg",
+    "ug-flag-aland_islands.svg",
+    "ug-flag-albania.svg",
+    "ug-flag-algeria.svg",
+    "ug-flag-andorra.svg",
+    "ug-flag-angola.svg",
+    "ug-flag-antigua_and_barbuda.svg",
+    "ug-flag-argentina.svg",
+    "ug-flag-armenia.svg",
+    "ug-flag-aruba.svg",
+    "ug-flag-australia.svg",
+    "ug-flag-austria.svg",
+    "ug-flag-azerbaijan.svg",
+    "ug-flag-bahrain.svg",
+    "ug-flag-bangladesh.svg",
+    "ug-flag-barbados.svg",
+    "ug-flag-belarus.svg",
+    "ug-flag-belgium.svg",
+    "ug-flag-belize.svg",
+    "ug-flag-benin.svg",
+    "ug-flag-bhutan.svg",
+    "ug-flag-bolivia-blur.svg",
+    "ug-flag-bolivia.svg",
+    "ug-flag-bosnia_and_herzegovina.svg",
+    "ug-flag-botswana.svg",
+    "ug-flag-brazil.svg",
+    "ug-flag-brunei.svg",
+    "ug-flag-bulgaria.svg",
+    "ug-flag-burkina_faso.svg",
+    "ug-flag-burundi.svg",
+    "ug-flag-cambodia.svg",
+    "ug-flag-cameroon.svg",
+    "ug-flag-canada.svg",
+    "ug-flag-cape_verde.svg",
+    "ug-flag-central_african_republic.svg",
+    "ug-flag-chad.svg",
+    "ug-flag-chile.svg",
+    "ug-flag-china.svg",
+    "ug-flag-colombia.svg",
+    "ug-flag-comoros.svg",
+    "ug-flag-cook_islands.svg",
+    "ug-flag-costa_rica-blur.svg",
+    "ug-flag-costa_rica.svg",
+    "ug-flag-croatia.svg",
+    "ug-flag-cuba.svg",
+    "ug-flag-curacao.svg",
+    "ug-flag-cyprus.svg",
+    "ug-flag-czech_republic.svg",
+    "ug-flag-democratic_republic_of_the_congo.svg",
+    "ug-flag-denmark.svg",
+    "ug-flag-djibouti.svg",
+    "ug-flag-dominica.svg",
+    "ug-flag-dominican_republic.svg",
+    "ug-flag-ecuador.svg",
+    "ug-flag-egypt.svg",
+    "ug-flag-el_salvador-blur.svg",
+    "ug-flag-el_salvador.svg",
+    "ug-flag-england.svg",
+    "ug-flag-equatorial_guinea.svg",
+    "ug-flag-eritrea.svg",
+    "ug-flag-estonia.svg",
+    "ug-flag-eswatini.svg",
+    "ug-flag-ethiopia.svg",
+    "ug-flag-european_union.svg",
+    "ug-flag-faroe_islands.svg",
+    "ug-flag-federated_states_of_micronesia.svg",
+    "ug-flag-fiji.svg",
+    "ug-flag-finland.svg",
+    "ug-flag-france.svg",
+    "ug-flag-french_polynesia.svg",
+    "ug-flag-gabon.svg",
+    "ug-flag-georgia.svg",
+    "ug-flag-germany.svg",
+    "ug-flag-ghana.svg",
+    "ug-flag-greece.svg",
+    "ug-flag-greenland.svg",
+    "ug-flag-grenada.svg",
+    "ug-flag-guam-blur.svg",
+    "ug-flag-guam.svg",
+    "ug-flag-guatemala.svg",
+    "ug-flag-guinea-bissau.svg",
+    "ug-flag-guinea.svg",
+    "ug-flag-guyana.svg",
+    "ug-flag-haiti.svg",
+    "ug-flag-honduras.svg",
+    "ug-flag-hong_kong.svg",
+    "ug-flag-hungary.svg",
+    "ug-flag-iceland.svg",
+    "ug-flag-india.svg",
+    "ug-flag-indonesia.svg",
+    "ug-flag-iran.svg",
+    "ug-flag-iraq.svg",
+    "ug-flag-ireland.svg",
+    "ug-flag-israel.svg",
+    "ug-flag-italy.svg",
+    "ug-flag-ivory_coast.svg",
+    "ug-flag-jamaica.svg",
+    "ug-flag-japan.svg",
+    "ug-flag-jordan.svg",
+    "ug-flag-kazakhstan.svg",
+    "ug-flag-kenya.svg",
+    "ug-flag-kiribati.svg",
+    "ug-flag-kosovo.svg",
+    "ug-flag-kuwait.svg",
+    "ug-flag-kyrgyzstan.svg",
+    "ug-flag-laos.svg",
+    "ug-flag-latvia.svg",
+    "ug-flag-lebanon.svg",
+    "ug-flag-lesotho.svg",
+    "ug-flag-liberia.svg",
+    "ug-flag-libya.svg",
+    "ug-flag-liechtenstein.svg",
+    "ug-flag-lithuania.svg",
+    "ug-flag-luxembourg.svg",
+    "ug-flag-macau.svg",
+    "ug-flag-madagascar.svg",
+    "ug-flag-malawi.svg",
+    "ug-flag-malaysia.svg",
+    "ug-flag-maldives.svg",
+    "ug-flag-mali.svg",
+    "ug-flag-malta.svg",
+    "ug-flag-marshall_islands.svg",
+    "ug-flag-mauritania.svg",
+    "ug-flag-mauritius.svg",
+    "ug-flag-mexico.svg",
+    "ug-flag-moldova.svg",
+    "ug-flag-monaco.svg",
+    "ug-flag-mongolia.svg",
+    "ug-flag-montenegro.svg",
+    "ug-flag-morocco.svg",
+    "ug-flag-mozambique.svg",
+    "ug-flag-myanmar.svg",
+    "ug-flag-namibia.svg",
+    "ug-flag-nauru.svg",
+    "ug-flag-nepal-nobox.svg",
+    "ug-flag-netherlands.svg",
+    "ug-flag-new_caledonia.svg",
+    "ug-flag-new_zealand.svg",
+    "ug-flag-nicaragua-blur.svg",
+    "ug-flag-nicaragua.svg",
+    "ug-flag-niger.svg",
+    "ug-flag-nigeria.svg",
+    "ug-flag-niue.svg",
+    "ug-flag-north_korea.svg",
+    "ug-flag-north_macedonia.svg",
+    "ug-flag-northern_cyprus.svg",
+    "ug-flag-norway.svg",
+    "ug-flag-oman.svg",
+    "ug-flag-pakistan.svg",
+    "ug-flag-palau.svg",
+    "ug-flag-palestine.svg",
+    "ug-flag-panama.svg",
+    "ug-flag-papua_new_guinea.svg",
+    "ug-flag-paraguay-blur.svg",
+    "ug-flag-paraguay.svg",
+    "ug-flag-peru.svg",
+    "ug-flag-philippines.svg",
+    "ug-flag-poland.svg",
+    "ug-flag-portugal.svg",
+    "ug-flag-puerto_rico.svg",
+    "ug-flag-qatar.svg",
+    "ug-flag-republic_of_the_congo.svg",
+    "ug-flag-romania.svg",
+    "ug-flag-russia.svg",
+    "ug-flag-rwanda.svg",
+    "ug-flag-sahrawi_arab_democratic_republic.svg",
+    "ug-flag-saint_kitts_and_nevis.svg",
+    "ug-flag-saint_lucia.svg",
+    "ug-flag-saint_vincent_and_the_grenadines.svg",
+    "ug-flag-samoa.svg",
+    "ug-flag-san_marino.svg",
+    "ug-flag-sao_tome_and_principe.svg",
+    "ug-flag-saudi_arabia.svg",
+    "ug-flag-scotland.svg",
+    "ug-flag-senegal.svg",
+    "ug-flag-serbia.svg",
+    "ug-flag-seychelles.svg",
+    "ug-flag-sierra_leone.svg",
+    "ug-flag-singapore.svg",
+    "ug-flag-slovakia.svg",
+    "ug-flag-slovenia.svg",
+    "ug-flag-solomon_islands.svg",
+    "ug-flag-somalia.svg",
+    "ug-flag-somaliland.svg",
+    "ug-flag-south_africa.svg",
+    "ug-flag-south_korea.svg",
+    "ug-flag-south_ossetia.svg",
+    "ug-flag-south_sudan.svg",
+    "ug-flag-spain.svg",
+    "ug-flag-sri_lanka.svg",
+    "ug-flag-sudan.svg",
+    "ug-flag-suriname.svg",
+    "ug-flag-sweden.svg",
+    "ug-flag-switzerland.svg",
+    "ug-flag-syria.svg",
+    "ug-flag-taiwan.svg",
+    "ug-flag-tajikistan.svg",
+    "ug-flag-tanzania.svg",
+    "ug-flag-thailand.svg",
+    "ug-flag-the_bahamas.svg",
+    "ug-flag-the_gambia.svg",
+    "ug-flag-timor-leste.svg",
+    "ug-flag-togo.svg",
+    "ug-flag-tonga.svg",
+    "ug-flag-transnistria.svg",
+    "ug-flag-trinidad_and_tobago.svg",
+    "ug-flag-tunisia.svg",
+    "ug-flag-turkey.svg",
+    "ug-flag-turkmenistan.svg",
+    "ug-flag-tuvalu.svg",
+    "ug-flag-uganda.svg",
+    "ug-flag-ukraine.svg",
+    "ug-flag-united_arab_emirates.svg",
+    "ug-flag-united_kingdom.svg",
+    "ug-flag-united_states_of_america.svg",
+    "ug-flag-united_states_virgin_islands.svg",
+    "ug-flag-uruguay.svg",
+    "ug-flag-uzbekistan.svg",
+    "ug-flag-vanuatu.svg",
+    "ug-flag-vatican_city.svg",
+    "ug-flag-venezuela.svg",
+    "ug-flag-vietnam.svg",
+    "ug-flag-wales.svg",
+    "ug-flag-yemen.svg",
+    "ug-flag-zambia.svg",
+    "ug-flag-zimbabwe.svg",
+    "ug-map-abkhazia.png",
+    "ug-map-adriatic_sea.png",
+    "ug-map-aegean_sea.png",
+    "ug-map-afghanistan.png",
+    "ug-map-africa-nobox.png",
+    "ug-map-akrotiri_and_dhekelia.png",
+    "ug-map-aland_islands.png",
+    "ug-map-alaska.png",
+    "ug-map-albania.png",
+    "ug-map-algeria.png",
+    "ug-map-american_samoa.png",
+    "ug-map-andorra.png",
+    "ug-map-angola.png",
+    "ug-map-anguilla.png",
+    "ug-map-antarctica-nobox.png",
+    "ug-map-antigua_and_barbuda.png",
+    "ug-map-arabian_sea.png",
+    "ug-map-aral_sea.png",
+    "ug-map-arctic_ocean-nobox.png",
+    "ug-map-argentina.png",
+    "ug-map-armenia.png",
+    "ug-map-aruba.png",
+    "ug-map-asia-nobox.png",
+    "ug-map-atlantic_ocean-nobox.png",
+    "ug-map-australia.png",
+    "ug-map-austria.png",
+    "ug-map-azerbaijan.png",
+    "ug-map-azores.png",
+    "ug-map-bahrain.png",
+    "ug-map-bali.png",
+    "ug-map-balkan_peninsula.png",
+    "ug-map-baltic_sea.png",
+    "ug-map-banda_sea.png",
+    "ug-map-bangladesh.png",
+    "ug-map-barbados.png",
+    "ug-map-barents_sea.png",
+    "ug-map-bay_of_bengal.png",
+    "ug-map-bay_of_biscay.png",
+    "ug-map-belarus.png",
+    "ug-map-belgium.png",
+    "ug-map-belize.png",
+    "ug-map-benin.png",
+    "ug-map-bering_strait.png",
+    "ug-map-bermuda.png",
+    "ug-map-bhutan.png",
+    "ug-map-black_sea.png",
+    "ug-map-bolivia.png",
+    "ug-map-bosnia_and_herzegovina.png",
+    "ug-map-botswana.png",
+    "ug-map-bougainville.png",
+    "ug-map-brazil.png",
+    "ug-map-british_virgin_islands.png",
+    "ug-map-brunei.png",
+    "ug-map-bulgaria.png",
+    "ug-map-burkina_faso.png",
+    "ug-map-burundi.png",
+    "ug-map-cambodia.png",
+    "ug-map-cameroon.png",
+    "ug-map-canada.png",
+    "ug-map-canary_islands.png",
+    "ug-map-cape_verde.png",
+    "ug-map-caribbean_sea.png",
+    "ug-map-caspian_sea.png",
+    "ug-map-cayman_islands.png",
+    "ug-map-celebes_sea.png",
+    "ug-map-celtic_sea.png",
+    "ug-map-central_african_republic.png",
+    "ug-map-chad.png",
+    "ug-map-chile.png",
+    "ug-map-china.png",
+    "ug-map-colombia.png",
+    "ug-map-comoros.png",
+    "ug-map-cook_islands.png",
+    "ug-map-coral_sea.png",
+    "ug-map-corsica.png",
+    "ug-map-costa_rica.png",
+    "ug-map-croatia.png",
+    "ug-map-cuba.png",
+    "ug-map-curacao.png",
+    "ug-map-cyprus.png",
+    "ug-map-czech_republic.png",
+    "ug-map-dead_sea.png",
+    "ug-map-democratic_republic_of_the_congo.png",
+    "ug-map-denmark.png",
+    "ug-map-denmark_strait.png",
+    "ug-map-djibouti.png",
+    "ug-map-dominica.png",
+    "ug-map-dominican_republic.png",
+    "ug-map-east_china_sea.png",
+    "ug-map-east_siberian_sea.png",
+    "ug-map-ecuador.png",
+    "ug-map-egypt.png",
+    "ug-map-el_salvador.png",
+    "ug-map-england.png",
+    "ug-map-english_channel.png",
+    "ug-map-equatorial_guinea.png",
+    "ug-map-eritrea.png",
+    "ug-map-estonia.png",
+    "ug-map-eswatini.png",
+    "ug-map-ethiopia.png",
+    "ug-map-europe-nobox.png",
+    "ug-map-european_union.png",
+    "ug-map-falkland_islands.png",
+    "ug-map-faroe_islands.png",
+    "ug-map-federated_states_of_micronesia.png",
+    "ug-map-fiji.png",
+    "ug-map-finland.png",
+    "ug-map-france.png",
+    "ug-map-french_guiana.png",
+    "ug-map-french_polynesia.png",
+    "ug-map-gabon.png",
+    "ug-map-georgia.png",
+    "ug-map-germany.png",
+    "ug-map-ghana.png",
+    "ug-map-gibraltar.png",
+    "ug-map-greece.png",
+    "ug-map-greenland.png",
+    "ug-map-grenada.png",
+    "ug-map-guadeloupe.png",
+    "ug-map-guam.png",
+    "ug-map-guatemala.png",
+    "ug-map-guernsey.png",
+    "ug-map-guinea-bissau.png",
+    "ug-map-guinea.png",
+    "ug-map-gulf_of_alaska.png",
+    "ug-map-gulf_of_california.png",
+    "ug-map-gulf_of_carpentaria.png",
+    "ug-map-gulf_of_guinea.png",
+    "ug-map-gulf_of_mexico.png",
+    "ug-map-gulf_of_thailand.png",
+    "ug-map-guyana.png",
+    "ug-map-haiti.png",
+    "ug-map-hawaii.png",
+    "ug-map-honduras.png",
+    "ug-map-hong_kong.png",
+    "ug-map-hudson_bay.png",
+    "ug-map-hungary.png",
+    "ug-map-iceland.png",
+    "ug-map-india.png",
+    "ug-map-indian_ocean-nobox.png",
+    "ug-map-indonesia.png",
+    "ug-map-iran.png",
+    "ug-map-iraq.png",
+    "ug-map-ireland.png",
+    "ug-map-isle_of_man.png",
+    "ug-map-israel.png",
+    "ug-map-italy.png",
+    "ug-map-ivory_coast.png",
+    "ug-map-jamaica.png",
+    "ug-map-japan.png",
+    "ug-map-java.png",
+    "ug-map-jeju.png",
+    "ug-map-jersey.png",
+    "ug-map-jordan.png",
+    "ug-map-kaliningrad_oblast.png",
+    "ug-map-kazakhstan.png",
+    "ug-map-kenya.png",
+    "ug-map-kiribati.png",
+    "ug-map-kosovo.png",
+    "ug-map-kuwait.png",
+    "ug-map-kyrgyzstan.png",
+    "ug-map-labrador_sea.png",
+    "ug-map-laos.png",
+    "ug-map-latvia.png",
+    "ug-map-lebanon.png",
+    "ug-map-lesotho.png",
+    "ug-map-liberia.png",
+    "ug-map-libya.png",
+    "ug-map-liechtenstein.png",
+    "ug-map-lithuania.png",
+    "ug-map-luxembourg.png",
+    "ug-map-macau.png",
+    "ug-map-madagascar.png",
+    "ug-map-madeira.png",
+    "ug-map-malawi.png",
+    "ug-map-malaysia.png",
+    "ug-map-maldives.png",
+    "ug-map-mali.png",
+    "ug-map-malta.png",
+    "ug-map-marshall_islands.png",
+    "ug-map-martinique.png",
+    "ug-map-mauritania.png",
+    "ug-map-mauritius.png",
+    "ug-map-mayotte.png",
+    "ug-map-mediterranean_sea.png",
+    "ug-map-melanesia.png",
+    "ug-map-mexico.png",
+    "ug-map-micronesia.png",
+    "ug-map-moldova.png",
+    "ug-map-monaco.png",
+    "ug-map-mongolia.png",
+    "ug-map-montenegro.png",
+    "ug-map-morocco.png",
+    "ug-map-mozambique.png",
+    "ug-map-myanmar.png",
+    "ug-map-namibia.png",
+    "ug-map-nauru.png",
+    "ug-map-nepal.png",
+    "ug-map-netherlands.png",
+    "ug-map-new_caledonia.png",
+    "ug-map-new_zealand.png",
+    "ug-map-nicaragua.png",
+    "ug-map-niger.png",
+    "ug-map-nigeria.png",
+    "ug-map-niue.png",
+    "ug-map-north_america-nobox.png",
+    "ug-map-north_korea.png",
+    "ug-map-north_macedonia.png",
+    "ug-map-north_sea.png",
+    "ug-map-northern_cyprus.png",
+    "ug-map-northern_ireland.png",
+    "ug-map-northern_mariana_islands.png",
+    "ug-map-norway.png",
+    "ug-map-norwegian_sea.png",
+    "ug-map-oceania-nobox.png",
+    "ug-map-oman.png",
+    "ug-map-pacific_ocean-nobox.png",
+    "ug-map-pakistan.png",
+    "ug-map-palau.png",
+    "ug-map-palestine.png",
+    "ug-map-panama.png",
+    "ug-map-papua_new_guinea.png",
+    "ug-map-paraguay.png",
+    "ug-map-persian_gulf.png",
+    "ug-map-peru.png",
+    "ug-map-philippine_sea.png",
+    "ug-map-philippines.png",
+    "ug-map-poland.png",
+    "ug-map-polynesia.png",
+    "ug-map-portugal.png",
+    "ug-map-puerto_rico.png",
+    "ug-map-qatar.png",
+    "ug-map-red_sea.png",
+    "ug-map-republic_of_the_congo.png",
+    "ug-map-reunion.png",
+    "ug-map-romania.png",
+    "ug-map-russia.png",
+    "ug-map-rwanda.png",
+    "ug-map-sahrawi_arab_democratic_republic.png",
+    "ug-map-saint_kitts_and_nevis.png",
+    "ug-map-saint_lucia.png",
+    "ug-map-saint_martin.png",
+    "ug-map-saint_vincent_and_the_grenadines.png",
+    "ug-map-samoa.png",
+    "ug-map-san_marino.png",
+    "ug-map-sao_tome_and_principe.png",
+    "ug-map-sardinia.png",
+    "ug-map-saudi_arabia.png",
+    "ug-map-scandinavia.png",
+    "ug-map-scotland.png",
+    "ug-map-sea_of_galilee.png",
+    "ug-map-sea_of_japan.png",
+    "ug-map-sea_of_okhotsk.png",
+    "ug-map-senegal.png",
+    "ug-map-serbia.png",
+    "ug-map-seychelles.png",
+    "ug-map-sicily.png",
+    "ug-map-sierra_leone.png",
+    "ug-map-singapore.png",
+    "ug-map-sint_maarten.png",
+    "ug-map-slovakia.png",
+    "ug-map-slovenia.png",
+    "ug-map-solomon_islands.png",
+    "ug-map-somalia.png",
+    "ug-map-somaliland.png",
+    "ug-map-south_africa.png",
+    "ug-map-south_america-nobox.png",
+    "ug-map-south_china_sea.png",
+    "ug-map-south_korea.png",
+    "ug-map-south_ossetia.png",
+    "ug-map-south_sudan.png",
+    "ug-map-southern_ocean-nobox.png",
+    "ug-map-spain.png",
+    "ug-map-sri_lanka.png",
+    "ug-map-strait_of_hormuz.png",
+    "ug-map-strait_of_malacca.png",
+    "ug-map-sudan.png",
+    "ug-map-sumatra.png",
+    "ug-map-suriname.png",
+    "ug-map-svalbard.png",
+    "ug-map-sweden.png",
+    "ug-map-switzerland.png",
+    "ug-map-syria.png",
+    "ug-map-taiwan.png",
+    "ug-map-tajikistan.png",
+    "ug-map-tanzania.png",
+    "ug-map-tasman_sea.png",
+    "ug-map-thailand.png",
+    "ug-map-the_bahamas.png",
+    "ug-map-the_gambia.png",
+    "ug-map-timor-leste.png",
+    "ug-map-timor_sea.png",
+    "ug-map-togo.png",
+    "ug-map-tonga.png",
+    "ug-map-transnistria.png",
+    "ug-map-trinidad_and_tobago.png",
+    "ug-map-tunisia.png",
+    "ug-map-turkey.png",
+    "ug-map-turkmenistan.png",
+    "ug-map-turks_and_caicos_islands.png",
+    "ug-map-tuvalu.png",
+    "ug-map-uganda.png",
+    "ug-map-ukraine.png",
+    "ug-map-united_arab_emirates.png",
+    "ug-map-united_kingdom.png",
+    "ug-map-united_states_of_america.png",
+    "ug-map-united_states_virgin_islands.png",
+    "ug-map-uruguay.png",
+    "ug-map-uzbekistan.png",
+    "ug-map-vanuatu.png",
+    "ug-map-vatican_city.png",
+    "ug-map-venezuela.png",
+    "ug-map-vietnam.png",
+    "ug-map-wales.png",
+    "ug-map-wallis_and_futuna.png",
+    "ug-map-white_sea.png",
+    "ug-map-yellow_sea.png",
+    "ug-map-yemen.png",
+    "ug-map-zambia.png",
+    "ug-map-zanzibar.png",
+    "ug-map-zimbabwe.png"
+  ],
+  "name": "Ultimate Geography [ZH]",
+  "note_models": [
+    {
+      "__type__": "NoteModel",
+      "crowdanki_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "css": ".card {\n  padding: 1em 0;\n  background-color: white;\n  color: black;\n  direction: ltr;\n  font-family: Verdana;\n  font-size: 16px;\n  text-align: center;\n}\n\n.type {\n  margin-bottom: 0.25em;\n  color: #333;\n  font-size: 70%;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n\n.info {\n  max-width: 30em;\n  margin: 0.75em auto;\n  color: #333;\n  font-size: 90%;\n  font-style: italic;\n}\n\n.value {\n  font-size: 150%;\n}\n\n.value--top {\n  margin-top: 1em;\n}\n\n.value--image {\n  margin-top: 0.75em;\n}\n\n.value--map {\n  width: 90%;\n  height: 65vh;\n  margin: 2em auto 0 auto;\n}\n\n.value > img,\n.value > .placeholder {\n  max-width: 100%;\n  height: auto;\n}\n\n/**\n * Apply shadow to images, notably to bring out white areas on flags.\n * Ignore images with non-rectangular outlines (e.g. flag of Nepal).\n */\n.value > img:not([src*=\"-nobox\"]) {\n  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);\n}\n\n/**\n * Some flags (e.g. Guam's) contain identifying words that can give away the answer.\n * If a blurred version is available, show it on the front but not on the back.\n */\n.value--front > img[src*=\"-blur\"] + img {\n  display: none;\n}\n\n.value--back > img[src*=\"-blur\"] {\n  display: none;\n}\n\n/**\n * Placeholder SVG to hint at the type of answer that is expected.\n * Used on \"Country - Flag\" and \"Country - Map\" templates.\n */\n.placeholder {\n  color: #333;\n}\n\n.placeholder > path {\n  fill: none;\n  stroke: currentColor;\n  stroke-width: 1;\n}\n\n.night_mode .info,\n.night_mode .type,\n.night_mode .placeholder,\n.nightMode .info,\n.nightMode .type,\n.nightMode .placeholder {\n  color: #ccc;\n}\n\n/**\n * Apply shadow to images, to bring out black areas on flags, in night\n   mode.\n */\n.nightMode .value > img:not([src*=\"-nobox\"]),\n.night_mode .value > img:not([src*=\"-nobox\"]) {\n  box-shadow: 0 0 4px 1px rgba(54, 54, 54, 0.9);\n}\n\nhr {\n  margin: 1.5em 0;\n}\n",
+      "flds": [
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Country",
+          "ord": 0,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Country info",
+          "ord": 1,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Capital",
+          "ord": 2,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Capital info",
+          "ord": 3,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Capital hint",
+          "ord": 4,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Flag",
+          "ord": 5,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Flag similarity",
+          "ord": 6,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Map",
+          "ord": 7,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        }
+      ],
+      "latexPost": "\\end{document}",
+      "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+      "latexsvg": false,
+      "name": "Ultimate Geography [ZH]",
+      "req": [],
+      "sortf": 0,
+      "tags": [],
+      "tmpls": [
+        {
+          "afmt": "<div class=\"value value--top\">{{Country}}</div>\n{{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n\n<hr id=answer>\n\n<div class=\"type\">首都</div>\n<div class=\"value\">{{Capital}}</div>\n{{#Capital info}}<div class=\"info\">{{Capital info}}</div>{{/Capital info}}\n",
+          "bafmt": "",
+          "bfont": "",
+          "bqfmt": "",
+          "bsize": 0,
+          "did": null,
+          "name": "Country - Capital",
+          "ord": 0,
+          "qfmt": "{{#Capital}}\n  <div class=\"value value--top\">{{Country}}</div>\n  {{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n\n  <hr>\n\n  <div class=\"type\">首都</div>\n  <div class=\"value\">?</div>\n{{/Capital}}",
+          "scratchPad": 0
+        },
+        {
+          "afmt": "<div id=answer class=\"value value--top\">{{Country}}</div>\n{{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n\n<hr>\n\n<div class=\"type\">首都</div>\n<div class=\"value\">{{Capital}}</div>\n{{#Capital hint}}<div class=\"info\">提示：{{Capital hint}}</div>{{/Capital hint}}\n{{#Capital info}}<div class=\"info\">{{Capital info}}</div>{{/Capital info}}\n",
+          "bafmt": "",
+          "bfont": "",
+          "bqfmt": "",
+          "bsize": 0,
+          "did": null,
+          "name": "Capital - Country",
+          "ord": 1,
+          "qfmt": "{{#Capital}}\n  <div class=\"value value--top\">?</div>\n\n  <hr>\n\n  <div class=\"type\">首都</div>\n  <div class=\"value\">{{Capital}}</div>\n  {{#Capital hint}}<div class=\"info\">Hint: {{Capital hint}}</div>{{/Capital hint}}\n{{/Capital}}",
+          "scratchPad": 0
+        },
+        {
+          "afmt": "<div id=answer class=\"value value--top\">{{Country}}</div>\n{{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n\n<hr>\n\n<div class=\"type\">旗帜</div>\n<div class=\"value value--image value--back\">{{Flag}}</div>\n{{#Flag similarity}}<div class=\"info\">旗帜类似于：{{Flag similarity}}。</div>{{/Flag similarity}}\n",
+          "bafmt": "",
+          "bfont": "",
+          "bqfmt": "",
+          "bsize": 0,
+          "did": null,
+          "name": "Flag - Country",
+          "ord": 2,
+          "qfmt": "{{#Flag}}\n  <div class=\"value value--top\">?</div>\n\n  <hr>\n\n  <div class=\"type\">旗帜</div>\n  <div class=\"value value--image value--front\">{{Flag}}</div>\n{{/Flag}}",
+          "scratchPad": 0
+        },
+        {
+          "afmt": "<div id=answer class=\"value value--top\">{{Country}}</div>\n{{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n\n<hr>\n\n<div class=\"type\">位置</div>\n<div class=\"value value--image\">{{Map}}</div>\n",
+          "bafmt": "",
+          "bfont": "",
+          "bqfmt": "",
+          "bsize": 0,
+          "did": null,
+          "name": "Map - Country",
+          "ord": 3,
+          "qfmt": "{{#Map}}\n  <div class=\"value value--top\">?</div>\n\n  <hr>\n\n  <div class=\"type\">位置</div>\n  <div class=\"value value--image\">{{Map}}</div>\n{{/Map}}",
+          "scratchPad": 0
+        }
+      ],
+      "type": 0,
+      "vers": []
+    }
+  ],
+  "notes": [
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "阿布哈兹(Abkhazia)",
+        "格鲁吉亚(Georgia)宣称拥有主权的独立国家。",
+        "苏呼米(Sukhumi)",
+        "",
+        "",
+        "<img src=\"ug-flag-abkhazia.svg\" />",
+        "",
+        "<img src=\"ug-map-abkhazia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "L/5_4LD,/N",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "亚得里亚海(Adriatic Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-adriatic_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Fp7TupO=4T",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "爱琴海(Aegean Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-aegean_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Q75rz,Y9Lx",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "阿富汗(Afghanistan)",
+        "",
+        "喀布尔(Kabul)",
+        "",
+        "",
+        "<img src=\"ug-flag-afghanistan.svg\" />",
+        "",
+        "<img src=\"ug-map-afghanistan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "iG^3Wlll7q",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "非洲(Africa)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-africa-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "JJn,%$#vCr",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Continents"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "阿克罗蒂里和德凯利亚(Akrotiri and Dhekelia)",
+        "英国(U.K.)的海外领土。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-akrotiri_and_dhekelia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "BuC717Wq+L",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Mediterranean",
+        "UG::Middle_East"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "阿拉斯加(Alaska)",
+        "美国(U.S.)的州。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-alaska.png\" />"
+      ],
+      "flags": 0,
+      "guid": "vNk8~iA!~6",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "阿尔巴尼亚(Albania)",
+        "",
+        "地拉那(Tirana)",
+        "",
+        "",
+        "<img src=\"ug-flag-albania.svg\" />",
+        "",
+        "<img src=\"ug-map-albania.png\" />"
+      ],
+      "flags": 0,
+      "guid": "N6}g0,2?-s",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "阿尔及利亚(Algeria)",
+        "",
+        "阿尔及尔(Algiers)",
+        "",
+        "",
+        "<img src=\"ug-flag-algeria.svg\" />",
+        "",
+        "<img src=\"ug-map-algeria.png\" />"
+      ],
+      "flags": 0,
+      "guid": "u]nUNO+ITf",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "美属萨摩亚(American Samoa)",
+        "美国(U.S.)无建制属地。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-american_samoa.png\" />"
+      ],
+      "flags": 0,
+      "guid": "HyIk26o)>j",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "安道尔(Andorra)",
+        "",
+        "安道尔城(Andorra la Vella)",
+        "",
+        "",
+        "<img src=\"ug-flag-andorra.svg\" />",
+        "摩尔多瓦(更宽，鹰纹)",
+        "<img src=\"ug-map-andorra.png\" />"
+      ],
+      "flags": 0,
+      "guid": "K4=tg/ma1*",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "安哥拉(Angola)",
+        "",
+        "罗安达(Luanda)",
+        "",
+        "",
+        "<img src=\"ug-flag-angola.svg\" />",
+        "",
+        "<img src=\"ug-map-angola.png\" />"
+      ],
+      "flags": 0,
+      "guid": "EC?WTwipgP",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "安圭拉(Anguilla)",
+        "英国(U.K.)的海外领土。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-anguilla.png\" />"
+      ],
+      "flags": 0,
+      "guid": "v1f9P_|St}",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "南极洲(Antarctica)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-antarctica-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "dWC4Q)-hOb",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Continents"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "安提瓜和巴布达(Antigua and Barbuda)",
+        "",
+        "圣约翰(St. John's)",
+        "",
+        "",
+        "<img src=\"ug-flag-antigua_and_barbuda.svg\" />",
+        "",
+        "<img src=\"ug-map-antigua_and_barbuda.png\" />"
+      ],
+      "flags": 0,
+      "guid": "tZVeiXYUc3",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "阿拉伯海(Arabian Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-arabian_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "D!;%*R6J&o",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "咸海(Aral Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-aral_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "umsYCBpKat",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "北冰洋(Arctic Ocean)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-arctic_ocean-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "r4vN]%uAKT",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "阿根廷(Argentina)",
+        "",
+        "布宜诺斯艾利斯(Buenos Aires)",
+        "",
+        "",
+        "<img src=\"ug-flag-argentina.svg\" />",
+        "",
+        "<img src=\"ug-map-argentina.png\" />"
+      ],
+      "flags": 0,
+      "guid": "lvc.@k4vE}",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "亚美尼亚(Armenia)",
+        "",
+        "埃里温(Yerevan)",
+        "",
+        "",
+        "<img src=\"ug-flag-armenia.svg\" />",
+        "",
+        "<img src=\"ug-map-armenia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "w5xWQO/x*-",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "阿鲁巴(Aruba)",
+        "荷兰(Netherlands)的一部分。",
+        "奥拉涅斯塔德(Oranjestad)",
+        "",
+        "",
+        "<img src=\"ug-flag-aruba.svg\" />",
+        "",
+        "<img src=\"ug-map-aruba.png\" />"
+      ],
+      "flags": 0,
+      "guid": "gA!f|vb<.t",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "亚洲(Asia)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-asia-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "KaG.-9WVf?",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Continents"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "大西洋(Atlantic Ocean)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-atlantic_ocean-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "e?vaE69=en",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "澳大利亚(Australia)",
+        "",
+        "堪培拉(Canberra)",
+        "",
+        "",
+        "<img src=\"ug-flag-australia.svg\" />",
+        "新西兰(红星，少两颗星)",
+        "<img src=\"ug-map-australia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "O--6u|WoWh",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "奥地利(Austria)",
+        "",
+        "维也纳(Vienna)",
+        "",
+        "",
+        "<img src=\"ug-flag-austria.svg\" />",
+        "拉脱维亚(较深的红色，较窄的白色带)",
+        "<img src=\"ug-map-austria.png\" />"
+      ],
+      "flags": 0,
+      "guid": "JPoz};:Ba!",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "阿塞拜疆(Azerbaijan)",
+        "",
+        "巴库(Baku)",
+        "",
+        "",
+        "<img src=\"ug-flag-azerbaijan.svg\" />",
+        "",
+        "<img src=\"ug-map-azerbaijan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "H4lC2*%CBb",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "亚速尔群岛(Azores)",
+        "葡萄牙(Portugal)自治区。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-azores.png\" />"
+      ],
+      "flags": 0,
+      "guid": "qne1j$8#!W",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "巴林(Bahrain)",
+        "",
+        "麦纳麦(Manama)",
+        "",
+        "",
+        "<img src=\"ug-flag-bahrain.svg\" />",
+        "卡塔尔(更宽，锯齿状边缘，栗色)",
+        "<img src=\"ug-map-bahrain.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Lr{~p.Jk<_",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "巴厘岛(Bali)",
+        "印度尼西亚(Indonesia)的岛屿之一。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-bali.png\" />"
+      ],
+      "flags": 0,
+      "guid": "b&jm5o,1&}",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "巴尔干半岛(Balkan Peninsula)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-balkan_peninsula.png\" />"
+      ],
+      "flags": 0,
+      "guid": "NlR(^Q+:^E",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "波罗的海(Baltic Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-baltic_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "P+Aat{#Q`@",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "班达海(Banda Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-banda_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "m$4i/|Dgk",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "孟加拉国(Bangladesh)",
+        "",
+        "达卡(Dhaka)",
+        "",
+        "",
+        "<img src=\"ug-flag-bangladesh.svg\" />",
+        "",
+        "<img src=\"ug-map-bangladesh.png\" />"
+      ],
+      "flags": 0,
+      "guid": "nq~gisgjC/",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "巴巴多斯(Barbados)",
+        "",
+        "布里奇敦(Bridgetown)",
+        "",
+        "",
+        "<img src=\"ug-flag-barbados.svg\" />",
+        "",
+        "<img src=\"ug-map-barbados.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Fa]aBu=L1z",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "巴伦支海(Barents Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-barents_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "I]xI>B~d|i",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "孟加拉湾(Bay of Bengal)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-bay_of_bengal.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Lw@Xd3XL=}",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "比斯开湾(Bay of Biscay)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-bay_of_biscay.png\" />"
+      ],
+      "flags": 0,
+      "guid": "y0iP,bej)y",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "白俄罗斯(Belarus)",
+        "",
+        "明斯克(Minsk)",
+        "",
+        "",
+        "<img src=\"ug-flag-belarus.svg\" />",
+        "",
+        "<img src=\"ug-map-belarus.png\" />"
+      ],
+      "flags": 0,
+      "guid": "sQm9Z?B{Ev",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "比利时(Belgium)",
+        "",
+        "布鲁塞尔(Brussels)",
+        "",
+        "",
+        "<img src=\"ug-flag-belgium.svg\" />",
+        "",
+        "<img src=\"ug-map-belgium.png\" />"
+      ],
+      "flags": 0,
+      "guid": "B7lvLZ3Ab",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "伯利兹(Belize)",
+        "",
+        "贝尔莫潘(Belmopan)",
+        "",
+        "",
+        "<img src=\"ug-flag-belize.svg\" />",
+        "",
+        "<img src=\"ug-map-belize.png\" />"
+      ],
+      "flags": 0,
+      "guid": "eYe;odSry.",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "贝宁(Benin)",
+        "",
+        "波多诺伏(Porto-Novo, 也被称之为“新港”)",
+        "虽然波多诺伏(Porto-Novo)是官方首都，但科托努(Cotonou)是实际政府所在地。",
+        "",
+        "<img src=\"ug-flag-benin.svg\" />",
+        "",
+        "<img src=\"ug-map-benin.png\" />"
+      ],
+      "flags": 0,
+      "guid": "zdjM-aCLo_",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "白令海峡(Bering Strait)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-bering_strait.png\" />"
+      ],
+      "flags": 0,
+      "guid": "CV<T&!ZN;5",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "百慕大(Bermuda)",
+        "英国(U.K.)的海外领土。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-bermuda.png\" />"
+      ],
+      "flags": 0,
+      "guid": "kBtlV6Xe??",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "不丹(Bhutan)",
+        "",
+        "廷布(Thimphu)",
+        "",
+        "",
+        "<img src=\"ug-flag-bhutan.svg\" />",
+        "",
+        "<img src=\"ug-map-bhutan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "wcgBd0eEy2",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "黑海(Black Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-black_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "oO0Bu!h6sm",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "玻利维亚(Bolivia)",
+        "",
+        "苏克雷(Sucre)",
+        "虽然苏克雷(Sucre)是宪法认定的行政首都，但拉巴斯(La Paz)是政府所在地和财政中心。",
+        "",
+        "<img src=\"ug-flag-bolivia-blur.svg\" /><img src=\"ug-flag-bolivia.svg\" />",
+        "加纳(星而不是国徽)",
+        "<img src=\"ug-map-bolivia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "fV:l&20`ma",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "波斯尼亚和黑塞哥维那(Bosnia and Herzegovina)，简称“波黑”",
+        "",
+        "萨拉热窝(Sarajevo)",
+        "",
+        "",
+        "<img src=\"ug-flag-bosnia_and_herzegovina.svg\" />",
+        "",
+        "<img src=\"ug-map-bosnia_and_herzegovina.png\" />"
+      ],
+      "flags": 0,
+      "guid": "nL!|kr$O/~",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "博茨瓦纳(Botswana)",
+        "",
+        "哈博罗内(Gaborone)",
+        "",
+        "",
+        "<img src=\"ug-flag-botswana.svg\" />",
+        "",
+        "<img src=\"ug-map-botswana.png\" />"
+      ],
+      "flags": 0,
+      "guid": "J~N,woIJ(]",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "布干维尔(Bougainville)",
+        "巴布亚新几内亚(Papua New Guinea)自治区。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-bougainville.png\" />"
+      ],
+      "flags": 0,
+      "guid": "drOR)V?/DQ",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "巴西(Brazil)",
+        "",
+        "巴西利亚(Brasília)",
+        "",
+        "",
+        "<img src=\"ug-flag-brazil.svg\" />",
+        "",
+        "<img src=\"ug-map-brazil.png\" />"
+      ],
+      "flags": 0,
+      "guid": "FlA8Y*/98r",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "英属维尔京群岛(British Virgin Islands)",
+        "英国(U.K.)的海外领土。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-british_virgin_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "P-3hgOQ.ys",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "文莱(Brunei)",
+        "",
+        "斯里巴加湾市(Bandar Seri Begawan)",
+        "",
+        "",
+        "<img src=\"ug-flag-brunei.svg\" />",
+        "",
+        "<img src=\"ug-map-brunei.png\" />"
+      ],
+      "flags": 0,
+      "guid": "o1*G=hagzj",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "保加利亚(Bulgaria)",
+        "",
+        "索菲亚(Sofia)",
+        "",
+        "",
+        "<img src=\"ug-flag-bulgaria.svg\" />",
+        "",
+        "<img src=\"ug-map-bulgaria.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ikqk(b.J~O",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "布基纳法索(Burkina Faso)",
+        "",
+        "瓦加杜古(Ouagadougou)",
+        "",
+        "",
+        "<img src=\"ug-flag-burkina_faso.svg\" />",
+        "",
+        "<img src=\"ug-map-burkina_faso.png\" />"
+      ],
+      "flags": 0,
+      "guid": "QiSNJi)a#e",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "布隆迪(Burundi)",
+        "",
+        "基特加(Gitega)",
+        "2019 年官方首都从布琼布拉(Bujumbura)迁至基特加(Gitega)。",
+        "",
+        "<img src=\"ug-flag-burundi.svg\" />",
+        "",
+        "<img src=\"ug-map-burundi.png\" />"
+      ],
+      "flags": 0,
+      "guid": "he7DbqD!Vr",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "柬埔寨(Cambodia)",
+        "",
+        "金边(Phnom Penh)",
+        "",
+        "",
+        "<img src=\"ug-flag-cambodia.svg\" />",
+        "",
+        "<img src=\"ug-map-cambodia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "A`PssUt3QJ",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "喀麦隆(Cameroon)",
+        "",
+        "雅温得(Yaoundé)",
+        "",
+        "",
+        "<img src=\"ug-flag-cameroon.svg\" />",
+        "塞内加尔(绿/黄/红，绿星)",
+        "<img src=\"ug-map-cameroon.png\" />"
+      ],
+      "flags": 0,
+      "guid": "K#d=_hIZKE",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "加拿大(Canada)",
+        "",
+        "渥太华(Ottawa)",
+        "",
+        "",
+        "<img src=\"ug-flag-canada.svg\" />",
+        "",
+        "<img src=\"ug-map-canada.png\" />"
+      ],
+      "flags": 0,
+      "guid": "GTYpE^P`iW",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "加那利群岛(Canary Islands)",
+        "西班牙(Spain)自治区。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-canary_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "#ZC:tg{+N",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "佛得角(Cape Verde)",
+        "也称为佛得角(Cabo Verde)。",
+        "普拉亚(Praia)",
+        "",
+        "",
+        "<img src=\"ug-flag-cape_verde.svg\" />",
+        "",
+        "<img src=\"ug-map-cape_verde.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ggxX5EDLu#",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "加勒比海(Caribbean Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-caribbean_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "MS>FGW*D4)",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "里海(Caspian Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-caspian_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "had@3^QMe<",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "开曼群岛(Cayman Islands)",
+        "英国(U.K.)的海外领土。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-cayman_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "M6}Ies>(@<",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "苏拉威西海(Celebes Sea, 亦称西里伯斯海)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-celebes_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Ne?2/nxwzz",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "凯尔特海(Celtic Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-celtic_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "l5,QyGQp;O",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "中非共和国(Central African Republic)",
+        "",
+        "班吉(Bangui)",
+        "",
+        "",
+        "<img src=\"ug-flag-central_african_republic.svg\" />",
+        "",
+        "<img src=\"ug-map-central_african_republic.png\" />"
+      ],
+      "flags": 0,
+      "guid": "o)}JIV-g[+",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "乍得(Chad)",
+        "",
+        "恩贾梅纳(N'Djamena)",
+        "",
+        "",
+        "<img src=\"ug-flag-chad.svg\" />",
+        "罗马尼亚(略浅蓝色)",
+        "<img src=\"ug-map-chad.png\" />"
+      ],
+      "flags": 0,
+      "guid": "uyF8S~#>aU",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "智利(Chile)",
+        "",
+        "圣地亚哥(Santiago)",
+        "",
+        "",
+        "<img src=\"ug-flag-chile.svg\" />",
+        "",
+        "<img src=\"ug-map-chile.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ynaq{(em+.",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "中国(China)",
+        "",
+        "北京(Beijing)",
+        "",
+        "",
+        "<img src=\"ug-flag-china.svg\" />",
+        "",
+        "<img src=\"ug-map-china.png\" />"
+      ],
+      "flags": 0,
+      "guid": "E))m1]S%~$",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "哥伦比亚(Colombia)",
+        "",
+        "波哥大(Bogotá)",
+        "",
+        "",
+        "<img src=\"ug-flag-colombia.svg\" />",
+        "厄瓜多尔(有国徽)",
+        "<img src=\"ug-map-colombia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "g)<eLu(M*L",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "科摩罗(Comoros)",
+        "",
+        "莫罗尼(Moroni)",
+        "",
+        "",
+        "<img src=\"ug-flag-comoros.svg\" />",
+        "",
+        "<img src=\"ug-map-comoros.png\" />"
+      ],
+      "flags": 0,
+      "guid": "B;/=;Z5Hf>",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "库克群岛(Cook Islands)",
+        "",
+        "阿瓦鲁阿(Avarua)",
+        "",
+        "",
+        "<img src=\"ug-flag-cook_islands.svg\" />",
+        "",
+        "<img src=\"ug-map-cook_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "pT%UNItd:G",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "珊瑚海(Coral Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-coral_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "rrK]w=O%&;",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "科西嘉岛(Corsica)",
+        "法国(France)地区。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-corsica.png\" />"
+      ],
+      "flags": 0,
+      "guid": "w:QQuWvDwe",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "哥斯达黎加(Costa Rica)",
+        "",
+        "圣何塞(San José)",
+        "",
+        "",
+        "<img src=\"ug-flag-costa_rica-blur.svg\" /><img src=\"ug-flag-costa_rica.svg\" />",
+        "",
+        "<img src=\"ug-map-costa_rica.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Q*lz)cq4AX",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "克罗地亚(Croatia)",
+        "",
+        "萨格勒布(Zagreb)",
+        "",
+        "",
+        "<img src=\"ug-flag-croatia.svg\" />",
+        "",
+        "<img src=\"ug-map-croatia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "d1TE(!31ZM",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "古巴(Cuba)",
+        "",
+        "哈瓦那(Havana)",
+        "",
+        "",
+        "<img src=\"ug-flag-cuba.svg\" />",
+        "波多黎各(蓝色三角形，红色条纹)",
+        "<img src=\"ug-map-cuba.png\" />"
+      ],
+      "flags": 0,
+      "guid": "yn:3FCAjQ@",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "库拉索(Curaçao)",
+        "荷兰(Netherlands)的一部分。",
+        "威廉斯塔德(Willemstad)",
+        "",
+        "",
+        "<img src=\"ug-flag-curacao.svg\" />",
+        "瑙鲁(黄带下方的单星)",
+        "<img src=\"ug-map-curacao.png\" />"
+      ],
+      "flags": 0,
+      "guid": "zA3)&;T.So",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "塞浦路斯(Cyprus)",
+        "",
+        "尼科西亚(Nicosia)",
+        "",
+        "",
+        "<img src=\"ug-flag-cyprus.svg\" />",
+        "",
+        "<img src=\"ug-map-cyprus.png\" />"
+      ],
+      "flags": 0,
+      "guid": "enKH)DNJHS",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::European_Union",
+        "UG::Mediterranean",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "捷克共和国(Czech Republic)",
+        "也被称为捷克(Czechia)。",
+        "布拉格(Prague)",
+        "",
+        "",
+        "<img src=\"ug-flag-czech_republic.svg\" />",
+        "",
+        "<img src=\"ug-map-czech_republic.png\" />"
+      ],
+      "flags": 0,
+      "guid": "pCEgO0#[W7",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "死海(Dead Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-dead_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Jf.~{Q9WzM",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "刚果民主共和国(Democratic Republic of the Congo)",
+        "原名扎伊尔(Zaire)。",
+        "金沙萨(Kinshasa)",
+        "",
+        "",
+        "<img src=\"ug-flag-democratic_republic_of_the_congo.svg\" />",
+        "",
+        "<img src=\"ug-map-democratic_republic_of_the_congo.png\" />"
+      ],
+      "flags": 0,
+      "guid": "fv#=q%4>c3",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "丹麦(Denmark)",
+        "",
+        "哥本哈根(Copenhagen)",
+        "",
+        "",
+        "<img src=\"ug-flag-denmark.svg\" />",
+        "",
+        "<img src=\"ug-map-denmark.png\" />"
+      ],
+      "flags": 0,
+      "guid": "PK<SUaP1D8",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "丹麦海峡(Denmark Strait)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-denmark_strait.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Eo2o%/dsa;",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "吉布提(Djibouti)",
+        "",
+        "吉布提(Djibouti)",
+        "",
+        "",
+        "<img src=\"ug-flag-djibouti.svg\" />",
+        "",
+        "<img src=\"ug-map-djibouti.png\" />"
+      ],
+      "flags": 0,
+      "guid": "NiY34bn&]L",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "多米尼加(Dominica)",
+        "",
+        "罗索(Roseau)",
+        "",
+        "",
+        "<img src=\"ug-flag-dominica.svg\" />",
+        "",
+        "<img src=\"ug-map-dominica.png\" />"
+      ],
+      "flags": 0,
+      "guid": "GQLh_H^La#",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "多米尼加共和国(Dominican Republic)",
+        "",
+        "圣多明各(Santo Domingo)",
+        "",
+        "",
+        "<img src=\"ug-flag-dominican_republic.svg\" />",
+        "",
+        "<img src=\"ug-map-dominican_republic.png\" />"
+      ],
+      "flags": 0,
+      "guid": "L8k_N_5Y[s",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "东海(East China Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-east_china_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "HJ86wg)[e8",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "东西伯利亚海(East Siberian Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-east_siberian_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "HRgL]mMe{v",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "厄瓜多尔(Ecuador)",
+        "",
+        "基多(Quito)",
+        "",
+        "",
+        "<img src=\"ug-flag-ecuador.svg\" />",
+        "哥伦比亚(无国徽)",
+        "<img src=\"ug-map-ecuador.png\" />"
+      ],
+      "flags": 0,
+      "guid": "n8;_*m0:KE",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "埃及(Egypt)",
+        "",
+        "开罗(Cairo)",
+        "",
+        "",
+        "<img src=\"ug-flag-egypt.svg\" />",
+        "伊拉克(文字代替徽记)、也门(无徽记)",
+        "<img src=\"ug-map-egypt.png\" />"
+      ],
+      "flags": 0,
+      "guid": "sv0@wkmk6L",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Mediterranean",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "萨尔瓦多(El Salvador)",
+        "",
+        "圣萨尔瓦多(San Salvador)",
+        "",
+        "",
+        "<img src=\"ug-flag-el_salvador-blur.svg\" /><img src=\"ug-flag-el_salvador.svg\" />",
+        "尼加拉瓜(不同的纹章，略浅的蓝色)",
+        "<img src=\"ug-map-el_salvador.png\" />"
+      ],
+      "flags": 0,
+      "guid": "mtvJwCsa{r",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "英格兰(England)",
+        "英国属地之一。",
+        "伦敦(London)",
+        "",
+        "不是主权国家",
+        "<img src=\"ug-flag-england.svg\" />",
+        "",
+        "<img src=\"ug-map-england.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Nwl0,aw[|b",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "英吉利海峡(English Channel)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-english_channel.png\" />"
+      ],
+      "flags": 0,
+      "guid": "F/1cJ>Fv&k",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "赤道几内亚(Equatorial Guinea)",
+        "",
+        "拉巴斯城(Ciudad de la Paz)",
+        "2026 年官方首都从马拉博(Malabo)迁至拉巴斯城(Ciudad de la Paz)。",
+        "",
+        "<img src=\"ug-flag-equatorial_guinea.svg\" />",
+        "",
+        "<img src=\"ug-map-equatorial_guinea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "FQ&H#h<as;",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "厄立特里亚(Eritrea)",
+        "",
+        "阿斯马拉(Asmara)",
+        "",
+        "",
+        "<img src=\"ug-flag-eritrea.svg\" />",
+        "",
+        "<img src=\"ug-map-eritrea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "d<t/4_a)-F",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "爱沙尼亚(Estonia)",
+        "",
+        "塔林(Tallinn)",
+        "",
+        "",
+        "<img src=\"ug-flag-estonia.svg\" />",
+        "",
+        "<img src=\"ug-map-estonia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Q*@?lCT!6Y",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "埃斯瓦蒂尼(Eswatini)",
+        "2018年之前被称为斯威士兰(Swaziland)。",
+        "姆巴巴内(Mbabane)",
+        "姆巴巴内(Mbabane)是官方的行政首都，而洛班巴(Lobamba)是传统观念中的首都、精神首都和立法首都。",
+        "",
+        "<img src=\"ug-flag-eswatini.svg\" />",
+        "",
+        "<img src=\"ug-map-eswatini.png\" />"
+      ],
+      "flags": 0,
+      "guid": "OKGkn:78,$",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "埃塞俄比亚(Ethiopia)",
+        "",
+        "亚的斯亚贝巴(Addis Ababa)",
+        "",
+        "",
+        "<img src=\"ug-flag-ethiopia.svg\" />",
+        "",
+        "<img src=\"ug-map-ethiopia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "rs3JWjn9}q",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "欧洲(Europe)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-europe-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "QoK5I=7Qp@",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Continents"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "欧盟(European Union)",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-flag-european_union.svg\" />",
+        "",
+        "<img src=\"ug-map-european_union.png\" />"
+      ],
+      "flags": 0,
+      "guid": "j}XcHC4/t&",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "福克兰群岛(Falkland Islands)",
+        "英国(U.K.)的海外领土。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-falkland_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "uM1!Wa7;Z8",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::South_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "法罗群岛(Faroe Islands)",
+        "丹麦属地之一。",
+        "托尔斯港(Tórshavn)",
+        "",
+        "",
+        "<img src=\"ug-flag-faroe_islands.svg\" />",
+        "冰岛(蓝底，红白交叉)，挪威(红底，蓝白交叉)",
+        "<img src=\"ug-map-faroe_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "yOxL^*11zC",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "密克罗尼西亚联邦(Federated States of Micronesia)",
+        "",
+        "帕利基尔(Palikir)",
+        "",
+        "",
+        "<img src=\"ug-flag-federated_states_of_micronesia.svg\" />",
+        "",
+        "<img src=\"ug-map-federated_states_of_micronesia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "k}!h>.GGM}",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "斐济(Fiji)",
+        "",
+        "苏瓦(Suva)",
+        "",
+        "",
+        "<img src=\"ug-flag-fiji.svg\" />",
+        "",
+        "<img src=\"ug-map-fiji.png\" />"
+      ],
+      "flags": 0,
+      "guid": "LlY7-hD-Z=",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "芬兰(Finland)",
+        "",
+        "赫尔辛基(Helsinki)",
+        "",
+        "",
+        "<img src=\"ug-flag-finland.svg\" />",
+        "",
+        "<img src=\"ug-map-finland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "f,wQ8f$+-Z",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "法国(France)",
+        "",
+        "巴黎(Paris)",
+        "",
+        "",
+        "<img src=\"ug-flag-france.svg\" />",
+        "",
+        "<img src=\"ug-map-france.png\" />"
+      ],
+      "flags": 0,
+      "guid": "gM^A_*CP;=",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "法属圭亚那(French Guiana)",
+        "法国(France)的海外省份。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-french_guiana.png\" />"
+      ],
+      "flags": 0,
+      "guid": "KQSMJ1$_H)",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::South_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "法属波利尼西亚(French Polynesia)",
+        "法国(France)的海外领土。",
+        "帕皮提(Papeete)",
+        "",
+        "",
+        "<img src=\"ug-flag-french_polynesia.svg\" />",
+        "",
+        "<img src=\"ug-map-french_polynesia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "D%X|~3..Zn",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "加蓬(Gabon)",
+        "",
+        "利伯维尔(Libreville)",
+        "",
+        "",
+        "<img src=\"ug-flag-gabon.svg\" />",
+        "",
+        "<img src=\"ug-map-gabon.png\" />"
+      ],
+      "flags": 0,
+      "guid": "I(kYtUqNp0",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "格鲁吉亚(Georgia)",
+        "",
+        "第比利斯(Tbilisi)",
+        "",
+        "",
+        "<img src=\"ug-flag-georgia.svg\" />",
+        "",
+        "<img src=\"ug-map-georgia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "s3!<lIj#Kn",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "德国(Germany)",
+        "",
+        "柏林(Berlin)",
+        "",
+        "",
+        "<img src=\"ug-flag-germany.svg\" />",
+        "",
+        "<img src=\"ug-map-germany.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Ev>k]3}Q,)",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "加纳(Ghana)",
+        "",
+        "阿克拉(Accra)",
+        "",
+        "",
+        "<img src=\"ug-flag-ghana.svg\" />",
+        "玻利维亚(徽章而不是星形)",
+        "<img src=\"ug-map-ghana.png\" />"
+      ],
+      "flags": 0,
+      "guid": "p3Y4T-dI^r",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "直布罗陀(Gibraltar)",
+        "英国(U.K.)的海外领土。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-gibraltar.png\" />"
+      ],
+      "flags": 0,
+      "guid": "kUnN|-Yeg2",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Mediterranean"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "希腊(Greece)",
+        "",
+        "雅典(Athens)",
+        "",
+        "",
+        "<img src=\"ug-flag-greece.svg\" />",
+        "",
+        "<img src=\"ug-map-greece.png\" />"
+      ],
+      "flags": 0,
+      "guid": "gbrfcUD:c-",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "格陵兰(Greenland)",
+        "丹麦属地之一。",
+        "努克(Nuuk)",
+        "",
+        "",
+        "<img src=\"ug-flag-greenland.svg\" />",
+        "",
+        "<img src=\"ug-map-greenland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "p@-D*C4Kbm",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "格林纳达(Grenada)",
+        "",
+        "圣乔治(St. George's)",
+        "",
+        "",
+        "<img src=\"ug-flag-grenada.svg\" />",
+        "",
+        "<img src=\"ug-map-grenada.png\" />"
+      ],
+      "flags": 0,
+      "guid": "j@1%Q{#*[u",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "瓜德罗普岛(Guadeloupe)",
+        "法国(France)的海外省份。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-guadeloupe.png\" />"
+      ],
+      "flags": 0,
+      "guid": "f6];`G5Rp+",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "关岛(Guam)",
+        "美国(U.S.)无建制属地。",
+        "哈加特纳(Hagåtña)",
+        "",
+        "",
+        "<img src=\"ug-flag-guam-blur.svg\" /><img src=\"ug-flag-guam.svg\" />",
+        "",
+        "<img src=\"ug-map-guam.png\" />"
+      ],
+      "flags": 0,
+      "guid": "oF[H>r%3yR",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "危地马拉(Guatemala)",
+        "",
+        "危地马拉市(Guatemala City)",
+        "",
+        "",
+        "<img src=\"ug-flag-guatemala.svg\" />",
+        "",
+        "<img src=\"ug-map-guatemala.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Py)lE+`c_p",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "根西岛(Guernsey)",
+        "英国(U.K.)的皇家属地。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-guernsey.png\" />"
+      ],
+      "flags": 0,
+      "guid": "OR~,aQ8}/~",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "几内亚(Guinea)",
+        "",
+        "科纳克里(Conakry)",
+        "",
+        "",
+        "<img src=\"ug-flag-guinea.svg\" />",
+        "马里(红绿翻转，绿色略亮)",
+        "<img src=\"ug-map-guinea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "D<!ftRrn^|",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "几内亚比绍(Guinea-Bissau)",
+        "",
+        "比绍(Bissau)",
+        "",
+        "",
+        "<img src=\"ug-flag-guinea-bissau.svg\" />",
+        "",
+        "<img src=\"ug-map-guinea-bissau.png\" />"
+      ],
+      "flags": 0,
+      "guid": "xy4vZ[O~^)",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "阿拉斯加湾(Gulf of Alaska)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-gulf_of_alaska.png\" />"
+      ],
+      "flags": 0,
+      "guid": "CKTDS>^z.J",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "加利福尼亚湾(Gulf of California)",
+        "也被称为科尔特斯海(Sea of Cortez)。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-gulf_of_california.png\" />"
+      ],
+      "flags": 0,
+      "guid": "bDY>zGS#mC",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "卡奔塔利亚湾(Gulf of Carpentaria)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-gulf_of_carpentaria.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ul__U6C[H^",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "几内亚湾(Gulf of Guinea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-gulf_of_guinea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "MSm(o6/eAv",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "墨西哥湾(Gulf of Mexico)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-gulf_of_mexico.png\" />"
+      ],
+      "flags": 0,
+      "guid": "KG?flH`c;d",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "泰国湾(Gulf of Thailand)",
+        "也被称为暹罗湾(Gulf of Siam)。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-gulf_of_thailand.png\" />"
+      ],
+      "flags": 0,
+      "guid": "v^^9nD/1[^",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "圭亚那(Guyana)",
+        "",
+        "乔治敦(Georgetown)",
+        "",
+        "",
+        "<img src=\"ug-flag-guyana.svg\" />",
+        "",
+        "<img src=\"ug-map-guyana.png\" />"
+      ],
+      "flags": 0,
+      "guid": "IAa]E=O/{E",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "海地(Haiti)",
+        "",
+        "太子港(Port-au-Prince)",
+        "",
+        "",
+        "<img src=\"ug-flag-haiti.svg\" />",
+        "",
+        "<img src=\"ug-map-haiti.png\" />"
+      ],
+      "flags": 0,
+      "guid": "o>gTQqW#WH",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "夏威夷(Hawaii)",
+        "美国(U.S.)的州。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-hawaii.png\" />"
+      ],
+      "flags": 0,
+      "guid": "EwsGS_!k)u",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "洪都拉斯(Honduras)",
+        "",
+        "特古西加尔巴(Tegucigalpa)",
+        "",
+        "",
+        "<img src=\"ug-flag-honduras.svg\" />",
+        "",
+        "<img src=\"ug-map-honduras.png\" />"
+      ],
+      "flags": 0,
+      "guid": "L$g~<z8s>r",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "香港(Hong Kong)",
+        "中国特别行政区。",
+        "",
+        "",
+        "",
+        "<img src=\"ug-flag-hong_kong.svg\" />",
+        "",
+        "<img src=\"ug-map-hong_kong.png\" />"
+      ],
+      "flags": 0,
+      "guid": "J2t9?+nltz",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "哈德逊湾(Hudson Bay)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-hudson_bay.png\" />"
+      ],
+      "flags": 0,
+      "guid": "PHd^5hPMSU",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "匈牙利(Hungary)",
+        "",
+        "布达佩斯(Budapest)",
+        "",
+        "",
+        "<img src=\"ug-flag-hungary.svg\" />",
+        "",
+        "<img src=\"ug-map-hungary.png\" />"
+      ],
+      "flags": 0,
+      "guid": "D5q1rNo281",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "冰岛(Iceland)",
+        "",
+        "雷克雅未克(Reykjavík)",
+        "",
+        "",
+        "<img src=\"ug-flag-iceland.svg\" />",
+        "挪威(红底蓝十字)、法罗群岛(白底红蓝十字)",
+        "<img src=\"ug-map-iceland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "cwo0tsYhFy",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "印度(India)",
+        "",
+        "新德里(New Delhi)",
+        "",
+        "",
+        "<img src=\"ug-flag-india.svg\" />",
+        "",
+        "<img src=\"ug-map-india.png\" />"
+      ],
+      "flags": 0,
+      "guid": "m(Ep%@|]8b",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "印度洋(Indian Ocean)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-indian_ocean-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "I6g)*h8Ip<",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "印度尼西亚(Indonesia)",
+        "",
+        "雅加达(Jakarta)",
+        "",
+        "",
+        "<img src=\"ug-flag-indonesia.svg\" />",
+        "摩纳哥(更窄，红色更深)，波兰(红白翻转，红色更深)",
+        "<img src=\"ug-map-indonesia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "FTq&ip7kv.",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "伊朗(Iran)",
+        "",
+        "德黑兰(Tehran)",
+        "",
+        "",
+        "<img src=\"ug-flag-iran.svg\" />",
+        "",
+        "<img src=\"ug-map-iran.png\" />"
+      ],
+      "flags": 0,
+      "guid": "hYK]n.7Ek+",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "伊拉克(Iraq)",
+        "",
+        "巴格达(Baghdad)",
+        "",
+        "",
+        "<img src=\"ug-flag-iraq.svg\" />",
+        "埃及(标志代替文字)、也门(无文字)",
+        "<img src=\"ug-map-iraq.png\" />"
+      ],
+      "flags": 0,
+      "guid": "q1b&%9aiTy",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "爱尔兰(Ireland)",
+        "",
+        "都柏林(Dublin)",
+        "",
+        "",
+        "<img src=\"ug-flag-ireland.svg\" />",
+        "科特迪瓦(绿色和橙色翻转，更窄)",
+        "<img src=\"ug-map-ireland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "p}s&{JwwI+",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "马恩岛(Isle of Man)",
+        "英国(U.K.)的皇家属地。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-isle_of_man.png\" />"
+      ],
+      "flags": 0,
+      "guid": "s>TnR*#azp",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "以色列(Israel)",
+        "",
+        "耶路撒冷(Jerusalem)",
+        "有争议的领土; 巴勒斯坦(Palestine)声称对其拥有主权。",
+        "声称对其拥有主权并拥有实际控制权",
+        "<img src=\"ug-flag-israel.svg\" />",
+        "",
+        "<img src=\"ug-map-israel.png\" />"
+      ],
+      "flags": 0,
+      "guid": "vlG>hjq6pi",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Mediterranean",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "意大利(Italy)",
+        "",
+        "罗马(Rome)",
+        "",
+        "",
+        "<img src=\"ug-flag-italy.svg\" />",
+        "",
+        "<img src=\"ug-map-italy.png\" />"
+      ],
+      "flags": 0,
+      "guid": "GTU:+%4s@|",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "科特迪瓦(Ivory Coast)",
+        "官方名为科特迪瓦(Côte d'Ivoire), 全称科特迪瓦共和国(The Republic of Côte d'Ivoire)",
+        "亚穆苏克罗(Yamoussoukro)",
+        "虽然亚穆苏克罗(Yamoussoukro)是官方首都，但阿比让(Abidjan)是实际政府所在地。",
+        "",
+        "<img src=\"ug-flag-ivory_coast.svg\" />",
+        "爱尔兰(橙色和绿色翻转，更宽)",
+        "<img src=\"ug-map-ivory_coast.png\" />"
+      ],
+      "flags": 0,
+      "guid": "P0bZUc*l&",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "牙买加(Jamaica)",
+        "",
+        "金斯敦(Kingston)",
+        "",
+        "",
+        "<img src=\"ug-flag-jamaica.svg\" />",
+        "",
+        "<img src=\"ug-map-jamaica.png\" />"
+      ],
+      "flags": 0,
+      "guid": "KpAD6q(C@6",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "日本(Japan)",
+        "",
+        "东京(Tokyo)",
+        "",
+        "",
+        "<img src=\"ug-flag-japan.svg\" />",
+        "",
+        "<img src=\"ug-map-japan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ef;S:?]ma.",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "爪哇岛(Java)",
+        "印度尼西亚(Indonesia)的岛屿之一。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-java.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Pia{cdkS[9",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "济州岛(Jeju)",
+        "韩国(South Korea)自治省。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-jeju.png\" />"
+      ],
+      "flags": 0,
+      "guid": "jjhGh!2yXE",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "泽西岛(Jersey)",
+        "英国(U.K.)的皇家属地。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-jersey.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ffDEwyj0dT",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "约旦(Jordan)",
+        "",
+        "安曼(Amman)",
+        "",
+        "",
+        "<img src=\"ug-flag-jordan.svg\" />",
+        "",
+        "<img src=\"ug-map-jordan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "MQ8`{2J;$l",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "加里宁格勒州(Kaliningrad Oblast)",
+        "俄罗斯(Russia)联邦州(行政区)。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-kaliningrad_oblast.png\" />"
+      ],
+      "flags": 0,
+      "guid": "iEC3b2]U!+",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "哈萨克斯坦(Kazakhstan)",
+        "",
+        "阿斯塔纳(Astana)",
+        "在 2019 年至 2022 年间称为努尔苏丹 (Nur-Sultan)",
+        "",
+        "<img src=\"ug-flag-kazakhstan.svg\" />",
+        "",
+        "<img src=\"ug-map-kazakhstan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "OMmv.9i-m0",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "肯尼亚(Kenya)",
+        "",
+        "内罗毕(Nairobi)",
+        "",
+        "",
+        "<img src=\"ug-flag-kenya.svg\" />",
+        "",
+        "<img src=\"ug-map-kenya.png\" />"
+      ],
+      "flags": 0,
+      "guid": "pG/$Z:(SDH",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "基里巴斯(Kiribati)",
+        "",
+        "南塔拉瓦(South Tarawa)",
+        "",
+        "",
+        "<img src=\"ug-flag-kiribati.svg\" />",
+        "",
+        "<img src=\"ug-map-kiribati.png\" />"
+      ],
+      "flags": 0,
+      "guid": "n,:{~_b8Bi",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "科索沃(Kosovo)",
+        "塞尔维亚(Serbia)宣称拥有主权但仅被部分国家承认的地区。",
+        "普里什蒂纳(Pristina)",
+        "",
+        "",
+        "<img src=\"ug-flag-kosovo.svg\" />",
+        "",
+        "<img src=\"ug-map-kosovo.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ec.^XR/1PK",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "科威特(Kuwait)",
+        "",
+        "科威特城(Kuwait City)",
+        "",
+        "",
+        "<img src=\"ug-flag-kuwait.svg\" />",
+        "",
+        "<img src=\"ug-map-kuwait.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Ks:+^W@?f;",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "吉尔吉斯斯坦(Kyrgyzstan)",
+        "",
+        "比什凯克(Bishkek)",
+        "",
+        "",
+        "<img src=\"ug-flag-kyrgyzstan.svg\" />",
+        "",
+        "<img src=\"ug-map-kyrgyzstan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Mok0Gx<2zA",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "拉布拉多海(Labrador Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-labrador_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "L0pY~Sl++C",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "奥兰群岛(Åland Islands)",
+        "芬兰(Finland)自治区。",
+        "玛丽港(Mariehamn)",
+        "",
+        "",
+        "<img src=\"ug-flag-aland_islands.svg\" />",
+        "",
+        "<img src=\"ug-map-aland_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "lLRpv)^=-$",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "老挝(Laos)",
+        "",
+        "万象(Vientiane)",
+        "",
+        "",
+        "<img src=\"ug-flag-laos.svg\" />",
+        "",
+        "<img src=\"ug-map-laos.png\" />"
+      ],
+      "flags": 0,
+      "guid": "dD4#OU[O?X",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "拉脱维亚(Latvia)",
+        "",
+        "里加(Riga)",
+        "",
+        "",
+        "<img src=\"ug-flag-latvia.svg\" />",
+        "奥地利(更亮的红色，更宽的白色带)",
+        "<img src=\"ug-map-latvia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "MSDqc%Hd#M",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "黎巴嫩(Lebanon)",
+        "",
+        "贝鲁特(Beirut)",
+        "",
+        "",
+        "<img src=\"ug-flag-lebanon.svg\" />",
+        "",
+        "<img src=\"ug-map-lebanon.png\" />"
+      ],
+      "flags": 0,
+      "guid": "puuJ#xat%v",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Mediterranean",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "莱索托(Lesotho)",
+        "",
+        "马塞卢(Maseru)",
+        "",
+        "",
+        "<img src=\"ug-flag-lesotho.svg\" />",
+        "",
+        "<img src=\"ug-map-lesotho.png\" />"
+      ],
+      "flags": 0,
+      "guid": "s_J;P,J1M}",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "利比里亚(Liberia)",
+        "",
+        "蒙罗维亚(Monrovia)",
+        "",
+        "",
+        "<img src=\"ug-flag-liberia.svg\" />",
+        "",
+        "<img src=\"ug-map-liberia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "mF&WTyq~08",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "利比亚(Libya)",
+        "",
+        "的黎波里(Tripoli)",
+        "",
+        "",
+        "<img src=\"ug-flag-libya.svg\" />",
+        "",
+        "<img src=\"ug-map-libya.png\" />"
+      ],
+      "flags": 0,
+      "guid": "lh63b}7+i*",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "列支敦士登(Liechtenstein)",
+        "",
+        "瓦杜兹(Vaduz)",
+        "",
+        "",
+        "<img src=\"ug-flag-liechtenstein.svg\" />",
+        "",
+        "<img src=\"ug-map-liechtenstein.png\" />"
+      ],
+      "flags": 0,
+      "guid": "AcOtM]ORs9",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "立陶宛(Lithuania)",
+        "",
+        "维尔纽斯(Vilnius)",
+        "",
+        "",
+        "<img src=\"ug-flag-lithuania.svg\" />",
+        "",
+        "<img src=\"ug-map-lithuania.png\" />"
+      ],
+      "flags": 0,
+      "guid": "POBN`+7rB=",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "卢森堡(Luxembourg)",
+        "",
+        "卢森堡市(Luxembourg City)",
+        "官方称为卢森堡(Luxembourg)。",
+        "",
+        "<img src=\"ug-flag-luxembourg.svg\" />",
+        "荷兰(深蓝色)",
+        "<img src=\"ug-map-luxembourg.png\" />"
+      ],
+      "flags": 0,
+      "guid": "E_he|O^6Oy",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "澳门(Macau)",
+        "中国特别行政区。",
+        "",
+        "",
+        "",
+        "<img src=\"ug-flag-macau.svg\" />",
+        "",
+        "<img src=\"ug-map-macau.png\" />"
+      ],
+      "flags": 0,
+      "guid": "LO^)jB@|p/",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "马达加斯加(Madagascar)",
+        "",
+        "塔那那利佛(Antananarivo)",
+        "",
+        "",
+        "<img src=\"ug-flag-madagascar.svg\" />",
+        "",
+        "<img src=\"ug-map-madagascar.png\" />"
+      ],
+      "flags": 0,
+      "guid": "PS+ir>Fe)M",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "马德拉(Madeira)",
+        "葡萄牙(Portugal)自治区。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-madeira.png\" />"
+      ],
+      "flags": 0,
+      "guid": "FLi~`:rK*C",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "马拉维(Malawi)",
+        "",
+        "利隆圭(Lilongwe)",
+        "",
+        "",
+        "<img src=\"ug-flag-malawi.svg\" />",
+        "",
+        "<img src=\"ug-map-malawi.png\" />"
+      ],
+      "flags": 0,
+      "guid": "lQRywP{/`}",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "马来西亚(Malaysia)",
+        "",
+        "吉隆坡(Kuala Lumpur)",
+        "",
+        "",
+        "<img src=\"ug-flag-malaysia.svg\" />",
+        "",
+        "<img src=\"ug-map-malaysia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "C.RX9_R6ZI",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "马尔代夫(Maldives)",
+        "",
+        "马累(Malé)",
+        "",
+        "",
+        "<img src=\"ug-flag-maldives.svg\" />",
+        "",
+        "<img src=\"ug-map-maldives.png\" />"
+      ],
+      "flags": 0,
+      "guid": "H@*7Gwq;c+",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "马里(Mali)",
+        "",
+        "巴马科(Bamako)",
+        "",
+        "",
+        "<img src=\"ug-flag-mali.svg\" />",
+        "几内亚(绿色和红色翻转，绿色略深)",
+        "<img src=\"ug-map-mali.png\" />"
+      ],
+      "flags": 0,
+      "guid": "p1BZV>/N^[",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "马耳他(Malta)",
+        "",
+        "瓦莱塔(Valletta)",
+        "",
+        "",
+        "<img src=\"ug-flag-malta.svg\" />",
+        "",
+        "<img src=\"ug-map-malta.png\" />"
+      ],
+      "flags": 0,
+      "guid": "B<M:dLv@59",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "马绍尔群岛(Marshall Islands)",
+        "",
+        "马朱罗(Majuro)",
+        "",
+        "",
+        "<img src=\"ug-flag-marshall_islands.svg\" />",
+        "",
+        "<img src=\"ug-map-marshall_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "A/gJwBqOWr",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "马提尼克(Martinique)",
+        "法国(France)的海外省份。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-martinique.png\" />"
+      ],
+      "flags": 0,
+      "guid": "my>[7JB9|d",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "毛里塔尼亚(Mauritania)",
+        "",
+        "努瓦克肖特(Nouakchott)",
+        "",
+        "",
+        "<img src=\"ug-flag-mauritania.svg\" />",
+        "",
+        "<img src=\"ug-map-mauritania.png\" />"
+      ],
+      "flags": 0,
+      "guid": "fO%X.b8Du*",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "毛里求斯(Mauritius)",
+        "",
+        "路易港(Port Louis)",
+        "",
+        "",
+        "<img src=\"ug-flag-mauritius.svg\" />",
+        "",
+        "<img src=\"ug-map-mauritius.png\" />"
+      ],
+      "flags": 0,
+      "guid": "FnkCCScYEu",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "马约特岛(Mayotte)",
+        "法国(France)的海外省份。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-mayotte.png\" />"
+      ],
+      "flags": 0,
+      "guid": "kHR&Uv%`gZ",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "地中海(Mediterranean Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-mediterranean_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "u*w]f[0NdR",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "美拉尼西亚(Melanesia)",
+        "大洋洲(Oceania)的一个区域，包括瓦努阿图(Vanuatu)、所罗门群岛(Solomon Islands)、斐济(Fiji)和巴布亚新几内亚(Papua New Guinea)。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-melanesia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "tuQ3Z0(HHl",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "墨西哥(Mexico)",
+        "",
+        "墨西哥城(Mexico City)",
+        "",
+        "",
+        "<img src=\"ug-flag-mexico.svg\" />",
+        "",
+        "<img src=\"ug-map-mexico.png\" />"
+      ],
+      "flags": 0,
+      "guid": "H/0e[]~?ap",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "密克罗尼西亚(Micronesia)",
+        "大洋洲的一个区域包括西太平洋的数千个小岛。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-micronesia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "N#*<!Qu#_?",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "摩尔多瓦(Moldova)",
+        "",
+        "基希讷乌(Chișinău)",
+        "",
+        "",
+        "<img src=\"ug-flag-moldova.svg\" />",
+        "安道尔(更窄，带有座右铭的纹章)",
+        "<img src=\"ug-map-moldova.png\" />"
+      ],
+      "flags": 0,
+      "guid": "QO/4vign#G",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "摩纳哥(Monaco)",
+        "",
+        "摩纳哥(Monaco)",
+        "",
+        "",
+        "<img src=\"ug-flag-monaco.svg\" />",
+        "印度尼西亚(更宽，红色更亮)，波兰(红色和白色翻转，更宽)",
+        "<img src=\"ug-map-monaco.png\" />"
+      ],
+      "flags": 0,
+      "guid": "EW8MT$$Do=",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "蒙古(Mongolia)",
+        "",
+        "乌兰巴托(Ulaanbaatar)",
+        "",
+        "",
+        "<img src=\"ug-flag-mongolia.svg\" />",
+        "",
+        "<img src=\"ug-map-mongolia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "rY(r:vfR-a",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "黑山(Montenegro)",
+        "",
+        "波德戈里察(Podgorica)",
+        "采蒂涅(Cetinje)，黑山古都和宗教、历史中心。",
+        "",
+        "<img src=\"ug-flag-montenegro.svg\" />",
+        "",
+        "<img src=\"ug-map-montenegro.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ypD(;&(hS}",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "摩洛哥(Morocco)",
+        "",
+        "拉巴特(Rabat)",
+        "",
+        "",
+        "<img src=\"ug-flag-morocco.svg\" />",
+        "",
+        "<img src=\"ug-map-morocco.png\" />"
+      ],
+      "flags": 0,
+      "guid": "qb/Z!O.s;I",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "莫桑比克(Mozambique)",
+        "",
+        "马普托(Maputo)",
+        "",
+        "",
+        "<img src=\"ug-flag-mozambique.svg\" />",
+        "",
+        "<img src=\"ug-map-mozambique.png\" />"
+      ],
+      "flags": 0,
+      "guid": "vKqtjIB/vI",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "缅甸(Myanmar)",
+        "缅甸在国际上公认有2种名字(Myanmar, Burma)。",
+        "内比都(Naypyidaw)",
+        "缅甸于2005年11月6日首都从仰光(Yangon)迁往内比都(Naypyidaw)。",
+        "",
+        "<img src=\"ug-flag-myanmar.svg\" />",
+        "",
+        "<img src=\"ug-map-myanmar.png\" />"
+      ],
+      "flags": 0,
+      "guid": "sy5.)yzP@:",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "纳米比亚(Namibia)",
+        "",
+        "温得和克(Windhoek)",
+        "",
+        "",
+        "<img src=\"ug-flag-namibia.svg\" />",
+        "",
+        "<img src=\"ug-map-namibia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "rdPt1Xc3/L",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "瑙鲁(Nauru)",
+        "",
+        "亚伦(Yaren)",
+        "瑙鲁(Nauru)无正式首都，政府机关设在亚伦区(the Yaren District)。",
+        "",
+        "<img src=\"ug-flag-nauru.svg\" />",
+        "库拉索岛(左上角的两颗星)",
+        "<img src=\"ug-map-nauru.png\" />"
+      ],
+      "flags": 0,
+      "guid": "y3XH$Vv!}O",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "尼泊尔(Nepal)",
+        "",
+        "加德满都(Kathmandu)",
+        "",
+        "",
+        "<img src=\"ug-flag-nepal-nobox.svg\" />",
+        "",
+        "<img src=\"ug-map-nepal.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Kz0j{/>Yf;",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "荷兰(Netherlands)",
+        "现名尼德兰(Netherlands)，中文通译为荷兰(Holanda)",
+        "阿姆斯特丹(Amsterdam)",
+        "虽然阿姆斯特丹(Amsterdam)是官方首都，但海牙(Hague)是行政和立法部门的所在地。",
+        "",
+        "<img src=\"ug-flag-netherlands.svg\" />",
+        "卢森堡(浅蓝色)",
+        "<img src=\"ug-map-netherlands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "NLVBy|Obx/",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "新喀里多尼亚(New Caledonia)",
+        "法国(France)的海外领土。",
+        "努美阿(Nouméa)",
+        "",
+        "",
+        "<img src=\"ug-flag-new_caledonia.svg\" />",
+        "",
+        "<img src=\"ug-map-new_caledonia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "rlB,Mw_{9u",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "新西兰(New Zealand)",
+        "",
+        "惠灵顿(Wellington)",
+        "",
+        "",
+        "<img src=\"ug-flag-new_zealand.svg\" />",
+        "澳大利亚(白星，多两颗星)",
+        "<img src=\"ug-map-new_zealand.png\" />"
+      ],
+      "flags": 0,
+      "guid": "jgG[|g62bu",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "尼加拉瓜(Nicaragua)",
+        "",
+        "马那瓜(Managua)",
+        "",
+        "",
+        "<img src=\"ug-flag-nicaragua-blur.svg\" /><img src=\"ug-flag-nicaragua.svg\" />",
+        "萨尔瓦多(不同的纹章，略深的蓝色)",
+        "<img src=\"ug-map-nicaragua.png\" />"
+      ],
+      "flags": 0,
+      "guid": "rX)V])-VWp",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "尼日尔(Niger)",
+        "",
+        "尼亚美(Niamey)",
+        "",
+        "",
+        "<img src=\"ug-flag-niger.svg\" />",
+        "",
+        "<img src=\"ug-map-niger.png\" />"
+      ],
+      "flags": 0,
+      "guid": "tUSX;Ir|#b",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "尼日利亚(Nigeria)",
+        "",
+        "阿布贾(Abuja)",
+        "",
+        "",
+        "<img src=\"ug-flag-nigeria.svg\" />",
+        "",
+        "<img src=\"ug-map-nigeria.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Jc##S9tF8#",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "纽埃(Niue)",
+        "",
+        "阿洛菲(Alofi)",
+        "",
+        "",
+        "<img src=\"ug-flag-niue.svg\" />",
+        "",
+        "<img src=\"ug-map-niue.png\" />"
+      ],
+      "flags": 0,
+      "guid": "tu#G0@lX~;",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "北美洲(North America)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-north_america-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "q5WM.]<L#f",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Continents"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "朝鲜(North Korea)",
+        "",
+        "平壤(Pyongyang)",
+        "",
+        "",
+        "<img src=\"ug-flag-north_korea.svg\" />",
+        "",
+        "<img src=\"ug-map-north_korea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "N/%+2}mGrG",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "北马其顿(North Macedonia)",
+        "原名马其顿(Macedonia)。",
+        "斯科普里(Skopje)",
+        "",
+        "",
+        "<img src=\"ug-flag-north_macedonia.svg\" />",
+        "",
+        "<img src=\"ug-map-north_macedonia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "y0~OHJtwl7",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "北海(North Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-north_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "w`V>hP/0D#",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "北塞浦路斯(Northern Cyprus)",
+        "塞浦路斯(Cyprus)声称拥有主权的地区但仅被土耳其(Turkey)承认。",
+        "北尼科西亚(North Nicosia)",
+        "",
+        "",
+        "<img src=\"ug-flag-northern_cyprus.svg\" />",
+        "",
+        "<img src=\"ug-map-northern_cyprus.png\" />"
+      ],
+      "flags": 0,
+      "guid": "EU8;wgRtD*",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Mediterranean",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "北爱尔兰(Northern Ireland)",
+        "英国属地之一。",
+        "贝尔法斯特(Belfast)",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-northern_ireland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "cT*U%JzhoF",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "北马里亚纳群岛(Northern Mariana Islands)",
+        "美国(U.S.)无建制属地。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-northern_mariana_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "xIgw]b[Ca",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "挪威(Norway)",
+        "",
+        "奥斯陆(Oslo)",
+        "",
+        "",
+        "<img src=\"ug-flag-norway.svg\" />",
+        "冰岛(蓝底，红十字)，法罗群岛(白底，红蓝交叉)",
+        "<img src=\"ug-map-norway.png\" />"
+      ],
+      "flags": 0,
+      "guid": "l.0D<A/ul3",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "挪威海(Norwegian Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-norwegian_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "FGMh%X!#`#",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "大洋洲(Oceania)",
+        "包括澳大利亚大陆(Australian continent)和太平洋(Pacific Ocean)大部分岛屿的世界大洲。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-oceania-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "K;bT|9JN(q",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Continents"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "阿曼(Oman)",
+        "",
+        "马斯喀特(Muscat)",
+        "",
+        "",
+        "<img src=\"ug-flag-oman.svg\" />",
+        "",
+        "<img src=\"ug-map-oman.png\" />"
+      ],
+      "flags": 0,
+      "guid": "rE?G|4)INH",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "太平洋(Pacific Ocean)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-pacific_ocean-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "tXc}dmX&<>",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "巴基斯坦(Pakistan)",
+        "",
+        "伊斯兰堡(Islamabad)",
+        "",
+        "",
+        "<img src=\"ug-flag-pakistan.svg\" />",
+        "",
+        "<img src=\"ug-map-pakistan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Pvc}L-U<4u",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "帕劳(Palau)",
+        "",
+        "恩格鲁穆德(Ngerulmud)",
+        "",
+        "",
+        "<img src=\"ug-flag-palau.svg\" />",
+        "",
+        "<img src=\"ug-map-palau.png\" />"
+      ],
+      "flags": 0,
+      "guid": "rXXpo0h~v.",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "巴勒斯坦(Palestine)",
+        "",
+        "耶路撒冷(Jerusalem)",
+        "有争议的领土; 以色列(Israel)声称对其拥有主权; 拉马拉(Ramallah)是行政中心。",
+        "声称对其拥有主权但没有实际控制权",
+        "<img src=\"ug-flag-palestine.svg\" />",
+        "苏丹(红/白/黑、绿箭头)、阿拉伯撒哈拉民主共和国(有星形和新月形)",
+        "<img src=\"ug-map-palestine.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ch(]T))VSv",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Mediterranean",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "巴拿马(Panama)",
+        "",
+        "巴拿马城(Panama City)",
+        "",
+        "",
+        "<img src=\"ug-flag-panama.svg\" />",
+        "",
+        "<img src=\"ug-map-panama.png\" />"
+      ],
+      "flags": 0,
+      "guid": "qL~S9=NS<a",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "巴布亚新几内亚(Papua New Guinea)",
+        "",
+        "莫尔兹比港(Port Moresby)",
+        "",
+        "",
+        "<img src=\"ug-flag-papua_new_guinea.svg\" />",
+        "",
+        "<img src=\"ug-map-papua_new_guinea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Fa5dp}mEt,",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "巴拉圭(Paraguay)",
+        "",
+        "亚松森(Asunción)",
+        "",
+        "",
+        "<img src=\"ug-flag-paraguay-blur.svg\" /><img src=\"ug-flag-paraguay.svg\" />",
+        "",
+        "<img src=\"ug-map-paraguay.png\" />"
+      ],
+      "flags": 0,
+      "guid": "kK]za]p+{7",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "波斯湾(Persian Gulf)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-persian_gulf.png\" />"
+      ],
+      "flags": 0,
+      "guid": "kLO=|#$+U:",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "秘鲁(Peru)",
+        "",
+        "利马(Lima)",
+        "",
+        "",
+        "<img src=\"ug-flag-peru.svg\" />",
+        "",
+        "<img src=\"ug-map-peru.png\" />"
+      ],
+      "flags": 0,
+      "guid": "spE8=x-*=s",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "菲律宾海(Philippine Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-philippine_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "t3?G**%UOs",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "菲律宾(Philippines)",
+        "",
+        "马尼拉(Manila)",
+        "",
+        "",
+        "<img src=\"ug-flag-philippines.svg\" />",
+        "",
+        "<img src=\"ug-map-philippines.png\" />"
+      ],
+      "flags": 0,
+      "guid": "v6tcadB/em",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "波兰(Poland)",
+        "",
+        "华沙(Warsaw)",
+        "",
+        "",
+        "<img src=\"ug-flag-poland.svg\" />",
+        "印度尼西亚(白色和红色翻转，红色更亮)，摩纳哥(白色和红色翻转，更窄)",
+        "<img src=\"ug-map-poland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "h=:xts:/of",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "波利尼西亚(Polynesia)",
+        "大洋洲(Oceania)的一个区域，由太平洋(Pacific Ocean)中部和南部的数千个小岛组成。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-polynesia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "wr%uN<cXE)",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "葡萄牙(Portugal)",
+        "",
+        "里斯本(Lisbon)",
+        "",
+        "",
+        "<img src=\"ug-flag-portugal.svg\" />",
+        "",
+        "<img src=\"ug-map-portugal.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ImXm@Y!d=C",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "波多黎各(Puerto Rico)",
+        "美国(U.S.)无建制属地。",
+        "圣胡安(San Juan)",
+        "",
+        "",
+        "<img src=\"ug-flag-puerto_rico.svg\" />",
+        "古巴(红三角，蓝条纹)",
+        "<img src=\"ug-map-puerto_rico.png\" />"
+      ],
+      "flags": 0,
+      "guid": "um^^I*6+xA",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "卡塔尔(Qatar)",
+        "",
+        "多哈(Doha)",
+        "",
+        "",
+        "<img src=\"ug-flag-qatar.svg\" />",
+        "巴林(更窄，锯齿边缘更少，红色)",
+        "<img src=\"ug-map-qatar.png\" />"
+      ],
+      "flags": 0,
+      "guid": "e%9U7YA-t6",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "留尼汪岛(Réunion)",
+        "法国(France)的海外省份。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-reunion.png\" />"
+      ],
+      "flags": 0,
+      "guid": "xj^v<?(5rU",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "红海(Red Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-red_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "zzE~LA%s{3",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "刚果共和国(Republic of the Congo)",
+        "",
+        "布拉柴维尔(Brazzaville)",
+        "",
+        "",
+        "<img src=\"ug-flag-republic_of_the_congo.svg\" />",
+        "",
+        "<img src=\"ug-map-republic_of_the_congo.png\" />"
+      ],
+      "flags": 0,
+      "guid": "DBaFxxcqE1",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "罗马尼亚(Romania)",
+        "",
+        "布加勒斯特(Bucharest)",
+        "",
+        "",
+        "<img src=\"ug-flag-romania.svg\" />",
+        "乍得(略深蓝色)",
+        "<img src=\"ug-map-romania.png\" />"
+      ],
+      "flags": 0,
+      "guid": "J.Jb{*5W&x",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "俄罗斯(Russia)",
+        "",
+        "莫斯科(Moscow)",
+        "",
+        "",
+        "<img src=\"ug-flag-russia.svg\" />",
+        "斯洛伐克(有国徽)",
+        "<img src=\"ug-map-russia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "BJ.AT#.[rO",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "卢旺达(Rwanda)",
+        "",
+        "基加利(Kigali)",
+        "",
+        "",
+        "<img src=\"ug-flag-rwanda.svg\" />",
+        "",
+        "<img src=\"ug-map-rwanda.png\" />"
+      ],
+      "flags": 0,
+      "guid": "OQ1fL&%bu.",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "圣多美和普林西比(São Tomé and Príncipe)",
+        "",
+        "圣多美(São Tomé)",
+        "",
+        "",
+        "<img src=\"ug-flag-sao_tome_and_principe.svg\" />",
+        "",
+        "<img src=\"ug-map-sao_tome_and_principe.png\" />"
+      ],
+      "flags": 0,
+      "guid": "I*dt3/F8<o",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "阿拉伯撒哈拉民主共和国(Sahrawi Arab Democratic Republic)",
+        "摩洛哥(Morocco)宣称拥有主权但仅被部分国家承认的地区。",
+        "阿尤恩(Laayoune)",
+        "虽然阿尤恩(Laayoune，西班牙语称为El Aaiún，中文含义是泉水)，是官方宣称的首都，但提法里提(Tifariti)是实际政府所在地。",
+        "",
+        "<img src=\"ug-flag-sahrawi_arab_democratic_republic.svg\" />",
+        "巴勒斯坦(无符号)",
+        "<img src=\"ug-map-sahrawi_arab_democratic_republic.png\" />"
+      ],
+      "flags": 0,
+      "guid": "lVC}2]rXGx",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "圣基茨和尼维斯(Saint Kitts and Nevis)",
+        "",
+        "巴斯特尔(Basseterre)",
+        "",
+        "",
+        "<img src=\"ug-flag-saint_kitts_and_nevis.svg\" />",
+        "",
+        "<img src=\"ug-map-saint_kitts_and_nevis.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Wgt{Z2z@-",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "圣卢西亚(Saint Lucia)",
+        "",
+        "卡斯特里(Castries)",
+        "",
+        "",
+        "<img src=\"ug-flag-saint_lucia.svg\" />",
+        "",
+        "<img src=\"ug-map-saint_lucia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "cz6$`eS%Jt",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "圣马丁(Saint Martin)",
+        "法国(France)的海外领土。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-saint_martin.png\" />"
+      ],
+      "flags": 0,
+      "guid": "HkZ${rRt2w",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "圣文森特和格林纳丁斯(Saint Vincent and the Grenadines)",
+        "",
+        "金斯敦(Kingstown)",
+        "",
+        "",
+        "<img src=\"ug-flag-saint_vincent_and_the_grenadines.svg\" />",
+        "",
+        "<img src=\"ug-map-saint_vincent_and_the_grenadines.png\" />"
+      ],
+      "flags": 0,
+      "guid": "C9Yd9s9x^4",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "萨摩亚(Samoa)",
+        "",
+        "阿皮亚(Apia)",
+        "",
+        "",
+        "<img src=\"ug-flag-samoa.svg\" />",
+        "",
+        "<img src=\"ug-map-samoa.png\" />"
+      ],
+      "flags": 0,
+      "guid": "nlXMhXa:eo",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "圣马力诺(San Marino)",
+        "",
+        "圣马力诺市(City of San Marino)",
+        "",
+        "",
+        "<img src=\"ug-flag-san_marino.svg\" />",
+        "",
+        "<img src=\"ug-map-san_marino.png\" />"
+      ],
+      "flags": 0,
+      "guid": "I}a6d8q1zJ",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "撒丁岛(Sardinia)",
+        "意大利(Italy)自治区。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-sardinia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "h(~2^@60l(",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "沙特阿拉伯(Saudi Arabia)",
+        "",
+        "利雅得(Riyadh)",
+        "",
+        "",
+        "<img src=\"ug-flag-saudi_arabia.svg\" />",
+        "",
+        "<img src=\"ug-map-saudi_arabia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "mL<v:xKEig",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "斯堪的纳维亚(Scandinavia)",
+        "北欧(Northern Europe)的历史和文化区域，包括丹麦(Denmark)、挪威(Norway)和瑞典(Sweden)，有时也包括芬兰(Finland)和冰岛(Iceland)。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-scandinavia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "jt>`;1ezpn",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "苏格兰(Scotland)",
+        "英国属地之一。",
+        "爱丁堡(Edinburgh)",
+        "",
+        "",
+        "<img src=\"ug-flag-scotland.svg\" />",
+        "",
+        "<img src=\"ug-map-scotland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "s~>jc!QM+^",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "加利利海(Sea of Galilee)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-sea_of_galilee.png\" />"
+      ],
+      "flags": 0,
+      "guid": "m,bcMekm)F",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "日本海(Sea of Japan)",
+        "日本海(Sea of Japan)的周边国家之间存在命名争议，韩国(South Korea)尤其支持东海(East Sea)的名称，中国在元朝及明朝初时期称“鲸海”。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-sea_of_japan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "B=Vz){?|~&",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "鄂霍次克海(Sea of Okhotsk)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-sea_of_okhotsk.png\" />"
+      ],
+      "flags": 0,
+      "guid": "D9@;gV0`._",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "塞内加尔(Senegal)",
+        "",
+        "达喀尔(Dakar)",
+        "",
+        "",
+        "<img src=\"ug-flag-senegal.svg\" />",
+        "喀麦隆(绿/红/黄，黄星)",
+        "<img src=\"ug-map-senegal.png\" />"
+      ],
+      "flags": 0,
+      "guid": "n0?y%]P19<",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "塞尔维亚(Serbia)",
+        "",
+        "贝尔格莱德(Belgrade)",
+        "",
+        "",
+        "<img src=\"ug-flag-serbia.svg\" />",
+        "",
+        "<img src=\"ug-map-serbia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "f~6bdns@H]",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "塞舌尔(Seychelles)",
+        "",
+        "维多利亚(Victoria)",
+        "",
+        "",
+        "<img src=\"ug-flag-seychelles.svg\" />",
+        "",
+        "<img src=\"ug-map-seychelles.png\" />"
+      ],
+      "flags": 0,
+      "guid": "C8f6MF_v~q",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "西西里岛(Sicily)",
+        "意大利(Italy)自治区。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-sicily.png\" />"
+      ],
+      "flags": 0,
+      "guid": "eyK$*+kkTP",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "塞拉利昂(Sierra Leone)",
+        "",
+        "弗里敦(Freetown)",
+        "",
+        "",
+        "<img src=\"ug-flag-sierra_leone.svg\" />",
+        "",
+        "<img src=\"ug-map-sierra_leone.png\" />"
+      ],
+      "flags": 0,
+      "guid": "fi3!(|*ko:",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "新加坡(Singapore)",
+        "",
+        "新加坡(Singapore)",
+        "",
+        "",
+        "<img src=\"ug-flag-singapore.svg\" />",
+        "",
+        "<img src=\"ug-map-singapore.png\" />"
+      ],
+      "flags": 0,
+      "guid": "e,f<m<wis!",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "圣马丁岛(Sint Maarten)",
+        "荷兰(Netherlands)的一部分。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-sint_maarten.png\" />"
+      ],
+      "flags": 0,
+      "guid": "bY]b2xX@do",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "斯洛伐克(Slovakia)",
+        "",
+        "布拉迪斯拉发(Bratislava)",
+        "",
+        "",
+        "<img src=\"ug-flag-slovakia.svg\" />",
+        "俄罗斯(无国徽)、斯洛文尼亚(更宽、更小的国徽)",
+        "<img src=\"ug-map-slovakia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "y;A9OXF@l!",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "斯洛文尼亚(Slovenia)",
+        "",
+        "卢布尔雅那(Ljubljana)",
+        "",
+        "",
+        "<img src=\"ug-flag-slovenia.svg\" />",
+        "斯洛伐克(更窄、更大的国徽)",
+        "<img src=\"ug-map-slovenia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "I*+0vDfGN",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "所罗门群岛(Solomon Islands)",
+        "",
+        "霍尼亚拉(Honiara)",
+        "",
+        "",
+        "<img src=\"ug-flag-solomon_islands.svg\" />",
+        "",
+        "<img src=\"ug-map-solomon_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "pW1W#4,|[C",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "索马里(Somalia)",
+        "",
+        "摩加迪沙(Mogadishu)",
+        "",
+        "",
+        "<img src=\"ug-flag-somalia.svg\" />",
+        "",
+        "<img src=\"ug-map-somalia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "IJx`PW+GwM",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "索马里兰(Somaliland)",
+        "索马里(Somalia)宣称拥有主权的独立国家。",
+        "哈尔格萨(Hargeisa)",
+        "",
+        "",
+        "<img src=\"ug-flag-somaliland.svg\" />",
+        "",
+        "<img src=\"ug-map-somaliland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "L7_]M^ye0_",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "南非(South Africa)",
+        "",
+        "比勒陀利亚(Pretoria)、开普敦(Cape Town)、布隆方丹(Bloemfontein)",
+        "南非没有法定首都，政府部门分为三个城市：行政首都(中央政府所在地)为比勒陀利亚(Pretoria, 2005年起讨论改为 茨瓦内/Tshwane 但至今没有实施)，立法首都(议会所在地)为开普敦(Cape Town)，司法首都(最高法院所在地)为布隆方丹(Bloemfontein)。",
+        "",
+        "<img src=\"ug-flag-south_africa.svg\" />",
+        "",
+        "<img src=\"ug-map-south_africa.png\" />"
+      ],
+      "flags": 0,
+      "guid": "CpvA2cf_vf",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "南美洲(South America)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-south_america-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "IG%u>)zM-W",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Continents"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "南海(South China Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-south_china_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "s,r3*=P3-/",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "韩国(South Korea)",
+        "",
+        "首尔(Seoul)",
+        "",
+        "",
+        "<img src=\"ug-flag-south_korea.svg\" />",
+        "",
+        "<img src=\"ug-map-south_korea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "JHYQ@rcDWA",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "南奥塞梯(South Ossetia)",
+        "格鲁吉亚(Georgia)宣称拥有主权的独立国家。",
+        "茨欣瓦利(Tskhinvali)",
+        "",
+        "",
+        "<img src=\"ug-flag-south_ossetia.svg\" />",
+        "",
+        "<img src=\"ug-map-south_ossetia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "cee!Fd2H$h",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "南苏丹(South Sudan)",
+        "",
+        "朱巴(Juba)",
+        "",
+        "",
+        "<img src=\"ug-flag-south_sudan.svg\" />",
+        "",
+        "<img src=\"ug-map-south_sudan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "kyNx*s3<uT",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "南大洋(Southern Ocean)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-southern_ocean-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "vF[(#a^Y55",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "西班牙(Spain)",
+        "",
+        "马德里(Madrid)",
+        "",
+        "",
+        "<img src=\"ug-flag-spain.svg\" />",
+        "",
+        "<img src=\"ug-map-spain.png\" />"
+      ],
+      "flags": 0,
+      "guid": "e<)log]FU?",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "斯里兰卡(Sri Lanka)",
+        "",
+        "斯里贾亚瓦德纳普拉科特(Sri Jayawardenepura Kotte)，亦称科特",
+        "科伦坡(Colombo)通常被称为首都，但科伦坡郊区的斯里贾亚瓦德纳普拉科特(Sri Jayawardenepura Kotte)是官方的立法首都。",
+        "",
+        "<img src=\"ug-flag-sri_lanka.svg\" />",
+        "",
+        "<img src=\"ug-map-sri_lanka.png\" />"
+      ],
+      "flags": 0,
+      "guid": "x3%Ov1S$V3",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "霍尔木兹海峡",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-strait_of_hormuz.png\" />"
+      ],
+      "flags": 0,
+      "guid": "mZ+id/,K1E",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "马六甲海峡",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-strait_of_malacca.png\" />"
+      ],
+      "flags": 0,
+      "guid": "I+D_2Y@u}d",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "苏丹(Sudan)",
+        "",
+        "喀土穆(Khartoum)",
+        "",
+        "",
+        "<img src=\"ug-flag-sudan.svg\" />",
+        "巴勒斯坦(黑/白/绿，红色箭头)",
+        "<img src=\"ug-map-sudan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Dm&Q1+grS7",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "苏门答腊岛(Sumatra)",
+        "印度尼西亚(Indonesia)的岛屿之一。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-sumatra.png\" />"
+      ],
+      "flags": 0,
+      "guid": "P@BL~hgv1=",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "苏里南(Suriname)",
+        "",
+        "帕拉马里博(Paramaribo)",
+        "",
+        "",
+        "<img src=\"ug-flag-suriname.svg\" />",
+        "",
+        "<img src=\"ug-map-suriname.png\" />"
+      ],
+      "flags": 0,
+      "guid": "xG.@W37lc.",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "斯瓦尔巴群岛(Svalbard)",
+        "挪威(Norway)的无建制内部区域。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-svalbard.png\" />"
+      ],
+      "flags": 0,
+      "guid": "c<M<KU^1m?",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "瑞典(Sweden)",
+        "",
+        "斯德哥尔摩(Stockholm)",
+        "",
+        "",
+        "<img src=\"ug-flag-sweden.svg\" />",
+        "",
+        "<img src=\"ug-map-sweden.png\" />"
+      ],
+      "flags": 0,
+      "guid": "IFn#5Ov[_L",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "瑞士(Switzerland)",
+        "",
+        "伯尔尼(Bern)",
+        "瑞士没有官方首都;伯尔尼(Bern)是实际首都。",
+        "",
+        "<img src=\"ug-flag-switzerland.svg\" />",
+        "",
+        "<img src=\"ug-map-switzerland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "IACy{$LG3;",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "叙利亚(Syria)",
+        "",
+        "大马士革(Damascus)",
+        "",
+        "",
+        "<img src=\"ug-flag-syria.svg\" />",
+        "",
+        "<img src=\"ug-map-syria.png\" />"
+      ],
+      "flags": 0,
+      "guid": "I,u%z><H=-",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Mediterranean",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "台湾(Taiwan)",
+        "中国宣称对台湾拥有主权，但仅被部分国家承认",
+        "台北(Taipei)",
+        "",
+        "",
+        "<img src=\"ug-flag-taiwan.svg\" />",
+        "",
+        "<img src=\"ug-map-taiwan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "t0?{g(Em(;",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "塔吉克斯坦(Tajikistan)",
+        "",
+        "杜尚别(Dushanbe)",
+        "",
+        "",
+        "<img src=\"ug-flag-tajikistan.svg\" />",
+        "",
+        "<img src=\"ug-map-tajikistan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "DPy/er4r|9",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "坦桑尼亚(Tanzania)",
+        "",
+        "多多马(Dodoma)",
+        "虽然多多马(Dodoma)是官方首都，但达累斯萨拉姆(Dar es Salaam)是实际政府所在地。",
+        "",
+        "<img src=\"ug-flag-tanzania.svg\" />",
+        "",
+        "<img src=\"ug-map-tanzania.png\" />"
+      ],
+      "flags": 0,
+      "guid": "x.-f`#aRav",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "塔斯曼海(Tasman Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-tasman_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "KR2[wk&&5r",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "泰国(Thailand)",
+        "",
+        "曼谷(Bangkok)",
+        "",
+        "",
+        "<img src=\"ug-flag-thailand.svg\" />",
+        "",
+        "<img src=\"ug-map-thailand.png\" />"
+      ],
+      "flags": 0,
+      "guid": "k_crZ6<6H@",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "巴哈马(The Bahamas)",
+        "",
+        "拿骚(Nassau)",
+        "",
+        "",
+        "<img src=\"ug-flag-the_bahamas.svg\" />",
+        "",
+        "<img src=\"ug-map-the_bahamas.png\" />"
+      ],
+      "flags": 0,
+      "guid": "lgk=]hEdgU",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "冈比亚(The Gambia)",
+        "",
+        "班珠尔(Banjul)",
+        "",
+        "",
+        "<img src=\"ug-flag-the_gambia.svg\" />",
+        "",
+        "<img src=\"ug-map-the_gambia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "HJiVX@m]Bz",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "东帝汶(Timor-Leste)",
+        "也称为东帝汶(Timor-Leste)。",
+        "帝力(Dili)",
+        "",
+        "",
+        "<img src=\"ug-flag-timor-leste.svg\" />",
+        "",
+        "<img src=\"ug-map-timor-leste.png\" />"
+      ],
+      "flags": 0,
+      "guid": "bd/jbWJUgZ",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "帝汶海(Timor Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-timor_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ctIGtW,bzw",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "多哥(Togo)",
+        "",
+        "洛美(Lomé)",
+        "",
+        "",
+        "<img src=\"ug-flag-togo.svg\" />",
+        "",
+        "<img src=\"ug-map-togo.png\" />"
+      ],
+      "flags": 0,
+      "guid": "lzJ?#,5I62",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "汤加(Tonga)",
+        "",
+        "努库阿洛法(Nukuʻalofa)",
+        "",
+        "",
+        "<img src=\"ug-flag-tonga.svg\" />",
+        "",
+        "<img src=\"ug-map-tonga.png\" />"
+      ],
+      "flags": 0,
+      "guid": "b|pv4=f4>n",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "德涅斯特河沿岸(Transnistria)",
+        "摩尔多瓦(Moldova)宣称拥有主权的独立国家。",
+        "蒂拉斯波尔(Tiraspol)",
+        "",
+        "",
+        "<img src=\"ug-flag-transnistria.svg\" />",
+        "",
+        "<img src=\"ug-map-transnistria.png\" />"
+      ],
+      "flags": 0,
+      "guid": "n-MjqM#<W{",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "特立尼达和多巴哥(Trinidad and Tobago)",
+        "",
+        "西班牙港(Port of Spain)",
+        "",
+        "",
+        "<img src=\"ug-flag-trinidad_and_tobago.svg\" />",
+        "",
+        "<img src=\"ug-map-trinidad_and_tobago.png\" />"
+      ],
+      "flags": 0,
+      "guid": "K$Iv_pVvA$",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "突尼斯(Tunisia)",
+        "",
+        "突尼斯(Tunis)",
+        "",
+        "",
+        "<img src=\"ug-flag-tunisia.svg\" />",
+        "",
+        "<img src=\"ug-map-tunisia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "cxf-&1_fEY",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "土耳其(Turkey)",
+        "",
+        "安卡拉(Ankara)",
+        "",
+        "",
+        "<img src=\"ug-flag-turkey.svg\" />",
+        "",
+        "<img src=\"ug-map-turkey.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ilyPET<b|~",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Mediterranean",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "土库曼斯坦(Turkmenistan)",
+        "",
+        "阿什哈巴德(Ashgabat)",
+        "",
+        "",
+        "<img src=\"ug-flag-turkmenistan.svg\" />",
+        "",
+        "<img src=\"ug-map-turkmenistan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "le]C{9L5gP",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "特克斯和凯科斯群岛(Turks and Caicos Islands)",
+        "英国(U.K.)的海外领土。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-turks_and_caicos_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "QJlzFH~z_P",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "图瓦卢(Tuvalu)",
+        "",
+        "富纳富提(Funafuti)",
+        "",
+        "",
+        "<img src=\"ug-flag-tuvalu.svg\" />",
+        "",
+        "<img src=\"ug-map-tuvalu.png\" />"
+      ],
+      "flags": 0,
+      "guid": "s:lS}~kTP7",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "乌干达(Uganda)",
+        "",
+        "坎帕拉(Kampala)",
+        "",
+        "",
+        "<img src=\"ug-flag-uganda.svg\" />",
+        "",
+        "<img src=\"ug-map-uganda.png\" />"
+      ],
+      "flags": 0,
+      "guid": "zB7<_/(/Gl",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "乌克兰(Ukraine)",
+        "",
+        "基辅(Kyiv)",
+        "基辅在国际上公认有2种名字(Kyiv, Kiev)。",
+        "",
+        "<img src=\"ug-flag-ukraine.svg\" />",
+        "",
+        "<img src=\"ug-map-ukraine.png\" />"
+      ],
+      "flags": 0,
+      "guid": "jKHmpl~?LE",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "阿拉伯联合酋长国(United Arab Emirates)",
+        "",
+        "阿布扎比(Abu Dhabi)",
+        "",
+        "",
+        "<img src=\"ug-flag-united_arab_emirates.svg\" />",
+        "",
+        "<img src=\"ug-map-united_arab_emirates.png\" />"
+      ],
+      "flags": 0,
+      "guid": "o#V]PfbsJg",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "英国(United Kingdom)",
+        "",
+        "伦敦(London)",
+        "",
+        "主权国家",
+        "<img src=\"ug-flag-united_kingdom.svg\" />",
+        "",
+        "<img src=\"ug-map-united_kingdom.png\" />"
+      ],
+      "flags": 0,
+      "guid": "D[xLjx,P&[",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "美国(United States of America, 全称美利坚合众国)",
+        "",
+        "华盛顿特区(Washington, D.C.)",
+        "",
+        "",
+        "<img src=\"ug-flag-united_states_of_america.svg\" />",
+        "",
+        "<img src=\"ug-map-united_states_of_america.png\" />"
+      ],
+      "flags": 0,
+      "guid": "hyd{qAD}`v",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "美属维尔京群岛(United States Virgin Islands)",
+        "美国(U.S.)无建制属地。",
+        "夏洛特阿马利亚(Charlotte Amalie)",
+        "",
+        "",
+        "<img src=\"ug-flag-united_states_virgin_islands.svg\" />",
+        "",
+        "<img src=\"ug-map-united_states_virgin_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "E._?&%07Sc",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "乌拉圭(Uruguay)",
+        "",
+        "蒙得维的亚(Montevideo)",
+        "",
+        "",
+        "<img src=\"ug-flag-uruguay.svg\" />",
+        "",
+        "<img src=\"ug-map-uruguay.png\" />"
+      ],
+      "flags": 0,
+      "guid": "lY0;0oAPW$",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "乌兹别克斯坦(Uzbekistan)",
+        "",
+        "塔什干(Tashkent)",
+        "",
+        "",
+        "<img src=\"ug-flag-uzbekistan.svg\" />",
+        "",
+        "<img src=\"ug-map-uzbekistan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "yS9O[rTg*H",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "瓦努阿图(Vanuatu)",
+        "",
+        "维拉港(Port Vila)",
+        "",
+        "",
+        "<img src=\"ug-flag-vanuatu.svg\" />",
+        "",
+        "<img src=\"ug-map-vanuatu.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ig~8yp}-Wr",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "梵蒂冈(Vatican City)",
+        "",
+        "梵蒂冈城(Vatican City)",
+        "",
+        "",
+        "<img src=\"ug-flag-vatican_city.svg\" />",
+        "",
+        "<img src=\"ug-map-vatican_city.png\" />"
+      ],
+      "flags": 0,
+      "guid": "F6#Y+k7J/!",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "委内瑞拉(Venezuela)",
+        "",
+        "加拉加斯(Caracas)",
+        "",
+        "",
+        "<img src=\"ug-flag-venezuela.svg\" />",
+        "",
+        "<img src=\"ug-map-venezuela.png\" />"
+      ],
+      "flags": 0,
+      "guid": "M2da>YCqC",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "越南(Vietnam)",
+        "",
+        "河内(Hanoi)",
+        "",
+        "",
+        "<img src=\"ug-flag-vietnam.svg\" />",
+        "",
+        "<img src=\"ug-map-vietnam.png\" />"
+      ],
+      "flags": 0,
+      "guid": "pSy1%pd,s.",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "威尔士(Wales)",
+        "英国属地之一。",
+        "卡迪夫(Cardiff)",
+        "",
+        "",
+        "<img src=\"ug-flag-wales.svg\" />",
+        "",
+        "<img src=\"ug-map-wales.png\" />"
+      ],
+      "flags": 0,
+      "guid": "D`cK5{Bf(v",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "瓦利斯和富图纳群岛(Wallis and Futuna)",
+        "法国(France)的海外领土。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-wallis_and_futuna.png\" />"
+      ],
+      "flags": 0,
+      "guid": "r^Ba54xJuo",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "白海(White Sea)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-white_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ka~R7f}F%C",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "黄海(Yellow Sea)",
+        "虽然国际上普遍认为黄海(Yellow Sea)包含了渤海(Bohai Sea)，但在中国(China)，它们通常被视为两个独立的海域。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-yellow_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "w-R9-nv-pt",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "也门(Yemen)",
+        "",
+        "萨那(Sanaa)",
+        "",
+        "",
+        "<img src=\"ug-flag-yemen.svg\" />",
+        "埃及(带徽章)、伊拉克(带文字)",
+        "<img src=\"ug-map-yemen.png\" />"
+      ],
+      "flags": 0,
+      "guid": "OGFso_;Eyd",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "赞比亚(Zambia)",
+        "",
+        "卢萨卡(Lusaka)",
+        "",
+        "",
+        "<img src=\"ug-flag-zambia.svg\" />",
+        "",
+        "<img src=\"ug-map-zambia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "6eR<uF2W.",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "桑给巴尔(Zanzibar)",
+        "坦桑尼亚(Tanzania)的半自治区。",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-zanzibar.png\" />"
+      ],
+      "flags": 0,
+      "guid": "DY_}Ym-I8p",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "津巴布韦(Zimbabwe)",
+        "",
+        "哈拉雷(Harare)",
+        "",
+        "",
+        "<img src=\"ug-flag-zimbabwe.svg\" />",
+        "",
+        "<img src=\"ug-map-zimbabwe.png\" />"
+      ],
+      "flags": 0,
+      "guid": "em<BWY.$P#",
+      "note_model_uuid": "30c7ff39-56b5-4693-8e16-aa862eb7a619",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    }
+  ]
+}

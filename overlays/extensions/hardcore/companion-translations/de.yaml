@@ -1,0 +1,78 @@
+id: overlay.translation.hardcore.companion.de
+kind: translation
+translations:
+  contextual:
+    notes.note:
+      hardcore-american-samoa:
+        American Samoa: Amerikanisch-Samoa
+        Unincorporated territory of the United States.: 'Nichtinkorporiertes US-amerikanisches Außengebiet.'
+      hardcore-anguilla:
+        Overseas territory of the United Kingdom.: 'Britisches Überseegebiet.'
+      hardcore-azores:
+        Autonomous region of Portugal.: Autonome Region Portugals.
+        Azores: 'Azoren (Habichtsinseln)'
+      hardcore-bali:
+        Island of Indonesia.: Insel von Indonesien.
+      hardcore-bermuda:
+        Overseas territory of the United Kingdom.: 'Britisches Überseegebiet.'
+      hardcore-british-virgin-islands:
+        British Virgin Islands: Britische Jungferninseln
+        Overseas territory of the United Kingdom.: 'Britisches Überseegebiet.'
+      hardcore-canary-islands:
+        Autonomous community of Spain.: Autonome Gemeinschaft Spaniens.
+        Canary Islands: Kanarische Inseln
+      hardcore-cayman-islands:
+        Cayman Islands: 'Cayman Islands (Kaimaninseln)'
+        Overseas territory of the United Kingdom.: 'Britisches Überseegebiet.'
+      hardcore-corsica:
+        Corsica: Korsika
+        Region of France.: 'Gebietskörperschaft Frankreichs.'
+      hardcore-falkland-islands:
+        Falkland Islands: Falklandinseln
+        Overseas territory of the United Kingdom.: 'Britisches Überseegebiet.'
+      hardcore-french-guiana:
+        French Guiana: 'Französisch-Guayana'
+        Overseas department of France.: 'Übersee-Département Frankreichs.'
+      hardcore-gibraltar:
+        Overseas territory of the United Kingdom.: 'Britisches Überseegebiet.'
+      hardcore-guadeloupe:
+        Overseas department of France.: 'Übersee-Département Frankreichs.'
+      hardcore-guernsey:
+        Crown dependency of the United Kingdom.: Kronbesitz der britischen Krone.
+      hardcore-isle-of-man:
+        Crown dependency of the United Kingdom.: Kronbesitz der britischen Krone.
+      hardcore-jersey:
+        Crown dependency of the United Kingdom.: Kronbesitz der britischen Krone.
+      hardcore-kaliningrad-oblast:
+        Kaliningrad Oblast: Oblast Kaliningrad
+        'Oblast (administrative region) of the Russian Federation.': 'Oblast (administratives Gebiet) der Russischen Föderation.'
+      hardcore-madeira:
+        Autonomous region of Portugal.: Autonome Region Portugals.
+        Madeira: Autonome Region Madeira
+      hardcore-martinique:
+        Overseas department of France.: 'Übersee-Département Frankreichs.'
+      hardcore-mayotte:
+        Overseas department of France.: 'Übersee-Département Frankreichs.'
+      hardcore-northern-mariana-islands:
+        Northern Mariana Islands: 'Nördliche Marianen'
+        Unincorporated territory of the United States.: 'Nichtinkorporiertes US-amerikanisches Außengebiet.'
+      hardcore-r-union:
+        Overseas department of France.: 'Übersee-Département Frankreichs.'
+        'Réunion': 'La Réunion'
+      hardcore-saint-martin:
+        Overseas territory of France.: 'Französisches Überseegebiet.'
+        Saint Martin: Saint-Martin
+      hardcore-sardinia:
+        Autonomous region of Italy.: Autonome Region Italiens.
+        Sardinia: Sardinien
+      hardcore-sicily:
+        Autonomous region of Italy.: Autonome Region Italiens.
+        Sicily: Sizilien
+      hardcore-sint-maarten:
+        Constituent country of the Kingdom of the Netherlands.: 'Autonomes Land innerhalb des Königreichs der Niederlande.'
+      hardcore-turks-and-caicos-islands:
+        Overseas territory of the United Kingdom.: 'Auch Turks &amp; Caicos. Britisches Überseegebiet.'
+        Turks and Caicos Islands: Turks- und Caicosinseln
+      hardcore-zanzibar:
+        Semi-autonomous region of Tanzania.: Halbautonomer Teilstaat Tansanias.
+        Zanzibar: Sansibar

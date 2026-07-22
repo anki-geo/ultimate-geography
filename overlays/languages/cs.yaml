@@ -1,0 +1,1092 @@
+id: overlay.translation.cs
+kind: translation
+translations:
+  direct:
+    'A naming dispute exists between the sea''s bordering countries, with South Korea notably supporting the name East Sea.': 'Existuje spor o názvu mezi hraničními zeměmi, zejména Jižní Korea podporuje název Východní moře.'
+    Abkhazia: 'Abcházie'
+    Abu Dhabi: 'Abú Zabí'
+    Addis Ababa: Addis Abeba
+    Adriatic Sea: 'Jaderské moře'
+    Aegean Sea: 'Egejské moře'
+    Afghanistan: 'Afghánistán'
+    Africa: Afrika
+    Akrotiri and Dhekelia: Akrotiri a Dekelia
+    Alaska: 'Aljaška'
+    Albania: 'Albánie'
+    Algeria: 'Alžírsko'
+    Algiers: 'Alžír'
+    Also known as Burma.: 'Známý též jako Barma.'
+    Also known as Cabo Verde.: 'Známé též jako Cabo Verde.'
+    Also known as the Gulf of Siam.: 'Známý též jako Záliv Siam.'
+    Also known as the Sea of Cortez.: 'Známý též jako Cortézovo moře.'
+    'Also spelled as Sana''a.': 'Také psáno jako San''á.'
+    American Samoa: 'Americká Samoa'
+    Amman: 'Ammán'
+    Antarctica: Antarktida
+    Antigua and Barbuda: Antigua a Barbuda
+    Arabian Sea: 'Arabské moře'
+    Aral Sea: 'Aralské jezero'
+    Arctic Ocean: 'Severní ledový oceán'
+    Armenia: 'Arménie'
+    Ashgabat: 'Ašchabad'
+    Asia: Asie
+    Athens: 'Athény'
+    Atlantic Ocean: 'Atlantský oceán'
+    Australia: 'Austrálie'
+    Austria: Rakousko
+    Autonomous community of Spain.: 'Autonomní společenství Španělska.'
+    Autonomous province of South Korea.: 'Autonomní provincie Jižní Koreji.'
+    Autonomous region of Finland.: 'Autonomní region Finska.'
+    Autonomous region of Italy.: 'Autonomní region Itálie.'
+    Autonomous region of Papua New Guinea.: 'Autonomní území státu Papua Nová Guinea.'
+    Azerbaijan: 'Ázerbájdžán'
+    Azores: Azory
+    Baghdad: 'Bagdád'
+    Bahrain: Bahrajn
+    Balkan Peninsula: 'Balkán'
+    Baltic Sea: 'Baltské moře'
+    Banda Sea: 'Bandské moře'
+    Bangladesh: 'Bangladéš'
+    Barents Sea: 'Barentsovo moře'
+    Bay of Bengal: 'Bengálský záliv'
+    Bay of Biscay: 'Biskajský záliv'
+    Beijing: Peking
+    Beirut: 'Bejrút'
+    Belarus: 'Bělorusko'
+    Belgium: Belgie
+    Belgrade: 'Bělehrad'
+    Bering Strait: 'Beringův průliv'
+    Berlin: 'Berlín'
+    Bhutan: 'Bhútán'
+    Bishkek: 'Biškek'
+    Black Sea: 'Černé moře'
+    Bolivia: 'Bolívie'
+    Bosnia and Herzegovina: Bosna a Hercegovina
+    Brazil: 'Brazílie'
+    British Virgin Islands: 'Britské Panenské ostrovy'
+    Brunei: Brunej
+    Brussels: Brusel
+    Bucharest: 'Bukurešť'
+    Budapest: 'Budapešť'
+    Bulgaria: Bulharsko
+    Cairo: 'Káhira'
+    Cambodia: 'Kambodža'
+    Cameroon: Kamerun
+    Canada: Kanada
+    Canary Islands: 'Kanárské ostrovy'
+    Cape Verde: Kapverdy
+    Caribbean Sea: 'Karibské moře'
+    Caspian Sea: 'Kaspické moře'
+    Cayman Islands: 'Kajmanské ostrovy'
+    Celebes Sea: 'Celebeské moře'
+    Celtic Sea: 'Keltské moře'
+    Central African Republic: 'Středoafrická republika'
+    Cetinje is an honorary capital.: 'Cetinje je historicky hlavní město.'
+    Chad: 'Čad'
+    China: 'Čína'
+    'Chișinău': 'Kišiněv'
+    City of San Marino: San Marino
+    Claimed and controlled: 'Nárokované a kontrolované'
+    Claimed but not controlled: 'Nárokováno, ale nekontrolováno'
+    Colombia: Kolumbie
+    Colombo is often referred to as the capital but Sri Jayawardenepura Kotte, a suburb of Colombo, is the official, legislative capital.: 'Kolombo bývá označováno jako hlavní město, ale Šrí Džajavardanapura Kotte, předměstí Kolomba, je oficiální a legislativní hlavní město.'
+    Comoros: Komory
+    Constituent country of the Kingdom of the Netherlands.: 'Konstituční země Nizozemského království.'
+    Constituent country of the United Kingdom.: 'Konstituční země Velké Británie.'
+    Cook Islands: Cookovy ostrovy
+    Copenhagen: 'Kodaň'
+    Coral Sea: 'Korálové moře'
+    Corsica: Korsika
+    Costa Rica: Kostarika
+    Croatia: Chorvatsko
+    Crown dependency of the United Kingdom.: 'Britské korunní závislé území.'
+    Cuba: Kuba
+    Cyprus: Kypr
+    Czech Republic: 'Česko'
+    Damascus: 'Damašek'
+    Dead Sea: 'Mrtvé moře'
+    Democratic Republic of the Congo: 'Konžská demokratická republika'
+    Denmark: 'Dánsko'
+    Denmark Strait: 'Dánský průliv'
+    Dhaka: 'Dháka'
+    'Disputed; claimed by Israel; Ramallah is the administrative centre.': 'Sporný; nárokováno Izraelem; Ramalláh je správním centrem.'
+    'Disputed; claimed by Palestine.': 'Sporný; tvrdí Palestina.'
+    Doha: 'Dauhá'
+    Dominica: Dominika
+    Dominican Republic: 'Dominikánská republika'
+    Dushanbe: 'Dušanbe'
+    East China Sea: 'Východočínské moře'
+    East Siberian Sea: 'Východosibiřské moře'
+    Ecuador: 'Ekvádor'
+    El Salvador: Salvador
+    England: Anglie
+    English Channel: 'Lamanšský průliv'
+    Equatorial Guinea: 'Rovníková Guinea'
+    Estonia: Estonsko
+    Eswatini: Svazijsko
+    Ethiopia: Etiopie
+    Europe: Evropa
+    European Union: 'Evropská unie'
+    Falkland Islands: Falklandy
+    Faroe Islands: 'Faerské ostrovy'
+    Federated States of Micronesia: 'Federativní státy Mikronésie'
+    Fiji: 'Fidži'
+    Finland: Finsko
+    Formerly Zaire.: 'Dříve známá jako Zair.'
+    Formerly known as Macedonia.: 'Dříve známá jako Makedonie.'
+    France: Francie
+    French Guiana: 'Francouzská Guyana'
+    French Polynesia: 'Francouzská Polynésie'
+    Georgia: Gruzie
+    Germany: 'Německo'
+    Greece: 'Řecko'
+    Greenland: 'Grónsko'
+    Guatemala City: Ciudad de Guatemala
+    Gulf of Alaska: 'Aljašský záliv'
+    Gulf of California: 'Kalifornský záliv'
+    Gulf of Carpentaria: 'Carpentarský záliv'
+    Gulf of Guinea: 'Guinejský záliv'
+    Gulf of Mexico: 'Mexický záliv'
+    Gulf of Thailand: 'Thajský záliv'
+    Hanoi: Hanoj
+    Hargeisa: Hargeysa
+    Hawaii: Havaj
+    Helsinki: Helsinky
+    Historical and cultural region in Northern Europe, which includes the countries of Denmark, Norway and Sweden, and sometimes Finland and Iceland.: 'Historická, kulturní a etnolingvistická oblast v severní Evropě, která zahrnuje království dánské, švédské a norské, někdy i Finsko a Island.'
+    Hong Kong: Hongkong
+    Hudson Bay: 'Hudsonův záliv'
+    Hungary: 'Maďarsko'
+    Iceland: Island
+    Independent state claimed by Moldova.: 'Nezávislý stát nárokovaný Moldavskem.'
+    Independent state claimed by Somalia.: 'Vzácně označovaný jako Somálijsko, nezávislý stát nárokovaný Somálskem.'
+    India: Indie
+    Indian Ocean: 'Indický oceán'
+    Indonesia: 'Indonésie'
+    Iran: 'Írán'
+    Iraq: 'Irák'
+    Ireland: Irsko
+    Islamabad: 'Islámábád'
+    Isle of Man: Man
+    Israel: Izrael
+    Italy: 'Itálie'
+    Ivory Coast: 'Pobřeží slonoviny'
+    Jamaica: Jamajka
+    Japan: Japonsko
+    Java: 'Jáva'
+    Jeju: 'Čedžu'
+    Jerusalem: 'Jeruzalém'
+    Jordan: 'Jordánsko'
+    Juba: 'Džuba'
+    Kabul: 'Kábul'
+    Kaliningrad Oblast: 'Kaliningradská oblast'
+    Kathmandu: 'Káthmándú'
+    Kazakhstan: 'Kazachstán'
+    Kenya: 'Keňa'
+    Khartoum: 'Chartúm'
+    Known as Nur-Sultan between 2019 and 2022: 'Známá jako Nur-Sultan mezi lety 2019 a 2022'
+    Kuwait: Kuvajt
+    Kuwait City: Kuvajt
+    Kyiv: Kyjev
+    Kyrgyzstan: 'Kyrgyzstán'
+    Laayoune: 'Al-´Ajún'
+    Labrador Sea: 'Labradorské moře'
+    Latvia: 'Lotyšsko'
+    Lebanon: Libanon
+    Liberia: 'Libérie'
+    Libya: Libye
+    Liechtenstein: 'Lichtenštejnsko'
+    Lisbon: Lisabon
+    Lithuania: Litva
+    Ljubljana: 'Lublaň'
+    London: 'Londýn'
+    Luxembourg: Lucembursko
+    Luxembourg City: Lucemburk
+    Macau: Macao
+    Malaysia: Malajsie
+    Maldives: Maledivy
+    'Malé': Male
+    Manama: 'Manáma'
+    Marshall Islands: Marshallovy ostrov
+    Martinique: Martinik
+    Mauritania: 'Mauritánie'
+    Mauritius: Mauricius
+    Mediterranean Sea: 'Středozemní moře'
+    Melanesia: 'Melanésie'
+    Mexico: Mexiko
+    Mexico City: 'Ciudad de México'
+    Micronesia: 'Mikronésie'
+    Mogadishu: 'Mogadišo'
+    Moldova: Moldavsko
+    Mongolia: Mongolsko
+    Montenegro: 'Černá Hora'
+    Morocco: Maroko
+    Moscow: Moskva
+    Mozambique: Mosambik
+    Muscat: Maskat
+    Namibia: Namibie
+    'Nauru has no official capital; the Yaren District is the de facto capital.': 'Nauru nemá žádné oficiální hlavní město, okres Yaren je de facto hlavní město.'
+    Naypyidaw: Neipyijto
+    Nepal: 'Nepál'
+    Netherlands: Nizozemsko
+    New Caledonia: 'Nová Kaledonie'
+    New Delhi: 'Nové Dillí'
+    New Zealand: 'Nový Zéland'
+    Nicosia: 'Nikósie'
+    Nigeria: 'Nigérie'
+    North America: 'Severní Amerika'
+    North Korea: 'Severní Korea'
+    North Macedonia: 'Severní Makedonie'
+    North Nicosia: 'Severní Nikósie'
+    North Sea: 'Severní moře'
+    Northern Cyprus: 'Severní Kypr'
+    Northern Ireland: 'Severní Irsko'
+    Northern Mariana Islands: 'Severní Mariany'
+    Norway: Norsko
+    Norwegian Sea: 'Norské moře'
+    Not a sovereign country: 'Nejedná se o suverénní stát'
+    Nouakchott: 'Nuakšott'
+    'Oblast (administrative region) of the Russian Federation.': 'Exkláva Ruské federace.'
+    Oceania: 'Oceánie'
+    Official capital was moved from Bujumbura to Gitega in 2019.: 'Oficiální hlavní město bylo přesunuto z Bujumbury zpět do Gitegy v roce 2019.'
+    Official capital was moved from Malabo to Ciudad de la Paz in 2026.: 'Oficiální hlavní město bylo přesunuto z Malabo do Ciudad de la Paz v roce 2026.'
+    'Officially Côte d''Ivoire.': 'Oficiálně Côte d''Ivoire.'
+    Oman: 'Omán'
+    Overseas department of France.: 'Zámořský department Francie.'
+    Pacific Ocean: 'Tichý oceán'
+    Pakistan: 'Pákistán'
+    Palestine: 'Stát Palestina'
+    Panama City: 'Panamá'
+    Papua New Guinea: 'Papua Nová Guinea'
+    Paris: 'Paříž'
+    Partially recognised state claimed by Morocco. Also known as Western Sahara.: 'Částečné uznávaný stát nárokovaný Marokem, známý též jako Západní Sahara.'
+    Partially recognised state claimed by Serbia.: 'Částečně uznávaný stát nárokováný Srbskem.'
+    Persian Gulf: 'Perský záliv'
+    Philippine Sea: 'Filipínské moře'
+    Philippines: 'Filipíny'
+    Phnom Penh: Phnompenh
+    Poland: Polsko
+    Polynesia: 'Polynésie'
+    Porto-Novo: Porto Novo
+    Portugal: Portugalsko
+    Prague: Praha
+    Pretoria, Cape Town, Bloemfontein: 'Pretorie, Kapské Město, Bloemfontein'
+    Pristina: 'Priština'
+    Puerto Rico: Portoriko
+    Pyongyang: Pchjongjang
+    Qatar: Katar
+    Red Sea: 'Rudé moře'
+    Region of France.: Region Francie.
+    Republic of the Congo: 'Konžská republika'
+    Riyadh: 'Rijád'
+    Romania: Rumunsko
+    Rome: 'Řím'
+    Russia: Rusko
+    Sahrawi Arab Democratic Republic: 'Saharská arabská demokratická republika'
+    Saint Kitts and Nevis: 'Svatý Kryštof a Nevis'
+    Saint Lucia: 'Svatá Lucie'
+    Saint Martin: 'Svatý Martin (francouzská část)'
+    Saint Vincent and the Grenadines: 'Svatý Vincenc a Grenadiny'
+    Sanaa: 'Saná'
+    Santiago: Santiago de Chile
+    Sardinia: Sardinie
+    Saudi Arabia: 'Saúdská Arábie'
+    Scandinavia: 'Skandinávie'
+    Scotland: Skotsko
+    Sea of Galilee: 'Galilejské jezero'
+    Sea of Japan: 'Japonské moře'
+    Sea of Okhotsk: 'Ochotské moře'
+    Semi-autonomous region of Tanzania.: 'Částečně autonomní region Tanzanie.'
+    Seoul: Soul
+    Serbia: Srbsko
+    Seychelles: Seychely
+    Sicily: 'Sicílie'
+    Singapore: Singapur
+    Sint Maarten: 'Svatý Martin (nizozemská část)'
+    Slovakia: Slovensko
+    Slovenia: Slovinsko
+    Sofia: Sofie
+    Solomon Islands: 'Šalomounovy ostrovy'
+    Somalia: 'Somálsko'
+    South Africa: 'Jihoafrická republika'
+    'South Africa has no legally defined capital: the branches of government are split over three cities: Pretoria (executive), Cape Town (legislative) and Bloemfontein (judicial).': 'Jihoafrická republika nemá legálně deklarované hlavní město, jednotlivé vládní moci jsou rozděleny do tří měst: Pretorie (výkonná moc), Kapské Město (zákonodárná moc) a Bloemfontein (justice).'
+    South America: 'Jižní Amerika'
+    South China Sea: 'Jihočínské moře'
+    South Korea: 'Jižní Korea'
+    South Ossetia: 'Jižní Osetie'
+    South Sudan: 'Jižní Súdán'
+    South Tarawa: 'Jižní Tarawa'
+    Southern Ocean: 'Jižní oceán'
+    Sovereign country: 'Suverénní stát'
+    Spain: 'Španělsko'
+    Special Administrative Region of China.: 'Zvláštní administrativní oblast Číny.'
+    Sri Jayawardenepura Kotte: 'Šrí Džajavardanapura Kotte'
+    Sri Lanka: 'Srí Lanka'
+    'St. George''s': 'Saint George''s'
+    'St. John''s': 'Saint John''s'
+    State of the United States.: 'Stát spojených států.'
+    State recognised only by Turkey and claimed by Cyprus.: 'Stát uznávaný pouze Tureckem a nárokovaný Kyprem.'
+    Strait of Hormuz: 'Hormuzský průliv'
+    Strait of Malacca: 'Malacký průliv'
+    Subregion of Oceania comprising thousands of small islands in the central and southern Pacific Ocean.: 'Subregion Oceánie zahrnující tisíce malých ostrovů ve středním a jižním Pacifiku.'
+    Subregion of Oceania comprising thousands of small islands in the western Pacific Ocean.: 'Subregion Oceánie zahrnjící tisíce malých ostrovů v západním Pacifiku.'
+    Subregion of Oceania, which includes Vanuatu, the Solomon Islands, Fiji, and Papua New Guinea.: 'Subregion Oceánie zahrnující Vanuatu, Šalomounovy ostrovy, Fidži a Papua Novou Guineu.'
+    Sudan: 'Súdán'
+    Sukhumi: Suchumi
+    Suriname: Surinam
+    Svalbard: 'Špicberky'
+    Sweden: 'Švédsko'
+    Switzerland: 'Švýcarsko'
+    'Switzerland has no official capital; Bern is the de facto capital.': 'Švýcarsko nemá žádné oficiální hlavní město, Bern je de facto hlavní město.'
+    Syria: 'Sýrie'
+    'São Tomé and Príncipe': 'Svatý Tomáš a Princův ostrov'
+    Taipei: Tchaj-pej
+    Taiwan: Tchaj-wan
+    Tajikistan: 'Tádžikistán'
+    Tanzania: Tanzanie
+    Tashkent: 'Taškent'
+    Tasman Sea: 'Tasmanovo moře'
+    Tehran: 'Teherán'
+    Thailand: Thajsko
+    The Bahamas: Bahamy
+    The Gambia: Gambie
+    Thimphu: 'Thimbú'
+    Timor Sea: 'Timorské moře'
+    Timor-Leste: 'Východní Timor'
+    Tokyo: Tokio
+    Transnistria: 'Podněstří'
+    Trinidad and Tobago: Trinidad a Tobago
+    Tripoli: Tripolis
+    Tskhinvali: Cchinvali
+    Tunisia: Tunisko
+    Turkey: Turecko
+    Turkmenistan: 'Turkmenistán'
+    Turks and Caicos Islands: Turks a Caicos
+    Ukraine: Ukrajina
+    Ulaanbaatar: 'Ulánbátar'
+    Unincorporated internal area of Norway.: 'Nezařazené území Norska.'
+    Unincorporated territory of the United States.: 'Nezačleněné území Spojených států amerických.'
+    United Arab Emirates: 'Spojené arabské emiráty'
+    United Kingdom: 'Spojené království'
+    United States Virgin Islands: 'Americké Panenské ostrovy'
+    United States of America: 'Spojené státy americké'
+    Uzbekistan: 'Uzbekistán'
+    Vatican City: 'Vatikán'
+    Vienna: 'Vídeň'
+    Wallis and Futuna: Wallis a Futuna
+    Warsaw: 'Varšava'
+    While Amsterdam is the official capital, The Hague is the seat of the executive and legislative branches.: 'Zatímco Amsterdam je oficiální hlavní město, Haag je sídlo zákonodárné a výkonné moci.'
+    While Dodoma is the official capital, Dar es Salaam is the de facto seat of government.: 'Zatímco Dodoma je oficiální hlavní město, Dar es Salaam je de facto sídlem vlády.'
+    'While Laayoune, also known as El Aaiún, is the declared capital, Tifariti is the de facto seat of government.': 'Zatímco Al-´ Ajún, známý též jako Laayoune, je oficiální hlavní město, Tifariti je de facto sídlem vlády.'
+    While Mbabane is the official, executive capital, Lobamba is the traditional, spiritual and legislative capital.: 'Zatímco Mbabane je oficiální exekutivní hlavní město, Lobamba je tradiční, duchovní a legislativní hlavní město.'
+    While Porto-Novo is the official capital, Cotonou is the de facto seat of government.: 'Zatímco Porto Novo je oficální hlavní město, Cotonou je sídlem vlády.'
+    While Sucre is the constitutional capital, La Paz is the seat of government.: 'Zatímco Sucre je hlavní město dle ústavy, La Paz je sídlem vlády.'
+    While Yamoussoukro is the official capital, Abidjan is the de facto seat of government.: 'Zatímco Yamoussoukro je oficiální hlavní město, Abidžan je de facto sídlem vlády.'
+    White Sea: 'Bílé moře'
+    World region covering the Australian continent and most of the islands in the Pacific Ocean.: 'Světová oblast zahrnující australský kontinent a většinu ostrovů v Tichém oceánu.'
+    Yellow Sea: 'Žluté moře'
+    Yemen: Jemen
+    Yerevan: Jerevan
+    Zagreb: 'Záhřeb'
+    Zambia: Zambie
+    black/white/green, red arrow: 'černá/bílá/zelená, červená šipka'
+    blue background, red and white cross: 'modré pozadí, červený a bílý kříž'
+    blue background, red cross: 'modré pozadí, červený kříž'
+    blue triangle, red stripes: 'modrá šipka, červené pruhy'
+    brighter red, wider white band: 'světlejší červená, širší bílý pruh'
+    coat of arms instead of star: 'erb místo hvězdy'
+    darker blue: 'tmavší modrá'
+    darker red, narrower white band: 'tmavší červená, užší bílý pruh'
+    different coat of arms, slightly darker blue: 'jiný erb, mírně tmavší modrá'
+    different coat of arms, slightly lighter blue: 'jiný erb, mírně světlejší modrá'
+    emblem instead of text: 'emblém místo textu'
+    green and orange flipped, narrower: 'prohozená zelená a oranžová, užší'
+    green and red flipped, slightly darker green: 'prohozená zelená a červená, mírně tmavší zelená'
+    green/red/yellow, yellow star: 'zelená/červená/žlutá, žlutá hvězda'
+    green/yellow/red, green star: 'zelená/žlutá/červená, zelená hvězda'
+    lighter blue: 'světlejší modrá'
+    narrower, bigger coat of arms: 'užší, větší erb'
+    narrower, coat of arms with motto: 'užší, erb s mottem'
+    narrower, darker red: 'užší, tmavší červená'
+    narrower, fewer serrated edges, red: 'užší, méně zoubků, červená'
+    no coat of arms: bez erbu
+    no emblem: 'bez emblému'
+    no symbol: bez symbol
+    no text: bez textu
+    orange and green flipped, wider: 'prohozená oranžová a zelená, širší'
+    red and green flipped, slightly brighter green: 'prohozená červená a zelená, mírně světlejší zelená'
+    red and white flipped, darker red: 'prohozená červená a bílá, tmavší červená'
+    red and white flipped, wider: 'prohozená červená a bílá, širší'
+    red background, blue and white cross: 'červené pozadí, modrý a bílý kříž'
+    red background, blue cross: 'červené pozadí, modrý a bílý kříž'
+    red stars, two fewer stars: 'červené hvězdy, o dvě hvězdy méně'
+    red triangle, blue stripes: 'červená šipka, modré pruhy'
+    red/white/black, green arrow: 'červená/bílá/černá, zelená šipka'
+    single star below yellow band: 'jen jedna hvězda pod žlutým pruhem'
+    slightly darker blue: 'mírně tmavší modrá'
+    slightly lighter blue: 'mírně světlejší modrá'
+    star instead of coat of arms: 'hvězda místo erbu'
+    text instead of emblem: 'text místo emblému'
+    two stars in top-left corner: 'dvě hvězdy v levém horním rohu'
+    white and red flipped, brighter red: 'prohozená bílá a červená'
+    white and red flipped, narrower: 'prohozená bílá a červená, užší'
+    white background, red and blue cross: 'bílé pozadí, červený a modrý kříž'
+    white stars, two more stars: 'bílé hvězdy, o dvě hvězdy více'
+    wider, brighter red: 'širší, světlejší červená'
+    wider, coat of arms with eagle: 'širší, erb s orlem'
+    wider, more serrated edges, maroon: 'širší, větší počet zoubků, tmavší červená'
+    wider, smaller coat of arms: 'širší, menší erb'
+    with coat of arms: s erbem
+    with emblem: 'má emblém'
+    with star and crescent: 's hvězdou a půlměsícem'
+    with text: 'má text'
+    'Åland Islands': Alandy
+  contextual:
+    notes.note:
+      abkhazia:
+        Independent state claimed by Georgia.: 'Nezávislý stát nárokováný Gruzií.'
+      akrotiri-and-dhekelia:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      anguilla:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie s autonomní správou.'
+      azores:
+        Autonomous region of Portugal.: 'Autonomní území Portugalska.'
+      bali:
+        Island of Indonesia.: 'Indonéský ostrov.'
+      bermuda:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      british-virgin-islands:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      cayman-islands:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      cuba.fields.field.flag-similarity.message.variables.country_1:
+        Puerto Rico: Puerto Rico
+      djibouti:
+        Djibouti: 'Džibutsko'
+      djibouti.fields.field.capital:
+        Djibouti: 'Džibuti'
+      falkland-islands:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      faroe-islands:
+        Constituent country in the Kingdom of Denmark.: 'Konstituční země Dánského království.'
+      french-polynesia:
+        Overseas territory of France.: 'Zámořské území Francie.'
+      gibraltar:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      greenland:
+        Constituent country in the Kingdom of Denmark.: 'Autonomní součást Dánského království.'
+      iraq.fields.field.flag-similarity.message.variables.country_2:
+        Yemen: Yemen
+      java:
+        Island of Indonesia.: 'Indonéský ostrov.'
+      madeira:
+        Autonomous region of Portugal.: 'Autonomní region Portugalska.'
+      monaco:
+        Monaco: Monako
+      monaco.fields.field.capital:
+        Monaco: Monaco-Ville
+      new-caledonia:
+        Overseas territory of France.: 'Zámořské území Francie.'
+      poland.fields.field.flag-similarity.message.variables.country_2:
+        Monaco: Monako
+      saint-martin:
+        Overseas territory of France.: 'Konstituční země Francie.'
+      south-ossetia:
+        Independent state claimed by Georgia.: 'Nezávislý stát nárokovaný Gruzií.'
+      sumatra:
+        Island of Indonesia.: 'Ostrov Indonésie.'
+      turks-and-caicos-islands:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      wallis-and-futuna:
+        Overseas territory of France.: 'Zámořské území Francie.'
+  no_change:
+    - Abuja
+    - Accra
+    - Alofi
+    - Amsterdam
+    - Andorra
+    - Andorra la Vella
+    - Angola
+    - Anguilla
+    - Ankara
+    - Antananarivo
+    - Apia
+    - Argentina
+    - Aruba
+    - Asmara
+    - Astana
+    - 'Asunción'
+    - Avarua
+    - Baku
+    - Bali
+    - Bamako
+    - Bandar Seri Begawan
+    - Bangkok
+    - Bangui
+    - Banjul
+    - Barbados
+    - Basseterre
+    - Belfast
+    - Belize
+    - Belmopan
+    - Benin
+    - Bermuda
+    - Bern
+    - Bissau
+    - 'Bogotá'
+    - Botswana
+    - Bougainville
+    - 'Brasília'
+    - Bratislava
+    - Brazzaville
+    - Bridgetown
+    - Buenos Aires
+    - Burkina Faso
+    - Burundi
+    - Canberra
+    - Caracas
+    - Cardiff
+    - Castries
+    - Charlotte Amalie
+    - Chile
+    - Ciudad de la Paz
+    - Conakry
+    - 'Curaçao'
+    - Dakar
+    - Dili
+    - Dodoma
+    - Dublin
+    - Edinburgh
+    - Egypt
+    - Eritrea
+    - Freetown
+    - Funafuti
+    - Gabon
+    - Gaborone
+    - Georgetown
+    - Ghana
+    - Gibraltar
+    - Gitega
+    - Grenada
+    - Guadeloupe
+    - Guam
+    - Guatemala
+    - Guernsey
+    - Guinea
+    - Guinea-Bissau
+    - Guyana
+    - 'Hagåtña'
+    - Haiti
+    - Harare
+    - Havana
+    - Honduras
+    - Honiara
+    - Jakarta
+    - Jersey
+    - Kampala
+    - Kigali
+    - Kingston
+    - Kingstown
+    - Kinshasa
+    - Kiribati
+    - Kosovo
+    - Kuala Lumpur
+    - Laos
+    - Lesotho
+    - Libreville
+    - Lilongwe
+    - Lima
+    - 'Lomé'
+    - Luanda
+    - Lusaka
+    - Madagascar
+    - Madeira
+    - Madrid
+    - Majuro
+    - Malawi
+    - Mali
+    - Malta
+    - Managua
+    - Manila
+    - Maputo
+    - Mariehamn
+    - Maseru
+    - Mayotte
+    - Mbabane
+    - Minsk
+    - Monaco
+    - Monrovia
+    - Montevideo
+    - Moroni
+    - Myanmar
+    - 'N''Djamena'
+    - Nairobi
+    - Nassau
+    - Nauru
+    - Ngerulmud
+    - Niamey
+    - Nicaragua
+    - Niger
+    - Niue
+    - 'Nouméa'
+    - 'Nukuʻalofa'
+    - Nuuk
+    - Oranjestad
+    - Oslo
+    - Ottawa
+    - Ouagadougou
+    - Palau
+    - Palikir
+    - Panama
+    - Papeete
+    - Paraguay
+    - Paramaribo
+    - Peru
+    - Podgorica
+    - Port Louis
+    - Port Moresby
+    - Port Vila
+    - Port of Spain
+    - Port-au-Prince
+    - Praia
+    - Quito
+    - Rabat
+    - 'Reykjavík'
+    - Riga
+    - Roseau
+    - Rwanda
+    - 'Réunion'
+    - Samoa
+    - 'San José'
+    - San Juan
+    - San Marino
+    - San Salvador
+    - Santo Domingo
+    - Sarajevo
+    - Senegal
+    - Sierra Leone
+    - Skopje
+    - Somaliland
+    - Stockholm
+    - Sucre
+    - Sumatra
+    - Suva
+    - 'São Tomé'
+    - Tallinn
+    - Tbilisi
+    - Tegucigalpa
+    - Tirana
+    - Tiraspol
+    - Togo
+    - Tonga
+    - Tunis
+    - Tuvalu
+    - 'Tórshavn'
+    - Uganda
+    - Uruguay
+    - Vaduz
+    - Valletta
+    - Vanuatu
+    - Venezuela
+    - Victoria
+    - Vientiane
+    - Vietnam
+    - Vilnius
+    - Wales
+    - Washington, D.C.
+    - Wellington
+    - Willemstad
+    - Windhoek
+    - Yamoussoukro
+    - 'Yaoundé'
+    - Yaren
+    - Zanzibar
+    - Zimbabwe
+  variables:
+    label.capital:
+      Capital: 'Hlavní město'
+    label.capital-hint.answer:
+      'Hint: {{Capital hint}}': 'Náznak: {{Capital hint}}'
+    label.flag:
+      Flag: Vlajka
+    label.location:
+      Location: Poloha
+    note-type.name:
+      Ultimate Geography: 'Ultimate Geography [CS]'
+    sentence.flag-similar:
+      'Flag similar to {{Flag similarity}}.': 'Vlajka podobná jako {{Flag similarity}}.'
+  adapter_ids:
+    crowdanki:guid:
+      ')Y}Qy.3GK': 'Qt?NY}jsN;'
+      '5JJ2]i)p4': 'Oh:F{^dxzr'
+      '5S(f7%O-$': 'mn{KoGN.?b'
+      '?n!)c/h=Q': InSmtkntKP
+      'AES],s:8=': 'y29//}tZ9$'
+      'B:x<p&Q=t)': 'd9jaR(A9o('
+      'BJ,,^wMC%N': 'ISj^EFTJs9'
+      Bszsaz0Iuo: 'q9GttqBN(j'
+      'Cf2@;p<aL': 'M%RATtq>65'
+      'E3u*2.<9#`': 'kn6vhJtt!Y'
+      'EWXNc<g5)': v/ymm:8cf7
+      'FIhQ/[6AZB': 'F._Ew^V_(R'
+      'G/^_##fcPN': 'u}sPj7cerL'
+      'Gn;q2Y)Xe4': 'x18Y%w8iOt'
+      'H*c[ML+`s=': 'f.Z<UFi.{x'
+      'He!e=h?_2V': 'M(|D;@jB#D'
+      'J%,fuysl*&': AnHKmxdHRZ
+      'JOT:U4ayh@': ujWW0n-WqL
+      'K*b}<I3(~': 'MfdunrN!.('
+      'K4>1fnrM;@': 'fY31*G$$({'
+      'L5M1*yG7eH': 'bQ*]^-KLDC'
+      LPF4AfaHKR: 'Fs>y5(sRng'
+      'Lol+XIvY21': 'P4d|2~&E#h'
+      'M$bc0[jYf0': 'Ngx+p%Tn$u'
+      'O~pXkAbd3': 'IxLAH)+-_V'
+      'QSq%~rFaP-': 'pi]:s4:9TG'
+      'Qlib4)q2Hk': 'x;/B{evQ?m'
+      'SlOEXfq#|': 'BU*(=#&k=b'
+      'W5?6yQZD2': 'd`,;^d_nt5'
+      '_]DH+g9!$': 'urEGY*T)mW'
+      'b@M[XTc?}5': 'hV^z0k.t6x'
+      'bD?R}i8_[c': 'wsH3aZT9(O'
+      'bW)ch:vs1P': 'k5Zby(Llz+'
+      'b[(2`4t&?J': 'QP7}%SW/px'
+      'b^Try&me1A': 't6K(T;};3}'
+      'b`5Q_Z=HQT': 'pq=[Hn+x(t'
+      'bd~Ght5tLR': 'z^#eqWYO-D'
+      'bk2ByZIeU+': 'B&Pa`TK.W@'
+      'bnEK#)[;qT': 'i:L[HB&@F['
+      'c(,2{yXI#E': 'G4t&;Hch6N'
+      'c,5(mUGzYT': 'j.J_!d]H{c'
+      'cAlyc~G.y%': 'MfwiBI+|=9'
+      'cEO^y)Md[G': 'yKo`$PaHGg'
+      'cL?8!xP#Wj': 's|EEBYpJ*s'
+      'cPO|Cru8n<': 't2Q}Uw:@3V'
+      'cV4idO^r8W': 'r]11B;H~[z'
+      'cYKvF#ptF7': 'p2-()%uZj7'
+      'c^,~EC6Pb2': 'ebha1T}R8+'
+      'ck!6;xK$/^': 'D!9j=Ss[H)'
+      'cv+Nq9:a<P': 'gH(-5bzcUq'
+      'd-q4J~CNW_': 'J>b>D;vQoW'
+      'd3c`&/1Y^D': 'wOmUda6!>t'
+      'd5m8%D6,;u': 'LXl!1P9Nfp'
+      dC:e5G4J/p: 'x`*~=TA+FK'
+      'dUZ^=SE5BG': 'u2@(1}y4a{'
+      'dWA49p}F{k': 'b<l<9Sv>;o'
+      'dY96`C-f(_': 'A7Cj*hqC7['
+      'd``B*6:eCx': 's{g7@QD$qr'
+      'dbP/Cj}sB+': 'IToJAz{P9K'
+      'de=9c:,@j9': 'e_%R[08+Z'
+      'dlU7VG|3Gd': 'O_++P3q,lg'
+      'd}R:qHj1,7': 'nsv]+(L(N^'
+      'e!KSebP}pt': 'homhic06#&'
+      'e+/O]%*qfk': 'C{]JF%%mr*'
+      'e.t$Vi5,>f': 'BA4?dToa9]'
+      'e42BpV,P}C': 'x(aw,hH&Y['
+      'e5P*D#I{m{': 'Qe#D4C[<+m'
+      'e<X;[vACXC': 'rsxD)TXKC#'
+      'e=.VHQ9E+M': 'cm97y|}K9@'
+      'e?Xq9gy=@[': 'iV*VDI/knn'
+      'e?gIaPc$Ox': 'FqClN*Uskm'
+      'e?h=Xhs+K&': 'C@Qb!4TM+Y'
+      'eALZe^HCHq': 'MQbYhy*8W1'
+      'eHJ?)TAdTo': 'fL<HB36|&)'
+      'eN#^kPGv*L': J9k3i5aRzz
+      'eT<gzg?q,r': 'hO~G0Ujd_$'
+      'e_;dzXj8de': 'wsM3JR2Xv?'
+      'epvt3>HH?U': 'v]C@D/(-+g'
+      'euW0jm=wfR': 'Pmp+_CoZ`T'
+      'e{e8vi@^PY': 'b:(mUH@(`.'
+      'f#4-L[mp5*': 'IoHWaA78;3'
+      'f*2@qiHh_1': 'g.N+uMm,{6'
+      'f*LO~>!0PN': 'l[/(,BJdiJ'
+      'f21=-A~W;~': 'k[^`V_WQ^I'
+      'f>c7x2E]Q6': 'PSEKL{AHnb'
+      'fRSM{K+;[w': 'uWjhG1h]m'
+      'fT!w8R#>dg': 'Ja&@${-ll#'
+      'fV`&p81%d(': 'Fx%kVt2%kj'
+      fkq7lhLkdH: 'Pv4nPI$/4$'
+      'fxAN),FAc$': 'zWj%QH!y<q'
+      'g-]bb&[.E!': hRH,A7qwWn
+      'g9v~y/;=z(': 't/Q9G`l<(*'
+      'g<[f89~U)A': 'HxK!=[v%7I'
+      'gBCR?!O*;E': 'h:@GWL?4y1'
+      'gB|K:+r?1V': 's|eW&jr[=w'
+      'gDsLPj(9S#': 'P&j>MnZjBl'
+      'gFOojQO(MH': 'vI7@NGK_Rr'
+      'gG6SWfM>H0': 'f#ZCPMD62V'
+      'gRVZ]qJ#>O': pvm.S00zT/
+      'gYIoR`|AxW': 'm-W32Cjt+v'
+      gePC:Xt_nW: dt/qfm,mMR
+      'gp[h@]y13l': 'nLS!c^B.u5'
+      'gsS{jR,]|Q': 'v8pkKiW5;U'
+      'gx:;za!?C9': 'uJWy?`0JRW'
+      'gz9${p}er*': 'noQ|9=PqcG'
+      'g~%pF`(x{u': 'v0.(wt0=5,'
+      'h&`>n98~V1': 'qjIBt_WC^1'
+      'h9Jr(H[=1~': 'qq/hAV~,t/'
+      'h?a*UKfT_M': 'Hfw[5^1FXT'
+      'hE5j*e,Q?[': 'lJGFm$U&>?'
+      'hNE9}>;Q&-': 'zT0L2L~T>H'
+      'hXNTVF<:SH': 'y*>>K_Rv{P'
+      'hZ/V/D&rO`': 'j1e,tg|Z&b'
+      'h_9=mkZXAH': 'Lh8)I$R;q>'
+      hoHandbYAy: 'L>tNacmJP#'
+      'hrI_uiW>E]': 'o-iAF(Oe;d'
+      'h}lnSN_f$_': 'H,;72`%LJX'
+      'h~5xz+=ke~': 'CzhyKE{%zy'
+      'i)]+09JUR&': 'tOc]hT~n}*'
+      'i2]v|D3@:j': 'wO[~:de]T'
+      'iB-8Br~onq': 'G4|N9mDxa&'
+      'iIS#Nw]tr]': 'j}.YHgP+1)'
+      'iR;U<J:CJJ': 'f;ryKmL?JH'
+      'iW>m(L/~c=': 'juCeYT&eX9'
+      'i^J8&$(1]|': 'vg&(+g]]yT'
+      'ia8as9sCY|': 'p|~)@{)+S*'
+      'igiK,ff[eO': 'bfu8gGy]?r'
+      'ijP>aJBT!9': 'Hb~5J(.Fg~'
+      'ilGtw#=asM': 'l]+1ZOhWt<'
+      'j%*8gN)q>d': 'JJzRb!:b#h'
+      'j)i)pB*HJ,': 'Kx0E[9ibDy'
+      'j2IQ=f=w3@': 'DBo3+cT-[:'
+      j7eEZkzsCZ: 'BCT|*-aN8t'
+      'j9:K,~DQ2v': 'MY>?+-m40S'
+      'j<egqG@)EL': 'u?7-e.O&if'
+      'j=L,YBvsBk': 'tKD)*8S3TN'
+      'jBd@A?>g|}': 'za4sz~iaR*'
+      'jCd]`-=k,:': 'uv?Z2p<%;s'
+      'jDA-V?/hVj': 'wM29>6E7w2'
+      jI9P-f6r3M: 'DE`CrM74%0'
+      'jKIDq|}J&c': 'i9-RjgM[_,'
+      'jKO,9y0M;#': 'AnTl}_8m=/'
+      'jN^Vc%9OQ5': 'L!)340&$>j'
+      'jN|NAUP*h}': 'rNr_y>Sm<E'
+      'jTNoKo}Bu+': gM5c_bst5A
+      'jX=#G8wu#(': 'sOvum<h.&0'
+      'jYz[ibrr9m': 'iq(<JF$S6/'
+      'jcu!gLw/&r': 'bND)UmT$s;'
+      'jrM28*HbyG': 'd[tm>aNv-o'
+      'j|z@PMgdx,': 'vt!WOLxZl$'
+      'k$1_yaF?9#': 'Aq@4iLUo[t'
+      'k/u1:B%DJH': 'tcsX~cQjI2'
+      'k0{O[6l]bH': LYe,4PfG4a
+      'k1]FH+s8j@': 'B>y*UU741f'
+      'k9E.p^<u$,': 'AQZNs:<Ihn'
+      'kE!iKHLN_g': 'pSK9uw6xC?'
+      'kQ:NIhJy~E': 'd}n!kX+/ph'
+      'kS)hDm%w}R': 'xT>UY=~g;v'
+      'kX]hN=_.c-': 'G5M^3c_/X|'
+      'kZ52zV#[Iv': 'HqC57O<OYN'
+      'k[)#L4.[v3': 'LKI5~A(OZ!'
+      'khB~(m^@Z5': 'hnq?l@KUUT'
+      'kkbYQXw5b;': 'iP!?$Z_Ki5'
+      'koI(}OyJ:@': 'A}fIE>Pq[I'
+      'kopwzzB``A': sv5mAkY3Kf
+      'k}4/oj#$~s': 'P,t][$~Axv'
+      'k}A9]O:0xw': 'Q`OBBA(IqJ'
+      'l$2O|9w`F~': 'M*;rH]4K.>'
+      'l$zM~ihPFE': 'D8N9aGT(YL'
+      'l&#7I)Ah/E': 'p2,K;bOB~T'
+      'l*j*EE:!Y?': 'dET^[R~4O3'
+      'l+>Ki!j#v+': 'C%r3!}*o9-'
+      'l3Ly8PBxt(': 'j^9KkW@1V^'
+      'lAxH.CfJB@': 'stl,m~cAO&'
+      'lH^2D]w;[H': 'm~5*]PDD9k'
+      'lU@C3<C8Wk': 'JD*D+bih|F'
+      'leh^fmrt*#': 'oBs%LSd4B;'
+      'lhWI;$JC9(': 'CQy8.z2s`v'
+      libliptkB4: 'bwsw8$TgX1'
+      'lmRujD!(A7': 'wX.mVG|9{n'
+      'ln^3p)j3b.': 'N/[L&}q{Ro'
+      'lp@e##m.!+': 'F9A3Lkp?+N'
+      'lpbD0St&OU': 'l_bSqy)=W%'
+      'lq`T^ZBF2Y': 'xaacSwZi[n'
+      'l}[BG9.nQS': 'Gg8=;ywiMF'
+      'm)WUtJS`H&': 'It2!t/-o?>'
+      'm*#%sE.`.;': 'qd!suvo&1v'
+      'm*PYE=#wr^': 'CO+b,zPO_I'
+      'm2F|cUkKhv': 'ddf7bzEG~m'
+      'm5j,b/y<EE': 'K+Rf&9RCYP'
+      'm?}%V6s8]*': 'pL;e7uiX=l'
+      mJH4kwPF.-: 'Did1{bE2yj'
+      'm[96fa+HDS': 'uwH,{ZS,Hs'
+      mbGXc0y3Pe: 'jD9{n{|+PU'
+      'mbz=7n[0v9': 'P{?pBbVc*#'
+      'mcc&0Kq^xE': 'u3}~&(A[aZ'
+      'mi+kf0LTW.': 'Fx4sZh>`:m'
+      'mk1VltJl<]': 'c@Ms0SL)sn'
+      'mk20`,N=`=': 'Byv;->|tVn'
+      'mkgcU7[bA%': 'dr(`ZC<V%p'
+      'mq)8`hi{hb': 'vwc}tXrF=w'
+      'mtd;>7T|g>': 'bhv8b|]kY9'
+      'mz[>>AxIr4': 'Pqi/=VQrpE'
+      'm{noqE29%I': 'p;&<%/w5b|'
+      'm{oM,jr>C#': 'h~hx$TrJ9L'
+      'n&>e`2FO/S': jDvPRSN7UT
+      'n+t>2`:;P/': 'nG#=Zxp5Qn'
+      'n:7&>YT5A=': 'xMDjNS>?hL'
+      'nIfRn<aY:N': 'f=(W,pEE)M'
+      'niJUFZF$Y:': 'cfXokA*89x'
+      'nsS59c`VL,': 'w~5sD@C~%!'
+      'nuU8A_$i2M': 'IS`eM7]t)I'
+      'n{{o2K1:dw': 's)}(&(C~qe'
+      'o#&RMA_REo': 'vqczM!*!WR'
+      'o3VS!KWb/@': 'IEVE(R=UT_'
+      'o9{x<AyA]B': HiMLHEOc_m
+      'o=,%hU&yX%': F-eGLxAZDt
+      'oNpApS<AoJ': 't(:iXC>cS>'
+      oV/JG7fwZq: 'Hm4bJ<Y`aA'
+      'o``:?0>/yz': 'sg,bj=%n1w'
+      'oa87&PB&Bm': 'y9[[$e%qC`'
+      'onMKID2d;D': 'm.mLjg-{lM'
+      'o~}KVA:VbI': 'BAz%}9{UE'
+      'p#R$-mG/L': 'f[E%u}3F%e'
+      'p.yv>BQ470': 'Nz_#ah$j&d'
+      'p:SPZ:e/*[': 'C]<t^C)#CC'
+      'pD<Pd$Ag@J': 'zybU=+SV=e'
+      'pQpX%(EVOH': 'kI#F9[@KH|'
+      'pS>DrFhd%u': 'G4?YxB/<HP'
+      'pYRw[=6;JI': 'AbYz~(U8X^'
+      'p]t8:Tka7q': jhuwlGqRkR
+      pkj3RPBUrF: 'bTd6E)qj]$'
+      'pwwZu{7f~(': 'b~j)uKz$/r'
+      'pz(G*<F93/': onvgK4ynAq
+      'p}Qa|!7PpR': t0QR1Q:HMY
+      'q1Q3Do8S>g': 'nlr&VdfBJA'
+      'q2#Yv[O0:|': 'uq)KM}CVsF'
+      'q7do-wLx%E': 'GJT]wWpqv6'
+      'q8][)Ri}=q': 'm|F4][J.!m'
+      'q8fF$4,c6_': 'Qt7ILf!6y2'
+      'q:XyGf#>Wg': 'c#$?0jnW0K'
+      'q=w[<m2Bk&': 'B1cUA{Hro^'
+      'qFuGdDx^Yv': 'lz;Aa8Mc)h'
+      'qVi;t%/`F|': 'jpd^m*aK7%'
+      'q[S4`,F0D=': 'Hx}kMe>iu~'
+      'q[}7hk(+=e': 'k`{m~8Eb`.'
+      'qiv/4tOlf=': 'k~[RV@<s7/'
+      qvITjNxkLN: 'h70gtJ%&xI'
+      'qx%>fB$d+$': 'vlkjlV^U~T'
+      'r(h9&#wc~B': 'h:!&t0Lvqc'
+      'r/B|ra%L,.': 'bbW|f)4_>u'
+      'r5C646H*+*': 'B*Me@Zh_[S'
+      'r6BV%|..*5': 'Cob1W^QJ3F'
+      'r<N4LAAnnB': 'E]~7Dc-XV@'
+      'r>aI-$$|wT': 'pbX.~.6OJO'
+      'r>g<|,FWi%': 'Rh_*(xz;/]'
+      'r?E$4f-d0/': 'fPO>]fFure'
+      'rPekx@n9:L': 'K4#|XaqO:g'
+      'rSneU!3}bn': 'c!B%9S]zNK'
+      'r]*Ioa%$bK': 'I[3;:2u9!5'
+      's#:aIK$9^x': 'g-3%G(QyEf'
+      's4E?ZF[E<>': 'dL;ASbD>B}'
+      's9-GL*@AXD': 'uMj[iKx*FT'
+      's<_WLSB3I/': 'l]B_A,?ph!'
+      's>f40rn,O]': 'HXMK8^/pUt'
+      'sB7rZQsR<l': 'g[l><1FFUo'
+      sM0GPt1HS1: 'I_$^q=J15;'
+      'sRw-ik:I$v': 'v6t>$<ADP['
+      'sSW/?WMy17': 'jV+V-M0[9X'
+      'sT5=H|@KU|': 'AhCfC]V,BF'
+      sXzvT.g31p: 'NwEo@VHs_d'
+      'sY>@9w~i^p': 'iR6^@_]dvR'
+      'skOM(?n$GG': 'kC{ALA>P%a'
+      spKoFRM4if: 'sLc+1O/t|!'
+      'ssbyA9}]QP': 'Jf_>OgL@4?'
+      'stRa/S(0$F': 'wC(@I#Qj=_'
+      'sxOMs+bE8@': 'vFrU{gPXOA'
+      'sx|l+io`B@': 'z.;^Kjw?w-'
+      's|K&2S,UP|': 'mH(F;!A-^i'
+      't$y1C2R-Av': 'gs<Y_*zj#^'
+      't+v9b--,qs': 'O1bKEd;`i]'
+      't-0>F]bu>P': 'P*^/<)(KjW'
+      't2&ri|[Un:': 'o!L7Ln:)+/'
+      t3aZXtpNyi: '^@~8x/eFp'
+      't50y/[AEhF': 'FQm}Y9aG^*'
+      'tMMtBUpb$&': 'CP|Bi<B+3('
+      'tTnCoO/*tk': 'KI?g-vLTJ8'
+      't_h*fbN#:(': 'u2YZ8>C2[I'
+      't`cagaWApo': 'bu.JnK@qu%'
+      'tcneuK7v%`': 'c0H>DK:hY.'
+      tfCY4j6KEZ: 'O_`c<Q-qv]'
+      'tj&bK}%P!F': 'vLL9vrH]jE'
+      'twrhzJ[k:Z': 'gMpU6QZpk{'
+      't|h3|;E4g{': 'q<##9ET8w4'
+      'u-`cspdp)D': 'hM~h4Ec9ZW'
+      'u4^lH.xem5': 'e%6%K/Fo7O'
+      'u;|vR#mVMW': 'bmb^QU~Z*k'
+      'uH*Q(mcRt5': 'CPWU&xD,31'
+      'uRo^w#p5Be': 'D!-|+!*eBX'
+      'uc61ToT%gt': 'oBc!CE4|t8'
+      'ui3>b-?a@m': 'KM9;RF<Oa9'
+      upiX0g1quR: 'naB8r`cM^+'
+      'uv1fGXHN@)': 'e[{g,ks$!I'
+      'u|I}oElaH)': 'sH*CmlNZ<I'
+      'vE[T$`n9T)': 'D|=[nt0eT&'
+      'vKx<0Qa!aP': 'kddhH#ut%s'
+      'vNiD6A.v#s': 'I/zO]{Q@(q'
+      'va/ky=f5pK': 'xN@x`d<BS1'
+      'vf)G?[_?Pf': 'M%Zo)4Ex%5'
+      'vgdj#X?8dB': 'AX#-0[v2j?'
+      'vpOTK6tMr@': 'b~C@$BV@fk'
+      'vppEA|$@~g': 'O2A!9Qp}$C'
+      'vrn%j%6{nu': 'IJ6D7S}LvU'
+      'vwc3}.=Z#&': 'OL?i,z)TP#'
+      'wa>{k!2cXc': 'wsB.ZRe68:'
+      x2d4n4ADcP: 'Rf#Y$PY2hD'
+      'xb&P*pH(Q': 'FUCfa4kb<y'
+      'xqrJ^d[.(O': 'Gp?#Ik&V&F'
+      'yX:tmrd5;]': 'BLvM|PE:rh'
+      'z:*d{z(~V2': 'c2(xx0>{|K'
+      'zSc]-^U=0=': 'l1uc5E8j;X'
+    crowdanki:uuid:
+      43e2586a-9a65-11e8-a777-a0481cc15658: 47d13c81-b471-4471-8e87-ebad53fa7307
+target_adaptations:
+  notes.note.czech-republic.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as Czechia.
+    target: 'Používané časteji Česká republika.'
+    reason: 'Czech localization uses Česko as the primary label and presents Česká republika as the more frequent alternate name.'
+  notes.note.eswatini.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: Known as Swaziland until 2018.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.luxembourg.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Officially Luxembourg.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.pacific-ocean.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Známý též jako Pacifik.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'
+  notes.note.taiwan.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Partially recognised state claimed by China.
+    target: 'Částečně uznávaný stát nárokovaný Čínou, známý též jako Taiwan.'
+    reason: Czech localization adds the alternate spelling Taiwan for primary label Tchaj-wan.
+  notes.note.timor-leste.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: Also known as East Timor.
+    target: 'Známý též jako Timor Leste.'
+    reason: 'Czech localization uses Východní Timor as the primary label and reverses Timor Leste into the alternate name.'
+  notes.note.turkey.fields.field.country-info:
+    intent: delete
+    ownership: translation
+    expected_source: 'Also known as Türkiye'
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.ukraine.fields.field.capital-info:
+    intent: delete
+    ownership: translation
+    expected_source: Also known as Kiev.
+    reason: 'migrated legacy target adaptation; review and describe its target-language purpose'
+  notes.note.united-kingdom.fields.field.country-info:
+    intent: adapt
+    ownership: translation
+    expected_source: ''
+    target: 'Známé též jako Velká Británie.'
+    reason: 'migrated from legacy translations.target_additions; review and describe its target-language purpose'

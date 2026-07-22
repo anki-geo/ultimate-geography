@@ -1,0 +1,7519 @@
+{
+  "__type__": "Deck",
+  "children": [],
+  "crowdanki_uuid": "35307c16-cdbf-4c06-b3e3-61a654abc1c6",
+  "deck_config_uuid": "43d37fac-9a65-11e8-9cc5-a0481cc15658",
+  "deck_configurations": [
+    {
+      "__type__": "DeckConfig",
+      "autoplay": false,
+      "crowdanki_uuid": "43d37fac-9a65-11e8-9cc5-a0481cc15658",
+      "dyn": false,
+      "lapse": {
+        "delays": [
+          10
+        ],
+        "leechAction": 0,
+        "leechFails": 8,
+        "minInt": 1,
+        "mult": 0
+      },
+      "maxTaken": 60,
+      "name": "Ultimate Geography",
+      "new": {
+        "bury": true,
+        "delays": [
+          1,
+          10
+        ],
+        "initialFactor": 2500,
+        "ints": [
+          1,
+          4,
+          7
+        ],
+        "order": 0,
+        "perDay": 15,
+        "separate": true
+      },
+      "replayq": true,
+      "rev": {
+        "bury": true,
+        "ease4": 1.3,
+        "fuzz": 0.05,
+        "ivlFct": 1,
+        "maxIvl": 36500,
+        "minSpace": 1,
+        "perDay": 100
+      },
+      "timer": 0
+    }
+  ],
+  "desc": "<div dir=\"rtl\">\n\n<a href=\"https://github.com/anki-geo/ultimate-geography/\"><b>תיאור מלא</b></a> | <a href=\"https://github.com/anki-geo/ultimate-geography/releases\"><b>הערות גרסה</b></a> | <a href=\"https://github.com/anki-geo/ultimate-geography/blob/master/CONTRIBUTING.md\"><b>תרומה לפרויקט</b></a>\n\nחפיסת <b>Ultimate Geography v5.3</b> כוללת:\n\n- את <a href=\"https://en.wikipedia.org/wiki/List_of_sovereign_states\"><b>205 המדינות הריבוניות</b></a> בעולם (820 כרטיסים)\n- <b>59 טריטוריות, אזורים גאוגרפיים וישויות אחרות</b> (103 כרטיסים)\n- <b>48 אוקיינוסים וימים</b> (48 כרטיסים, מפות בלבד)\n- <b>7 יבשות</b> (7 כרטיסים, מפות בלבד)\n- בסך הכול <b>321 רשומות ייחודיות</b>, <b>980 כרטיסים</b>, <b>221 דגלים</b> ו-<b>321 מפות</b>.\n\nהחפיסה <a href=\"https://github.com/anki-geo/ultimate-geography#other-languages-and-versions\">זמינה</a> ב<b>אנגלית</b>, <b>גרמנית</b>, <b>ספרדית</b>, <b>צרפתית</b>, <b>נורווגית</b>, <b>צ'כית</b>, <b>רוסית</b>, <b>הולנדית</b>, <b>שוודית</b>, <b>פורטוגזית</b>, <b>סינית</b> (מפושטת ומסורתית), <b>פולנית</b>, <b>איטלקית</b>, <b>דנית</b> ו<b>עברית</b>. יש גם <a href=\"https://github.com/anki-geo/ultimate-geography#other-languages-and-versions\"><b>גרסה מורחבת</b></a> בכל שפה. כדי לסייע בשינון ולתת הקשר בזמן הלימוד, חלק מהרשומות כוללות מידע נוסף, כגון דגלים דומים, מידע על מעמד מדיני, שמות חלופיים למדינות ועוד.\n\nאפשר להשתמש ב<a href=\"https://github.com/anki-geo/ultimate-geography#custom-study\">חפיסות מסוננות של Anki</a> כדי להתמקד בחלק מסוים של החפיסה, למשל מדינות ריבוניות, תבנית קלף אחת (כגון מפה למדינה), או יבשת מסוימת (כגון אירופה).\n\nהחפיסה <a href=\"https://github.com/anki-geo/ultimate-geography\"><b>מתוחזקת ב-GitHub</b></a>. אם מצאתם טעות, יש לכם הצעה או שאתם רוצים לעזור, אפשר <a href=\"https://github.com/anki-geo/ultimate-geography/issues\">לפתוח דיווח</a>. רוצים <b>להתעדכן בגרסאות חדשות</b>? עקבו אחרי המאגר ב-GitHub או הירשמו ל<a href=\"https://github.com/anki-geo/ultimate-geography/releases.atom\">פיד הגרסאות</a>!\n\n</div>\n",
+  "dyn": 0,
+  "extendNew": 10,
+  "extendRev": 50,
+  "media_files": [
+    "ug-flag-abkhazia.svg",
+    "ug-flag-afghanistan.svg",
+    "ug-flag-aland_islands.svg",
+    "ug-flag-albania.svg",
+    "ug-flag-algeria.svg",
+    "ug-flag-andorra.svg",
+    "ug-flag-angola.svg",
+    "ug-flag-antigua_and_barbuda.svg",
+    "ug-flag-argentina.svg",
+    "ug-flag-armenia.svg",
+    "ug-flag-aruba.svg",
+    "ug-flag-australia.svg",
+    "ug-flag-austria.svg",
+    "ug-flag-azerbaijan.svg",
+    "ug-flag-bahrain.svg",
+    "ug-flag-bangladesh.svg",
+    "ug-flag-barbados.svg",
+    "ug-flag-belarus.svg",
+    "ug-flag-belgium.svg",
+    "ug-flag-belize.svg",
+    "ug-flag-benin.svg",
+    "ug-flag-bhutan.svg",
+    "ug-flag-bolivia-blur.svg",
+    "ug-flag-bolivia.svg",
+    "ug-flag-bosnia_and_herzegovina.svg",
+    "ug-flag-botswana.svg",
+    "ug-flag-brazil.svg",
+    "ug-flag-brunei.svg",
+    "ug-flag-bulgaria.svg",
+    "ug-flag-burkina_faso.svg",
+    "ug-flag-burundi.svg",
+    "ug-flag-cambodia.svg",
+    "ug-flag-cameroon.svg",
+    "ug-flag-canada.svg",
+    "ug-flag-cape_verde.svg",
+    "ug-flag-central_african_republic.svg",
+    "ug-flag-chad.svg",
+    "ug-flag-chile.svg",
+    "ug-flag-china.svg",
+    "ug-flag-colombia.svg",
+    "ug-flag-comoros.svg",
+    "ug-flag-cook_islands.svg",
+    "ug-flag-costa_rica-blur.svg",
+    "ug-flag-costa_rica.svg",
+    "ug-flag-croatia.svg",
+    "ug-flag-cuba.svg",
+    "ug-flag-curacao.svg",
+    "ug-flag-cyprus.svg",
+    "ug-flag-czech_republic.svg",
+    "ug-flag-democratic_republic_of_the_congo.svg",
+    "ug-flag-denmark.svg",
+    "ug-flag-djibouti.svg",
+    "ug-flag-dominica.svg",
+    "ug-flag-dominican_republic.svg",
+    "ug-flag-ecuador.svg",
+    "ug-flag-egypt.svg",
+    "ug-flag-el_salvador-blur.svg",
+    "ug-flag-el_salvador.svg",
+    "ug-flag-england.svg",
+    "ug-flag-equatorial_guinea.svg",
+    "ug-flag-eritrea.svg",
+    "ug-flag-estonia.svg",
+    "ug-flag-eswatini.svg",
+    "ug-flag-ethiopia.svg",
+    "ug-flag-european_union.svg",
+    "ug-flag-faroe_islands.svg",
+    "ug-flag-federated_states_of_micronesia.svg",
+    "ug-flag-fiji.svg",
+    "ug-flag-finland.svg",
+    "ug-flag-france.svg",
+    "ug-flag-french_polynesia.svg",
+    "ug-flag-gabon.svg",
+    "ug-flag-georgia.svg",
+    "ug-flag-germany.svg",
+    "ug-flag-ghana.svg",
+    "ug-flag-greece.svg",
+    "ug-flag-greenland.svg",
+    "ug-flag-grenada.svg",
+    "ug-flag-guam-blur.svg",
+    "ug-flag-guam.svg",
+    "ug-flag-guatemala.svg",
+    "ug-flag-guinea-bissau.svg",
+    "ug-flag-guinea.svg",
+    "ug-flag-guyana.svg",
+    "ug-flag-haiti.svg",
+    "ug-flag-honduras.svg",
+    "ug-flag-hong_kong.svg",
+    "ug-flag-hungary.svg",
+    "ug-flag-iceland.svg",
+    "ug-flag-india.svg",
+    "ug-flag-indonesia.svg",
+    "ug-flag-iran.svg",
+    "ug-flag-iraq.svg",
+    "ug-flag-ireland.svg",
+    "ug-flag-israel.svg",
+    "ug-flag-italy.svg",
+    "ug-flag-ivory_coast.svg",
+    "ug-flag-jamaica.svg",
+    "ug-flag-japan.svg",
+    "ug-flag-jordan.svg",
+    "ug-flag-kazakhstan.svg",
+    "ug-flag-kenya.svg",
+    "ug-flag-kiribati.svg",
+    "ug-flag-kosovo.svg",
+    "ug-flag-kuwait.svg",
+    "ug-flag-kyrgyzstan.svg",
+    "ug-flag-laos.svg",
+    "ug-flag-latvia.svg",
+    "ug-flag-lebanon.svg",
+    "ug-flag-lesotho.svg",
+    "ug-flag-liberia.svg",
+    "ug-flag-libya.svg",
+    "ug-flag-liechtenstein.svg",
+    "ug-flag-lithuania.svg",
+    "ug-flag-luxembourg.svg",
+    "ug-flag-macau.svg",
+    "ug-flag-madagascar.svg",
+    "ug-flag-malawi.svg",
+    "ug-flag-malaysia.svg",
+    "ug-flag-maldives.svg",
+    "ug-flag-mali.svg",
+    "ug-flag-malta.svg",
+    "ug-flag-marshall_islands.svg",
+    "ug-flag-mauritania.svg",
+    "ug-flag-mauritius.svg",
+    "ug-flag-mexico.svg",
+    "ug-flag-moldova.svg",
+    "ug-flag-monaco.svg",
+    "ug-flag-mongolia.svg",
+    "ug-flag-montenegro.svg",
+    "ug-flag-morocco.svg",
+    "ug-flag-mozambique.svg",
+    "ug-flag-myanmar.svg",
+    "ug-flag-namibia.svg",
+    "ug-flag-nauru.svg",
+    "ug-flag-nepal-nobox.svg",
+    "ug-flag-netherlands.svg",
+    "ug-flag-new_caledonia.svg",
+    "ug-flag-new_zealand.svg",
+    "ug-flag-nicaragua-blur.svg",
+    "ug-flag-nicaragua.svg",
+    "ug-flag-niger.svg",
+    "ug-flag-nigeria.svg",
+    "ug-flag-niue.svg",
+    "ug-flag-north_korea.svg",
+    "ug-flag-north_macedonia.svg",
+    "ug-flag-northern_cyprus.svg",
+    "ug-flag-norway.svg",
+    "ug-flag-oman.svg",
+    "ug-flag-pakistan.svg",
+    "ug-flag-palau.svg",
+    "ug-flag-palestine.svg",
+    "ug-flag-panama.svg",
+    "ug-flag-papua_new_guinea.svg",
+    "ug-flag-paraguay-blur.svg",
+    "ug-flag-paraguay.svg",
+    "ug-flag-peru.svg",
+    "ug-flag-philippines.svg",
+    "ug-flag-poland.svg",
+    "ug-flag-portugal.svg",
+    "ug-flag-puerto_rico.svg",
+    "ug-flag-qatar.svg",
+    "ug-flag-republic_of_the_congo.svg",
+    "ug-flag-romania.svg",
+    "ug-flag-russia.svg",
+    "ug-flag-rwanda.svg",
+    "ug-flag-sahrawi_arab_democratic_republic.svg",
+    "ug-flag-saint_kitts_and_nevis.svg",
+    "ug-flag-saint_lucia.svg",
+    "ug-flag-saint_vincent_and_the_grenadines.svg",
+    "ug-flag-samoa.svg",
+    "ug-flag-san_marino.svg",
+    "ug-flag-sao_tome_and_principe.svg",
+    "ug-flag-saudi_arabia.svg",
+    "ug-flag-scotland.svg",
+    "ug-flag-senegal.svg",
+    "ug-flag-serbia.svg",
+    "ug-flag-seychelles.svg",
+    "ug-flag-sierra_leone.svg",
+    "ug-flag-singapore.svg",
+    "ug-flag-slovakia.svg",
+    "ug-flag-slovenia.svg",
+    "ug-flag-solomon_islands.svg",
+    "ug-flag-somalia.svg",
+    "ug-flag-somaliland.svg",
+    "ug-flag-south_africa.svg",
+    "ug-flag-south_korea.svg",
+    "ug-flag-south_ossetia.svg",
+    "ug-flag-south_sudan.svg",
+    "ug-flag-spain.svg",
+    "ug-flag-sri_lanka.svg",
+    "ug-flag-sudan.svg",
+    "ug-flag-suriname.svg",
+    "ug-flag-sweden.svg",
+    "ug-flag-switzerland.svg",
+    "ug-flag-syria.svg",
+    "ug-flag-taiwan.svg",
+    "ug-flag-tajikistan.svg",
+    "ug-flag-tanzania.svg",
+    "ug-flag-thailand.svg",
+    "ug-flag-the_bahamas.svg",
+    "ug-flag-the_gambia.svg",
+    "ug-flag-timor-leste.svg",
+    "ug-flag-togo.svg",
+    "ug-flag-tonga.svg",
+    "ug-flag-transnistria.svg",
+    "ug-flag-trinidad_and_tobago.svg",
+    "ug-flag-tunisia.svg",
+    "ug-flag-turkey.svg",
+    "ug-flag-turkmenistan.svg",
+    "ug-flag-tuvalu.svg",
+    "ug-flag-uganda.svg",
+    "ug-flag-ukraine.svg",
+    "ug-flag-united_arab_emirates.svg",
+    "ug-flag-united_kingdom.svg",
+    "ug-flag-united_states_of_america.svg",
+    "ug-flag-united_states_virgin_islands.svg",
+    "ug-flag-uruguay.svg",
+    "ug-flag-uzbekistan.svg",
+    "ug-flag-vanuatu.svg",
+    "ug-flag-vatican_city.svg",
+    "ug-flag-venezuela.svg",
+    "ug-flag-vietnam.svg",
+    "ug-flag-wales.svg",
+    "ug-flag-yemen.svg",
+    "ug-flag-zambia.svg",
+    "ug-flag-zimbabwe.svg",
+    "ug-map-abkhazia.png",
+    "ug-map-adriatic_sea.png",
+    "ug-map-aegean_sea.png",
+    "ug-map-afghanistan.png",
+    "ug-map-africa-nobox.png",
+    "ug-map-akrotiri_and_dhekelia.png",
+    "ug-map-aland_islands.png",
+    "ug-map-alaska.png",
+    "ug-map-albania.png",
+    "ug-map-algeria.png",
+    "ug-map-american_samoa.png",
+    "ug-map-andorra.png",
+    "ug-map-angola.png",
+    "ug-map-anguilla.png",
+    "ug-map-antarctica-nobox.png",
+    "ug-map-antigua_and_barbuda.png",
+    "ug-map-arabian_sea.png",
+    "ug-map-aral_sea.png",
+    "ug-map-arctic_ocean-nobox.png",
+    "ug-map-argentina.png",
+    "ug-map-armenia.png",
+    "ug-map-aruba.png",
+    "ug-map-asia-nobox.png",
+    "ug-map-atlantic_ocean-nobox.png",
+    "ug-map-australia.png",
+    "ug-map-austria.png",
+    "ug-map-azerbaijan.png",
+    "ug-map-azores.png",
+    "ug-map-bahrain.png",
+    "ug-map-bali.png",
+    "ug-map-balkan_peninsula.png",
+    "ug-map-baltic_sea.png",
+    "ug-map-banda_sea.png",
+    "ug-map-bangladesh.png",
+    "ug-map-barbados.png",
+    "ug-map-barents_sea.png",
+    "ug-map-bay_of_bengal.png",
+    "ug-map-bay_of_biscay.png",
+    "ug-map-belarus.png",
+    "ug-map-belgium.png",
+    "ug-map-belize.png",
+    "ug-map-benin.png",
+    "ug-map-bering_strait.png",
+    "ug-map-bermuda.png",
+    "ug-map-bhutan.png",
+    "ug-map-black_sea.png",
+    "ug-map-bolivia.png",
+    "ug-map-bosnia_and_herzegovina.png",
+    "ug-map-botswana.png",
+    "ug-map-bougainville.png",
+    "ug-map-brazil.png",
+    "ug-map-british_virgin_islands.png",
+    "ug-map-brunei.png",
+    "ug-map-bulgaria.png",
+    "ug-map-burkina_faso.png",
+    "ug-map-burundi.png",
+    "ug-map-cambodia.png",
+    "ug-map-cameroon.png",
+    "ug-map-canada.png",
+    "ug-map-canary_islands.png",
+    "ug-map-cape_verde.png",
+    "ug-map-caribbean_sea.png",
+    "ug-map-caspian_sea.png",
+    "ug-map-cayman_islands.png",
+    "ug-map-celebes_sea.png",
+    "ug-map-celtic_sea.png",
+    "ug-map-central_african_republic.png",
+    "ug-map-chad.png",
+    "ug-map-chile.png",
+    "ug-map-china.png",
+    "ug-map-colombia.png",
+    "ug-map-comoros.png",
+    "ug-map-cook_islands.png",
+    "ug-map-coral_sea.png",
+    "ug-map-corsica.png",
+    "ug-map-costa_rica.png",
+    "ug-map-croatia.png",
+    "ug-map-cuba.png",
+    "ug-map-curacao.png",
+    "ug-map-cyprus.png",
+    "ug-map-czech_republic.png",
+    "ug-map-dead_sea.png",
+    "ug-map-democratic_republic_of_the_congo.png",
+    "ug-map-denmark.png",
+    "ug-map-denmark_strait.png",
+    "ug-map-djibouti.png",
+    "ug-map-dominica.png",
+    "ug-map-dominican_republic.png",
+    "ug-map-east_china_sea.png",
+    "ug-map-east_siberian_sea.png",
+    "ug-map-ecuador.png",
+    "ug-map-egypt.png",
+    "ug-map-el_salvador.png",
+    "ug-map-england.png",
+    "ug-map-english_channel.png",
+    "ug-map-equatorial_guinea.png",
+    "ug-map-eritrea.png",
+    "ug-map-estonia.png",
+    "ug-map-eswatini.png",
+    "ug-map-ethiopia.png",
+    "ug-map-europe-nobox.png",
+    "ug-map-european_union.png",
+    "ug-map-falkland_islands.png",
+    "ug-map-faroe_islands.png",
+    "ug-map-federated_states_of_micronesia.png",
+    "ug-map-fiji.png",
+    "ug-map-finland.png",
+    "ug-map-france.png",
+    "ug-map-french_guiana.png",
+    "ug-map-french_polynesia.png",
+    "ug-map-gabon.png",
+    "ug-map-georgia.png",
+    "ug-map-germany.png",
+    "ug-map-ghana.png",
+    "ug-map-gibraltar.png",
+    "ug-map-greece.png",
+    "ug-map-greenland.png",
+    "ug-map-grenada.png",
+    "ug-map-guadeloupe.png",
+    "ug-map-guam.png",
+    "ug-map-guatemala.png",
+    "ug-map-guernsey.png",
+    "ug-map-guinea-bissau.png",
+    "ug-map-guinea.png",
+    "ug-map-gulf_of_alaska.png",
+    "ug-map-gulf_of_california.png",
+    "ug-map-gulf_of_carpentaria.png",
+    "ug-map-gulf_of_guinea.png",
+    "ug-map-gulf_of_mexico.png",
+    "ug-map-gulf_of_thailand.png",
+    "ug-map-guyana.png",
+    "ug-map-haiti.png",
+    "ug-map-hawaii.png",
+    "ug-map-honduras.png",
+    "ug-map-hong_kong.png",
+    "ug-map-hudson_bay.png",
+    "ug-map-hungary.png",
+    "ug-map-iceland.png",
+    "ug-map-india.png",
+    "ug-map-indian_ocean-nobox.png",
+    "ug-map-indonesia.png",
+    "ug-map-iran.png",
+    "ug-map-iraq.png",
+    "ug-map-ireland.png",
+    "ug-map-isle_of_man.png",
+    "ug-map-israel.png",
+    "ug-map-italy.png",
+    "ug-map-ivory_coast.png",
+    "ug-map-jamaica.png",
+    "ug-map-japan.png",
+    "ug-map-java.png",
+    "ug-map-jeju.png",
+    "ug-map-jersey.png",
+    "ug-map-jordan.png",
+    "ug-map-kaliningrad_oblast.png",
+    "ug-map-kazakhstan.png",
+    "ug-map-kenya.png",
+    "ug-map-kiribati.png",
+    "ug-map-kosovo.png",
+    "ug-map-kuwait.png",
+    "ug-map-kyrgyzstan.png",
+    "ug-map-labrador_sea.png",
+    "ug-map-laos.png",
+    "ug-map-latvia.png",
+    "ug-map-lebanon.png",
+    "ug-map-lesotho.png",
+    "ug-map-liberia.png",
+    "ug-map-libya.png",
+    "ug-map-liechtenstein.png",
+    "ug-map-lithuania.png",
+    "ug-map-luxembourg.png",
+    "ug-map-macau.png",
+    "ug-map-madagascar.png",
+    "ug-map-madeira.png",
+    "ug-map-malawi.png",
+    "ug-map-malaysia.png",
+    "ug-map-maldives.png",
+    "ug-map-mali.png",
+    "ug-map-malta.png",
+    "ug-map-marshall_islands.png",
+    "ug-map-martinique.png",
+    "ug-map-mauritania.png",
+    "ug-map-mauritius.png",
+    "ug-map-mayotte.png",
+    "ug-map-mediterranean_sea.png",
+    "ug-map-melanesia.png",
+    "ug-map-mexico.png",
+    "ug-map-micronesia.png",
+    "ug-map-moldova.png",
+    "ug-map-monaco.png",
+    "ug-map-mongolia.png",
+    "ug-map-montenegro.png",
+    "ug-map-morocco.png",
+    "ug-map-mozambique.png",
+    "ug-map-myanmar.png",
+    "ug-map-namibia.png",
+    "ug-map-nauru.png",
+    "ug-map-nepal.png",
+    "ug-map-netherlands.png",
+    "ug-map-new_caledonia.png",
+    "ug-map-new_zealand.png",
+    "ug-map-nicaragua.png",
+    "ug-map-niger.png",
+    "ug-map-nigeria.png",
+    "ug-map-niue.png",
+    "ug-map-north_america-nobox.png",
+    "ug-map-north_korea.png",
+    "ug-map-north_macedonia.png",
+    "ug-map-north_sea.png",
+    "ug-map-northern_cyprus.png",
+    "ug-map-northern_ireland.png",
+    "ug-map-northern_mariana_islands.png",
+    "ug-map-norway.png",
+    "ug-map-norwegian_sea.png",
+    "ug-map-oceania-nobox.png",
+    "ug-map-oman.png",
+    "ug-map-pacific_ocean-nobox.png",
+    "ug-map-pakistan.png",
+    "ug-map-palau.png",
+    "ug-map-palestine.png",
+    "ug-map-panama.png",
+    "ug-map-papua_new_guinea.png",
+    "ug-map-paraguay.png",
+    "ug-map-persian_gulf.png",
+    "ug-map-peru.png",
+    "ug-map-philippine_sea.png",
+    "ug-map-philippines.png",
+    "ug-map-poland.png",
+    "ug-map-polynesia.png",
+    "ug-map-portugal.png",
+    "ug-map-puerto_rico.png",
+    "ug-map-qatar.png",
+    "ug-map-red_sea.png",
+    "ug-map-republic_of_the_congo.png",
+    "ug-map-reunion.png",
+    "ug-map-romania.png",
+    "ug-map-russia.png",
+    "ug-map-rwanda.png",
+    "ug-map-sahrawi_arab_democratic_republic.png",
+    "ug-map-saint_kitts_and_nevis.png",
+    "ug-map-saint_lucia.png",
+    "ug-map-saint_martin.png",
+    "ug-map-saint_vincent_and_the_grenadines.png",
+    "ug-map-samoa.png",
+    "ug-map-san_marino.png",
+    "ug-map-sao_tome_and_principe.png",
+    "ug-map-sardinia.png",
+    "ug-map-saudi_arabia.png",
+    "ug-map-scandinavia.png",
+    "ug-map-scotland.png",
+    "ug-map-sea_of_galilee.png",
+    "ug-map-sea_of_japan.png",
+    "ug-map-sea_of_okhotsk.png",
+    "ug-map-senegal.png",
+    "ug-map-serbia.png",
+    "ug-map-seychelles.png",
+    "ug-map-sicily.png",
+    "ug-map-sierra_leone.png",
+    "ug-map-singapore.png",
+    "ug-map-sint_maarten.png",
+    "ug-map-slovakia.png",
+    "ug-map-slovenia.png",
+    "ug-map-solomon_islands.png",
+    "ug-map-somalia.png",
+    "ug-map-somaliland.png",
+    "ug-map-south_africa.png",
+    "ug-map-south_america-nobox.png",
+    "ug-map-south_china_sea.png",
+    "ug-map-south_korea.png",
+    "ug-map-south_ossetia.png",
+    "ug-map-south_sudan.png",
+    "ug-map-southern_ocean-nobox.png",
+    "ug-map-spain.png",
+    "ug-map-sri_lanka.png",
+    "ug-map-strait_of_hormuz.png",
+    "ug-map-strait_of_malacca.png",
+    "ug-map-sudan.png",
+    "ug-map-sumatra.png",
+    "ug-map-suriname.png",
+    "ug-map-svalbard.png",
+    "ug-map-sweden.png",
+    "ug-map-switzerland.png",
+    "ug-map-syria.png",
+    "ug-map-taiwan.png",
+    "ug-map-tajikistan.png",
+    "ug-map-tanzania.png",
+    "ug-map-tasman_sea.png",
+    "ug-map-thailand.png",
+    "ug-map-the_bahamas.png",
+    "ug-map-the_gambia.png",
+    "ug-map-timor-leste.png",
+    "ug-map-timor_sea.png",
+    "ug-map-togo.png",
+    "ug-map-tonga.png",
+    "ug-map-transnistria.png",
+    "ug-map-trinidad_and_tobago.png",
+    "ug-map-tunisia.png",
+    "ug-map-turkey.png",
+    "ug-map-turkmenistan.png",
+    "ug-map-turks_and_caicos_islands.png",
+    "ug-map-tuvalu.png",
+    "ug-map-uganda.png",
+    "ug-map-ukraine.png",
+    "ug-map-united_arab_emirates.png",
+    "ug-map-united_kingdom.png",
+    "ug-map-united_states_of_america.png",
+    "ug-map-united_states_virgin_islands.png",
+    "ug-map-uruguay.png",
+    "ug-map-uzbekistan.png",
+    "ug-map-vanuatu.png",
+    "ug-map-vatican_city.png",
+    "ug-map-venezuela.png",
+    "ug-map-vietnam.png",
+    "ug-map-wales.png",
+    "ug-map-wallis_and_futuna.png",
+    "ug-map-white_sea.png",
+    "ug-map-yellow_sea.png",
+    "ug-map-yemen.png",
+    "ug-map-zambia.png",
+    "ug-map-zanzibar.png",
+    "ug-map-zimbabwe.png"
+  ],
+  "name": "Ultimate Geography [HE]",
+  "note_models": [
+    {
+      "__type__": "NoteModel",
+      "crowdanki_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "css": ".card {\n  padding: 1em 0;\n  background-color: white;\n  color: black;\n  direction: rtl;\n  font-family: Verdana;\n  font-size: 16px;\n  text-align: center;\n}\n\n.type {\n  margin-bottom: 0.25em;\n  color: #333;\n  font-size: 70%;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n\n.info {\n  max-width: 30em;\n  margin: 0.75em auto;\n  color: #333;\n  font-size: 90%;\n  font-style: italic;\n}\n\n.value {\n  font-size: 150%;\n}\n\n.value--top {\n  margin-top: 1em;\n}\n\n.value--image {\n  margin-top: 0.75em;\n}\n\n.value--map {\n  width: 90%;\n  height: 65vh;\n  margin: 2em auto 0 auto;\n}\n\n.value > img,\n.value > .placeholder {\n  max-width: 100%;\n  height: auto;\n}\n\n/**\n * Apply shadow to images, notably to bring out white areas on flags.\n * Ignore images with non-rectangular outlines (e.g. flag of Nepal).\n */\n.value > img:not([src*=\"-nobox\"]) {\n  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);\n}\n\n/**\n * Some flags (e.g. Guam's) contain identifying words that can give away the answer.\n * If a blurred version is available, show it on the front but not on the back.\n */\n.value--front > img[src*=\"-blur\"] + img {\n  display: none;\n}\n\n.value--back > img[src*=\"-blur\"] {\n  display: none;\n}\n\n/**\n * Placeholder SVG to hint at the type of answer that is expected.\n * Used on \"Country - Flag\" and \"Country - Map\" templates.\n */\n.placeholder {\n  color: #333;\n}\n\n.placeholder > path {\n  fill: none;\n  stroke: currentColor;\n  stroke-width: 1;\n}\n\n.night_mode .info,\n.night_mode .type,\n.night_mode .placeholder,\n.nightMode .info,\n.nightMode .type,\n.nightMode .placeholder {\n  color: #ccc;\n}\n\n/**\n * Apply shadow to images, to bring out black areas on flags, in night\n   mode.\n */\n.nightMode .value > img:not([src*=\"-nobox\"]),\n.night_mode .value > img:not([src*=\"-nobox\"]) {\n  box-shadow: 0 0 4px 1px rgba(54, 54, 54, 0.9);\n}\n\nhr {\n  margin: 1.5em 0;\n}\n",
+      "flds": [
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Country",
+          "ord": 0,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Country info",
+          "ord": 1,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Capital",
+          "ord": 2,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Capital info",
+          "ord": 3,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Capital hint",
+          "ord": 4,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Flag",
+          "ord": 5,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Flag similarity",
+          "ord": 6,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Map",
+          "ord": 7,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        }
+      ],
+      "latexPost": "\\end{document}",
+      "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+      "latexsvg": false,
+      "name": "Ultimate Geography [HE]",
+      "req": [],
+      "sortf": 0,
+      "tags": [],
+      "tmpls": [
+        {
+          "afmt": "<div class=\"value value--top\">{{Country}}</div>\n{{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n\n<hr id=answer>\n\n<div class=\"type\">בירה</div>\n<div class=\"value\">{{Capital}}</div>\n{{#Capital info}}<div class=\"info\">{{Capital info}}</div>{{/Capital info}}\n",
+          "bafmt": "",
+          "bfont": "",
+          "bqfmt": "",
+          "bsize": 0,
+          "did": null,
+          "name": "Country - Capital",
+          "ord": 0,
+          "qfmt": "{{#Capital}}\n  <div class=\"value value--top\">{{Country}}</div>\n  {{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n\n  <hr>\n\n  <div class=\"type\">בירה</div>\n  <div class=\"value\">?</div>\n{{/Capital}}",
+          "scratchPad": 0
+        },
+        {
+          "afmt": "<div id=answer class=\"value value--top\">{{Country}}</div>\n{{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n\n<hr>\n\n<div class=\"type\">בירה</div>\n<div class=\"value\">{{Capital}}</div>\n{{#Capital hint}}<div class=\"info\">רמז: {{Capital hint}}</div>{{/Capital hint}}\n{{#Capital info}}<div class=\"info\">{{Capital info}}</div>{{/Capital info}}\n",
+          "bafmt": "",
+          "bfont": "",
+          "bqfmt": "",
+          "bsize": 0,
+          "did": null,
+          "name": "Capital - Country",
+          "ord": 1,
+          "qfmt": "{{#Capital}}\n  <div class=\"value value--top\">?</div>\n\n  <hr>\n\n  <div class=\"type\">בירה</div>\n  <div class=\"value\">{{Capital}}</div>\n  {{#Capital hint}}<div class=\"info\">רמז: {{Capital hint}}</div>{{/Capital hint}}\n{{/Capital}}",
+          "scratchPad": 0
+        },
+        {
+          "afmt": "<div id=answer class=\"value value--top\">{{Country}}</div>\n{{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n\n<hr>\n\n<div class=\"type\">דגל</div>\n<div class=\"value value--image value--back\">{{Flag}}</div>\n{{#Flag similarity}}<div class=\"info\">דגל דומה: {{Flag similarity}}.</div>{{/Flag similarity}}\n",
+          "bafmt": "",
+          "bfont": "",
+          "bqfmt": "",
+          "bsize": 0,
+          "did": null,
+          "name": "Flag - Country",
+          "ord": 2,
+          "qfmt": "{{#Flag}}\n  <div class=\"value value--top\">?</div>\n\n  <hr>\n\n  <div class=\"type\">דגל</div>\n  <div class=\"value value--image value--front\">{{Flag}}</div>\n{{/Flag}}",
+          "scratchPad": 0
+        },
+        {
+          "afmt": "<div id=answer class=\"value value--top\">{{Country}}</div>\n{{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n\n<hr>\n\n<div class=\"type\">מיקום</div>\n<div class=\"value value--image\">{{Map}}</div>\n",
+          "bafmt": "",
+          "bfont": "",
+          "bqfmt": "",
+          "bsize": 0,
+          "did": null,
+          "name": "Map - Country",
+          "ord": 3,
+          "qfmt": "{{#Map}}\n  <div class=\"value value--top\">?</div>\n\n  <hr>\n\n  <div class=\"type\">מיקום</div>\n  <div class=\"value value--image\">{{Map}}</div>\n{{/Map}}",
+          "scratchPad": 0
+        }
+      ],
+      "type": 0,
+      "vers": []
+    }
+  ],
+  "notes": [
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אבחזיה",
+        "מדינה עצמאית בפועל שגאורגיה טוענת לריבונות עליה.",
+        "סוחומי",
+        "",
+        "",
+        "<img src=\"ug-flag-abkhazia.svg\" />",
+        "",
+        "<img src=\"ug-map-abkhazia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ch&}RMJ`Pr",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הים האדריאטי",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-adriatic_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "2mKA,/#Qq",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הים האגאי",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-aegean_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "hRI-(C?7=9",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אפגניסטן",
+        "",
+        "קאבול",
+        "",
+        "",
+        "<img src=\"ug-flag-afghanistan.svg\" />",
+        "",
+        "<img src=\"ug-map-afghanistan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "feuTCslOU,",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אפריקה",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-africa-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "l]$q#o+[$5",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Continents"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אקרוטירי ודקליה",
+        "טריטוריה בריטית מעבר לים.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-akrotiri_and_dhekelia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "|oRNzVelu",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Mediterranean",
+        "UG::Middle_East"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אלסקה",
+        "מדינה בארצות הברית.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-alaska.png\" />"
+      ],
+      "flags": 0,
+      "guid": "imiNsu)<F]",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אלבניה",
+        "",
+        "טירנה",
+        "",
+        "",
+        "<img src=\"ug-flag-albania.svg\" />",
+        "",
+        "<img src=\"ug-map-albania.png\" />"
+      ],
+      "flags": 0,
+      "guid": "e>*o}>}Z3;",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אלג'יריה",
+        "",
+        "אלז'יר",
+        "",
+        "",
+        "<img src=\"ug-flag-algeria.svg\" />",
+        "",
+        "<img src=\"ug-map-algeria.png\" />"
+      ],
+      "flags": 0,
+      "guid": "MHAs8/`Apn",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סמואה האמריקנית",
+        "טריטוריה בלתי מאוגדת של ארצות הברית.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-american_samoa.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Fij>aaBGz2",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אנדורה",
+        "",
+        "אנדורה לה ולה",
+        "",
+        "",
+        "<img src=\"ug-flag-andorra.svg\" />",
+        "מולדובה (רחב יותר, סמל המדינה עם נשר)",
+        "<img src=\"ug-map-andorra.png\" />"
+      ],
+      "flags": 0,
+      "guid": "L5/D$&JSv+",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אנגולה",
+        "",
+        "לואנדה",
+        "",
+        "",
+        "<img src=\"ug-flag-angola.svg\" />",
+        "",
+        "<img src=\"ug-map-angola.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Fb4Vy71IRO",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אנגווילה",
+        "טריטוריה בריטית מעבר לים.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-anguilla.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ejpgQ1HEyw",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אנטארקטיקה",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-antarctica-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "cEy)qNJ>y[",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Continents"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אנטיגואה וברבודה",
+        "",
+        "סנט ג'ונס",
+        "",
+        "",
+        "<img src=\"ug-flag-antigua_and_barbuda.svg\" />",
+        "",
+        "<img src=\"ug-map-antigua_and_barbuda.png\" />"
+      ],
+      "flags": 0,
+      "guid": "A,0p@,~%*k",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הים הערבי",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-arabian_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "l$!,O181c)",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ימת אראל",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-aral_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "nDSj0$p|3g",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אוקיינוס הקרח הצפוני",
+        "ידוע גם בשם האוקיינוס הארקטי.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-arctic_ocean-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "l%p;is6Oo=",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ארגנטינה",
+        "",
+        "בואנוס איירס",
+        "",
+        "",
+        "<img src=\"ug-flag-argentina.svg\" />",
+        "",
+        "<img src=\"ug-map-argentina.png\" />"
+      ],
+      "flags": 0,
+      "guid": "kQUd^B)z`T",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ארמניה",
+        "",
+        "ירוואן",
+        "",
+        "",
+        "<img src=\"ug-flag-armenia.svg\" />",
+        "",
+        "<img src=\"ug-map-armenia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "paaO0-WgBS",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ארובה",
+        "מדינה אוטונומית בממלכת ארצות השפלה.",
+        "אורנייסטד",
+        "",
+        "",
+        "<img src=\"ug-flag-aruba.svg\" />",
+        "",
+        "<img src=\"ug-map-aruba.png\" />"
+      ],
+      "flags": 0,
+      "guid": "jc$cWKoznW",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אסיה",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-asia-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "dp`J7_(Z<w",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Continents"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "האוקיינוס האטלנטי",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-atlantic_ocean-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "m7>y3n`7f<",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אוסטרליה",
+        "",
+        "קנברה",
+        "",
+        "",
+        "<img src=\"ug-flag-australia.svg\" />",
+        "ניו זילנד (כוכבים אדומים, שני כוכבים פחות)",
+        "<img src=\"ug-map-australia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "h5yLl]Gz{5",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אוסטריה",
+        "",
+        "וינה",
+        "",
+        "",
+        "<img src=\"ug-flag-austria.svg\" />",
+        "לטביה (אדום כהה יותר, פס לבן צר יותר)",
+        "<img src=\"ug-map-austria.png\" />"
+      ],
+      "flags": 0,
+      "guid": "OB|v6@XWw^",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אזרבייג'ן",
+        "",
+        "באקו",
+        "",
+        "",
+        "<img src=\"ug-flag-azerbaijan.svg\" />",
+        "",
+        "<img src=\"ug-map-azerbaijan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "wgccH^VXo+",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "האיים האזוריים",
+        "אזור אוטונומי של פורטוגל.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-azores.png\" />"
+      ],
+      "flags": 0,
+      "guid": "n=d$mb;$-}",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "בחריין",
+        "",
+        "מנמה",
+        "",
+        "",
+        "<img src=\"ug-flag-bahrain.svg\" />",
+        "קטר (רחב יותר, שיניים משוננות יותר, בורדו)",
+        "<img src=\"ug-map-bahrain.png\" />"
+      ],
+      "flags": 0,
+      "guid": "hRKJ]K&KFK",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "באלי",
+        "אי של אינדונזיה.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-bali.png\" />"
+      ],
+      "flags": 0,
+      "guid": "OSKw;U1}Rc",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "חצי האי הבלקני",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-balkan_peninsula.png\" />"
+      ],
+      "flags": 0,
+      "guid": "I*C2b]v7kD",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הים הבלטי",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-baltic_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "d[jxDnZT&|",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ים בנדה",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-banda_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "r<Nir|*j8M",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "בנגלדש",
+        "",
+        "דאקה",
+        "",
+        "",
+        "<img src=\"ug-flag-bangladesh.svg\" />",
+        "",
+        "<img src=\"ug-map-bangladesh.png\" />"
+      ],
+      "flags": 0,
+      "guid": "s9N3Tdn*w!",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ברבדוס",
+        "",
+        "ברידג'טאון",
+        "",
+        "",
+        "<img src=\"ug-flag-barbados.svg\" />",
+        "",
+        "<img src=\"ug-map-barbados.png\" />"
+      ],
+      "flags": 0,
+      "guid": "gVHc`M5C)}",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ים ברנטס",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-barents_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "FM-82>EEhe",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מפרץ בנגל",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-bay_of_bengal.png\" />"
+      ],
+      "flags": 0,
+      "guid": "yosYY5bzY|",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מפרץ ביסקאיה",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-bay_of_biscay.png\" />"
+      ],
+      "flags": 0,
+      "guid": "GyJ]RV0T$-",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "בלארוס",
+        "",
+        "מינסק",
+        "",
+        "",
+        "<img src=\"ug-flag-belarus.svg\" />",
+        "",
+        "<img src=\"ug-map-belarus.png\" />"
+      ],
+      "flags": 0,
+      "guid": "G]<A,.p,4d",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "בלגיה",
+        "",
+        "בריסל",
+        "",
+        "",
+        "<img src=\"ug-flag-belgium.svg\" />",
+        "",
+        "<img src=\"ug-map-belgium.png\" />"
+      ],
+      "flags": 0,
+      "guid": "gl],PKuV4z",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "בליז",
+        "",
+        "בלמופן",
+        "",
+        "",
+        "<img src=\"ug-flag-belize.svg\" />",
+        "",
+        "<img src=\"ug-map-belize.png\" />"
+      ],
+      "flags": 0,
+      "guid": "EC<sBVgeAc",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "בנין",
+        "",
+        "פורטו נובו",
+        "פורטו-נובו היא הבירה הרשמית, אך קוטונו הוא מושב הממשלה בפועל.",
+        "",
+        "<img src=\"ug-flag-benin.svg\" />",
+        "",
+        "<img src=\"ug-map-benin.png\" />"
+      ],
+      "flags": 0,
+      "guid": "nH<uX5s(T",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מיצר ברינג",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-bering_strait.png\" />"
+      ],
+      "flags": 0,
+      "guid": "g%f9v0kiup",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ברמודה",
+        "טריטוריה בריטית מעבר לים.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-bermuda.png\" />"
+      ],
+      "flags": 0,
+      "guid": "H:bB(86+!A",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "בהוטן",
+        "",
+        "תימפו",
+        "",
+        "",
+        "<img src=\"ug-flag-bhutan.svg\" />",
+        "",
+        "<img src=\"ug-map-bhutan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "u}v.*UrHWI",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הים השחור",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-black_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "n?ZrE<-`3D",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "בוליביה",
+        "",
+        "סוקרה",
+        "סוקרה היא הבירה החוקתית, אך לה פאס היא מושב הממשלה.",
+        "",
+        "<img src=\"ug-flag-bolivia-blur.svg\" /><img src=\"ug-flag-bolivia.svg\" />",
+        "גאנה (כוכב במקום סמל המדינה)",
+        "<img src=\"ug-map-bolivia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "g`b/]@1o[O",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "בוסניה והרצגובינה",
+        "",
+        "סרייבו",
+        "",
+        "",
+        "<img src=\"ug-flag-bosnia_and_herzegovina.svg\" />",
+        "",
+        "<img src=\"ug-map-bosnia_and_herzegovina.png\" />"
+      ],
+      "flags": 0,
+      "guid": "s}7Sg?ib2,",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "בוטסואנה",
+        "",
+        "גאבורון",
+        "",
+        "",
+        "<img src=\"ug-flag-botswana.svg\" />",
+        "",
+        "<img src=\"ug-map-botswana.png\" />"
+      ],
+      "flags": 0,
+      "guid": "z09FRGB0N~",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "בוגנוויל",
+        "אזור אוטונומי של פפואה גינאה החדשה.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-bougainville.png\" />"
+      ],
+      "flags": 0,
+      "guid": "i_vZ3of&RX",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ברזיל",
+        "",
+        "ברזיליה",
+        "",
+        "",
+        "<img src=\"ug-flag-brazil.svg\" />",
+        "",
+        "<img src=\"ug-map-brazil.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Mg:=HQM&9S",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "איי הבתולה הבריטיים",
+        "טריטוריה בריטית מעבר לים.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-british_virgin_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "E!w|R8`a<V",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ברוניי",
+        "",
+        "בנדר סרי בגוואן",
+        "",
+        "",
+        "<img src=\"ug-flag-brunei.svg\" />",
+        "",
+        "<img src=\"ug-map-brunei.png\" />"
+      ],
+      "flags": 0,
+      "guid": "L%(&2TH?c=",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "בולגריה",
+        "",
+        "סופיה",
+        "",
+        "",
+        "<img src=\"ug-flag-bulgaria.svg\" />",
+        "",
+        "<img src=\"ug-map-bulgaria.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Qv,qWiKF]c",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "בורקינה פאסו",
+        "",
+        "ואגאדוגו",
+        "",
+        "",
+        "<img src=\"ug-flag-burkina_faso.svg\" />",
+        "",
+        "<img src=\"ug-map-burkina_faso.png\" />"
+      ],
+      "flags": 0,
+      "guid": "y6PhXdxv*(",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "בורונדי",
+        "",
+        "גיטגה",
+        "הבירה הרשמית הועברה מבוג'ומבורה לגיטגה בשנת 2019.",
+        "",
+        "<img src=\"ug-flag-burundi.svg\" />",
+        "",
+        "<img src=\"ug-map-burundi.png\" />"
+      ],
+      "flags": 0,
+      "guid": "o;xVl<=ls[",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קמבודיה",
+        "",
+        "פנום פן",
+        "",
+        "",
+        "<img src=\"ug-flag-cambodia.svg\" />",
+        "",
+        "<img src=\"ug-map-cambodia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "J/wd8-eR3D",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קמרון",
+        "",
+        "יאונדה",
+        "",
+        "",
+        "<img src=\"ug-flag-cameroon.svg\" />",
+        "סנגל (ירוק/צהוב/אדום, כוכב ירוק)",
+        "<img src=\"ug-map-cameroon.png\" />"
+      ],
+      "flags": 0,
+      "guid": "x-URmI:3S5",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קנדה",
+        "",
+        "אוטווה",
+        "",
+        "",
+        "<img src=\"ug-flag-canada.svg\" />",
+        "",
+        "<img src=\"ug-map-canada.png\" />"
+      ],
+      "flags": 0,
+      "guid": "L3,tpNbi`I",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "האיים הקנריים",
+        "קהילה אוטונומית של ספרד.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-canary_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "oIh<%TS$C[",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "כף ורדה",
+        "ידועה גם בשם קאבו ורדה.",
+        "פראיה",
+        "",
+        "",
+        "<img src=\"ug-flag-cape_verde.svg\" />",
+        "",
+        "<img src=\"ug-map-cape_verde.png\" />"
+      ],
+      "flags": 0,
+      "guid": "C0`cG:^xbw",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הים הקריבי",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-caribbean_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "MP]]x?W%q$",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הים הכספי",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-caspian_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ocIklRS}~(",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "איי קיימן",
+        "טריטוריה בריטית מעבר לים.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-cayman_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "P=VV&.PlUh",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ים סלבס",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-celebes_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Ot/``a$Ndr",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הים הקלטי",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-celtic_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "E~&4ISl=#(",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הרפובליקה המרכז-אפריקאית",
+        "",
+        "בנגי",
+        "",
+        "",
+        "<img src=\"ug-flag-central_african_republic.svg\" />",
+        "",
+        "<img src=\"ug-map-central_african_republic.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Fo[vzo8o`n",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "צ'אד",
+        "",
+        "נג'מנה",
+        "",
+        "",
+        "<img src=\"ug-flag-chad.svg\" />",
+        "רומניה (כחול בהיר במעט)",
+        "<img src=\"ug-map-chad.png\" />"
+      ],
+      "flags": 0,
+      "guid": "n1AKOJP:(R",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "צ'ילה",
+        "",
+        "סנטיאגו",
+        "",
+        "",
+        "<img src=\"ug-flag-chile.svg\" />",
+        "",
+        "<img src=\"ug-map-chile.png\" />"
+      ],
+      "flags": 0,
+      "guid": "O@WJ|Ens0d",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סין",
+        "",
+        "בייג'ינג",
+        "",
+        "",
+        "<img src=\"ug-flag-china.svg\" />",
+        "",
+        "<img src=\"ug-map-china.png\" />"
+      ],
+      "flags": 0,
+      "guid": "mfI,+soX`(",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קולומביה",
+        "",
+        "בוגוטה",
+        "",
+        "",
+        "<img src=\"ug-flag-colombia.svg\" />",
+        "אקוודור (עם סמל המדינה)",
+        "<img src=\"ug-map-colombia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "GtQM`>zq@u",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קומורו",
+        "",
+        "מורוני",
+        "",
+        "",
+        "<img src=\"ug-flag-comoros.svg\" />",
+        "",
+        "<img src=\"ug-map-comoros.png\" />"
+      ],
+      "flags": 0,
+      "guid": ",He=z/ZL!",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "איי קוק",
+        "",
+        "אווארואה",
+        "",
+        "",
+        "<img src=\"ug-flag-cook_islands.svg\" />",
+        "",
+        "<img src=\"ug-map-cook_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "r6qBaeyrtH",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ים האלמוגים",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-coral_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "KNcJ$2|/NY",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קורסיקה",
+        "אזור של צרפת.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-corsica.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Rb}V)QhM,S",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קוסטה ריקה",
+        "",
+        "סן חוזה",
+        "",
+        "",
+        "<img src=\"ug-flag-costa_rica-blur.svg\" /><img src=\"ug-flag-costa_rica.svg\" />",
+        "",
+        "<img src=\"ug-map-costa_rica.png\" />"
+      ],
+      "flags": 0,
+      "guid": "rkxaYigSsC",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קרואטיה",
+        "",
+        "זגרב",
+        "",
+        "",
+        "<img src=\"ug-flag-croatia.svg\" />",
+        "",
+        "<img src=\"ug-map-croatia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "pJJC-R-065",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קובה",
+        "",
+        "הוואנה",
+        "",
+        "",
+        "<img src=\"ug-flag-cuba.svg\" />",
+        "פוארטו ריקו (משולש כחול, פסים אדומים)",
+        "<img src=\"ug-map-cuba.png\" />"
+      ],
+      "flags": 0,
+      "guid": "MKe@!Ygl#_",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קוראסאו",
+        "מדינה אוטונומית בממלכת ארצות השפלה.",
+        "וילמסטאד",
+        "",
+        "",
+        "<img src=\"ug-flag-curacao.svg\" />",
+        "נאורו (כוכב בודד מתחת לפס הצהוב)",
+        "<img src=\"ug-map-curacao.png\" />"
+      ],
+      "flags": 0,
+      "guid": "A;y!jraTe8",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קפריסין",
+        "",
+        "ניקוסיה",
+        "",
+        "",
+        "<img src=\"ug-flag-cyprus.svg\" />",
+        "",
+        "<img src=\"ug-map-cyprus.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Q2+1cHY0hW",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::European_Union",
+        "UG::Mediterranean",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "צ'כיה",
+        "ידועה גם בשם הרפובליקה הצ'כית.",
+        "פראג",
+        "",
+        "",
+        "<img src=\"ug-flag-czech_republic.svg\" />",
+        "",
+        "<img src=\"ug-map-czech_republic.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Mp~7u-5n*M",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הים המת",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-dead_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Q=9g7.R:zD",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הרפובליקה הדמוקרטית של קונגו",
+        "הייתה ידועה בשם זאיר.",
+        "קינשאסה",
+        "",
+        "",
+        "<img src=\"ug-flag-democratic_republic_of_the_congo.svg\" />",
+        "",
+        "<img src=\"ug-map-democratic_republic_of_the_congo.png\" />"
+      ],
+      "flags": 0,
+      "guid": "y2bP^(!WHV",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "דנמרק",
+        "",
+        "קופנהגן",
+        "",
+        "",
+        "<img src=\"ug-flag-denmark.svg\" />",
+        "",
+        "<img src=\"ug-map-denmark.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Q>/~yL?KaY",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מיצר דנמרק",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-denmark_strait.png\" />"
+      ],
+      "flags": 0,
+      "guid": "rto3r_qVSR",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ג'יבוטי",
+        "",
+        "ג'יבוטי",
+        "",
+        "",
+        "<img src=\"ug-flag-djibouti.svg\" />",
+        "",
+        "<img src=\"ug-map-djibouti.png\" />"
+      ],
+      "flags": 0,
+      "guid": "I=jb<TwGD&",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "דומיניקה",
+        "",
+        "רוזו",
+        "",
+        "",
+        "<img src=\"ug-flag-dominica.svg\" />",
+        "",
+        "<img src=\"ug-map-dominica.png\" />"
+      ],
+      "flags": 0,
+      "guid": "EM6E<IHulI",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הרפובליקה הדומיניקנית",
+        "",
+        "סנטו דומינגו",
+        "",
+        "",
+        "<img src=\"ug-flag-dominican_republic.svg\" />",
+        "",
+        "<img src=\"ug-map-dominican_republic.png\" />"
+      ],
+      "flags": 0,
+      "guid": "l(G/Cn[W,m",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ים סין המזרחי",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-east_china_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "LTs5%G/b8>",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הים הסיבירי המזרחי",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-east_siberian_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "mmPDW!v+dD",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אקוודור",
+        "",
+        "קיטו",
+        "",
+        "",
+        "<img src=\"ug-flag-ecuador.svg\" />",
+        "קולומביה (ללא סמל המדינה)",
+        "<img src=\"ug-map-ecuador.png\" />"
+      ],
+      "flags": 0,
+      "guid": "SjjD4@LSe",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מצרים",
+        "",
+        "קהיר",
+        "",
+        "",
+        "<img src=\"ug-flag-egypt.svg\" />",
+        "עיראק (כיתוב במקום סמל), תימן (ללא סמל)",
+        "<img src=\"ug-map-egypt.png\" />"
+      ],
+      "flags": 0,
+      "guid": "f~[)FQX<Gs",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Mediterranean",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אל סלוודור",
+        "",
+        "סן סלוודור",
+        "",
+        "",
+        "<img src=\"ug-flag-el_salvador-blur.svg\" /><img src=\"ug-flag-el_salvador.svg\" />",
+        "ניקרגואה (סמל מדינה שונה, כחול בהיר מעט יותר)",
+        "<img src=\"ug-map-el_salvador.png\" />"
+      ],
+      "flags": 0,
+      "guid": "D&h17vY/cT",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אנגליה",
+        "אחת מהמדינות המרכיבות את הממלכה המאוחדת.",
+        "לונדון",
+        "",
+        "לא מדינה ריבונית",
+        "<img src=\"ug-flag-england.svg\" />",
+        "",
+        "<img src=\"ug-map-england.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Cj*Q^32n:i",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "תעלת למאנש",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-english_channel.png\" />"
+      ],
+      "flags": 0,
+      "guid": "m2>:)dG^:_",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גינאה המשוונית",
+        "",
+        "סיודד דה לה פאס",
+        "הבירה הרשמית הועברה ממלאבו לסיודד דה לה פאס בשנת 2026.",
+        "",
+        "<img src=\"ug-flag-equatorial_guinea.svg\" />",
+        "",
+        "<img src=\"ug-map-equatorial_guinea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "K39,6RP)ea",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אריתריאה",
+        "",
+        "אסמרה",
+        "",
+        "",
+        "<img src=\"ug-flag-eritrea.svg\" />",
+        "",
+        "<img src=\"ug-map-eritrea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Q6V?]?Grww",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אסטוניה",
+        "",
+        "טאלין",
+        "",
+        "",
+        "<img src=\"ug-flag-estonia.svg\" />",
+        "",
+        "<img src=\"ug-map-estonia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "o4i*9xrVGw",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אסווטיני",
+        "הייתה ידועה בשם סווזילנד עד 2018.",
+        "מבבנה",
+        "מבבנה היא הבירה הרשמית והמבצעת, ולובמבה היא הבירה המסורתית, הרוחנית והמחוקקת.",
+        "",
+        "<img src=\"ug-flag-eswatini.svg\" />",
+        "",
+        "<img src=\"ug-map-eswatini.png\" />"
+      ],
+      "flags": 0,
+      "guid": "k}m#zQ>r,L",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אתיופיה",
+        "",
+        "אדיס אבבה",
+        "",
+        "",
+        "<img src=\"ug-flag-ethiopia.svg\" />",
+        "",
+        "<img src=\"ug-map-ethiopia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "qpt?,f;=/.",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אירופה",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-europe-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "H{V#bLSAu^",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Continents"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "האיחוד האירופי",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-flag-european_union.svg\" />",
+        "",
+        "<img src=\"ug-map-european_union.png\" />"
+      ],
+      "flags": 0,
+      "guid": "M#Jyz5c4._",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "איי פוקלנד",
+        "טריטוריה בריטית מעבר לים.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-falkland_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "n$-S}i}r.Z",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::South_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "איי פארו",
+        "חלק אוטונומי מממלכת דנמרק.",
+        "טורסהאבן",
+        "",
+        "",
+        "<img src=\"ug-flag-faroe_islands.svg\" />",
+        "איסלנד (רקע כחול, צלב אדום-לבן), נורווגיה (רקע אדום, צלב כחול-לבן)",
+        "<img src=\"ug-map-faroe_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Q6twL8s1AS",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "המדינות הפדרטיביות של מיקרונזיה",
+        "",
+        "פאליקיר",
+        "",
+        "",
+        "<img src=\"ug-flag-federated_states_of_micronesia.svg\" />",
+        "",
+        "<img src=\"ug-map-federated_states_of_micronesia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "mBlcfb4Pn*",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "פיג'י",
+        "",
+        "סובה",
+        "",
+        "",
+        "<img src=\"ug-flag-fiji.svg\" />",
+        "",
+        "<img src=\"ug-map-fiji.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Hs0bJflwJr",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "פינלנד",
+        "",
+        "הלסינקי",
+        "שמה בפינית הוא הלסינקי, ושמה בשוודית הלסינגפורס.",
+        "",
+        "<img src=\"ug-flag-finland.svg\" />",
+        "",
+        "<img src=\"ug-map-finland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "tOW5hF-64B",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "צרפת",
+        "",
+        "פריז",
+        "",
+        "",
+        "<img src=\"ug-flag-france.svg\" />",
+        "",
+        "<img src=\"ug-map-france.png\" />"
+      ],
+      "flags": 0,
+      "guid": "oX&ZETQB|w",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גיאנה הצרפתית",
+        "מחוז מעבר לים של צרפת.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-french_guiana.png\" />"
+      ],
+      "flags": 0,
+      "guid": "eBMW;!#97G",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::South_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "פולינזיה הצרפתית",
+        "שטח מעבר לים של צרפת.",
+        "פפאטה",
+        "",
+        "",
+        "<img src=\"ug-flag-french_polynesia.svg\" />",
+        "",
+        "<img src=\"ug-map-french_polynesia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "rz.t6$19vj",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גבון",
+        "",
+        "ליברוויל",
+        "",
+        "",
+        "<img src=\"ug-flag-gabon.svg\" />",
+        "",
+        "<img src=\"ug-map-gabon.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Q[Ug]3&oC&",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גאורגיה",
+        "",
+        "טביליסי",
+        "",
+        "",
+        "<img src=\"ug-flag-georgia.svg\" />",
+        "",
+        "<img src=\"ug-map-georgia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "x9E_PT&LwB",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גרמניה",
+        "",
+        "ברלין",
+        "",
+        "",
+        "<img src=\"ug-flag-germany.svg\" />",
+        "",
+        "<img src=\"ug-map-germany.png\" />"
+      ],
+      "flags": 0,
+      "guid": "coXD.`6u1!",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גאנה",
+        "",
+        "אקרה",
+        "",
+        "",
+        "<img src=\"ug-flag-ghana.svg\" />",
+        "בוליביה (סמל המדינה במקום כוכב)",
+        "<img src=\"ug-map-ghana.png\" />"
+      ],
+      "flags": 0,
+      "guid": "MVz`_{&UpH",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גיברלטר",
+        "טריטוריה בריטית מעבר לים.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-gibraltar.png\" />"
+      ],
+      "flags": 0,
+      "guid": "QNu{~d-H),",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Mediterranean"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "יוון",
+        "",
+        "אתונה",
+        "",
+        "",
+        "<img src=\"ug-flag-greece.svg\" />",
+        "",
+        "<img src=\"ug-map-greece.png\" />"
+      ],
+      "flags": 0,
+      "guid": "I{P[9%ZmEG",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גרינלנד",
+        "חלק אוטונומי מממלכת דנמרק.",
+        "נוק",
+        "נקראה בעבר גותהוב.",
+        "",
+        "<img src=\"ug-flag-greenland.svg\" />",
+        "",
+        "<img src=\"ug-map-greenland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "mIOQ32W|cn",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גרנדה",
+        "",
+        "סנט ג'ורג'ס",
+        "",
+        "",
+        "<img src=\"ug-flag-grenada.svg\" />",
+        "",
+        "<img src=\"ug-map-grenada.png\" />"
+      ],
+      "flags": 0,
+      "guid": "yA`%o3.0Ea",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גוואדלופ",
+        "מחוז מעבר לים של צרפת.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-guadeloupe.png\" />"
+      ],
+      "flags": 0,
+      "guid": "gt~saS^m#J",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גואם",
+        "טריטוריה בלתי מאוגדת של ארצות הברית.",
+        "הגטנה",
+        "",
+        "",
+        "<img src=\"ug-flag-guam-blur.svg\" /><img src=\"ug-flag-guam.svg\" />",
+        "",
+        "<img src=\"ug-map-guam.png\" />"
+      ],
+      "flags": 0,
+      "guid": "g^H>7UFB_k",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גואטמלה",
+        "",
+        "גואטמלה סיטי",
+        "",
+        "",
+        "<img src=\"ug-flag-guatemala.svg\" />",
+        "",
+        "<img src=\"ug-map-guatemala.png\" />"
+      ],
+      "flags": 0,
+      "guid": "J)Ru`#~K!0",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גרנזי",
+        "שטח חסות של הכתר הבריטי.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-guernsey.png\" />"
+      ],
+      "flags": 0,
+      "guid": "iE]f}/muFV",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גינאה",
+        "",
+        "קונאקרי",
+        "",
+        "",
+        "<img src=\"ug-flag-guinea.svg\" />",
+        "מאלי (אדום וירוק הפוכים, ירוק בהיר מעט יותר)",
+        "<img src=\"ug-map-guinea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "h%:.{BMU!;",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גינאה ביסאו",
+        "",
+        "ביסאו",
+        "",
+        "",
+        "<img src=\"ug-flag-guinea-bissau.svg\" />",
+        "",
+        "<img src=\"ug-map-guinea-bissau.png\" />"
+      ],
+      "flags": 0,
+      "guid": "tx&$8%.QeF",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מפרץ אלסקה",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-gulf_of_alaska.png\" />"
+      ],
+      "flags": 0,
+      "guid": "J9aOrs3$P_",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מפרץ קליפורניה",
+        "ידוע גם בשם ים קורטס.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-gulf_of_california.png\" />"
+      ],
+      "flags": 0,
+      "guid": "p9IzSpnGZf",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מפרץ קרפנטאריה",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-gulf_of_carpentaria.png\" />"
+      ],
+      "flags": 0,
+      "guid": "wtC?,`U!xN",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מפרץ גינאה",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-gulf_of_guinea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "bh*[s/Z%HB",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מפרץ מקסיקו",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-gulf_of_mexico.png\" />"
+      ],
+      "flags": 0,
+      "guid": "lsnsims]+S",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מפרץ תאילנד",
+        "ידוע גם בשם מפרץ סיאם.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-gulf_of_thailand.png\" />"
+      ],
+      "flags": 0,
+      "guid": "F?K?(Z(L3E",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גיאנה",
+        "",
+        "ג'ורג'טאון",
+        "",
+        "",
+        "<img src=\"ug-flag-guyana.svg\" />",
+        "",
+        "<img src=\"ug-map-guyana.png\" />"
+      ],
+      "flags": 0,
+      "guid": "qE@.BE|_G}",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "האיטי",
+        "",
+        "פורט-או-פרנס",
+        "",
+        "",
+        "<img src=\"ug-flag-haiti.svg\" />",
+        "",
+        "<img src=\"ug-map-haiti.png\" />"
+      ],
+      "flags": 0,
+      "guid": "NB)s!0k_z^",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הוואי",
+        "מדינה בארצות הברית.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-hawaii.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Pb/2Ue?;aj",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הונדורס",
+        "",
+        "טגוסיגלפה",
+        "",
+        "",
+        "<img src=\"ug-flag-honduras.svg\" />",
+        "",
+        "<img src=\"ug-map-honduras.png\" />"
+      ],
+      "flags": 0,
+      "guid": "MD+{Fk3S5B",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הונג קונג",
+        "אזור מנהלי מיוחד של סין.",
+        "",
+        "",
+        "",
+        "<img src=\"ug-flag-hong_kong.svg\" />",
+        "",
+        "<img src=\"ug-map-hong_kong.png\" />"
+      ],
+      "flags": 0,
+      "guid": "N}^(+[$_<P",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מפרץ הדסון",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-hudson_bay.png\" />"
+      ],
+      "flags": 0,
+      "guid": "b,?1^w/fjx",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הונגריה",
+        "",
+        "בודפשט",
+        "",
+        "",
+        "<img src=\"ug-flag-hungary.svg\" />",
+        "",
+        "<img src=\"ug-map-hungary.png\" />"
+      ],
+      "flags": 0,
+      "guid": "BMVz[9q9;m",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "איסלנד",
+        "",
+        "רייקיאוויק",
+        "",
+        "",
+        "<img src=\"ug-flag-iceland.svg\" />",
+        "נורווגיה (רקע אדום, צלב כחול), איי פארו (רקע לבן, צלב אדום-כחול)",
+        "<img src=\"ug-map-iceland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "PL-pi9VsSS",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הודו",
+        "",
+        "ניו דלהי",
+        "",
+        "",
+        "<img src=\"ug-flag-india.svg\" />",
+        "",
+        "<img src=\"ug-map-india.png\" />"
+      ],
+      "flags": 0,
+      "guid": "O6HEfrEC{d",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "האוקיינוס ההודי",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-indian_ocean-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "B}/jH15_(m",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אינדונזיה",
+        "",
+        "ג'קרטה",
+        "",
+        "",
+        "<img src=\"ug-flag-indonesia.svg\" />",
+        "מונקו (צר יותר, אדום כהה יותר), פולין (אדום ולבן הפוכים, אדום כהה יותר)",
+        "<img src=\"ug-map-indonesia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "NSR#-x<kA}",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "איראן",
+        "",
+        "טהראן",
+        "",
+        "",
+        "<img src=\"ug-flag-iran.svg\" />",
+        "",
+        "<img src=\"ug-map-iran.png\" />"
+      ],
+      "flags": 0,
+      "guid": "GO@u^U1nZC",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "עיראק",
+        "",
+        "בגדד",
+        "",
+        "",
+        "<img src=\"ug-flag-iraq.svg\" />",
+        "מצרים (סמל במקום כיתוב), תימן (ללא כיתוב)",
+        "<img src=\"ug-map-iraq.png\" />"
+      ],
+      "flags": 0,
+      "guid": "lWsoSC]XCq",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אירלנד",
+        "",
+        "דבלין",
+        "",
+        "",
+        "<img src=\"ug-flag-ireland.svg\" />",
+        "חוף השנהב (ירוק וכתום הפוכים, צר יותר)",
+        "<img src=\"ug-map-ireland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "N%M[%e(NTK",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "האי מאן",
+        "שטח חסות של הכתר הבריטי.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-isle_of_man.png\" />"
+      ],
+      "flags": 0,
+      "guid": "r?5@&`q=x1",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ישראל",
+        "",
+        "ירושלים",
+        "מעמדה שנוי במחלוקת; פלסטין טוענת לריבונות עליה.",
+        "נתונה לתביעת ריבונות ונשלטת בפועל",
+        "<img src=\"ug-flag-israel.svg\" />",
+        "",
+        "<img src=\"ug-map-israel.png\" />"
+      ],
+      "flags": 0,
+      "guid": "vSEj7S1c+t",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Mediterranean",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "איטליה",
+        "",
+        "רומא",
+        "",
+        "",
+        "<img src=\"ug-flag-italy.svg\" />",
+        "",
+        "<img src=\"ug-map-italy.png\" />"
+      ],
+      "flags": 0,
+      "guid": "E_^19:}54.",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "חוף השנהב",
+        "שמה הרשמי בצרפתית הוא קוט דיוואר.",
+        "יאמוסוקרו",
+        "יאמוסוקרו היא הבירה הרשמית, אך אביג'ן הוא מושב הממשלה בפועל.",
+        "",
+        "<img src=\"ug-flag-ivory_coast.svg\" />",
+        "אירלנד (כתום וירוק הפוכים, רחב יותר)",
+        "<img src=\"ug-map-ivory_coast.png\" />"
+      ],
+      "flags": 0,
+      "guid": "z*X3/ru8-Y",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ג'מייקה",
+        "",
+        "קינגסטון",
+        "",
+        "",
+        "<img src=\"ug-flag-jamaica.svg\" />",
+        "",
+        "<img src=\"ug-map-jamaica.png\" />"
+      ],
+      "flags": 0,
+      "guid": "L%+]2*N9&(",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "יפן",
+        "",
+        "טוקיו",
+        "",
+        "",
+        "<img src=\"ug-flag-japan.svg\" />",
+        "",
+        "<img src=\"ug-map-japan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "t0l2uhe5o3",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ג'אווה",
+        "אי של אינדונזיה.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-java.png\" />"
+      ],
+      "flags": 0,
+      "guid": "kAHXdMOx@(",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ג'ג'ו",
+        "מחוז אוטונומי של דרום קוריאה.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-jeju.png\" />"
+      ],
+      "flags": 0,
+      "guid": "fHcZTQ.x1S",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ג'רזי",
+        "שטח חסות של הכתר הבריטי.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-jersey.png\" />"
+      ],
+      "flags": 0,
+      "guid": "J*i(NDRS8",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ירדן",
+        "",
+        "עמאן",
+        "",
+        "",
+        "<img src=\"ug-flag-jordan.svg\" />",
+        "",
+        "<img src=\"ug-map-jordan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "i~!,bDcnxl",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מחוז קלינינגרד",
+        "מחוז של הפדרציה הרוסית.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-kaliningrad_oblast.png\" />"
+      ],
+      "flags": 0,
+      "guid": "JJ4noZ1HCI",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קזחסטן",
+        "",
+        "אסטנה",
+        "נקראה נור-סולטן בין השנים 2019 ל-2022.",
+        "",
+        "<img src=\"ug-flag-kazakhstan.svg\" />",
+        "",
+        "<img src=\"ug-map-kazakhstan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "n[5kA?{:?u",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קניה",
+        "",
+        "ניירובי",
+        "",
+        "",
+        "<img src=\"ug-flag-kenya.svg\" />",
+        "",
+        "<img src=\"ug-map-kenya.png\" />"
+      ],
+      "flags": 0,
+      "guid": "N~~kgp+:Z0",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קיריבטי",
+        "",
+        "דרום טאראווה",
+        "",
+        "",
+        "<img src=\"ug-flag-kiribati.svg\" />",
+        "",
+        "<img src=\"ug-map-kiribati.png\" />"
+      ],
+      "flags": 0,
+      "guid": "N&|TZqXmhs",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קוסובו",
+        "מדינה בעלת הכרה חלקית שסרביה טוענת לריבונות עליה.",
+        "פריסטינה",
+        "",
+        "",
+        "<img src=\"ug-flag-kosovo.svg\" />",
+        "",
+        "<img src=\"ug-map-kosovo.png\" />"
+      ],
+      "flags": 0,
+      "guid": "t;IfK[}}s+",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "כווית",
+        "",
+        "כווית סיטי",
+        "",
+        "",
+        "<img src=\"ug-flag-kuwait.svg\" />",
+        "",
+        "<img src=\"ug-map-kuwait.png\" />"
+      ],
+      "flags": 0,
+      "guid": "d1PFt%7Y7J",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קירגיזסטן",
+        "",
+        "בישקק",
+        "",
+        "",
+        "<img src=\"ug-flag-kyrgyzstan.svg\" />",
+        "",
+        "<img src=\"ug-map-kyrgyzstan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "B}GM;n:RjS",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ים לברדור",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-labrador_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "k^tG{3U#:s",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "איי אולנד",
+        "אזור אוטונומי של פינלנד.",
+        "מרייהאמן",
+        "",
+        "",
+        "<img src=\"ug-flag-aland_islands.svg\" />",
+        "",
+        "<img src=\"ug-map-aland_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "bg.1(EV-*",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "לאוס",
+        "",
+        "ויינטיאן",
+        "",
+        "",
+        "<img src=\"ug-flag-laos.svg\" />",
+        "",
+        "<img src=\"ug-map-laos.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Nexko%<$:&",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "לטביה",
+        "",
+        "ריגה",
+        "",
+        "",
+        "<img src=\"ug-flag-latvia.svg\" />",
+        "אוסטריה (אדום בהיר יותר, פס לבן רחב יותר)",
+        "<img src=\"ug-map-latvia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "J>io@W2sbT",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "לבנון",
+        "",
+        "ביירות",
+        "",
+        "",
+        "<img src=\"ug-flag-lebanon.svg\" />",
+        "",
+        "<img src=\"ug-map-lebanon.png\" />"
+      ],
+      "flags": 0,
+      "guid": "qx#OUMWDAp",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Mediterranean",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "לסוטו",
+        "",
+        "מסרו",
+        "",
+        "",
+        "<img src=\"ug-flag-lesotho.svg\" />",
+        "",
+        "<img src=\"ug-map-lesotho.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Lu5whb+~$c",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ליבריה",
+        "",
+        "מונרוביה",
+        "",
+        "",
+        "<img src=\"ug-flag-liberia.svg\" />",
+        "",
+        "<img src=\"ug-map-liberia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "tW<2d71G_{",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "לוב",
+        "",
+        "טריפולי",
+        "",
+        "",
+        "<img src=\"ug-flag-libya.svg\" />",
+        "",
+        "<img src=\"ug-map-libya.png\" />"
+      ],
+      "flags": 0,
+      "guid": "N/6rPk(xQ+",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ליכטנשטיין",
+        "",
+        "ואדוץ",
+        "",
+        "",
+        "<img src=\"ug-flag-liechtenstein.svg\" />",
+        "",
+        "<img src=\"ug-map-liechtenstein.png\" />"
+      ],
+      "flags": 0,
+      "guid": "HCs2)LWBFg",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ליטא",
+        "",
+        "וילנה",
+        "",
+        "",
+        "<img src=\"ug-flag-lithuania.svg\" />",
+        "",
+        "<img src=\"ug-map-lithuania.png\" />"
+      ],
+      "flags": 0,
+      "guid": "w?|=f-$SJm",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "לוקסמבורג",
+        "",
+        "לוקסמבורג",
+        "שמה הרשמי של הבירה הוא לוקסמבורג.",
+        "",
+        "<img src=\"ug-flag-luxembourg.svg\" />",
+        "הולנד (כחול כהה יותר)",
+        "<img src=\"ug-map-luxembourg.png\" />"
+      ],
+      "flags": 0,
+      "guid": "PwR=l:KqE1",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מקאו",
+        "אזור מנהלי מיוחד של סין.",
+        "",
+        "",
+        "",
+        "<img src=\"ug-flag-macau.svg\" />",
+        "",
+        "<img src=\"ug-map-macau.png\" />"
+      ],
+      "flags": 0,
+      "guid": "A$dorO:qk!",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מדגסקר",
+        "",
+        "אנטננריבו",
+        "",
+        "",
+        "<img src=\"ug-flag-madagascar.svg\" />",
+        "",
+        "<img src=\"ug-map-madagascar.png\" />"
+      ],
+      "flags": 0,
+      "guid": "iO5Hm{^{Qx",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מדיירה",
+        "אזור אוטונומי של פורטוגל.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-madeira.png\" />"
+      ],
+      "flags": 0,
+      "guid": "v;aY`P8/=A",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מלאווי",
+        "",
+        "לילונגווה",
+        "",
+        "",
+        "<img src=\"ug-flag-malawi.svg\" />",
+        "",
+        "<img src=\"ug-map-malawi.png\" />"
+      ],
+      "flags": 0,
+      "guid": "s6>1(G&?U6",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מלזיה",
+        "",
+        "קואלה לומפור",
+        "",
+        "",
+        "<img src=\"ug-flag-malaysia.svg\" />",
+        "",
+        "<img src=\"ug-map-malaysia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "n6L.d;b4*F",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "המלדיביים",
+        "",
+        "מאלה",
+        "",
+        "",
+        "<img src=\"ug-flag-maldives.svg\" />",
+        "",
+        "<img src=\"ug-map-maldives.png\" />"
+      ],
+      "flags": 0,
+      "guid": "G:m,o){&(i",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מאלי",
+        "",
+        "במאקו",
+        "",
+        "",
+        "<img src=\"ug-flag-mali.svg\" />",
+        "גינאה (ירוק ואדום הפוכים, ירוק כהה במעט)",
+        "<img src=\"ug-map-mali.png\" />"
+      ],
+      "flags": 0,
+      "guid": "LQ.W@f6JB{",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מלטה",
+        "",
+        "ולטה",
+        "",
+        "",
+        "<img src=\"ug-flag-malta.svg\" />",
+        "",
+        "<img src=\"ug-map-malta.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Kl#n#T^.%]",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "איי מרשל",
+        "",
+        "מג'ורו",
+        "",
+        "",
+        "<img src=\"ug-flag-marshall_islands.svg\" />",
+        "",
+        "<img src=\"ug-map-marshall_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "z=NY;JIfuq",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מרטיניק",
+        "מחוז מעבר לים של צרפת.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-martinique.png\" />"
+      ],
+      "flags": 0,
+      "guid": "v}}bsE^k_e",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מאוריטניה",
+        "",
+        "נואקשוט",
+        "",
+        "",
+        "<img src=\"ug-flag-mauritania.svg\" />",
+        "",
+        "<img src=\"ug-map-mauritania.png\" />"
+      ],
+      "flags": 0,
+      "guid": "bQf$Te2I@&",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מאוריציוס",
+        "",
+        "פורט לואיס",
+        "",
+        "",
+        "<img src=\"ug-flag-mauritius.svg\" />",
+        "",
+        "<img src=\"ug-map-mauritius.png\" />"
+      ],
+      "flags": 0,
+      "guid": "k#~HYbJ8DL",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מיוט",
+        "מחוז מעבר לים של צרפת.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-mayotte.png\" />"
+      ],
+      "flags": 0,
+      "guid": "lFKpc/4:qC",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הים התיכון",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-mediterranean_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "us-cH<%TZ(",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מלנזיה",
+        "תת-אזור של אוקיאניה הכולל את ונואטו, איי שלמה, פיג'י ופפואה גינאה החדשה.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-melanesia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "x_+#GOgLA5",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מקסיקו",
+        "",
+        "מקסיקו סיטי",
+        "",
+        "",
+        "<img src=\"ug-flag-mexico.svg\" />",
+        "",
+        "<img src=\"ug-map-mexico.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ih|[.wQ|fj",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מיקרונזיה",
+        "תת-אזור של אוקיאניה הכולל אלפי איים קטנים בצפון-מערב האוקיינוס השקט.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-micronesia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "J]?Pq5R()a",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מולדובה",
+        "",
+        "קישינב",
+        "",
+        "",
+        "<img src=\"ug-flag-moldova.svg\" />",
+        "אנדורה (צר יותר, סמל המדינה עם סיסמה)",
+        "<img src=\"ug-map-moldova.png\" />"
+      ],
+      "flags": 0,
+      "guid": "E(f^_6LGrf",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מונקו",
+        "",
+        "מונקו",
+        "",
+        "",
+        "<img src=\"ug-flag-monaco.svg\" />",
+        "אינדונזיה (רחב יותר, אדום בהיר יותר), פולין (אדום ולבן הפוכים, רחב יותר)",
+        "<img src=\"ug-map-monaco.png\" />"
+      ],
+      "flags": 0,
+      "guid": "d.A}a1v)!&",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מונגוליה",
+        "",
+        "אולן בטור",
+        "",
+        "",
+        "<img src=\"ug-flag-mongolia.svg\" />",
+        "",
+        "<img src=\"ug-map-mongolia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "MkN^KF?HVh",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מונטנגרו",
+        "",
+        "פודגוריצה",
+        "צטיניה היא בירת הכבוד.",
+        "",
+        "<img src=\"ug-flag-montenegro.svg\" />",
+        "",
+        "<img src=\"ug-map-montenegro.png\" />"
+      ],
+      "flags": 0,
+      "guid": "bUQ8>_C94-",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מרוקו",
+        "",
+        "רבאט",
+        "",
+        "",
+        "<img src=\"ug-flag-morocco.svg\" />",
+        "",
+        "<img src=\"ug-map-morocco.png\" />"
+      ],
+      "flags": 0,
+      "guid": "eey4a&.stk",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מוזמביק",
+        "",
+        "מאפוטו",
+        "",
+        "",
+        "<img src=\"ug-flag-mozambique.svg\" />",
+        "",
+        "<img src=\"ug-map-mozambique.png\" />"
+      ],
+      "flags": 0,
+      "guid": "E`HP%;@,$5",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מיאנמר",
+        "ידועה גם בשם בורמה.",
+        "נייפידאו",
+        "",
+        "",
+        "<img src=\"ug-flag-myanmar.svg\" />",
+        "",
+        "<img src=\"ug-map-myanmar.png\" />"
+      ],
+      "flags": 0,
+      "guid": "lpX$<E$rEA",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "נמיביה",
+        "",
+        "וינדהוק",
+        "",
+        "",
+        "<img src=\"ug-flag-namibia.svg\" />",
+        "",
+        "<img src=\"ug-map-namibia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Ob#sx2V<P[",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "נאורו",
+        "",
+        "יארן",
+        "לנאורו אין בירה רשמית; מחוז יארן משמש כבירה בפועל.",
+        "",
+        "<img src=\"ug-flag-nauru.svg\" />",
+        "קוראסאו (שני כוכבים בפינה השמאלית העליונה)",
+        "<img src=\"ug-map-nauru.png\" />"
+      ],
+      "flags": 0,
+      "guid": "vFiB-^[WU0",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "נפאל",
+        "",
+        "קטמנדו",
+        "",
+        "",
+        "<img src=\"ug-flag-nepal-nobox.svg\" />",
+        "",
+        "<img src=\"ug-map-nepal.png\" />"
+      ],
+      "flags": 0,
+      "guid": "e7LW9gsoy4",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הולנד",
+        "",
+        "אמסטרדם",
+        "אמסטרדם היא הבירה הרשמית, אך האג היא מושב הממשלה והפרלמנט.",
+        "",
+        "<img src=\"ug-flag-netherlands.svg\" />",
+        "לוקסמבורג (כחול בהיר יותר)",
+        "<img src=\"ug-map-netherlands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "lp3N);+D(k",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קלדוניה החדשה",
+        "שטח מעבר לים של צרפת.",
+        "נומאה",
+        "",
+        "",
+        "<img src=\"ug-flag-new_caledonia.svg\" />",
+        "",
+        "<img src=\"ug-map-new_caledonia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "PrScy<eC|)",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ניו זילנד",
+        "",
+        "ולינגטון",
+        "",
+        "",
+        "<img src=\"ug-flag-new_zealand.svg\" />",
+        "אוסטרליה (כוכבים לבנים, שני כוכבים נוספים)",
+        "<img src=\"ug-map-new_zealand.png\" />"
+      ],
+      "flags": 0,
+      "guid": "KIU?i}?2(F",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ניקרגואה",
+        "",
+        "מנגואה",
+        "",
+        "",
+        "<img src=\"ug-flag-nicaragua-blur.svg\" /><img src=\"ug-flag-nicaragua.svg\" />",
+        "אל סלוודור (סמל מדינה שונה, כחול כהה מעט יותר)",
+        "<img src=\"ug-map-nicaragua.png\" />"
+      ],
+      "flags": 0,
+      "guid": "FB4~POjos.",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ניז'ר",
+        "",
+        "ניאמי",
+        "",
+        "",
+        "<img src=\"ug-flag-niger.svg\" />",
+        "",
+        "<img src=\"ug-map-niger.png\" />"
+      ],
+      "flags": 0,
+      "guid": "BSX{n,:<38",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ניגריה",
+        "",
+        "אבוג'ה",
+        "",
+        "",
+        "<img src=\"ug-flag-nigeria.svg\" />",
+        "",
+        "<img src=\"ug-map-nigeria.png\" />"
+      ],
+      "flags": 0,
+      "guid": "H(5f./oBwf",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ניואה",
+        "",
+        "אלופי",
+        "",
+        "",
+        "<img src=\"ug-flag-niue.svg\" />",
+        "",
+        "<img src=\"ug-map-niue.png\" />"
+      ],
+      "flags": 0,
+      "guid": "AX{]jdUJSn",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "צפון אמריקה",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-north_america-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "e`aWEB_LP!",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Continents"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "צפון קוריאה",
+        "",
+        "פיונגיאנג",
+        "",
+        "",
+        "<img src=\"ug-flag-north_korea.svg\" />",
+        "",
+        "<img src=\"ug-map-north_korea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "r$sUG:F1OB",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מקדוניה הצפונית",
+        "הייתה ידועה בשם מקדוניה.",
+        "סקופיה",
+        "",
+        "",
+        "<img src=\"ug-flag-north_macedonia.svg\" />",
+        "",
+        "<img src=\"ug-map-north_macedonia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "m_~-olG18?",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הים הצפוני",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-north_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "JY/dE/lr46",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "צפון קפריסין",
+        "מדינה המוכרת רק על ידי טורקיה, שקפריסין טוענת לריבונות עליה.",
+        "צפון ניקוסיה",
+        "",
+        "",
+        "<img src=\"ug-flag-northern_cyprus.svg\" />",
+        "",
+        "<img src=\"ug-map-northern_cyprus.png\" />"
+      ],
+      "flags": 0,
+      "guid": "P`syB|jrWS",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Mediterranean",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "צפון אירלנד",
+        "אחת מהמדינות המרכיבות את הממלכה המאוחדת.",
+        "בלפסט",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-northern_ireland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "D1dS|/Ch(g",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "איי מריאנה הצפוניים",
+        "טריטוריה בלתי מאוגדת של ארצות הברית.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-northern_mariana_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "vi1zq=z2l@",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "נורווגיה",
+        "",
+        "אוסלו",
+        "",
+        "",
+        "<img src=\"ug-flag-norway.svg\" />",
+        "איסלנד (רקע כחול, צלב אדום), איי פארו (רקע לבן, צלב אדום-כחול)",
+        "<img src=\"ug-map-norway.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Bor.4A<Yb8",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הים הנורווגי",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-norwegian_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "nTf2*{E>+~",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אוקיאניה",
+        "אזור גאוגרפי הכולל את היבשת האוסטרלית ואת רוב האיים באוקיינוס השקט.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-oceania-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "V()atNg76",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Continents"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "עומאן",
+        "",
+        "מסקט",
+        "",
+        "",
+        "<img src=\"ug-flag-oman.svg\" />",
+        "",
+        "<img src=\"ug-map-oman.png\" />"
+      ],
+      "flags": 0,
+      "guid": "sY!?tqQVU[",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "האוקיינוס השקט",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-pacific_ocean-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Gs/^q;nY+l",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "פקיסטן",
+        "",
+        "איסלמאבאד",
+        "",
+        "",
+        "<img src=\"ug-flag-pakistan.svg\" />",
+        "",
+        "<img src=\"ug-map-pakistan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "h3<e0sC*/}",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "פלאו",
+        "",
+        "נגרולמוד",
+        "",
+        "",
+        "<img src=\"ug-flag-palau.svg\" />",
+        "",
+        "<img src=\"ug-map-palau.png\" />"
+      ],
+      "flags": 0,
+      "guid": "D;[ttoc+G;",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "פלסטין",
+        "",
+        "ירושלים",
+        "מעמדה שנוי במחלוקת; ישראל טוענת לריבונות עליה; רמאללה היא המרכז המנהלי.",
+        "נתונה לתביעת ריבונות אך אינה נשלטת בפועל",
+        "<img src=\"ug-flag-palestine.svg\" />",
+        "סודן (אדום/לבן/שחור, משולש ירוק), רפובליקת סהרה הערבית הדמוקרטית (עם כוכב וסהר)",
+        "<img src=\"ug-map-palestine.png\" />"
+      ],
+      "flags": 0,
+      "guid": "NMSdov|spV",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Mediterranean",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "פנמה",
+        "",
+        "פנמה סיטי",
+        "",
+        "",
+        "<img src=\"ug-flag-panama.svg\" />",
+        "",
+        "<img src=\"ug-map-panama.png\" />"
+      ],
+      "flags": 0,
+      "guid": "JU=oz->dla",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "פפואה גינאה החדשה",
+        "",
+        "פורט מורסבי",
+        "",
+        "",
+        "<img src=\"ug-flag-papua_new_guinea.svg\" />",
+        "",
+        "<img src=\"ug-map-papua_new_guinea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "P=X(ta_asv",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "פרגוואי",
+        "",
+        "אסונסיון",
+        "",
+        "",
+        "<img src=\"ug-flag-paraguay-blur.svg\" /><img src=\"ug-flag-paraguay.svg\" />",
+        "",
+        "<img src=\"ug-map-paraguay.png\" />"
+      ],
+      "flags": 0,
+      "guid": "vbpjOV+nkp",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "המפרץ הפרסי",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-persian_gulf.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Q(q/,Sh>-k",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "פרו",
+        "",
+        "לימה",
+        "",
+        "",
+        "<img src=\"ug-flag-peru.svg\" />",
+        "",
+        "<img src=\"ug-map-peru.png\" />"
+      ],
+      "flags": 0,
+      "guid": "J%?dWF/zK;",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ים הפיליפינים",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-philippine_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "v[zN6gf{O%",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הפיליפינים",
+        "",
+        "מנילה",
+        "",
+        "",
+        "<img src=\"ug-flag-philippines.svg\" />",
+        "",
+        "<img src=\"ug-map-philippines.png\" />"
+      ],
+      "flags": 0,
+      "guid": "hF7@$V)!Y;",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "פולין",
+        "",
+        "ורשה",
+        "",
+        "",
+        "<img src=\"ug-flag-poland.svg\" />",
+        "אינדונזיה (לבן ואדום הפוכים, אדום בהיר יותר), מונקו (לבן ואדום הפוכים, צר יותר)",
+        "<img src=\"ug-map-poland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "J=~cBQ|I[L",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "פולינזיה",
+        "תת-אזור של אוקיאניה הכולל אלפי איים קטנים במרכז ובדרום האוקיינוס השקט.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-polynesia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "KO/JiKL6Q2",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "פורטוגל",
+        "",
+        "ליסבון",
+        "",
+        "",
+        "<img src=\"ug-flag-portugal.svg\" />",
+        "",
+        "<img src=\"ug-map-portugal.png\" />"
+      ],
+      "flags": 0,
+      "guid": "F1#=.5f]g3",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "פוארטו ריקו",
+        "טריטוריה בלתי מאוגדת של ארצות הברית.",
+        "סן חואן",
+        "",
+        "",
+        "<img src=\"ug-flag-puerto_rico.svg\" />",
+        "קובה (משולש אדום, פסים כחולים)",
+        "<img src=\"ug-map-puerto_rico.png\" />"
+      ],
+      "flags": 0,
+      "guid": "I;Kt^L>RR~",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "קטר",
+        "",
+        "דוחה",
+        "",
+        "",
+        "<img src=\"ug-flag-qatar.svg\" />",
+        "בחריין (צר יותר, שיניים משוננות פחות, אדום)",
+        "<img src=\"ug-map-qatar.png\" />"
+      ],
+      "flags": 0,
+      "guid": "IjM%Ia??zk",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ראוניון",
+        "מחוז מעבר לים של צרפת.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-reunion.png\" />"
+      ],
+      "flags": 0,
+      "guid": "pH.4_eS.z(",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ים סוף",
+        "ידוע גם בשם הים האדום.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-red_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "JixcD!dyt`",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הרפובליקה של קונגו",
+        "",
+        "ברזוויל",
+        "",
+        "",
+        "<img src=\"ug-flag-republic_of_the_congo.svg\" />",
+        "",
+        "<img src=\"ug-map-republic_of_the_congo.png\" />"
+      ],
+      "flags": 0,
+      "guid": "xbx=z$ty;9",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "רומניה",
+        "",
+        "בוקרשט",
+        "",
+        "",
+        "<img src=\"ug-flag-romania.svg\" />",
+        "צ'אד (כחול כהה במעט)",
+        "<img src=\"ug-map-romania.png\" />"
+      ],
+      "flags": 0,
+      "guid": "HhdZWT5}mB",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "רוסיה",
+        "",
+        "מוסקבה",
+        "",
+        "",
+        "<img src=\"ug-flag-russia.svg\" />",
+        "סלובקיה (עם סמל המדינה)",
+        "<img src=\"ug-map-russia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "EVtuP)g%bq",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "רואנדה",
+        "",
+        "קיגלי",
+        "",
+        "",
+        "<img src=\"ug-flag-rwanda.svg\" />",
+        "",
+        "<img src=\"ug-map-rwanda.png\" />"
+      ],
+      "flags": 0,
+      "guid": "lq7sh@0Pq&",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סאו טומה ופרינסיפה",
+        "",
+        "סאו טומה",
+        "",
+        "",
+        "<img src=\"ug-flag-sao_tome_and_principe.svg\" />",
+        "",
+        "<img src=\"ug-map-sao_tome_and_principe.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Jqvk9NN*I]",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "רפובליקת סהרה הערבית הדמוקרטית",
+        "מדינה בעלת הכרה חלקית שמרוקו טוענת לריבונות עליה. ידועה גם בשם סהרה המערבית.",
+        "אל-עיון",
+        "אל-עיון היא הבירה המוצהרת, אך תיפאריטי היא מושב הממשלה בפועל.",
+        "",
+        "<img src=\"ug-flag-sahrawi_arab_democratic_republic.svg\" />",
+        "פלסטין (ללא סמל)",
+        "<img src=\"ug-map-sahrawi_arab_democratic_republic.png\" />"
+      ],
+      "flags": 0,
+      "guid": "s2-ak[c[R7",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סנט קיטס ונוויס",
+        "",
+        "באסטר",
+        "",
+        "",
+        "<img src=\"ug-flag-saint_kitts_and_nevis.svg\" />",
+        "",
+        "<img src=\"ug-map-saint_kitts_and_nevis.png\" />"
+      ],
+      "flags": 0,
+      "guid": "GB},Xh!WW!",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סנט לוסיה",
+        "",
+        "קסטריז",
+        "",
+        "",
+        "<img src=\"ug-flag-saint_lucia.svg\" />",
+        "",
+        "<img src=\"ug-map-saint_lucia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "KDXgTK3r[>",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סן מרטן",
+        "שטח מעבר לים של צרפת.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-saint_martin.png\" />"
+      ],
+      "flags": 0,
+      "guid": "B70opS/bWu",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סנט וינסנט והגרנדינים",
+        "",
+        "קינגסטאון",
+        "",
+        "",
+        "<img src=\"ug-flag-saint_vincent_and_the_grenadines.svg\" />",
+        "",
+        "<img src=\"ug-map-saint_vincent_and_the_grenadines.png\" />"
+      ],
+      "flags": 0,
+      "guid": "th$ZY3>4#^",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סמואה",
+        "",
+        "אפיה",
+        "",
+        "",
+        "<img src=\"ug-flag-samoa.svg\" />",
+        "",
+        "<img src=\"ug-map-samoa.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ig/{<0q&bq",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סן מרינו",
+        "",
+        "עיר סן מרינו",
+        "",
+        "",
+        "<img src=\"ug-flag-san_marino.svg\" />",
+        "",
+        "<img src=\"ug-map-san_marino.png\" />"
+      ],
+      "flags": 0,
+      "guid": "E&?TFFwD|*",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סרדיניה",
+        "אזור אוטונומי של איטליה.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-sardinia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "c]3?;8%|~q",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ערב הסעודית",
+        "",
+        "ריאד",
+        "",
+        "",
+        "<img src=\"ug-flag-saudi_arabia.svg\" />",
+        "",
+        "<img src=\"ug-map-saudi_arabia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Jh2IA(Z3A5",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סקנדינביה",
+        "אזור היסטורי ותרבותי בצפון אירופה, הכולל את דנמרק, נורווגיה ושוודיה, ולעיתים גם פינלנד ואיסלנד.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-scandinavia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "v,2SnYnDu!",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סקוטלנד",
+        "אחת מהמדינות המרכיבות את הממלכה המאוחדת.",
+        "אדינבורו",
+        "",
+        "",
+        "<img src=\"ug-flag-scotland.svg\" />",
+        "",
+        "<img src=\"ug-map-scotland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "BB{,E9+RBk",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הכנרת",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-sea_of_galilee.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ctqOm_y0A0",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ים יפן",
+        "קיים סכסוך על שם הים בין המדינות הגובלות בו, ודרום קוריאה תומכת בשם 'הים המזרחי'.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-sea_of_japan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "bVPO_7dLQu",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ים אוחוצק",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-sea_of_okhotsk.png\" />"
+      ],
+      "flags": 0,
+      "guid": "t9~Z8-dEF?",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סנגל",
+        "",
+        "דקר",
+        "",
+        "",
+        "<img src=\"ug-flag-senegal.svg\" />",
+        "קמרון (ירוק/אדום/צהוב, כוכב צהוב)",
+        "<img src=\"ug-map-senegal.png\" />"
+      ],
+      "flags": 0,
+      "guid": "w(x]`j6}qe",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סרביה",
+        "",
+        "בלגרד",
+        "",
+        "",
+        "<img src=\"ug-flag-serbia.svg\" />",
+        "",
+        "<img src=\"ug-map-serbia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "D:fYf{)6:Z",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סיישל",
+        "",
+        "ויקטוריה",
+        "",
+        "",
+        "<img src=\"ug-flag-seychelles.svg\" />",
+        "",
+        "<img src=\"ug-map-seychelles.png\" />"
+      ],
+      "flags": 0,
+      "guid": "LY4eV+u3=;",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סיציליה",
+        "אזור אוטונומי של איטליה.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-sicily.png\" />"
+      ],
+      "flags": 0,
+      "guid": "J~Zu1?#&.)",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סיירה לאונה",
+        "",
+        "פריטאון",
+        "",
+        "",
+        "<img src=\"ug-flag-sierra_leone.svg\" />",
+        "",
+        "<img src=\"ug-map-sierra_leone.png\" />"
+      ],
+      "flags": 0,
+      "guid": "7KPY&;_jj",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סינגפור",
+        "",
+        "סינגפור",
+        "",
+        "",
+        "<img src=\"ug-flag-singapore.svg\" />",
+        "",
+        "<img src=\"ug-map-singapore.png\" />"
+      ],
+      "flags": 0,
+      "guid": "G.QO=y8)KH",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סנט מארטן",
+        "מדינה אוטונומית בממלכת ארצות השפלה.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-sint_maarten.png\" />"
+      ],
+      "flags": 0,
+      "guid": "ot!cP%_4Vr",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סלובקיה",
+        "",
+        "ברטיסלבה",
+        "",
+        "",
+        "<img src=\"ug-flag-slovakia.svg\" />",
+        "רוסיה (ללא סמל המדינה), סלובניה (רחב יותר, סמל המדינה קטן יותר)",
+        "<img src=\"ug-map-slovakia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "IM]9~u9=t(",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סלובניה",
+        "",
+        "ליובליאנה",
+        "",
+        "",
+        "<img src=\"ug-flag-slovenia.svg\" />",
+        "סלובקיה (צר יותר, סמל המדינה גדול יותר)",
+        "<img src=\"ug-map-slovenia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Bs%>mbfaYw",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "איי שלמה",
+        "",
+        "הוניארה",
+        "",
+        "",
+        "<img src=\"ug-flag-solomon_islands.svg\" />",
+        "",
+        "<img src=\"ug-map-solomon_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "s.zSUacqj*",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סומליה",
+        "",
+        "מוגדישו",
+        "",
+        "",
+        "<img src=\"ug-flag-somalia.svg\" />",
+        "",
+        "<img src=\"ug-map-somalia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "z+tP0XYo@X",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סומלילנד",
+        "מדינה עצמאית בפועל שסומליה טוענת לריבונות עליה.",
+        "הרגייסה",
+        "",
+        "",
+        "<img src=\"ug-flag-somaliland.svg\" />",
+        "",
+        "<img src=\"ug-map-somaliland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "*;K5eRkb^",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "דרום אפריקה",
+        "",
+        "פרטוריה, קייפטאון, בלומפונטיין",
+        "לדרום אפריקה אין בירה המוגדרת בחוק; רשויות השלטון מחולקות בין שלוש ערים: פרטוריה (הרשות המבצעת), קייפטאון (הרשות המחוקקת) ובלומפונטיין (הרשות השופטת).",
+        "",
+        "<img src=\"ug-flag-south_africa.svg\" />",
+        "",
+        "<img src=\"ug-map-south_africa.png\" />"
+      ],
+      "flags": 0,
+      "guid": "vV-mj7eM`M",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "דרום אמריקה",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-south_america-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "zdn0AlY>kb",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Continents"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ים סין הדרומי",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-south_china_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "kZTsK%`b$>",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "דרום קוריאה",
+        "",
+        "סיאול",
+        "",
+        "",
+        "<img src=\"ug-flag-south_korea.svg\" />",
+        "",
+        "<img src=\"ug-map-south_korea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "F4oWVRkVJ/",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "דרום אוסטיה",
+        "מדינה עצמאית בפועל שגאורגיה טוענת לריבונות עליה.",
+        "צחינוואלי",
+        "",
+        "",
+        "<img src=\"ug-flag-south_ossetia.svg\" />",
+        "",
+        "<img src=\"ug-map-south_ossetia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Ah(6S((aPG",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "דרום סודן",
+        "",
+        "ג'ובה",
+        "",
+        "",
+        "<img src=\"ug-flag-south_sudan.svg\" />",
+        "",
+        "<img src=\"ug-map-south_sudan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "frAY7z=sHj",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "האוקיינוס הדרומי",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-southern_ocean-nobox.png\" />"
+      ],
+      "flags": 0,
+      "guid": "wCPDw.^~b_",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ספרד",
+        "",
+        "מדריד",
+        "",
+        "",
+        "<img src=\"ug-flag-spain.svg\" />",
+        "",
+        "<img src=\"ug-map-spain.png\" />"
+      ],
+      "flags": 0,
+      "guid": "oCd_-$()G@",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סרי לנקה",
+        "",
+        "סרי ג'ייוורדנפורה קוטה",
+        "קולומבו נקראת לעיתים קרובות הבירה, אך סרי ג'ייוורדנפורה קוטה, פרבר של קולומבו, משמשת כבירה הרשמית והמחוקקת.",
+        "",
+        "<img src=\"ug-flag-sri_lanka.svg\" />",
+        "",
+        "<img src=\"ug-map-sri_lanka.png\" />"
+      ],
+      "flags": 0,
+      "guid": "b/LF(a8_I&",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מצר הורמוז",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-strait_of_hormuz.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Jl3:j3e>r.",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מצר מלאקה",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-strait_of_malacca.png\" />"
+      ],
+      "flags": 0,
+      "guid": "IV3vpPHmOa",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סודן",
+        "",
+        "חרטום",
+        "",
+        "",
+        "<img src=\"ug-flag-sudan.svg\" />",
+        "פלסטין (שחור/לבן/ירוק, משולש אדום)",
+        "<img src=\"ug-map-sudan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "B&a4d#SQBQ",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סומטרה",
+        "אי של אינדונזיה.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-sumatra.png\" />"
+      ],
+      "flags": 0,
+      "guid": "rCc{b6FcHs",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סורינאם",
+        "",
+        "פרמריבו",
+        "",
+        "",
+        "<img src=\"ug-flag-suriname.svg\" />",
+        "",
+        "<img src=\"ug-map-suriname.png\" />"
+      ],
+      "flags": 0,
+      "guid": "O##fZ$fM|N",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סבאלברד",
+        "אזור בלתי מאוגד של נורווגיה.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-svalbard.png\" />"
+      ],
+      "flags": 0,
+      "guid": "g=^B`=fk:{",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "שוודיה",
+        "",
+        "סטוקהולם",
+        "",
+        "",
+        "<img src=\"ug-flag-sweden.svg\" />",
+        "",
+        "<img src=\"ug-map-sweden.png\" />"
+      ],
+      "flags": 0,
+      "guid": "h~<A9#^=Ag",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::European_Union",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "שוויץ",
+        "",
+        "ברן",
+        "לשוויץ אין בירה רשמית; ברן היא הבירה בפועל.",
+        "",
+        "<img src=\"ug-flag-switzerland.svg\" />",
+        "",
+        "<img src=\"ug-map-switzerland.png\" />"
+      ],
+      "flags": 0,
+      "guid": "pqz|a[/0B`",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "סוריה",
+        "",
+        "דמשק",
+        "",
+        "",
+        "<img src=\"ug-flag-syria.svg\" />",
+        "",
+        "<img src=\"ug-map-syria.png\" />"
+      ],
+      "flags": 0,
+      "guid": "fw-0o5uN${",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Mediterranean",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "טייוואן",
+        "מדינה בעלת הכרה חלקית שסין טוענת לריבונות עליה.",
+        "טייפה",
+        "",
+        "",
+        "<img src=\"ug-flag-taiwan.svg\" />",
+        "",
+        "<img src=\"ug-map-taiwan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "P)d[)CM-ET",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "טג'יקיסטן",
+        "",
+        "דושנבה",
+        "",
+        "",
+        "<img src=\"ug-flag-tajikistan.svg\" />",
+        "",
+        "<img src=\"ug-map-tajikistan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "f:_*Fg:^kz",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "טנזניה",
+        "",
+        "דודומה",
+        "דודומה היא הבירה הרשמית, אך דאר א-סלאם הוא מושב הממשלה בפועל.",
+        "",
+        "<img src=\"ug-flag-tanzania.svg\" />",
+        "",
+        "<img src=\"ug-map-tanzania.png\" />"
+      ],
+      "flags": 0,
+      "guid": "l$Zp6`}eR#",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ים טסמן",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-tasman_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "x0Bo4V@e5]",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "תאילנד",
+        "",
+        "בנגקוק",
+        "",
+        "",
+        "<img src=\"ug-flag-thailand.svg\" />",
+        "",
+        "<img src=\"ug-map-thailand.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Q**Ll~bvG?",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "איי בהאמה",
+        "",
+        "נסאו",
+        "",
+        "",
+        "<img src=\"ug-flag-the_bahamas.svg\" />",
+        "",
+        "<img src=\"ug-map-the_bahamas.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Or3Vw-5z7m",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "גמביה",
+        "",
+        "בנג'ול",
+        "",
+        "",
+        "<img src=\"ug-flag-the_gambia.svg\" />",
+        "",
+        "<img src=\"ug-map-the_gambia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "g_sO4wzVOt",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "מזרח טימור",
+        "ידועה גם בשם טימור-לסטה.",
+        "דילי",
+        "",
+        "",
+        "<img src=\"ug-flag-timor-leste.svg\" />",
+        "",
+        "<img src=\"ug-map-timor-leste.png\" />"
+      ],
+      "flags": 0,
+      "guid": "mM#o8D79Et",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ים טימור",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-timor_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "D~I9PG64x?",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "טוגו",
+        "",
+        "לומה",
+        "",
+        "",
+        "<img src=\"ug-flag-togo.svg\" />",
+        "",
+        "<img src=\"ug-map-togo.png\" />"
+      ],
+      "flags": 0,
+      "guid": "eO$x,HdBdx",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Sovereign_State",
+        "UG::West_Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "טונגה",
+        "",
+        "נוקואלופה",
+        "",
+        "",
+        "<img src=\"ug-flag-tonga.svg\" />",
+        "",
+        "<img src=\"ug-map-tonga.png\" />"
+      ],
+      "flags": 0,
+      "guid": "m6{ax^sKf0",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "טרנסניסטריה",
+        "מדינה עצמאית בפועל שמולדובה טוענת לריבונות עליה.",
+        "טירספול",
+        "",
+        "",
+        "<img src=\"ug-flag-transnistria.svg\" />",
+        "",
+        "<img src=\"ug-map-transnistria.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Q~j4)iX4_a",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "טרינידד וטובגו",
+        "",
+        "פורט אוף ספיין",
+        "",
+        "",
+        "<img src=\"ug-flag-trinidad_and_tobago.svg\" />",
+        "",
+        "<img src=\"ug-map-trinidad_and_tobago.png\" />"
+      ],
+      "flags": 0,
+      "guid": "j;3pk34Z4/",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "תוניסיה",
+        "",
+        "תוניס",
+        "",
+        "",
+        "<img src=\"ug-flag-tunisia.svg\" />",
+        "",
+        "<img src=\"ug-map-tunisia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "H_aSeV[T>A",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::Mediterranean",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "טורקיה",
+        "ידועה גם בשם טורקייה.",
+        "אנקרה",
+        "",
+        "",
+        "<img src=\"ug-flag-turkey.svg\" />",
+        "",
+        "<img src=\"ug-map-turkey.png\" />"
+      ],
+      "flags": 0,
+      "guid": "b~YhH4KJ%=",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Mediterranean",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "טורקמניסטן",
+        "",
+        "אשגבאט",
+        "",
+        "",
+        "<img src=\"ug-flag-turkmenistan.svg\" />",
+        "",
+        "<img src=\"ug-map-turkmenistan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "vg#V(EQ$/K",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "איי טורקס וקייקוס",
+        "טריטוריה בריטית מעבר לים.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-turks_and_caicos_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "Q3y!z;mw_s",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "טובאלו",
+        "",
+        "פונאפוטי",
+        "",
+        "",
+        "<img src=\"ug-flag-tuvalu.svg\" />",
+        "",
+        "<img src=\"ug-map-tuvalu.png\" />"
+      ],
+      "flags": 0,
+      "guid": "mh:ZXn,Ya|",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אוגנדה",
+        "",
+        "קמפלה",
+        "",
+        "",
+        "<img src=\"ug-flag-uganda.svg\" />",
+        "",
+        "<img src=\"ug-map-uganda.png\" />"
+      ],
+      "flags": 0,
+      "guid": "iXVqoa[p|?",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אוקראינה",
+        "",
+        "קייב",
+        "ידועה גם בשם קייב.",
+        "",
+        "<img src=\"ug-flag-ukraine.svg\" />",
+        "",
+        "<img src=\"ug-map-ukraine.png\" />"
+      ],
+      "flags": 0,
+      "guid": "GFZ!R$l1El",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "איחוד האמירויות הערביות",
+        "",
+        "אבו דאבי",
+        "",
+        "",
+        "<img src=\"ug-flag-united_arab_emirates.svg\" />",
+        "",
+        "<img src=\"ug-map-united_arab_emirates.png\" />"
+      ],
+      "flags": 0,
+      "guid": "G|UMWj@Qt3",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הממלכה המאוחדת",
+        "",
+        "לונדון",
+        "",
+        "מדינה ריבונית",
+        "<img src=\"ug-flag-united_kingdom.svg\" />",
+        "",
+        "<img src=\"ug-map-united_kingdom.png\" />"
+      ],
+      "flags": 0,
+      "guid": "f#D}<Eme}i",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ארצות הברית",
+        "",
+        "וושינגטון די.סי.",
+        "",
+        "",
+        "<img src=\"ug-flag-united_states_of_america.svg\" />",
+        "",
+        "<img src=\"ug-map-united_states_of_america.png\" />"
+      ],
+      "flags": 0,
+      "guid": "oK=[;<,8eE",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::North_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "איי הבתולה של ארצות הברית",
+        "טריטוריה בלתי מאוגדת של ארצות הברית.",
+        "שרלוט אמאלי",
+        "",
+        "",
+        "<img src=\"ug-flag-united_states_virgin_islands.svg\" />",
+        "",
+        "<img src=\"ug-map-united_states_virgin_islands.png\" />"
+      ],
+      "flags": 0,
+      "guid": "dk?(-Rj+qw",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Caribbean",
+        "UG::North_America"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אורוגוואי",
+        "",
+        "מונטווידאו",
+        "",
+        "",
+        "<img src=\"ug-flag-uruguay.svg\" />",
+        "",
+        "<img src=\"ug-map-uruguay.png\" />"
+      ],
+      "flags": 0,
+      "guid": "dv@X4q-CMK",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "אוזבקיסטן",
+        "",
+        "טשקנט",
+        "",
+        "",
+        "<img src=\"ug-flag-uzbekistan.svg\" />",
+        "",
+        "<img src=\"ug-map-uzbekistan.png\" />"
+      ],
+      "flags": 0,
+      "guid": "f_f_Anjv~I",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ונואטו",
+        "",
+        "פורט וילה",
+        "",
+        "",
+        "<img src=\"ug-flag-vanuatu.svg\" />",
+        "",
+        "<img src=\"ug-map-vanuatu.png\" />"
+      ],
+      "flags": 0,
+      "guid": "eTM~|ZM{OR",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הוותיקן",
+        "",
+        "הוותיקן",
+        "",
+        "",
+        "<img src=\"ug-flag-vatican_city.svg\" />",
+        "",
+        "<img src=\"ug-map-vatican_city.png\" />"
+      ],
+      "flags": 0,
+      "guid": "JG+!#W&=2C",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ונצואלה",
+        "",
+        "קראקס",
+        "",
+        "",
+        "<img src=\"ug-flag-venezuela.svg\" />",
+        "",
+        "<img src=\"ug-map-venezuela.png\" />"
+      ],
+      "flags": 0,
+      "guid": "nXT9a$v{V4",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::South_America",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "וייטנאם",
+        "",
+        "האנוי",
+        "",
+        "",
+        "<img src=\"ug-flag-vietnam.svg\" />",
+        "",
+        "<img src=\"ug-map-vietnam.png\" />"
+      ],
+      "flags": 0,
+      "guid": "l@NApR9Tq`",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Southeast_Asia",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "וויילס",
+        "אחת מהמדינות המרכיבות את הממלכה המאוחדת.",
+        "קרדיף",
+        "",
+        "",
+        "<img src=\"ug-flag-wales.svg\" />",
+        "",
+        "<img src=\"ug-map-wales.png\" />"
+      ],
+      "flags": 0,
+      "guid": "g&Da!%r#j1",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Europe"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ואליס ופוטונה",
+        "שטח מעבר לים של צרפת.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-wallis_and_futuna.png\" />"
+      ],
+      "flags": 0,
+      "guid": "KeKzwmSVWf",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceania"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הים הלבן",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-white_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "x7bCpx_Bi4",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "הים הצהוב",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-yellow_sea.png\" />"
+      ],
+      "flags": 0,
+      "guid": "LUoDu-f5Fe",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Oceans+Seas"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "תימן",
+        "",
+        "צנעא",
+        "כתיב חלופי: צנעה.",
+        "",
+        "<img src=\"ug-flag-yemen.svg\" />",
+        "מצרים (עם סמל), עיראק (עם כיתוב)",
+        "<img src=\"ug-map-yemen.png\" />"
+      ],
+      "flags": 0,
+      "guid": "tM8yK|bK_)",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Asia",
+        "UG::Middle_East",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "זמביה",
+        "",
+        "לוסקה",
+        "",
+        "",
+        "<img src=\"ug-flag-zambia.svg\" />",
+        "",
+        "<img src=\"ug-map-zambia.png\" />"
+      ],
+      "flags": 0,
+      "guid": "snE_X^3wNo",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "זנזיבר",
+        "אזור חצי-אוטונומי של טנזניה.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "<img src=\"ug-map-zanzibar.png\" />"
+      ],
+      "flags": 0,
+      "guid": "J8=MKykVc^",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa"
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "זימבבווה",
+        "",
+        "הארארה",
+        "",
+        "",
+        "<img src=\"ug-flag-zimbabwe.svg\" />",
+        "",
+        "<img src=\"ug-map-zimbabwe.png\" />"
+      ],
+      "flags": 0,
+      "guid": "lG`_/mqgr5",
+      "note_model_uuid": "f37b2a2a-e97a-4909-8b56-f84c9caa5348",
+      "tags": [
+        "UG::Africa",
+        "UG::East_Africa",
+        "UG::Sovereign_State"
+      ]
+    }
+  ]
+}

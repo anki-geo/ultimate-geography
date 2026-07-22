@@ -1,0 +1,548 @@
+package:
+  id: anki-geo.hardcore-geography
+  version: 0.1.0
+base: deck-hardcore.yaml
+overlays:
+  overlay.extension.hardcore:
+    file: overlays/extensions/hardcore.yaml
+    kind: extension
+  overlay.extension.hardcore.field-fills:
+    file: overlays/extensions/hardcore/field-fills.yaml
+    kind: extension
+    depends_on:
+      - overlay.extension.hardcore
+  overlay.extension.hardcore.field-fills.de:
+    file: overlays/extensions/hardcore/field-fills/de.yaml
+    kind: extension
+    depends_on:
+      - overlay.extension.hardcore.field-fills
+  overlay.extension.hardcore.field-fills.es:
+    file: overlays/extensions/hardcore/field-fills/es.yaml
+    kind: extension
+    depends_on:
+      - overlay.extension.hardcore.field-fills
+  overlay.extension.hardcore.field-fills.fr:
+    file: overlays/extensions/hardcore/field-fills/fr.yaml
+    kind: extension
+    depends_on:
+      - overlay.extension.hardcore.field-fills
+  overlay.extension.hardcore.field-fills.nb:
+    file: overlays/extensions/hardcore/field-fills/nb.yaml
+    kind: extension
+    depends_on:
+      - overlay.extension.hardcore.field-fills
+  overlay.translation.hardcore.companion-note-type.cs:
+    file: overlays/extensions/hardcore/companion-note-type-translations/cs.yaml
+    kind: translation
+  overlay.translation.hardcore.companion-note-type.de:
+    file: overlays/extensions/hardcore/companion-note-type-translations/de.yaml
+    kind: translation
+  overlay.translation.hardcore.companion-note-type.es:
+    file: overlays/extensions/hardcore/companion-note-type-translations/es.yaml
+    kind: translation
+  overlay.translation.hardcore.companion-note-type.fr:
+    file: overlays/extensions/hardcore/companion-note-type-translations/fr.yaml
+    kind: translation
+  overlay.translation.hardcore.companion-note-type.it:
+    file: overlays/extensions/hardcore/companion-note-type-translations/it.yaml
+    kind: translation
+  overlay.translation.hardcore.companion-note-type.nb:
+    file: overlays/extensions/hardcore/companion-note-type-translations/nb.yaml
+    kind: translation
+  overlay.translation.hardcore.companion-note-type.nl:
+    file: overlays/extensions/hardcore/companion-note-type-translations/nl.yaml
+    kind: translation
+  overlay.translation.hardcore.companion-note-type.pl:
+    file: overlays/extensions/hardcore/companion-note-type-translations/pl.yaml
+    kind: translation
+  overlay.translation.hardcore.companion-note-type.pt:
+    file: overlays/extensions/hardcore/companion-note-type-translations/pt.yaml
+    kind: translation
+  overlay.translation.hardcore.companion-note-type.ru:
+    file: overlays/extensions/hardcore/companion-note-type-translations/ru.yaml
+    kind: translation
+  overlay.translation.hardcore.companion-note-type.sv:
+    file: overlays/extensions/hardcore/companion-note-type-translations/sv.yaml
+    kind: translation
+  overlay.translation.hardcore.companion-note-type.zh:
+    file: overlays/extensions/hardcore/companion-note-type-translations/zh.yaml
+    kind: translation
+  overlay.translation.hardcore.companion.cs:
+    file: overlays/extensions/hardcore/companion-translations/cs.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore.field-fills
+  overlay.translation.hardcore.companion.de:
+    file: overlays/extensions/hardcore/companion-translations/de.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore.field-fills.de
+  overlay.translation.hardcore.companion.es:
+    file: overlays/extensions/hardcore/companion-translations/es.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore.field-fills.es
+  overlay.translation.hardcore.companion.fr:
+    file: overlays/extensions/hardcore/companion-translations/fr.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore.field-fills.fr
+  overlay.translation.hardcore.companion.it:
+    file: overlays/extensions/hardcore/companion-translations/it.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore.field-fills
+  overlay.translation.hardcore.companion.nb:
+    file: overlays/extensions/hardcore/companion-translations/nb.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore.field-fills.nb
+  overlay.translation.hardcore.companion.nl:
+    file: overlays/extensions/hardcore/companion-translations/nl.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore.field-fills
+  overlay.translation.hardcore.companion.pl:
+    file: overlays/extensions/hardcore/companion-translations/pl.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore.field-fills
+  overlay.translation.hardcore.companion.pt:
+    file: overlays/extensions/hardcore/companion-translations/pt.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore.field-fills
+  overlay.translation.hardcore.companion.ru:
+    file: overlays/extensions/hardcore/companion-translations/ru.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore.field-fills
+  overlay.translation.hardcore.companion.sv:
+    file: overlays/extensions/hardcore/companion-translations/sv.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore.field-fills
+  overlay.translation.hardcore.companion.zh:
+    file: overlays/extensions/hardcore/companion-translations/zh.yaml
+    kind: translation
+    depends_on:
+      - overlay.extension.hardcore.field-fills
+  overlay.translation.hardcore.cs:
+    file: overlays/extensions/hardcore/translations/cs.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.cs
+      - overlay.translation.hardcore.companion.cs
+  overlay.translation.hardcore.de:
+    file: overlays/extensions/hardcore/translations/de.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.de
+      - overlay.translation.hardcore.companion.de
+  overlay.translation.hardcore.es:
+    file: overlays/extensions/hardcore/translations/es.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.es
+      - overlay.translation.hardcore.companion.es
+  overlay.translation.hardcore.fr:
+    file: overlays/extensions/hardcore/translations/fr.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.fr
+      - overlay.translation.hardcore.companion.fr
+  overlay.translation.hardcore.it:
+    file: overlays/extensions/hardcore/translations/it.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.it
+      - overlay.translation.hardcore.companion.it
+  overlay.translation.hardcore.nb:
+    file: overlays/extensions/hardcore/translations/nb.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.nb
+      - overlay.translation.hardcore.companion.nb
+  overlay.translation.hardcore.nl:
+    file: overlays/extensions/hardcore/translations/nl.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.nl
+      - overlay.translation.hardcore.companion.nl
+  overlay.translation.hardcore.pl:
+    file: overlays/extensions/hardcore/translations/pl.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.pl
+      - overlay.translation.hardcore.companion.pl
+  overlay.translation.hardcore.pt:
+    file: overlays/extensions/hardcore/translations/pt.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.pt
+      - overlay.translation.hardcore.companion.pt
+  overlay.translation.hardcore.ru:
+    file: overlays/extensions/hardcore/translations/ru.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.ru
+      - overlay.translation.hardcore.companion.ru
+  overlay.translation.hardcore.sv:
+    file: overlays/extensions/hardcore/translations/sv.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.sv
+      - overlay.translation.hardcore.companion.sv
+  overlay.translation.hardcore.zh:
+    file: overlays/extensions/hardcore/translations/zh.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.zh
+      - overlay.translation.hardcore.companion.zh
+  overlay.variant.extended:
+    file: overlays/variants/extended.yaml
+    kind: extension
+  overlay.variant.extended.cs:
+    file: overlays/variants/extended/cs.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.cs
+      - overlay.variant.extended
+  overlay.variant.extended.de:
+    file: overlays/variants/extended/de.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.de
+      - overlay.variant.extended
+  overlay.variant.extended.en:
+    file: overlays/variants/extended/en.yaml
+    kind: extension
+    depends_on:
+      - overlay.variant.extended
+  overlay.variant.extended.es:
+    file: overlays/variants/extended/es.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.es
+      - overlay.variant.extended
+  overlay.variant.extended.fr:
+    file: overlays/variants/extended/fr.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.fr
+      - overlay.variant.extended
+  overlay.variant.extended.it:
+    file: overlays/variants/extended/it.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.it
+      - overlay.variant.extended
+  overlay.variant.extended.nb:
+    file: overlays/variants/extended/nb.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.nb
+      - overlay.variant.extended
+  overlay.variant.extended.nl:
+    file: overlays/variants/extended/nl.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.nl
+      - overlay.variant.extended
+  overlay.variant.extended.pl:
+    file: overlays/variants/extended/pl.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.pl
+      - overlay.variant.extended
+  overlay.variant.extended.pt:
+    file: overlays/variants/extended/pt.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.pt
+      - overlay.variant.extended
+  overlay.variant.extended.ru:
+    file: overlays/variants/extended/ru.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.ru
+      - overlay.variant.extended
+  overlay.variant.extended.sv:
+    file: overlays/variants/extended/companion/sv.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.sv
+      - overlay.variant.extended
+  overlay.variant.extended.zh:
+    file: overlays/variants/extended/zh.yaml
+    kind: extension
+    depends_on:
+      - overlay.translation.hardcore.companion-note-type.zh
+      - overlay.variant.extended
+targets:
+  cs-hardcore-companion-extended:
+    overlays:
+      - overlay.variant.extended.cs
+      - overlay.translation.hardcore.cs
+  cs-hardcore-companion-standard:
+    overlays:
+      - overlay.translation.hardcore.cs
+  de-hardcore-companion-extended:
+    overlays:
+      - overlay.variant.extended.de
+      - overlay.translation.hardcore.de
+  de-hardcore-companion-standard:
+    overlays:
+      - overlay.translation.hardcore.de
+    exports:
+      crowdanki:
+        out: build/crowdanki/de-hardcore-companion-standard
+        golden: goldens/de-hardcore-companion-standard/deck.json
+  en-hardcore-companion-extended:
+    overlays:
+      - overlay.variant.extended.en
+      - overlay.extension.hardcore.field-fills
+  en-hardcore-companion-standard:
+    overlays:
+      - overlay.extension.hardcore.field-fills
+  es-hardcore-companion-extended:
+    overlays:
+      - overlay.variant.extended.es
+      - overlay.translation.hardcore.es
+  es-hardcore-companion-standard:
+    overlays:
+      - overlay.translation.hardcore.es
+  fr-hardcore-companion-extended:
+    overlays:
+      - overlay.variant.extended.fr
+      - overlay.translation.hardcore.fr
+  fr-hardcore-companion-standard:
+    overlays:
+      - overlay.translation.hardcore.fr
+  it-hardcore-companion-extended:
+    overlays:
+      - overlay.variant.extended.it
+      - overlay.translation.hardcore.it
+  it-hardcore-companion-standard:
+    overlays:
+      - overlay.translation.hardcore.it
+  nb-hardcore-companion-extended:
+    overlays:
+      - overlay.variant.extended.nb
+      - overlay.translation.hardcore.nb
+  nb-hardcore-companion-standard:
+    overlays:
+      - overlay.translation.hardcore.nb
+  nl-hardcore-companion-extended:
+    overlays:
+      - overlay.variant.extended.nl
+      - overlay.translation.hardcore.nl
+  nl-hardcore-companion-standard:
+    overlays:
+      - overlay.translation.hardcore.nl
+  pl-hardcore-companion-extended:
+    overlays:
+      - overlay.variant.extended.pl
+      - overlay.translation.hardcore.pl
+  pl-hardcore-companion-standard:
+    overlays:
+      - overlay.translation.hardcore.pl
+  pt-hardcore-companion-extended:
+    overlays:
+      - overlay.variant.extended.pt
+      - overlay.translation.hardcore.pt
+  pt-hardcore-companion-standard:
+    overlays:
+      - overlay.translation.hardcore.pt
+  ru-hardcore-companion-extended:
+    overlays:
+      - overlay.variant.extended.ru
+      - overlay.translation.hardcore.ru
+  ru-hardcore-companion-standard:
+    overlays:
+      - overlay.translation.hardcore.ru
+  sv-hardcore-companion-extended:
+    overlays:
+      - overlay.variant.extended.sv
+      - overlay.translation.hardcore.sv
+  sv-hardcore-companion-standard:
+    overlays:
+      - overlay.translation.hardcore.sv
+  zh-hardcore-companion-extended:
+    overlays:
+      - overlay.variant.extended.zh
+      - overlay.translation.hardcore.zh
+  zh-hardcore-companion-standard:
+    overlays:
+      - overlay.translation.hardcore.zh
+languages:
+  cs:
+    display_name: Czech
+    translation_overlays:
+      base: overlay.translation.hardcore.cs
+    primary_target: standard
+    targets:
+      extended: cs-hardcore-companion-extended
+      standard: cs-hardcore-companion-standard
+  de:
+    display_name: German
+    translation_overlays:
+      base: overlay.translation.hardcore.de
+    primary_target: standard
+    targets:
+      extended: de-hardcore-companion-extended
+      standard: de-hardcore-companion-standard
+  en:
+    display_name: English
+    source: true
+    primary_target: standard
+    targets:
+      extended: en-hardcore-companion-extended
+      standard: en-hardcore-companion-standard
+  es:
+    display_name: Spanish
+    translation_overlays:
+      base: overlay.translation.hardcore.es
+    primary_target: standard
+    targets:
+      extended: es-hardcore-companion-extended
+      standard: es-hardcore-companion-standard
+  fr:
+    display_name: French
+    translation_overlays:
+      base: overlay.translation.hardcore.fr
+    primary_target: standard
+    targets:
+      extended: fr-hardcore-companion-extended
+      standard: fr-hardcore-companion-standard
+  it:
+    display_name: Italian
+    translation_overlays:
+      base: overlay.translation.hardcore.it
+    primary_target: standard
+    targets:
+      extended: it-hardcore-companion-extended
+      standard: it-hardcore-companion-standard
+  nb:
+    display_name: 'Norwegian Bokmål'
+    translation_overlays:
+      base: overlay.translation.hardcore.nb
+    primary_target: standard
+    targets:
+      extended: nb-hardcore-companion-extended
+      standard: nb-hardcore-companion-standard
+  nl:
+    display_name: Dutch
+    translation_overlays:
+      base: overlay.translation.hardcore.nl
+    primary_target: standard
+    targets:
+      extended: nl-hardcore-companion-extended
+      standard: nl-hardcore-companion-standard
+  pl:
+    display_name: Polish
+    translation_overlays:
+      base: overlay.translation.hardcore.pl
+    primary_target: standard
+    targets:
+      extended: pl-hardcore-companion-extended
+      standard: pl-hardcore-companion-standard
+  pt:
+    display_name: Portuguese
+    translation_overlays:
+      base: overlay.translation.hardcore.pt
+    primary_target: standard
+    targets:
+      extended: pt-hardcore-companion-extended
+      standard: pt-hardcore-companion-standard
+  ru:
+    display_name: Russian
+    translation_overlays:
+      base: overlay.translation.hardcore.ru
+    primary_target: standard
+    targets:
+      extended: ru-hardcore-companion-extended
+      standard: ru-hardcore-companion-standard
+  sv:
+    display_name: Swedish
+    translation_overlays:
+      base: overlay.translation.hardcore.sv
+    primary_target: standard
+    targets:
+      extended: sv-hardcore-companion-extended
+      standard: sv-hardcore-companion-standard
+  zh:
+    display_name: 'Chinese (Simplified)'
+    translation_overlays:
+      base: overlay.translation.hardcore.zh
+    primary_target: standard
+    targets:
+      extended: zh-hardcore-companion-extended
+      standard: zh-hardcore-companion-standard
+translation_profile:
+  structural_fields:
+    - field.flag
+    - field.map
+  metadata_categories:
+    - key: deck-variable
+      label: Deck variables
+      paths:
+        - 'deck.variables.*'
+    - key: deck-metadata
+      label: Deck metadata
+      paths:
+        - deck.name
+        - deck.description
+    - key: note-type-name
+      label: Note type names
+      paths:
+        - 'note_types.*.name'
+    - key: field-label
+      label: Field labels
+      paths:
+        - 'note_types.*.fields.*.name'
+    - key: card-template-name
+      label: Card template names
+      paths:
+        - 'note_types.*.card_templates.*.name'
+    - key: card-template-variable
+      label: Card template variables
+      paths:
+        - 'note_types.*.card_templates.*.variables.*'
+    - key: variable
+      label: Variables
+      paths:
+        - 'note_types.*.variables.*'
+        - 'notes.*.variables.*'
+    - key: structured-message-format
+      label: Structured message formats
+      paths:
+        - 'notes.*.fields.*.message.format'
+    - key: tag
+      label: Tags
+      paths:
+        - 'notes.*.tags.*'
+    - key: stale-translation
+      label: Stale translations
+      paths:
+        - 'stale_translations.*'
+  metadata_paths:
+    - 'deck.*'
+    - 'note_types.*'
+    - 'notes.*.tags.*'
+  metadata_exclude_paths:
+    - 'deck.adapter_ids.*'
+    - 'note_types.*.adapter_ids.*'
+    - 'note_types.*.card_templates.*.adapter_ids.*'
+    - 'notes.*.adapter_ids.*'
+  metadata_category_order:
+    - deck-metadata
+    - deck-variable
+    - note-type-name
+    - field-label
+    - card-template-name
+    - variable
+    - card-template-variable
+    - structured-message-format
+    - tag
+    - stale-translation

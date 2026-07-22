@@ -1,0 +1,103 @@
+id: overlay.translation.hardcore.companion.zh
+kind: translation
+translations:
+  contextual:
+    notes.note:
+      british-indian-ocean-territory:
+        Overseas territory of the United Kingdom.: '英国(U.K.)的海外领土。'
+      hardcore-american-samoa:
+        American Samoa: '美属萨摩亚(American Samoa)'
+        Unincorporated territory of the United States.: '美国(U.S.)无建制属地。'
+      hardcore-anguilla:
+        Anguilla: '安圭拉(Anguilla)'
+        Overseas territory of the United Kingdom.: '英国(U.K.)的海外领土。'
+      hardcore-azores:
+        Autonomous region of Portugal.: '葡萄牙(Portugal)自治区。'
+        Azores: '亚速尔群岛(Azores)'
+      hardcore-bali:
+        Bali: '巴厘岛(Bali)'
+        Island of Indonesia.: '印度尼西亚(Indonesia)的岛屿之一。'
+      hardcore-bermuda:
+        Bermuda: '百慕大(Bermuda)'
+        Overseas territory of the United Kingdom.: '英国(U.K.)的海外领土。'
+      hardcore-british-virgin-islands:
+        British Virgin Islands: '英属维尔京群岛(British Virgin Islands)'
+        Overseas territory of the United Kingdom.: '英国(U.K.)的海外领土。'
+      hardcore-canary-islands:
+        Autonomous community of Spain.: '西班牙(Spain)自治区。'
+        Canary Islands: '加那利群岛(Canary Islands)'
+      hardcore-cayman-islands:
+        Cayman Islands: '开曼群岛(Cayman Islands)'
+        Overseas territory of the United Kingdom.: '英国(U.K.)的海外领土。'
+      hardcore-corsica:
+        Corsica: '科西嘉岛(Corsica)'
+        Region of France.: '法国(France)地区。'
+      hardcore-falkland-islands:
+        Falkland Islands: '福克兰群岛(Falkland Islands)'
+        Overseas territory of the United Kingdom.: '英国(U.K.)的海外领土。'
+      hardcore-french-guiana:
+        French Guiana: '法属圭亚那(French Guiana)'
+        Overseas department of France.: '法国(France)的海外省份。'
+      hardcore-gibraltar:
+        Overseas territory of the United Kingdom.: '英国(U.K.)的海外领土。'
+      hardcore-gibraltar.fields.field.country:
+        Gibraltar: '直布罗陀(Gibraltar)'
+      hardcore-guadeloupe:
+        Guadeloupe: '瓜德罗普岛(Guadeloupe)'
+        Overseas department of France.: '法国(France)的海外省份。'
+      hardcore-guernsey:
+        Crown dependency of the United Kingdom.: '英国(U.K.)的皇家属地。'
+        Guernsey: '根西岛(Guernsey)'
+      hardcore-isle-of-man:
+        Crown dependency of the United Kingdom.: '英国(U.K.)的皇家属地。'
+        Isle of Man: '马恩岛(Isle of Man)'
+      hardcore-jersey:
+        Crown dependency of the United Kingdom.: '英国(U.K.)的皇家属地。'
+        Jersey: '泽西岛(Jersey)'
+      hardcore-kaliningrad-oblast:
+        Kaliningrad Oblast: '加里宁格勒州(Kaliningrad Oblast)'
+        'Oblast (administrative region) of the Russian Federation.': '俄罗斯(Russia)联邦州(行政区)。'
+      hardcore-madeira:
+        Autonomous region of Portugal.: '葡萄牙(Portugal)自治区。'
+        Madeira: '马德拉(Madeira)'
+      hardcore-martinique:
+        Martinique: '马提尼克(Martinique)'
+        Overseas department of France.: '法国(France)的海外省份。'
+      hardcore-mayotte:
+        Mayotte: '马约特岛(Mayotte)'
+        Overseas department of France.: '法国(France)的海外省份。'
+      hardcore-northern-mariana-islands:
+        Northern Mariana Islands: '北马里亚纳群岛(Northern Mariana Islands)'
+        Unincorporated territory of the United States.: '美国(U.S.)无建制属地。'
+      hardcore-r-union:
+        Overseas department of France.: '法国(France)的海外省份。'
+        'Réunion': '留尼汪岛(Réunion)'
+      hardcore-saint-martin:
+        Overseas territory of France.: '法国(France)的海外领土。'
+        Saint Martin: '圣马丁(Saint Martin)'
+      hardcore-sardinia:
+        Autonomous region of Italy.: '意大利(Italy)自治区。'
+        Sardinia: '撒丁岛(Sardinia)'
+      hardcore-sicily:
+        Autonomous region of Italy.: '意大利(Italy)自治区。'
+        Sicily: '西西里岛(Sicily)'
+      hardcore-sint-maarten:
+        Constituent country of the Kingdom of the Netherlands.: '荷兰(Netherlands)的一部分。'
+        Sint Maarten: '圣马丁岛(Sint Maarten)'
+      hardcore-turks-and-caicos-islands:
+        Overseas territory of the United Kingdom.: '英国(U.K.)的海外领土。'
+        Turks and Caicos Islands: '特克斯和凯科斯群岛(Turks and Caicos Islands)'
+      hardcore-zanzibar:
+        Semi-autonomous region of Tanzania.: '坦桑尼亚(Tanzania)的半自治区。'
+        Zanzibar: '桑给巴尔(Zanzibar)'
+      montserrat:
+        Overseas territory of the United Kingdom.: '英国(U.K.)的海外领土。'
+      norfolk-island:
+        Kingston: '金斯敦(Kingston)'
+        Not a sovereign country: '不是主权国家'
+      pitcairn-islands:
+        Overseas territory of the United Kingdom.: '英国(U.K.)的海外领土。'
+      saint-barth-lemy:
+        Overseas territory of France.: '法国(France)的海外领土。'
+      sint-eustatius:
+        Oranjestad: '奥拉涅斯塔德(Oranjestad)'
