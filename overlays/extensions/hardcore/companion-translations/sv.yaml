@@ -1,0 +1,76 @@
+id: overlay.translation.hardcore.companion.sv
+kind: translation
+translations:
+  contextual:
+    notes.note:
+      hardcore-american-samoa:
+        American Samoa: Amerikanska Samoa
+        Unincorporated territory of the United States.: 'Amerikanskt icke-inkorporerat område.'
+      hardcore-anguilla:
+        Overseas territory of the United Kingdom.: Brittiskt utomeuropeiskt territorium.
+      hardcore-azores:
+        Autonomous region of Portugal.: 'Portugisisk autonom ögrupp.'
+        Azores: Azorerna
+      hardcore-bali:
+        Island of Indonesia.: 'Ö i Indonesien.'
+      hardcore-bermuda:
+        Overseas territory of the United Kingdom.: Brittiskt utomeuropeiskt territorium.
+      hardcore-british-virgin-islands:
+        British Virgin Islands: 'Brittiska Jungfruöarna'
+        Overseas territory of the United Kingdom.: Brittiskt utomeuropeiskt territorium.
+      hardcore-canary-islands:
+        Autonomous community of Spain.: Spansk autonom region.
+        Canary Islands: 'Kanarieöarna'
+      hardcore-cayman-islands:
+        Cayman Islands: 'Caymanöarna'
+        Overseas territory of the United Kingdom.: Brittiskt utomeuropeiskt territorium.
+      hardcore-corsica:
+        Corsica: Korsika
+        Region of France.: Fransk region.
+      hardcore-falkland-islands:
+        Falkland Islands: 'Falklandsöarna'
+        Overseas territory of the United Kingdom.: Brittiskt utomeuropeiskt territorium.
+      hardcore-french-guiana:
+        French Guiana: Franska Guyana
+        Overseas department of France.: Franskt utomeuropeiskt departement.
+      hardcore-gibraltar:
+        Overseas territory of the United Kingdom.: Brittiskt  territorium.
+      hardcore-guadeloupe:
+        Overseas department of France.: Utomeuropeiskt franskt departement.
+      hardcore-guernsey:
+        Crown dependency of the United Kingdom.: Brittisk kronbesittning.
+      hardcore-isle-of-man:
+        Crown dependency of the United Kingdom.: Brittisk kronbesittning.
+      hardcore-jersey:
+        Crown dependency of the United Kingdom.: Brittisk kronbesittning.
+      hardcore-kaliningrad-oblast:
+        Kaliningrad Oblast: Kaliningrad oblast
+        'Oblast (administrative region) of the Russian Federation.': 'Även känt som Ryska Östpreussen.'
+      hardcore-madeira:
+        Autonomous region of Portugal.: Portugisisk autonom region.
+      hardcore-martinique:
+        Overseas department of France.: Franskt utomeuropeiskt departement.
+      hardcore-mayotte:
+        Overseas department of France.: Franskt utomeuropeiskt departement.
+      hardcore-northern-mariana-islands:
+        Northern Mariana Islands: Nordmarianerna
+        Unincorporated territory of the United States.: 'Amerikanskt icke-inkorporerat område.'
+      hardcore-r-union:
+        Overseas department of France.: Franskt utomeuropeiskt departement.
+      hardcore-saint-martin:
+        Overseas territory of France.: 'Franskt utomeuropeiskt område.'
+      hardcore-sardinia:
+        Autonomous region of Italy.: Italiensk autonom region.
+        Sardinia: Sardinien
+      hardcore-sicily:
+        Autonomous region of Italy.: Italiensk autonom region.
+        Sicily: Sicilien
+      hardcore-sint-maarten:
+        Constituent country of the Kingdom of the Netherlands.: 'Ett av fyra länder som utgör staten Nederländerna.'
+      hardcore-turks-and-caicos-islands:
+        Overseas territory of the United Kingdom.: Brittiskt utomeuropeiskt territorium.
+        Turks and Caicos Islands: 'Turks- och Caicosöarna'
+      hardcore-zanzibar:
+        Semi-autonomous region of Tanzania.: 'Delvis självstyrande örike i union med Tanzania.'
+      norfolk-island:
+        Not a sovereign country: 'Ej suverän stat'

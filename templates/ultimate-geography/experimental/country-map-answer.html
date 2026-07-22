@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="_ug-jsvectormap.min.css" data-nn-media-src="_ug-jsvectormap.min.css">
+<div class="value value--top">{{Country}}</div>
+{{#Country info}}<div class="info">{{Country info}}</div>{{/Country info}}
+
+<hr id=answer>
+
+<div class="type">${label.location}</div>
+<div id="map" class="value value--map" style="display: none"></div>
+<div class="value value--image">{{Map}}</div>
+
+<script src="_ug-jsvectormap.js"></script>
+<script src="_ug-world.js"></script>
+<script src="_ug-interactive_map_config.js"></script>
+<script src="_ug-interactive_map_init.js"
+        data-card-side="answer" data-region-code="{{Region code}}"></script>

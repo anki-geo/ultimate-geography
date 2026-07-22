@@ -1,0 +1,81 @@
+id: overlay.translation.hardcore.companion.fr
+kind: translation
+translations:
+  contextual:
+    notes.note:
+      hardcore-american-samoa:
+        American Samoa: 'Samoa américaines'
+        Unincorporated territory of the United States.: 'Territoire non incorporé des États-Unis.'
+      hardcore-anguilla:
+        Overseas territory of the United Kingdom.: 'Territoire britannique d''outre-mer.'
+      hardcore-azores:
+        Autonomous region of Portugal.: 'Région autonome du Portugal.'
+        Azores: 'Açores'
+      hardcore-bali:
+        Island of Indonesia.: 'Île d''Indonésie.'
+      hardcore-bermuda:
+        Bermuda: Bermudes
+        Overseas territory of the United Kingdom.: 'Territoire britannique d''outre-mer.'
+      hardcore-british-virgin-islands:
+        British Virgin Islands: 'Îles Vierges britanniques'
+        Overseas territory of the United Kingdom.: 'Territoire britannique d''outre-mer.'
+      hardcore-canary-islands:
+        Autonomous community of Spain.: 'Communauté autonome d''Espagne.'
+        Canary Islands: 'Îles Canaries'
+      hardcore-cayman-islands:
+        Cayman Islands: 'Îles Caïmans'
+        Overseas territory of the United Kingdom.: 'Territoire britannique d''outre-mer.'
+      hardcore-corsica:
+        Corsica: Corse
+        Region of France.: 'Région française.'
+      hardcore-falkland-islands:
+        Falkland Islands: 'Îles Malouines'
+        Overseas territory of the United Kingdom.: 'Territoire britannique d''outre-mer.'
+      hardcore-french-guiana:
+        French Guiana: Guyane
+        Overseas department of France.: 'Département français d''outre-mer.'
+      hardcore-gibraltar:
+        Overseas territory of the United Kingdom.: 'Territoire britannique d''outre-mer.'
+      hardcore-guadeloupe:
+        Overseas department of France.: 'Département français d''outre-mer.'
+      hardcore-guernsey:
+        Crown dependency of the United Kingdom.: 'Dépendance de la Couronne britannique.'
+        Guernsey: Guernesey
+      hardcore-isle-of-man:
+        Crown dependency of the United Kingdom.: 'Dépendance de la Couronne britannique.'
+        Isle of Man: 'Île de Man'
+      hardcore-jersey:
+        Crown dependency of the United Kingdom.: 'Dépendance de la Couronne britannique.'
+      hardcore-kaliningrad-oblast:
+        Kaliningrad Oblast: Oblast de Kaliningrad
+        'Oblast (administrative region) of the Russian Federation.': 'Oblast (région administrative) de la fédération de Russie.'
+      hardcore-madeira:
+        Autonomous region of Portugal.: 'Région autonome du Portugal.'
+        Madeira: 'Madère'
+      hardcore-martinique:
+        Overseas department of France.: 'Département français d''outre-mer.'
+      hardcore-mayotte:
+        Overseas department of France.: 'Département français d''outre-mer.'
+      hardcore-northern-mariana-islands:
+        Northern Mariana Islands: 'Îles Mariannes du Nord'
+        Unincorporated territory of the United States.: 'Territoire non incorporé des États-Unis.'
+      hardcore-r-union:
+        Overseas department of France.: 'Département français d''outre-mer.'
+        'Réunion': 'La Réunion'
+      hardcore-saint-martin:
+        Overseas territory of France.: 'Collectivité française d''outre-mer.'
+        Saint Martin: 'Saint-Martin (Antilles françaises)'
+      hardcore-sardinia:
+        Autonomous region of Italy.: 'Région d''Italie à statut spécial.'
+        Sardinia: Sardaigne
+      hardcore-sicily:
+        Autonomous region of Italy.: 'Région d''Italie à statut spécial.'
+        Sicily: Sicile
+      hardcore-sint-maarten:
+        Constituent country of the Kingdom of the Netherlands.: 'État autonome du royaume des Pays-Bas.'
+        Sint Maarten: 'Saint-Martin (royaume des Pays-Bas)'
+      hardcore-turks-and-caicos-islands:
+        Overseas territory of the United Kingdom.: 'Territoire britannique d''outre-mer.'
+        Turks and Caicos Islands: 'Îles Turques-et-Caïques'
+      hardcore-zanzibar:
+        Semi-autonomous region of Tanzania.: 'Région autonome de Tanzanie.'

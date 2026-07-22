@@ -6,7 +6,7 @@
 - **59 territories, world regions, and other entities** (103 cards)
 - **48 oceans and seas** (48 cards, maps only)
 - **7 continents** (7 cards, maps only)
-- for a total of **319 unique notes**, **978 cards**, **221 flags** and **319 maps**.
+- for a total of **321 unique notes**, **980 cards**, **221 flags** and **321 maps**.
 
 The deck is available in **English**, **German**, **Spanish**, **French**, **Norwegian Bokmål**, **Czech**, **Russian**, **Dutch**, **Swedish**, **Portuguese**, **Chinese** (simplified and traditional), **Polish**, **Italian**, **Danish** and **Hebrew**.
 
@@ -23,17 +23,16 @@ The deck is available in **English**, **German**, **Spanish**, **French**, **Nor
   - [Keeping deck customisations](#keeping-deck-customisations)
   - [Major version](#major-version)
 - [**How to**](#how-to)
-  - [Level up from standard to extended (or to experimental)](#level-up-from-standard-to-extended-or-to-experimental)
+  - [Level up from standard to extended](#level-up-from-standard-to-extended)
   - [Install two languages in parallel](#install-two-languages-in-parallel)
 - [**Deck structure**](#deck-structure)
 - [**Customising the deck**](#customising-the-deck)
   - [Changes that are or can be preserved](#changes-that-are-or-can-be-preserved-)
   - [Changes that get reverted](#changes-that-get-reverted-)
-  - [Changes that prevent upgrading](#changes-that-prevent-upgrading-)
 
 ## Features
 
-The standard version of the deck comes with four note templates: _Country - Capital_, _Capital - Country_, _Flag - Country_, and _Map - Country_. An **extended version** is also available, with two additional note templates: _Country - Flag_ and _Country - Map_. The [experimental version](https://github.com/anki-geo/ultimate-geography/wiki/Experimental-extended-deck) is a clone of extended version except it also provides interactivity for the _Country - Map_ note template.
+The standard version of the deck comes with four note templates: _Country - Capital_, _Capital - Country_, _Flag - Country_, and _Map - Country_. An **extended version** is also available, with two additional note templates: _Country - Flag_ and _Country - Map_. The [experimental version](https://github.com/anki-geo/ultimate-geography/wiki/Experimental-extended-deck) is a clone of the extended version that adds interactivity to the _Country - Map_ note template.
 
 <table>
   <tr><th scope="col" colspan="2">Flag - Country</th></tr>
@@ -107,7 +106,7 @@ In order to install and later upgrade _Ultimate Geography_, you'll need to first
 You're now ready to install _Ultimate Geography_:
 
 1. Go to the **[_Releases_ page](https://github.com/anki-geo/ultimate-geography/releases)**.
-1. In the latest release's _Assets_ section, download the ZIP archive of the version of the deck you'd like to use. You can choose between [a standard, extended and experimental version](#features) in a number of [languages](#ultimate-geography) -- for instance, if you're after the standard German deck, download `Ultimate_Geography_v[...]_DE.zip`.
+1. In the latest release's _Assets_ section, download the ZIP archive of the version of the deck you'd like to use. You can choose between [a standard and extended version](#features) in a number of [languages](#ultimate-geography) -- for instance, if you're after the standard German deck, download `Ultimate_Geography_v[...]_DE.zip`.
 1. Extract the content of the archive on your computer.
 1. Open Anki and make sure your devices are all synchronised.
 1. Create [a manual backup](https://docs.ankiweb.net/backups.html#creating) via _File -> Create Backup_ in case something goes wrong.
@@ -152,7 +151,7 @@ The [release notes](https://github.com/anki-geo/ultimate-geography/releases) and
 
 ## How to
 
-### Level up from standard to extended (or to experimental)
+### Level up from standard to extended
 
 Importing an extended deck on top of a standard deck is tricky and needs care. You may instead consider learning the extended deck from scratch. To do so, either:
 
@@ -290,9 +289,9 @@ The changes listed below will be lost the next time you upgrade and there's no o
 
   We strongly recommend backing up your deck before upgrading in this case — in some very old Anki versions, importing after having added a new field may cause an error and you risk losing your entire progress.
 
-  Hopefully Anki, CrowdAnki, Brain Brew, and UG will [one day](https://github.com/ohare93/brain-brew/issues/4#issuecomment-644975261) find a way to make this easily possible.
+  Hopefully Anki, CrowdAnki, Brain Brew, and UG will one day make this easily possible.
 
-  > If you really know what you're doing, you could try exporting your deck with CrowdAnki, carefully merging the JSON file of the new version of the deck into your exported deck's JSON file, and then importing your deck back into Anki ... but if you're capable of this, your skills would be put to much better use contributing to [CrowdAnki](https://github.com/Stvad/CrowdAnki) and [Brain Brew](https://github.com/ohare93/brain-brew/)! 😁
+  > If you really know what you're doing, you could try exporting your deck with CrowdAnki, carefully merging the JSON file of the new version of the deck into your exported deck's JSON file, and then importing your deck back into Anki ... but if you're capable of this, your skills would be put to much better use contributing to [CrowdAnki](https://github.com/Stvad/CrowdAnki) and [Brain Brew](https://github.com/jeprecated/brain-brew)! 😁
 
 ### Sources of customisation ⛲
 

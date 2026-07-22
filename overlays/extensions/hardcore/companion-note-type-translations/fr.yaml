@@ -1,0 +1,19 @@
+id: overlay.translation.hardcore.companion-note-type.fr
+kind: translation
+translations:
+  variables:
+    label.capital:
+      Capital: Capitale
+    label.capital-hint.answer:
+      'Hint: {{Capital hint}}': 'Indice : {{Capital hint}}'
+    label.flag:
+      Flag: Drapeau
+    label.location:
+      Location: Emplacement
+    note-type.name:
+      Ultimate Geography: 'Ultimate Geography [FR]'
+    sentence.flag-similar:
+      'Flag similar to {{Flag similarity}}.': 'Drapeau similaire à : {{Flag similarity}}.'
+  adapter_ids:
+    crowdanki:uuid:
+      43e2586a-9a65-11e8-a777-a0481cc15658: fd72d808-58d4-43ea-97db-24196747f24c

@@ -1,0 +1,79 @@
+deck:
+  id: deck.hardcore-geography
+  name: Hardcore Geography
+  description: !include descriptions/hardcore-geography/en.html
+  adapter_ids:
+    crowdanki:deck_config_name: Ultimate Geography
+    crowdanki:deck_config_uuid: 43d37fac-9a65-11e8-9cc5-a0481cc15658
+    crowdanki:uuid: 17a30e4f-2229-4ccc-8a6c-7d1ee559ce51
+note_types:
+  note-type.ultimate-geography:
+    name: '${note-type.name}${variant.name-suffix}'
+    variables:
+      label.capital: Capital
+      label.capital-hint.answer: 'Hint: {{Capital hint}}'
+      label.capital-hint.question: 'Hint: {{Capital hint}}'
+      label.flag: Flag
+      label.location: Location
+      note-type.name: Ultimate Geography
+      sentence.flag-similar: 'Flag similar to {{Flag similarity}}.'
+      text.direction: ltr
+      variant.name-suffix: ''
+    field_order:
+      - field.country
+      - field.country-info
+      - field.capital
+      - field.capital-info
+      - field.capital-hint
+      - field.flag
+      - field.flag-similarity
+      - field.map
+    fields:
+      field.capital:
+        name: Capital
+      field.capital-hint:
+        name: Capital hint
+      field.capital-info:
+        name: Capital info
+      field.country:
+        name: Country
+      field.country-info:
+        name: Country info
+      field.flag:
+        name: Flag
+      field.flag-similarity:
+        name: Flag similarity
+      field.map:
+        name: Map
+    card_template_order:
+      - template.country-capital
+      - template.capital-country
+      - template.flag-country
+      - template.map-country
+    card_templates:
+      template.capital-country:
+        name: Capital - Country
+        question_format: !include templates/ultimate-geography/capital-country/question.html
+        answer_format: !include templates/ultimate-geography/capital-country/answer.html
+        adapter_ids: {}
+      template.country-capital:
+        name: Country - Capital
+        question_format: !include templates/ultimate-geography/country-capital/question.html
+        answer_format: !include templates/ultimate-geography/country-capital/answer.html
+        adapter_ids: {}
+      template.flag-country:
+        name: Flag - Country
+        question_format: !include templates/ultimate-geography/flag-country/question.html
+        answer_format: !include templates/ultimate-geography/flag-country/answer.html
+        adapter_ids: {}
+      template.map-country:
+        name: Map - Country
+        question_format: !include templates/ultimate-geography/map-country/question.html
+        answer_format: !include templates/ultimate-geography/map-country/answer.html
+        adapter_ids: {}
+    styling: !include styles/ultimate-geography/card.css
+    adapter_ids:
+      crowdanki:uuid: 43e2586a-9a65-11e8-a777-a0481cc15658
+notes: {}
+media: {}
+tombstones: []

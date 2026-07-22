@@ -1,0 +1,19 @@
+id: overlay.translation.hardcore.companion-note-type.it
+kind: translation
+translations:
+  variables:
+    label.capital:
+      Capital: Capitale
+    label.capital-hint.answer:
+      'Hint: {{Capital hint}}': 'Suggerimento: {{Capital hint}}'
+    label.flag:
+      Flag: Bandiera
+    label.location:
+      Location: Posizione
+    note-type.name:
+      Ultimate Geography: 'Ultimate Geography [IT]'
+    sentence.flag-similar:
+      'Flag similar to {{Flag similarity}}.': 'Bandiera simile a: {{Flag similarity}}.'
+  adapter_ids:
+    crowdanki:uuid:
+      43e2586a-9a65-11e8-a777-a0481cc15658: cd65a274-7341-4e72-8de5-5d3d83ea4537

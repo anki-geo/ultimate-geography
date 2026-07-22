@@ -1,0 +1,101 @@
+id: overlay.translation.hardcore.nb
+kind: translation
+translations:
+  direct:
+    slightly lighter blue: 'noe lysere blå'
+  contextual:
+    notes.note:
+      bonaire:
+        Special municipality of the Netherlands.: Kommune med spesiell status i Nederland.
+      british-indian-ocean-territory:
+        British Indian Ocean Territory: Det britiske territoriet i Indiahavet
+        Overseas territory of the United Kingdom.: Britisk besittelse.
+      ceuta:
+        Autonomous city of Spain.: Selvstyrt by i Spania.
+      christmas-island:
+        Christmas Island: 'Christmasøya'
+        External territory of Australia.: 'Australsk territorium. '
+      cocos-keeling-islands:
+        'Cocos (Keeling) Islands': 'Kokosøyene'
+        External territory of Australia.: Australsk territorium.
+      easter-island:
+        Easter Island: 'Påskeøya'
+        Polynesian island and special territory of Chile.: Territorium i Chile.
+      gal-pagos-islands:
+        'Galápagos Islands': 'Galápagosøyene'
+        Province of Ecuador.: Region i Ecuador.
+      melilla:
+        Autonomous city of Spain: 'Spansk by og enklave på Marokkos middelhavskyst.'
+      montserrat:
+        Eruptions in 1997 destroyed the capital city of Plymouth, making Brades the de facto capital.: 'Vulkanutbrudd i 1997 ødela hovedstaden Plymouth, og Brades ble de facto hovedstad.'
+        Overseas territory of the United Kingdom.: 'Britisk oversjøisk territorium i Karibia.'
+      mount-athos:
+        Autonomous orthodox monastic state in northeastern Greece, also known as the Holy Mountain.: 'Autonom munkerepublikk i Nord-Hellas. Også kalt Det hellige berget.'
+        Mount Athos: Athos
+      norfolk-island:
+        External territory of Australia.: Selvstyrt australsk territorium.
+        Norfolk Island: 'Norfolkøya'
+        Not a sovereign country: Ikke selvstendig land
+      pitcairn-islands:
+        Overseas territory of the United Kingdom.: 'Oversjøisk britisk territorium.'
+        Pitcairn Islands: 'Pitcairnøyene'
+      saba:
+        Special municipality of the Netherlands.: 'Kommune med særstatus i Nederland. Øy i Karibia.'
+      saint-barth-lemy:
+        Overseas territory of France.: 'Fransk oversjøisk land.'
+        'Saint Barthélemy': 'Saint-Barthélemy'
+      saint-helena:
+        Part of Saint Helena, Ascension and Tristan da Cunha, an overseas territory of the United Kingdom.: 'Del av det britiske oversjøiske territoriet Sankt Helena, Ascencion og Tristan da Cunha.'
+        Saint Helena: Sankt Helena
+      sint-eustatius:
+        Special municipality: 'Kommune med særstatus'
+        Special municipality of the Netherlands.: 'Kommune med særstatus i Nederland.'
+      tokelau:
+        'Dependent territory of New Zealand. Tokelau has no official capital; the meeting place of the Tokelau Council rotates annually.': Newzealandsk territorium.
+  adapter_ids:
+    crowdanki:guid:
+      ',LnVW8IL`': 'd;]TF&Of]P'
+      '2N$NqX&k.': 'Etu0#<y|;N'
+      'ArmciP%a;a': 'MbG/JnL:&+'
+      'UkP!tU%r)': pDHtACkMZ5
+      'a_~PL,CWhU': 'zLdpn-ke^j'
+      'b&sLa#a&vn': 'w$T-HDx>_B'
+      'cB]XeL7sC?': 'ph}*g=AiTQ'
+      'cy]sz097{A': 'tV!EfvE}o3'
+      'd~3m`ihA*b': 'r7?UN(TOGN'
+      'e%!;xc:jxC': 'Kf-|=_()R#'
+      'e1zOyx7^cj': 'ds`^=Q4VN/'
+      'fKTU=+DKl]': 'QVv{iR4%XD'
+      'ga97y4Zy0{': 'P`s}X]%%n.'
+      'h/)!YCH&na': 'H+WG46k$u-'
+      'hz,n^64X%i': 'm]OtOn2N[9'
+      'i;=jdbhl(w': 'jIz>`|hUIr'
+      'iq7o#n0juD': 'DW#h,Zuo@q'
+      'j=,1:f39$]': 'zi5;ldYAqH'
+      'k3]]2^DP1R': EnAv,,VVPR
+      'khTp#J9C!!': 'plI1yB<kX('
+      'kq:]$sh13[': 'vmO9MS>)do'
+      'lIEV|(|pPu': Oc_vgDnvsH
+      'lU*>%[&e|.': 'm@pf)8KPHZ'
+      'mCh>s18~IX': 'v<aG9C*T)T'
+      'mHDrx]xo!x': efzTUThyDA
+      mvNnHkGnVl: 'j!<I^LCcV7'
+      'n#k%mr&bc-': 'Gmpd3wdFV+'
+      'nK;HFcd-1P': 'K#P3RtqiT<'
+      'nN<IGBxnX.': 'pXa@D`R4/-'
+      'nipI.lOoC;': 'mmyl~NieUk'
+      oDGbPPlkzc: 'zVJo7y.|Nk'
+      ogLVp1-2mC: 'x{N/d8-K_s'
+      'qAsU}ONgC#': 'K`qJAIkCz8'
+      'r3?J{NB0J3': dPRe6jU4Xj
+      'rHh8*,y.yc': 'h.6pb4:Q?D'
+      'rNv|0qxR]K': yAT,9Ztyyn
+      'r]V9W,sj5i': 'p*Uv+0}n@J'
+      'rbjYQCA<Z.': 'bx?lcGtaqk'
+      'sxF2<dV=;U': 'vzY{_hk6MW'
+      t3VhRfcBZs: 'G~TC}&8oYq'
+      't8K|Gnw[k$': 'D]D8_4ZHSz'
+      'v2Z)BIAnoM': 'JI+%@7,$EI'
+      '~)7-62ytBX': 'B?Tc@+MK0s'
+      '~F>Y6gVJay': JZ-nO89mzW
+      '~Z$*giAq2R': 'ja]8+Vk7n~'

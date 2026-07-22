@@ -1,0 +1,75 @@
+id: overlay.translation.hardcore.companion.nb
+kind: translation
+translations:
+  contextual:
+    notes.note:
+      hardcore-american-samoa:
+        American Samoa: Amerikansk Samoa
+        Unincorporated territory of the United States.: Uinnlemmet territorium i USA.
+      hardcore-anguilla:
+        Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
+      hardcore-azores:
+        Autonomous region of Portugal.: Selvstyrt region i Portugal.
+        Azores: Asorene
+      hardcore-bali:
+        Island of Indonesia.: 'Øy i Indonesia.'
+      hardcore-bermuda:
+        Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium.'
+      hardcore-british-virgin-islands:
+        British Virgin Islands: 'De britiske Jomfruøyer'
+        Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
+      hardcore-canary-islands:
+        Autonomous community of Spain.: 'Selvstyrt område i Spania.'
+        Canary Islands: 'Kanariøyene'
+      hardcore-cayman-islands:
+        Cayman Islands: 'Caymanøyene'
+        Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
+      hardcore-corsica:
+        Corsica: Korsika
+        Region of France.: Fransk region.
+      hardcore-falkland-islands:
+        Falkland Islands: 'Falklandsøyene'
+        Overseas territory of the United Kingdom.: 'Britisk øygruppe.'
+      hardcore-french-guiana:
+        French Guiana: Fransk Guyana
+        Overseas department of France.: 'Fransk oversjøisk departement og del av EU.'
+      hardcore-gibraltar:
+        Overseas territory of the United Kingdom.: Britisk kronkoloni.
+      hardcore-guadeloupe:
+        Overseas department of France.: 'Fransk oversjøisk departement.'
+      hardcore-guernsey:
+        Crown dependency of the United Kingdom.: 'Kanaløy underlagt britisk kronbesittelse.'
+      hardcore-isle-of-man:
+        Crown dependency of the United Kingdom.: 'Også kalt Isle of Man. Kanaløy underlagt britisk kronbesittelse. Hverken del av Storbritannia eller EU.'
+        Isle of Man: Man
+      hardcore-jersey:
+        Crown dependency of the United Kingdom.: 'Kanaløy underlagt britisk kronbesittelse.'
+      hardcore-kaliningrad-oblast:
+        Kaliningrad Oblast: Kaliningrad oblast
+        'Oblast (administrative region) of the Russian Federation.': 'Oblast (administrativt distrikt) i Russland.'
+      hardcore-madeira:
+        Autonomous region of Portugal.: Selvstyrt region i Portugal.
+      hardcore-martinique:
+        Overseas department of France.: 'Fransk oversjøisk departement.'
+      hardcore-mayotte:
+        Overseas department of France.: 'Fransk oversjøisk territorium.'
+      hardcore-northern-mariana-islands:
+        Northern Mariana Islands: Nord-Marianene
+        Unincorporated territory of the United States.: Uinnlemmet territorium i USA.
+      hardcore-r-union:
+        Overseas department of France.: 'Fransk oversjøisk departement.'
+      hardcore-saint-martin:
+        Overseas territory of France.: 'Fransk oversjøisk land.'
+        Saint Martin: Saint-Martin
+      hardcore-sardinia:
+        Autonomous region of Italy.: Delvis selvstyrt region i Italia.
+      hardcore-sicily:
+        Autonomous region of Italy.: Delvis selvstyrt region i Italia.
+        Sicily: Sicilia
+      hardcore-sint-maarten:
+        Constituent country of the Kingdom of the Netherlands.: '«Land» som sammen med Nederland, Curaçao og Aruba utgjør føderasjonen Kongeriket Nederlandene.'
+      hardcore-turks-and-caicos-islands:
+        Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
+        Turks and Caicos Islands: 'Turks- og Caicosøyene'
+      hardcore-zanzibar:
+        Semi-autonomous region of Tanzania.: Delvis selvstendig stat i Tanzania.

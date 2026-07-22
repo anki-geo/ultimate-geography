@@ -1,0 +1,19 @@
+id: overlay.translation.hardcore.companion-note-type.cs
+kind: translation
+translations:
+  variables:
+    label.capital:
+      Capital: 'Hlavní město'
+    label.capital-hint.answer:
+      'Hint: {{Capital hint}}': 'Náznak: {{Capital hint}}'
+    label.flag:
+      Flag: Vlajka
+    label.location:
+      Location: Poloha
+    note-type.name:
+      Ultimate Geography: 'Ultimate Geography [CS]'
+    sentence.flag-similar:
+      'Flag similar to {{Flag similarity}}.': 'Vlajka podobná jako {{Flag similarity}}.'
+  adapter_ids:
+    crowdanki:uuid:
+      43e2586a-9a65-11e8-a777-a0481cc15658: 47d13c81-b471-4471-8e87-ebad53fa7307
