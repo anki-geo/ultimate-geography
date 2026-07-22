@@ -4778,6 +4778,36 @@ notes:
       - UG::Sovereign_State
     adapter_ids:
       crowdanki:guid: 'g9v~y/;=z('
+  note.strait-of-hormuz:
+    note_type_id: note-type.ultimate-geography
+    fields:
+      field.capital: ''
+      field.capital-hint: ''
+      field.capital-info: ''
+      field.country: Strait of Hormuz
+      field.country-info: ''
+      field.flag: ''
+      field.flag-similarity: ''
+      field.map: !image media.ug-map-strait-of-hormuz-png
+    tags:
+      - 'UG::Oceans+Seas'
+    adapter_ids:
+      crowdanki:guid: 'FIhQ/[6AZB'
+  note.strait-of-malacca:
+    note_type_id: note-type.ultimate-geography
+    fields:
+      field.capital: ''
+      field.capital-hint: ''
+      field.capital-info: ''
+      field.country: Strait of Malacca
+      field.country-info: ''
+      field.flag: ''
+      field.flag-similarity: ''
+      field.map: !image media.ug-map-strait-of-malacca-png
+    tags:
+      - 'UG::Oceans+Seas'
+    adapter_ids:
+      crowdanki:guid: 'K4>1fnrM;@'
   note.sudan:
     note_type_id: note-type.ultimate-geography
     fields:

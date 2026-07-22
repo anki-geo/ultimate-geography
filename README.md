@@ -6,7 +6,7 @@
 - **59 territories, world regions, and other entities** (103 cards)
 - **48 oceans and seas** (48 cards, maps only)
 - **7 continents** (7 cards, maps only)
-- for a total of **319 unique notes**, **978 cards**, **221 flags** and **319 maps**.
+- for a total of **321 unique notes**, **980 cards**, **221 flags** and **321 maps**.
 
 The deck is available in **English**, **German**, **Spanish**, **French**, **Norwegian Bokmål**, **Czech**, **Russian**, **Dutch**, **Swedish**, **Portuguese**, **Chinese** (simplified and traditional), **Polish**, **Italian**, **Danish** and **Hebrew**.
 

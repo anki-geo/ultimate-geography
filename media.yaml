@@ -1501,6 +1501,12 @@ media.ug-map-spain-png:
 media.ug-map-sri-lanka-png:
   path: ug-map-sri_lanka.png
   sha256: 5a6ff8f51e8442340e3e82b264f70066756db3bcf9ae39e9572887a9771b56b1
+media.ug-map-strait-of-hormuz-png:
+  path: ug-map-strait_of_hormuz.png
+  sha256: dcbb93119404e07d0a2aef6190dd5917a13db19e3d5a880e498547577d0edf41
+media.ug-map-strait-of-malacca-png:
+  path: ug-map-strait_of_malacca.png
+  sha256: a5f421802d0f8e8f1cd38577a9b8331beb2adb937e7fbe5e07f11a937803b2c7
 media.ug-map-sudan-png:
   path: ug-map-sudan.png
   sha256: a2d8c4b441c3007d99423f024c19b998fd8a01d98f48e756b1129eb2349f99fd

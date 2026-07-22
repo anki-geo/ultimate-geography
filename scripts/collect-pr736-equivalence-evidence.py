@@ -16,6 +16,7 @@ import hashlib
 import html
 import json
 import os
+import re
 import shlex
 import shutil
 import subprocess
@@ -41,9 +42,9 @@ PINNED_BRAINBREW_COMMAND = (
     f"nix run github:jeprecated/brain-brew/{PINNED_BRAINBREW_REVISION} --"
 )
 
-UG_REVISION = "fee657631c04684b69861465827c1c09a58e893b"
+UG_REVISION = "e1fd85184e70f32650b67b750c44c4b0588c79dd"
 UG_ARCHIVE_URL = f"https://github.com/anki-geo/ultimate-geography/archive/{UG_REVISION}.tar.gz"
-UG_ARCHIVE_SHA256 = "87e152ced4e22b73e87cd42d8e4dee24d0cfefa857a6e1fa3cd178c76241fcfa"
+UG_ARCHIVE_SHA256 = "51d58a407d5af1c471feee2029953b729f70d47a71829445cc48519fc3615322"
 HG_REVISION = "09ce7c3ba665eac6b0794d089a4e0bbafbfc0f46"
 HG_ARCHIVE_URL = f"https://github.com/anki-geo/hardcore-geography/archive/{HG_REVISION}.tar.gz"
 HG_ARCHIVE_SHA256 = "3889265eaf3b455808b80892747098c64d5fe0551f2d3ba392c561a64df206d0"
@@ -471,7 +472,11 @@ def notes_by_guid(deck: dict) -> dict[str, dict]:
     return notes
 
 
-def card_count(deck: dict, notes: Iterable[dict] | None = None) -> int:
+def card_count(
+    deck: dict,
+    notes: Iterable[dict] | None = None,
+    excluded_templates: frozenset[str] = frozenset(),
+) -> int:
     models = models_by_uuid(deck)
     count = 0
     for note in notes if notes is not None else meaningful_notes(deck):
@@ -482,6 +487,8 @@ def card_count(deck: dict, notes: Iterable[dict] | None = None) -> int:
             for index, name in enumerate(names)
         }
         for template in model.get("tmpls", []):
+            if template.get("name") in excluded_templates:
+                continue
             conditions = []
             source = template.get("qfmt", "")
             start = 0
@@ -501,6 +508,25 @@ def card_count(deck: dict, notes: Iterable[dict] | None = None) -> int:
 
 def deck_metadata(deck: dict) -> dict[str, object]:
     return {key: deck.get(key) for key in DECK_METADATA_KEYS}
+
+
+def require_ug_metadata_with_current_counts(old: dict, new: dict, context: str) -> tuple[int, int, int, int]:
+    old_meta = deck_metadata(old)
+    new_meta = deck_metadata(new)
+    old_desc = old_meta.pop("desc")
+    new_desc = new_meta.pop("desc")
+    require(old_meta == new_meta, f"{context}: deck metadata/identity changed")
+    old_notes = len(meaningful_notes(old))
+    old_cards = card_count(old, excluded_templates=frozenset({"Country - Flag", "Country - Map"}))
+    bold_counts = [int(value) for value in re.findall(r"<b>(\d+)", old_desc)]
+    repeated_counts = [value for value in set(bold_counts) if bold_counts.count(value) > 1]
+    require(repeated_counts, f"{context}: could not identify the stale repeated note/map count")
+    stale_notes = max(repeated_counts)
+    stale_cards = max(bold_counts)
+    require(stale_notes != old_notes and stale_cards != old_cards, f"{context}: immutable description counts are no longer stale")
+    expected_desc = old_desc.replace(str(stale_notes), str(old_notes)).replace(str(stale_cards), str(old_cards))
+    require(new_desc == expected_desc, f"{context}: description changed beyond the exact current-count refresh")
+    return (stale_notes, old_notes, stale_cards, old_cards)
 
 
 def compare_note_payloads(old: dict, new: dict) -> dict[str, object]:
@@ -665,7 +691,7 @@ def compare_ug_target(spec: TargetSpec, old_output: Path, new_output: Path) -> d
     new = load_deck(new_output / "deck.json")
     require_blank_note_policy(old, (), f"{spec.target}: immutable UG")
     require_blank_note_policy(new, (), f"{spec.target}: alpha.3 UG")
-    require(deck_metadata(old) == deck_metadata(new), f"{spec.target}: deck metadata/identity/description changed")
+    description_counts = require_ug_metadata_with_current_counts(old, new, spec.target)
     require(old.get("deck_configurations") == new.get("deck_configurations"), f"{spec.target}: deck configuration changed")
     require(len(old["note_models"]) == len(new["note_models"]) == 1, f"{spec.target}: note model count changed")
     model = compare_ug_model(old["note_models"][0], new["note_models"][0], spec.language, spec.target)
@@ -683,6 +709,7 @@ def compare_ug_target(spec: TargetSpec, old_output: Path, new_output: Path) -> d
         classification = "known deferred capital-hint label fallback"
     if spec.target == "en-experimental":
         classification = "PR #733 bytes preserved; explicit stylesheet link added"
+    classification += "; current count metadata refreshed"
     return {
         "spec": spec,
         "old": old,
@@ -690,6 +717,7 @@ def compare_ug_target(spec: TargetSpec, old_output: Path, new_output: Path) -> d
         "notes": notes,
         "model": model,
         "media": new_media,
+        "description_counts": description_counts,
         "classification": classification,
     }
 
@@ -785,7 +813,7 @@ def compare_standalone_target(
         f"{spec.target}: immutable Hardcore source",
     )
     require_blank_note_policy(new, (), f"{spec.target}: alpha.3 standalone")
-    require(deck_metadata(old_ug) == deck_metadata(new), f"{spec.target}: standalone does not preserve UG deck identity/metadata")
+    description_counts = require_ug_metadata_with_current_counts(old_ug, new, spec.target)
     require(old_ug.get("deck_configurations") == new.get("deck_configurations"), f"{spec.target}: standalone deck configuration changed")
     require(len(old_ug["note_models"]) == len(new["note_models"]) == 1, f"{spec.target}: standalone note model count changed")
     model = compare_ug_model(old_ug["note_models"][0], new["note_models"][0], spec.language, spec.target)
@@ -833,7 +861,11 @@ def compare_standalone_target(
         "model": model,
         "media": new_media,
         "overlapping": overlapping_new,
-        "classification": "exact UG identity plus preserved 319+45 GUID/media union",
+        "description_counts": description_counts,
+        "classification": (
+            f"exact UG identity plus preserved {ug_comparison['old_count']}+{hg_comparison['old_count']} "
+            "GUID/media union; current count metadata refreshed"
+        ),
     }
 
 
@@ -902,7 +934,16 @@ def write_report(
         if result["model"]["pr733_links"]:
             template += "; explicit jsVectorMap stylesheet link"
         surface_rows.append(
-            [spec.target, "exact", "exact", schema, template, "exact by GUID/field order/tag set", "exact", "exact names + SHA-256"]
+            [
+                spec.target,
+                "exact except current description counts",
+                "exact",
+                schema,
+                template,
+                "exact by GUID/field order/tag set",
+                "exact current-count refresh",
+                "exact names + SHA-256",
+            ]
         )
 
     for result in companion_results:
@@ -953,12 +994,13 @@ def write_report(
         surface_rows.append(
             [
                 spec.target,
-                "immutable UG deck UUID/name/description/config exact",
+                "immutable UG deck UUID/name/config exact; description counts refreshed",
                 "immutable UG localized model identity",
                 "UG field order/config; RTL represented in CSS",
                 "current UG direction/card surface; known hint debt where applicable",
-                f"319 UG exact + 45 HG GUIDs; {len(hg_notes['field_diffs'])} classified HG refresh(es); tag membership exact",
-                "immutable UG description exact",
+                f"{ug_notes['old_count']} UG exact + {hg_notes['old_count']} HG GUIDs; "
+                f"{len(hg_notes['field_diffs'])} classified HG refresh(es); tag membership exact",
+                "exact current-count refresh of immutable UG description",
                 "byte-exact collision-free union",
             ]
         )
@@ -998,6 +1040,12 @@ def write_report(
     ]
     old_dependencies = ", ".join(f"`{name}=={version}`" for name, version in OLD_PYTHON_DEPENDENCIES)
     new_command = shlex.join(command)
+    description_counts = ug_results[0]["description_counts"]
+    require(
+        all(result["description_counts"] == description_counts for result in ug_results + standalone_results),
+        "UG current-count description refresh differs between targets",
+    )
+    standalone_reference = next(result for result in standalone_results if result["spec"].language == "en")
     report = f"""# PR 736 migration equivalence evidence
 
 This file is generated by `scripts/collect-pr736-equivalence-evidence.py`. The collector rebuilds independent historical sources, exports this checkout through native alpha.3 includes, compares every declared surface below, and exits nonzero on an unclassified difference.
@@ -1079,6 +1127,10 @@ For every row both raw outputs contain zero blank notes, the companion has exact
 
 ## Classified presentation and content deltas
 
+### Current deck count metadata
+
+The immutable #741 source descriptions still reported {description_counts[0]} notes/maps and {description_counts[2]} cards after adding both straits. The canonical descriptions and README now report the collector-derived current totals of {description_counts[1]} notes/maps and {description_counts[3]} cards. Historical comparisons accept only that exact numeric refresh: deck identity and every other description byte remain exact.
+
 ### Direction representation
 
 The immutable Python outputs wrap every card front/back in `<div dir=\"ltr|rtl\">`. Alpha.2 places the same direction on the card CSS and removes those outer wrappers. Hebrew additionally moves six field-level `rtl: true` flags to `direction: rtl` on the rendered card CSS. Raw schema/template/CSS differences are therefore recorded rather than hidden; note values, GUIDs, model identity, descriptions, deck configuration, and media remain independently compared.
@@ -1089,7 +1141,7 @@ The immutable upstream baseline contains PR #733 and the subsequent PR #735. The
 
 {markdown_table(['Media file', 'Old/new SHA-256'], pr733_rows)}
 
-Alpha.2's external template adds an explicit `_ug-jsvectormap.min.css` link on the Experimental Country–Map front/back; the underlying PR #733 JavaScript and all 551 Experimental media files retain exact names and bytes. The Hebrew historical row independently proves that PR #735's 319 note payloads/GUIDs and full deck description are retained; only the separately classified direction representation changes.
+Alpha.2's external template adds an explicit `_ug-jsvectormap.min.css` link on the Experimental Country–Map front/back; the underlying PR #733 JavaScript and all {len(pr733['media'])} Experimental media files retain exact names and bytes. The Hebrew historical row independently proves that PR #735's {pr733['notes']['old_count']} note payloads/GUIDs are retained; only the separately classified direction representation and current-count description refresh change.
 
 ### Capital-hint localization debt (deferred)
 
@@ -1103,13 +1155,13 @@ The historical comparison initially exposed a real stack-ordering gap: a main-de
 
 ### Hardcore refresh, overlap, and import identity
 
-The old Hardcore generator emits exactly one language-build-specific all-empty note (English `{BLANK_HG_GUIDS['en']}`, German `{BLANK_HG_GUIDS['de']}`). This is the sole permitted historical blank artifact: every old UG input and every new output is explicitly required to have zero blanks. The migration classifies that invalid artifact as the `blank-note-removal` typed delta: all 45 meaningful GUIDs remain and no blank note is exported. Companion deck UUID/name/configuration identity remains exact. English keeps the old/current UG note-model UUID; German intentionally aligns all 45 notes to the immutable German UG model UUID/name so companion import composes with the localized main deck. Standalone exports retain the normal UG deck identity and are proven as the collision-free union of 319 UG GUIDs plus 45 Hardcore GUIDs.
+The old Hardcore generator emits exactly one language-build-specific all-empty note (English `{BLANK_HG_GUIDS['en']}`, German `{BLANK_HG_GUIDS['de']}`). This is the sole permitted historical blank artifact: every old UG input and every new output is explicitly required to have zero blanks. The migration classifies that invalid artifact as the `blank-note-removal` typed delta: all 45 meaningful GUIDs remain and no blank note is exported. Companion deck UUID/name/configuration identity remains exact. English keeps the old/current UG note-model UUID; German intentionally aligns all 45 notes to the immutable German UG model UUID/name so companion import composes with the localized main deck. Standalone exports retain the normal UG deck identity and are proven as the collision-free union of {standalone_reference['ug_notes']['old_count']} UG GUIDs plus {standalone_reference['hg_notes']['old_count']} Hardcore GUIDs.
 
 The revision-bound Hardcore repository is stale relative to the immutable UG baseline. The comparator exact-allowlists the full old/new description SHA-256 pair and every field tuple `(GUID, field index, old value, new value)`; a count-preserving substitution still fails. These are the concrete field refreshes, and standalone exports must match the same tuple allowlist:
 
 {''.join(line + chr(10) for line in hardcore_details).rstrip()}
 
-The strict English/German historical companion and standalone pairs have identical payloads for the same 45 meaningful Hardcore GUIDs while retaining distinct deck identities and exact note-model surfaces. They preserve exact tag membership (including `UG::Overlapping`), and all 56 Hardcore media filenames/bytes. Standalone media is the exact 602-file union of 546 UG and 56 Hardcore assets. The separate current-composition invariant above enforces the corresponding payload/model/identity relationship for every localized language.
+The strict English/German historical companion and standalone pairs have identical payloads for the same {standalone_reference['hg_notes']['old_count']} meaningful Hardcore GUIDs while retaining distinct deck identities and exact note-model surfaces. They preserve exact tag membership (including `UG::Overlapping`), and all {len(next(result for result in companion_results if result['spec'].language == 'en')['media'])} Hardcore media filenames/bytes. Standalone media is the exact {len(standalone_reference['media'])}-file union of {len(next(result for result in ug_results if result['spec'].target == 'en-standard')['media'])} UG and {len(next(result for result in companion_results if result['spec'].language == 'en')['media'])} Hardcore assets. The separate current-composition invariant above enforces the corresponding payload/model/identity relationship for every localized language.
 
 ## Committed parsed-JSON goldens
 
@@ -1135,7 +1187,7 @@ A disposable edit of `goldens/en-standard/deck.json` changed `$.name`; verificat
 
 ## Assessment
 
-Strict native verification covers all 74 main plus 26 companion targets; CI also transactionally exports all 100. The representative historical classes cover source, translation, RTL, CJK, Extended, Experimental, standalone Hardcore, and companion Hardcore, while the separate current-composition invariant covers every localized Hardcore pair. No unknown raw-note/blank artifact, GUID, note-field, tag-membership, deck identity, configuration, description, schema, template/CSS, or media-byte delta is accepted by this collector. The only non-exact historical surfaces are explicitly classified above: direction representation, the explicit Experimental stylesheet link with PR #733 bytes preserved, the corrected localized-standalone stack, exact-allowlisted stale old-Hardcore refreshes and blank artifact removal, and the deferred capital-hint label fallback.
+Strict native verification covers all 74 main plus 26 companion targets; CI also transactionally exports all 100. The representative historical classes cover source, translation, RTL, CJK, Extended, Experimental, standalone Hardcore, and companion Hardcore, while the separate current-composition invariant covers every localized Hardcore pair. No unknown raw-note/blank artifact, GUID, note-field, tag-membership, deck identity, configuration, description, schema, template/CSS, or media-byte delta is accepted by this collector. The only non-exact historical surfaces are explicitly classified above: the exact current-count description refresh, direction representation, the explicit Experimental stylesheet link with PR #733 bytes preserved, the corrected localized-standalone stack, exact-allowlisted stale old-Hardcore refreshes and blank artifact removal, and the deferred capital-hint label fallback.
 """
     report_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.write_text(report, encoding="utf-8")
