@@ -336,10 +336,6 @@ translations:
         Overseas territory of the United Kingdom.: 'Selvstyrt britisk oversjøisk territorium i Karibia.'
       cura-ao:
         Constituent country of the Kingdom of the Netherlands.: '«Land» som sammen med Nederland, Aruba og Sint Maarten utgjør føderasjonen Kongeriket Nederlandene.'
-      egypt.fields.field.flag-similarity.message.variables.country_1:
-        Iraq: Jemen
-      egypt.fields.field.flag-similarity.message.variables.country_2:
-        Yemen: Irak
       falkland-islands:
         Overseas territory of the United Kingdom.: 'Britisk øygruppe.'
       french-guiana:
@@ -354,14 +350,8 @@ translations:
         Crown dependency of the United Kingdom.: 'Kanaløy underlagt britisk kronbesittelse.'
       hong-kong:
         Special Administrative Region of China.: 'Også kjent som Hong Kong. Spesiell administrativ region i Kina.'
-      iraq.fields.field.flag-similarity.message.variables.country_1:
-        Egypt: Jemen
-      iraq.fields.field.flag-similarity.message.variables.country_2:
-        Yemen: Egypt
       isle-of-man:
         Crown dependency of the United Kingdom.: 'Også kalt Isle of Man. Kanaløy underlagt britisk kronbesittelse. Hverken del av Storbritannia eller EU.'
-      ivory-coast.fields.field.flag-similarity.message.variables.country_1:
-        Ireland: Ireland
       jersey:
         Crown dependency of the United Kingdom.: 'Kanaløy underlagt britisk kronbesittelse.'
       macau:

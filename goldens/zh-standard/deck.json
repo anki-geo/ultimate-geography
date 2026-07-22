@@ -2892,7 +2892,7 @@
         "",
         "",
         "<img src=\"ug-flag-faroe_islands.svg\" />",
-        "冰岛(蓝底，红白交叉)，挪威(红底，蓝白交叉)",
+        "冰岛(蓝底，红白交叉)、挪威(红底，蓝白交叉)",
         "<img src=\"ug-map-faroe_islands.png\" />"
       ],
       "flags": 0,
@@ -3665,7 +3665,7 @@
         "",
         "",
         "<img src=\"ug-flag-indonesia.svg\" />",
-        "摩纳哥(更窄，红色更深)，波兰(红白翻转，红色更深)",
+        "摩纳哥(更窄，红色更深)、波兰(红白翻转，红色更深)",
         "<img src=\"ug-map-indonesia.png\" />"
       ],
       "flags": 0,
@@ -4732,7 +4732,7 @@
         "",
         "",
         "<img src=\"ug-flag-monaco.svg\" />",
-        "印度尼西亚(更宽，红色更亮)，波兰(红色和白色翻转，更宽)",
+        "印度尼西亚(更宽，红色更亮)、波兰(红色和白色翻转，更宽)",
         "<img src=\"ug-map-monaco.png\" />"
       ],
       "flags": 0,
@@ -4884,7 +4884,7 @@
         "瑙鲁(Nauru)无正式首都，政府机关设在亚伦区(the Yaren District)。",
         "",
         "<img src=\"ug-flag-nauru.svg\" />",
-        "库拉索岛(左上角的两颗星)",
+        "库拉索(左上角的两颗星)",
         "<img src=\"ug-map-nauru.png\" />"
       ],
       "flags": 0,
@@ -5220,7 +5220,7 @@
         "",
         "",
         "<img src=\"ug-flag-norway.svg\" />",
-        "冰岛(蓝底，红十字)，法罗群岛(白底，红蓝交叉)",
+        "冰岛(蓝底，红十字)、法罗群岛(白底，红蓝交叉)",
         "<img src=\"ug-map-norway.png\" />"
       ],
       "flags": 0,
@@ -5534,7 +5534,7 @@
         "",
         "",
         "<img src=\"ug-flag-poland.svg\" />",
-        "印度尼西亚(白色和红色翻转，红色更亮)，摩纳哥(白色和红色翻转，更窄)",
+        "印度尼西亚(白色和红色翻转，红色更亮)、摩纳哥(白色和红色翻转，更窄)",
         "<img src=\"ug-map-poland.png\" />"
       ],
       "flags": 0,

@@ -23,14 +23,16 @@ The source of truth is:
 
 ### Getting started
 
-Install the published Brain Brew alpha.3 CLI as a normal `brainbrew` command:
+Install the reviewed Brain Brew source revision as a normal `brainbrew` command:
 
 ```bash
-cargo install brainbrew --version 1.0.0-alpha.3 --locked
+cargo install --git https://github.com/jeprecated/brain-brew.git \
+  --rev 77b092ddb82fb0dfdaf64713ed081a4ac9f2eb97 \
+  --locked brainbrew
 brainbrew --version
 ```
 
-CI uses the immutable Nix source revision `6ee570d427a1a8eec92c22668442f9b7186f9ba7`. To use that same Nix source locally, prefix a Brain Brew command with `nix run github:jeprecated/brain-brew/6ee570d427a1a8eec92c22668442f9b7186f9ba7 --`.
+CI uses the same immutable Nix source revision `77b092ddb82fb0dfdaf64713ed081a4ac9f2eb97`. To run it without installing, prefix a Brain Brew command with `nix run github:jeprecated/brain-brew/77b092ddb82fb0dfdaf64713ed081a4ac9f2eb97 --`.
 
 List the available targets:
 

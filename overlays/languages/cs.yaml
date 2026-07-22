@@ -461,8 +461,6 @@ translations:
         Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
       cayman-islands:
         Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
-      cuba.fields.field.flag-similarity.message.variables.country_1:
-        Puerto Rico: Puerto Rico
       djibouti:
         Djibouti: 'Džibutsko'
       djibouti.fields.field.capital:
@@ -477,8 +475,6 @@ translations:
         Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
       greenland:
         Constituent country in the Kingdom of Denmark.: 'Autonomní součást Dánského království.'
-      iraq.fields.field.flag-similarity.message.variables.country_2:
-        Yemen: Yemen
       java:
         Island of Indonesia.: 'Indonéský ostrov.'
       madeira:
@@ -489,7 +485,7 @@ translations:
         Monaco: Monaco-Ville
       new-caledonia:
         Overseas territory of France.: 'Zámořské území Francie.'
-      poland.fields.field.flag-similarity.message.variables.country_2:
+      poland.fields.field.flag-similarity.message.items.1.country:
         Monaco: Monako
       saint-martin:
         Overseas territory of France.: 'Konstituční země Francie.'

@@ -1,6 +1,12 @@
 id: overlay.translation.hardcore.zh
 kind: translation
 translations:
+  contextual:
+    notes.note:
+      gal-pagos-islands.fields.field.flag-similarity.message.items.0.country:
+        Sierra Leone: '塞拉利昂'
+      gal-pagos-islands.fields.field.flag-similarity.message.items.0.description:
+        slightly lighter blue: '略浅蓝色'
   adapter_ids:
     crowdanki:guid:
       ',LnVW8IL`': 'J}Ic}WR-Ys'

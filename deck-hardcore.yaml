@@ -43,6 +43,16 @@ note_types:
         name: Flag
       field.flag-similarity:
         name: Flag similarity
+        message_pattern:
+          kind: list
+          item_format: '{country} ({description})'
+          separator: ', '
+          parameters:
+            country:
+              type: note_field_ref
+              field: field.country
+            description:
+              type: text
       field.map:
         name: Map
     card_template_order:

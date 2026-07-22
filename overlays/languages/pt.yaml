@@ -518,31 +518,31 @@ translations:
     with emblem: com emblema
     with star and crescent: com estrela e crescente
     with text: com texto
-    '{country_1} ({description_1}), {country_2} ({description_2})': '{country_1} ({description_1}) e {country_2} ({description_2})'
     'Åland Islands': Alanda
   contextual:
+    note_types.note-type.ultimate-geography.fields.field.flag-similarity.message_pattern:
+      separator:
+        ', ': ' e '
     notes.note:
-      austria.fields.field.flag-similarity.message.variables.country_1:
+      austria.fields.field.flag-similarity.message.items.0.country:
         Latvia: 'Letônia'
       azores:
         Autonomous region of Portugal.: 'Região autônoma de Portugal.'
-      chad.fields.field.flag-similarity.message.variables.country_1:
+      chad.fields.field.flag-similarity.message.items.0.country:
         Romania: 'Romênia'
-      egypt.fields.field.flag-similarity.message.variables.country_2:
+      egypt.fields.field.flag-similarity.message.items.1.country:
         Yemen: 'Iêmen'
       french-polynesia:
         Overseas territory of France.: 'Território ultramarino da França.'
-      ghana.fields.field.flag-similarity.message.format:
-        '{country_1} ({description_1})': ' {country_1} ({description_1})'
       guernsey:
         Crown dependency of the United Kingdom.: 'Dependência da coroa do Reino Unido.'
-      indonesia.fields.field.flag-similarity.message.variables.country_1:
+      indonesia.fields.field.flag-similarity.message.items.0.country:
         Monaco: 'Mônaco'
-      indonesia.fields.field.flag-similarity.message.variables.country_2:
+      indonesia.fields.field.flag-similarity.message.items.1.country:
         Poland: 'Polônia'
-      iraq.fields.field.flag-similarity.message.variables.country_1:
+      iraq.fields.field.flag-similarity.message.items.0.country:
         Egypt: Egito
-      iraq.fields.field.flag-similarity.message.variables.country_2:
+      iraq.fields.field.flag-similarity.message.items.1.country:
         Yemen: 'Iêmen'
       isle-of-man:
         Crown dependency of the United Kingdom.: Ilha de Man
@@ -550,28 +550,24 @@ translations:
         Crown dependency of the United Kingdom.: 'Dependência da coroa do Reino Unido.'
       madeira:
         Autonomous region of Portugal.: 'Região Autônoma de Portugal.'
-      monaco.fields.field.flag-similarity.message.variables.country_2:
+      monaco.fields.field.flag-similarity.message.items.1.country:
         Poland: 'Polônia'
-      netherlands.fields.field.flag-similarity.message.variables.country_1:
+      netherlands.fields.field.flag-similarity.message.items.0.country:
         Luxembourg: do Luxemburgo
       new-caledonia:
         Overseas territory of France.: 'Território ultramarino da França.'
-      palestine.fields.field.flag-similarity.message.variables.country_2:
+      palestine.fields.field.flag-similarity.message.items.1.country:
         Sahrawi Arab Democratic Republic: 'República Árabe Saaraui Democrática'
-      poland.fields.field.flag-similarity.message.variables.country_2:
+      poland.fields.field.flag-similarity.message.items.1.country:
         Monaco: 'Mônaco'
       saint-martin:
         Overseas territory of France.: 'País constituinte do Reino dos Países Baixos.'
-      slovakia.fields.field.flag-similarity.message.variables.country_2:
+      slovakia.fields.field.flag-similarity.message.items.1.country:
         Slovenia: 'Eslovênia'
       wallis-and-futuna:
         Overseas territory of France.: 'Território ultramarino da França.'
-      yemen.fields.field.flag-similarity.message.format:
-        '{country_1} ({description_1}), {country_2} ({description_2})': '{country_1} ({description_1}), e {country_2} ({description_2})'
-      yemen.fields.field.flag-similarity.message.variables.country_1:
+      yemen.fields.field.flag-similarity.message.items.0.country:
         Egypt: Egito
-      yemen.fields.field.flag-similarity.message.variables.country_2:
-        Iraq: Iraque
   no_change:
     - Abuja
     - Alofi

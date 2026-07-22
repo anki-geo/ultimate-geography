@@ -1,6 +1,10 @@
 id: overlay.translation.hardcore.companion-note-type.zh
 kind: translation
 translations:
+  contextual:
+    note_types.note-type.ultimate-geography.fields.field.flag-similarity.message_pattern:
+      item_format:
+        '{country} ({description})': '{country}({description})'
   variables:
     label.capital:
       Capital: '首都'

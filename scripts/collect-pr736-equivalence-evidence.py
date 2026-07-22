@@ -37,7 +37,7 @@ OLD_PYTHON_DEPENDENCIES = (
     ("PyYAML", "6.0.3"),
 )
 OLD_BRAIN_BREW_VERSION = dict(OLD_PYTHON_DEPENDENCIES)["brain-brew"]
-PINNED_BRAINBREW_REVISION = "6ee570d427a1a8eec92c22668442f9b7186f9ba7"
+PINNED_BRAINBREW_REVISION = "77b092ddb82fb0dfdaf64713ed081a4ac9f2eb97"
 PINNED_BRAINBREW_COMMAND = (
     f"nix run github:jeprecated/brain-brew/{PINNED_BRAINBREW_REVISION} --"
 )
@@ -58,6 +58,49 @@ EXPECTED_HARDCORE_DESCRIPTION_HASHES = (
     "15499ec9e9e748ed264586926adde790c1d6821b368d96614da7c56e697a307e",
     "946699f54eaa38c8aa542fcff1cc29c38be423373eacbc10f7e3d2b79f54d5b5",
 )
+EXPECTED_REVIEWED_FLAG_SIMILARITY_DELTAS = {
+    "zh-standard": frozenset(
+        {
+            (
+                "EW8MT$$Do=",
+                6,
+                "印度尼西亚(更宽，红色更亮)，波兰(红色和白色翻转，更宽)",
+                "印度尼西亚(更宽，红色更亮)、波兰(红色和白色翻转，更宽)",
+            ),
+            (
+                "FTq&ip7kv.",
+                6,
+                "摩纳哥(更窄，红色更深)，波兰(红白翻转，红色更深)",
+                "摩纳哥(更窄，红色更深)、波兰(红白翻转，红色更深)",
+            ),
+            (
+                "h=:xts:/of",
+                6,
+                "印度尼西亚(白色和红色翻转，红色更亮)，摩纳哥(白色和红色翻转，更窄)",
+                "印度尼西亚(白色和红色翻转，红色更亮)、摩纳哥(白色和红色翻转，更窄)",
+            ),
+            (
+                "l.0D<A/ul3",
+                6,
+                "冰岛(蓝底，红十字)，法罗群岛(白底，红蓝交叉)",
+                "冰岛(蓝底，红十字)、法罗群岛(白底，红蓝交叉)",
+            ),
+            (
+                "y3XH$Vv!}O",
+                6,
+                "库拉索岛(左上角的两颗星)",
+                "库拉索(左上角的两颗星)",
+            ),
+            (
+                "yOxL^*11zC",
+                6,
+                "冰岛(蓝底，红白交叉)，挪威(红底，蓝白交叉)",
+                "冰岛(蓝底，红白交叉)、挪威(红底，蓝白交叉)",
+            ),
+        }
+    ),
+}
+
 EXPECTED_HARDCORE_FIELD_DELTAS = {
     "en": frozenset(
         {
@@ -575,12 +618,25 @@ def compare_note_payloads(old: dict, new: dict) -> dict[str, object]:
     }
 
 
-def require_expected_hardcore_field_deltas(language: str, comparison: dict[str, object], target: str) -> None:
-    actual = frozenset(
+def field_delta_set(comparison: dict[str, object]) -> frozenset[tuple[str, int, str, str]]:
+    return frozenset(
         (guid, index, before, after)
         for guid, changes in comparison["field_diffs"]
         for index, before, after in changes
     )
+
+
+def require_expected_flag_similarity_deltas(comparison: dict[str, object], target: str) -> None:
+    actual = field_delta_set(comparison)
+    expected = EXPECTED_REVIEWED_FLAG_SIMILARITY_DELTAS.get(target, frozenset())
+    require(
+        actual == expected,
+        f"{target}: reviewed flag-similarity deltas differ: expected {expected!r}, got {actual!r}",
+    )
+
+
+def require_expected_hardcore_field_deltas(language: str, comparison: dict[str, object], target: str) -> None:
+    actual = field_delta_set(comparison)
     expected = EXPECTED_HARDCORE_FIELD_DELTAS[language]
     require(actual == expected, f"{target}: Hardcore field deltas differ: expected {expected!r}, got {actual!r}")
 
@@ -697,7 +753,7 @@ def compare_ug_target(spec: TargetSpec, old_output: Path, new_output: Path) -> d
     model = compare_ug_model(old["note_models"][0], new["note_models"][0], spec.language, spec.target)
     notes = compare_note_payloads(old, new)
     require(not notes["old_only"] and not notes["new_only"], f"{spec.target}: GUID set changed")
-    require(not notes["field_diffs"], f"{spec.target}: note field values/order changed")
+    require_expected_flag_similarity_deltas(notes, spec.target)
     require(notes["tag_membership_changes"] == 0, f"{spec.target}: tag membership changed")
     require(notes["other_changes"] == [], f"{spec.target}: note metadata changed")
     require(notes["model_uuid_changes"] == 0, f"{spec.target}: note model assignment changed")
@@ -709,6 +765,8 @@ def compare_ug_target(spec: TargetSpec, old_output: Path, new_output: Path) -> d
         classification = "known deferred capital-hint label fallback"
     if spec.target == "en-experimental":
         classification = "PR #733 bytes preserved; explicit stylesheet link added"
+    if notes["field_diffs"]:
+        classification += "; reviewed flag-similarity corrections"
     classification += "; current count metadata refreshed"
     return {
         "spec": spec,
@@ -933,6 +991,11 @@ def write_report(
             template += "; localized capital-hint label falls back to English"
         if result["model"]["pr733_links"]:
             template += "; explicit jsVectorMap stylesheet link"
+        note_surface = "exact by GUID/field order/tag set"
+        if notes["field_diffs"]:
+            note_surface = (
+                f"GUID/order/tags exact; {len(field_delta_set(notes))} reviewed flag-similarity correction(s)"
+            )
         surface_rows.append(
             [
                 spec.target,
@@ -940,7 +1003,7 @@ def write_report(
                 "exact",
                 schema,
                 template,
-                "exact by GUID/field order/tag set",
+                note_surface,
                 "exact current-count refresh",
                 "exact names + SHA-256",
             ]
@@ -1038,8 +1101,15 @@ def write_report(
         ]
         for item in current_alignment
     ]
+    flag_similarity_rows = [
+        [target, guid, str(index), inline_code(before), inline_code(after)]
+        for target, expected in sorted(EXPECTED_REVIEWED_FLAG_SIMILARITY_DELTAS.items())
+        for guid, index, before, after in sorted(expected)
+    ]
     old_dependencies = ", ".join(f"`{name}=={version}`" for name, version in OLD_PYTHON_DEPENDENCIES)
-    new_command = shlex.join(command)
+    # Keep the committed report deterministic when a maintainer validates the exact
+    # reviewed revision through a local command override.
+    new_command = PINNED_BRAINBREW_COMMAND
     description_counts = ug_results[0]["description_counts"]
     require(
         all(result["description_counts"] == description_counts for result in ug_results + standalone_results),
@@ -1131,6 +1201,12 @@ For every row both raw outputs contain zero blank notes, the companion has exact
 
 The immutable #741 source descriptions still reported {description_counts[0]} notes/maps and {description_counts[2]} cards after adding both straits. The canonical descriptions and README now report the collector-derived current totals of {description_counts[1]} notes/maps and {description_counts[3]} cards. Historical comparisons accept only that exact numeric refresh: deck identity and every other description byte remain exact.
 
+### Reviewed flag-similarity corrections
+
+The canonical source now uses one field-level list-message pattern for every flag-similarity value. During that refactor, maintainers reviewed and corrected legacy per-note separator and country-label anomalies instead of preserving them as representation-dependent exceptions. The historical comparator accepts only these exact `(target, GUID, field index, old value, new value)` tuples; any count-preserving or value substitution fails:
+
+{markdown_table(['Target', 'GUID', 'Field index', 'Immutable value', 'Reviewed value'], flag_similarity_rows)}
+
 ### Direction representation
 
 The immutable Python outputs wrap every card front/back in `<div dir=\"ltr|rtl\">`. Alpha.2 places the same direction on the card CSS and removes those outer wrappers. Hebrew additionally moves six field-level `rtl: true` flags to `direction: rtl` on the rendered card CSS. Raw schema/template/CSS differences are therefore recorded rather than hidden; note values, GUIDs, model identity, descriptions, deck configuration, and media remain independently compared.
@@ -1187,7 +1263,7 @@ A disposable edit of `goldens/en-standard/deck.json` changed `$.name`; verificat
 
 ## Assessment
 
-Strict native verification covers all 74 main plus 26 companion targets; CI also transactionally exports all 100. The representative historical classes cover source, translation, RTL, CJK, Extended, Experimental, standalone Hardcore, and companion Hardcore, while the separate current-composition invariant covers every localized Hardcore pair. No unknown raw-note/blank artifact, GUID, note-field, tag-membership, deck identity, configuration, description, schema, template/CSS, or media-byte delta is accepted by this collector. The only non-exact historical surfaces are explicitly classified above: the exact current-count description refresh, direction representation, the explicit Experimental stylesheet link with PR #733 bytes preserved, the corrected localized-standalone stack, exact-allowlisted stale old-Hardcore refreshes and blank artifact removal, and the deferred capital-hint label fallback.
+Strict native verification covers all 74 main plus 26 companion targets; CI also transactionally exports all 100. The representative historical classes cover source, translation, RTL, CJK, Extended, Experimental, standalone Hardcore, and companion Hardcore, while the separate current-composition invariant covers every localized Hardcore pair. No unknown raw-note/blank artifact, GUID, note-field, tag-membership, deck identity, configuration, description, schema, template/CSS, or media-byte delta is accepted by this collector. The only non-exact historical surfaces are explicitly classified above: the exact current-count description refresh, the exact reviewed flag-similarity tuples, direction representation, the explicit Experimental stylesheet link with PR #733 bytes preserved, the corrected localized-standalone stack, exact-allowlisted stale old-Hardcore refreshes and blank artifact removal, and the deferred capital-hint label fallback.
 """
     report_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.write_text(report, encoding="utf-8")

@@ -387,7 +387,7 @@ translations:
     notes.note:
       akrotiri-and-dhekelia:
         Overseas territory of the United Kingdom.: 'Britisches Überseegebiet.'
-      andorra.fields.field.flag-similarity.message.variables.country_1:
+      andorra.fields.field.flag-similarity.message.items.0.country:
         Moldova: Republik Moldau/Moldawien
       anguilla:
         Overseas territory of the United Kingdom.: 'Britisches Überseegebiet.'

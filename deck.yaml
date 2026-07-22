@@ -43,6 +43,16 @@ note_types:
         name: Flag
       field.flag-similarity:
         name: Flag similarity
+        message_pattern:
+          kind: list
+          item_format: '{country} ({description})'
+          separator: ', '
+          parameters:
+            country:
+              type: note_field_ref
+              field: field.country
+            description:
+              type: text
       field.map:
         name: Map
     card_template_order:
@@ -243,12 +253,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-andorra-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.moldova.fields.field.country
-          description_1:
-            text: wider, coat of arms with eagle
+        - country: note.moldova
+          description: wider, coat of arms with eagle
       field.map: !image media.ug-map-andorra-png
     tags:
       - UG::Europe
@@ -452,12 +458,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-australia-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.new-zealand.fields.field.country
-          description_1:
-            text: red stars, two fewer stars
+        - country: note.new-zealand
+          description: red stars, two fewer stars
       field.map: !image media.ug-map-australia-png
     tags:
       - UG::Oceania
@@ -474,12 +476,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-austria-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.latvia.fields.field.country
-          description_1:
-            text: darker red, narrower white band
+        - country: note.latvia
+          description: darker red, narrower white band
       field.map: !image media.ug-map-austria-png
     tags:
       - UG::Europe
@@ -528,12 +526,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-bahrain-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.qatar.fields.field.country
-          description_1:
-            text: wider, more serrated edges, maroon
+        - country: note.qatar
+          description: wider, more serrated edges, maroon
       field.map: !image media.ug-map-bahrain-png
     tags:
       - UG::Asia
@@ -819,12 +813,8 @@ notes:
         - !image media.ug-flag-bolivia-blur-svg
         - !image media.ug-flag-bolivia-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.ghana.fields.field.country
-          description_1:
-            text: star instead of coat of arms
+        - country: note.ghana
+          description: star instead of coat of arms
       field.map: !image media.ug-map-bolivia-png
     tags:
       - UG::South_America
@@ -1006,12 +996,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-cameroon-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.senegal.fields.field.country
-          description_1:
-            text: green/yellow/red, green star
+        - country: note.senegal
+          description: green/yellow/red, green star
       field.map: !image media.ug-map-cameroon-png
     tags:
       - UG::Africa
@@ -1168,12 +1154,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-chad-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.romania.fields.field.country
-          description_1:
-            text: slightly lighter blue
+        - country: note.romania
+          description: slightly lighter blue
       field.map: !image media.ug-map-chad-png
     tags:
       - UG::Africa
@@ -1222,12 +1204,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-colombia-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.ecuador.fields.field.country
-          description_1:
-            text: with coat of arms
+        - country: note.ecuador
+          description: with coat of arms
       field.map: !image media.ug-map-colombia-png
     tags:
       - UG::South_America
@@ -1343,12 +1321,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-cuba-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.puerto-rico.fields.field.country
-          description_1:
-            text: blue triangle, red stripes
+        - country: note.puerto-rico
+          description: blue triangle, red stripes
       field.map: !image media.ug-map-cuba-png
     tags:
       - UG::Caribbean
@@ -1366,12 +1340,8 @@ notes:
       field.country-info: Constituent country of the Kingdom of the Netherlands.
       field.flag: !image media.ug-flag-curacao-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.nauru.fields.field.country
-          description_1:
-            text: single star below yellow band
+        - country: note.nauru
+          description: single star below yellow band
       field.map: !image media.ug-map-curacao-png
     tags:
       - UG::Caribbean
@@ -1568,12 +1538,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-ecuador-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.colombia.fields.field.country
-          description_1:
-            text: no coat of arms
+        - country: note.colombia
+          description: no coat of arms
       field.map: !image media.ug-map-ecuador-png
     tags:
       - UG::South_America
@@ -1590,16 +1556,10 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-egypt-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1}), {country_2} ({description_2})'
-        variables:
-          country_1:
-            ref: notes.note.iraq.fields.field.country
-          country_2:
-            ref: notes.note.yemen.fields.field.country
-          description_1:
-            text: text instead of emblem
-          description_2:
-            text: no emblem
+        - country: note.iraq
+          description: text instead of emblem
+        - country: note.yemen
+          description: no emblem
       field.map: !image media.ug-map-egypt-png
     tags:
       - UG::Africa
@@ -1620,12 +1580,8 @@ notes:
         - !image media.ug-flag-el-salvador-blur-svg
         - !image media.ug-flag-el-salvador-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.nicaragua.fields.field.country
-          description_1:
-            text: different coat of arms, slightly lighter blue
+        - country: note.nicaragua
+          description: different coat of arms, slightly lighter blue
       field.map: !image media.ug-map-el-salvador-png
     tags:
       - UG::North_America
@@ -1800,16 +1756,10 @@ notes:
       field.country-info: Constituent country in the Kingdom of Denmark.
       field.flag: !image media.ug-flag-faroe-islands-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1}), {country_2} ({description_2})'
-        variables:
-          country_1:
-            ref: notes.note.iceland.fields.field.country
-          country_2:
-            ref: notes.note.norway.fields.field.country
-          description_1:
-            text: blue background, red and white cross
-          description_2:
-            text: red background, blue and white cross
+        - country: note.iceland
+          description: blue background, red and white cross
+        - country: note.norway
+          description: red background, blue and white cross
       field.map: !image media.ug-map-faroe-islands-png
     tags:
       - UG::Europe
@@ -1971,12 +1921,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-ghana-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.bolivia.fields.field.country
-          description_1:
-            text: coat of arms instead of star
+        - country: note.bolivia
+          description: coat of arms instead of star
       field.map: !image media.ug-map-ghana-png
     tags:
       - UG::Africa
@@ -2124,12 +2070,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-guinea-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.mali.fields.field.country
-          description_1:
-            text: red and green flipped, slightly brighter green
+        - country: note.mali
+          description: red and green flipped, slightly brighter green
       field.map: !image media.ug-map-guinea-png
     tags:
       - UG::Africa
@@ -2365,16 +2307,10 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-iceland-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1}), {country_2} ({description_2})'
-        variables:
-          country_1:
-            ref: notes.note.norway.fields.field.country
-          country_2:
-            ref: notes.note.faroe-islands.fields.field.country
-          description_1:
-            text: red background, blue cross
-          description_2:
-            text: white background, red and blue cross
+        - country: note.norway
+          description: red background, blue cross
+        - country: note.faroe-islands
+          description: white background, red and blue cross
       field.map: !image media.ug-map-iceland-png
     tags:
       - UG::Europe
@@ -2422,16 +2358,10 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-indonesia-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1}), {country_2} ({description_2})'
-        variables:
-          country_1:
-            ref: notes.note.monaco.fields.field.country
-          country_2:
-            ref: notes.note.poland.fields.field.country
-          description_1:
-            text: narrower, darker red
-          description_2:
-            text: red and white flipped, darker red
+        - country: note.monaco
+          description: narrower, darker red
+        - country: note.poland
+          description: red and white flipped, darker red
       field.map: !image media.ug-map-indonesia-png
     tags:
       - UG::Asia
@@ -2466,16 +2396,10 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-iraq-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1}), {country_2} ({description_2})'
-        variables:
-          country_1:
-            ref: notes.note.egypt.fields.field.country
-          country_2:
-            ref: notes.note.yemen.fields.field.country
-          description_1:
-            text: emblem instead of text
-          description_2:
-            text: no text
+        - country: note.egypt
+          description: emblem instead of text
+        - country: note.yemen
+          description: no text
       field.map: !image media.ug-map-iraq-png
     tags:
       - UG::Asia
@@ -2493,12 +2417,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-ireland-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.ivory-coast.fields.field.country
-          description_1:
-            text: green and orange flipped, narrower
+        - country: note.ivory-coast
+          description: green and orange flipped, narrower
       field.map: !image media.ug-map-ireland-png
     tags:
       - UG::Europe
@@ -2567,12 +2487,8 @@ notes:
       field.country-info: 'Officially Côte d''Ivoire.'
       field.flag: !image media.ug-flag-ivory-coast-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.ireland.fields.field.country
-          description_1:
-            text: orange and green flipped, wider
+        - country: note.ireland
+          description: orange and green flipped, wider
       field.map: !image media.ug-map-ivory-coast-png
     tags:
       - UG::Africa
@@ -2845,12 +2761,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-latvia-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.austria.fields.field.country
-          description_1:
-            text: brighter red, wider white band
+        - country: note.austria
+          description: brighter red, wider white band
       field.map: !image media.ug-map-latvia-png
     tags:
       - UG::Europe
@@ -2969,12 +2881,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-luxembourg-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.netherlands.fields.field.country
-          description_1:
-            text: darker blue
+        - country: note.netherlands
+          description: darker blue
       field.map: !image media.ug-map-luxembourg-png
     tags:
       - UG::Europe
@@ -3089,12 +2997,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-mali-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.guinea.fields.field.country
-          description_1:
-            text: green and red flipped, slightly darker green
+        - country: note.guinea
+          description: green and red flipped, slightly darker green
       field.map: !image media.ug-map-mali-png
     tags:
       - UG::Africa
@@ -3273,12 +3177,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-moldova-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.andorra.fields.field.country
-          description_1:
-            text: narrower, coat of arms with motto
+        - country: note.andorra
+          description: narrower, coat of arms with motto
       field.map: !image media.ug-map-moldova-png
     tags:
       - UG::Europe
@@ -3295,16 +3195,10 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-monaco-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1}), {country_2} ({description_2})'
-        variables:
-          country_1:
-            ref: notes.note.indonesia.fields.field.country
-          country_2:
-            ref: notes.note.poland.fields.field.country
-          description_1:
-            text: wider, brighter red
-          description_2:
-            text: red and white flipped, wider
+        - country: note.indonesia
+          description: wider, brighter red
+        - country: note.poland
+          description: red and white flipped, wider
       field.map: !image media.ug-map-monaco-png
     tags:
       - UG::Europe
@@ -3422,12 +3316,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-nauru-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.cura-ao.fields.field.country
-          description_1:
-            text: two stars in top-left corner
+        - country: note.cura-ao
+          description: two stars in top-left corner
       field.map: !image media.ug-map-nauru-png
     tags:
       - UG::Oceania
@@ -3460,12 +3350,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-netherlands-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.luxembourg.fields.field.country
-          description_1:
-            text: lighter blue
+        - country: note.luxembourg
+          description: lighter blue
       field.map: !image media.ug-map-netherlands-png
     tags:
       - UG::Europe
@@ -3498,12 +3384,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-new-zealand-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.australia.fields.field.country
-          description_1:
-            text: white stars, two more stars
+        - country: note.australia
+          description: white stars, two more stars
       field.map: !image media.ug-map-new-zealand-png
     tags:
       - UG::Oceania
@@ -3522,12 +3404,8 @@ notes:
         - !image media.ug-flag-nicaragua-blur-svg
         - !image media.ug-flag-nicaragua-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.el-salvador.fields.field.country
-          description_1:
-            text: different coat of arms, slightly darker blue
+        - country: note.el-salvador
+          description: different coat of arms, slightly darker blue
       field.map: !image media.ug-map-nicaragua-png
     tags:
       - UG::North_America
@@ -3704,16 +3582,10 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-norway-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1}), {country_2} ({description_2})'
-        variables:
-          country_1:
-            ref: notes.note.iceland.fields.field.country
-          country_2:
-            ref: notes.note.faroe-islands.fields.field.country
-          description_1:
-            text: blue background, red cross
-          description_2:
-            text: white background, red and blue cross
+        - country: note.iceland
+          description: blue background, red cross
+        - country: note.faroe-islands
+          description: white background, red and blue cross
       field.map: !image media.ug-map-norway-png
     tags:
       - UG::Europe
@@ -3824,16 +3696,10 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-palestine-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1}), {country_2} ({description_2})'
-        variables:
-          country_1:
-            ref: notes.note.sudan.fields.field.country
-          country_2:
-            ref: notes.note.sahrawi-arab-democratic-republic.fields.field.country
-          description_1:
-            text: red/white/black, green arrow
-          description_2:
-            text: with star and crescent
+        - country: note.sudan
+          description: red/white/black, green arrow
+        - country: note.sahrawi-arab-democratic-republic
+          description: with star and crescent
       field.map: !image media.ug-map-palestine-png
     tags:
       - UG::Asia
@@ -3965,16 +3831,10 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-poland-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1}), {country_2} ({description_2})'
-        variables:
-          country_1:
-            ref: notes.note.indonesia.fields.field.country
-          country_2:
-            ref: notes.note.monaco.fields.field.country
-          description_1:
-            text: white and red flipped, brighter red
-          description_2:
-            text: white and red flipped, narrower
+        - country: note.indonesia
+          description: white and red flipped, brighter red
+        - country: note.monaco
+          description: white and red flipped, narrower
       field.map: !image media.ug-map-poland-png
     tags:
       - UG::Europe
@@ -4024,12 +3884,8 @@ notes:
       field.country-info: Unincorporated territory of the United States.
       field.flag: !image media.ug-flag-puerto-rico-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.cuba.fields.field.country
-          description_1:
-            text: red triangle, blue stripes
+        - country: note.cuba
+          description: red triangle, blue stripes
       field.map: !image media.ug-map-puerto-rico-png
     tags:
       - UG::Caribbean
@@ -4046,12 +3902,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-qatar-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.bahrain.fields.field.country
-          description_1:
-            text: narrower, fewer serrated edges, red
+        - country: note.bahrain
+          description: narrower, fewer serrated edges, red
       field.map: !image media.ug-map-qatar-png
     tags:
       - UG::Asia
@@ -4116,12 +3968,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-romania-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.chad.fields.field.country
-          description_1:
-            text: slightly darker blue
+        - country: note.chad
+          description: slightly darker blue
       field.map: !image media.ug-map-romania-png
     tags:
       - UG::Europe
@@ -4139,12 +3987,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-russia-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.slovakia.fields.field.country
-          description_1:
-            text: with coat of arms
+        - country: note.slovakia
+          description: with coat of arms
       field.map: !image media.ug-map-russia-png
     tags:
       - UG::Europe
@@ -4194,12 +4038,8 @@ notes:
       field.country-info: Partially recognised state claimed by Morocco. Also known as Western Sahara.
       field.flag: !image media.ug-flag-sahrawi-arab-democratic-republic-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.palestine.fields.field.country
-          description_1:
-            text: no symbol
+        - country: note.palestine
+          description: no symbol
       field.map: !image media.ug-map-sahrawi-arab-democratic-republic-png
     tags:
       - UG::Africa
@@ -4422,12 +4262,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-senegal-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.cameroon.fields.field.country
-          description_1:
-            text: green/red/yellow, yellow star
+        - country: note.cameroon
+          description: green/red/yellow, yellow star
       field.map: !image media.ug-map-senegal-png
     tags:
       - UG::Africa
@@ -4543,16 +4379,10 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-slovakia-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1}), {country_2} ({description_2})'
-        variables:
-          country_1:
-            ref: notes.note.russia.fields.field.country
-          country_2:
-            ref: notes.note.slovenia.fields.field.country
-          description_1:
-            text: no coat of arms
-          description_2:
-            text: wider, smaller coat of arms
+        - country: note.russia
+          description: no coat of arms
+        - country: note.slovenia
+          description: wider, smaller coat of arms
       field.map: !image media.ug-map-slovakia-png
     tags:
       - UG::Europe
@@ -4570,12 +4400,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-slovenia-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.slovakia.fields.field.country
-          description_1:
-            text: narrower, bigger coat of arms
+        - country: note.slovakia
+          description: narrower, bigger coat of arms
       field.map: !image media.ug-map-slovenia-png
     tags:
       - UG::Europe
@@ -4818,12 +4644,8 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-sudan-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1})'
-        variables:
-          country_1:
-            ref: notes.note.palestine.fields.field.country
-          description_1:
-            text: black/white/green, red arrow
+        - country: note.palestine
+          description: black/white/green, red arrow
       field.map: !image media.ug-map-sudan-png
     tags:
       - UG::Africa
@@ -5488,16 +5310,10 @@ notes:
       field.country-info: ''
       field.flag: !image media.ug-flag-yemen-svg
       field.flag-similarity:
-        format: '{country_1} ({description_1}), {country_2} ({description_2})'
-        variables:
-          country_1:
-            ref: notes.note.egypt.fields.field.country
-          country_2:
-            ref: notes.note.iraq.fields.field.country
-          description_1:
-            text: with emblem
-          description_2:
-            text: with text
+        - country: note.egypt
+          description: with emblem
+        - country: note.iraq
+          description: with text
       field.map: !image media.ug-map-yemen-png
     tags:
       - UG::Asia
