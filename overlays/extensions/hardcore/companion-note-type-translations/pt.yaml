@@ -1,0 +1,17 @@
+id: overlay.translation.hardcore.companion-note-type.pt
+kind: translation
+translations:
+  variables:
+    label.capital-hint.answer:
+      'Hint: {{Capital hint}}': 'Dica: {{Capital hint}}'
+    label.flag:
+      Flag: Bandeira
+    label.location:
+      Location: 'Localização'
+    note-type.name:
+      Ultimate Geography: 'Ultimate Geography [PT]'
+    sentence.flag-similar:
+      'Flag similar to {{Flag similarity}}.': 'Bandeira parecida com: {{Flag similarity}}.'
+  adapter_ids:
+    crowdanki:uuid:
+      43e2586a-9a65-11e8-a777-a0481cc15658: 3da2a851-258c-447f-9d16-91a663663675

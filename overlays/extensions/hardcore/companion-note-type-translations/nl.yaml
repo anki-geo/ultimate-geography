@@ -1,0 +1,19 @@
+id: overlay.translation.hardcore.companion-note-type.nl
+kind: translation
+translations:
+  variables:
+    label.capital:
+      Capital: Hoofdstad
+    label.capital-hint.answer:
+      'Hint: {{Capital hint}}': 'Aanwijzing: {{Capital hint}}'
+    label.flag:
+      Flag: Vlag
+    label.location:
+      Location: Ligging
+    note-type.name:
+      Ultimate Geography: 'Ultimate Geography [NL]'
+    sentence.flag-similar:
+      'Flag similar to {{Flag similarity}}.': 'Vlag vergelijkbaar met {{Flag similarity}}.'
+  adapter_ids:
+    crowdanki:uuid:
+      43e2586a-9a65-11e8-a777-a0481cc15658: 8263244e-6f5e-457a-bb65-a836a6c058a3

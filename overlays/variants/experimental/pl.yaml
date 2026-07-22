@@ -1,0 +1,11 @@
+id: overlay.variant.experimental.pl
+kind: extension
+note_types:
+  note-type.ultimate-geography:
+    intent: merge
+    adapter_ids:
+      crowdanki:uuid:
+        intent: override
+        value: 7ce20479-556c-4ef2-a1d4-9573a00a70fc
+        expected_base:
+          value: 84786477-e28a-490e-958d-7b35946d7b11

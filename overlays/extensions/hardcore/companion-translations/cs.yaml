@@ -1,0 +1,80 @@
+id: overlay.translation.hardcore.companion.cs
+kind: translation
+translations:
+  contextual:
+    notes.note:
+      hardcore-american-samoa:
+        American Samoa: 'Americká Samoa'
+        Unincorporated territory of the United States.: 'Nezačleněné území Spojených států amerických.'
+      hardcore-anguilla:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie s autonomní správou.'
+      hardcore-azores:
+        Autonomous region of Portugal.: 'Autonomní území Portugalska.'
+        Azores: Azory
+      hardcore-bali:
+        Island of Indonesia.: 'Indonéský ostrov.'
+      hardcore-bermuda:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      hardcore-british-virgin-islands:
+        British Virgin Islands: 'Britské Panenské ostrovy'
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      hardcore-canary-islands:
+        Autonomous community of Spain.: 'Autonomní společenství Španělska.'
+        Canary Islands: 'Kanárské ostrovy'
+      hardcore-cayman-islands:
+        Cayman Islands: 'Kajmanské ostrovy'
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      hardcore-corsica:
+        Corsica: Korsika
+        Region of France.: Region Francie.
+      hardcore-falkland-islands:
+        Falkland Islands: Falklandy
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      hardcore-french-guiana:
+        French Guiana: 'Francouzská Guyana'
+        Overseas department of France.: 'Zámořský department Francie.'
+      hardcore-gibraltar:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+      hardcore-guadeloupe:
+        Overseas department of France.: 'Zámořský department Francie.'
+      hardcore-guernsey:
+        Crown dependency of the United Kingdom.: 'Britské korunní závislé území.'
+      hardcore-isle-of-man:
+        Crown dependency of the United Kingdom.: 'Britské korunní závislé území.'
+        Isle of Man: Man
+      hardcore-jersey:
+        Crown dependency of the United Kingdom.: 'Britské korunní závislé území.'
+      hardcore-kaliningrad-oblast:
+        Kaliningrad Oblast: 'Kaliningradská oblast'
+        'Oblast (administrative region) of the Russian Federation.': 'Exkláva Ruské federace.'
+      hardcore-madeira:
+        Autonomous region of Portugal.: 'Autonomní region Portugalska.'
+      hardcore-martinique:
+        Martinique: Martinik
+        Overseas department of France.: 'Zámořský department Francie.'
+      hardcore-mayotte:
+        Overseas department of France.: 'Zámořský department Francie.'
+      hardcore-northern-mariana-islands:
+        Northern Mariana Islands: 'Severní Mariany'
+        Unincorporated territory of the United States.: 'Nezačleněné území Spojených států amerických.'
+      hardcore-r-union:
+        Overseas department of France.: 'Zámořský department Francie.'
+      hardcore-saint-martin:
+        Overseas territory of France.: 'Konstituční země Francie.'
+        Saint Martin: 'Svatý Martin (francouzská část)'
+      hardcore-sardinia:
+        Autonomous region of Italy.: 'Autonomní region Itálie.'
+        Sardinia: Sardinie
+      hardcore-sicily:
+        Autonomous region of Italy.: 'Autonomní region Itálie.'
+        Sicily: 'Sicílie'
+      hardcore-sint-maarten:
+        Constituent country of the Kingdom of the Netherlands.: 'Konstituční země Nizozemského království.'
+        Sint Maarten: 'Svatý Martin (nizozemská část)'
+      hardcore-turks-and-caicos-islands:
+        Overseas territory of the United Kingdom.: 'Zámořské území Velké Británie.'
+        Turks and Caicos Islands: Turks a Caicos
+      hardcore-zanzibar:
+        Semi-autonomous region of Tanzania.: 'Částečně autonomní region Tanzanie.'
+      norfolk-island:
+        Not a sovereign country: 'Nejedná se o suverénní stát'

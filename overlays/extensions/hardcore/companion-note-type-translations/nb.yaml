@@ -1,0 +1,17 @@
+id: overlay.translation.hardcore.companion-note-type.nb
+kind: translation
+translations:
+  variables:
+    label.capital:
+      Capital: Hovedstad
+    label.flag:
+      Flag: Flagg
+    label.location:
+      Location: Beliggenhet
+    note-type.name:
+      Ultimate Geography: 'Ultimate Geography [NB]'
+    sentence.flag-similar:
+      'Flag similar to {{Flag similarity}}.': 'Flagg som ligner på {{Flag similarity}}.'
+  adapter_ids:
+    crowdanki:uuid:
+      43e2586a-9a65-11e8-a777-a0481cc15658: 8ccdc1f6-b042-4d55-8fcd-9e08b5b71dc7

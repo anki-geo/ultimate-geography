@@ -1,0 +1,88 @@
+id: overlay.extension.hardcore.field-fills.es
+kind: extension
+notes:
+  note.hardcore-anguilla:
+    intent: merge
+    fields:
+      field.capital:
+        intent: override
+        value: El Valle
+        expected_base:
+          value: The Valley
+  note.hardcore-canary-islands:
+    intent: merge
+    fields:
+      field.capital:
+        intent: override
+        value: Santa Cruz de Tenerife, Las Palmas de Gran Canaria
+        expected_base:
+          value: Santa Cruz de Tenerife, Las Palmas
+      field.capital-info:
+        intent: override
+        value: La capitalidad es compartida entre las dos ciudades de Santa Cruz de Tenerife y Las Palmas de Gran Canaria.
+        expected_base:
+          value: The capital is shared between the two cities of Santa Cruz de Tenerife and Las Palmas.
+  note.hardcore-cayman-islands:
+    intent: merge
+    fields:
+      field.capital-hint:
+        intent: override
+        value: 'No es un país soberano'
+        expected_base:
+          value: Not a sovereign country
+  note.hardcore-falkland-islands:
+    intent: merge
+    fields:
+      field.capital:
+        intent: override
+        value: Puerto Argentino/Stanley
+        expected_base:
+          value: Stanley
+  note.hardcore-french-guiana:
+    intent: merge
+    fields:
+      field.capital:
+        intent: override
+        value: Cayena
+        expected_base:
+          value: Cayenne
+  note.hardcore-guadeloupe:
+    intent: merge
+    fields:
+      field.capital-hint:
+        intent: override
+        value: 'No es un país soberano'
+        expected_base:
+          value: Not a sovereign country
+  note.hardcore-guernsey:
+    intent: merge
+    fields:
+      field.capital:
+        intent: override
+        value: Saint Peter Port
+        expected_base:
+          value: St. Peter Port
+  note.hardcore-kaliningrad-oblast:
+    intent: merge
+    fields:
+      field.capital:
+        intent: override
+        value: Kaliningrado
+        expected_base:
+          value: Kaliningrad
+  note.hardcore-northern-mariana-islands:
+    intent: merge
+    fields:
+      field.capital:
+        intent: override
+        value: 'Saipán'
+        expected_base:
+          value: Saipan
+  note.hardcore-zanzibar:
+    intent: merge
+    fields:
+      field.capital:
+        intent: override
+        value: 'Zanzíbar'
+        expected_base:
+          value: Zanzibar City

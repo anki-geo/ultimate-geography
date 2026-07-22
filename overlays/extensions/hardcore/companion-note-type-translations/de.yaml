@@ -1,0 +1,19 @@
+id: overlay.translation.hardcore.companion-note-type.de
+kind: translation
+translations:
+  variables:
+    label.capital:
+      Capital: Hauptstadt
+    label.capital-hint.answer:
+      'Hint: {{Capital hint}}': 'Hinweis: {{Capital hint}}'
+    label.flag:
+      Flag: Flagge
+    label.location:
+      Location: Lage
+    note-type.name:
+      Ultimate Geography: 'Ultimate Geography [DE]'
+    sentence.flag-similar:
+      'Flag similar to {{Flag similarity}}.': 'Flagge ähnlich wie {{Flag similarity}}.'
+  adapter_ids:
+    crowdanki:uuid:
+      43e2586a-9a65-11e8-a777-a0481cc15658: cb3de16f-7c9c-4944-994a-e17ec2018c28

@@ -1,0 +1,91 @@
+id: overlay.translation.hardcore.companion.it
+kind: translation
+translations:
+  contextual:
+    notes.note:
+      british-indian-ocean-territory:
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      hardcore-american-samoa:
+        American Samoa: Samoa Americane
+        Unincorporated territory of the United States.: Territorio non incorporato degli Stati Uniti.
+      hardcore-anguilla:
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      hardcore-azores:
+        Autonomous region of Portugal.: Regione autonoma del Portogallo.
+        Azores: Azzorre
+      hardcore-bali:
+        Island of Indonesia.: 'Isola dell''Indonesia.'
+      hardcore-bermuda:
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      hardcore-british-virgin-islands:
+        British Virgin Islands: Isole Vergini britanniche
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      hardcore-canary-islands:
+        Autonomous community of Spain.: 'Comunità autonoma della Spagna.'
+        Canary Islands: Isole Canarie
+      hardcore-cayman-islands:
+        Cayman Islands: Isole Cayman
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      hardcore-corsica:
+        Region of France.: Regione francese.
+      hardcore-falkland-islands:
+        Falkland Islands: Isole Falkland
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      hardcore-french-guiana:
+        French Guiana: Guyana francese
+        Overseas department of France.: 'Dipartimento d''oltremare della Francia.'
+      hardcore-gibraltar:
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      hardcore-gibraltar.fields.field.country:
+        Gibraltar: Gibilterra
+      hardcore-guadeloupe:
+        Guadeloupe: Guadalupa
+        Overseas department of France.: 'Dipartimento d''oltremare della Francia.'
+      hardcore-guernsey:
+        Crown dependency of the United Kingdom.: Dipendenza della Corona britannica.
+      hardcore-isle-of-man:
+        Crown dependency of the United Kingdom.: Dipendenza della Corona britannica.
+        Isle of Man: Isola di Man
+      hardcore-jersey:
+        Crown dependency of the United Kingdom.: Dipendenza della Corona britannica.
+      hardcore-kaliningrad-oblast:
+        Kaliningrad Oblast: 'Oblast'' di Kaliningrad'
+        'Oblast (administrative region) of the Russian Federation.': 'Oblast'' (regione amministrativa) della Federazione Russa.'
+      hardcore-madeira:
+        Autonomous region of Portugal.: Regione autonoma del Portogallo.
+        Madeira: Madera
+      hardcore-martinique:
+        Martinique: Martinica
+        Overseas department of France.: 'Dipartimento d''oltremare della Francia.'
+      hardcore-mayotte:
+        Overseas department of France.: 'Dipartimento d''oltremare della Francia.'
+      hardcore-northern-mariana-islands:
+        Northern Mariana Islands: Isole Marianne Settentrionali
+        Unincorporated territory of the United States.: Territorio non incorporato degli Stati Uniti.
+      hardcore-r-union:
+        Overseas department of France.: 'Dipartimento d''oltremare della Francia.'
+        'Réunion': La Riunione
+      hardcore-saint-martin:
+        Overseas territory of France.: 'Territorio d''oltremare della Francia.'
+        Saint Martin: Saint-Martin
+      hardcore-sardinia:
+        Autonomous region of Italy.: Regione italiana a statuto speciale.
+        Sardinia: Sardegna
+      hardcore-sicily:
+        Autonomous region of Italy.: Regione italiana a statuto speciale.
+        Sicily: Sicilia
+      hardcore-sint-maarten:
+        Constituent country of the Kingdom of the Netherlands.: Nazione costitutiva del Regno dei Paesi Bassi.
+      hardcore-turks-and-caicos-islands:
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+        Turks and Caicos Islands: Turks e Caicos
+      hardcore-zanzibar:
+        Semi-autonomous region of Tanzania.: Regione semi-autonoma della Tanzania.
+      montserrat:
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      norfolk-island:
+        Not a sovereign country: 'Non è uno Stato sovrano'
+      pitcairn-islands:
+        Overseas territory of the United Kingdom.: 'Territorio d''oltremare del Regno Unito.'
+      saint-barth-lemy:
+        Overseas territory of France.: 'Territorio d''oltremare della Francia.'

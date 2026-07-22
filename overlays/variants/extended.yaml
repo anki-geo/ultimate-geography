@@ -1,0 +1,28 @@
+id: overlay.variant.extended
+kind: extension
+note_types:
+  note-type.ultimate-geography:
+    intent: merge
+    variables:
+      variant.name-suffix:
+        intent: replace
+        value: ' [Extended]'
+        expected_base:
+          value: ''
+    card_templates:
+      template.country-flag:
+        intent: add
+        insert_after: template.capital-country
+        template:
+          name: Country - Flag
+          question_format: !include templates/ultimate-geography/country-flag/question.html
+          answer_format: !include templates/ultimate-geography/country-flag/answer.html
+          adapter_ids: {}
+      template.country-map:
+        intent: add
+        insert_after: template.flag-country
+        template:
+          name: Country - Map
+          question_format: !include templates/ultimate-geography/country-map/question.html
+          answer_format: !include templates/ultimate-geography/country-map/answer.html
+          adapter_ids: {}

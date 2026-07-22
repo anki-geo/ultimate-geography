@@ -1,0 +1,19 @@
+id: overlay.translation.hardcore.companion-note-type.zh
+kind: translation
+translations:
+  variables:
+    label.capital:
+      Capital: '首都'
+    label.capital-hint.answer:
+      'Hint: {{Capital hint}}': '提示：{{Capital hint}}'
+    label.flag:
+      Flag: '旗帜'
+    label.location:
+      Location: '位置'
+    note-type.name:
+      Ultimate Geography: 'Ultimate Geography [ZH]'
+    sentence.flag-similar:
+      'Flag similar to {{Flag similarity}}.': '旗帜类似于：{{Flag similarity}}。'
+  adapter_ids:
+    crowdanki:uuid:
+      43e2586a-9a65-11e8-a777-a0481cc15658: 30c7ff39-56b5-4693-8e16-aa862eb7a619

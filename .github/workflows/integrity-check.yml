@@ -1,31 +1,55 @@
-name: Integrity check
+name: Brain Brew check
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
 
 jobs:
-
-  build:
+  verify:
     runs-on: ubuntu-latest
-
+    env:
+      BRAINBREW_FLAKE: github:jeprecated/brain-brew/6ee570d427a1a8eec92c22668442f9b7186f9ba7
+      BRAINBREW_MANIFESTS: brainbrew.yaml brainbrew-hardcore.yaml
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-    - name: Set up Python 3.11
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.11
+      - name: Install Nix
+        uses: cachix/install-nix-action@v31
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
 
-    - name: Install dependencies
-      run: |
-        python3 -m pip install --upgrade pipenv
-        pipenv install
+      - name: Check translation profile consistency
+        run: python scripts/check-translation-profile.py
 
-    - name: Validate regular & extended decks
-      run: |
-        pipenv run build
+      - name: Verify Brain Brew workspace
+        run: |
+          set -euo pipefail
+          for manifest in $BRAINBREW_MANIFESTS; do
+            nix run "$BRAINBREW_FLAKE" -- verify --manifest "$manifest" --all-targets --media-root media
+          done
 
-    - name: Validate experimental deck
-      run: |
-        pipenv run build_experimental
-
-      # TODO: Validate the csv file structure
+      - name: Transactionally export all 100 CrowdAnki targets
+        run: |
+          set -euo pipefail
+          rm -rf build/crowdanki
+          total=0
+          for manifest in $BRAINBREW_MANIFESTS; do
+            mapfile -t targets < <(nix run "$BRAINBREW_FLAKE" -- targets --manifest "$manifest")
+            case "$manifest" in
+              brainbrew.yaml) test "${#targets[@]}" -eq 74 ;;
+              brainbrew-hardcore.yaml) test "${#targets[@]}" -eq 26 ;;
+            esac
+            for target in "${targets[@]}"; do
+              out="build/crowdanki/$target"
+              nix run "$BRAINBREW_FLAKE" -- export crowdanki \
+                --manifest "$manifest" --target "$target" --out "$out" \
+                --media-root media --force
+              test -f "$out/deck.json"
+              total=$((total + 1))
+            done
+          done
+          test "$total" -eq 100
