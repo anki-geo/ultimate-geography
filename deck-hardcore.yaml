@@ -28,16 +28,16 @@ note_types:
       - field.flag-similarity
       - field.map
     fields:
-      field.capital:
-        name: Capital
-      field.capital-hint:
-        name: Capital hint
-      field.capital-info:
-        name: Capital info
       field.country:
         name: Country
       field.country-info:
         name: Country info
+      field.capital:
+        name: Capital
+      field.capital-info:
+        name: Capital info
+      field.capital-hint:
+        name: Capital hint
       field.flag:
         name: Flag
       field.flag-similarity:
@@ -60,15 +60,15 @@ note_types:
       - template.flag-country
       - template.map-country
     card_templates:
-      template.capital-country:
-        name: Capital - Country
-        question_format: !include templates/ultimate-geography/capital-country/question.html
-        answer_format: !include templates/ultimate-geography/capital-country/answer.html
-        adapter_ids: {}
       template.country-capital:
         name: Country - Capital
         question_format: !include templates/ultimate-geography/country-capital/question.html
         answer_format: !include templates/ultimate-geography/country-capital/answer.html
+        adapter_ids: {}
+      template.capital-country:
+        name: Capital - Country
+        question_format: !include templates/ultimate-geography/capital-country/question.html
+        answer_format: !include templates/ultimate-geography/capital-country/answer.html
         adapter_ids: {}
       template.flag-country:
         name: Flag - Country
