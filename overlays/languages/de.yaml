@@ -676,19 +676,6 @@ translations:
     - 'Yaoundé'
     - Yaren
     - Zagreb
-  variables:
-    label.capital:
-      Capital: Hauptstadt
-    label.capital-hint:
-      'Hint: {{Capital hint}}': 'Hinweis: {{Capital hint}}'
-    label.flag:
-      Flag: Flagge
-    label.location:
-      Location: Lage
-    note-type.name:
-      Ultimate Geography: 'Ultimate Geography [DE]'
-    sentence.flag-similar:
-      'Flag similar to {{Flag similarity}}.': 'Flagge ähnlich wie {{Flag similarity}}.'
   adapter_ids:
     crowdanki:guid:
       ')Y}Qy.3GK': '9|1g!uc+D'
@@ -1012,8 +999,6 @@ translations:
       'yX:tmrd5;]': '>{w5YkPYxV'
       'z:*d{z(~V2': '?wqPIso]_s'
       'zSc]-^U=0=': '?[OEt<^,~Q'
-    crowdanki:uuid:
-      43e2586a-9a65-11e8-a777-a0481cc15658: cb3de16f-7c9c-4944-994a-e17ec2018c28
 target_adaptations:
   notes.note.aegean-sea.fields.field.country-info:
     intent: adapt

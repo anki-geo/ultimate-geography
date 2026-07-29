@@ -700,19 +700,6 @@ translations:
     - Yaren
     - Zanzibar
     - Zimbabwe
-  variables:
-    label.capital:
-      Capital: 'Hlavní město'
-    label.capital-hint:
-      'Hint: {{Capital hint}}': 'Náznak: {{Capital hint}}'
-    label.flag:
-      Flag: Vlajka
-    label.location:
-      Location: Poloha
-    note-type.name:
-      Ultimate Geography: 'Ultimate Geography [CS]'
-    sentence.flag-similar:
-      'Flag similar to {{Flag similarity}}.': 'Vlajka podobná jako {{Flag similarity}}.'
   adapter_ids:
     crowdanki:guid:
       ')Y}Qy.3GK': 'Qt?NY}jsN;'
@@ -1036,8 +1023,6 @@ translations:
       'yX:tmrd5;]': 'BLvM|PE:rh'
       'z:*d{z(~V2': 'c2(xx0>{|K'
       'zSc]-^U=0=': 'l1uc5E8j;X'
-    crowdanki:uuid:
-      43e2586a-9a65-11e8-a777-a0481cc15658: 47d13c81-b471-4471-8e87-ebad53fa7307
 target_adaptations:
   notes.note.eswatini.fields.field.country-info:
     intent: delete

@@ -682,19 +682,6 @@ translations:
         Constituent country of the Kingdom of the Netherlands.: 'Страна, входящая в состав Королевства Нидерландов.'
       turks-and-caicos-islands:
         Overseas territory of the United Kingdom.: 'Заморская территория Соединенного Королевства.'
-  variables:
-    label.capital:
-      Capital: 'Столица'
-    label.capital-hint:
-      'Hint: {{Capital hint}}': 'Подсказка: {{Capital hint}}'
-    label.flag:
-      Flag: 'Флаг'
-    label.location:
-      Location: 'Местоположение'
-    note-type.name:
-      Ultimate Geography: 'Ultimate Geography [RU]'
-    sentence.flag-similar:
-      'Flag similar to {{Flag similarity}}.': 'Похожие флаги: {{Flag similarity}}.'
   adapter_ids:
     crowdanki:guid:
       ')Y}Qy.3GK': 'Fa.~5.=<;F'
@@ -1018,8 +1005,6 @@ translations:
       'yX:tmrd5;]': 'M0{EnlSZ[&'
       'z:*d{z(~V2': 'fs]5;0c;}B'
       'zSc]-^U=0=': 'hpvj)-!USf'
-    crowdanki:uuid:
-      43e2586a-9a65-11e8-a777-a0481cc15658: 2aa62e36-601e-4e4c-a124-5a79b14f8697
 target_adaptations:
   notes.note.english-channel.fields.field.country-info:
     intent: adapt

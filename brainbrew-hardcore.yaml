@@ -31,42 +31,6 @@ overlays:
     kind: extension
     depends_on:
       - overlay.extension.hardcore.field-fills
-  overlay.translation.hardcore.companion-note-type.cs:
-    file: overlays/extensions/hardcore/companion-note-type-translations/cs.yaml
-    kind: translation
-  overlay.translation.hardcore.companion-note-type.de:
-    file: overlays/extensions/hardcore/companion-note-type-translations/de.yaml
-    kind: translation
-  overlay.translation.hardcore.companion-note-type.es:
-    file: overlays/extensions/hardcore/companion-note-type-translations/es.yaml
-    kind: translation
-  overlay.translation.hardcore.companion-note-type.fr:
-    file: overlays/extensions/hardcore/companion-note-type-translations/fr.yaml
-    kind: translation
-  overlay.translation.hardcore.companion-note-type.it:
-    file: overlays/extensions/hardcore/companion-note-type-translations/it.yaml
-    kind: translation
-  overlay.translation.hardcore.companion-note-type.nb:
-    file: overlays/extensions/hardcore/companion-note-type-translations/nb.yaml
-    kind: translation
-  overlay.translation.hardcore.companion-note-type.nl:
-    file: overlays/extensions/hardcore/companion-note-type-translations/nl.yaml
-    kind: translation
-  overlay.translation.hardcore.companion-note-type.pl:
-    file: overlays/extensions/hardcore/companion-note-type-translations/pl.yaml
-    kind: translation
-  overlay.translation.hardcore.companion-note-type.pt:
-    file: overlays/extensions/hardcore/companion-note-type-translations/pt.yaml
-    kind: translation
-  overlay.translation.hardcore.companion-note-type.ru:
-    file: overlays/extensions/hardcore/companion-note-type-translations/ru.yaml
-    kind: translation
-  overlay.translation.hardcore.companion-note-type.sv:
-    file: overlays/extensions/hardcore/companion-note-type-translations/sv.yaml
-    kind: translation
-  overlay.translation.hardcore.companion-note-type.zh:
-    file: overlays/extensions/hardcore/companion-note-type-translations/zh.yaml
-    kind: translation
   overlay.translation.hardcore.companion.cs:
     file: overlays/extensions/hardcore/companion-translations/cs.yaml
     kind: translation
@@ -131,74 +95,110 @@ overlays:
     file: overlays/extensions/hardcore/translations/cs.yaml
     kind: translation
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.cs
+      - overlay.translation.note-type.cs
       - overlay.translation.hardcore.companion.cs
   overlay.translation.hardcore.de:
     file: overlays/extensions/hardcore/translations/de.yaml
     kind: translation
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.de
+      - overlay.translation.note-type.de
       - overlay.translation.hardcore.companion.de
   overlay.translation.hardcore.es:
     file: overlays/extensions/hardcore/translations/es.yaml
     kind: translation
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.es
+      - overlay.translation.note-type.es
       - overlay.translation.hardcore.companion.es
   overlay.translation.hardcore.fr:
     file: overlays/extensions/hardcore/translations/fr.yaml
     kind: translation
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.fr
+      - overlay.translation.note-type.fr
       - overlay.translation.hardcore.companion.fr
   overlay.translation.hardcore.it:
     file: overlays/extensions/hardcore/translations/it.yaml
     kind: translation
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.it
+      - overlay.translation.note-type.it
       - overlay.translation.hardcore.companion.it
   overlay.translation.hardcore.nb:
     file: overlays/extensions/hardcore/translations/nb.yaml
     kind: translation
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.nb
+      - overlay.translation.note-type.nb
       - overlay.translation.hardcore.companion.nb
   overlay.translation.hardcore.nl:
     file: overlays/extensions/hardcore/translations/nl.yaml
     kind: translation
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.nl
+      - overlay.translation.note-type.nl
       - overlay.translation.hardcore.companion.nl
   overlay.translation.hardcore.pl:
     file: overlays/extensions/hardcore/translations/pl.yaml
     kind: translation
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.pl
+      - overlay.translation.note-type.pl
       - overlay.translation.hardcore.companion.pl
   overlay.translation.hardcore.pt:
     file: overlays/extensions/hardcore/translations/pt.yaml
     kind: translation
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.pt
+      - overlay.translation.note-type.pt
       - overlay.translation.hardcore.companion.pt
   overlay.translation.hardcore.ru:
     file: overlays/extensions/hardcore/translations/ru.yaml
     kind: translation
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.ru
+      - overlay.translation.note-type.ru
       - overlay.translation.hardcore.companion.ru
   overlay.translation.hardcore.sv:
     file: overlays/extensions/hardcore/translations/sv.yaml
     kind: translation
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.sv
+      - overlay.translation.note-type.sv
       - overlay.translation.hardcore.companion.sv
   overlay.translation.hardcore.zh:
     file: overlays/extensions/hardcore/translations/zh.yaml
     kind: translation
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.zh
+      - overlay.translation.note-type.zh
       - overlay.translation.hardcore.companion.zh
+  overlay.translation.note-type.cs:
+    file: overlays/languages/note-types/cs.yaml
+    kind: translation
+  overlay.translation.note-type.de:
+    file: overlays/languages/note-types/de.yaml
+    kind: translation
+  overlay.translation.note-type.es:
+    file: overlays/languages/note-types/es.yaml
+    kind: translation
+  overlay.translation.note-type.fr:
+    file: overlays/languages/note-types/fr.yaml
+    kind: translation
+  overlay.translation.note-type.it:
+    file: overlays/languages/note-types/it.yaml
+    kind: translation
+  overlay.translation.note-type.nb:
+    file: overlays/languages/note-types/nb.yaml
+    kind: translation
+  overlay.translation.note-type.nl:
+    file: overlays/languages/note-types/nl.yaml
+    kind: translation
+  overlay.translation.note-type.pl:
+    file: overlays/languages/note-types/pl.yaml
+    kind: translation
+  overlay.translation.note-type.pt:
+    file: overlays/languages/note-types/pt.yaml
+    kind: translation
+  overlay.translation.note-type.ru:
+    file: overlays/languages/note-types/ru.yaml
+    kind: translation
+  overlay.translation.note-type.sv:
+    file: overlays/languages/note-types/sv.yaml
+    kind: translation
+  overlay.translation.note-type.zh:
+    file: overlays/languages/note-types/zh.yaml
+    kind: translation
   overlay.variant.extended:
     file: overlays/variants/extended.yaml
     kind: extension
@@ -206,13 +206,13 @@ overlays:
     file: overlays/variants/extended/cs.yaml
     kind: extension
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.cs
+      - overlay.translation.note-type.cs
       - overlay.variant.extended
   overlay.variant.extended.de:
     file: overlays/variants/extended/de.yaml
     kind: extension
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.de
+      - overlay.translation.note-type.de
       - overlay.variant.extended
   overlay.variant.extended.en:
     file: overlays/variants/extended/en.yaml
@@ -223,61 +223,61 @@ overlays:
     file: overlays/variants/extended/es.yaml
     kind: extension
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.es
+      - overlay.translation.note-type.es
       - overlay.variant.extended
   overlay.variant.extended.fr:
     file: overlays/variants/extended/fr.yaml
     kind: extension
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.fr
+      - overlay.translation.note-type.fr
       - overlay.variant.extended
   overlay.variant.extended.it:
     file: overlays/variants/extended/it.yaml
     kind: extension
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.it
+      - overlay.translation.note-type.it
       - overlay.variant.extended
   overlay.variant.extended.nb:
     file: overlays/variants/extended/nb.yaml
     kind: extension
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.nb
+      - overlay.translation.note-type.nb
       - overlay.variant.extended
   overlay.variant.extended.nl:
     file: overlays/variants/extended/nl.yaml
     kind: extension
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.nl
+      - overlay.translation.note-type.nl
       - overlay.variant.extended
   overlay.variant.extended.pl:
     file: overlays/variants/extended/pl.yaml
     kind: extension
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.pl
+      - overlay.translation.note-type.pl
       - overlay.variant.extended
   overlay.variant.extended.pt:
     file: overlays/variants/extended/pt.yaml
     kind: extension
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.pt
+      - overlay.translation.note-type.pt
       - overlay.variant.extended
   overlay.variant.extended.ru:
     file: overlays/variants/extended/ru.yaml
     kind: extension
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.ru
+      - overlay.translation.note-type.ru
       - overlay.variant.extended
   overlay.variant.extended.sv:
     file: overlays/variants/extended/companion/sv.yaml
     kind: extension
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.sv
+      - overlay.translation.note-type.sv
       - overlay.variant.extended
   overlay.variant.extended.zh:
     file: overlays/variants/extended/zh.yaml
     kind: extension
     depends_on:
-      - overlay.translation.hardcore.companion-note-type.zh
+      - overlay.translation.note-type.zh
       - overlay.variant.extended
 targets:
   cs-hardcore-companion-extended:

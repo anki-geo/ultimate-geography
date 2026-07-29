@@ -655,8 +655,6 @@ translations:
     'Åland Islands': '奥兰群岛(Åland Islands)'
   contextual:
     note_types.note-type.ultimate-geography.fields.field.flag-similarity.message_pattern:
-      item_format:
-        '{country} ({description})': '{country}({description})'
       separator:
         ', ': '、'
     notes.note:
@@ -774,19 +772,6 @@ translations:
         Egypt: '埃及'
       yemen.fields.field.flag-similarity.message.items.1.country:
         Iraq: '伊拉克'
-  variables:
-    label.capital:
-      Capital: '首都'
-    label.capital-hint:
-      'Hint: {{Capital hint}}': '提示：{{Capital hint}}'
-    label.flag:
-      Flag: '旗帜'
-    label.location:
-      Location: '位置'
-    note-type.name:
-      Ultimate Geography: 'Ultimate Geography [ZH]'
-    sentence.flag-similar:
-      'Flag similar to {{Flag similarity}}.': '旗帜类似于：{{Flag similarity}}。'
   adapter_ids:
     crowdanki:guid:
       ')Y}Qy.3GK': 'jgG[|g62bu'
@@ -1112,7 +1097,6 @@ translations:
       'zSc]-^U=0=': 'NlR(^Q+:^E'
     crowdanki:uuid:
       43c5ba66-9a65-11e8-90c9-a0481cc15658: 6c995ee1-4b62-4019-a033-de0ef8651c83
-      43e2586a-9a65-11e8-a777-a0481cc15658: 30c7ff39-56b5-4693-8e16-aa862eb7a619
 target_adaptations:
   notes.note.myanmar.fields.field.capital-info:
     intent: adapt

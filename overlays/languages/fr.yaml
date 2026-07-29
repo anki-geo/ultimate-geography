@@ -665,19 +665,6 @@ translations:
     - Zagreb
     - Zanzibar
     - Zimbabwe
-  variables:
-    label.capital:
-      Capital: Capitale
-    label.capital-hint:
-      'Hint: {{Capital hint}}': 'Indice : {{Capital hint}}'
-    label.flag:
-      Flag: Drapeau
-    label.location:
-      Location: Emplacement
-    note-type.name:
-      Ultimate Geography: 'Ultimate Geography [FR]'
-    sentence.flag-similar:
-      'Flag similar to {{Flag similarity}}.': 'Drapeau similaire à : {{Flag similarity}}.'
   adapter_ids:
     crowdanki:guid:
       ')Y}Qy.3GK': cYWtxb5I.n
@@ -1001,8 +988,6 @@ translations:
       'yX:tmrd5;]': 'j7FyQaW,n{'
       'z:*d{z(~V2': 'H1L?;^]mY]'
       'zSc]-^U=0=': 'f^0aH]F%!V'
-    crowdanki:uuid:
-      43e2586a-9a65-11e8-a777-a0481cc15658: fd72d808-58d4-43ea-97db-24196747f24c
 target_adaptations:
   notes.note.cape-verde.fields.field.country-info:
     intent: delete

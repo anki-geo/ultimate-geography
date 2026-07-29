@@ -38,18 +38,26 @@ overlays:
   overlay.translation.cs:
     file: overlays/languages/cs.yaml
     kind: translation
+    depends_on:
+      - overlay.translation.note-type.cs
   overlay.translation.da:
     file: overlays/languages/da.yaml
     kind: translation
   overlay.translation.de:
     file: overlays/languages/de.yaml
     kind: translation
+    depends_on:
+      - overlay.translation.note-type.de
   overlay.translation.es:
     file: overlays/languages/es.yaml
     kind: translation
+    depends_on:
+      - overlay.translation.note-type.es
   overlay.translation.fr:
     file: overlays/languages/fr.yaml
     kind: translation
+    depends_on:
+      - overlay.translation.note-type.fr
   overlay.translation.hardcore.companion.cs:
     file: overlays/extensions/hardcore/companion-translations/cs.yaml
     kind: translation
@@ -188,27 +196,79 @@ overlays:
   overlay.translation.it:
     file: overlays/languages/it.yaml
     kind: translation
+    depends_on:
+      - overlay.translation.note-type.it
   overlay.translation.nb:
     file: overlays/languages/nb.yaml
     kind: translation
+    depends_on:
+      - overlay.translation.note-type.nb
   overlay.translation.nl:
     file: overlays/languages/nl.yaml
+    kind: translation
+    depends_on:
+      - overlay.translation.note-type.nl
+  overlay.translation.note-type.cs:
+    file: overlays/languages/note-types/cs.yaml
+    kind: translation
+  overlay.translation.note-type.de:
+    file: overlays/languages/note-types/de.yaml
+    kind: translation
+  overlay.translation.note-type.es:
+    file: overlays/languages/note-types/es.yaml
+    kind: translation
+  overlay.translation.note-type.fr:
+    file: overlays/languages/note-types/fr.yaml
+    kind: translation
+  overlay.translation.note-type.it:
+    file: overlays/languages/note-types/it.yaml
+    kind: translation
+  overlay.translation.note-type.nb:
+    file: overlays/languages/note-types/nb.yaml
+    kind: translation
+  overlay.translation.note-type.nl:
+    file: overlays/languages/note-types/nl.yaml
+    kind: translation
+  overlay.translation.note-type.pl:
+    file: overlays/languages/note-types/pl.yaml
+    kind: translation
+  overlay.translation.note-type.pt:
+    file: overlays/languages/note-types/pt.yaml
+    kind: translation
+  overlay.translation.note-type.ru:
+    file: overlays/languages/note-types/ru.yaml
+    kind: translation
+  overlay.translation.note-type.sv:
+    file: overlays/languages/note-types/sv.yaml
+    kind: translation
+  overlay.translation.note-type.zh:
+    file: overlays/languages/note-types/zh.yaml
     kind: translation
   overlay.translation.pl:
     file: overlays/languages/pl.yaml
     kind: translation
+    depends_on:
+      - overlay.translation.note-type.pl
   overlay.translation.pt:
     file: overlays/languages/pt.yaml
     kind: translation
+    depends_on:
+      - overlay.translation.note-type.pt
   overlay.translation.ru:
     file: overlays/languages/ru.yaml
     kind: translation
+    depends_on:
+      - overlay.translation.note-type.ru
   overlay.translation.sv:
     file: overlays/languages/sv.yaml
     kind: translation
+    depends_on:
+      - overlay.translation.note-type.sv
   overlay.translation.zh:
     file: overlays/languages/zh.yaml
     kind: translation
+    depends_on:
+      - overlay.translation.note-type.zh
   overlay.translation.zh-tw:
     file: overlays/languages/zh-tw.yaml
     kind: translation

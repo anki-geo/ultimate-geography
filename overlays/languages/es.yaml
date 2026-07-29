@@ -651,17 +651,6 @@ translations:
     - Yemen
     - Zagreb
     - Zambia
-  variables:
-    label.capital-hint:
-      'Hint: {{Capital hint}}': 'Pista: {{Capital hint}}'
-    label.flag:
-      Flag: Bandera
-    label.location:
-      Location: 'Ubicación'
-    note-type.name:
-      Ultimate Geography: 'Ultimate Geography [ES]'
-    sentence.flag-similar:
-      'Flag similar to {{Flag similarity}}.': 'Bandera similar a {{Flag similarity}}.'
   adapter_ids:
     crowdanki:guid:
       ')Y}Qy.3GK': '860fGtb*C'
@@ -987,7 +976,6 @@ translations:
       'zSc]-^U=0=': '>0NDs;]+8P'
     crowdanki:uuid:
       43c5ba66-9a65-11e8-90c9-a0481cc15658: cb4d32ee-12ed-9960-1841-28c09449ded0
-      43e2586a-9a65-11e8-a777-a0481cc15658: 0bacddfd-1e81-4e62-9152-bdff33db0374
 target_adaptations:
   notes.note.cape-verde.fields.field.country-info:
     intent: delete

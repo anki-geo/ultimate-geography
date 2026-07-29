@@ -692,17 +692,6 @@ translations:
     - Wellington
     - Willemstad
     - Zanzibar
-  variables:
-    label.capital-hint:
-      'Hint: {{Capital hint}}': 'Dica: {{Capital hint}}'
-    label.flag:
-      Flag: Bandeira
-    label.location:
-      Location: 'Localização'
-    note-type.name:
-      Ultimate Geography: 'Ultimate Geography [PT]'
-    sentence.flag-similar:
-      'Flag similar to {{Flag similarity}}.': 'Bandeira parecida com: {{Flag similarity}}.'
   adapter_ids:
     crowdanki:guid:
       ')Y}Qy.3GK': 'tEG*ja>]Nv'
@@ -1026,8 +1015,6 @@ translations:
       'yX:tmrd5;]': 'k.<MjI(i0l'
       'z:*d{z(~V2': 'g<j_zQ:^mn'
       'zSc]-^U=0=': 'A#xTVpn3Ks'
-    crowdanki:uuid:
-      43e2586a-9a65-11e8-a777-a0481cc15658: 3da2a851-258c-447f-9d16-91a663663675
 target_adaptations:
   notes.note.antigua-and-barbuda.fields.field.capital-hint:
     intent: adapt

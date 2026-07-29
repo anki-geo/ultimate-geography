@@ -649,19 +649,6 @@ translations:
     - Zambia
     - Zanzibar
     - Zimbabwe
-  variables:
-    label.capital:
-      Capital: Hoofdstad
-    label.capital-hint:
-      'Hint: {{Capital hint}}': 'Aanwijzing: {{Capital hint}}'
-    label.flag:
-      Flag: Vlag
-    label.location:
-      Location: Ligging
-    note-type.name:
-      Ultimate Geography: 'Ultimate Geography [NL]'
-    sentence.flag-similar:
-      'Flag similar to {{Flag similarity}}.': 'Vlag vergelijkbaar met {{Flag similarity}}.'
   adapter_ids:
     crowdanki:guid:
       ')Y}Qy.3GK': tBCiVBcuG_
@@ -985,8 +972,6 @@ translations:
       'yX:tmrd5;]': 'CQTeWe?;Y/'
       'z:*d{z(~V2': ngbe6iK.Qu
       'zSc]-^U=0=': 'eY!@E#<EI8'
-    crowdanki:uuid:
-      43e2586a-9a65-11e8-a777-a0481cc15658: 8263244e-6f5e-457a-bb65-a836a6c058a3
 target_adaptations:
   notes.note.baltic-sea.fields.field.country-info:
     intent: adapt
