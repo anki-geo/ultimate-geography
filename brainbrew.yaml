@@ -906,10 +906,11 @@ translation_profile:
       paths:
         - 'note_types.*.variables.*'
         - 'notes.*.variables.*'
-    - key: structured-message-format
-      label: Structured message formats
+    - key: list-message-pattern-glue
+      label: List-message pattern glue
       paths:
-        - 'notes.*.fields.*.message.format'
+        - 'note_types.*.fields.*.message_pattern.item_format'
+        - 'note_types.*.fields.*.message_pattern.separator'
     - key: tag
       label: Tags
       paths:
@@ -935,6 +936,6 @@ translation_profile:
     - card-template-name
     - variable
     - card-template-variable
-    - structured-message-format
+    - list-message-pattern-glue
     - tag
     - stale-translation
