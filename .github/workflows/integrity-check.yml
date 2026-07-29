@@ -25,6 +25,9 @@ jobs:
       - name: Check translation profile consistency
         run: python scripts/check-translation-profile.py
 
+      - name: Check sparse Experimental region codes
+        run: "! grep -nF \"field.region-code: ''\" overlays/variants/experimental.yaml"
+
       - name: Verify Brain Brew workspace
         run: |
           set -euo pipefail
