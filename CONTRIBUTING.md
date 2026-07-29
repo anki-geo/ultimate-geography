@@ -11,7 +11,8 @@ Ultimate Geography is maintained with [Brain Brew](https://github.com/jeprecated
 The source of truth is:
 
 - `deck.yaml` — the English standard Canonical Deck.
-- `deck-hardcore.yaml` — the minimal Hardcore Geography companion shell; it contains deck identity and UG-compatible note types, but no ordinary UG notes.
+- `deck-hardcore.yaml` — the minimal Hardcore Geography companion shell; it contains deck identity but no ordinary UG notes.
+- `note-types.yaml` — the shared UG-compatible note-type map included by both deck shells.
 - `overlays/languages/*.yaml` — translation overlays.
 - `overlays/variants/extended*.yaml` and `overlays/variants/experimental*.yaml` — extended and experimental variant overlays.
 - `descriptions/` — deck description HTML fragments included from deck YAML and translation overlays.
@@ -45,12 +46,13 @@ Verify the whole workspace. Native verification checks every composed target, in
 
 ```bash
 python scripts/check-translation-profile.py
+python scripts/check-shared-note-types.py
 for manifest in brainbrew.yaml brainbrew-hardcore.yaml; do
   brainbrew verify --manifest "$manifest" --all-targets --media-root media
 done
 ```
 
-The small Python command only protects the two canonical translation-profile copies from drifting; alpha.3 does not support a mapping-valued `!include` there. HTML/CSS validation is part of Brain Brew itself.
+The small Python guards protect the two canonical translation-profile copies from drifting and ensure both deck shells keep shared note-type structure in `note-types.yaml`. Alpha.3 does not support a mapping-valued `!include` for the translation profile. HTML/CSS validation is part of Brain Brew itself.
 
 Export one target with media:
 
