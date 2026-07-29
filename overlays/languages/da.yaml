@@ -681,7 +681,7 @@ translations:
   variables:
     label.capital:
       Capital: Hovedstad
-    label.capital-hint.answer:
+    label.capital-hint:
       'Hint: {{Capital hint}}': 'Ledetråd: {{Capital hint}}'
     label.location:
       Location: Placering

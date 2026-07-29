@@ -777,7 +777,7 @@ translations:
   variables:
     label.capital:
       Capital: '首都'
-    label.capital-hint.answer:
+    label.capital-hint:
       'Hint: {{Capital hint}}': '提示：{{Capital hint}}'
     label.flag:
       Flag: '旗帜'

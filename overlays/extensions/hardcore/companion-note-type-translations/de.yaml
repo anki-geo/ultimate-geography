@@ -4,7 +4,7 @@ translations:
   variables:
     label.capital:
       Capital: Hauptstadt
-    label.capital-hint.answer:
+    label.capital-hint:
       'Hint: {{Capital hint}}': 'Hinweis: {{Capital hint}}'
     label.flag:
       Flag: Flagge

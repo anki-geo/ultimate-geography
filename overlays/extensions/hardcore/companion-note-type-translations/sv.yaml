@@ -4,7 +4,7 @@ translations:
   variables:
     label.capital:
       Capital: Huvudstad
-    label.capital-hint.answer:
+    label.capital-hint:
       'Hint: {{Capital hint}}': 'Ledtråd: {{Capital hint}}'
     label.flag:
       Flag: Flagga

@@ -2,7 +2,7 @@ id: overlay.translation.hardcore.companion-note-type.pt
 kind: translation
 translations:
   variables:
-    label.capital-hint.answer:
+    label.capital-hint:
       'Hint: {{Capital hint}}': 'Dica: {{Capital hint}}'
     label.flag:
       Flag: Bandeira

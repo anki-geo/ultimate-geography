@@ -653,7 +653,7 @@ translations:
   variables:
     label.capital:
       Capital: Stolica
-    label.capital-hint.answer:
+    label.capital-hint:
       'Hint: {{Capital hint}}': 'Wskazówka: {{Capital hint}}'
     label.flag:
       Flag: Flaga

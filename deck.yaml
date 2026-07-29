@@ -11,8 +11,7 @@ note_types:
     name: '${note-type.name}${variant.name-suffix}'
     variables:
       label.capital: Capital
-      label.capital-hint.answer: 'Hint: {{Capital hint}}'
-      label.capital-hint.question: 'Hint: {{Capital hint}}'
+      label.capital-hint: 'Hint: {{Capital hint}}'
       label.flag: Flag
       label.location: Location
       note-type.name: Ultimate Geography

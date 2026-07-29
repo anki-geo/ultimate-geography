@@ -768,7 +768,7 @@
           "did": null,
           "name": "Capital - Country",
           "ord": 1,
-          "qfmt": "{{#Capital}}\n  <div class=\"value value--top\">?</div>\n\n  <hr>\n\n  <div class=\"type\">Hauptstadt</div>\n  <div class=\"value\">{{Capital}}</div>\n  {{#Capital hint}}<div class=\"info\">Hint: {{Capital hint}}</div>{{/Capital hint}}\n{{/Capital}}",
+          "qfmt": "{{#Capital}}\n  <div class=\"value value--top\">?</div>\n\n  <hr>\n\n  <div class=\"type\">Hauptstadt</div>\n  <div class=\"value\">{{Capital}}</div>\n  {{#Capital hint}}<div class=\"info\">Hinweis: {{Capital hint}}</div>{{/Capital hint}}\n{{/Capital}}",
           "scratchPad": 0
         },
         {

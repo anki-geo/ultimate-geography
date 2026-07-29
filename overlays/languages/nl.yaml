@@ -652,7 +652,7 @@ translations:
   variables:
     label.capital:
       Capital: Hoofdstad
-    label.capital-hint.answer:
+    label.capital-hint:
       'Hint: {{Capital hint}}': 'Aanwijzing: {{Capital hint}}'
     label.flag:
       Flag: Vlag

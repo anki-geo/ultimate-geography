@@ -659,9 +659,7 @@ translations:
   variables:
     label.capital:
       Capital: 'בירה'
-    label.capital-hint.answer:
-      'Hint: {{Capital hint}}': 'רמז: {{Capital hint}}'
-    label.capital-hint.question:
+    label.capital-hint:
       'Hint: {{Capital hint}}': 'רמז: {{Capital hint}}'
     label.flag:
       Flag: 'דגל'

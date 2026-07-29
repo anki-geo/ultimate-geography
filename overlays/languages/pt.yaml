@@ -693,7 +693,7 @@ translations:
     - Willemstad
     - Zanzibar
   variables:
-    label.capital-hint.answer:
+    label.capital-hint:
       'Hint: {{Capital hint}}': 'Dica: {{Capital hint}}'
     label.flag:
       Flag: Bandeira

@@ -668,7 +668,7 @@ translations:
   variables:
     label.capital:
       Capital: Capitale
-    label.capital-hint.answer:
+    label.capital-hint:
       'Hint: {{Capital hint}}': 'Indice : {{Capital hint}}'
     label.flag:
       Flag: Drapeau

@@ -652,7 +652,7 @@ translations:
     - Zagreb
     - Zambia
   variables:
-    label.capital-hint.answer:
+    label.capital-hint:
       'Hint: {{Capital hint}}': 'Pista: {{Capital hint}}'
     label.flag:
       Flag: Bandera
