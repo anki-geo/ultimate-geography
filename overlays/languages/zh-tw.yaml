@@ -648,125 +648,62 @@ translations:
     note_types.note-type.ultimate-geography.fields.field.flag-similarity.message_pattern:
       item_format:
         '{country} ({description})': '{country}({description})'
+      parameters:
+        country:
+          Andorra: '安道爾'
+          Australia: '澳洲'
+          Austria: '奧地利'
+          Bahrain: '巴林'
+          Bolivia: '玻利維亞'
+          Cameroon: '喀麥隆'
+          Chad: '查德'
+          Colombia: '哥倫比亞'
+          Cuba: '古巴'
+          'Curaçao': '庫拉索'
+          Ecuador: '厄瓜多'
+          Egypt: '埃及'
+          El Salvador: '薩爾瓦多'
+          Faroe Islands: '法羅群島'
+          Ghana: '迦納'
+          Guinea: '幾內亞'
+          Iceland: '冰島'
+          Indonesia: '印尼'
+          Iraq: '伊拉克'
+          Ireland: '愛爾蘭'
+          Ivory Coast: '象牙海岸'
+          Latvia: '拉脫維亞'
+          Luxembourg: '盧森堡'
+          Mali: '馬利'
+          Moldova: '摩爾多瓦'
+          Monaco: '摩納哥'
+          Nauru: '諾魯'
+          Netherlands: '荷蘭'
+          New Zealand: '紐西蘭'
+          Nicaragua: '尼加拉瓜'
+          Norway: '挪威'
+          Palestine: '巴勒斯坦'
+          Poland: '波蘭'
+          Puerto Rico: '波多黎各'
+          Qatar: '卡達'
+          Romania: '羅馬尼亞'
+          Russia: '俄羅斯'
+          Sahrawi Arab Democratic Republic: '西撒哈拉'
+          Senegal: '塞內加爾'
+          Slovakia: '斯洛伐克'
+          Slovenia: '斯洛維尼亞'
+          Sudan: '蘇丹'
+          Yemen: '葉門'
       separator:
         ', ': '、'
     notes.note:
       abkhazia:
         Independent state claimed by Georgia.: '喬治亞宣稱擁有該地區主權，但目前是獨立狀態。'
-      andorra.fields.field.flag-similarity.message.items.0.country:
-        Moldova: '摩爾多瓦'
-      australia.fields.field.flag-similarity.message.items.0.country:
-        New Zealand: '紐西蘭'
-      austria.fields.field.flag-similarity.message.items.0.country:
-        Latvia: '拉脫維亞'
-      bahrain.fields.field.flag-similarity.message.items.0.country:
-        Qatar: '卡達'
-      bolivia.fields.field.flag-similarity.message.items.0.country:
-        Ghana: '迦納'
-      cameroon.fields.field.flag-similarity.message.items.0.country:
-        Senegal: '塞內加爾'
-      chad.fields.field.flag-similarity.message.items.0.country:
-        Romania: '羅馬尼亞'
-      colombia.fields.field.flag-similarity.message.items.0.country:
-        Ecuador: '厄瓜多'
-      cuba.fields.field.flag-similarity.message.items.0.country:
-        Puerto Rico: '波多黎各'
-      cura-ao.fields.field.flag-similarity.message.items.0.country:
-        Nauru: '諾魯'
       djibouti:
         Djibouti: '吉布地共和國 (Djibouti)'
       djibouti.fields.field.capital:
         Djibouti: '吉布地 (Djibouti)'
-      ecuador.fields.field.flag-similarity.message.items.0.country:
-        Colombia: '哥倫比亞'
-      egypt.fields.field.flag-similarity.message.items.0.country:
-        Iraq: '伊拉克'
-      egypt.fields.field.flag-similarity.message.items.1.country:
-        Yemen: '葉門'
-      el-salvador.fields.field.flag-similarity.message.items.0.country:
-        Nicaragua: '尼加拉瓜'
-      faroe-islands.fields.field.flag-similarity.message.items.0.country:
-        Iceland: '冰島'
-      faroe-islands.fields.field.flag-similarity.message.items.1.country:
-        Norway: '挪威'
-      ghana.fields.field.flag-similarity.message.items.0.country:
-        Bolivia: '玻利維亞'
-      guinea.fields.field.flag-similarity.message.items.0.country:
-        Mali: '馬利'
-      iceland.fields.field.flag-similarity.message.items.0.country:
-        Norway: '挪威'
-      iceland.fields.field.flag-similarity.message.items.1.country:
-        Faroe Islands: '法羅群島'
-      indonesia.fields.field.flag-similarity.message.items.0.country:
-        Monaco: '摩納哥'
-      indonesia.fields.field.flag-similarity.message.items.1.country:
-        Poland: '波蘭'
-      iraq.fields.field.flag-similarity.message.items.0.country:
-        Egypt: '埃及'
-      iraq.fields.field.flag-similarity.message.items.1.country:
-        Yemen: '葉門'
-      ireland.fields.field.flag-similarity.message.items.0.country:
-        Ivory Coast: '象牙海岸'
-      ivory-coast.fields.field.flag-similarity.message.items.0.country:
-        Ireland: '愛爾蘭'
-      latvia.fields.field.flag-similarity.message.items.0.country:
-        Austria: '奧地利'
-      luxembourg.fields.field.flag-similarity.message.items.0.country:
-        Netherlands: '荷蘭'
-      mali.fields.field.flag-similarity.message.items.0.country:
-        Guinea: '幾內亞'
-      moldova.fields.field.flag-similarity.message.items.0.country:
-        Andorra: '安道爾'
-      monaco.fields.field.flag-similarity.message.items.0.country:
-        Indonesia: '印尼'
-      monaco.fields.field.flag-similarity.message.items.1.country:
-        Poland: '波蘭'
-      nauru.fields.field.flag-similarity.message.items.0.country:
-        'Curaçao': '庫拉索'
-      netherlands.fields.field.flag-similarity.message.items.0.country:
-        Luxembourg: '盧森堡'
-      new-zealand.fields.field.flag-similarity.message.items.0.country:
-        Australia: '澳洲'
-      nicaragua.fields.field.flag-similarity.message.items.0.country:
-        El Salvador: '薩爾瓦多'
-      norway.fields.field.flag-similarity.message.items.0.country:
-        Iceland: '冰島'
-      norway.fields.field.flag-similarity.message.items.1.country:
-        Faroe Islands: '法羅群島'
-      palestine.fields.field.flag-similarity.message.items.0.country:
-        Sudan: '蘇丹'
-      palestine.fields.field.flag-similarity.message.items.1.country:
-        Sahrawi Arab Democratic Republic: '西撒哈拉'
-      poland.fields.field.flag-similarity.message.items.0.country:
-        Indonesia: '印尼'
-      poland.fields.field.flag-similarity.message.items.1.country:
-        Monaco: '摩納哥'
-      puerto-rico.fields.field.flag-similarity.message.items.0.country:
-        Cuba: '古巴'
-      qatar.fields.field.flag-similarity.message.items.0.country:
-        Bahrain: '巴林'
-      romania.fields.field.flag-similarity.message.items.0.country:
-        Chad: '查德'
-      russia.fields.field.flag-similarity.message.items.0.country:
-        Slovakia: '斯洛伐克'
-      sahrawi-arab-democratic-republic.fields.field.flag-similarity.message.items.0.country:
-        Palestine: '巴勒斯坦'
-      senegal.fields.field.flag-similarity.message.items.0.country:
-        Cameroon: '喀麥隆'
-      slovakia.fields.field.flag-similarity.message.items.0.country:
-        Russia: '俄羅斯'
-      slovakia.fields.field.flag-similarity.message.items.1.country:
-        Slovenia: '斯洛維尼亞'
-      slovenia.fields.field.flag-similarity.message.items.0.country:
-        Slovakia: '斯洛伐克'
       south-ossetia:
         Independent state claimed by Georgia.: '從喬治亞獨立。'
-      sudan.fields.field.flag-similarity.message.items.0.country:
-        Palestine: '巴勒斯坦'
-      yemen.fields.field.flag-similarity.message.items.0.country:
-        Egypt: '埃及'
-      yemen.fields.field.flag-similarity.message.items.1.country:
-        Iraq: '伊拉克'
   variables:
     label.capital:
       Capital: '首都'

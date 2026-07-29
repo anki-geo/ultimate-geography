@@ -384,11 +384,13 @@ translations:
     with text: mit Text
     'Åland Islands': 'Åland'
   contextual:
+    note_types.note-type.ultimate-geography.fields.field.flag-similarity.message_pattern:
+      parameters:
+        country:
+          Moldova: Republik Moldau/Moldawien
     notes.note:
       akrotiri-and-dhekelia:
         Overseas territory of the United Kingdom.: 'Britisches Überseegebiet.'
-      andorra.fields.field.flag-similarity.message.items.0.country:
-        Moldova: Republik Moldau/Moldawien
       anguilla:
         Overseas territory of the United Kingdom.: 'Britisches Überseegebiet.'
       bali:

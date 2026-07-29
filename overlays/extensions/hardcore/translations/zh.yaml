@@ -2,9 +2,11 @@ id: overlay.translation.hardcore.zh
 kind: translation
 translations:
   contextual:
+    note_types.note-type.ultimate-geography.fields.field.flag-similarity.message_pattern:
+      parameters:
+        country:
+          Sierra Leone: '塞拉利昂'
     notes.note:
-      gal-pagos-islands.fields.field.flag-similarity.message.items.0.country:
-        Sierra Leone: '塞拉利昂'
       gal-pagos-islands.fields.field.flag-similarity.message.items.0.description:
         slightly lighter blue: '略浅蓝色'
   adapter_ids:

@@ -1328,6 +1328,16 @@ def verify_main_hardcore_translation_wiring() -> None:
         require(overlay in manifest and source in manifest, f"missing localized standalone Hardcore wiring for {language}")
 
 
+def verify_repository_integrity_guards() -> None:
+    command = [sys.executable, str(ROOT / "scripts/check-translation-profile.py")]
+    completed = subprocess.run(command, cwd=ROOT, text=True, capture_output=True, check=False)
+    require(
+        completed.returncode == 0,
+        "translation profile/context integrity check failed: "
+        + (completed.stderr.strip() or completed.stdout.strip()),
+    )
+
+
 def collect(old_ug_root: Path, old_hg_root: Path, new_root: Path) -> list[dict[str, object]]:
     verify_main_hardcore_translation_wiring()
     results: list[dict[str, object]] = []
@@ -1377,6 +1387,7 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> int:
     args = parse_args()
+    verify_repository_integrity_guards()
     command = shlex.split(args.new_brainbrew_command)
     require(command, "new Brain Brew command cannot be empty")
     temporary: tempfile.TemporaryDirectory[str] | None = None
