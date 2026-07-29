@@ -28,12 +28,12 @@ Install the reviewed Brain Brew source revision as a normal `brainbrew` command:
 
 ```bash
 cargo install --git https://github.com/jeprecated/brain-brew.git \
-  --rev 77b092ddb82fb0dfdaf64713ed081a4ac9f2eb97 \
+  --rev 68a828350de4bda46af85b5167bca807edd7d733 \
   --locked brainbrew
 brainbrew --version
 ```
 
-CI uses the same immutable Nix source revision `77b092ddb82fb0dfdaf64713ed081a4ac9f2eb97`. To run it without installing, prefix a Brain Brew command with `nix run github:jeprecated/brain-brew/77b092ddb82fb0dfdaf64713ed081a4ac9f2eb97 --`.
+CI uses the same immutable Nix source revision `68a828350de4bda46af85b5167bca807edd7d733`, which supplies `note_types` includes and parameter translation contexts. To run it without installing, prefix a Brain Brew command with `nix run github:jeprecated/brain-brew/68a828350de4bda46af85b5167bca807edd7d733 --`.
 
 List the available targets:
 

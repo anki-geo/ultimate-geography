@@ -11,7 +11,7 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     env:
-      BRAINBREW_FLAKE: github:jeprecated/brain-brew/77b092ddb82fb0dfdaf64713ed081a4ac9f2eb97
+      BRAINBREW_FLAKE: github:jeprecated/brain-brew/68a828350de4bda46af85b5167bca807edd7d733
       BRAINBREW_MANIFESTS: brainbrew.yaml brainbrew-hardcore.yaml
     steps:
       - uses: actions/checkout@v4
