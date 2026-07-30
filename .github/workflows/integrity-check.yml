@@ -11,7 +11,7 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     env:
-      BRAINBREW_FLAKE: github:jeprecated/brain-brew/68a828350de4bda46af85b5167bca807edd7d733
+      BRAINBREW_VERSION: 1.0.0-alpha.4
       BRAINBREW_MANIFESTS: brainbrew.yaml brainbrew-hardcore.yaml
     steps:
       - uses: actions/checkout@v4
@@ -21,6 +21,9 @@ jobs:
         with:
           extra_nix_config: |
             experimental-features = nix-command flakes
+
+      - name: Install Brain Brew
+        run: nix shell nixpkgs#cargo nixpkgs#rustc -c cargo install brainbrew --version "=$BRAINBREW_VERSION" --locked
 
       - name: Check translation profile consistency
         run: python scripts/check-translation-profile.py
@@ -35,7 +38,7 @@ jobs:
         run: |
           set -euo pipefail
           for manifest in $BRAINBREW_MANIFESTS; do
-            nix run "$BRAINBREW_FLAKE" -- verify --manifest "$manifest" --all-targets --media-root media
+            brainbrew verify --manifest "$manifest" --all-targets --media-root media
           done
 
       - name: Transactionally export all 100 CrowdAnki targets
@@ -44,14 +47,14 @@ jobs:
           rm -rf build/crowdanki
           total=0
           for manifest in $BRAINBREW_MANIFESTS; do
-            mapfile -t targets < <(nix run "$BRAINBREW_FLAKE" -- targets --manifest "$manifest")
+            mapfile -t targets < <(brainbrew targets --manifest "$manifest")
             case "$manifest" in
               brainbrew.yaml) test "${#targets[@]}" -eq 74 ;;
               brainbrew-hardcore.yaml) test "${#targets[@]}" -eq 26 ;;
             esac
             for target in "${targets[@]}"; do
               out="build/crowdanki/$target"
-              nix run "$BRAINBREW_FLAKE" -- export crowdanki \
+              brainbrew export crowdanki \
                 --manifest "$manifest" --target "$target" --out "$out" \
                 --media-root media --force
               test -f "$out/deck.json"

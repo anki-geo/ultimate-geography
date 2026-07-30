@@ -24,16 +24,14 @@ The source of truth is:
 
 ### Getting started
 
-Install the reviewed Brain Brew source revision as a normal `brainbrew` command:
+Install the reviewed Brain Brew alpha release as a normal `brainbrew` command:
 
 ```bash
-cargo install --git https://github.com/jeprecated/brain-brew.git \
-  --rev 68a828350de4bda46af85b5167bca807edd7d733 \
-  --locked brainbrew
+cargo install brainbrew --version '=1.0.0-alpha.4' --locked
 brainbrew --version
 ```
 
-CI uses the same immutable Nix source revision `68a828350de4bda46af85b5167bca807edd7d733`, which supplies `note_types` includes and parameter translation contexts. To run it without installing, prefix a Brain Brew command with `nix run github:jeprecated/brain-brew/68a828350de4bda46af85b5167bca807edd7d733 --`.
+CI installs the same published `1.0.0-alpha.4` release, which supplies `note_types` includes and parameter translation contexts.
 
 List the available targets:
 
@@ -52,7 +50,7 @@ for manifest in brainbrew.yaml brainbrew-hardcore.yaml; do
 done
 ```
 
-The small Python guards protect the two canonical translation-profile copies from drifting and ensure both deck shells keep shared note-type structure in `note-types.yaml`. Alpha.3 does not support a mapping-valued `!include` for the translation profile. HTML/CSS validation is part of Brain Brew itself.
+The small Python guards protect the two canonical translation-profile copies from drifting and ensure both deck shells keep shared note-type structure in `note-types.yaml`. Alpha.4 does not support a mapping-valued `!include` for the translation profile. HTML/CSS validation is part of Brain Brew itself.
 
 Export one target with media:
 
