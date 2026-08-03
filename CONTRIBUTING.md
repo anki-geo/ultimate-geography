@@ -304,7 +304,7 @@ Flag similarities are always **mutual**: if flag A is similar to flag B, then fl
 - **Major differences (M)**
   - same colours in different positions (e.g. two swapped, three cyclically permuted ("rotated"))
   - decorations of different types in same position (e.g. symbol vs. coat of arms)
-  - decorations of same type in different positions (e.g. star(s) above/below band for Curaçao/Nauru)
+  - decorations of same type in different positions (e.g. star(s) above/below band for Curaçao/Naoero)
 - **Minor differences (m)**
   - slightly different colours (e.g. shade of blue, red vs. maroon, darker green)
   - slightly different geometry (e.g. width, number of serrated edges for Qatar/Bahrain, size of canton)
