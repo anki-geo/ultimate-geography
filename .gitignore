@@ -7,3 +7,5 @@ src/note_models/templates/generated/
 Thumbs.db
 ~$*
 .idea
+
+.venv/
