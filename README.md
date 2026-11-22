@@ -35,6 +35,19 @@ The deck is available in **English**, **German**, **Spanish**, **French**, **Nor
 
 The standard version of the deck comes with four note templates: _Country - Capital_, _Capital - Country_, _Flag - Country_, and _Map - Country_. An **extended version** is also available, with two additional note templates: _Country - Flag_ and _Country - Map_. The [experimental version](https://github.com/anki-geo/ultimate-geography/wiki/Experimental-extended-deck) is a clone of extended version except it also provides interactivity for the _Country - Map_ note template.
 
+A note contains the facts for one place; its templates turn those facts into review cards. For example, a note for Sweden can produce these cards:
+
+| Version | Front | Back |
+| --- | --- | --- |
+| Standard and extended | Swedish flag | Sweden |
+| Standard and extended | Map highlighting Sweden | Sweden |
+| Extended only | Sweden | Swedish flag |
+| Extended only | Sweden | Map highlighting Sweden |
+
+The country and capital cards are included in both versions. The extra extended cards reverse the flag and map prompts: the standard version already includes flags and maps, but asks you to identify the country from them. Cards are generated only when the necessary fields are present, so a note without a flag does not have flag cards.
+
+To check which version you have, open Anki's **Browse** window (<kbd>B</kbd>) and search for `"note:Ultimate Geography [Extended]"` for the extended note type or `"note:Ultimate Geography"` for the standard note type. Both searches can return results if you have imported both versions. See [Level up from standard to extended](#level-up-from-standard-to-extended-or-to-experimental) for the steps to switch.
+
 <table>
   <tr><th scope="col" colspan="2">Flag - Country</th></tr>
   <tr><th scope="col">Front</th><th scope="col">Back</th></tr>
@@ -68,6 +81,27 @@ The standard version of the deck comes with four note templates: _Country - Capi
   <tr>
     <td><img src="doc/Capital - Country -- Front -- Finland.png"></td>
     <td><img src="doc/Capital - Country -- Back -- Finland.png"></td>
+  </tr>
+</table>
+
+
+The extended version adds these reverse-direction examples:
+
+<table>
+  <tr><th scope="col" colspan="2">Country - Flag (extended)</th></tr>
+  <tr><th scope="col">Front</th><th scope="col">Back</th></tr>
+  <tr>
+    <td><img src="doc/EX -- Country - Flag -- Front -- Abkhazia.png" alt="Country name on the front of a Country - Flag card"></td>
+    <td><img src="doc/EX -- Country - Flag -- Back -- Abkhazia.png" alt="Country name and flag on the back of a Country - Flag card"></td>
+  </tr>
+</table>
+
+<table>
+  <tr><th scope="col" colspan="2">Country - Map (extended)</th></tr>
+  <tr><th scope="col">Front</th><th scope="col">Back</th></tr>
+  <tr>
+    <td><img src="doc/EX -- Country - Map -- Front -- Guadeloupe.png" alt="Country name on the front of a Country - Map card"></td>
+    <td><img src="doc/EX -- Country - Map -- Back -- Guadeloupe.png" alt="Country name and map on the back of a Country - Map card"></td>
   </tr>
 </table>
 
